@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10xvc3tkqrdyym6ep9lrt5005mrwvw6rml66qv7jxwnzlpqfmw7ksq7n7nm.chart",
+  "type": "factory",
+  "symbol": "CHART",
+  "name": "Chart",
+  "decimals": 6,
+  "display_denom": "CHART",
+  "base_denom": "coin.zig10xvc3tkqrdyym6ep9lrt5005mrwvw6rml66qv7jxwnzlpqfmw7ksq7n7nm.chart",
+  "creator": "zig10xvc3tkqrdyym6ep9lrt5005mrwvw6rml66qv7jxwnzlpqfmw7ksq7n7nm",
+  "subdenom": "chart",
+  "denom_units": [
+    {
+      "denom": "coin.zig10xvc3tkqrdyym6ep9lrt5005mrwvw6rml66qv7jxwnzlpqfmw7ksq7n7nm.chart",
+      "exponent": 0
+    },
+    {
+      "denom": "CHART",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

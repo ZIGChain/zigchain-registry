@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rwzyjaqre3y7acdzgu9lh0pauahmp0lmwnuw9jn36pzakqcssmss54mfp8.chain",
+  "type": "factory",
+  "symbol": "CHAIN",
+  "name": "Chain",
+  "decimals": 6,
+  "display_denom": "CHAIN",
+  "base_denom": "coin.zig1rwzyjaqre3y7acdzgu9lh0pauahmp0lmwnuw9jn36pzakqcssmss54mfp8.chain",
+  "creator": "zig1rwzyjaqre3y7acdzgu9lh0pauahmp0lmwnuw9jn36pzakqcssmss54mfp8",
+  "subdenom": "chain",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rwzyjaqre3y7acdzgu9lh0pauahmp0lmwnuw9jn36pzakqcssmss54mfp8.chain",
+      "exponent": 0
+    },
+    {
+      "denom": "CHAIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

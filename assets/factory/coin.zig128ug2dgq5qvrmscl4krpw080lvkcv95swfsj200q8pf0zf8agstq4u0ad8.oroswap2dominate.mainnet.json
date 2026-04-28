@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig128ug2dgq5qvrmscl4krpw080lvkcv95swfsj200q8pf0zf8agstq4u0ad8.oroswap2dominate",
+  "type": "factory",
+  "symbol": "OROSWAP2DOMINATE",
+  "name": "Oroswap2dominate",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig128ug2dgq5qvrmscl4krpw080lvkcv95swfsj200q8pf0zf8agstq4u0ad8.oroswap2dominate",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig128ug2dgq5qvrmscl4krpw080lvkcv95swfsj200q8pf0zf8agstq4u0ad8.oroswap2dominate",
+  "base_denom": "coin.zig128ug2dgq5qvrmscl4krpw080lvkcv95swfsj200q8pf0zf8agstq4u0ad8.oroswap2dominate",
+  "creator": "zig128ug2dgq5qvrmscl4krpw080lvkcv95swfsj200q8pf0zf8agstq4u0ad8",
+  "subdenom": "oroswap2dominate",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

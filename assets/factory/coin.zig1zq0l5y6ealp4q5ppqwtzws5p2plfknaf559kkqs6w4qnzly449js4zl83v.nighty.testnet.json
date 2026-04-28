@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zq0l5y6ealp4q5ppqwtzws5p2plfknaf559kkqs6w4qnzly449js4zl83v.nighty",
+  "type": "factory",
+  "symbol": "NIGHTY",
+  "name": "Nighty",
+  "decimals": 6,
+  "display_denom": "NIGHTY",
+  "base_denom": "coin.zig1zq0l5y6ealp4q5ppqwtzws5p2plfknaf559kkqs6w4qnzly449js4zl83v.nighty",
+  "creator": "zig1zq0l5y6ealp4q5ppqwtzws5p2plfknaf559kkqs6w4qnzly449js4zl83v",
+  "subdenom": "nighty",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zq0l5y6ealp4q5ppqwtzws5p2plfknaf559kkqs6w4qnzly449js4zl83v.nighty",
+      "exponent": 0
+    },
+    {
+      "denom": "NIGHTY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

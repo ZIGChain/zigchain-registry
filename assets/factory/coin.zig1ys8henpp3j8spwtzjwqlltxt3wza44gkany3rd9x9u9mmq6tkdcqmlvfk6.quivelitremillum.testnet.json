@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ys8henpp3j8spwtzjwqlltxt3wza44gkany3rd9x9u9mmq6tkdcqmlvfk6.quivelitremillum",
+  "type": "factory",
+  "symbol": "QUIVELITREMILLUM",
+  "name": "Quivelitremillum",
+  "decimals": 6,
+  "display_denom": "QUIVELITREMILLUM",
+  "base_denom": "coin.zig1ys8henpp3j8spwtzjwqlltxt3wza44gkany3rd9x9u9mmq6tkdcqmlvfk6.quivelitremillum",
+  "creator": "zig1ys8henpp3j8spwtzjwqlltxt3wza44gkany3rd9x9u9mmq6tkdcqmlvfk6",
+  "subdenom": "quivelitremillum",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ys8henpp3j8spwtzjwqlltxt3wza44gkany3rd9x9u9mmq6tkdcqmlvfk6.quivelitremillum",
+      "exponent": 0
+    },
+    {
+      "denom": "QUIVELITREMILLUM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15ztppgc8859ramweldxdmcf7fa5y6kzs5lewfd.uryan",
+  "type": "factory",
+  "symbol": "URYAN",
+  "name": "Uryan",
+  "decimals": 6,
+  "display_denom": "URYAN",
+  "base_denom": "coin.zig15ztppgc8859ramweldxdmcf7fa5y6kzs5lewfd.uryan",
+  "creator": "zig15ztppgc8859ramweldxdmcf7fa5y6kzs5lewfd",
+  "subdenom": "uryan",
+  "denom_units": [
+    {
+      "denom": "coin.zig15ztppgc8859ramweldxdmcf7fa5y6kzs5lewfd.uryan",
+      "exponent": 0
+    },
+    {
+      "denom": "URYAN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n.funny",
+  "type": "factory",
+  "symbol": "FUNNY",
+  "name": "Funny",
+  "decimals": 6,
+  "display_denom": "FUNNY",
+  "base_denom": "coin.zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n.funny",
+  "creator": "zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n",
+  "subdenom": "funny",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n.funny",
+      "exponent": 0
+    },
+    {
+      "denom": "FUNNY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1335s6u4gapg0u600s60dccjzra5jrvjwccpg2d7577zlsg36dyzqfaxqgh.asperioreslaborisd",
+  "type": "factory",
+  "symbol": "ASPERIORESLABORISD",
+  "name": "Asperioreslaborisd",
+  "decimals": 6,
+  "display_denom": "ASPERIORESLABORISD",
+  "base_denom": "coin.zig1335s6u4gapg0u600s60dccjzra5jrvjwccpg2d7577zlsg36dyzqfaxqgh.asperioreslaborisd",
+  "creator": "zig1335s6u4gapg0u600s60dccjzra5jrvjwccpg2d7577zlsg36dyzqfaxqgh",
+  "subdenom": "asperioreslaborisd",
+  "denom_units": [
+    {
+      "denom": "coin.zig1335s6u4gapg0u600s60dccjzra5jrvjwccpg2d7577zlsg36dyzqfaxqgh.asperioreslaborisd",
+      "exponent": 0
+    },
+    {
+      "denom": "ASPERIORESLABORISD",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

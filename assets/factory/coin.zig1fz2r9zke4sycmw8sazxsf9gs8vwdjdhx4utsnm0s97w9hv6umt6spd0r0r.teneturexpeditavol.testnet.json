@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1fz2r9zke4sycmw8sazxsf9gs8vwdjdhx4utsnm0s97w9hv6umt6spd0r0r.teneturexpeditavol",
+  "type": "factory",
+  "symbol": "TENETUREXPEDITAVOL",
+  "name": "Teneturexpeditavol",
+  "decimals": 6,
+  "display_denom": "TENETUREXPEDITAVOL",
+  "base_denom": "coin.zig1fz2r9zke4sycmw8sazxsf9gs8vwdjdhx4utsnm0s97w9hv6umt6spd0r0r.teneturexpeditavol",
+  "creator": "zig1fz2r9zke4sycmw8sazxsf9gs8vwdjdhx4utsnm0s97w9hv6umt6spd0r0r",
+  "subdenom": "teneturexpeditavol",
+  "denom_units": [
+    {
+      "denom": "coin.zig1fz2r9zke4sycmw8sazxsf9gs8vwdjdhx4utsnm0s97w9hv6umt6spd0r0r.teneturexpeditavol",
+      "exponent": 0
+    },
+    {
+      "denom": "TENETUREXPEDITAVOL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

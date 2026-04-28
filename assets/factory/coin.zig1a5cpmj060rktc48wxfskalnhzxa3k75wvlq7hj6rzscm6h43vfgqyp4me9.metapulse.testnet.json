@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1a5cpmj060rktc48wxfskalnhzxa3k75wvlq7hj6rzscm6h43vfgqyp4me9.metapulse",
+  "type": "factory",
+  "symbol": "METAPULSE",
+  "name": "Metapulse",
+  "decimals": 6,
+  "display_denom": "METAPULSE",
+  "base_denom": "coin.zig1a5cpmj060rktc48wxfskalnhzxa3k75wvlq7hj6rzscm6h43vfgqyp4me9.metapulse",
+  "creator": "zig1a5cpmj060rktc48wxfskalnhzxa3k75wvlq7hj6rzscm6h43vfgqyp4me9",
+  "subdenom": "metapulse",
+  "denom_units": [
+    {
+      "denom": "coin.zig1a5cpmj060rktc48wxfskalnhzxa3k75wvlq7hj6rzscm6h43vfgqyp4me9.metapulse",
+      "exponent": 0
+    },
+    {
+      "denom": "METAPULSE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

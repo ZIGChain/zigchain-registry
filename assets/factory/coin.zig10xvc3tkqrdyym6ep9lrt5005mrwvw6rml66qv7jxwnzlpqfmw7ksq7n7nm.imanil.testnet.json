@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10xvc3tkqrdyym6ep9lrt5005mrwvw6rml66qv7jxwnzlpqfmw7ksq7n7nm.imanil",
+  "type": "factory",
+  "symbol": "IMANIL",
+  "name": "Imanil",
+  "decimals": 6,
+  "display_denom": "IMANIL",
+  "base_denom": "coin.zig10xvc3tkqrdyym6ep9lrt5005mrwvw6rml66qv7jxwnzlpqfmw7ksq7n7nm.imanil",
+  "creator": "zig10xvc3tkqrdyym6ep9lrt5005mrwvw6rml66qv7jxwnzlpqfmw7ksq7n7nm",
+  "subdenom": "imanil",
+  "denom_units": [
+    {
+      "denom": "coin.zig10xvc3tkqrdyym6ep9lrt5005mrwvw6rml66qv7jxwnzlpqfmw7ksq7n7nm.imanil",
+      "exponent": 0
+    },
+    {
+      "denom": "IMANIL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

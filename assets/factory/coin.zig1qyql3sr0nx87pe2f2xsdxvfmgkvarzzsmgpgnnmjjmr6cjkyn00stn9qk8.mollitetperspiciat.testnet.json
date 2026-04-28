@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qyql3sr0nx87pe2f2xsdxvfmgkvarzzsmgpgnnmjjmr6cjkyn00stn9qk8.mollitetperspiciat",
+  "type": "factory",
+  "symbol": "MOLLITETPERSPICIAT",
+  "name": "Mollitetperspiciat",
+  "decimals": 6,
+  "display_denom": "MOLLITETPERSPICIAT",
+  "base_denom": "coin.zig1qyql3sr0nx87pe2f2xsdxvfmgkvarzzsmgpgnnmjjmr6cjkyn00stn9qk8.mollitetperspiciat",
+  "creator": "zig1qyql3sr0nx87pe2f2xsdxvfmgkvarzzsmgpgnnmjjmr6cjkyn00stn9qk8",
+  "subdenom": "mollitetperspiciat",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qyql3sr0nx87pe2f2xsdxvfmgkvarzzsmgpgnnmjjmr6cjkyn00stn9qk8.mollitetperspiciat",
+      "exponent": 0
+    },
+    {
+      "denom": "MOLLITETPERSPICIAT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

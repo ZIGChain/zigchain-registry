@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig16gyrnq5tja6urj62gu8gej2r9nkp797y9h9jygeepvxxmdv8cruqja0phl.magnisednamfugiat",
+  "type": "factory",
+  "symbol": "MAGNISEDNAMFUGIAT",
+  "name": "Magnisednamfugiat",
+  "decimals": 6,
+  "display_denom": "MAGNISEDNAMFUGIAT",
+  "base_denom": "coin.zig16gyrnq5tja6urj62gu8gej2r9nkp797y9h9jygeepvxxmdv8cruqja0phl.magnisednamfugiat",
+  "creator": "zig16gyrnq5tja6urj62gu8gej2r9nkp797y9h9jygeepvxxmdv8cruqja0phl",
+  "subdenom": "magnisednamfugiat",
+  "denom_units": [
+    {
+      "denom": "coin.zig16gyrnq5tja6urj62gu8gej2r9nkp797y9h9jygeepvxxmdv8cruqja0phl.magnisednamfugiat",
+      "exponent": 0
+    },
+    {
+      "denom": "MAGNISEDNAMFUGIAT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

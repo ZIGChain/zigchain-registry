@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rl9wxfsuj5fx0tcuvxpcyn3qrw4cc8ahy3jxgp.ufomofeast",
+  "type": "factory",
+  "symbol": "UFOMOFEAST",
+  "name": "Ufomofeast",
+  "decimals": 6,
+  "display_denom": "UFOMOFEAST",
+  "base_denom": "coin.zig1rl9wxfsuj5fx0tcuvxpcyn3qrw4cc8ahy3jxgp.ufomofeast",
+  "creator": "zig1rl9wxfsuj5fx0tcuvxpcyn3qrw4cc8ahy3jxgp",
+  "subdenom": "ufomofeast",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rl9wxfsuj5fx0tcuvxpcyn3qrw4cc8ahy3jxgp.ufomofeast",
+      "exponent": 0
+    },
+    {
+      "denom": "UFOMOFEAST",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

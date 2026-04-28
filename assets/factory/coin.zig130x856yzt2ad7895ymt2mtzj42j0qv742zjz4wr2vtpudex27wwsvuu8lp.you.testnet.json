@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig130x856yzt2ad7895ymt2mtzj42j0qv742zjz4wr2vtpudex27wwsvuu8lp.you",
+  "type": "factory",
+  "symbol": "YOU",
+  "name": "You",
+  "decimals": 6,
+  "display_denom": "YOU",
+  "base_denom": "coin.zig130x856yzt2ad7895ymt2mtzj42j0qv742zjz4wr2vtpudex27wwsvuu8lp.you",
+  "creator": "zig130x856yzt2ad7895ymt2mtzj42j0qv742zjz4wr2vtpudex27wwsvuu8lp",
+  "subdenom": "you",
+  "denom_units": [
+    {
+      "denom": "coin.zig130x856yzt2ad7895ymt2mtzj42j0qv742zjz4wr2vtpudex27wwsvuu8lp.you",
+      "exponent": 0
+    },
+    {
+      "denom": "YOU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qw9lnycyyyeyk98lcqcsljpvletzdf282qnetjwl0ljad7u3svaqywqv88.ding",
+  "type": "factory",
+  "symbol": "DING",
+  "name": "Ding",
+  "decimals": 6,
+  "display_denom": "DING",
+  "base_denom": "coin.zig1qw9lnycyyyeyk98lcqcsljpvletzdf282qnetjwl0ljad7u3svaqywqv88.ding",
+  "creator": "zig1qw9lnycyyyeyk98lcqcsljpvletzdf282qnetjwl0ljad7u3svaqywqv88",
+  "subdenom": "ding",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qw9lnycyyyeyk98lcqcsljpvletzdf282qnetjwl0ljad7u3svaqywqv88.ding",
+      "exponent": 0
+    },
+    {
+      "denom": "DING",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

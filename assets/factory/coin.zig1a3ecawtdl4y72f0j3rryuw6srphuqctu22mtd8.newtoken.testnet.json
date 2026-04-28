@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1a3ecawtdl4y72f0j3rryuw6srphuqctu22mtd8.newtoken",
+  "type": "factory",
+  "symbol": "NEWTOKEN",
+  "name": "Newtoken",
+  "decimals": 6,
+  "display_denom": "NEWTOKEN",
+  "base_denom": "coin.zig1a3ecawtdl4y72f0j3rryuw6srphuqctu22mtd8.newtoken",
+  "creator": "zig1a3ecawtdl4y72f0j3rryuw6srphuqctu22mtd8",
+  "subdenom": "newtoken",
+  "denom_units": [
+    {
+      "denom": "coin.zig1a3ecawtdl4y72f0j3rryuw6srphuqctu22mtd8.newtoken",
+      "exponent": 0
+    },
+    {
+      "denom": "NEWTOKEN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

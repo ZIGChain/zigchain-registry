@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n.different",
+  "type": "factory",
+  "symbol": "DIFFERENT",
+  "name": "Different",
+  "decimals": 6,
+  "display_denom": "DIFFERENT",
+  "base_denom": "coin.zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n.different",
+  "creator": "zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n",
+  "subdenom": "different",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n.different",
+      "exponent": 0
+    },
+    {
+      "denom": "DIFFERENT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

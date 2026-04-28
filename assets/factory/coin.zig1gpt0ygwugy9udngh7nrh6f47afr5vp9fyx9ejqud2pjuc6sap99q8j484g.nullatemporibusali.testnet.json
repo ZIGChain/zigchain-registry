@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1gpt0ygwugy9udngh7nrh6f47afr5vp9fyx9ejqud2pjuc6sap99q8j484g.nullatemporibusali",
+  "type": "factory",
+  "symbol": "NULLATEMPORIBUSALI",
+  "name": "Nullatemporibusali",
+  "decimals": 6,
+  "display_denom": "NULLATEMPORIBUSALI",
+  "base_denom": "coin.zig1gpt0ygwugy9udngh7nrh6f47afr5vp9fyx9ejqud2pjuc6sap99q8j484g.nullatemporibusali",
+  "creator": "zig1gpt0ygwugy9udngh7nrh6f47afr5vp9fyx9ejqud2pjuc6sap99q8j484g",
+  "subdenom": "nullatemporibusali",
+  "denom_units": [
+    {
+      "denom": "coin.zig1gpt0ygwugy9udngh7nrh6f47afr5vp9fyx9ejqud2pjuc6sap99q8j484g.nullatemporibusali",
+      "exponent": 0
+    },
+    {
+      "denom": "NULLATEMPORIBUSALI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15ty7ycs2pfz2ez75mr57vra5h8appz6en8vuj68m6em4dgdjxs3svyy8dv.farronferret",
+  "type": "factory",
+  "symbol": "FARRONFERRET",
+  "name": "Farronferret",
+  "decimals": 6,
+  "display_denom": "FARRONFERRET",
+  "base_denom": "coin.zig15ty7ycs2pfz2ez75mr57vra5h8appz6en8vuj68m6em4dgdjxs3svyy8dv.farronferret",
+  "creator": "zig15ty7ycs2pfz2ez75mr57vra5h8appz6en8vuj68m6em4dgdjxs3svyy8dv",
+  "subdenom": "farronferret",
+  "denom_units": [
+    {
+      "denom": "coin.zig15ty7ycs2pfz2ez75mr57vra5h8appz6en8vuj68m6em4dgdjxs3svyy8dv.farronferret",
+      "exponent": 0
+    },
+    {
+      "denom": "FARRONFERRET",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

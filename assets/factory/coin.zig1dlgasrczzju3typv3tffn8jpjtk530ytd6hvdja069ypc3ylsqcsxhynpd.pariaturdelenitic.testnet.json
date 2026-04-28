@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1dlgasrczzju3typv3tffn8jpjtk530ytd6hvdja069ypc3ylsqcsxhynpd.pariaturdelenitic",
+  "type": "factory",
+  "symbol": "PARIATURDELENITIC",
+  "name": "Pariaturdelenitic",
+  "decimals": 6,
+  "display_denom": "PARIATURDELENITIC",
+  "base_denom": "coin.zig1dlgasrczzju3typv3tffn8jpjtk530ytd6hvdja069ypc3ylsqcsxhynpd.pariaturdelenitic",
+  "creator": "zig1dlgasrczzju3typv3tffn8jpjtk530ytd6hvdja069ypc3ylsqcsxhynpd",
+  "subdenom": "pariaturdelenitic",
+  "denom_units": [
+    {
+      "denom": "coin.zig1dlgasrczzju3typv3tffn8jpjtk530ytd6hvdja069ypc3ylsqcsxhynpd.pariaturdelenitic",
+      "exponent": 0
+    },
+    {
+      "denom": "PARIATURDELENITIC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1ycjh2fsj6wewnf9vpvdph9dg48w2y5vqsw2r9l6umm4urf3x0svq08x8k5.stroop",
+  "type": "factory",
+  "symbol": "STROOP",
+  "name": "Stroop",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1ycjh2fsj6wewnf9vpvdph9dg48w2y5vqsw2r9l6umm4urf3x0svq08x8k5.stroop",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1ycjh2fsj6wewnf9vpvdph9dg48w2y5vqsw2r9l6umm4urf3x0svq08x8k5.stroop",
+  "base_denom": "coin.zig1ycjh2fsj6wewnf9vpvdph9dg48w2y5vqsw2r9l6umm4urf3x0svq08x8k5.stroop",
+  "creator": "zig1ycjh2fsj6wewnf9vpvdph9dg48w2y5vqsw2r9l6umm4urf3x0svq08x8k5",
+  "subdenom": "stroop",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

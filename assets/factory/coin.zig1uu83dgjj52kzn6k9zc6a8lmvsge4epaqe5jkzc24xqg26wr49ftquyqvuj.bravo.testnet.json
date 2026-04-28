@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1uu83dgjj52kzn6k9zc6a8lmvsge4epaqe5jkzc24xqg26wr49ftquyqvuj.bravo",
+  "type": "factory",
+  "symbol": "BRAVO",
+  "name": "Bravo",
+  "decimals": 6,
+  "display_denom": "BRAVO",
+  "base_denom": "coin.zig1uu83dgjj52kzn6k9zc6a8lmvsge4epaqe5jkzc24xqg26wr49ftquyqvuj.bravo",
+  "creator": "zig1uu83dgjj52kzn6k9zc6a8lmvsge4epaqe5jkzc24xqg26wr49ftquyqvuj",
+  "subdenom": "bravo",
+  "denom_units": [
+    {
+      "denom": "coin.zig1uu83dgjj52kzn6k9zc6a8lmvsge4epaqe5jkzc24xqg26wr49ftquyqvuj.bravo",
+      "exponent": 0
+    },
+    {
+      "denom": "BRAVO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

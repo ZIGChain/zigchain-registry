@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n.base",
+  "type": "factory",
+  "symbol": "BASE",
+  "name": "Base",
+  "decimals": 6,
+  "display_denom": "BASE",
+  "base_denom": "coin.zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n.base",
+  "creator": "zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n",
+  "subdenom": "base",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n.base",
+      "exponent": 0
+    },
+    {
+      "denom": "BASE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

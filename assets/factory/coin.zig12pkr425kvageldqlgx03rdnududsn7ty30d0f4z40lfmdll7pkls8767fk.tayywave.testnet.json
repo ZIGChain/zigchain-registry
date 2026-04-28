@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig12pkr425kvageldqlgx03rdnududsn7ty30d0f4z40lfmdll7pkls8767fk.tayywave",
+  "type": "factory",
+  "symbol": "TAYYWAVE",
+  "name": "Tayywave",
+  "decimals": 6,
+  "display_denom": "TAYYWAVE",
+  "base_denom": "coin.zig12pkr425kvageldqlgx03rdnududsn7ty30d0f4z40lfmdll7pkls8767fk.tayywave",
+  "creator": "zig12pkr425kvageldqlgx03rdnududsn7ty30d0f4z40lfmdll7pkls8767fk",
+  "subdenom": "tayywave",
+  "denom_units": [
+    {
+      "denom": "coin.zig12pkr425kvageldqlgx03rdnududsn7ty30d0f4z40lfmdll7pkls8767fk.tayywave",
+      "exponent": 0
+    },
+    {
+      "denom": "TAYYWAVE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

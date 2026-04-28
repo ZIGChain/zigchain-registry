@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n.rollie",
+  "type": "factory",
+  "symbol": "ROLLIE",
+  "name": "Rollie",
+  "decimals": 6,
+  "display_denom": "ROLLIE",
+  "base_denom": "coin.zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n.rollie",
+  "creator": "zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n",
+  "subdenom": "rollie",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n.rollie",
+      "exponent": 0
+    },
+    {
+      "denom": "ROLLIE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

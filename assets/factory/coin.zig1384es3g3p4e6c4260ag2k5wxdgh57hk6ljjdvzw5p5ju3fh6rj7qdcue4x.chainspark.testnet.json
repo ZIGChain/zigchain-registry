@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1384es3g3p4e6c4260ag2k5wxdgh57hk6ljjdvzw5p5ju3fh6rj7qdcue4x.chainspark",
+  "type": "factory",
+  "symbol": "CHAINSPARK",
+  "name": "Chainspark",
+  "decimals": 6,
+  "display_denom": "CHAINSPARK",
+  "base_denom": "coin.zig1384es3g3p4e6c4260ag2k5wxdgh57hk6ljjdvzw5p5ju3fh6rj7qdcue4x.chainspark",
+  "creator": "zig1384es3g3p4e6c4260ag2k5wxdgh57hk6ljjdvzw5p5ju3fh6rj7qdcue4x",
+  "subdenom": "chainspark",
+  "denom_units": [
+    {
+      "denom": "coin.zig1384es3g3p4e6c4260ag2k5wxdgh57hk6ljjdvzw5p5ju3fh6rj7qdcue4x.chainspark",
+      "exponent": 0
+    },
+    {
+      "denom": "CHAINSPARK",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

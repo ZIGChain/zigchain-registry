@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig155zmk05dr0ta7d5m3xuxw9fmh3uq8npzsmy9vnh6z85gsv6ngd4shfft6l.temporeautconsequ",
+  "type": "factory",
+  "symbol": "TEMPOREAUTCONSEQU",
+  "name": "Temporeautconsequ",
+  "decimals": 6,
+  "display_denom": "TEMPOREAUTCONSEQU",
+  "base_denom": "coin.zig155zmk05dr0ta7d5m3xuxw9fmh3uq8npzsmy9vnh6z85gsv6ngd4shfft6l.temporeautconsequ",
+  "creator": "zig155zmk05dr0ta7d5m3xuxw9fmh3uq8npzsmy9vnh6z85gsv6ngd4shfft6l",
+  "subdenom": "temporeautconsequ",
+  "denom_units": [
+    {
+      "denom": "coin.zig155zmk05dr0ta7d5m3xuxw9fmh3uq8npzsmy9vnh6z85gsv6ngd4shfft6l.temporeautconsequ",
+      "exponent": 0
+    },
+    {
+      "denom": "TEMPOREAUTCONSEQU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

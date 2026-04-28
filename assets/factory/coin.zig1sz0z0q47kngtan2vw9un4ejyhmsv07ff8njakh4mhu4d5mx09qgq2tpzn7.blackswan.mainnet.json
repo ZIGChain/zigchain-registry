@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1sz0z0q47kngtan2vw9un4ejyhmsv07ff8njakh4mhu4d5mx09qgq2tpzn7.blackswan",
+  "type": "factory",
+  "symbol": "BLACKSWAN",
+  "name": "Blackswan",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1sz0z0q47kngtan2vw9un4ejyhmsv07ff8njakh4mhu4d5mx09qgq2tpzn7.blackswan",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1sz0z0q47kngtan2vw9un4ejyhmsv07ff8njakh4mhu4d5mx09qgq2tpzn7.blackswan",
+  "base_denom": "coin.zig1sz0z0q47kngtan2vw9un4ejyhmsv07ff8njakh4mhu4d5mx09qgq2tpzn7.blackswan",
+  "creator": "zig1sz0z0q47kngtan2vw9un4ejyhmsv07ff8njakh4mhu4d5mx09qgq2tpzn7",
+  "subdenom": "blackswan",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

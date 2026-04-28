@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1wj5zcjk98jnqk0pwgfw4qszg3fd2k6st8lnt9xwszq52hrvvgaqsup9mau.eossequisitfacil",
+  "type": "factory",
+  "symbol": "EOSSEQUISITFACIL",
+  "name": "Eossequisitfacil",
+  "decimals": 6,
+  "display_denom": "EOSSEQUISITFACIL",
+  "base_denom": "coin.zig1wj5zcjk98jnqk0pwgfw4qszg3fd2k6st8lnt9xwszq52hrvvgaqsup9mau.eossequisitfacil",
+  "creator": "zig1wj5zcjk98jnqk0pwgfw4qszg3fd2k6st8lnt9xwszq52hrvvgaqsup9mau",
+  "subdenom": "eossequisitfacil",
+  "denom_units": [
+    {
+      "denom": "coin.zig1wj5zcjk98jnqk0pwgfw4qszg3fd2k6st8lnt9xwszq52hrvvgaqsup9mau.eossequisitfacil",
+      "exponent": 0
+    },
+    {
+      "denom": "EOSSEQUISITFACIL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig19sq9kctlr5h9cfvghkzwespjf9ts00rz8fjvyhahty4g7dv8exuqdx0760.dexter",
+  "type": "factory",
+  "symbol": "DEXTER",
+  "name": "Dexter",
+  "decimals": 6,
+  "display_denom": "DEXTER",
+  "base_denom": "coin.zig19sq9kctlr5h9cfvghkzwespjf9ts00rz8fjvyhahty4g7dv8exuqdx0760.dexter",
+  "creator": "zig19sq9kctlr5h9cfvghkzwespjf9ts00rz8fjvyhahty4g7dv8exuqdx0760",
+  "subdenom": "dexter",
+  "denom_units": [
+    {
+      "denom": "coin.zig19sq9kctlr5h9cfvghkzwespjf9ts00rz8fjvyhahty4g7dv8exuqdx0760.dexter",
+      "exponent": 0
+    },
+    {
+      "denom": "DEXTER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

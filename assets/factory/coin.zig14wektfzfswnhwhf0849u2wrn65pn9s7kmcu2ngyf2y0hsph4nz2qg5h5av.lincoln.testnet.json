@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14wektfzfswnhwhf0849u2wrn65pn9s7kmcu2ngyf2y0hsph4nz2qg5h5av.lincoln",
+  "type": "factory",
+  "symbol": "LINCOLN",
+  "name": "Lincoln",
+  "decimals": 6,
+  "display_denom": "LINCOLN",
+  "base_denom": "coin.zig14wektfzfswnhwhf0849u2wrn65pn9s7kmcu2ngyf2y0hsph4nz2qg5h5av.lincoln",
+  "creator": "zig14wektfzfswnhwhf0849u2wrn65pn9s7kmcu2ngyf2y0hsph4nz2qg5h5av",
+  "subdenom": "lincoln",
+  "denom_units": [
+    {
+      "denom": "coin.zig14wektfzfswnhwhf0849u2wrn65pn9s7kmcu2ngyf2y0hsph4nz2qg5h5av.lincoln",
+      "exponent": 0
+    },
+    {
+      "denom": "LINCOLN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

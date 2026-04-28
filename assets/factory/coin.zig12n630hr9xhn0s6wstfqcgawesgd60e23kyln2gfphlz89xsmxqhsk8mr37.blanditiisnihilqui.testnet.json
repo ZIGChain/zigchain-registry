@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig12n630hr9xhn0s6wstfqcgawesgd60e23kyln2gfphlz89xsmxqhsk8mr37.blanditiisnihilqui",
+  "type": "factory",
+  "symbol": "BLANDITIISNIHILQUI",
+  "name": "Blanditiisnihilqui",
+  "decimals": 6,
+  "display_denom": "BLANDITIISNIHILQUI",
+  "base_denom": "coin.zig12n630hr9xhn0s6wstfqcgawesgd60e23kyln2gfphlz89xsmxqhsk8mr37.blanditiisnihilqui",
+  "creator": "zig12n630hr9xhn0s6wstfqcgawesgd60e23kyln2gfphlz89xsmxqhsk8mr37",
+  "subdenom": "blanditiisnihilqui",
+  "denom_units": [
+    {
+      "denom": "coin.zig12n630hr9xhn0s6wstfqcgawesgd60e23kyln2gfphlz89xsmxqhsk8mr37.blanditiisnihilqui",
+      "exponent": 0
+    },
+    {
+      "denom": "BLANDITIISNIHILQUI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

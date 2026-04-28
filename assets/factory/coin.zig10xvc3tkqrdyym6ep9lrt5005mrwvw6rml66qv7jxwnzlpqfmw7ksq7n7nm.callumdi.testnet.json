@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10xvc3tkqrdyym6ep9lrt5005mrwvw6rml66qv7jxwnzlpqfmw7ksq7n7nm.callumdi",
+  "type": "factory",
+  "symbol": "CALLUMDI",
+  "name": "Callumdi",
+  "decimals": 6,
+  "display_denom": "CALLUMDI",
+  "base_denom": "coin.zig10xvc3tkqrdyym6ep9lrt5005mrwvw6rml66qv7jxwnzlpqfmw7ksq7n7nm.callumdi",
+  "creator": "zig10xvc3tkqrdyym6ep9lrt5005mrwvw6rml66qv7jxwnzlpqfmw7ksq7n7nm",
+  "subdenom": "callumdi",
+  "denom_units": [
+    {
+      "denom": "coin.zig10xvc3tkqrdyym6ep9lrt5005mrwvw6rml66qv7jxwnzlpqfmw7ksq7n7nm.callumdi",
+      "exponent": 0
+    },
+    {
+      "denom": "CALLUMDI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

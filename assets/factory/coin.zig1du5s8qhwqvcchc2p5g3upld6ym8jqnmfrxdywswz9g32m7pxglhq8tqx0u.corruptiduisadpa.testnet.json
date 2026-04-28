@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1du5s8qhwqvcchc2p5g3upld6ym8jqnmfrxdywswz9g32m7pxglhq8tqx0u.corruptiduisadpa",
+  "type": "factory",
+  "symbol": "CORRUPTIDUISADPA",
+  "name": "Corruptiduisadpa",
+  "decimals": 6,
+  "display_denom": "CORRUPTIDUISADPA",
+  "base_denom": "coin.zig1du5s8qhwqvcchc2p5g3upld6ym8jqnmfrxdywswz9g32m7pxglhq8tqx0u.corruptiduisadpa",
+  "creator": "zig1du5s8qhwqvcchc2p5g3upld6ym8jqnmfrxdywswz9g32m7pxglhq8tqx0u",
+  "subdenom": "corruptiduisadpa",
+  "denom_units": [
+    {
+      "denom": "coin.zig1du5s8qhwqvcchc2p5g3upld6ym8jqnmfrxdywswz9g32m7pxglhq8tqx0u.corruptiduisadpa",
+      "exponent": 0
+    },
+    {
+      "denom": "CORRUPTIDUISADPA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

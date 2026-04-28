@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1vcase99hyyevsvq2rtckkrm8m8xvt7ahudrnm2rddf5tcemn28tskxfv6m.charming",
+  "type": "factory",
+  "symbol": "CHARMING",
+  "name": "Charming",
+  "decimals": 6,
+  "display_denom": "CHARMING",
+  "base_denom": "coin.zig1vcase99hyyevsvq2rtckkrm8m8xvt7ahudrnm2rddf5tcemn28tskxfv6m.charming",
+  "creator": "zig1vcase99hyyevsvq2rtckkrm8m8xvt7ahudrnm2rddf5tcemn28tskxfv6m",
+  "subdenom": "charming",
+  "denom_units": [
+    {
+      "denom": "coin.zig1vcase99hyyevsvq2rtckkrm8m8xvt7ahudrnm2rddf5tcemn28tskxfv6m.charming",
+      "exponent": 0
+    },
+    {
+      "denom": "CHARMING",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

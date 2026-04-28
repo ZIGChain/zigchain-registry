@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ny8qz9wmckrt7a20knfaf69zl8jyj48lhy3udmxsjms8434mj8eqtsvqm4.victor",
+  "type": "factory",
+  "symbol": "VICTOR",
+  "name": "Victor",
+  "decimals": 6,
+  "display_denom": "VICTOR",
+  "base_denom": "coin.zig1ny8qz9wmckrt7a20knfaf69zl8jyj48lhy3udmxsjms8434mj8eqtsvqm4.victor",
+  "creator": "zig1ny8qz9wmckrt7a20knfaf69zl8jyj48lhy3udmxsjms8434mj8eqtsvqm4",
+  "subdenom": "victor",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ny8qz9wmckrt7a20knfaf69zl8jyj48lhy3udmxsjms8434mj8eqtsvqm4.victor",
+      "exponent": 0
+    },
+    {
+      "denom": "VICTOR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

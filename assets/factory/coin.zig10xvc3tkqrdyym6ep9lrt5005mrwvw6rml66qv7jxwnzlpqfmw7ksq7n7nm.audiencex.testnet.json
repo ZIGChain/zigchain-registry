@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10xvc3tkqrdyym6ep9lrt5005mrwvw6rml66qv7jxwnzlpqfmw7ksq7n7nm.audiencex",
+  "type": "factory",
+  "symbol": "AUDIENCEX",
+  "name": "Audiencex",
+  "decimals": 6,
+  "display_denom": "AUDIENCEX",
+  "base_denom": "coin.zig10xvc3tkqrdyym6ep9lrt5005mrwvw6rml66qv7jxwnzlpqfmw7ksq7n7nm.audiencex",
+  "creator": "zig10xvc3tkqrdyym6ep9lrt5005mrwvw6rml66qv7jxwnzlpqfmw7ksq7n7nm",
+  "subdenom": "audiencex",
+  "denom_units": [
+    {
+      "denom": "coin.zig10xvc3tkqrdyym6ep9lrt5005mrwvw6rml66qv7jxwnzlpqfmw7ksq7n7nm.audiencex",
+      "exponent": 0
+    },
+    {
+      "denom": "AUDIENCEX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

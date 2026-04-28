@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1gs92kytt8ty3s48czfu2x3scjxjt3cu8av9g9prr2zq357dgajmse5ylgl.giz",
+  "type": "factory",
+  "symbol": "GIZ",
+  "name": "Giz",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1gs92kytt8ty3s48czfu2x3scjxjt3cu8av9g9prr2zq357dgajmse5ylgl.giz",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1gs92kytt8ty3s48czfu2x3scjxjt3cu8av9g9prr2zq357dgajmse5ylgl.giz",
+  "base_denom": "coin.zig1gs92kytt8ty3s48czfu2x3scjxjt3cu8av9g9prr2zq357dgajmse5ylgl.giz",
+  "creator": "zig1gs92kytt8ty3s48czfu2x3scjxjt3cu8av9g9prr2zq357dgajmse5ylgl",
+  "subdenom": "giz",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

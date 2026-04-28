@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/asset.ibc.schema.json",
+  "order": 10,
+  "network": "mainnet",
+  "asset_id": "ibc/729AE368985B0F7B35648D17BA74A3D0A1C833FBAE8C3B49D75C6A2B578B9930",
+  "type": "ibc",
+  "symbol": "stATOM",
+  "name": "Stride Staked ATOM",
+  "description": "Stride Staked ATOM on ZIGChain",
+  "decimals": 6,
+  "display_denom": "statom",
+  "base_denom": "ibc/729AE368985B0F7B35648D17BA74A3D0A1C833FBAE8C3B49D75C6A2B578B9930",
+  "hash": "729AE368985B0F7B35648D17BA74A3D0A1C833FBAE8C3B49D75C6A2B578B9930",
+  "origin_chain": "stride",
+  "origin_denom": "stuatom",
+  "traces": [
+    {
+      "type": "ibc",
+      "chain_name": "zigchain",
+      "base_denom": "ibc/729AE368985B0F7B35648D17BA74A3D0A1C833FBAE8C3B49D75C6A2B578B9930",
+      "path": "transfer/channel-4/transfer/channel-391/stuatom"
+    },
+    {
+      "type": "ibc",
+      "chain_name": "cosmoshub",
+      "base_denom": "ibc/B05539B66B72E2739B986B86391E5D08F12B8D5D2C2A7F8F8CF9ADF674DFA231",
+      "path": "transfer/channel-1555"
+    },
+    {
+      "type": "ibc",
+      "chain_name": "stride",
+      "base_denom": "stuatom",
+      "path": "transfer/channel-391"
+    }
+  ],
+  "channels": [
+    {
+      "zigchain_channel": "channel-4",
+      "counterparty_chain": "cosmoshub",
+      "counterparty_channel": "channel-1555"
+    }
+  ],
+  "logo_uris": {
+    "chain_name": "stride",
+    "png": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/statom.png",
+    "svg": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/statom.svg"
+  },
+  "images": [
+    {
+      "chain_name": "stride",
+      "base_denom": "stuatom"
+    }
+  ],
+  "coingecko_id": "stride-staked-atom",
+  "is_verified": true
+}

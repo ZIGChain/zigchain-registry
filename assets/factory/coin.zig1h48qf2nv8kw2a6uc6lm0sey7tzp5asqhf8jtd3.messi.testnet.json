@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1h48qf2nv8kw2a6uc6lm0sey7tzp5asqhf8jtd3.messi",
+  "type": "factory",
+  "symbol": "MESSI",
+  "name": "Messi",
+  "decimals": 6,
+  "display_denom": "MESSI",
+  "base_denom": "coin.zig1h48qf2nv8kw2a6uc6lm0sey7tzp5asqhf8jtd3.messi",
+  "creator": "zig1h48qf2nv8kw2a6uc6lm0sey7tzp5asqhf8jtd3",
+  "subdenom": "messi",
+  "denom_units": [
+    {
+      "denom": "coin.zig1h48qf2nv8kw2a6uc6lm0sey7tzp5asqhf8jtd3.messi",
+      "exponent": 0
+    },
+    {
+      "denom": "MESSI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hjwtaeqy3u0mnu8gs57rq0cer6xlwkghr2agmxmydzqsahuapdfq8and36.moon",
+  "type": "factory",
+  "symbol": "MOON",
+  "name": "Moon",
+  "decimals": 6,
+  "display_denom": "MOON",
+  "base_denom": "coin.zig1hjwtaeqy3u0mnu8gs57rq0cer6xlwkghr2agmxmydzqsahuapdfq8and36.moon",
+  "creator": "zig1hjwtaeqy3u0mnu8gs57rq0cer6xlwkghr2agmxmydzqsahuapdfq8and36",
+  "subdenom": "moon",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hjwtaeqy3u0mnu8gs57rq0cer6xlwkghr2agmxmydzqsahuapdfq8and36.moon",
+      "exponent": 0
+    },
+    {
+      "denom": "MOON",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

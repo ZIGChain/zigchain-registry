@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1kn762ara4dn05vmcwuw2kz0yec2u309panmfyhstgesarpaataxqetqg5a.asdadas",
+  "type": "factory",
+  "symbol": "ASDADAS",
+  "name": "Asdadas",
+  "decimals": 6,
+  "display_denom": "ASDADAS",
+  "base_denom": "coin.zig1kn762ara4dn05vmcwuw2kz0yec2u309panmfyhstgesarpaataxqetqg5a.asdadas",
+  "creator": "zig1kn762ara4dn05vmcwuw2kz0yec2u309panmfyhstgesarpaataxqetqg5a",
+  "subdenom": "asdadas",
+  "denom_units": [
+    {
+      "denom": "coin.zig1kn762ara4dn05vmcwuw2kz0yec2u309panmfyhstgesarpaataxqetqg5a.asdadas",
+      "exponent": 0
+    },
+    {
+      "denom": "ASDADAS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

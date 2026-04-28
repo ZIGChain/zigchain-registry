@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1x4crp44vq9ur7sjg5qvx26gac4yedfl4k05k9znd84kw44tejtzqgv09dz.omnisasperioressin",
+  "type": "factory",
+  "symbol": "OMNISASPERIORESSIN",
+  "name": "Omnisasperioressin",
+  "decimals": 6,
+  "display_denom": "OMNISASPERIORESSIN",
+  "base_denom": "coin.zig1x4crp44vq9ur7sjg5qvx26gac4yedfl4k05k9znd84kw44tejtzqgv09dz.omnisasperioressin",
+  "creator": "zig1x4crp44vq9ur7sjg5qvx26gac4yedfl4k05k9znd84kw44tejtzqgv09dz",
+  "subdenom": "omnisasperioressin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1x4crp44vq9ur7sjg5qvx26gac4yedfl4k05k9znd84kw44tejtzqgv09dz.omnisasperioressin",
+      "exponent": 0
+    },
+    {
+      "denom": "OMNISASPERIORESSIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

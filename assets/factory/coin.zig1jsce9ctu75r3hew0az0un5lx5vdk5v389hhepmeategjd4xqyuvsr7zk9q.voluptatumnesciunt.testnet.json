@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1jsce9ctu75r3hew0az0un5lx5vdk5v389hhepmeategjd4xqyuvsr7zk9q.voluptatumnesciunt",
+  "type": "factory",
+  "symbol": "VOLUPTATUMNESCIUNT",
+  "name": "Voluptatumnesciunt",
+  "decimals": 6,
+  "display_denom": "VOLUPTATUMNESCIUNT",
+  "base_denom": "coin.zig1jsce9ctu75r3hew0az0un5lx5vdk5v389hhepmeategjd4xqyuvsr7zk9q.voluptatumnesciunt",
+  "creator": "zig1jsce9ctu75r3hew0az0un5lx5vdk5v389hhepmeategjd4xqyuvsr7zk9q",
+  "subdenom": "voluptatumnesciunt",
+  "denom_units": [
+    {
+      "denom": "coin.zig1jsce9ctu75r3hew0az0un5lx5vdk5v389hhepmeategjd4xqyuvsr7zk9q.voluptatumnesciunt",
+      "exponent": 0
+    },
+    {
+      "denom": "VOLUPTATUMNESCIUNT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

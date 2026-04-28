@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1v9ge8cp75qgtx7sj2n903lgcl8y0rfs98x3gjf.def",
+  "type": "factory",
+  "symbol": "DEF",
+  "name": "Def",
+  "decimals": 6,
+  "display_denom": "DEF",
+  "base_denom": "coin.zig1v9ge8cp75qgtx7sj2n903lgcl8y0rfs98x3gjf.def",
+  "creator": "zig1v9ge8cp75qgtx7sj2n903lgcl8y0rfs98x3gjf",
+  "subdenom": "def",
+  "denom_units": [
+    {
+      "denom": "coin.zig1v9ge8cp75qgtx7sj2n903lgcl8y0rfs98x3gjf.def",
+      "exponent": 0
+    },
+    {
+      "denom": "DEF",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

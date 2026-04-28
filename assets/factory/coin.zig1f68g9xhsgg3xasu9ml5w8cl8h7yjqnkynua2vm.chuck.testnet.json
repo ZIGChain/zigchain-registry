@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.chuck",
+  "type": "factory",
+  "symbol": "CHUCK",
+  "name": "Chuck",
+  "decimals": 6,
+  "display_denom": "CHUCK",
+  "base_denom": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.chuck",
+  "creator": "zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm",
+  "subdenom": "chuck",
+  "denom_units": [
+    {
+      "denom": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.chuck",
+      "exponent": 0
+    },
+    {
+      "denom": "CHUCK",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

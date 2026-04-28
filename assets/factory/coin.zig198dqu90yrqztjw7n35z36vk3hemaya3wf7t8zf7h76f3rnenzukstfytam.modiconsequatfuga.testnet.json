@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig198dqu90yrqztjw7n35z36vk3hemaya3wf7t8zf7h76f3rnenzukstfytam.modiconsequatfuga",
+  "type": "factory",
+  "symbol": "MODICONSEQUATFUGA",
+  "name": "Modiconsequatfuga",
+  "decimals": 6,
+  "display_denom": "MODICONSEQUATFUGA",
+  "base_denom": "coin.zig198dqu90yrqztjw7n35z36vk3hemaya3wf7t8zf7h76f3rnenzukstfytam.modiconsequatfuga",
+  "creator": "zig198dqu90yrqztjw7n35z36vk3hemaya3wf7t8zf7h76f3rnenzukstfytam",
+  "subdenom": "modiconsequatfuga",
+  "denom_units": [
+    {
+      "denom": "coin.zig198dqu90yrqztjw7n35z36vk3hemaya3wf7t8zf7h76f3rnenzukstfytam.modiconsequatfuga",
+      "exponent": 0
+    },
+    {
+      "denom": "MODICONSEQUATFUGA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

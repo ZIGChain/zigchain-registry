@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1lcam5gzrnpntpjh2lc5y87tv4dugt8mf79w60eejmhtjdsxfud7qn2qtug.tonks",
+  "type": "factory",
+  "symbol": "TONKS",
+  "name": "Tonks",
+  "decimals": 6,
+  "display_denom": "TONKS",
+  "base_denom": "coin.zig1lcam5gzrnpntpjh2lc5y87tv4dugt8mf79w60eejmhtjdsxfud7qn2qtug.tonks",
+  "creator": "zig1lcam5gzrnpntpjh2lc5y87tv4dugt8mf79w60eejmhtjdsxfud7qn2qtug",
+  "subdenom": "tonks",
+  "denom_units": [
+    {
+      "denom": "coin.zig1lcam5gzrnpntpjh2lc5y87tv4dugt8mf79w60eejmhtjdsxfud7qn2qtug.tonks",
+      "exponent": 0
+    },
+    {
+      "denom": "TONKS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

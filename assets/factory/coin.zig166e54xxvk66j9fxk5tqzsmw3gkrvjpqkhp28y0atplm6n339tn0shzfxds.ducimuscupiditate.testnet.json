@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig166e54xxvk66j9fxk5tqzsmw3gkrvjpqkhp28y0atplm6n339tn0shzfxds.ducimuscupiditate",
+  "type": "factory",
+  "symbol": "DUCIMUSCUPIDITATE",
+  "name": "Ducimuscupiditate",
+  "decimals": 6,
+  "display_denom": "DUCIMUSCUPIDITATE",
+  "base_denom": "coin.zig166e54xxvk66j9fxk5tqzsmw3gkrvjpqkhp28y0atplm6n339tn0shzfxds.ducimuscupiditate",
+  "creator": "zig166e54xxvk66j9fxk5tqzsmw3gkrvjpqkhp28y0atplm6n339tn0shzfxds",
+  "subdenom": "ducimuscupiditate",
+  "denom_units": [
+    {
+      "denom": "coin.zig166e54xxvk66j9fxk5tqzsmw3gkrvjpqkhp28y0atplm6n339tn0shzfxds.ducimuscupiditate",
+      "exponent": 0
+    },
+    {
+      "denom": "DUCIMUSCUPIDITATE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

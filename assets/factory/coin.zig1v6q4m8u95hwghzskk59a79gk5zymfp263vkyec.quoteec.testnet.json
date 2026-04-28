@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1v6q4m8u95hwghzskk59a79gk5zymfp263vkyec.quoteec",
+  "type": "factory",
+  "symbol": "QUOTEEC",
+  "name": "Quoteec",
+  "decimals": 6,
+  "display_denom": "QUOTEEC",
+  "base_denom": "coin.zig1v6q4m8u95hwghzskk59a79gk5zymfp263vkyec.quoteec",
+  "creator": "zig1v6q4m8u95hwghzskk59a79gk5zymfp263vkyec",
+  "subdenom": "quoteec",
+  "denom_units": [
+    {
+      "denom": "coin.zig1v6q4m8u95hwghzskk59a79gk5zymfp263vkyec.quoteec",
+      "exponent": 0
+    },
+    {
+      "denom": "QUOTEEC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

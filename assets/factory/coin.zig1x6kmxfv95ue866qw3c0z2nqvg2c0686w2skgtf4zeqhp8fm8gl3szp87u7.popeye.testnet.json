@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1x6kmxfv95ue866qw3c0z2nqvg2c0686w2skgtf4zeqhp8fm8gl3szp87u7.popeye",
+  "type": "factory",
+  "symbol": "POPEYE",
+  "name": "Popeye",
+  "decimals": 6,
+  "display_denom": "POPEYE",
+  "base_denom": "coin.zig1x6kmxfv95ue866qw3c0z2nqvg2c0686w2skgtf4zeqhp8fm8gl3szp87u7.popeye",
+  "creator": "zig1x6kmxfv95ue866qw3c0z2nqvg2c0686w2skgtf4zeqhp8fm8gl3szp87u7",
+  "subdenom": "popeye",
+  "denom_units": [
+    {
+      "denom": "coin.zig1x6kmxfv95ue866qw3c0z2nqvg2c0686w2skgtf4zeqhp8fm8gl3szp87u7.popeye",
+      "exponent": 0
+    },
+    {
+      "denom": "POPEYE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

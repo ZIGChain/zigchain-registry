@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1qkyjjwp0xrv96htkm5z2ua4430pyk30wzeugv9l0jwgtnv4yq4zqtz6a7k.zpepe",
+  "type": "factory",
+  "symbol": "ZPEPE",
+  "name": "Zpepe",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1qkyjjwp0xrv96htkm5z2ua4430pyk30wzeugv9l0jwgtnv4yq4zqtz6a7k.zpepe",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1qkyjjwp0xrv96htkm5z2ua4430pyk30wzeugv9l0jwgtnv4yq4zqtz6a7k.zpepe",
+  "base_denom": "coin.zig1qkyjjwp0xrv96htkm5z2ua4430pyk30wzeugv9l0jwgtnv4yq4zqtz6a7k.zpepe",
+  "creator": "zig1qkyjjwp0xrv96htkm5z2ua4430pyk30wzeugv9l0jwgtnv4yq4zqtz6a7k",
+  "subdenom": "zpepe",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n.zigchainlamborghini",
+  "type": "factory",
+  "symbol": "ZIGCHAINLAMBORGHINI",
+  "name": "Zigchainlamborghini",
+  "decimals": 6,
+  "display_denom": "ZIGCHAINLAMBORGHINI",
+  "base_denom": "coin.zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n.zigchainlamborghini",
+  "creator": "zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n",
+  "subdenom": "zigchainlamborghini",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zpnw5dtzzttmgtdjgtywt08wnlyyskpuupy3cfw8mytlslx54j9sgz6w4n.zigchainlamborghini",
+      "exponent": 0
+    },
+    {
+      "denom": "ZIGCHAINLAMBORGHINI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

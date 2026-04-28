@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig13fz5j3glx7t8ntveg7hyppztyz8ujxj8s588c3zu2ydpvswfkc8q0garp3.santa",
+  "type": "factory",
+  "symbol": "SANTA",
+  "name": "Santa",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig13fz5j3glx7t8ntveg7hyppztyz8ujxj8s588c3zu2ydpvswfkc8q0garp3.santa",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig13fz5j3glx7t8ntveg7hyppztyz8ujxj8s588c3zu2ydpvswfkc8q0garp3.santa",
+  "base_denom": "coin.zig13fz5j3glx7t8ntveg7hyppztyz8ujxj8s588c3zu2ydpvswfkc8q0garp3.santa",
+  "creator": "zig13fz5j3glx7t8ntveg7hyppztyz8ujxj8s588c3zu2ydpvswfkc8q0garp3",
+  "subdenom": "santa",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1cy76ykxa4vfpqsvh9n9fhm3ck3s03nz4ye8hrt8lks8eswwa689qt4t45n.shaggyrogers",
+  "type": "factory",
+  "symbol": "SHAGGYROGERS",
+  "name": "Shaggyrogers",
+  "decimals": 6,
+  "display_denom": "SHAGGYROGERS",
+  "base_denom": "coin.zig1cy76ykxa4vfpqsvh9n9fhm3ck3s03nz4ye8hrt8lks8eswwa689qt4t45n.shaggyrogers",
+  "creator": "zig1cy76ykxa4vfpqsvh9n9fhm3ck3s03nz4ye8hrt8lks8eswwa689qt4t45n",
+  "subdenom": "shaggyrogers",
+  "denom_units": [
+    {
+      "denom": "coin.zig1cy76ykxa4vfpqsvh9n9fhm3ck3s03nz4ye8hrt8lks8eswwa689qt4t45n.shaggyrogers",
+      "exponent": 0
+    },
+    {
+      "denom": "SHAGGYROGERS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18rs6cjpksna93n8v2z393j5s6f4cqlxfupcz72u8lmycnar0jkrsdjzfyf.providentseddolor",
+  "type": "factory",
+  "symbol": "PROVIDENTSEDDOLOR",
+  "name": "Providentseddolor",
+  "decimals": 6,
+  "display_denom": "PROVIDENTSEDDOLOR",
+  "base_denom": "coin.zig18rs6cjpksna93n8v2z393j5s6f4cqlxfupcz72u8lmycnar0jkrsdjzfyf.providentseddolor",
+  "creator": "zig18rs6cjpksna93n8v2z393j5s6f4cqlxfupcz72u8lmycnar0jkrsdjzfyf",
+  "subdenom": "providentseddolor",
+  "denom_units": [
+    {
+      "denom": "coin.zig18rs6cjpksna93n8v2z393j5s6f4cqlxfupcz72u8lmycnar0jkrsdjzfyf.providentseddolor",
+      "exponent": 0
+    },
+    {
+      "denom": "PROVIDENTSEDDOLOR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15hv426hp8dhawqga0ggghj2qc24uustcm68dyhzq70vady5wpt8seehuts.tigcoin",
+  "type": "factory",
+  "symbol": "TIGCOIN",
+  "name": "Tigcoin",
+  "decimals": 6,
+  "display_denom": "TIGCOIN",
+  "base_denom": "coin.zig15hv426hp8dhawqga0ggghj2qc24uustcm68dyhzq70vady5wpt8seehuts.tigcoin",
+  "creator": "zig15hv426hp8dhawqga0ggghj2qc24uustcm68dyhzq70vady5wpt8seehuts",
+  "subdenom": "tigcoin",
+  "denom_units": [
+    {
+      "denom": "coin.zig15hv426hp8dhawqga0ggghj2qc24uustcm68dyhzq70vady5wpt8seehuts.tigcoin",
+      "exponent": 0
+    },
+    {
+      "denom": "TIGCOIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

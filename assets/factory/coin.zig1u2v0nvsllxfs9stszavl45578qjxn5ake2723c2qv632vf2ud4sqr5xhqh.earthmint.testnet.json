@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1u2v0nvsllxfs9stszavl45578qjxn5ake2723c2qv632vf2ud4sqr5xhqh.earthmint",
+  "type": "factory",
+  "symbol": "EARTHMINT",
+  "name": "Earthmint",
+  "decimals": 6,
+  "display_denom": "EARTHMINT",
+  "base_denom": "coin.zig1u2v0nvsllxfs9stszavl45578qjxn5ake2723c2qv632vf2ud4sqr5xhqh.earthmint",
+  "creator": "zig1u2v0nvsllxfs9stszavl45578qjxn5ake2723c2qv632vf2ud4sqr5xhqh",
+  "subdenom": "earthmint",
+  "denom_units": [
+    {
+      "denom": "coin.zig1u2v0nvsllxfs9stszavl45578qjxn5ake2723c2qv632vf2ud4sqr5xhqh.earthmint",
+      "exponent": 0
+    },
+    {
+      "denom": "EARTHMINT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

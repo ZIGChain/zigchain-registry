@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mnlfeafs03dcc8u9ustw4mzl99fryysup6ttk4tmpmh7cmexd0xq6vnvh6.gaba",
+  "type": "factory",
+  "symbol": "GABA",
+  "name": "Gaba",
+  "decimals": 6,
+  "display_denom": "GABA",
+  "base_denom": "coin.zig1mnlfeafs03dcc8u9ustw4mzl99fryysup6ttk4tmpmh7cmexd0xq6vnvh6.gaba",
+  "creator": "zig1mnlfeafs03dcc8u9ustw4mzl99fryysup6ttk4tmpmh7cmexd0xq6vnvh6",
+  "subdenom": "gaba",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mnlfeafs03dcc8u9ustw4mzl99fryysup6ttk4tmpmh7cmexd0xq6vnvh6.gaba",
+      "exponent": 0
+    },
+    {
+      "denom": "GABA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

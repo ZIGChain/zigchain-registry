@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15e5u5jk6p7wjfekk6qxc6r9gyz35ffwhynt35akl7fmzgqz5hcqs8ueffk.neon",
+  "type": "factory",
+  "symbol": "NEON",
+  "name": "Neon",
+  "decimals": 6,
+  "display_denom": "NEON",
+  "base_denom": "coin.zig15e5u5jk6p7wjfekk6qxc6r9gyz35ffwhynt35akl7fmzgqz5hcqs8ueffk.neon",
+  "creator": "zig15e5u5jk6p7wjfekk6qxc6r9gyz35ffwhynt35akl7fmzgqz5hcqs8ueffk",
+  "subdenom": "neon",
+  "denom_units": [
+    {
+      "denom": "coin.zig15e5u5jk6p7wjfekk6qxc6r9gyz35ffwhynt35akl7fmzgqz5hcqs8ueffk.neon",
+      "exponent": 0
+    },
+    {
+      "denom": "NEON",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

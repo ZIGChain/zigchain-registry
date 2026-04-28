@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ljujwt9wxlr8n7dx0fmpls4rjaqrjfp9zur6r6jkuy64gsgzaerqu2kz45.deseruntimpeditea",
+  "type": "factory",
+  "symbol": "DESERUNTIMPEDITEA",
+  "name": "Deseruntimpeditea",
+  "decimals": 6,
+  "display_denom": "DESERUNTIMPEDITEA",
+  "base_denom": "coin.zig1ljujwt9wxlr8n7dx0fmpls4rjaqrjfp9zur6r6jkuy64gsgzaerqu2kz45.deseruntimpeditea",
+  "creator": "zig1ljujwt9wxlr8n7dx0fmpls4rjaqrjfp9zur6r6jkuy64gsgzaerqu2kz45",
+  "subdenom": "deseruntimpeditea",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ljujwt9wxlr8n7dx0fmpls4rjaqrjfp9zur6r6jkuy64gsgzaerqu2kz45.deseruntimpeditea",
+      "exponent": 0
+    },
+    {
+      "denom": "DESERUNTIMPEDITEA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1r32taagjmgqwpahuc0wsjlx37pmzpqrpc2ey7defq8t4gu80xwsq4nvdnr.lamb",
+  "type": "factory",
+  "symbol": "LAMB",
+  "name": "Lamb",
+  "decimals": 6,
+  "display_denom": "LAMB",
+  "base_denom": "coin.zig1r32taagjmgqwpahuc0wsjlx37pmzpqrpc2ey7defq8t4gu80xwsq4nvdnr.lamb",
+  "creator": "zig1r32taagjmgqwpahuc0wsjlx37pmzpqrpc2ey7defq8t4gu80xwsq4nvdnr",
+  "subdenom": "lamb",
+  "denom_units": [
+    {
+      "denom": "coin.zig1r32taagjmgqwpahuc0wsjlx37pmzpqrpc2ey7defq8t4gu80xwsq4nvdnr.lamb",
+      "exponent": 0
+    },
+    {
+      "denom": "LAMB",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

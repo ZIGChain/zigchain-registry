@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig154u9e3ndafrdrncmhc40r0lm2zr6989s4a4jhyugmttfazqxzqwqujcunn.accusamusvoluptatem",
+  "type": "factory",
+  "symbol": "ACCUSAMUSVOLUPTATEM",
+  "name": "Accusamusvoluptatem",
+  "decimals": 6,
+  "display_denom": "ACCUSAMUSVOLUPTATEM",
+  "base_denom": "coin.zig154u9e3ndafrdrncmhc40r0lm2zr6989s4a4jhyugmttfazqxzqwqujcunn.accusamusvoluptatem",
+  "creator": "zig154u9e3ndafrdrncmhc40r0lm2zr6989s4a4jhyugmttfazqxzqwqujcunn",
+  "subdenom": "accusamusvoluptatem",
+  "denom_units": [
+    {
+      "denom": "coin.zig154u9e3ndafrdrncmhc40r0lm2zr6989s4a4jhyugmttfazqxzqwqujcunn.accusamusvoluptatem",
+      "exponent": 0
+    },
+    {
+      "denom": "ACCUSAMUSVOLUPTATEM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

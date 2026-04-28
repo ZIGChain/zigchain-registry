@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1nln2cpyq6ev7akwvl0t5xs7mjrqkf2ds9qayfhumtewcey72pu6qjlxkak.possimussedsite",
+  "type": "factory",
+  "symbol": "POSSIMUSSEDSITE",
+  "name": "Possimussedsite",
+  "decimals": 6,
+  "display_denom": "POSSIMUSSEDSITE",
+  "base_denom": "coin.zig1nln2cpyq6ev7akwvl0t5xs7mjrqkf2ds9qayfhumtewcey72pu6qjlxkak.possimussedsite",
+  "creator": "zig1nln2cpyq6ev7akwvl0t5xs7mjrqkf2ds9qayfhumtewcey72pu6qjlxkak",
+  "subdenom": "possimussedsite",
+  "denom_units": [
+    {
+      "denom": "coin.zig1nln2cpyq6ev7akwvl0t5xs7mjrqkf2ds9qayfhumtewcey72pu6qjlxkak.possimussedsite",
+      "exponent": 0
+    },
+    {
+      "denom": "POSSIMUSSEDSITE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

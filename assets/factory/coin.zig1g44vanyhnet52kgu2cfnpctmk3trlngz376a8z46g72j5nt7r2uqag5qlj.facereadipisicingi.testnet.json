@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1g44vanyhnet52kgu2cfnpctmk3trlngz376a8z46g72j5nt7r2uqag5qlj.facereadipisicingi",
+  "type": "factory",
+  "symbol": "FACEREADIPISICINGI",
+  "name": "Facereadipisicingi",
+  "decimals": 6,
+  "display_denom": "FACEREADIPISICINGI",
+  "base_denom": "coin.zig1g44vanyhnet52kgu2cfnpctmk3trlngz376a8z46g72j5nt7r2uqag5qlj.facereadipisicingi",
+  "creator": "zig1g44vanyhnet52kgu2cfnpctmk3trlngz376a8z46g72j5nt7r2uqag5qlj",
+  "subdenom": "facereadipisicingi",
+  "denom_units": [
+    {
+      "denom": "coin.zig1g44vanyhnet52kgu2cfnpctmk3trlngz376a8z46g72j5nt7r2uqag5qlj.facereadipisicingi",
+      "exponent": 0
+    },
+    {
+      "denom": "FACEREADIPISICINGI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

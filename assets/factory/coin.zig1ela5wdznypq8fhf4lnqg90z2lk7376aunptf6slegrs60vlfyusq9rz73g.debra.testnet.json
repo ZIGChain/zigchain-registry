@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ela5wdznypq8fhf4lnqg90z2lk7376aunptf6slegrs60vlfyusq9rz73g.debra",
+  "type": "factory",
+  "symbol": "DEBRA",
+  "name": "Debra",
+  "decimals": 6,
+  "display_denom": "DEBRA",
+  "base_denom": "coin.zig1ela5wdznypq8fhf4lnqg90z2lk7376aunptf6slegrs60vlfyusq9rz73g.debra",
+  "creator": "zig1ela5wdznypq8fhf4lnqg90z2lk7376aunptf6slegrs60vlfyusq9rz73g",
+  "subdenom": "debra",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ela5wdznypq8fhf4lnqg90z2lk7376aunptf6slegrs60vlfyusq9rz73g.debra",
+      "exponent": 0
+    },
+    {
+      "denom": "DEBRA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

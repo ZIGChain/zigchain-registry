@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ptxpjgl3lsxrq99zl6ad2nmrx4lhnhne26m6ys.usixth",
+  "type": "factory",
+  "symbol": "USIXTH",
+  "name": "Usixth",
+  "decimals": 6,
+  "display_denom": "USIXTH",
+  "base_denom": "coin.zig1ptxpjgl3lsxrq99zl6ad2nmrx4lhnhne26m6ys.usixth",
+  "creator": "zig1ptxpjgl3lsxrq99zl6ad2nmrx4lhnhne26m6ys",
+  "subdenom": "usixth",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ptxpjgl3lsxrq99zl6ad2nmrx4lhnhne26m6ys.usixth",
+      "exponent": 0
+    },
+    {
+      "denom": "USIXTH",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

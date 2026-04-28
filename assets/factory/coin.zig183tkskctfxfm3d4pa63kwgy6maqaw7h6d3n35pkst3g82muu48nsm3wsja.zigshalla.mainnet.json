@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig183tkskctfxfm3d4pa63kwgy6maqaw7h6d3n35pkst3g82muu48nsm3wsja.zigshalla",
+  "type": "factory",
+  "symbol": "ZIGSHALLA",
+  "name": "Zigshalla",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig183tkskctfxfm3d4pa63kwgy6maqaw7h6d3n35pkst3g82muu48nsm3wsja.zigshalla",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig183tkskctfxfm3d4pa63kwgy6maqaw7h6d3n35pkst3g82muu48nsm3wsja.zigshalla",
+  "base_denom": "coin.zig183tkskctfxfm3d4pa63kwgy6maqaw7h6d3n35pkst3g82muu48nsm3wsja.zigshalla",
+  "creator": "zig183tkskctfxfm3d4pa63kwgy6maqaw7h6d3n35pkst3g82muu48nsm3wsja",
+  "subdenom": "zigshalla",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

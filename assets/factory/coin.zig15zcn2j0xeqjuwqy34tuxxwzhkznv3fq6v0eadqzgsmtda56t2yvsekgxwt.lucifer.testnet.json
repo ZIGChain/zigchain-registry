@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15zcn2j0xeqjuwqy34tuxxwzhkznv3fq6v0eadqzgsmtda56t2yvsekgxwt.lucifer",
+  "type": "factory",
+  "symbol": "LUCIFER",
+  "name": "Lucifer",
+  "decimals": 6,
+  "display_denom": "LUCIFER",
+  "base_denom": "coin.zig15zcn2j0xeqjuwqy34tuxxwzhkznv3fq6v0eadqzgsmtda56t2yvsekgxwt.lucifer",
+  "creator": "zig15zcn2j0xeqjuwqy34tuxxwzhkznv3fq6v0eadqzgsmtda56t2yvsekgxwt",
+  "subdenom": "lucifer",
+  "denom_units": [
+    {
+      "denom": "coin.zig15zcn2j0xeqjuwqy34tuxxwzhkznv3fq6v0eadqzgsmtda56t2yvsekgxwt.lucifer",
+      "exponent": 0
+    },
+    {
+      "denom": "LUCIFER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

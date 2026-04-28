@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14t5rpf5krz8lpmqxjf47pjlcatkatzzphp79m4mr44e7y2ux56dsh96qmr.delectuslaboreali",
+  "type": "factory",
+  "symbol": "DELECTUSLABOREALI",
+  "name": "Delectuslaboreali",
+  "decimals": 6,
+  "display_denom": "DELECTUSLABOREALI",
+  "base_denom": "coin.zig14t5rpf5krz8lpmqxjf47pjlcatkatzzphp79m4mr44e7y2ux56dsh96qmr.delectuslaboreali",
+  "creator": "zig14t5rpf5krz8lpmqxjf47pjlcatkatzzphp79m4mr44e7y2ux56dsh96qmr",
+  "subdenom": "delectuslaboreali",
+  "denom_units": [
+    {
+      "denom": "coin.zig14t5rpf5krz8lpmqxjf47pjlcatkatzzphp79m4mr44e7y2ux56dsh96qmr.delectuslaboreali",
+      "exponent": 0
+    },
+    {
+      "denom": "DELECTUSLABOREALI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

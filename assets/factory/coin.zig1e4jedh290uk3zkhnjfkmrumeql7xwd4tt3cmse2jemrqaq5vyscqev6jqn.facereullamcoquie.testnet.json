@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1e4jedh290uk3zkhnjfkmrumeql7xwd4tt3cmse2jemrqaq5vyscqev6jqn.facereullamcoquie",
+  "type": "factory",
+  "symbol": "FACEREULLAMCOQUIE",
+  "name": "Facereullamcoquie",
+  "decimals": 6,
+  "display_denom": "FACEREULLAMCOQUIE",
+  "base_denom": "coin.zig1e4jedh290uk3zkhnjfkmrumeql7xwd4tt3cmse2jemrqaq5vyscqev6jqn.facereullamcoquie",
+  "creator": "zig1e4jedh290uk3zkhnjfkmrumeql7xwd4tt3cmse2jemrqaq5vyscqev6jqn",
+  "subdenom": "facereullamcoquie",
+  "denom_units": [
+    {
+      "denom": "coin.zig1e4jedh290uk3zkhnjfkmrumeql7xwd4tt3cmse2jemrqaq5vyscqev6jqn.facereullamcoquie",
+      "exponent": 0
+    },
+    {
+      "denom": "FACEREULLAMCOQUIE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

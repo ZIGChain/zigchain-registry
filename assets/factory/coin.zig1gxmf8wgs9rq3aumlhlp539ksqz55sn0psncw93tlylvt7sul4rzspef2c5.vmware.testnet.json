@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1gxmf8wgs9rq3aumlhlp539ksqz55sn0psncw93tlylvt7sul4rzspef2c5.vmware",
+  "type": "factory",
+  "symbol": "VMWARE",
+  "name": "Vmware",
+  "decimals": 6,
+  "display_denom": "VMWARE",
+  "base_denom": "coin.zig1gxmf8wgs9rq3aumlhlp539ksqz55sn0psncw93tlylvt7sul4rzspef2c5.vmware",
+  "creator": "zig1gxmf8wgs9rq3aumlhlp539ksqz55sn0psncw93tlylvt7sul4rzspef2c5",
+  "subdenom": "vmware",
+  "denom_units": [
+    {
+      "denom": "coin.zig1gxmf8wgs9rq3aumlhlp539ksqz55sn0psncw93tlylvt7sul4rzspef2c5.vmware",
+      "exponent": 0
+    },
+    {
+      "denom": "VMWARE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

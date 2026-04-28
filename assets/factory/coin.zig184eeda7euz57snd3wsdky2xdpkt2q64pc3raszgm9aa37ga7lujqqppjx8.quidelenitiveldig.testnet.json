@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig184eeda7euz57snd3wsdky2xdpkt2q64pc3raszgm9aa37ga7lujqqppjx8.quidelenitiveldig",
+  "type": "factory",
+  "symbol": "QUIDELENITIVELDIG",
+  "name": "Quidelenitiveldig",
+  "decimals": 6,
+  "display_denom": "QUIDELENITIVELDIG",
+  "base_denom": "coin.zig184eeda7euz57snd3wsdky2xdpkt2q64pc3raszgm9aa37ga7lujqqppjx8.quidelenitiveldig",
+  "creator": "zig184eeda7euz57snd3wsdky2xdpkt2q64pc3raszgm9aa37ga7lujqqppjx8",
+  "subdenom": "quidelenitiveldig",
+  "denom_units": [
+    {
+      "denom": "coin.zig184eeda7euz57snd3wsdky2xdpkt2q64pc3raszgm9aa37ga7lujqqppjx8.quidelenitiveldig",
+      "exponent": 0
+    },
+    {
+      "denom": "QUIDELENITIVELDIG",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

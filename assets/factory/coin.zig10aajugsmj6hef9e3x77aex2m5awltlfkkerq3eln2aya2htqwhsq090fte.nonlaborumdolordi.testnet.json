@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10aajugsmj6hef9e3x77aex2m5awltlfkkerq3eln2aya2htqwhsq090fte.nonlaborumdolordi",
+  "type": "factory",
+  "symbol": "NONLABORUMDOLORDI",
+  "name": "Nonlaborumdolordi",
+  "decimals": 6,
+  "display_denom": "NONLABORUMDOLORDI",
+  "base_denom": "coin.zig10aajugsmj6hef9e3x77aex2m5awltlfkkerq3eln2aya2htqwhsq090fte.nonlaborumdolordi",
+  "creator": "zig10aajugsmj6hef9e3x77aex2m5awltlfkkerq3eln2aya2htqwhsq090fte",
+  "subdenom": "nonlaborumdolordi",
+  "denom_units": [
+    {
+      "denom": "coin.zig10aajugsmj6hef9e3x77aex2m5awltlfkkerq3eln2aya2htqwhsq090fte.nonlaborumdolordi",
+      "exponent": 0
+    },
+    {
+      "denom": "NONLABORUMDOLORDI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

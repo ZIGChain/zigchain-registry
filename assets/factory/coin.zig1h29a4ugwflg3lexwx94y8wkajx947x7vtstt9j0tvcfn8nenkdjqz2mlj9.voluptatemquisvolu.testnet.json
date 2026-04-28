@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1h29a4ugwflg3lexwx94y8wkajx947x7vtstt9j0tvcfn8nenkdjqz2mlj9.voluptatemquisvolu",
+  "type": "factory",
+  "symbol": "VOLUPTATEMQUISVOLU",
+  "name": "Voluptatemquisvolu",
+  "decimals": 6,
+  "display_denom": "VOLUPTATEMQUISVOLU",
+  "base_denom": "coin.zig1h29a4ugwflg3lexwx94y8wkajx947x7vtstt9j0tvcfn8nenkdjqz2mlj9.voluptatemquisvolu",
+  "creator": "zig1h29a4ugwflg3lexwx94y8wkajx947x7vtstt9j0tvcfn8nenkdjqz2mlj9",
+  "subdenom": "voluptatemquisvolu",
+  "denom_units": [
+    {
+      "denom": "coin.zig1h29a4ugwflg3lexwx94y8wkajx947x7vtstt9j0tvcfn8nenkdjqz2mlj9.voluptatemquisvolu",
+      "exponent": 0
+    },
+    {
+      "denom": "VOLUPTATEMQUISVOLU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

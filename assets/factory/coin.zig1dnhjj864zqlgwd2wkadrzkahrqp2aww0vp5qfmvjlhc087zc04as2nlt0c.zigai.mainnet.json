@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1dnhjj864zqlgwd2wkadrzkahrqp2aww0vp5qfmvjlhc087zc04as2nlt0c.zigai",
+  "type": "factory",
+  "symbol": "ZIGAI",
+  "name": "Zigai",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1dnhjj864zqlgwd2wkadrzkahrqp2aww0vp5qfmvjlhc087zc04as2nlt0c.zigai",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1dnhjj864zqlgwd2wkadrzkahrqp2aww0vp5qfmvjlhc087zc04as2nlt0c.zigai",
+  "base_denom": "coin.zig1dnhjj864zqlgwd2wkadrzkahrqp2aww0vp5qfmvjlhc087zc04as2nlt0c.zigai",
+  "creator": "zig1dnhjj864zqlgwd2wkadrzkahrqp2aww0vp5qfmvjlhc087zc04as2nlt0c",
+  "subdenom": "zigai",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

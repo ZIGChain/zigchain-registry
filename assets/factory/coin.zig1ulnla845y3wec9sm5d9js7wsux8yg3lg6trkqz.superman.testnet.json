@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ulnla845y3wec9sm5d9js7wsux8yg3lg6trkqz.superman",
+  "type": "factory",
+  "symbol": "SUPERMAN",
+  "name": "Superman",
+  "decimals": 6,
+  "display_denom": "SUPERMAN",
+  "base_denom": "coin.zig1ulnla845y3wec9sm5d9js7wsux8yg3lg6trkqz.superman",
+  "creator": "zig1ulnla845y3wec9sm5d9js7wsux8yg3lg6trkqz",
+  "subdenom": "superman",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ulnla845y3wec9sm5d9js7wsux8yg3lg6trkqz.superman",
+      "exponent": 0
+    },
+    {
+      "denom": "SUPERMAN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

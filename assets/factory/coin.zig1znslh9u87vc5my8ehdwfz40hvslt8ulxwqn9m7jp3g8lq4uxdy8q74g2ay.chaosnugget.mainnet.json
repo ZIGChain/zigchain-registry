@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1znslh9u87vc5my8ehdwfz40hvslt8ulxwqn9m7jp3g8lq4uxdy8q74g2ay.chaosnugget",
+  "type": "factory",
+  "symbol": "CHAOSNUGGET",
+  "name": "Chaosnugget",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1znslh9u87vc5my8ehdwfz40hvslt8ulxwqn9m7jp3g8lq4uxdy8q74g2ay.chaosnugget",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1znslh9u87vc5my8ehdwfz40hvslt8ulxwqn9m7jp3g8lq4uxdy8q74g2ay.chaosnugget",
+  "base_denom": "coin.zig1znslh9u87vc5my8ehdwfz40hvslt8ulxwqn9m7jp3g8lq4uxdy8q74g2ay.chaosnugget",
+  "creator": "zig1znslh9u87vc5my8ehdwfz40hvslt8ulxwqn9m7jp3g8lq4uxdy8q74g2ay",
+  "subdenom": "chaosnugget",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

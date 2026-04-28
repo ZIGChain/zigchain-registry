@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mfk9kedev0ty520skrj6aae3ak7t2smatvswp7v5230jy5ha24nq72g44t.mentori",
+  "type": "factory",
+  "symbol": "MENTORI",
+  "name": "Mentori",
+  "decimals": 6,
+  "display_denom": "MENTORI",
+  "base_denom": "coin.zig1mfk9kedev0ty520skrj6aae3ak7t2smatvswp7v5230jy5ha24nq72g44t.mentori",
+  "creator": "zig1mfk9kedev0ty520skrj6aae3ak7t2smatvswp7v5230jy5ha24nq72g44t",
+  "subdenom": "mentori",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mfk9kedev0ty520skrj6aae3ak7t2smatvswp7v5230jy5ha24nq72g44t.mentori",
+      "exponent": 0
+    },
+    {
+      "denom": "MENTORI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

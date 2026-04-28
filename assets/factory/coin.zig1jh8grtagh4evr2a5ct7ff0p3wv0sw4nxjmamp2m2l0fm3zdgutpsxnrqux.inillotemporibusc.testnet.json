@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1jh8grtagh4evr2a5ct7ff0p3wv0sw4nxjmamp2m2l0fm3zdgutpsxnrqux.inillotemporibusc",
+  "type": "factory",
+  "symbol": "INILLOTEMPORIBUSC",
+  "name": "Inillotemporibusc",
+  "decimals": 6,
+  "display_denom": "INILLOTEMPORIBUSC",
+  "base_denom": "coin.zig1jh8grtagh4evr2a5ct7ff0p3wv0sw4nxjmamp2m2l0fm3zdgutpsxnrqux.inillotemporibusc",
+  "creator": "zig1jh8grtagh4evr2a5ct7ff0p3wv0sw4nxjmamp2m2l0fm3zdgutpsxnrqux",
+  "subdenom": "inillotemporibusc",
+  "denom_units": [
+    {
+      "denom": "coin.zig1jh8grtagh4evr2a5ct7ff0p3wv0sw4nxjmamp2m2l0fm3zdgutpsxnrqux.inillotemporibusc",
+      "exponent": 0
+    },
+    {
+      "denom": "INILLOTEMPORIBUSC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

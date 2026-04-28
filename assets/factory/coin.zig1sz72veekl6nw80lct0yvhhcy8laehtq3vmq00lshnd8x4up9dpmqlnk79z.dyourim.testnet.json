@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1sz72veekl6nw80lct0yvhhcy8laehtq3vmq00lshnd8x4up9dpmqlnk79z.dyourim",
+  "type": "factory",
+  "symbol": "DYOURIM",
+  "name": "Dyourim",
+  "decimals": 6,
+  "display_denom": "DYOURIM",
+  "base_denom": "coin.zig1sz72veekl6nw80lct0yvhhcy8laehtq3vmq00lshnd8x4up9dpmqlnk79z.dyourim",
+  "creator": "zig1sz72veekl6nw80lct0yvhhcy8laehtq3vmq00lshnd8x4up9dpmqlnk79z",
+  "subdenom": "dyourim",
+  "denom_units": [
+    {
+      "denom": "coin.zig1sz72veekl6nw80lct0yvhhcy8laehtq3vmq00lshnd8x4up9dpmqlnk79z.dyourim",
+      "exponent": 0
+    },
+    {
+      "denom": "DYOURIM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

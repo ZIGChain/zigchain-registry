@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1902lxqhpqagefv6aw5jsqmlud8936kqgmm7d3k3neu05rgfjplusqvqmru.facilisexplicabon",
+  "type": "factory",
+  "symbol": "FACILISEXPLICABON",
+  "name": "Facilisexplicabon",
+  "decimals": 6,
+  "display_denom": "FACILISEXPLICABON",
+  "base_denom": "coin.zig1902lxqhpqagefv6aw5jsqmlud8936kqgmm7d3k3neu05rgfjplusqvqmru.facilisexplicabon",
+  "creator": "zig1902lxqhpqagefv6aw5jsqmlud8936kqgmm7d3k3neu05rgfjplusqvqmru",
+  "subdenom": "facilisexplicabon",
+  "denom_units": [
+    {
+      "denom": "coin.zig1902lxqhpqagefv6aw5jsqmlud8936kqgmm7d3k3neu05rgfjplusqvqmru.facilisexplicabon",
+      "exponent": 0
+    },
+    {
+      "denom": "FACILISEXPLICABON",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

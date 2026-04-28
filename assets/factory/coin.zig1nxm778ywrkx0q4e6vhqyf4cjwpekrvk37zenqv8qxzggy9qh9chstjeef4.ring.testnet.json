@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1nxm778ywrkx0q4e6vhqyf4cjwpekrvk37zenqv8qxzggy9qh9chstjeef4.ring",
+  "type": "factory",
+  "symbol": "RING",
+  "name": "Ring",
+  "decimals": 6,
+  "display_denom": "RING",
+  "base_denom": "coin.zig1nxm778ywrkx0q4e6vhqyf4cjwpekrvk37zenqv8qxzggy9qh9chstjeef4.ring",
+  "creator": "zig1nxm778ywrkx0q4e6vhqyf4cjwpekrvk37zenqv8qxzggy9qh9chstjeef4",
+  "subdenom": "ring",
+  "denom_units": [
+    {
+      "denom": "coin.zig1nxm778ywrkx0q4e6vhqyf4cjwpekrvk37zenqv8qxzggy9qh9chstjeef4.ring",
+      "exponent": 0
+    },
+    {
+      "denom": "RING",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig19svrle09x9sdp3sya9szraufwrj70tmv9lgnrjmcjyur56pzaqzqqy25gy.mushrooms",
+  "type": "factory",
+  "symbol": "MUSHROOMS",
+  "name": "Mushrooms",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig19svrle09x9sdp3sya9szraufwrj70tmv9lgnrjmcjyur56pzaqzqqy25gy.mushrooms",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig19svrle09x9sdp3sya9szraufwrj70tmv9lgnrjmcjyur56pzaqzqqy25gy.mushrooms",
+  "base_denom": "coin.zig19svrle09x9sdp3sya9szraufwrj70tmv9lgnrjmcjyur56pzaqzqqy25gy.mushrooms",
+  "creator": "zig19svrle09x9sdp3sya9szraufwrj70tmv9lgnrjmcjyur56pzaqzqqy25gy",
+  "subdenom": "mushrooms",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18khenljr56e59hmshf6rlvm94y6ye80pdktsldq3e5m5vfg7203s5k9jl9.ullamatautmolesti",
+  "type": "factory",
+  "symbol": "ULLAMATAUTMOLESTI",
+  "name": "Ullamatautmolesti",
+  "decimals": 6,
+  "display_denom": "ULLAMATAUTMOLESTI",
+  "base_denom": "coin.zig18khenljr56e59hmshf6rlvm94y6ye80pdktsldq3e5m5vfg7203s5k9jl9.ullamatautmolesti",
+  "creator": "zig18khenljr56e59hmshf6rlvm94y6ye80pdktsldq3e5m5vfg7203s5k9jl9",
+  "subdenom": "ullamatautmolesti",
+  "denom_units": [
+    {
+      "denom": "coin.zig18khenljr56e59hmshf6rlvm94y6ye80pdktsldq3e5m5vfg7203s5k9jl9.ullamatautmolesti",
+      "exponent": 0
+    },
+    {
+      "denom": "ULLAMATAUTMOLESTI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

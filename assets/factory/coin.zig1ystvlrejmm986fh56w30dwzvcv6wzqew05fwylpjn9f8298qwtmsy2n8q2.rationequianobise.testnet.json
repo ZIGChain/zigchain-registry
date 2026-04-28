@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ystvlrejmm986fh56w30dwzvcv6wzqew05fwylpjn9f8298qwtmsy2n8q2.rationequianobise",
+  "type": "factory",
+  "symbol": "RATIONEQUIANOBISE",
+  "name": "Rationequianobise",
+  "decimals": 6,
+  "display_denom": "RATIONEQUIANOBISE",
+  "base_denom": "coin.zig1ystvlrejmm986fh56w30dwzvcv6wzqew05fwylpjn9f8298qwtmsy2n8q2.rationequianobise",
+  "creator": "zig1ystvlrejmm986fh56w30dwzvcv6wzqew05fwylpjn9f8298qwtmsy2n8q2",
+  "subdenom": "rationequianobise",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ystvlrejmm986fh56w30dwzvcv6wzqew05fwylpjn9f8298qwtmsy2n8q2.rationequianobise",
+      "exponent": 0
+    },
+    {
+      "denom": "RATIONEQUIANOBISE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

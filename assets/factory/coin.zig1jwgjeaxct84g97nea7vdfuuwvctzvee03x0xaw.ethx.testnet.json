@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1jwgjeaxct84g97nea7vdfuuwvctzvee03x0xaw.ethx",
+  "type": "factory",
+  "symbol": "ETHX",
+  "name": "Ethx",
+  "decimals": 6,
+  "display_denom": "ETHX",
+  "base_denom": "coin.zig1jwgjeaxct84g97nea7vdfuuwvctzvee03x0xaw.ethx",
+  "creator": "zig1jwgjeaxct84g97nea7vdfuuwvctzvee03x0xaw",
+  "subdenom": "ethx",
+  "denom_units": [
+    {
+      "denom": "coin.zig1jwgjeaxct84g97nea7vdfuuwvctzvee03x0xaw.ethx",
+      "exponent": 0
+    },
+    {
+      "denom": "ETHX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

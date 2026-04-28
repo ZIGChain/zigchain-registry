@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1v6cd4554cmag85tkcea8py8yn85nrmq3xxv59vt72rc73c3y6s4su9ghtp.doloressedquiarep",
+  "type": "factory",
+  "symbol": "DOLORESSEDQUIAREP",
+  "name": "Doloressedquiarep",
+  "decimals": 6,
+  "display_denom": "DOLORESSEDQUIAREP",
+  "base_denom": "coin.zig1v6cd4554cmag85tkcea8py8yn85nrmq3xxv59vt72rc73c3y6s4su9ghtp.doloressedquiarep",
+  "creator": "zig1v6cd4554cmag85tkcea8py8yn85nrmq3xxv59vt72rc73c3y6s4su9ghtp",
+  "subdenom": "doloressedquiarep",
+  "denom_units": [
+    {
+      "denom": "coin.zig1v6cd4554cmag85tkcea8py8yn85nrmq3xxv59vt72rc73c3y6s4su9ghtp.doloressedquiarep",
+      "exponent": 0
+    },
+    {
+      "denom": "DOLORESSEDQUIAREP",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

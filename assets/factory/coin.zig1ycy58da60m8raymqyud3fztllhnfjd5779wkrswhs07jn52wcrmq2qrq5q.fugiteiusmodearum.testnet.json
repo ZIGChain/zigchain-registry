@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ycy58da60m8raymqyud3fztllhnfjd5779wkrswhs07jn52wcrmq2qrq5q.fugiteiusmodearum",
+  "type": "factory",
+  "symbol": "FUGITEIUSMODEARUM",
+  "name": "Fugiteiusmodearum",
+  "decimals": 6,
+  "display_denom": "FUGITEIUSMODEARUM",
+  "base_denom": "coin.zig1ycy58da60m8raymqyud3fztllhnfjd5779wkrswhs07jn52wcrmq2qrq5q.fugiteiusmodearum",
+  "creator": "zig1ycy58da60m8raymqyud3fztllhnfjd5779wkrswhs07jn52wcrmq2qrq5q",
+  "subdenom": "fugiteiusmodearum",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ycy58da60m8raymqyud3fztllhnfjd5779wkrswhs07jn52wcrmq2qrq5q.fugiteiusmodearum",
+      "exponent": 0
+    },
+    {
+      "denom": "FUGITEIUSMODEARUM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

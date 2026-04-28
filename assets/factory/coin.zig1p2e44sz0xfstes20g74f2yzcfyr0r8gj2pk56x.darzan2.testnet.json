@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1p2e44sz0xfstes20g74f2yzcfyr0r8gj2pk56x.darzan2",
+  "type": "factory",
+  "symbol": "DARZAN2",
+  "name": "Darzan2",
+  "decimals": 6,
+  "display_denom": "DARZAN2",
+  "base_denom": "coin.zig1p2e44sz0xfstes20g74f2yzcfyr0r8gj2pk56x.darzan2",
+  "creator": "zig1p2e44sz0xfstes20g74f2yzcfyr0r8gj2pk56x",
+  "subdenom": "darzan2",
+  "denom_units": [
+    {
+      "denom": "coin.zig1p2e44sz0xfstes20g74f2yzcfyr0r8gj2pk56x.darzan2",
+      "exponent": 0
+    },
+    {
+      "denom": "DARZAN2",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

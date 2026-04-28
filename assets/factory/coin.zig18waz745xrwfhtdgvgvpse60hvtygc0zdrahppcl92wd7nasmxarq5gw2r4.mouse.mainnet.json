@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig18waz745xrwfhtdgvgvpse60hvtygc0zdrahppcl92wd7nasmxarq5gw2r4.mouse",
+  "type": "factory",
+  "symbol": "MOUSE",
+  "name": "Mouse",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig18waz745xrwfhtdgvgvpse60hvtygc0zdrahppcl92wd7nasmxarq5gw2r4.mouse",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig18waz745xrwfhtdgvgvpse60hvtygc0zdrahppcl92wd7nasmxarq5gw2r4.mouse",
+  "base_denom": "coin.zig18waz745xrwfhtdgvgvpse60hvtygc0zdrahppcl92wd7nasmxarq5gw2r4.mouse",
+  "creator": "zig18waz745xrwfhtdgvgvpse60hvtygc0zdrahppcl92wd7nasmxarq5gw2r4",
+  "subdenom": "mouse",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

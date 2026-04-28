@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rysmq6c9gkv0a2kl0vslnc7egak4zx0wap3k8rmqzrhvg40jqt5q9unetw.box",
+  "type": "factory",
+  "symbol": "BOX",
+  "name": "Box",
+  "decimals": 6,
+  "display_denom": "BOX",
+  "base_denom": "coin.zig1rysmq6c9gkv0a2kl0vslnc7egak4zx0wap3k8rmqzrhvg40jqt5q9unetw.box",
+  "creator": "zig1rysmq6c9gkv0a2kl0vslnc7egak4zx0wap3k8rmqzrhvg40jqt5q9unetw",
+  "subdenom": "box",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rysmq6c9gkv0a2kl0vslnc7egak4zx0wap3k8rmqzrhvg40jqt5q9unetw.box",
+      "exponent": 0
+    },
+    {
+      "denom": "BOX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

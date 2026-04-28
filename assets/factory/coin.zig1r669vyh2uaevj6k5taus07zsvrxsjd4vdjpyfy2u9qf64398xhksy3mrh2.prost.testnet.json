@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1r669vyh2uaevj6k5taus07zsvrxsjd4vdjpyfy2u9qf64398xhksy3mrh2.prost",
+  "type": "factory",
+  "symbol": "PROST",
+  "name": "Prost",
+  "decimals": 6,
+  "display_denom": "PROST",
+  "base_denom": "coin.zig1r669vyh2uaevj6k5taus07zsvrxsjd4vdjpyfy2u9qf64398xhksy3mrh2.prost",
+  "creator": "zig1r669vyh2uaevj6k5taus07zsvrxsjd4vdjpyfy2u9qf64398xhksy3mrh2",
+  "subdenom": "prost",
+  "denom_units": [
+    {
+      "denom": "coin.zig1r669vyh2uaevj6k5taus07zsvrxsjd4vdjpyfy2u9qf64398xhksy3mrh2.prost",
+      "exponent": 0
+    },
+    {
+      "denom": "PROST",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig196ywx2seau2usdgw98r65lmzkve4pepv0kavvqjl6k9jwykz8pesz8zlcu.gasp",
+  "type": "factory",
+  "symbol": "GASP",
+  "name": "Gasp",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig196ywx2seau2usdgw98r65lmzkve4pepv0kavvqjl6k9jwykz8pesz8zlcu.gasp",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig196ywx2seau2usdgw98r65lmzkve4pepv0kavvqjl6k9jwykz8pesz8zlcu.gasp",
+  "base_denom": "coin.zig196ywx2seau2usdgw98r65lmzkve4pepv0kavvqjl6k9jwykz8pesz8zlcu.gasp",
+  "creator": "zig196ywx2seau2usdgw98r65lmzkve4pepv0kavvqjl6k9jwykz8pesz8zlcu",
+  "subdenom": "gasp",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

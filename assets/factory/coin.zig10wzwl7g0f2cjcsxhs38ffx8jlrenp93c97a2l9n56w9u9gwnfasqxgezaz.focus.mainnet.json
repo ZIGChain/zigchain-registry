@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig10wzwl7g0f2cjcsxhs38ffx8jlrenp93c97a2l9n56w9u9gwnfasqxgezaz.focus",
+  "type": "factory",
+  "symbol": "FOCUS",
+  "name": "Focus",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig10wzwl7g0f2cjcsxhs38ffx8jlrenp93c97a2l9n56w9u9gwnfasqxgezaz.focus",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig10wzwl7g0f2cjcsxhs38ffx8jlrenp93c97a2l9n56w9u9gwnfasqxgezaz.focus",
+  "base_denom": "coin.zig10wzwl7g0f2cjcsxhs38ffx8jlrenp93c97a2l9n56w9u9gwnfasqxgezaz.focus",
+  "creator": "zig10wzwl7g0f2cjcsxhs38ffx8jlrenp93c97a2l9n56w9u9gwnfasqxgezaz",
+  "subdenom": "focus",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

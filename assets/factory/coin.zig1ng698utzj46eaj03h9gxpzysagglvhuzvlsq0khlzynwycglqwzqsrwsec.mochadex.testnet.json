@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ng698utzj46eaj03h9gxpzysagglvhuzvlsq0khlzynwycglqwzqsrwsec.mochadex",
+  "type": "factory",
+  "symbol": "MOCHADEX",
+  "name": "Mochadex",
+  "decimals": 6,
+  "display_denom": "MOCHADEX",
+  "base_denom": "coin.zig1ng698utzj46eaj03h9gxpzysagglvhuzvlsq0khlzynwycglqwzqsrwsec.mochadex",
+  "creator": "zig1ng698utzj46eaj03h9gxpzysagglvhuzvlsq0khlzynwycglqwzqsrwsec",
+  "subdenom": "mochadex",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ng698utzj46eaj03h9gxpzysagglvhuzvlsq0khlzynwycglqwzqsrwsec.mochadex",
+      "exponent": 0
+    },
+    {
+      "denom": "MOCHADEX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

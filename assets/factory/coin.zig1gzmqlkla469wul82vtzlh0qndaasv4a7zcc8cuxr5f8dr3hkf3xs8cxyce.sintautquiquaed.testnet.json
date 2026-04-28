@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1gzmqlkla469wul82vtzlh0qndaasv4a7zcc8cuxr5f8dr3hkf3xs8cxyce.sintautquiquaed",
+  "type": "factory",
+  "symbol": "SINTAUTQUIQUAED",
+  "name": "Sintautquiquaed",
+  "decimals": 6,
+  "display_denom": "SINTAUTQUIQUAED",
+  "base_denom": "coin.zig1gzmqlkla469wul82vtzlh0qndaasv4a7zcc8cuxr5f8dr3hkf3xs8cxyce.sintautquiquaed",
+  "creator": "zig1gzmqlkla469wul82vtzlh0qndaasv4a7zcc8cuxr5f8dr3hkf3xs8cxyce",
+  "subdenom": "sintautquiquaed",
+  "denom_units": [
+    {
+      "denom": "coin.zig1gzmqlkla469wul82vtzlh0qndaasv4a7zcc8cuxr5f8dr3hkf3xs8cxyce.sintautquiquaed",
+      "exponent": 0
+    },
+    {
+      "denom": "SINTAUTQUIQUAED",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

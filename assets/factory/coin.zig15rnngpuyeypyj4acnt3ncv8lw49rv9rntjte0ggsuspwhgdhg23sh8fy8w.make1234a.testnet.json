@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15rnngpuyeypyj4acnt3ncv8lw49rv9rntjte0ggsuspwhgdhg23sh8fy8w.make1234a",
+  "type": "factory",
+  "symbol": "MAKE1234A",
+  "name": "Make1234a",
+  "decimals": 6,
+  "display_denom": "MAKE1234A",
+  "base_denom": "coin.zig15rnngpuyeypyj4acnt3ncv8lw49rv9rntjte0ggsuspwhgdhg23sh8fy8w.make1234a",
+  "creator": "zig15rnngpuyeypyj4acnt3ncv8lw49rv9rntjte0ggsuspwhgdhg23sh8fy8w",
+  "subdenom": "make1234a",
+  "denom_units": [
+    {
+      "denom": "coin.zig15rnngpuyeypyj4acnt3ncv8lw49rv9rntjte0ggsuspwhgdhg23sh8fy8w.make1234a",
+      "exponent": 0
+    },
+    {
+      "denom": "MAKE1234A",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

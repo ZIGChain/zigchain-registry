@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qaxcty5e8zn7sd2anq3973mll0yyet4jxm46kzth8n682fxjtsls3dfphh.bois1233",
+  "type": "factory",
+  "symbol": "BOIS1233",
+  "name": "Bois1233",
+  "decimals": 6,
+  "display_denom": "BOIS1233",
+  "base_denom": "coin.zig1qaxcty5e8zn7sd2anq3973mll0yyet4jxm46kzth8n682fxjtsls3dfphh.bois1233",
+  "creator": "zig1qaxcty5e8zn7sd2anq3973mll0yyet4jxm46kzth8n682fxjtsls3dfphh",
+  "subdenom": "bois1233",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qaxcty5e8zn7sd2anq3973mll0yyet4jxm46kzth8n682fxjtsls3dfphh.bois1233",
+      "exponent": 0
+    },
+    {
+      "denom": "BOIS1233",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

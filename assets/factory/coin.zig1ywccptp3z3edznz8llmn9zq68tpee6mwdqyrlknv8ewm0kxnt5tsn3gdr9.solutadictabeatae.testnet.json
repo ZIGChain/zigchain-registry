@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ywccptp3z3edznz8llmn9zq68tpee6mwdqyrlknv8ewm0kxnt5tsn3gdr9.solutadictabeatae",
+  "type": "factory",
+  "symbol": "SOLUTADICTABEATAE",
+  "name": "Solutadictabeatae",
+  "decimals": 6,
+  "display_denom": "SOLUTADICTABEATAE",
+  "base_denom": "coin.zig1ywccptp3z3edznz8llmn9zq68tpee6mwdqyrlknv8ewm0kxnt5tsn3gdr9.solutadictabeatae",
+  "creator": "zig1ywccptp3z3edznz8llmn9zq68tpee6mwdqyrlknv8ewm0kxnt5tsn3gdr9",
+  "subdenom": "solutadictabeatae",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ywccptp3z3edznz8llmn9zq68tpee6mwdqyrlknv8ewm0kxnt5tsn3gdr9.solutadictabeatae",
+      "exponent": 0
+    },
+    {
+      "denom": "SOLUTADICTABEATAE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

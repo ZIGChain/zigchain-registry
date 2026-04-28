@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1g254zthtrdusj2cvssc9vj4jq2dkeekq5keqg50dw34cctpjzxuqnu6z6x.lion",
+  "type": "factory",
+  "symbol": "LION",
+  "name": "Lion",
+  "decimals": 6,
+  "display_denom": "LION",
+  "base_denom": "coin.zig1g254zthtrdusj2cvssc9vj4jq2dkeekq5keqg50dw34cctpjzxuqnu6z6x.lion",
+  "creator": "zig1g254zthtrdusj2cvssc9vj4jq2dkeekq5keqg50dw34cctpjzxuqnu6z6x",
+  "subdenom": "lion",
+  "denom_units": [
+    {
+      "denom": "coin.zig1g254zthtrdusj2cvssc9vj4jq2dkeekq5keqg50dw34cctpjzxuqnu6z6x.lion",
+      "exponent": 0
+    },
+    {
+      "denom": "LION",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

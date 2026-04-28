@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1vvyrpvatyp2tsx2x2d3uqazs9t4h7p8njh96d4cza33zk7pyc0rqfs7hv4.etexametvelquis",
+  "type": "factory",
+  "symbol": "ETEXAMETVELQUIS",
+  "name": "Etexametvelquis",
+  "decimals": 6,
+  "display_denom": "ETEXAMETVELQUIS",
+  "base_denom": "coin.zig1vvyrpvatyp2tsx2x2d3uqazs9t4h7p8njh96d4cza33zk7pyc0rqfs7hv4.etexametvelquis",
+  "creator": "zig1vvyrpvatyp2tsx2x2d3uqazs9t4h7p8njh96d4cza33zk7pyc0rqfs7hv4",
+  "subdenom": "etexametvelquis",
+  "denom_units": [
+    {
+      "denom": "coin.zig1vvyrpvatyp2tsx2x2d3uqazs9t4h7p8njh96d4cza33zk7pyc0rqfs7hv4.etexametvelquis",
+      "exponent": 0
+    },
+    {
+      "denom": "ETEXAMETVELQUIS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

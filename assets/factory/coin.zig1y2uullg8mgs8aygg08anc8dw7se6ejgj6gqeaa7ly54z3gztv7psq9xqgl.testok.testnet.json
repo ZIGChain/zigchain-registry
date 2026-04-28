@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1y2uullg8mgs8aygg08anc8dw7se6ejgj6gqeaa7ly54z3gztv7psq9xqgl.testok",
+  "type": "factory",
+  "symbol": "TESTOK",
+  "name": "Testok",
+  "decimals": 6,
+  "display_denom": "TESTOK",
+  "base_denom": "coin.zig1y2uullg8mgs8aygg08anc8dw7se6ejgj6gqeaa7ly54z3gztv7psq9xqgl.testok",
+  "creator": "zig1y2uullg8mgs8aygg08anc8dw7se6ejgj6gqeaa7ly54z3gztv7psq9xqgl",
+  "subdenom": "testok",
+  "denom_units": [
+    {
+      "denom": "coin.zig1y2uullg8mgs8aygg08anc8dw7se6ejgj6gqeaa7ly54z3gztv7psq9xqgl.testok",
+      "exponent": 0
+    },
+    {
+      "denom": "TESTOK",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

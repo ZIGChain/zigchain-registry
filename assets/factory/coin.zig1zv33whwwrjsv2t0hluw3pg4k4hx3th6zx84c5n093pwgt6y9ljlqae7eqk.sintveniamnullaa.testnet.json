@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zv33whwwrjsv2t0hluw3pg4k4hx3th6zx84c5n093pwgt6y9ljlqae7eqk.sintveniamnullaa",
+  "type": "factory",
+  "symbol": "SINTVENIAMNULLAA",
+  "name": "Sintveniamnullaa",
+  "decimals": 6,
+  "display_denom": "SINTVENIAMNULLAA",
+  "base_denom": "coin.zig1zv33whwwrjsv2t0hluw3pg4k4hx3th6zx84c5n093pwgt6y9ljlqae7eqk.sintveniamnullaa",
+  "creator": "zig1zv33whwwrjsv2t0hluw3pg4k4hx3th6zx84c5n093pwgt6y9ljlqae7eqk",
+  "subdenom": "sintveniamnullaa",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zv33whwwrjsv2t0hluw3pg4k4hx3th6zx84c5n093pwgt6y9ljlqae7eqk.sintveniamnullaa",
+      "exponent": 0
+    },
+    {
+      "denom": "SINTVENIAMNULLAA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

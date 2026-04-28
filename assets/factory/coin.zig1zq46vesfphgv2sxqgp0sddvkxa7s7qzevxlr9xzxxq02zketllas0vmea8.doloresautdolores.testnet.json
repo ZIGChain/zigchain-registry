@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zq46vesfphgv2sxqgp0sddvkxa7s7qzevxlr9xzxxq02zketllas0vmea8.doloresautdolores",
+  "type": "factory",
+  "symbol": "DOLORESAUTDOLORES",
+  "name": "Doloresautdolores",
+  "decimals": 6,
+  "display_denom": "DOLORESAUTDOLORES",
+  "base_denom": "coin.zig1zq46vesfphgv2sxqgp0sddvkxa7s7qzevxlr9xzxxq02zketllas0vmea8.doloresautdolores",
+  "creator": "zig1zq46vesfphgv2sxqgp0sddvkxa7s7qzevxlr9xzxxq02zketllas0vmea8",
+  "subdenom": "doloresautdolores",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zq46vesfphgv2sxqgp0sddvkxa7s7qzevxlr9xzxxq02zketllas0vmea8.doloresautdolores",
+      "exponent": 0
+    },
+    {
+      "denom": "DOLORESAUTDOLORES",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

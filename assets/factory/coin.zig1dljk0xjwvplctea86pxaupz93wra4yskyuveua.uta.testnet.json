@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1dljk0xjwvplctea86pxaupz93wra4yskyuveua.uta",
+  "type": "factory",
+  "symbol": "UTA",
+  "name": "Uta",
+  "decimals": 6,
+  "display_denom": "UTA",
+  "base_denom": "coin.zig1dljk0xjwvplctea86pxaupz93wra4yskyuveua.uta",
+  "creator": "zig1dljk0xjwvplctea86pxaupz93wra4yskyuveua",
+  "subdenom": "uta",
+  "denom_units": [
+    {
+      "denom": "coin.zig1dljk0xjwvplctea86pxaupz93wra4yskyuveua.uta",
+      "exponent": 0
+    },
+    {
+      "denom": "UTA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

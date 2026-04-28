@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13m0q3r6nded5q5g93n8x9fftxzedca8mkv352m7ydelr05s5ru4sa3g70l.monk",
+  "type": "factory",
+  "symbol": "MONK",
+  "name": "Monk",
+  "decimals": 6,
+  "display_denom": "MONK",
+  "base_denom": "coin.zig13m0q3r6nded5q5g93n8x9fftxzedca8mkv352m7ydelr05s5ru4sa3g70l.monk",
+  "creator": "zig13m0q3r6nded5q5g93n8x9fftxzedca8mkv352m7ydelr05s5ru4sa3g70l",
+  "subdenom": "monk",
+  "denom_units": [
+    {
+      "denom": "coin.zig13m0q3r6nded5q5g93n8x9fftxzedca8mkv352m7ydelr05s5ru4sa3g70l.monk",
+      "exponent": 0
+    },
+    {
+      "denom": "MONK",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

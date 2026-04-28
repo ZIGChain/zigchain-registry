@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ww3afvzp8l7u7zxxw4a5kf6haerh97dyp0y75l2h8kklpaej898sgc268a.cointestin",
+  "type": "factory",
+  "symbol": "COINTESTIN",
+  "name": "Cointestin",
+  "decimals": 6,
+  "display_denom": "COINTESTIN",
+  "base_denom": "coin.zig1ww3afvzp8l7u7zxxw4a5kf6haerh97dyp0y75l2h8kklpaej898sgc268a.cointestin",
+  "creator": "zig1ww3afvzp8l7u7zxxw4a5kf6haerh97dyp0y75l2h8kklpaej898sgc268a",
+  "subdenom": "cointestin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ww3afvzp8l7u7zxxw4a5kf6haerh97dyp0y75l2h8kklpaej898sgc268a.cointestin",
+      "exponent": 0
+    },
+    {
+      "denom": "COINTESTIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

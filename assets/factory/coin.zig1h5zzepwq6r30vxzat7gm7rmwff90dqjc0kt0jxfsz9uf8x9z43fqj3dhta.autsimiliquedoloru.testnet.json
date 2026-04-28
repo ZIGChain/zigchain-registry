@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1h5zzepwq6r30vxzat7gm7rmwff90dqjc0kt0jxfsz9uf8x9z43fqj3dhta.autsimiliquedoloru",
+  "type": "factory",
+  "symbol": "AUTSIMILIQUEDOLORU",
+  "name": "Autsimiliquedoloru",
+  "decimals": 6,
+  "display_denom": "AUTSIMILIQUEDOLORU",
+  "base_denom": "coin.zig1h5zzepwq6r30vxzat7gm7rmwff90dqjc0kt0jxfsz9uf8x9z43fqj3dhta.autsimiliquedoloru",
+  "creator": "zig1h5zzepwq6r30vxzat7gm7rmwff90dqjc0kt0jxfsz9uf8x9z43fqj3dhta",
+  "subdenom": "autsimiliquedoloru",
+  "denom_units": [
+    {
+      "denom": "coin.zig1h5zzepwq6r30vxzat7gm7rmwff90dqjc0kt0jxfsz9uf8x9z43fqj3dhta.autsimiliquedoloru",
+      "exponent": 0
+    },
+    {
+      "denom": "AUTSIMILIQUEDOLORU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

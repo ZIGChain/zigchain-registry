@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig12jzwc0a3pyv4dze0t252qkwf77t4vs5rqfn3zc.rwa123",
+  "type": "factory",
+  "symbol": "RWA123",
+  "name": "Rwa123",
+  "decimals": 6,
+  "display_denom": "RWA123",
+  "base_denom": "coin.zig12jzwc0a3pyv4dze0t252qkwf77t4vs5rqfn3zc.rwa123",
+  "creator": "zig12jzwc0a3pyv4dze0t252qkwf77t4vs5rqfn3zc",
+  "subdenom": "rwa123",
+  "denom_units": [
+    {
+      "denom": "coin.zig12jzwc0a3pyv4dze0t252qkwf77t4vs5rqfn3zc.rwa123",
+      "exponent": 0
+    },
+    {
+      "denom": "RWA123",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

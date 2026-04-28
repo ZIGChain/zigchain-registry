@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1j8jt9rpmwcfcdgle6t35mdztspssljpg7yms20l3tsvls4awxrkqe7krz3.sdaas",
+  "type": "factory",
+  "symbol": "SDAAS",
+  "name": "Sdaas",
+  "decimals": 6,
+  "display_denom": "SDAAS",
+  "base_denom": "coin.zig1j8jt9rpmwcfcdgle6t35mdztspssljpg7yms20l3tsvls4awxrkqe7krz3.sdaas",
+  "creator": "zig1j8jt9rpmwcfcdgle6t35mdztspssljpg7yms20l3tsvls4awxrkqe7krz3",
+  "subdenom": "sdaas",
+  "denom_units": [
+    {
+      "denom": "coin.zig1j8jt9rpmwcfcdgle6t35mdztspssljpg7yms20l3tsvls4awxrkqe7krz3.sdaas",
+      "exponent": 0
+    },
+    {
+      "denom": "SDAAS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

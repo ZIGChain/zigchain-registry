@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1lp79v4vf6zf0xyew3gflu8mua2qcemwhhzldx6zsyvmmcvyev2gqvj2vpn.expeditaestquisno",
+  "type": "factory",
+  "symbol": "EXPEDITAESTQUISNO",
+  "name": "Expeditaestquisno",
+  "decimals": 6,
+  "display_denom": "EXPEDITAESTQUISNO",
+  "base_denom": "coin.zig1lp79v4vf6zf0xyew3gflu8mua2qcemwhhzldx6zsyvmmcvyev2gqvj2vpn.expeditaestquisno",
+  "creator": "zig1lp79v4vf6zf0xyew3gflu8mua2qcemwhhzldx6zsyvmmcvyev2gqvj2vpn",
+  "subdenom": "expeditaestquisno",
+  "denom_units": [
+    {
+      "denom": "coin.zig1lp79v4vf6zf0xyew3gflu8mua2qcemwhhzldx6zsyvmmcvyev2gqvj2vpn.expeditaestquisno",
+      "exponent": 0
+    },
+    {
+      "denom": "EXPEDITAESTQUISNO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

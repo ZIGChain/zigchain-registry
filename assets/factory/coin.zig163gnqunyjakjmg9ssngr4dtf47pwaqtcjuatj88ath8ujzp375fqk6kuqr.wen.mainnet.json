@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig163gnqunyjakjmg9ssngr4dtf47pwaqtcjuatj88ath8ujzp375fqk6kuqr.wen",
+  "type": "factory",
+  "symbol": "WEN",
+  "name": "Wen",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig163gnqunyjakjmg9ssngr4dtf47pwaqtcjuatj88ath8ujzp375fqk6kuqr.wen",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig163gnqunyjakjmg9ssngr4dtf47pwaqtcjuatj88ath8ujzp375fqk6kuqr.wen",
+  "base_denom": "coin.zig163gnqunyjakjmg9ssngr4dtf47pwaqtcjuatj88ath8ujzp375fqk6kuqr.wen",
+  "creator": "zig163gnqunyjakjmg9ssngr4dtf47pwaqtcjuatj88ath8ujzp375fqk6kuqr",
+  "subdenom": "wen",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1es0099pns4lryd43lzavz7uyc4krytkmeptxhuqzacweaulv3wpqfxv6yj.suntmagnamquasiu",
+  "type": "factory",
+  "symbol": "SUNTMAGNAMQUASIU",
+  "name": "Suntmagnamquasiu",
+  "decimals": 6,
+  "display_denom": "SUNTMAGNAMQUASIU",
+  "base_denom": "coin.zig1es0099pns4lryd43lzavz7uyc4krytkmeptxhuqzacweaulv3wpqfxv6yj.suntmagnamquasiu",
+  "creator": "zig1es0099pns4lryd43lzavz7uyc4krytkmeptxhuqzacweaulv3wpqfxv6yj",
+  "subdenom": "suntmagnamquasiu",
+  "denom_units": [
+    {
+      "denom": "coin.zig1es0099pns4lryd43lzavz7uyc4krytkmeptxhuqzacweaulv3wpqfxv6yj.suntmagnamquasiu",
+      "exponent": 0
+    },
+    {
+      "denom": "SUNTMAGNAMQUASIU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

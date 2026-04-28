@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig170d7egxuzjh56zk84vfj2n3l98ejttw2un6y786ru9pwmstyuukqd0a26k.velitaccusamusfug",
+  "type": "factory",
+  "symbol": "VELITACCUSAMUSFUG",
+  "name": "Velitaccusamusfug",
+  "decimals": 6,
+  "display_denom": "VELITACCUSAMUSFUG",
+  "base_denom": "coin.zig170d7egxuzjh56zk84vfj2n3l98ejttw2un6y786ru9pwmstyuukqd0a26k.velitaccusamusfug",
+  "creator": "zig170d7egxuzjh56zk84vfj2n3l98ejttw2un6y786ru9pwmstyuukqd0a26k",
+  "subdenom": "velitaccusamusfug",
+  "denom_units": [
+    {
+      "denom": "coin.zig170d7egxuzjh56zk84vfj2n3l98ejttw2un6y786ru9pwmstyuukqd0a26k.velitaccusamusfug",
+      "exponent": 0
+    },
+    {
+      "denom": "VELITACCUSAMUSFUG",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

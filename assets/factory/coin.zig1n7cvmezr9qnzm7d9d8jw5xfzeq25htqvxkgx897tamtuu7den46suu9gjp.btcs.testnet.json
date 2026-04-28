@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1n7cvmezr9qnzm7d9d8jw5xfzeq25htqvxkgx897tamtuu7den46suu9gjp.btcs",
+  "type": "factory",
+  "symbol": "BTCS",
+  "name": "Btcs",
+  "decimals": 6,
+  "display_denom": "BTCS",
+  "base_denom": "coin.zig1n7cvmezr9qnzm7d9d8jw5xfzeq25htqvxkgx897tamtuu7den46suu9gjp.btcs",
+  "creator": "zig1n7cvmezr9qnzm7d9d8jw5xfzeq25htqvxkgx897tamtuu7den46suu9gjp",
+  "subdenom": "btcs",
+  "denom_units": [
+    {
+      "denom": "coin.zig1n7cvmezr9qnzm7d9d8jw5xfzeq25htqvxkgx897tamtuu7den46suu9gjp.btcs",
+      "exponent": 0
+    },
+    {
+      "denom": "BTCS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

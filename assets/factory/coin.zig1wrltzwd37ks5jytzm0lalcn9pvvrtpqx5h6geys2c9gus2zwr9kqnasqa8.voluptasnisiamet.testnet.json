@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1wrltzwd37ks5jytzm0lalcn9pvvrtpqx5h6geys2c9gus2zwr9kqnasqa8.voluptasnisiamet",
+  "type": "factory",
+  "symbol": "VOLUPTASNISIAMET",
+  "name": "Voluptasnisiamet",
+  "decimals": 6,
+  "display_denom": "VOLUPTASNISIAMET",
+  "base_denom": "coin.zig1wrltzwd37ks5jytzm0lalcn9pvvrtpqx5h6geys2c9gus2zwr9kqnasqa8.voluptasnisiamet",
+  "creator": "zig1wrltzwd37ks5jytzm0lalcn9pvvrtpqx5h6geys2c9gus2zwr9kqnasqa8",
+  "subdenom": "voluptasnisiamet",
+  "denom_units": [
+    {
+      "denom": "coin.zig1wrltzwd37ks5jytzm0lalcn9pvvrtpqx5h6geys2c9gus2zwr9kqnasqa8.voluptasnisiamet",
+      "exponent": 0
+    },
+    {
+      "denom": "VOLUPTASNISIAMET",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

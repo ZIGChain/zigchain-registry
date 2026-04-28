@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ex2j735qdpjt8yvdlr52e29qy6hvncqdvv4vscfa0q5hl8sxmqqqddj3gk.dumpling",
+  "type": "factory",
+  "symbol": "DUMPLING",
+  "name": "Dumpling",
+  "decimals": 6,
+  "display_denom": "DUMPLING",
+  "base_denom": "coin.zig1ex2j735qdpjt8yvdlr52e29qy6hvncqdvv4vscfa0q5hl8sxmqqqddj3gk.dumpling",
+  "creator": "zig1ex2j735qdpjt8yvdlr52e29qy6hvncqdvv4vscfa0q5hl8sxmqqqddj3gk",
+  "subdenom": "dumpling",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ex2j735qdpjt8yvdlr52e29qy6hvncqdvv4vscfa0q5hl8sxmqqqddj3gk.dumpling",
+      "exponent": 0
+    },
+    {
+      "denom": "DUMPLING",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

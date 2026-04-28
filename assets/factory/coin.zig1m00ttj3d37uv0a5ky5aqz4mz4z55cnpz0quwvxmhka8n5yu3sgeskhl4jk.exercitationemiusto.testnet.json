@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1m00ttj3d37uv0a5ky5aqz4mz4z55cnpz0quwvxmhka8n5yu3sgeskhl4jk.exercitationemiusto",
+  "type": "factory",
+  "symbol": "EXERCITATIONEMIUSTO",
+  "name": "Exercitationemiusto",
+  "decimals": 6,
+  "display_denom": "EXERCITATIONEMIUSTO",
+  "base_denom": "coin.zig1m00ttj3d37uv0a5ky5aqz4mz4z55cnpz0quwvxmhka8n5yu3sgeskhl4jk.exercitationemiusto",
+  "creator": "zig1m00ttj3d37uv0a5ky5aqz4mz4z55cnpz0quwvxmhka8n5yu3sgeskhl4jk",
+  "subdenom": "exercitationemiusto",
+  "denom_units": [
+    {
+      "denom": "coin.zig1m00ttj3d37uv0a5ky5aqz4mz4z55cnpz0quwvxmhka8n5yu3sgeskhl4jk.exercitationemiusto",
+      "exponent": 0
+    },
+    {
+      "denom": "EXERCITATIONEMIUSTO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

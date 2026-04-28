@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig17kkd7cqpw5h25xpkm2eqrv89uye43gmsrt2glectht47m47vwy2syv0cw2.mdftb",
+  "type": "factory",
+  "symbol": "MDFTB",
+  "name": "Mdftb",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig17kkd7cqpw5h25xpkm2eqrv89uye43gmsrt2glectht47m47vwy2syv0cw2.mdftb",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig17kkd7cqpw5h25xpkm2eqrv89uye43gmsrt2glectht47m47vwy2syv0cw2.mdftb",
+  "base_denom": "coin.zig17kkd7cqpw5h25xpkm2eqrv89uye43gmsrt2glectht47m47vwy2syv0cw2.mdftb",
+  "creator": "zig17kkd7cqpw5h25xpkm2eqrv89uye43gmsrt2glectht47m47vwy2syv0cw2",
+  "subdenom": "mdftb",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

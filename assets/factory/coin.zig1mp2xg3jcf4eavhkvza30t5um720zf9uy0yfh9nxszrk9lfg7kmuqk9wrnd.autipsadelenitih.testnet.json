@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mp2xg3jcf4eavhkvza30t5um720zf9uy0yfh9nxszrk9lfg7kmuqk9wrnd.autipsadelenitih",
+  "type": "factory",
+  "symbol": "AUTIPSADELENITIH",
+  "name": "Autipsadelenitih",
+  "decimals": 6,
+  "display_denom": "AUTIPSADELENITIH",
+  "base_denom": "coin.zig1mp2xg3jcf4eavhkvza30t5um720zf9uy0yfh9nxszrk9lfg7kmuqk9wrnd.autipsadelenitih",
+  "creator": "zig1mp2xg3jcf4eavhkvza30t5um720zf9uy0yfh9nxszrk9lfg7kmuqk9wrnd",
+  "subdenom": "autipsadelenitih",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mp2xg3jcf4eavhkvza30t5um720zf9uy0yfh9nxszrk9lfg7kmuqk9wrnd.autipsadelenitih",
+      "exponent": 0
+    },
+    {
+      "denom": "AUTIPSADELENITIH",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

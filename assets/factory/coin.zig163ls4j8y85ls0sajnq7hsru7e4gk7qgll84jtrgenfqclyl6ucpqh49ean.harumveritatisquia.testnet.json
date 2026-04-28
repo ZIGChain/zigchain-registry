@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig163ls4j8y85ls0sajnq7hsru7e4gk7qgll84jtrgenfqclyl6ucpqh49ean.harumveritatisquia",
+  "type": "factory",
+  "symbol": "HARUMVERITATISQUIA",
+  "name": "Harumveritatisquia",
+  "decimals": 6,
+  "display_denom": "HARUMVERITATISQUIA",
+  "base_denom": "coin.zig163ls4j8y85ls0sajnq7hsru7e4gk7qgll84jtrgenfqclyl6ucpqh49ean.harumveritatisquia",
+  "creator": "zig163ls4j8y85ls0sajnq7hsru7e4gk7qgll84jtrgenfqclyl6ucpqh49ean",
+  "subdenom": "harumveritatisquia",
+  "denom_units": [
+    {
+      "denom": "coin.zig163ls4j8y85ls0sajnq7hsru7e4gk7qgll84jtrgenfqclyl6ucpqh49ean.harumveritatisquia",
+      "exponent": 0
+    },
+    {
+      "denom": "HARUMVERITATISQUIA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

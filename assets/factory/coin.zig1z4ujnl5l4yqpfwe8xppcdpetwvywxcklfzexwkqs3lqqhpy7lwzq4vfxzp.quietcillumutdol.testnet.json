@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1z4ujnl5l4yqpfwe8xppcdpetwvywxcklfzexwkqs3lqqhpy7lwzq4vfxzp.quietcillumutdol",
+  "type": "factory",
+  "symbol": "QUIETCILLUMUTDOL",
+  "name": "Quietcillumutdol",
+  "decimals": 6,
+  "display_denom": "QUIETCILLUMUTDOL",
+  "base_denom": "coin.zig1z4ujnl5l4yqpfwe8xppcdpetwvywxcklfzexwkqs3lqqhpy7lwzq4vfxzp.quietcillumutdol",
+  "creator": "zig1z4ujnl5l4yqpfwe8xppcdpetwvywxcklfzexwkqs3lqqhpy7lwzq4vfxzp",
+  "subdenom": "quietcillumutdol",
+  "denom_units": [
+    {
+      "denom": "coin.zig1z4ujnl5l4yqpfwe8xppcdpetwvywxcklfzexwkqs3lqqhpy7lwzq4vfxzp.quietcillumutdol",
+      "exponent": 0
+    },
+    {
+      "denom": "QUIETCILLUMUTDOL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

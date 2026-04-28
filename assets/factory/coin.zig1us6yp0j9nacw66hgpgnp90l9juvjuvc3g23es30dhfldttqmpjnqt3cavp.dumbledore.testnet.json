@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1us6yp0j9nacw66hgpgnp90l9juvjuvc3g23es30dhfldttqmpjnqt3cavp.dumbledore",
+  "type": "factory",
+  "symbol": "DUMBLEDORE",
+  "name": "Dumbledore",
+  "decimals": 6,
+  "display_denom": "DUMBLEDORE",
+  "base_denom": "coin.zig1us6yp0j9nacw66hgpgnp90l9juvjuvc3g23es30dhfldttqmpjnqt3cavp.dumbledore",
+  "creator": "zig1us6yp0j9nacw66hgpgnp90l9juvjuvc3g23es30dhfldttqmpjnqt3cavp",
+  "subdenom": "dumbledore",
+  "denom_units": [
+    {
+      "denom": "coin.zig1us6yp0j9nacw66hgpgnp90l9juvjuvc3g23es30dhfldttqmpjnqt3cavp.dumbledore",
+      "exponent": 0
+    },
+    {
+      "denom": "DUMBLEDORE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

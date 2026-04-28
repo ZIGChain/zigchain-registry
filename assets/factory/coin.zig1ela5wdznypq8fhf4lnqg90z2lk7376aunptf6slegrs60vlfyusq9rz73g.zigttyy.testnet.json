@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ela5wdznypq8fhf4lnqg90z2lk7376aunptf6slegrs60vlfyusq9rz73g.zigttyy",
+  "type": "factory",
+  "symbol": "ZIGTTYY",
+  "name": "Zigttyy",
+  "decimals": 6,
+  "display_denom": "ZIGTTYY",
+  "base_denom": "coin.zig1ela5wdznypq8fhf4lnqg90z2lk7376aunptf6slegrs60vlfyusq9rz73g.zigttyy",
+  "creator": "zig1ela5wdznypq8fhf4lnqg90z2lk7376aunptf6slegrs60vlfyusq9rz73g",
+  "subdenom": "zigttyy",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ela5wdznypq8fhf4lnqg90z2lk7376aunptf6slegrs60vlfyusq9rz73g.zigttyy",
+      "exponent": 0
+    },
+    {
+      "denom": "ZIGTTYY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1kpearc55nvp8r5c0vftuyh3fwhka58ch4806csu0eaepd304awtqzjzhaf.catgod",
+  "type": "factory",
+  "symbol": "CATGOD",
+  "name": "Catgod",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1kpearc55nvp8r5c0vftuyh3fwhka58ch4806csu0eaepd304awtqzjzhaf.catgod",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1kpearc55nvp8r5c0vftuyh3fwhka58ch4806csu0eaepd304awtqzjzhaf.catgod",
+  "base_denom": "coin.zig1kpearc55nvp8r5c0vftuyh3fwhka58ch4806csu0eaepd304awtqzjzhaf.catgod",
+  "creator": "zig1kpearc55nvp8r5c0vftuyh3fwhka58ch4806csu0eaepd304awtqzjzhaf",
+  "subdenom": "catgod",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

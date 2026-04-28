@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1qwnltle5tx0fzxetrawxrj2ad45mtlzk0adsx0fml9v97ha9qkpqkv5ak4.scurry",
+  "type": "factory",
+  "symbol": "SCURRY",
+  "name": "Scurry",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1qwnltle5tx0fzxetrawxrj2ad45mtlzk0adsx0fml9v97ha9qkpqkv5ak4.scurry",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1qwnltle5tx0fzxetrawxrj2ad45mtlzk0adsx0fml9v97ha9qkpqkv5ak4.scurry",
+  "base_denom": "coin.zig1qwnltle5tx0fzxetrawxrj2ad45mtlzk0adsx0fml9v97ha9qkpqkv5ak4.scurry",
+  "creator": "zig1qwnltle5tx0fzxetrawxrj2ad45mtlzk0adsx0fml9v97ha9qkpqkv5ak4",
+  "subdenom": "scurry",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

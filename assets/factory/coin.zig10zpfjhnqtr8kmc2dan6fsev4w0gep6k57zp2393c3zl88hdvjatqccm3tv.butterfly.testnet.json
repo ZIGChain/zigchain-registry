@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10zpfjhnqtr8kmc2dan6fsev4w0gep6k57zp2393c3zl88hdvjatqccm3tv.butterfly",
+  "type": "factory",
+  "symbol": "BUTTERFLY",
+  "name": "Butterfly",
+  "decimals": 6,
+  "display_denom": "BUTTERFLY",
+  "base_denom": "coin.zig10zpfjhnqtr8kmc2dan6fsev4w0gep6k57zp2393c3zl88hdvjatqccm3tv.butterfly",
+  "creator": "zig10zpfjhnqtr8kmc2dan6fsev4w0gep6k57zp2393c3zl88hdvjatqccm3tv",
+  "subdenom": "butterfly",
+  "denom_units": [
+    {
+      "denom": "coin.zig10zpfjhnqtr8kmc2dan6fsev4w0gep6k57zp2393c3zl88hdvjatqccm3tv.butterfly",
+      "exponent": 0
+    },
+    {
+      "denom": "BUTTERFLY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

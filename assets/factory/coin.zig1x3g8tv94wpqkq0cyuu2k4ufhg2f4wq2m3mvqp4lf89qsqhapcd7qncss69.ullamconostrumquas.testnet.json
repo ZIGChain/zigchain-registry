@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1x3g8tv94wpqkq0cyuu2k4ufhg2f4wq2m3mvqp4lf89qsqhapcd7qncss69.ullamconostrumquas",
+  "type": "factory",
+  "symbol": "ULLAMCONOSTRUMQUAS",
+  "name": "Ullamconostrumquas",
+  "decimals": 6,
+  "display_denom": "ULLAMCONOSTRUMQUAS",
+  "base_denom": "coin.zig1x3g8tv94wpqkq0cyuu2k4ufhg2f4wq2m3mvqp4lf89qsqhapcd7qncss69.ullamconostrumquas",
+  "creator": "zig1x3g8tv94wpqkq0cyuu2k4ufhg2f4wq2m3mvqp4lf89qsqhapcd7qncss69",
+  "subdenom": "ullamconostrumquas",
+  "denom_units": [
+    {
+      "denom": "coin.zig1x3g8tv94wpqkq0cyuu2k4ufhg2f4wq2m3mvqp4lf89qsqhapcd7qncss69.ullamconostrumquas",
+      "exponent": 0
+    },
+    {
+      "denom": "ULLAMCONOSTRUMQUAS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

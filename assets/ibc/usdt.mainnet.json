@@ -1,0 +1,76 @@
+{
+  "$schema": "../../schemas/asset.ibc.schema.json",
+  "order": 9,
+  "network": "mainnet",
+  "asset_id": "ibc/630F28419AFD118B9EA8B96AE9D280CFDA4EB9FAB3108F1CA9E7DC00F396B4F9",
+  "type": "ibc",
+  "symbol": "USDT",
+  "name": "Tether USD",
+  "description": "Tether USD on ZIGChain",
+  "decimals": 6,
+  "display_denom": "usdt",
+  "base_denom": "ibc/630F28419AFD118B9EA8B96AE9D280CFDA4EB9FAB3108F1CA9E7DC00F396B4F9",
+  "hash": "630F28419AFD118B9EA8B96AE9D280CFDA4EB9FAB3108F1CA9E7DC00F396B4F9",
+  "origin_chain": "ethereum",
+  "origin_denom": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+  "denom_units": [
+    {
+      "denom": "ibc/630F28419AFD118B9EA8B96AE9D280CFDA4EB9FAB3108F1CA9E7DC00F396B4F9",
+      "exponent": 0,
+      "aliases": [
+        "microusdt",
+        "uusdt"
+      ]
+    },
+    {
+      "denom": "usdt",
+      "exponent": 6
+    }
+  ],
+  "traces": [
+    {
+      "type": "ibc",
+      "chain_name": "zigchain",
+      "base_denom": "ibc/630F28419AFD118B9EA8B96AE9D280CFDA4EB9FAB3108F1CA9E7DC00F396B4F9",
+      "path": "transfer/channel-4/transfer/08-wasm-1369/0xdac17f958d2ee523a2206206994597c13d831ec7"
+    },
+    {
+      "type": "ibc",
+      "chain_name": "cosmoshub",
+      "base_denom": "ibc/E7E51FFF94A8B55BE84CEB0345E5CAF0A5DAEB374C6806CE908098B8996C7782",
+      "path": "transfer/channel-1555"
+    },
+    {
+      "type": "ibc-bridge",
+      "chain_name": "ethereum",
+      "base_denom": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "path": "transfer/08-wasm-1369/0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "provider": "eureka"
+    }
+  ],
+  "channels": [
+    {
+      "zigchain_channel": "channel-4",
+      "counterparty_chain": "cosmoshub",
+      "counterparty_channel": "channel-1555"
+    },
+    {
+      "zigchain_channel": "08-wasm-1369",
+      "counterparty_chain": "ethereum",
+      "counterparty_channel": "channel-0"
+    }
+  ],
+  "logo_uris": {
+    "chain_name": "ethereum",
+    "png": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/usdt.png",
+    "svg": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/usdt.svg"
+  },
+  "images": [
+    {
+      "chain_name": "ethereum",
+      "base_denom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+    }
+  ],
+  "coingecko_id": "tether",
+  "is_verified": true
+}

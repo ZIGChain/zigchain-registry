@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1d7zkthlelv0ydvklyjvy9pfxm5c2an4c4dklcwd9ucmlf6skkwvsdyut9j.abdul",
+  "type": "factory",
+  "symbol": "ABDUL",
+  "name": "Abdul",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1d7zkthlelv0ydvklyjvy9pfxm5c2an4c4dklcwd9ucmlf6skkwvsdyut9j.abdul",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1d7zkthlelv0ydvklyjvy9pfxm5c2an4c4dklcwd9ucmlf6skkwvsdyut9j.abdul",
+  "base_denom": "coin.zig1d7zkthlelv0ydvklyjvy9pfxm5c2an4c4dklcwd9ucmlf6skkwvsdyut9j.abdul",
+  "creator": "zig1d7zkthlelv0ydvklyjvy9pfxm5c2an4c4dklcwd9ucmlf6skkwvsdyut9j",
+  "subdenom": "abdul",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

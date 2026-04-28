@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1radpj73rgnfmmvfrntts0l8ll4rajdsgy244mwk882vjhty8vats8dllfa.utquoautquisdele",
+  "type": "factory",
+  "symbol": "UTQUOAUTQUISDELE",
+  "name": "Utquoautquisdele",
+  "decimals": 6,
+  "display_denom": "UTQUOAUTQUISDELE",
+  "base_denom": "coin.zig1radpj73rgnfmmvfrntts0l8ll4rajdsgy244mwk882vjhty8vats8dllfa.utquoautquisdele",
+  "creator": "zig1radpj73rgnfmmvfrntts0l8ll4rajdsgy244mwk882vjhty8vats8dllfa",
+  "subdenom": "utquoautquisdele",
+  "denom_units": [
+    {
+      "denom": "coin.zig1radpj73rgnfmmvfrntts0l8ll4rajdsgy244mwk882vjhty8vats8dllfa.utquoautquisdele",
+      "exponent": 0
+    },
+    {
+      "denom": "UTQUOAUTQUISDELE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1v76fehksfaq0wc0xvflj6m4zug83ml6ktav5whw7kupttme50z7sjqvjaw.dog",
+  "type": "factory",
+  "symbol": "DOG",
+  "name": "Dog",
+  "decimals": 6,
+  "display_denom": "DOG",
+  "base_denom": "coin.zig1v76fehksfaq0wc0xvflj6m4zug83ml6ktav5whw7kupttme50z7sjqvjaw.dog",
+  "creator": "zig1v76fehksfaq0wc0xvflj6m4zug83ml6ktav5whw7kupttme50z7sjqvjaw",
+  "subdenom": "dog",
+  "denom_units": [
+    {
+      "denom": "coin.zig1v76fehksfaq0wc0xvflj6m4zug83ml6ktav5whw7kupttme50z7sjqvjaw.dog",
+      "exponent": 0
+    },
+    {
+      "denom": "DOG",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1aqph3elhxdpd8dhxamk75lhzwhphdak6g24772ekcnkrnlf9hqhq0xfuq0.customasd",
+  "type": "factory",
+  "symbol": "CUSTOMASD",
+  "name": "Customasd",
+  "decimals": 6,
+  "display_denom": "CUSTOMASD",
+  "base_denom": "coin.zig1aqph3elhxdpd8dhxamk75lhzwhphdak6g24772ekcnkrnlf9hqhq0xfuq0.customasd",
+  "creator": "zig1aqph3elhxdpd8dhxamk75lhzwhphdak6g24772ekcnkrnlf9hqhq0xfuq0",
+  "subdenom": "customasd",
+  "denom_units": [
+    {
+      "denom": "coin.zig1aqph3elhxdpd8dhxamk75lhzwhphdak6g24772ekcnkrnlf9hqhq0xfuq0.customasd",
+      "exponent": 0
+    },
+    {
+      "denom": "CUSTOMASD",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

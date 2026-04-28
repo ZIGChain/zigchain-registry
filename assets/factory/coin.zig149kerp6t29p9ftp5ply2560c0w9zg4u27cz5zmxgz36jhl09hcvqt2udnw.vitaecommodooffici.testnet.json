@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig149kerp6t29p9ftp5ply2560c0w9zg4u27cz5zmxgz36jhl09hcvqt2udnw.vitaecommodooffici",
+  "type": "factory",
+  "symbol": "VITAECOMMODOOFFICI",
+  "name": "Vitaecommodooffici",
+  "decimals": 6,
+  "display_denom": "VITAECOMMODOOFFICI",
+  "base_denom": "coin.zig149kerp6t29p9ftp5ply2560c0w9zg4u27cz5zmxgz36jhl09hcvqt2udnw.vitaecommodooffici",
+  "creator": "zig149kerp6t29p9ftp5ply2560c0w9zg4u27cz5zmxgz36jhl09hcvqt2udnw",
+  "subdenom": "vitaecommodooffici",
+  "denom_units": [
+    {
+      "denom": "coin.zig149kerp6t29p9ftp5ply2560c0w9zg4u27cz5zmxgz36jhl09hcvqt2udnw.vitaecommodooffici",
+      "exponent": 0
+    },
+    {
+      "denom": "VITAECOMMODOOFFICI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

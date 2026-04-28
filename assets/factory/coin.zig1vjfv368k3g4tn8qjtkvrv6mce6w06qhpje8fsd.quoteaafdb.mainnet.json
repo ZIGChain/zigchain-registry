@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoteaafdb",
+  "type": "factory",
+  "symbol": "QUOTEAAFDB",
+  "name": "Quoteaafdb",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoteaafdb",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoteaafdb",
+  "base_denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoteaafdb",
+  "creator": "zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd",
+  "subdenom": "quoteaafdb",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

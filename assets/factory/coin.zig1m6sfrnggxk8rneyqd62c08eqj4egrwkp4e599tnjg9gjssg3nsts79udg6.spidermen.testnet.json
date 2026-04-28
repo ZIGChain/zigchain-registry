@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1m6sfrnggxk8rneyqd62c08eqj4egrwkp4e599tnjg9gjssg3nsts79udg6.spidermen",
+  "type": "factory",
+  "symbol": "SPIDERMEN",
+  "name": "Spidermen",
+  "decimals": 6,
+  "display_denom": "SPIDERMEN",
+  "base_denom": "coin.zig1m6sfrnggxk8rneyqd62c08eqj4egrwkp4e599tnjg9gjssg3nsts79udg6.spidermen",
+  "creator": "zig1m6sfrnggxk8rneyqd62c08eqj4egrwkp4e599tnjg9gjssg3nsts79udg6",
+  "subdenom": "spidermen",
+  "denom_units": [
+    {
+      "denom": "coin.zig1m6sfrnggxk8rneyqd62c08eqj4egrwkp4e599tnjg9gjssg3nsts79udg6.spidermen",
+      "exponent": 0
+    },
+    {
+      "denom": "SPIDERMEN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zw99zy0e8795cseq6myrzf5aw6v4kudlxxee5s9ce02xqpqxk2wsuqsf8c.liberoexquisvelv",
+  "type": "factory",
+  "symbol": "LIBEROEXQUISVELV",
+  "name": "Liberoexquisvelv",
+  "decimals": 6,
+  "display_denom": "LIBEROEXQUISVELV",
+  "base_denom": "coin.zig1zw99zy0e8795cseq6myrzf5aw6v4kudlxxee5s9ce02xqpqxk2wsuqsf8c.liberoexquisvelv",
+  "creator": "zig1zw99zy0e8795cseq6myrzf5aw6v4kudlxxee5s9ce02xqpqxk2wsuqsf8c",
+  "subdenom": "liberoexquisvelv",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zw99zy0e8795cseq6myrzf5aw6v4kudlxxee5s9ce02xqpqxk2wsuqsf8c.liberoexquisvelv",
+      "exponent": 0
+    },
+    {
+      "denom": "LIBEROEXQUISVELV",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.nuwx",
+  "type": "factory",
+  "symbol": "NUWX",
+  "name": "Nuwx",
+  "decimals": 6,
+  "display_denom": "NUWX",
+  "base_denom": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.nuwx",
+  "creator": "zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm",
+  "subdenom": "nuwx",
+  "denom_units": [
+    {
+      "denom": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.nuwx",
+      "exponent": 0
+    },
+    {
+      "denom": "NUWX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

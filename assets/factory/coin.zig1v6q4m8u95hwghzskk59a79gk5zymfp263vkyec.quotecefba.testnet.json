@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1v6q4m8u95hwghzskk59a79gk5zymfp263vkyec.quotecefba",
+  "type": "factory",
+  "symbol": "QUOTECEFBA",
+  "name": "Quotecefba",
+  "decimals": 6,
+  "display_denom": "QUOTECEFBA",
+  "base_denom": "coin.zig1v6q4m8u95hwghzskk59a79gk5zymfp263vkyec.quotecefba",
+  "creator": "zig1v6q4m8u95hwghzskk59a79gk5zymfp263vkyec",
+  "subdenom": "quotecefba",
+  "denom_units": [
+    {
+      "denom": "coin.zig1v6q4m8u95hwghzskk59a79gk5zymfp263vkyec.quotecefba",
+      "exponent": 0
+    },
+    {
+      "denom": "QUOTECEFBA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

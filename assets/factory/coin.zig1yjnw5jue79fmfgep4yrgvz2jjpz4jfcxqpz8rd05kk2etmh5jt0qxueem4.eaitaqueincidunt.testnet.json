@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1yjnw5jue79fmfgep4yrgvz2jjpz4jfcxqpz8rd05kk2etmh5jt0qxueem4.eaitaqueincidunt",
+  "type": "factory",
+  "symbol": "EAITAQUEINCIDUNT",
+  "name": "Eaitaqueincidunt",
+  "decimals": 6,
+  "display_denom": "EAITAQUEINCIDUNT",
+  "base_denom": "coin.zig1yjnw5jue79fmfgep4yrgvz2jjpz4jfcxqpz8rd05kk2etmh5jt0qxueem4.eaitaqueincidunt",
+  "creator": "zig1yjnw5jue79fmfgep4yrgvz2jjpz4jfcxqpz8rd05kk2etmh5jt0qxueem4",
+  "subdenom": "eaitaqueincidunt",
+  "denom_units": [
+    {
+      "denom": "coin.zig1yjnw5jue79fmfgep4yrgvz2jjpz4jfcxqpz8rd05kk2etmh5jt0qxueem4.eaitaqueincidunt",
+      "exponent": 0
+    },
+    {
+      "denom": "EAITAQUEINCIDUNT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

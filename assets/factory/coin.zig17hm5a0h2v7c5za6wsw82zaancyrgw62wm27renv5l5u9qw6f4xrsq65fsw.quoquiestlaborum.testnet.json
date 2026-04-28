@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17hm5a0h2v7c5za6wsw82zaancyrgw62wm27renv5l5u9qw6f4xrsq65fsw.quoquiestlaborum",
+  "type": "factory",
+  "symbol": "QUOQUIESTLABORUM",
+  "name": "Quoquiestlaborum",
+  "decimals": 6,
+  "display_denom": "QUOQUIESTLABORUM",
+  "base_denom": "coin.zig17hm5a0h2v7c5za6wsw82zaancyrgw62wm27renv5l5u9qw6f4xrsq65fsw.quoquiestlaborum",
+  "creator": "zig17hm5a0h2v7c5za6wsw82zaancyrgw62wm27renv5l5u9qw6f4xrsq65fsw",
+  "subdenom": "quoquiestlaborum",
+  "denom_units": [
+    {
+      "denom": "coin.zig17hm5a0h2v7c5za6wsw82zaancyrgw62wm27renv5l5u9qw6f4xrsq65fsw.quoquiestlaborum",
+      "exponent": 0
+    },
+    {
+      "denom": "QUOQUIESTLABORUM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

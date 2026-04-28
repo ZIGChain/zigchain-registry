@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15vhrha6jyzm2f8qu5lkq8ssua3yd65fmu4938z8menjzqyhtv68q2etfrn.suscipitvoluptasse",
+  "type": "factory",
+  "symbol": "SUSCIPITVOLUPTASSE",
+  "name": "Suscipitvoluptasse",
+  "decimals": 6,
+  "display_denom": "SUSCIPITVOLUPTASSE",
+  "base_denom": "coin.zig15vhrha6jyzm2f8qu5lkq8ssua3yd65fmu4938z8menjzqyhtv68q2etfrn.suscipitvoluptasse",
+  "creator": "zig15vhrha6jyzm2f8qu5lkq8ssua3yd65fmu4938z8menjzqyhtv68q2etfrn",
+  "subdenom": "suscipitvoluptasse",
+  "denom_units": [
+    {
+      "denom": "coin.zig15vhrha6jyzm2f8qu5lkq8ssua3yd65fmu4938z8menjzqyhtv68q2etfrn.suscipitvoluptasse",
+      "exponent": 0
+    },
+    {
+      "denom": "SUSCIPITVOLUPTASSE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

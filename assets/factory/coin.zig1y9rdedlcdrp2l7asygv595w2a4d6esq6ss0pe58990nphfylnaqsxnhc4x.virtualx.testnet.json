@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1y9rdedlcdrp2l7asygv595w2a4d6esq6ss0pe58990nphfylnaqsxnhc4x.virtualx",
+  "type": "factory",
+  "symbol": "VIRTUALX",
+  "name": "Virtualx",
+  "decimals": 6,
+  "display_denom": "VIRTUALX",
+  "base_denom": "coin.zig1y9rdedlcdrp2l7asygv595w2a4d6esq6ss0pe58990nphfylnaqsxnhc4x.virtualx",
+  "creator": "zig1y9rdedlcdrp2l7asygv595w2a4d6esq6ss0pe58990nphfylnaqsxnhc4x",
+  "subdenom": "virtualx",
+  "denom_units": [
+    {
+      "denom": "coin.zig1y9rdedlcdrp2l7asygv595w2a4d6esq6ss0pe58990nphfylnaqsxnhc4x.virtualx",
+      "exponent": 0
+    },
+    {
+      "denom": "VIRTUALX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

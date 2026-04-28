@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig12p8ff80wjz3al0cgurjjztmlpqxgx8phuqdgcjlp0csxrksgcc5st8j70d.test500",
+  "type": "factory",
+  "symbol": "TEST500",
+  "name": "Test500",
+  "decimals": 6,
+  "display_denom": "TEST500",
+  "base_denom": "coin.zig12p8ff80wjz3al0cgurjjztmlpqxgx8phuqdgcjlp0csxrksgcc5st8j70d.test500",
+  "creator": "zig12p8ff80wjz3al0cgurjjztmlpqxgx8phuqdgcjlp0csxrksgcc5st8j70d",
+  "subdenom": "test500",
+  "denom_units": [
+    {
+      "denom": "coin.zig12p8ff80wjz3al0cgurjjztmlpqxgx8phuqdgcjlp0csxrksgcc5st8j70d.test500",
+      "exponent": 0
+    },
+    {
+      "denom": "TEST500",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10m6t5tfw2dfrghue9m2u9m2dqmmvaqvu85s9jwryu5tpjlgf9f6sujm60e.ethereum",
+  "type": "factory",
+  "symbol": "ETHEREUM",
+  "name": "Ethereum",
+  "decimals": 6,
+  "display_denom": "ETHEREUM",
+  "base_denom": "coin.zig10m6t5tfw2dfrghue9m2u9m2dqmmvaqvu85s9jwryu5tpjlgf9f6sujm60e.ethereum",
+  "creator": "zig10m6t5tfw2dfrghue9m2u9m2dqmmvaqvu85s9jwryu5tpjlgf9f6sujm60e",
+  "subdenom": "ethereum",
+  "denom_units": [
+    {
+      "denom": "coin.zig10m6t5tfw2dfrghue9m2u9m2dqmmvaqvu85s9jwryu5tpjlgf9f6sujm60e.ethereum",
+      "exponent": 0
+    },
+    {
+      "denom": "ETHEREUM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

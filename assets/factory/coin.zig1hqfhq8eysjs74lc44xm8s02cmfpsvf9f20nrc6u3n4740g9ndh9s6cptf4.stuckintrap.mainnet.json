@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1hqfhq8eysjs74lc44xm8s02cmfpsvf9f20nrc6u3n4740g9ndh9s6cptf4.stuckintrap",
+  "type": "factory",
+  "symbol": "STUCKINTRAP",
+  "name": "Stuckintrap",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1hqfhq8eysjs74lc44xm8s02cmfpsvf9f20nrc6u3n4740g9ndh9s6cptf4.stuckintrap",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1hqfhq8eysjs74lc44xm8s02cmfpsvf9f20nrc6u3n4740g9ndh9s6cptf4.stuckintrap",
+  "base_denom": "coin.zig1hqfhq8eysjs74lc44xm8s02cmfpsvf9f20nrc6u3n4740g9ndh9s6cptf4.stuckintrap",
+  "creator": "zig1hqfhq8eysjs74lc44xm8s02cmfpsvf9f20nrc6u3n4740g9ndh9s6cptf4",
+  "subdenom": "stuckintrap",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

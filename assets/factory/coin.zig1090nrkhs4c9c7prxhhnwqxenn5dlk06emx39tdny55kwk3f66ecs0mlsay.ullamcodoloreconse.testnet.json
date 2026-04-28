@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1090nrkhs4c9c7prxhhnwqxenn5dlk06emx39tdny55kwk3f66ecs0mlsay.ullamcodoloreconse",
+  "type": "factory",
+  "symbol": "ULLAMCODOLORECONSE",
+  "name": "Ullamcodoloreconse",
+  "decimals": 6,
+  "display_denom": "ULLAMCODOLORECONSE",
+  "base_denom": "coin.zig1090nrkhs4c9c7prxhhnwqxenn5dlk06emx39tdny55kwk3f66ecs0mlsay.ullamcodoloreconse",
+  "creator": "zig1090nrkhs4c9c7prxhhnwqxenn5dlk06emx39tdny55kwk3f66ecs0mlsay",
+  "subdenom": "ullamcodoloreconse",
+  "denom_units": [
+    {
+      "denom": "coin.zig1090nrkhs4c9c7prxhhnwqxenn5dlk06emx39tdny55kwk3f66ecs0mlsay.ullamcodoloreconse",
+      "exponent": 0
+    },
+    {
+      "denom": "ULLAMCODOLORECONSE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

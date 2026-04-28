@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig185mq5wgd6g2xkvq2429eu4yd6u2wauk9nw7u7eya0ufmrqx8k3us5j3huc.etherax",
+  "type": "factory",
+  "symbol": "ETHERAX",
+  "name": "Etherax",
+  "decimals": 6,
+  "display_denom": "ETHERAX",
+  "base_denom": "coin.zig185mq5wgd6g2xkvq2429eu4yd6u2wauk9nw7u7eya0ufmrqx8k3us5j3huc.etherax",
+  "creator": "zig185mq5wgd6g2xkvq2429eu4yd6u2wauk9nw7u7eya0ufmrqx8k3us5j3huc",
+  "subdenom": "etherax",
+  "denom_units": [
+    {
+      "denom": "coin.zig185mq5wgd6g2xkvq2429eu4yd6u2wauk9nw7u7eya0ufmrqx8k3us5j3huc.etherax",
+      "exponent": 0
+    },
+    {
+      "denom": "ETHERAX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13ekkkplq94phzws8fwthzulh3zzszn068ytve5227fsv5x8jwv4sr47387.junior",
+  "type": "factory",
+  "symbol": "JUNIOR",
+  "name": "Junior",
+  "decimals": 6,
+  "display_denom": "JUNIOR",
+  "base_denom": "coin.zig13ekkkplq94phzws8fwthzulh3zzszn068ytve5227fsv5x8jwv4sr47387.junior",
+  "creator": "zig13ekkkplq94phzws8fwthzulh3zzszn068ytve5227fsv5x8jwv4sr47387",
+  "subdenom": "junior",
+  "denom_units": [
+    {
+      "denom": "coin.zig13ekkkplq94phzws8fwthzulh3zzszn068ytve5227fsv5x8jwv4sr47387.junior",
+      "exponent": 0
+    },
+    {
+      "denom": "JUNIOR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

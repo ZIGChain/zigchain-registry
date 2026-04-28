@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1pwwsxgx4fre4476yt05g6ns5s2ehhwevhqcvq9vym9zfyagl6zwqmaa9as.checkout",
+  "type": "factory",
+  "symbol": "CHECKOUT",
+  "name": "Checkout",
+  "decimals": 6,
+  "display_denom": "CHECKOUT",
+  "base_denom": "coin.zig1pwwsxgx4fre4476yt05g6ns5s2ehhwevhqcvq9vym9zfyagl6zwqmaa9as.checkout",
+  "creator": "zig1pwwsxgx4fre4476yt05g6ns5s2ehhwevhqcvq9vym9zfyagl6zwqmaa9as",
+  "subdenom": "checkout",
+  "denom_units": [
+    {
+      "denom": "coin.zig1pwwsxgx4fre4476yt05g6ns5s2ehhwevhqcvq9vym9zfyagl6zwqmaa9as.checkout",
+      "exponent": 0
+    },
+    {
+      "denom": "CHECKOUT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

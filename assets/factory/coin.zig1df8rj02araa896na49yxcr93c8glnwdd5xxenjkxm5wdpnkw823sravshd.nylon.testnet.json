@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1df8rj02araa896na49yxcr93c8glnwdd5xxenjkxm5wdpnkw823sravshd.nylon",
+  "type": "factory",
+  "symbol": "NYLON",
+  "name": "Nylon",
+  "decimals": 6,
+  "display_denom": "NYLON",
+  "base_denom": "coin.zig1df8rj02araa896na49yxcr93c8glnwdd5xxenjkxm5wdpnkw823sravshd.nylon",
+  "creator": "zig1df8rj02araa896na49yxcr93c8glnwdd5xxenjkxm5wdpnkw823sravshd",
+  "subdenom": "nylon",
+  "denom_units": [
+    {
+      "denom": "coin.zig1df8rj02araa896na49yxcr93c8glnwdd5xxenjkxm5wdpnkw823sravshd.nylon",
+      "exponent": 0
+    },
+    {
+      "denom": "NYLON",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

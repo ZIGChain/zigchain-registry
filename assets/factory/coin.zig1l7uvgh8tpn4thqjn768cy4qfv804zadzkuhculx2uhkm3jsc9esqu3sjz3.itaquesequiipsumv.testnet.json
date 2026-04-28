@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1l7uvgh8tpn4thqjn768cy4qfv804zadzkuhculx2uhkm3jsc9esqu3sjz3.itaquesequiipsumv",
+  "type": "factory",
+  "symbol": "ITAQUESEQUIIPSUMV",
+  "name": "Itaquesequiipsumv",
+  "decimals": 6,
+  "display_denom": "ITAQUESEQUIIPSUMV",
+  "base_denom": "coin.zig1l7uvgh8tpn4thqjn768cy4qfv804zadzkuhculx2uhkm3jsc9esqu3sjz3.itaquesequiipsumv",
+  "creator": "zig1l7uvgh8tpn4thqjn768cy4qfv804zadzkuhculx2uhkm3jsc9esqu3sjz3",
+  "subdenom": "itaquesequiipsumv",
+  "denom_units": [
+    {
+      "denom": "coin.zig1l7uvgh8tpn4thqjn768cy4qfv804zadzkuhculx2uhkm3jsc9esqu3sjz3.itaquesequiipsumv",
+      "exponent": 0
+    },
+    {
+      "denom": "ITAQUESEQUIIPSUMV",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

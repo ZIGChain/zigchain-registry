@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13tr2prk7fkw0a26e3kkx7mcwsnjzclrkmjv8u8r3x0l2mfvtklcskrn7rd.idetvoluptatemna",
+  "type": "factory",
+  "symbol": "IDETVOLUPTATEMNA",
+  "name": "Idetvoluptatemna",
+  "decimals": 6,
+  "display_denom": "IDETVOLUPTATEMNA",
+  "base_denom": "coin.zig13tr2prk7fkw0a26e3kkx7mcwsnjzclrkmjv8u8r3x0l2mfvtklcskrn7rd.idetvoluptatemna",
+  "creator": "zig13tr2prk7fkw0a26e3kkx7mcwsnjzclrkmjv8u8r3x0l2mfvtklcskrn7rd",
+  "subdenom": "idetvoluptatemna",
+  "denom_units": [
+    {
+      "denom": "coin.zig13tr2prk7fkw0a26e3kkx7mcwsnjzclrkmjv8u8r3x0l2mfvtklcskrn7rd.idetvoluptatemna",
+      "exponent": 0
+    },
+    {
+      "denom": "IDETVOLUPTATEMNA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zlg3ek5mqqq7q8v0zhrxxcep5cqkfhke5jz5axx3ytekxmalvwwshy8qk8.magniquamvoluptate",
+  "type": "factory",
+  "symbol": "MAGNIQUAMVOLUPTATE",
+  "name": "Magniquamvoluptate",
+  "decimals": 6,
+  "display_denom": "MAGNIQUAMVOLUPTATE",
+  "base_denom": "coin.zig1zlg3ek5mqqq7q8v0zhrxxcep5cqkfhke5jz5axx3ytekxmalvwwshy8qk8.magniquamvoluptate",
+  "creator": "zig1zlg3ek5mqqq7q8v0zhrxxcep5cqkfhke5jz5axx3ytekxmalvwwshy8qk8",
+  "subdenom": "magniquamvoluptate",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zlg3ek5mqqq7q8v0zhrxxcep5cqkfhke5jz5axx3ytekxmalvwwshy8qk8.magniquamvoluptate",
+      "exponent": 0
+    },
+    {
+      "denom": "MAGNIQUAMVOLUPTATE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

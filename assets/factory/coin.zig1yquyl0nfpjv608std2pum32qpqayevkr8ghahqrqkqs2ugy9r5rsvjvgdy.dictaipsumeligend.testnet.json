@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1yquyl0nfpjv608std2pum32qpqayevkr8ghahqrqkqs2ugy9r5rsvjvgdy.dictaipsumeligend",
+  "type": "factory",
+  "symbol": "DICTAIPSUMELIGEND",
+  "name": "Dictaipsumeligend",
+  "decimals": 6,
+  "display_denom": "DICTAIPSUMELIGEND",
+  "base_denom": "coin.zig1yquyl0nfpjv608std2pum32qpqayevkr8ghahqrqkqs2ugy9r5rsvjvgdy.dictaipsumeligend",
+  "creator": "zig1yquyl0nfpjv608std2pum32qpqayevkr8ghahqrqkqs2ugy9r5rsvjvgdy",
+  "subdenom": "dictaipsumeligend",
+  "denom_units": [
+    {
+      "denom": "coin.zig1yquyl0nfpjv608std2pum32qpqayevkr8ghahqrqkqs2ugy9r5rsvjvgdy.dictaipsumeligend",
+      "exponent": 0
+    },
+    {
+      "denom": "DICTAIPSUMELIGEND",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

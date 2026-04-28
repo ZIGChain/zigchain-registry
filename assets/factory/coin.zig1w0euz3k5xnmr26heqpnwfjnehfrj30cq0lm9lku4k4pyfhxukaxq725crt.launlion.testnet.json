@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1w0euz3k5xnmr26heqpnwfjnehfrj30cq0lm9lku4k4pyfhxukaxq725crt.launlion",
+  "type": "factory",
+  "symbol": "LAUNLION",
+  "name": "Launlion",
+  "decimals": 6,
+  "display_denom": "LAUNLION",
+  "base_denom": "coin.zig1w0euz3k5xnmr26heqpnwfjnehfrj30cq0lm9lku4k4pyfhxukaxq725crt.launlion",
+  "creator": "zig1w0euz3k5xnmr26heqpnwfjnehfrj30cq0lm9lku4k4pyfhxukaxq725crt",
+  "subdenom": "launlion",
+  "denom_units": [
+    {
+      "denom": "coin.zig1w0euz3k5xnmr26heqpnwfjnehfrj30cq0lm9lku4k4pyfhxukaxq725crt.launlion",
+      "exponent": 0
+    },
+    {
+      "denom": "LAUNLION",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

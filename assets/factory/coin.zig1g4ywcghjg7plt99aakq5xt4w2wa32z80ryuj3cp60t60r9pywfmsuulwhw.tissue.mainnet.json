@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1g4ywcghjg7plt99aakq5xt4w2wa32z80ryuj3cp60t60r9pywfmsuulwhw.tissue",
+  "type": "factory",
+  "symbol": "TISSUE",
+  "name": "Tissue",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1g4ywcghjg7plt99aakq5xt4w2wa32z80ryuj3cp60t60r9pywfmsuulwhw.tissue",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1g4ywcghjg7plt99aakq5xt4w2wa32z80ryuj3cp60t60r9pywfmsuulwhw.tissue",
+  "base_denom": "coin.zig1g4ywcghjg7plt99aakq5xt4w2wa32z80ryuj3cp60t60r9pywfmsuulwhw.tissue",
+  "creator": "zig1g4ywcghjg7plt99aakq5xt4w2wa32z80ryuj3cp60t60r9pywfmsuulwhw",
+  "subdenom": "tissue",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

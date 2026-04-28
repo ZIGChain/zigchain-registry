@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig19e938ptea97hwsj4hmzf3l6m63mw5v29arqf4vnqx2w75sc5eppsu9csxv.daddy",
+  "type": "factory",
+  "symbol": "DADDY",
+  "name": "Daddy",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig19e938ptea97hwsj4hmzf3l6m63mw5v29arqf4vnqx2w75sc5eppsu9csxv.daddy",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig19e938ptea97hwsj4hmzf3l6m63mw5v29arqf4vnqx2w75sc5eppsu9csxv.daddy",
+  "base_denom": "coin.zig19e938ptea97hwsj4hmzf3l6m63mw5v29arqf4vnqx2w75sc5eppsu9csxv.daddy",
+  "creator": "zig19e938ptea97hwsj4hmzf3l6m63mw5v29arqf4vnqx2w75sc5eppsu9csxv",
+  "subdenom": "daddy",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

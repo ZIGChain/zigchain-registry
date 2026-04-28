@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1nnv2x4rhnd7vaz8r5fptlg8t8jhkp6v4llade03asyrrxehtydus4asvzf.officiaquisquamiur",
+  "type": "factory",
+  "symbol": "OFFICIAQUISQUAMIUR",
+  "name": "Officiaquisquamiur",
+  "decimals": 6,
+  "display_denom": "OFFICIAQUISQUAMIUR",
+  "base_denom": "coin.zig1nnv2x4rhnd7vaz8r5fptlg8t8jhkp6v4llade03asyrrxehtydus4asvzf.officiaquisquamiur",
+  "creator": "zig1nnv2x4rhnd7vaz8r5fptlg8t8jhkp6v4llade03asyrrxehtydus4asvzf",
+  "subdenom": "officiaquisquamiur",
+  "denom_units": [
+    {
+      "denom": "coin.zig1nnv2x4rhnd7vaz8r5fptlg8t8jhkp6v4llade03asyrrxehtydus4asvzf.officiaquisquamiur",
+      "exponent": 0
+    },
+    {
+      "denom": "OFFICIAQUISQUAMIUR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1crsveftw9f964s6lvhkwkm8qzd8f95ezluuzya7dj5nrkdxtujqqpsx9la.neilopher",
+  "type": "factory",
+  "symbol": "NEILOPHER",
+  "name": "Neilopher",
+  "decimals": 6,
+  "display_denom": "NEILOPHER",
+  "base_denom": "coin.zig1crsveftw9f964s6lvhkwkm8qzd8f95ezluuzya7dj5nrkdxtujqqpsx9la.neilopher",
+  "creator": "zig1crsveftw9f964s6lvhkwkm8qzd8f95ezluuzya7dj5nrkdxtujqqpsx9la",
+  "subdenom": "neilopher",
+  "denom_units": [
+    {
+      "denom": "coin.zig1crsveftw9f964s6lvhkwkm8qzd8f95ezluuzya7dj5nrkdxtujqqpsx9la.neilopher",
+      "exponent": 0
+    },
+    {
+      "denom": "NEILOPHER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

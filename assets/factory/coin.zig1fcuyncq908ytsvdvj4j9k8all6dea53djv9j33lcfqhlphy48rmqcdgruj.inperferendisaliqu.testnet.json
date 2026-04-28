@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1fcuyncq908ytsvdvj4j9k8all6dea53djv9j33lcfqhlphy48rmqcdgruj.inperferendisaliqu",
+  "type": "factory",
+  "symbol": "INPERFERENDISALIQU",
+  "name": "Inperferendisaliqu",
+  "decimals": 6,
+  "display_denom": "INPERFERENDISALIQU",
+  "base_denom": "coin.zig1fcuyncq908ytsvdvj4j9k8all6dea53djv9j33lcfqhlphy48rmqcdgruj.inperferendisaliqu",
+  "creator": "zig1fcuyncq908ytsvdvj4j9k8all6dea53djv9j33lcfqhlphy48rmqcdgruj",
+  "subdenom": "inperferendisaliqu",
+  "denom_units": [
+    {
+      "denom": "coin.zig1fcuyncq908ytsvdvj4j9k8all6dea53djv9j33lcfqhlphy48rmqcdgruj.inperferendisaliqu",
+      "exponent": 0
+    },
+    {
+      "denom": "INPERFERENDISALIQU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

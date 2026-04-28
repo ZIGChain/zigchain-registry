@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1xpudsrvykgnapycd92pn4v6pejnwl9ucfnvapckptj8k7dzc228qytkckc.aster",
+  "type": "factory",
+  "symbol": "ASTER",
+  "name": "Aster",
+  "decimals": 6,
+  "display_denom": "ASTER",
+  "base_denom": "coin.zig1xpudsrvykgnapycd92pn4v6pejnwl9ucfnvapckptj8k7dzc228qytkckc.aster",
+  "creator": "zig1xpudsrvykgnapycd92pn4v6pejnwl9ucfnvapckptj8k7dzc228qytkckc",
+  "subdenom": "aster",
+  "denom_units": [
+    {
+      "denom": "coin.zig1xpudsrvykgnapycd92pn4v6pejnwl9ucfnvapckptj8k7dzc228qytkckc.aster",
+      "exponent": 0
+    },
+    {
+      "denom": "ASTER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

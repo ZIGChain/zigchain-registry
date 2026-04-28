@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1n9q6d9j59gaxhk55rpf8ejrcmpeqtxyke8e6d8zehmptmsvj3xas8n0ch7.oob",
+  "type": "factory",
+  "symbol": "OOB",
+  "name": "Oob",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1n9q6d9j59gaxhk55rpf8ejrcmpeqtxyke8e6d8zehmptmsvj3xas8n0ch7.oob",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1n9q6d9j59gaxhk55rpf8ejrcmpeqtxyke8e6d8zehmptmsvj3xas8n0ch7.oob",
+  "base_denom": "coin.zig1n9q6d9j59gaxhk55rpf8ejrcmpeqtxyke8e6d8zehmptmsvj3xas8n0ch7.oob",
+  "creator": "zig1n9q6d9j59gaxhk55rpf8ejrcmpeqtxyke8e6d8zehmptmsvj3xas8n0ch7",
+  "subdenom": "oob",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

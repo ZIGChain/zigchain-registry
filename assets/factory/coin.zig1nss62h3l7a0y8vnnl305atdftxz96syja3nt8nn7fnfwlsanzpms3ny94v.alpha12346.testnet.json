@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1nss62h3l7a0y8vnnl305atdftxz96syja3nt8nn7fnfwlsanzpms3ny94v.alpha12346",
+  "type": "factory",
+  "symbol": "ALPHA12346",
+  "name": "Alpha12346",
+  "decimals": 6,
+  "display_denom": "ALPHA12346",
+  "base_denom": "coin.zig1nss62h3l7a0y8vnnl305atdftxz96syja3nt8nn7fnfwlsanzpms3ny94v.alpha12346",
+  "creator": "zig1nss62h3l7a0y8vnnl305atdftxz96syja3nt8nn7fnfwlsanzpms3ny94v",
+  "subdenom": "alpha12346",
+  "denom_units": [
+    {
+      "denom": "coin.zig1nss62h3l7a0y8vnnl305atdftxz96syja3nt8nn7fnfwlsanzpms3ny94v.alpha12346",
+      "exponent": 0
+    },
+    {
+      "denom": "ALPHA12346",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

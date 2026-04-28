@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17fl37wg4zeylz959wzqx9xlk49x7xsld2gkdyfs88tpnl90uf22qdgpeks.voluptateametquid",
+  "type": "factory",
+  "symbol": "VOLUPTATEAMETQUID",
+  "name": "Voluptateametquid",
+  "decimals": 6,
+  "display_denom": "VOLUPTATEAMETQUID",
+  "base_denom": "coin.zig17fl37wg4zeylz959wzqx9xlk49x7xsld2gkdyfs88tpnl90uf22qdgpeks.voluptateametquid",
+  "creator": "zig17fl37wg4zeylz959wzqx9xlk49x7xsld2gkdyfs88tpnl90uf22qdgpeks",
+  "subdenom": "voluptateametquid",
+  "denom_units": [
+    {
+      "denom": "coin.zig17fl37wg4zeylz959wzqx9xlk49x7xsld2gkdyfs88tpnl90uf22qdgpeks.voluptateametquid",
+      "exponent": 0
+    },
+    {
+      "denom": "VOLUPTATEAMETQUID",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17lv79mjwk326aggftarusht8jd5sx7x3chhh6ezm6q2n4t5clnrqz7s7x6.orange",
+  "type": "factory",
+  "symbol": "ORANGE",
+  "name": "Orange",
+  "decimals": 6,
+  "display_denom": "ORANGE",
+  "base_denom": "coin.zig17lv79mjwk326aggftarusht8jd5sx7x3chhh6ezm6q2n4t5clnrqz7s7x6.orange",
+  "creator": "zig17lv79mjwk326aggftarusht8jd5sx7x3chhh6ezm6q2n4t5clnrqz7s7x6",
+  "subdenom": "orange",
+  "denom_units": [
+    {
+      "denom": "coin.zig17lv79mjwk326aggftarusht8jd5sx7x3chhh6ezm6q2n4t5clnrqz7s7x6.orange",
+      "exponent": 0
+    },
+    {
+      "denom": "ORANGE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

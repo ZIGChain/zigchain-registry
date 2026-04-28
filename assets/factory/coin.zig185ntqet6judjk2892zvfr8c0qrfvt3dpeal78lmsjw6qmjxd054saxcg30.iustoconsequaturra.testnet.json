@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig185ntqet6judjk2892zvfr8c0qrfvt3dpeal78lmsjw6qmjxd054saxcg30.iustoconsequaturra",
+  "type": "factory",
+  "symbol": "IUSTOCONSEQUATURRA",
+  "name": "Iustoconsequaturra",
+  "decimals": 6,
+  "display_denom": "IUSTOCONSEQUATURRA",
+  "base_denom": "coin.zig185ntqet6judjk2892zvfr8c0qrfvt3dpeal78lmsjw6qmjxd054saxcg30.iustoconsequaturra",
+  "creator": "zig185ntqet6judjk2892zvfr8c0qrfvt3dpeal78lmsjw6qmjxd054saxcg30",
+  "subdenom": "iustoconsequaturra",
+  "denom_units": [
+    {
+      "denom": "coin.zig185ntqet6judjk2892zvfr8c0qrfvt3dpeal78lmsjw6qmjxd054saxcg30.iustoconsequaturra",
+      "exponent": 0
+    },
+    {
+      "denom": "IUSTOCONSEQUATURRA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

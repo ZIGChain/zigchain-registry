@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1y4fgy5t7l2jd5sgxjdwakjgwkhxx9x8n0h5e0skjfx3a5rzeqedsamkd99.fala2341",
+  "type": "factory",
+  "symbol": "FALA2341",
+  "name": "Fala2341",
+  "decimals": 6,
+  "display_denom": "FALA2341",
+  "base_denom": "coin.zig1y4fgy5t7l2jd5sgxjdwakjgwkhxx9x8n0h5e0skjfx3a5rzeqedsamkd99.fala2341",
+  "creator": "zig1y4fgy5t7l2jd5sgxjdwakjgwkhxx9x8n0h5e0skjfx3a5rzeqedsamkd99",
+  "subdenom": "fala2341",
+  "denom_units": [
+    {
+      "denom": "coin.zig1y4fgy5t7l2jd5sgxjdwakjgwkhxx9x8n0h5e0skjfx3a5rzeqedsamkd99.fala2341",
+      "exponent": 0
+    },
+    {
+      "denom": "FALA2341",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

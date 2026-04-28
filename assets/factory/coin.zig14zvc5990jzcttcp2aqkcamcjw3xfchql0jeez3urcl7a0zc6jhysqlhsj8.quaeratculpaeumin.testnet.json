@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14zvc5990jzcttcp2aqkcamcjw3xfchql0jeez3urcl7a0zc6jhysqlhsj8.quaeratculpaeumin",
+  "type": "factory",
+  "symbol": "QUAERATCULPAEUMIN",
+  "name": "Quaeratculpaeumin",
+  "decimals": 6,
+  "display_denom": "QUAERATCULPAEUMIN",
+  "base_denom": "coin.zig14zvc5990jzcttcp2aqkcamcjw3xfchql0jeez3urcl7a0zc6jhysqlhsj8.quaeratculpaeumin",
+  "creator": "zig14zvc5990jzcttcp2aqkcamcjw3xfchql0jeez3urcl7a0zc6jhysqlhsj8",
+  "subdenom": "quaeratculpaeumin",
+  "denom_units": [
+    {
+      "denom": "coin.zig14zvc5990jzcttcp2aqkcamcjw3xfchql0jeez3urcl7a0zc6jhysqlhsj8.quaeratculpaeumin",
+      "exponent": 0
+    },
+    {
+      "denom": "QUAERATCULPAEUMIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

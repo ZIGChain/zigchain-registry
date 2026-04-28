@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13qet9edtujcppehqvmsn258m4xg3w6tnun0l7hq30ytr5rvxfheqyw2fn3.ineuindelenitibl",
+  "type": "factory",
+  "symbol": "INEUINDELENITIBL",
+  "name": "Ineuindelenitibl",
+  "decimals": 6,
+  "display_denom": "INEUINDELENITIBL",
+  "base_denom": "coin.zig13qet9edtujcppehqvmsn258m4xg3w6tnun0l7hq30ytr5rvxfheqyw2fn3.ineuindelenitibl",
+  "creator": "zig13qet9edtujcppehqvmsn258m4xg3w6tnun0l7hq30ytr5rvxfheqyw2fn3",
+  "subdenom": "ineuindelenitibl",
+  "denom_units": [
+    {
+      "denom": "coin.zig13qet9edtujcppehqvmsn258m4xg3w6tnun0l7hq30ytr5rvxfheqyw2fn3.ineuindelenitibl",
+      "exponent": 0
+    },
+    {
+      "denom": "INEUINDELENITIBL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

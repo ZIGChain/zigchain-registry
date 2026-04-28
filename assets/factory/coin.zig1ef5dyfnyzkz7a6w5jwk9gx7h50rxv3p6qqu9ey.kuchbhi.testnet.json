@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey.kuchbhi",
+  "type": "factory",
+  "symbol": "KUCHBHI",
+  "name": "Kuchbhi",
+  "decimals": 6,
+  "display_denom": "KUCHBHI",
+  "base_denom": "coin.zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey.kuchbhi",
+  "creator": "zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey",
+  "subdenom": "kuchbhi",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey.kuchbhi",
+      "exponent": 0
+    },
+    {
+      "denom": "KUCHBHI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

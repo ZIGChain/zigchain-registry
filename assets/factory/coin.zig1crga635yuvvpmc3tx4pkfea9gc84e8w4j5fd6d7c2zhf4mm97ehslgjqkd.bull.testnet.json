@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1crga635yuvvpmc3tx4pkfea9gc84e8w4j5fd6d7c2zhf4mm97ehslgjqkd.bull",
+  "type": "factory",
+  "symbol": "BULL",
+  "name": "Bull",
+  "decimals": 6,
+  "display_denom": "BULL",
+  "base_denom": "coin.zig1crga635yuvvpmc3tx4pkfea9gc84e8w4j5fd6d7c2zhf4mm97ehslgjqkd.bull",
+  "creator": "zig1crga635yuvvpmc3tx4pkfea9gc84e8w4j5fd6d7c2zhf4mm97ehslgjqkd",
+  "subdenom": "bull",
+  "denom_units": [
+    {
+      "denom": "coin.zig1crga635yuvvpmc3tx4pkfea9gc84e8w4j5fd6d7c2zhf4mm97ehslgjqkd.bull",
+      "exponent": 0
+    },
+    {
+      "denom": "BULL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

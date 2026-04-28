@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1a0ay3q555ead7jpxpsus64w4gd38sv8p398ml3flamn45wnmwrhq9tca7j.bullishdegen",
+  "type": "factory",
+  "symbol": "BULLISHDEGEN",
+  "name": "Bullishdegen",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1a0ay3q555ead7jpxpsus64w4gd38sv8p398ml3flamn45wnmwrhq9tca7j.bullishdegen",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1a0ay3q555ead7jpxpsus64w4gd38sv8p398ml3flamn45wnmwrhq9tca7j.bullishdegen",
+  "base_denom": "coin.zig1a0ay3q555ead7jpxpsus64w4gd38sv8p398ml3flamn45wnmwrhq9tca7j.bullishdegen",
+  "creator": "zig1a0ay3q555ead7jpxpsus64w4gd38sv8p398ml3flamn45wnmwrhq9tca7j",
+  "subdenom": "bullishdegen",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

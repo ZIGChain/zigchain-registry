@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ml4fpew5sll5xyhn04gx0fzwljgylwczacy3qf294jueaxkmde5skm3zfv.etexcepteurratione",
+  "type": "factory",
+  "symbol": "ETEXCEPTEURRATIONE",
+  "name": "Etexcepteurratione",
+  "decimals": 6,
+  "display_denom": "ETEXCEPTEURRATIONE",
+  "base_denom": "coin.zig1ml4fpew5sll5xyhn04gx0fzwljgylwczacy3qf294jueaxkmde5skm3zfv.etexcepteurratione",
+  "creator": "zig1ml4fpew5sll5xyhn04gx0fzwljgylwczacy3qf294jueaxkmde5skm3zfv",
+  "subdenom": "etexcepteurratione",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ml4fpew5sll5xyhn04gx0fzwljgylwczacy3qf294jueaxkmde5skm3zfv.etexcepteurratione",
+      "exponent": 0
+    },
+    {
+      "denom": "ETEXCEPTEURRATIONE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

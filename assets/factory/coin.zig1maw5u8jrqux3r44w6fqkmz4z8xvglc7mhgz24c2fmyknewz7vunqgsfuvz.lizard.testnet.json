@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1maw5u8jrqux3r44w6fqkmz4z8xvglc7mhgz24c2fmyknewz7vunqgsfuvz.lizard",
+  "type": "factory",
+  "symbol": "LIZARD",
+  "name": "Lizard",
+  "decimals": 6,
+  "display_denom": "LIZARD",
+  "base_denom": "coin.zig1maw5u8jrqux3r44w6fqkmz4z8xvglc7mhgz24c2fmyknewz7vunqgsfuvz.lizard",
+  "creator": "zig1maw5u8jrqux3r44w6fqkmz4z8xvglc7mhgz24c2fmyknewz7vunqgsfuvz",
+  "subdenom": "lizard",
+  "denom_units": [
+    {
+      "denom": "coin.zig1maw5u8jrqux3r44w6fqkmz4z8xvglc7mhgz24c2fmyknewz7vunqgsfuvz.lizard",
+      "exponent": 0
+    },
+    {
+      "denom": "LIZARD",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hl58tuj7cc3cjxrkktpf3uck4ucywhptr2fq4lyyslwuxy47c33scgrkzf.sintsedperferendi",
+  "type": "factory",
+  "symbol": "SINTSEDPERFERENDI",
+  "name": "Sintsedperferendi",
+  "decimals": 6,
+  "display_denom": "SINTSEDPERFERENDI",
+  "base_denom": "coin.zig1hl58tuj7cc3cjxrkktpf3uck4ucywhptr2fq4lyyslwuxy47c33scgrkzf.sintsedperferendi",
+  "creator": "zig1hl58tuj7cc3cjxrkktpf3uck4ucywhptr2fq4lyyslwuxy47c33scgrkzf",
+  "subdenom": "sintsedperferendi",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hl58tuj7cc3cjxrkktpf3uck4ucywhptr2fq4lyyslwuxy47c33scgrkzf.sintsedperferendi",
+      "exponent": 0
+    },
+    {
+      "denom": "SINTSEDPERFERENDI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

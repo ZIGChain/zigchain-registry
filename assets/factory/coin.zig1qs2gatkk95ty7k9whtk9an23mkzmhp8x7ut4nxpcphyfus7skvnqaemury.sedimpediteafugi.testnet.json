@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qs2gatkk95ty7k9whtk9an23mkzmhp8x7ut4nxpcphyfus7skvnqaemury.sedimpediteafugi",
+  "type": "factory",
+  "symbol": "SEDIMPEDITEAFUGI",
+  "name": "Sedimpediteafugi",
+  "decimals": 6,
+  "display_denom": "SEDIMPEDITEAFUGI",
+  "base_denom": "coin.zig1qs2gatkk95ty7k9whtk9an23mkzmhp8x7ut4nxpcphyfus7skvnqaemury.sedimpediteafugi",
+  "creator": "zig1qs2gatkk95ty7k9whtk9an23mkzmhp8x7ut4nxpcphyfus7skvnqaemury",
+  "subdenom": "sedimpediteafugi",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qs2gatkk95ty7k9whtk9an23mkzmhp8x7ut4nxpcphyfus7skvnqaemury.sedimpediteafugi",
+      "exponent": 0
+    },
+    {
+      "denom": "SEDIMPEDITEAFUGI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

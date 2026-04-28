@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1x6qeduxuj6lf09nuqdetfzxeqaf6jyfzjmzqshxm3lfhnakhpvaqhmm9jm.tempordolorquiinc",
+  "type": "factory",
+  "symbol": "TEMPORDOLORQUIINC",
+  "name": "Tempordolorquiinc",
+  "decimals": 6,
+  "display_denom": "TEMPORDOLORQUIINC",
+  "base_denom": "coin.zig1x6qeduxuj6lf09nuqdetfzxeqaf6jyfzjmzqshxm3lfhnakhpvaqhmm9jm.tempordolorquiinc",
+  "creator": "zig1x6qeduxuj6lf09nuqdetfzxeqaf6jyfzjmzqshxm3lfhnakhpvaqhmm9jm",
+  "subdenom": "tempordolorquiinc",
+  "denom_units": [
+    {
+      "denom": "coin.zig1x6qeduxuj6lf09nuqdetfzxeqaf6jyfzjmzqshxm3lfhnakhpvaqhmm9jm.tempordolorquiinc",
+      "exponent": 0
+    },
+    {
+      "denom": "TEMPORDOLORQUIINC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

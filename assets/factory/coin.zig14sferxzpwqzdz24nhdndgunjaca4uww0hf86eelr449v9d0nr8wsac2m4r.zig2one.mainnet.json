@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig14sferxzpwqzdz24nhdndgunjaca4uww0hf86eelr449v9d0nr8wsac2m4r.zig2one",
+  "type": "factory",
+  "symbol": "ZIG2ONE",
+  "name": "Zig2one",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig14sferxzpwqzdz24nhdndgunjaca4uww0hf86eelr449v9d0nr8wsac2m4r.zig2one",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig14sferxzpwqzdz24nhdndgunjaca4uww0hf86eelr449v9d0nr8wsac2m4r.zig2one",
+  "base_denom": "coin.zig14sferxzpwqzdz24nhdndgunjaca4uww0hf86eelr449v9d0nr8wsac2m4r.zig2one",
+  "creator": "zig14sferxzpwqzdz24nhdndgunjaca4uww0hf86eelr449v9d0nr8wsac2m4r",
+  "subdenom": "zig2one",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

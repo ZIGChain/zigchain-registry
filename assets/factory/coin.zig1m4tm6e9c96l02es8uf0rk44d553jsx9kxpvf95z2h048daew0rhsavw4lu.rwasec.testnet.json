@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1m4tm6e9c96l02es8uf0rk44d553jsx9kxpvf95z2h048daew0rhsavw4lu.rwasec",
+  "type": "factory",
+  "symbol": "RWASEC",
+  "name": "Rwasec",
+  "decimals": 6,
+  "display_denom": "RWASEC",
+  "base_denom": "coin.zig1m4tm6e9c96l02es8uf0rk44d553jsx9kxpvf95z2h048daew0rhsavw4lu.rwasec",
+  "creator": "zig1m4tm6e9c96l02es8uf0rk44d553jsx9kxpvf95z2h048daew0rhsavw4lu",
+  "subdenom": "rwasec",
+  "denom_units": [
+    {
+      "denom": "coin.zig1m4tm6e9c96l02es8uf0rk44d553jsx9kxpvf95z2h048daew0rhsavw4lu.rwasec",
+      "exponent": 0
+    },
+    {
+      "denom": "RWASEC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

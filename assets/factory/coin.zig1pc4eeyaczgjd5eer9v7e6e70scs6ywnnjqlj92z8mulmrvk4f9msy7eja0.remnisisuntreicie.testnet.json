@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1pc4eeyaczgjd5eer9v7e6e70scs6ywnnjqlj92z8mulmrvk4f9msy7eja0.remnisisuntreicie",
+  "type": "factory",
+  "symbol": "REMNISISUNTREICIE",
+  "name": "Remnisisuntreicie",
+  "decimals": 6,
+  "display_denom": "REMNISISUNTREICIE",
+  "base_denom": "coin.zig1pc4eeyaczgjd5eer9v7e6e70scs6ywnnjqlj92z8mulmrvk4f9msy7eja0.remnisisuntreicie",
+  "creator": "zig1pc4eeyaczgjd5eer9v7e6e70scs6ywnnjqlj92z8mulmrvk4f9msy7eja0",
+  "subdenom": "remnisisuntreicie",
+  "denom_units": [
+    {
+      "denom": "coin.zig1pc4eeyaczgjd5eer9v7e6e70scs6ywnnjqlj92z8mulmrvk4f9msy7eja0.remnisisuntreicie",
+      "exponent": 0
+    },
+    {
+      "denom": "REMNISISUNTREICIE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

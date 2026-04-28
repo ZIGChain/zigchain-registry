@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1483gm8aqqt5vwvr0u229zkffgkw6q2rh8zeenhskdhxhlx4wqp0sxkt9fh.nonquaeratquaever",
+  "type": "factory",
+  "symbol": "NONQUAERATQUAEVER",
+  "name": "Nonquaeratquaever",
+  "decimals": 6,
+  "display_denom": "NONQUAERATQUAEVER",
+  "base_denom": "coin.zig1483gm8aqqt5vwvr0u229zkffgkw6q2rh8zeenhskdhxhlx4wqp0sxkt9fh.nonquaeratquaever",
+  "creator": "zig1483gm8aqqt5vwvr0u229zkffgkw6q2rh8zeenhskdhxhlx4wqp0sxkt9fh",
+  "subdenom": "nonquaeratquaever",
+  "denom_units": [
+    {
+      "denom": "coin.zig1483gm8aqqt5vwvr0u229zkffgkw6q2rh8zeenhskdhxhlx4wqp0sxkt9fh.nonquaeratquaever",
+      "exponent": 0
+    },
+    {
+      "denom": "NONQUAERATQUAEVER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

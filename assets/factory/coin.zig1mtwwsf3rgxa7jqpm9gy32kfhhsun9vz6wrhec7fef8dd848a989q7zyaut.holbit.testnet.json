@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mtwwsf3rgxa7jqpm9gy32kfhhsun9vz6wrhec7fef8dd848a989q7zyaut.holbit",
+  "type": "factory",
+  "symbol": "HOLBIT",
+  "name": "Holbit",
+  "decimals": 6,
+  "display_denom": "HOLBIT",
+  "base_denom": "coin.zig1mtwwsf3rgxa7jqpm9gy32kfhhsun9vz6wrhec7fef8dd848a989q7zyaut.holbit",
+  "creator": "zig1mtwwsf3rgxa7jqpm9gy32kfhhsun9vz6wrhec7fef8dd848a989q7zyaut",
+  "subdenom": "holbit",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mtwwsf3rgxa7jqpm9gy32kfhhsun9vz6wrhec7fef8dd848a989q7zyaut.holbit",
+      "exponent": 0
+    },
+    {
+      "denom": "HOLBIT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

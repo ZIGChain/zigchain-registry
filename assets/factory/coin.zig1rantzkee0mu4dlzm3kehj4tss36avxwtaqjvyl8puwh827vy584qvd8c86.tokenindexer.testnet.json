@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rantzkee0mu4dlzm3kehj4tss36avxwtaqjvyl8puwh827vy584qvd8c86.tokenindexer",
+  "type": "factory",
+  "symbol": "TOKENINDEXER",
+  "name": "Tokenindexer",
+  "decimals": 6,
+  "display_denom": "TOKENINDEXER",
+  "base_denom": "coin.zig1rantzkee0mu4dlzm3kehj4tss36avxwtaqjvyl8puwh827vy584qvd8c86.tokenindexer",
+  "creator": "zig1rantzkee0mu4dlzm3kehj4tss36avxwtaqjvyl8puwh827vy584qvd8c86",
+  "subdenom": "tokenindexer",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rantzkee0mu4dlzm3kehj4tss36avxwtaqjvyl8puwh827vy584qvd8c86.tokenindexer",
+      "exponent": 0
+    },
+    {
+      "denom": "TOKENINDEXER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14cymkdqk3hz642z3gj5mz4d86xu2jxwdv7fq25kcdgs6jxr3gjsstpqj0u.doloreaspernaturut",
+  "type": "factory",
+  "symbol": "DOLOREASPERNATURUT",
+  "name": "Doloreaspernaturut",
+  "decimals": 6,
+  "display_denom": "DOLOREASPERNATURUT",
+  "base_denom": "coin.zig14cymkdqk3hz642z3gj5mz4d86xu2jxwdv7fq25kcdgs6jxr3gjsstpqj0u.doloreaspernaturut",
+  "creator": "zig14cymkdqk3hz642z3gj5mz4d86xu2jxwdv7fq25kcdgs6jxr3gjsstpqj0u",
+  "subdenom": "doloreaspernaturut",
+  "denom_units": [
+    {
+      "denom": "coin.zig14cymkdqk3hz642z3gj5mz4d86xu2jxwdv7fq25kcdgs6jxr3gjsstpqj0u.doloreaspernaturut",
+      "exponent": 0
+    },
+    {
+      "denom": "DOLOREASPERNATURUT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

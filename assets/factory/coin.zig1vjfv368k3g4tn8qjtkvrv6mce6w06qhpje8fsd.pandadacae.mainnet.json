@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandadacae",
+  "type": "factory",
+  "symbol": "PANDADACAE",
+  "name": "Pandadacae",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandadacae",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandadacae",
+  "base_denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandadacae",
+  "creator": "zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd",
+  "subdenom": "pandadacae",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

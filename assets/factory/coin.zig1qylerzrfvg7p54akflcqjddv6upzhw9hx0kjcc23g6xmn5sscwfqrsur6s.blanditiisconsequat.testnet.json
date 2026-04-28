@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qylerzrfvg7p54akflcqjddv6upzhw9hx0kjcc23g6xmn5sscwfqrsur6s.blanditiisconsequat",
+  "type": "factory",
+  "symbol": "BLANDITIISCONSEQUAT",
+  "name": "Blanditiisconsequat",
+  "decimals": 6,
+  "display_denom": "BLANDITIISCONSEQUAT",
+  "base_denom": "coin.zig1qylerzrfvg7p54akflcqjddv6upzhw9hx0kjcc23g6xmn5sscwfqrsur6s.blanditiisconsequat",
+  "creator": "zig1qylerzrfvg7p54akflcqjddv6upzhw9hx0kjcc23g6xmn5sscwfqrsur6s",
+  "subdenom": "blanditiisconsequat",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qylerzrfvg7p54akflcqjddv6upzhw9hx0kjcc23g6xmn5sscwfqrsur6s.blanditiisconsequat",
+      "exponent": 0
+    },
+    {
+      "denom": "BLANDITIISCONSEQUAT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

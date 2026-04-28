@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1xddpyvs664dzppd0c6xl73rrk70lks4prrvvan0jkxm5dp5pfk5qcq8sfw.dolorinetquaerat",
+  "type": "factory",
+  "symbol": "DOLORINETQUAERAT",
+  "name": "Dolorinetquaerat",
+  "decimals": 6,
+  "display_denom": "DOLORINETQUAERAT",
+  "base_denom": "coin.zig1xddpyvs664dzppd0c6xl73rrk70lks4prrvvan0jkxm5dp5pfk5qcq8sfw.dolorinetquaerat",
+  "creator": "zig1xddpyvs664dzppd0c6xl73rrk70lks4prrvvan0jkxm5dp5pfk5qcq8sfw",
+  "subdenom": "dolorinetquaerat",
+  "denom_units": [
+    {
+      "denom": "coin.zig1xddpyvs664dzppd0c6xl73rrk70lks4prrvvan0jkxm5dp5pfk5qcq8sfw.dolorinetquaerat",
+      "exponent": 0
+    },
+    {
+      "denom": "DOLORINETQUAERAT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

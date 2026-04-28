@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1sd6yjdkhlsddg9d24zy42zlsavklw0xszeum4zmz6l6wk9z7qaes30ky40.involuptatequodpo",
+  "type": "factory",
+  "symbol": "INVOLUPTATEQUODPO",
+  "name": "Involuptatequodpo",
+  "decimals": 6,
+  "display_denom": "INVOLUPTATEQUODPO",
+  "base_denom": "coin.zig1sd6yjdkhlsddg9d24zy42zlsavklw0xszeum4zmz6l6wk9z7qaes30ky40.involuptatequodpo",
+  "creator": "zig1sd6yjdkhlsddg9d24zy42zlsavklw0xszeum4zmz6l6wk9z7qaes30ky40",
+  "subdenom": "involuptatequodpo",
+  "denom_units": [
+    {
+      "denom": "coin.zig1sd6yjdkhlsddg9d24zy42zlsavklw0xszeum4zmz6l6wk9z7qaes30ky40.involuptatequodpo",
+      "exponent": 0
+    },
+    {
+      "denom": "INVOLUPTATEQUODPO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

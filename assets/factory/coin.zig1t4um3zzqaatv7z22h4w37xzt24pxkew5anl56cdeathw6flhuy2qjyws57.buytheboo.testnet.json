@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1t4um3zzqaatv7z22h4w37xzt24pxkew5anl56cdeathw6flhuy2qjyws57.buytheboo",
+  "type": "factory",
+  "symbol": "BUYTHEBOO",
+  "name": "Buytheboo",
+  "decimals": 6,
+  "display_denom": "BUYTHEBOO",
+  "base_denom": "coin.zig1t4um3zzqaatv7z22h4w37xzt24pxkew5anl56cdeathw6flhuy2qjyws57.buytheboo",
+  "creator": "zig1t4um3zzqaatv7z22h4w37xzt24pxkew5anl56cdeathw6flhuy2qjyws57",
+  "subdenom": "buytheboo",
+  "denom_units": [
+    {
+      "denom": "coin.zig1t4um3zzqaatv7z22h4w37xzt24pxkew5anl56cdeathw6flhuy2qjyws57.buytheboo",
+      "exponent": 0
+    },
+    {
+      "denom": "BUYTHEBOO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

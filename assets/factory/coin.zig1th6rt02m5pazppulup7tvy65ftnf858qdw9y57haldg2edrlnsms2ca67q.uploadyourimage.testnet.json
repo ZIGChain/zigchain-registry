@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1th6rt02m5pazppulup7tvy65ftnf858qdw9y57haldg2edrlnsms2ca67q.uploadyourimage",
+  "type": "factory",
+  "symbol": "UPLOADYOURIMAGE",
+  "name": "Uploadyourimage",
+  "decimals": 6,
+  "display_denom": "UPLOADYOURIMAGE",
+  "base_denom": "coin.zig1th6rt02m5pazppulup7tvy65ftnf858qdw9y57haldg2edrlnsms2ca67q.uploadyourimage",
+  "creator": "zig1th6rt02m5pazppulup7tvy65ftnf858qdw9y57haldg2edrlnsms2ca67q",
+  "subdenom": "uploadyourimage",
+  "denom_units": [
+    {
+      "denom": "coin.zig1th6rt02m5pazppulup7tvy65ftnf858qdw9y57haldg2edrlnsms2ca67q.uploadyourimage",
+      "exponent": 0
+    },
+    {
+      "denom": "UPLOADYOURIMAGE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

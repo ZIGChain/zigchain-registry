@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rd9dugexndclxkf2vqrmgkftv6yqn4g9w0f35258frtep0qd87zqcju8e4.sky",
+  "type": "factory",
+  "symbol": "SKY",
+  "name": "Sky",
+  "decimals": 6,
+  "display_denom": "SKY",
+  "base_denom": "coin.zig1rd9dugexndclxkf2vqrmgkftv6yqn4g9w0f35258frtep0qd87zqcju8e4.sky",
+  "creator": "zig1rd9dugexndclxkf2vqrmgkftv6yqn4g9w0f35258frtep0qd87zqcju8e4",
+  "subdenom": "sky",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rd9dugexndclxkf2vqrmgkftv6yqn4g9w0f35258frtep0qd87zqcju8e4.sky",
+      "exponent": 0
+    },
+    {
+      "denom": "SKY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15sjzqwuvrrlp0h2a9p37dlay8vwmlmafqz9c0yzv0g8akh0hdgwqjfq8fx.elitrepudiandaein",
+  "type": "factory",
+  "symbol": "ELITREPUDIANDAEIN",
+  "name": "Elitrepudiandaein",
+  "decimals": 6,
+  "display_denom": "ELITREPUDIANDAEIN",
+  "base_denom": "coin.zig15sjzqwuvrrlp0h2a9p37dlay8vwmlmafqz9c0yzv0g8akh0hdgwqjfq8fx.elitrepudiandaein",
+  "creator": "zig15sjzqwuvrrlp0h2a9p37dlay8vwmlmafqz9c0yzv0g8akh0hdgwqjfq8fx",
+  "subdenom": "elitrepudiandaein",
+  "denom_units": [
+    {
+      "denom": "coin.zig15sjzqwuvrrlp0h2a9p37dlay8vwmlmafqz9c0yzv0g8akh0hdgwqjfq8fx.elitrepudiandaein",
+      "exponent": 0
+    },
+    {
+      "denom": "ELITREPUDIANDAEIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

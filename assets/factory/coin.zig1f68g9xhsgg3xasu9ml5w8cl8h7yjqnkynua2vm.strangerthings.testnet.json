@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.strangerthings",
+  "type": "factory",
+  "symbol": "STRANGERTHINGS",
+  "name": "Strangerthings",
+  "decimals": 6,
+  "display_denom": "STRANGERTHINGS",
+  "base_denom": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.strangerthings",
+  "creator": "zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm",
+  "subdenom": "strangerthings",
+  "denom_units": [
+    {
+      "denom": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.strangerthings",
+      "exponent": 0
+    },
+    {
+      "denom": "STRANGERTHINGS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

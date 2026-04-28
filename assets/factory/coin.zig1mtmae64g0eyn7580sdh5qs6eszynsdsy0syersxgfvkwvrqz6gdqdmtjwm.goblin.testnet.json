@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mtmae64g0eyn7580sdh5qs6eszynsdsy0syersxgfvkwvrqz6gdqdmtjwm.goblin",
+  "type": "factory",
+  "symbol": "GOBLIN",
+  "name": "Goblin",
+  "decimals": 6,
+  "display_denom": "GOBLIN",
+  "base_denom": "coin.zig1mtmae64g0eyn7580sdh5qs6eszynsdsy0syersxgfvkwvrqz6gdqdmtjwm.goblin",
+  "creator": "zig1mtmae64g0eyn7580sdh5qs6eszynsdsy0syersxgfvkwvrqz6gdqdmtjwm",
+  "subdenom": "goblin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mtmae64g0eyn7580sdh5qs6eszynsdsy0syersxgfvkwvrqz6gdqdmtjwm.goblin",
+      "exponent": 0
+    },
+    {
+      "denom": "GOBLIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

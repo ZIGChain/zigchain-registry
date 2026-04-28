@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1acgvmyhjsdsp5m4fd9ugd4w86snpsc489u4sc64uc30fd9djkr5qg7ycta.commodiiustoaspern",
+  "type": "factory",
+  "symbol": "COMMODIIUSTOASPERN",
+  "name": "Commodiiustoaspern",
+  "decimals": 6,
+  "display_denom": "COMMODIIUSTOASPERN",
+  "base_denom": "coin.zig1acgvmyhjsdsp5m4fd9ugd4w86snpsc489u4sc64uc30fd9djkr5qg7ycta.commodiiustoaspern",
+  "creator": "zig1acgvmyhjsdsp5m4fd9ugd4w86snpsc489u4sc64uc30fd9djkr5qg7ycta",
+  "subdenom": "commodiiustoaspern",
+  "denom_units": [
+    {
+      "denom": "coin.zig1acgvmyhjsdsp5m4fd9ugd4w86snpsc489u4sc64uc30fd9djkr5qg7ycta.commodiiustoaspern",
+      "exponent": 0
+    },
+    {
+      "denom": "COMMODIIUSTOASPERN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

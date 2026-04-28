@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1jy6r0yenl4hwqseu933mlyhpv8uund0z9zupyk2lhm7cavnvn4lqvzgatr.velcumsuntsitl",
+  "type": "factory",
+  "symbol": "VELCUMSUNTSITL",
+  "name": "Velcumsuntsitl",
+  "decimals": 6,
+  "display_denom": "VELCUMSUNTSITL",
+  "base_denom": "coin.zig1jy6r0yenl4hwqseu933mlyhpv8uund0z9zupyk2lhm7cavnvn4lqvzgatr.velcumsuntsitl",
+  "creator": "zig1jy6r0yenl4hwqseu933mlyhpv8uund0z9zupyk2lhm7cavnvn4lqvzgatr",
+  "subdenom": "velcumsuntsitl",
+  "denom_units": [
+    {
+      "denom": "coin.zig1jy6r0yenl4hwqseu933mlyhpv8uund0z9zupyk2lhm7cavnvn4lqvzgatr.velcumsuntsitl",
+      "exponent": 0
+    },
+    {
+      "denom": "VELCUMSUNTSITL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

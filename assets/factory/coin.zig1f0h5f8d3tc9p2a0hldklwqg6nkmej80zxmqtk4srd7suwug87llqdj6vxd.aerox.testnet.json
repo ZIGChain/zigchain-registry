@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1f0h5f8d3tc9p2a0hldklwqg6nkmej80zxmqtk4srd7suwug87llqdj6vxd.aerox",
+  "type": "factory",
+  "symbol": "AEROX",
+  "name": "Aerox",
+  "decimals": 6,
+  "display_denom": "AEROX",
+  "base_denom": "coin.zig1f0h5f8d3tc9p2a0hldklwqg6nkmej80zxmqtk4srd7suwug87llqdj6vxd.aerox",
+  "creator": "zig1f0h5f8d3tc9p2a0hldklwqg6nkmej80zxmqtk4srd7suwug87llqdj6vxd",
+  "subdenom": "aerox",
+  "denom_units": [
+    {
+      "denom": "coin.zig1f0h5f8d3tc9p2a0hldklwqg6nkmej80zxmqtk4srd7suwug87llqdj6vxd.aerox",
+      "exponent": 0
+    },
+    {
+      "denom": "AEROX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

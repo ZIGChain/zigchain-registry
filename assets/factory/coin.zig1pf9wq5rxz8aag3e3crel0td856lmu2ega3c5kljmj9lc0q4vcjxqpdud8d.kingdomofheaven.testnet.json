@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1pf9wq5rxz8aag3e3crel0td856lmu2ega3c5kljmj9lc0q4vcjxqpdud8d.kingdomofheaven",
+  "type": "factory",
+  "symbol": "KINGDOMOFHEAVEN",
+  "name": "Kingdomofheaven",
+  "decimals": 6,
+  "display_denom": "KINGDOMOFHEAVEN",
+  "base_denom": "coin.zig1pf9wq5rxz8aag3e3crel0td856lmu2ega3c5kljmj9lc0q4vcjxqpdud8d.kingdomofheaven",
+  "creator": "zig1pf9wq5rxz8aag3e3crel0td856lmu2ega3c5kljmj9lc0q4vcjxqpdud8d",
+  "subdenom": "kingdomofheaven",
+  "denom_units": [
+    {
+      "denom": "coin.zig1pf9wq5rxz8aag3e3crel0td856lmu2ega3c5kljmj9lc0q4vcjxqpdud8d.kingdomofheaven",
+      "exponent": 0
+    },
+    {
+      "denom": "KINGDOMOFHEAVEN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

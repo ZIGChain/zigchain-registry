@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1lnqn48uhfs4chm32cqkxfln20dqu0x7dtxrz8z7duw7cscy3s7nsp6e25w.sentience",
+  "type": "factory",
+  "symbol": "SENTIENCE",
+  "name": "Sentience",
+  "decimals": 6,
+  "display_denom": "SENTIENCE",
+  "base_denom": "coin.zig1lnqn48uhfs4chm32cqkxfln20dqu0x7dtxrz8z7duw7cscy3s7nsp6e25w.sentience",
+  "creator": "zig1lnqn48uhfs4chm32cqkxfln20dqu0x7dtxrz8z7duw7cscy3s7nsp6e25w",
+  "subdenom": "sentience",
+  "denom_units": [
+    {
+      "denom": "coin.zig1lnqn48uhfs4chm32cqkxfln20dqu0x7dtxrz8z7duw7cscy3s7nsp6e25w.sentience",
+      "exponent": 0
+    },
+    {
+      "denom": "SENTIENCE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

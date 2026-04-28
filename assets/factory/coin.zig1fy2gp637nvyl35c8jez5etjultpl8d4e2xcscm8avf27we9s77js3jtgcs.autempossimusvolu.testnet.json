@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1fy2gp637nvyl35c8jez5etjultpl8d4e2xcscm8avf27we9s77js3jtgcs.autempossimusvolu",
+  "type": "factory",
+  "symbol": "AUTEMPOSSIMUSVOLU",
+  "name": "Autempossimusvolu",
+  "decimals": 6,
+  "display_denom": "AUTEMPOSSIMUSVOLU",
+  "base_denom": "coin.zig1fy2gp637nvyl35c8jez5etjultpl8d4e2xcscm8avf27we9s77js3jtgcs.autempossimusvolu",
+  "creator": "zig1fy2gp637nvyl35c8jez5etjultpl8d4e2xcscm8avf27we9s77js3jtgcs",
+  "subdenom": "autempossimusvolu",
+  "denom_units": [
+    {
+      "denom": "coin.zig1fy2gp637nvyl35c8jez5etjultpl8d4e2xcscm8avf27we9s77js3jtgcs.autempossimusvolu",
+      "exponent": 0
+    },
+    {
+      "denom": "AUTEMPOSSIMUSVOLU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

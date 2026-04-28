@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10rfjm85jmzfhravjwpq3hcdz8ngxg7lxd0drkr.uoro",
+  "type": "factory",
+  "symbol": "UORO",
+  "name": "Uoro",
+  "decimals": 6,
+  "display_denom": "UORO",
+  "base_denom": "coin.zig10rfjm85jmzfhravjwpq3hcdz8ngxg7lxd0drkr.uoro",
+  "creator": "zig10rfjm85jmzfhravjwpq3hcdz8ngxg7lxd0drkr",
+  "subdenom": "uoro",
+  "denom_units": [
+    {
+      "denom": "coin.zig10rfjm85jmzfhravjwpq3hcdz8ngxg7lxd0drkr.uoro",
+      "exponent": 0
+    },
+    {
+      "denom": "UORO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

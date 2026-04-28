@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1g3akjwmaxnn7ue8wu0y5kqlfeyawtw7q5vwjyclcfg987kqdejlqte8mtu.guidev2",
+  "type": "factory",
+  "symbol": "GUIDEV2",
+  "name": "Guidev2",
+  "decimals": 6,
+  "display_denom": "GUIDEV2",
+  "base_denom": "coin.zig1g3akjwmaxnn7ue8wu0y5kqlfeyawtw7q5vwjyclcfg987kqdejlqte8mtu.guidev2",
+  "creator": "zig1g3akjwmaxnn7ue8wu0y5kqlfeyawtw7q5vwjyclcfg987kqdejlqte8mtu",
+  "subdenom": "guidev2",
+  "denom_units": [
+    {
+      "denom": "coin.zig1g3akjwmaxnn7ue8wu0y5kqlfeyawtw7q5vwjyclcfg987kqdejlqte8mtu.guidev2",
+      "exponent": 0
+    },
+    {
+      "denom": "GUIDEV2",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

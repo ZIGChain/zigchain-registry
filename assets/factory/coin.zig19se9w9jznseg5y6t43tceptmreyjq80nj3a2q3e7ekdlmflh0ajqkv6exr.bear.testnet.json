@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig19se9w9jznseg5y6t43tceptmreyjq80nj3a2q3e7ekdlmflh0ajqkv6exr.bear",
+  "type": "factory",
+  "symbol": "BEAR",
+  "name": "Bear",
+  "decimals": 6,
+  "display_denom": "BEAR",
+  "base_denom": "coin.zig19se9w9jznseg5y6t43tceptmreyjq80nj3a2q3e7ekdlmflh0ajqkv6exr.bear",
+  "creator": "zig19se9w9jznseg5y6t43tceptmreyjq80nj3a2q3e7ekdlmflh0ajqkv6exr",
+  "subdenom": "bear",
+  "denom_units": [
+    {
+      "denom": "coin.zig19se9w9jznseg5y6t43tceptmreyjq80nj3a2q3e7ekdlmflh0ajqkv6exr.bear",
+      "exponent": 0
+    },
+    {
+      "denom": "BEAR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

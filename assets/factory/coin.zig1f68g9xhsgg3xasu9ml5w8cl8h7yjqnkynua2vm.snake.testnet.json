@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.snake",
+  "type": "factory",
+  "symbol": "SNAKE",
+  "name": "Snake",
+  "decimals": 6,
+  "display_denom": "SNAKE",
+  "base_denom": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.snake",
+  "creator": "zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm",
+  "subdenom": "snake",
+  "denom_units": [
+    {
+      "denom": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.snake",
+      "exponent": 0
+    },
+    {
+      "denom": "SNAKE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

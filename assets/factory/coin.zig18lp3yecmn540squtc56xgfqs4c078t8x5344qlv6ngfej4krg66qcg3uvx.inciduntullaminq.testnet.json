@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18lp3yecmn540squtc56xgfqs4c078t8x5344qlv6ngfej4krg66qcg3uvx.inciduntullaminq",
+  "type": "factory",
+  "symbol": "INCIDUNTULLAMINQ",
+  "name": "Inciduntullaminq",
+  "decimals": 6,
+  "display_denom": "INCIDUNTULLAMINQ",
+  "base_denom": "coin.zig18lp3yecmn540squtc56xgfqs4c078t8x5344qlv6ngfej4krg66qcg3uvx.inciduntullaminq",
+  "creator": "zig18lp3yecmn540squtc56xgfqs4c078t8x5344qlv6ngfej4krg66qcg3uvx",
+  "subdenom": "inciduntullaminq",
+  "denom_units": [
+    {
+      "denom": "coin.zig18lp3yecmn540squtc56xgfqs4c078t8x5344qlv6ngfej4krg66qcg3uvx.inciduntullaminq",
+      "exponent": 0
+    },
+    {
+      "denom": "INCIDUNTULLAMINQ",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

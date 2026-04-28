@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18jf676xetvhxx2hwpn7mkvuq4h5yh9f2rg0vdv46tzgamug7akmsqmx4mh.geology",
+  "type": "factory",
+  "symbol": "GEOLOGY",
+  "name": "Geology",
+  "decimals": 6,
+  "display_denom": "GEOLOGY",
+  "base_denom": "coin.zig18jf676xetvhxx2hwpn7mkvuq4h5yh9f2rg0vdv46tzgamug7akmsqmx4mh.geology",
+  "creator": "zig18jf676xetvhxx2hwpn7mkvuq4h5yh9f2rg0vdv46tzgamug7akmsqmx4mh",
+  "subdenom": "geology",
+  "denom_units": [
+    {
+      "denom": "coin.zig18jf676xetvhxx2hwpn7mkvuq4h5yh9f2rg0vdv46tzgamug7akmsqmx4mh.geology",
+      "exponent": 0
+    },
+    {
+      "denom": "GEOLOGY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

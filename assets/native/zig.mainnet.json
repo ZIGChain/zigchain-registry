@@ -1,0 +1,69 @@
+{
+    "$schema": "../../schemas/asset.native.schema.json",
+    "order": 1,
+    "network": "mainnet",
+    "asset_id": "zigchain",
+    "type": "native",
+    "symbol": "ZIG",
+    "name": "ZIGChain Native Token",
+    "description": "The native token of ZIGChain",
+    "extended_description": "ZIGChain (ZIG) is a Layer 1 blockchain focused on unlocking financial opportunities for everyone - regardless of their income, location, or level of knowledge.",
+    "decimals": 6,
+    "display_denom": "ZIG",
+    "base_denom": "uzig",
+    "denom_units": [
+        {
+            "denom": "uzig",
+            "exponent": 0,
+            "aliases": [
+                "microzig"
+            ]
+        },
+        {
+            "denom": "mzig",
+            "exponent": 3,
+            "aliases": [
+              "millizig"
+            ]
+        },
+        {
+            "denom": "zig",
+            "exponent": 6
+        }
+    ],
+    "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0xb2617246d0c6c0087f18703d576831899ca94f01"
+          },
+          "provider": "ZIGChain"
+        }
+    ],
+    "logo_uris": {
+        "png": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/zigchain.png",
+        "svg": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/zigchain.svg"
+    },
+    "images": [
+        {
+          "chain_name": "ethereum",
+          "base_denom": "0xb2617246d0c6c0087f18703d576831899ca94f01"
+        }
+    ],
+    "is_verified": true,
+    "coingecko_id": "zignaly",
+    "keywords": [
+        "zigchain",
+        "rwa",
+        "wealth generation infrastructure",
+        "wasm"
+    ],
+    "socials": {
+        "website": "https://zigchain.com/",
+        "telegram": "https://t.me/ZignalyHQ",
+        "discord": "https://discord.zignaly.com",
+        "medium": "https://medium.com/zignaly",
+        "x": "https://x.com/zigchain"
+    }
+}

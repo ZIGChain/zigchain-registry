@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1mswx0ldqfujrpwm0lge9l9sfws4w7q3wmgrmjmshepk06e5sndgsxkzk5y.pumpeet",
+  "type": "factory",
+  "symbol": "PUMPEET",
+  "name": "Pumpeet",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1mswx0ldqfujrpwm0lge9l9sfws4w7q3wmgrmjmshepk06e5sndgsxkzk5y.pumpeet",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1mswx0ldqfujrpwm0lge9l9sfws4w7q3wmgrmjmshepk06e5sndgsxkzk5y.pumpeet",
+  "base_denom": "coin.zig1mswx0ldqfujrpwm0lge9l9sfws4w7q3wmgrmjmshepk06e5sndgsxkzk5y.pumpeet",
+  "creator": "zig1mswx0ldqfujrpwm0lge9l9sfws4w7q3wmgrmjmshepk06e5sndgsxkzk5y",
+  "subdenom": "pumpeet",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1g3nkdsjkfjm7ex0fmj69wsr672ke9rjlzuskjqzfwgqptfvy9a8sqd832l.rafay",
+  "type": "factory",
+  "symbol": "RAFAY",
+  "name": "Rafay",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1g3nkdsjkfjm7ex0fmj69wsr672ke9rjlzuskjqzfwgqptfvy9a8sqd832l.rafay",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1g3nkdsjkfjm7ex0fmj69wsr672ke9rjlzuskjqzfwgqptfvy9a8sqd832l.rafay",
+  "base_denom": "coin.zig1g3nkdsjkfjm7ex0fmj69wsr672ke9rjlzuskjqzfwgqptfvy9a8sqd832l.rafay",
+  "creator": "zig1g3nkdsjkfjm7ex0fmj69wsr672ke9rjlzuskjqzfwgqptfvy9a8sqd832l",
+  "subdenom": "rafay",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

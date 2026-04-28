@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17e0ms5gp9sjq0a3ghc67ez89evd88pxfefd82v3kyyp9ww2k7x3qququ2k.recusandaeducimus",
+  "type": "factory",
+  "symbol": "RECUSANDAEDUCIMUS",
+  "name": "Recusandaeducimus",
+  "decimals": 6,
+  "display_denom": "RECUSANDAEDUCIMUS",
+  "base_denom": "coin.zig17e0ms5gp9sjq0a3ghc67ez89evd88pxfefd82v3kyyp9ww2k7x3qququ2k.recusandaeducimus",
+  "creator": "zig17e0ms5gp9sjq0a3ghc67ez89evd88pxfefd82v3kyyp9ww2k7x3qququ2k",
+  "subdenom": "recusandaeducimus",
+  "denom_units": [
+    {
+      "denom": "coin.zig17e0ms5gp9sjq0a3ghc67ez89evd88pxfefd82v3kyyp9ww2k7x3qququ2k.recusandaeducimus",
+      "exponent": 0
+    },
+    {
+      "denom": "RECUSANDAEDUCIMUS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1tyseuvy0kq4dk57khnfzm29hwvz9jdf5a8rgfr24v4tt83fuwcdsqcwltm.zzz111",
+  "type": "factory",
+  "symbol": "ZZZ111",
+  "name": "Zzz111",
+  "decimals": 6,
+  "display_denom": "ZZZ111",
+  "base_denom": "coin.zig1tyseuvy0kq4dk57khnfzm29hwvz9jdf5a8rgfr24v4tt83fuwcdsqcwltm.zzz111",
+  "creator": "zig1tyseuvy0kq4dk57khnfzm29hwvz9jdf5a8rgfr24v4tt83fuwcdsqcwltm",
+  "subdenom": "zzz111",
+  "denom_units": [
+    {
+      "denom": "coin.zig1tyseuvy0kq4dk57khnfzm29hwvz9jdf5a8rgfr24v4tt83fuwcdsqcwltm.zzz111",
+      "exponent": 0
+    },
+    {
+      "denom": "ZZZ111",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

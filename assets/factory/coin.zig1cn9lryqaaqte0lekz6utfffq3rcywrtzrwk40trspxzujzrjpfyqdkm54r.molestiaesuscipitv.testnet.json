@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1cn9lryqaaqte0lekz6utfffq3rcywrtzrwk40trspxzujzrjpfyqdkm54r.molestiaesuscipitv",
+  "type": "factory",
+  "symbol": "MOLESTIAESUSCIPITV",
+  "name": "Molestiaesuscipitv",
+  "decimals": 6,
+  "display_denom": "MOLESTIAESUSCIPITV",
+  "base_denom": "coin.zig1cn9lryqaaqte0lekz6utfffq3rcywrtzrwk40trspxzujzrjpfyqdkm54r.molestiaesuscipitv",
+  "creator": "zig1cn9lryqaaqte0lekz6utfffq3rcywrtzrwk40trspxzujzrjpfyqdkm54r",
+  "subdenom": "molestiaesuscipitv",
+  "denom_units": [
+    {
+      "denom": "coin.zig1cn9lryqaaqte0lekz6utfffq3rcywrtzrwk40trspxzujzrjpfyqdkm54r.molestiaesuscipitv",
+      "exponent": 0
+    },
+    {
+      "denom": "MOLESTIAESUSCIPITV",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

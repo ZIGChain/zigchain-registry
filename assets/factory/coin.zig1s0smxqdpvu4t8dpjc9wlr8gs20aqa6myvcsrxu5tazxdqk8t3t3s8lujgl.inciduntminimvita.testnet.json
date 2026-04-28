@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1s0smxqdpvu4t8dpjc9wlr8gs20aqa6myvcsrxu5tazxdqk8t3t3s8lujgl.inciduntminimvita",
+  "type": "factory",
+  "symbol": "INCIDUNTMINIMVITA",
+  "name": "Inciduntminimvita",
+  "decimals": 6,
+  "display_denom": "INCIDUNTMINIMVITA",
+  "base_denom": "coin.zig1s0smxqdpvu4t8dpjc9wlr8gs20aqa6myvcsrxu5tazxdqk8t3t3s8lujgl.inciduntminimvita",
+  "creator": "zig1s0smxqdpvu4t8dpjc9wlr8gs20aqa6myvcsrxu5tazxdqk8t3t3s8lujgl",
+  "subdenom": "inciduntminimvita",
+  "denom_units": [
+    {
+      "denom": "coin.zig1s0smxqdpvu4t8dpjc9wlr8gs20aqa6myvcsrxu5tazxdqk8t3t3s8lujgl.inciduntminimvita",
+      "exponent": 0
+    },
+    {
+      "denom": "INCIDUNTMINIMVITA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

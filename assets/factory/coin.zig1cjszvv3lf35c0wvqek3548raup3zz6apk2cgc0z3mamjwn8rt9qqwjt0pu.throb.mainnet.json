@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1cjszvv3lf35c0wvqek3548raup3zz6apk2cgc0z3mamjwn8rt9qqwjt0pu.throb",
+  "type": "factory",
+  "symbol": "THROB",
+  "name": "Throb",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1cjszvv3lf35c0wvqek3548raup3zz6apk2cgc0z3mamjwn8rt9qqwjt0pu.throb",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1cjszvv3lf35c0wvqek3548raup3zz6apk2cgc0z3mamjwn8rt9qqwjt0pu.throb",
+  "base_denom": "coin.zig1cjszvv3lf35c0wvqek3548raup3zz6apk2cgc0z3mamjwn8rt9qqwjt0pu.throb",
+  "creator": "zig1cjszvv3lf35c0wvqek3548raup3zz6apk2cgc0z3mamjwn8rt9qqwjt0pu",
+  "subdenom": "throb",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

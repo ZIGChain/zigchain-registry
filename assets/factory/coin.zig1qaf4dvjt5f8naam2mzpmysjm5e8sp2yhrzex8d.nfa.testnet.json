@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qaf4dvjt5f8naam2mzpmysjm5e8sp2yhrzex8d.nfa",
+  "type": "factory",
+  "symbol": "NFA",
+  "name": "Nfa",
+  "decimals": 6,
+  "display_denom": "NFA",
+  "base_denom": "coin.zig1qaf4dvjt5f8naam2mzpmysjm5e8sp2yhrzex8d.nfa",
+  "creator": "zig1qaf4dvjt5f8naam2mzpmysjm5e8sp2yhrzex8d",
+  "subdenom": "nfa",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qaf4dvjt5f8naam2mzpmysjm5e8sp2yhrzex8d.nfa",
+      "exponent": 0
+    },
+    {
+      "denom": "NFA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

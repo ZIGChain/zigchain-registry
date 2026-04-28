@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13hk4ejg0rgq8qa404tnr4hwlyvtdhujpmrae8kl6m43thaa8a78q4mvnua.velitdoloresuntv",
+  "type": "factory",
+  "symbol": "VELITDOLORESUNTV",
+  "name": "Velitdoloresuntv",
+  "decimals": 6,
+  "display_denom": "VELITDOLORESUNTV",
+  "base_denom": "coin.zig13hk4ejg0rgq8qa404tnr4hwlyvtdhujpmrae8kl6m43thaa8a78q4mvnua.velitdoloresuntv",
+  "creator": "zig13hk4ejg0rgq8qa404tnr4hwlyvtdhujpmrae8kl6m43thaa8a78q4mvnua",
+  "subdenom": "velitdoloresuntv",
+  "denom_units": [
+    {
+      "denom": "coin.zig13hk4ejg0rgq8qa404tnr4hwlyvtdhujpmrae8kl6m43thaa8a78q4mvnua.velitdoloresuntv",
+      "exponent": 0
+    },
+    {
+      "denom": "VELITDOLORESUNTV",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

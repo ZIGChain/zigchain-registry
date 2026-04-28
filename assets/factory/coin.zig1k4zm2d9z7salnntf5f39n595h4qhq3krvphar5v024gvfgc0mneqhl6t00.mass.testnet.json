@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1k4zm2d9z7salnntf5f39n595h4qhq3krvphar5v024gvfgc0mneqhl6t00.mass",
+  "type": "factory",
+  "symbol": "MASS",
+  "name": "Mass",
+  "decimals": 6,
+  "display_denom": "MASS",
+  "base_denom": "coin.zig1k4zm2d9z7salnntf5f39n595h4qhq3krvphar5v024gvfgc0mneqhl6t00.mass",
+  "creator": "zig1k4zm2d9z7salnntf5f39n595h4qhq3krvphar5v024gvfgc0mneqhl6t00",
+  "subdenom": "mass",
+  "denom_units": [
+    {
+      "denom": "coin.zig1k4zm2d9z7salnntf5f39n595h4qhq3krvphar5v024gvfgc0mneqhl6t00.mass",
+      "exponent": 0
+    },
+    {
+      "denom": "MASS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

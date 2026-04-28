@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1sewps82xyc7neay2nkfn8q7uw6erj330etrmj8.meta",
+  "type": "factory",
+  "symbol": "META",
+  "name": "Meta",
+  "decimals": 6,
+  "display_denom": "META",
+  "base_denom": "coin.zig1sewps82xyc7neay2nkfn8q7uw6erj330etrmj8.meta",
+  "creator": "zig1sewps82xyc7neay2nkfn8q7uw6erj330etrmj8",
+  "subdenom": "meta",
+  "denom_units": [
+    {
+      "denom": "coin.zig1sewps82xyc7neay2nkfn8q7uw6erj330etrmj8.meta",
+      "exponent": 0
+    },
+    {
+      "denom": "META",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

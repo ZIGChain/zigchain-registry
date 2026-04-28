@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1nntzqd50ha20t83q99hxd2wk6wdgpzu2at25x7s70seed6lylsrqtpsnra.eaetrationealiqua",
+  "type": "factory",
+  "symbol": "EAETRATIONEALIQUA",
+  "name": "Eaetrationealiqua",
+  "decimals": 6,
+  "display_denom": "EAETRATIONEALIQUA",
+  "base_denom": "coin.zig1nntzqd50ha20t83q99hxd2wk6wdgpzu2at25x7s70seed6lylsrqtpsnra.eaetrationealiqua",
+  "creator": "zig1nntzqd50ha20t83q99hxd2wk6wdgpzu2at25x7s70seed6lylsrqtpsnra",
+  "subdenom": "eaetrationealiqua",
+  "denom_units": [
+    {
+      "denom": "coin.zig1nntzqd50ha20t83q99hxd2wk6wdgpzu2at25x7s70seed6lylsrqtpsnra.eaetrationealiqua",
+      "exponent": 0
+    },
+    {
+      "denom": "EAETRATIONEALIQUA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1jl25me3j0cfn9sdz2gqscmx5242t4g8v5a55l3lh7ekhv892ht7s2kxlzj.laborisundevolupta",
+  "type": "factory",
+  "symbol": "LABORISUNDEVOLUPTA",
+  "name": "Laborisundevolupta",
+  "decimals": 6,
+  "display_denom": "LABORISUNDEVOLUPTA",
+  "base_denom": "coin.zig1jl25me3j0cfn9sdz2gqscmx5242t4g8v5a55l3lh7ekhv892ht7s2kxlzj.laborisundevolupta",
+  "creator": "zig1jl25me3j0cfn9sdz2gqscmx5242t4g8v5a55l3lh7ekhv892ht7s2kxlzj",
+  "subdenom": "laborisundevolupta",
+  "denom_units": [
+    {
+      "denom": "coin.zig1jl25me3j0cfn9sdz2gqscmx5242t4g8v5a55l3lh7ekhv892ht7s2kxlzj.laborisundevolupta",
+      "exponent": 0
+    },
+    {
+      "denom": "LABORISUNDEVOLUPTA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

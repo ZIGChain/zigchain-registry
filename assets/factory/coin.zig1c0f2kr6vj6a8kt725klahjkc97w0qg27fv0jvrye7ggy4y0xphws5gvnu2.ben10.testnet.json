@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1c0f2kr6vj6a8kt725klahjkc97w0qg27fv0jvrye7ggy4y0xphws5gvnu2.ben10",
+  "type": "factory",
+  "symbol": "BEN10",
+  "name": "Ben10",
+  "decimals": 6,
+  "display_denom": "BEN10",
+  "base_denom": "coin.zig1c0f2kr6vj6a8kt725klahjkc97w0qg27fv0jvrye7ggy4y0xphws5gvnu2.ben10",
+  "creator": "zig1c0f2kr6vj6a8kt725klahjkc97w0qg27fv0jvrye7ggy4y0xphws5gvnu2",
+  "subdenom": "ben10",
+  "denom_units": [
+    {
+      "denom": "coin.zig1c0f2kr6vj6a8kt725klahjkc97w0qg27fv0jvrye7ggy4y0xphws5gvnu2.ben10",
+      "exponent": 0
+    },
+    {
+      "denom": "BEN10",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

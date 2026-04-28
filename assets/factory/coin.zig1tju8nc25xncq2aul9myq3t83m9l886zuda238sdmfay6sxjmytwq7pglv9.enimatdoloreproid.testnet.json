@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1tju8nc25xncq2aul9myq3t83m9l886zuda238sdmfay6sxjmytwq7pglv9.enimatdoloreproid",
+  "type": "factory",
+  "symbol": "ENIMATDOLOREPROID",
+  "name": "Enimatdoloreproid",
+  "decimals": 6,
+  "display_denom": "ENIMATDOLOREPROID",
+  "base_denom": "coin.zig1tju8nc25xncq2aul9myq3t83m9l886zuda238sdmfay6sxjmytwq7pglv9.enimatdoloreproid",
+  "creator": "zig1tju8nc25xncq2aul9myq3t83m9l886zuda238sdmfay6sxjmytwq7pglv9",
+  "subdenom": "enimatdoloreproid",
+  "denom_units": [
+    {
+      "denom": "coin.zig1tju8nc25xncq2aul9myq3t83m9l886zuda238sdmfay6sxjmytwq7pglv9.enimatdoloreproid",
+      "exponent": 0
+    },
+    {
+      "denom": "ENIMATDOLOREPROID",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

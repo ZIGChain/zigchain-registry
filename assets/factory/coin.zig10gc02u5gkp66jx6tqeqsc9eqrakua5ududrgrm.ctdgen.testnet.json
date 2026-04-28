@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10gc02u5gkp66jx6tqeqsc9eqrakua5ududrgrm.ctdgen",
+  "type": "factory",
+  "symbol": "CTDGEN",
+  "name": "Ctdgen",
+  "decimals": 6,
+  "display_denom": "CTDGEN",
+  "base_denom": "coin.zig10gc02u5gkp66jx6tqeqsc9eqrakua5ududrgrm.ctdgen",
+  "creator": "zig10gc02u5gkp66jx6tqeqsc9eqrakua5ududrgrm",
+  "subdenom": "ctdgen",
+  "denom_units": [
+    {
+      "denom": "coin.zig10gc02u5gkp66jx6tqeqsc9eqrakua5ududrgrm.ctdgen",
+      "exponent": 0
+    },
+    {
+      "denom": "CTDGEN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

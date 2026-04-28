@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1pje6z84xeacnfu3qxckvnp2rylcuu0vxp0d6u3cyuge0avang8fq4u4smn.gordon",
+  "type": "factory",
+  "symbol": "GORDON",
+  "name": "Gordon",
+  "decimals": 6,
+  "display_denom": "GORDON",
+  "base_denom": "coin.zig1pje6z84xeacnfu3qxckvnp2rylcuu0vxp0d6u3cyuge0avang8fq4u4smn.gordon",
+  "creator": "zig1pje6z84xeacnfu3qxckvnp2rylcuu0vxp0d6u3cyuge0avang8fq4u4smn",
+  "subdenom": "gordon",
+  "denom_units": [
+    {
+      "denom": "coin.zig1pje6z84xeacnfu3qxckvnp2rylcuu0vxp0d6u3cyuge0avang8fq4u4smn.gordon",
+      "exponent": 0
+    },
+    {
+      "denom": "GORDON",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

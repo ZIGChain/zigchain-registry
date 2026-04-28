@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1jj5yc5wxave8zpegrfkmf65dypf062ksxr2zl0el8lfpv4sympqqt0n5z3.lionnncoin",
+  "type": "factory",
+  "symbol": "LIONNNCOIN",
+  "name": "Lionnncoin",
+  "decimals": 6,
+  "display_denom": "LIONNNCOIN",
+  "base_denom": "coin.zig1jj5yc5wxave8zpegrfkmf65dypf062ksxr2zl0el8lfpv4sympqqt0n5z3.lionnncoin",
+  "creator": "zig1jj5yc5wxave8zpegrfkmf65dypf062ksxr2zl0el8lfpv4sympqqt0n5z3",
+  "subdenom": "lionnncoin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1jj5yc5wxave8zpegrfkmf65dypf062ksxr2zl0el8lfpv4sympqqt0n5z3.lionnncoin",
+      "exponent": 0
+    },
+    {
+      "denom": "LIONNNCOIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

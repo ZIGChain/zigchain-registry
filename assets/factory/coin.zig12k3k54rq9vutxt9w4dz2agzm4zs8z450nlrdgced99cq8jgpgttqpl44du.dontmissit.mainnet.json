@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig12k3k54rq9vutxt9w4dz2agzm4zs8z450nlrdgced99cq8jgpgttqpl44du.dontmissit",
+  "type": "factory",
+  "symbol": "DONTMISSIT",
+  "name": "Dontmissit",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig12k3k54rq9vutxt9w4dz2agzm4zs8z450nlrdgced99cq8jgpgttqpl44du.dontmissit",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig12k3k54rq9vutxt9w4dz2agzm4zs8z450nlrdgced99cq8jgpgttqpl44du.dontmissit",
+  "base_denom": "coin.zig12k3k54rq9vutxt9w4dz2agzm4zs8z450nlrdgced99cq8jgpgttqpl44du.dontmissit",
+  "creator": "zig12k3k54rq9vutxt9w4dz2agzm4zs8z450nlrdgced99cq8jgpgttqpl44du",
+  "subdenom": "dontmissit",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

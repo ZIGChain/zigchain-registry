@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17l6y2t38ua36qtd5tt97z06sncdkpv3yvpg8mcxmh7ya87helmnqd7wplc.autminimmagnietc",
+  "type": "factory",
+  "symbol": "AUTMINIMMAGNIETC",
+  "name": "Autminimmagnietc",
+  "decimals": 6,
+  "display_denom": "AUTMINIMMAGNIETC",
+  "base_denom": "coin.zig17l6y2t38ua36qtd5tt97z06sncdkpv3yvpg8mcxmh7ya87helmnqd7wplc.autminimmagnietc",
+  "creator": "zig17l6y2t38ua36qtd5tt97z06sncdkpv3yvpg8mcxmh7ya87helmnqd7wplc",
+  "subdenom": "autminimmagnietc",
+  "denom_units": [
+    {
+      "denom": "coin.zig17l6y2t38ua36qtd5tt97z06sncdkpv3yvpg8mcxmh7ya87helmnqd7wplc.autminimmagnietc",
+      "exponent": 0
+    },
+    {
+      "denom": "AUTMINIMMAGNIETC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

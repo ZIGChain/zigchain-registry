@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14mjte0gq7ypzad3d9pefjug6mn2v6f3ylrjckvgltx8w47lzzt8s4z9n23.crocodile",
+  "type": "factory",
+  "symbol": "CROCODILE",
+  "name": "Crocodile",
+  "decimals": 6,
+  "display_denom": "CROCODILE",
+  "base_denom": "coin.zig14mjte0gq7ypzad3d9pefjug6mn2v6f3ylrjckvgltx8w47lzzt8s4z9n23.crocodile",
+  "creator": "zig14mjte0gq7ypzad3d9pefjug6mn2v6f3ylrjckvgltx8w47lzzt8s4z9n23",
+  "subdenom": "crocodile",
+  "denom_units": [
+    {
+      "denom": "coin.zig14mjte0gq7ypzad3d9pefjug6mn2v6f3ylrjckvgltx8w47lzzt8s4z9n23.crocodile",
+      "exponent": 0
+    },
+    {
+      "denom": "CROCODILE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

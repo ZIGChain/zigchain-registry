@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1r8mkl9u8lwhdrgzl5f00scv9vtr7993qm5tdv9sgdn7xcqyzqx6st4u00s.ddrost",
+  "type": "factory",
+  "symbol": "DDROST",
+  "name": "Ddrost",
+  "decimals": 6,
+  "display_denom": "DDROST",
+  "base_denom": "coin.zig1r8mkl9u8lwhdrgzl5f00scv9vtr7993qm5tdv9sgdn7xcqyzqx6st4u00s.ddrost",
+  "creator": "zig1r8mkl9u8lwhdrgzl5f00scv9vtr7993qm5tdv9sgdn7xcqyzqx6st4u00s",
+  "subdenom": "ddrost",
+  "denom_units": [
+    {
+      "denom": "coin.zig1r8mkl9u8lwhdrgzl5f00scv9vtr7993qm5tdv9sgdn7xcqyzqx6st4u00s.ddrost",
+      "exponent": 0
+    },
+    {
+      "denom": "DDROST",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

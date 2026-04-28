@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1f2823clqfhnhgdhg3kajf5ks0t7gm4z7gqwe0kvqgl6w5tzux5lqzg5m3h.amphibian",
+  "type": "factory",
+  "symbol": "AMPHIBIAN",
+  "name": "Amphibian",
+  "decimals": 6,
+  "display_denom": "AMPHIBIAN",
+  "base_denom": "coin.zig1f2823clqfhnhgdhg3kajf5ks0t7gm4z7gqwe0kvqgl6w5tzux5lqzg5m3h.amphibian",
+  "creator": "zig1f2823clqfhnhgdhg3kajf5ks0t7gm4z7gqwe0kvqgl6w5tzux5lqzg5m3h",
+  "subdenom": "amphibian",
+  "denom_units": [
+    {
+      "denom": "coin.zig1f2823clqfhnhgdhg3kajf5ks0t7gm4z7gqwe0kvqgl6w5tzux5lqzg5m3h.amphibian",
+      "exponent": 0
+    },
+    {
+      "denom": "AMPHIBIAN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

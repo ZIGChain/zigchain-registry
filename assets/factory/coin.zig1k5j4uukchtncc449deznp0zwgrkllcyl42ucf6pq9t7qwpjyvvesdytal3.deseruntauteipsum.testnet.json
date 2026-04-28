@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1k5j4uukchtncc449deznp0zwgrkllcyl42ucf6pq9t7qwpjyvvesdytal3.deseruntauteipsum",
+  "type": "factory",
+  "symbol": "DESERUNTAUTEIPSUM",
+  "name": "Deseruntauteipsum",
+  "decimals": 6,
+  "display_denom": "DESERUNTAUTEIPSUM",
+  "base_denom": "coin.zig1k5j4uukchtncc449deznp0zwgrkllcyl42ucf6pq9t7qwpjyvvesdytal3.deseruntauteipsum",
+  "creator": "zig1k5j4uukchtncc449deznp0zwgrkllcyl42ucf6pq9t7qwpjyvvesdytal3",
+  "subdenom": "deseruntauteipsum",
+  "denom_units": [
+    {
+      "denom": "coin.zig1k5j4uukchtncc449deznp0zwgrkllcyl42ucf6pq9t7qwpjyvvesdytal3.deseruntauteipsum",
+      "exponent": 0
+    },
+    {
+      "denom": "DESERUNTAUTEIPSUM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

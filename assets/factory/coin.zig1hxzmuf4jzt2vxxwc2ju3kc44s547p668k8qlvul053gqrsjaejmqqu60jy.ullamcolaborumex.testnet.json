@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hxzmuf4jzt2vxxwc2ju3kc44s547p668k8qlvul053gqrsjaejmqqu60jy.ullamcolaborumex",
+  "type": "factory",
+  "symbol": "ULLAMCOLABORUMEX",
+  "name": "Ullamcolaborumex",
+  "decimals": 6,
+  "display_denom": "ULLAMCOLABORUMEX",
+  "base_denom": "coin.zig1hxzmuf4jzt2vxxwc2ju3kc44s547p668k8qlvul053gqrsjaejmqqu60jy.ullamcolaborumex",
+  "creator": "zig1hxzmuf4jzt2vxxwc2ju3kc44s547p668k8qlvul053gqrsjaejmqqu60jy",
+  "subdenom": "ullamcolaborumex",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hxzmuf4jzt2vxxwc2ju3kc44s547p668k8qlvul053gqrsjaejmqqu60jy.ullamcolaborumex",
+      "exponent": 0
+    },
+    {
+      "denom": "ULLAMCOLABORUMEX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rq4adf8nv9mjhmu6x543sf4gc2src4m7a4tln9546cyhhpjky70sz7n0fa.secureand",
+  "type": "factory",
+  "symbol": "SECUREAND",
+  "name": "Secureand",
+  "decimals": 6,
+  "display_denom": "SECUREAND",
+  "base_denom": "coin.zig1rq4adf8nv9mjhmu6x543sf4gc2src4m7a4tln9546cyhhpjky70sz7n0fa.secureand",
+  "creator": "zig1rq4adf8nv9mjhmu6x543sf4gc2src4m7a4tln9546cyhhpjky70sz7n0fa",
+  "subdenom": "secureand",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rq4adf8nv9mjhmu6x543sf4gc2src4m7a4tln9546cyhhpjky70sz7n0fa.secureand",
+      "exponent": 0
+    },
+    {
+      "denom": "SECUREAND",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

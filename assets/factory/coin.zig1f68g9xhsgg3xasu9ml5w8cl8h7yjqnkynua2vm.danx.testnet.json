@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.danx",
+  "type": "factory",
+  "symbol": "DANX",
+  "name": "Danx",
+  "decimals": 6,
+  "display_denom": "DANX",
+  "base_denom": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.danx",
+  "creator": "zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm",
+  "subdenom": "danx",
+  "denom_units": [
+    {
+      "denom": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.danx",
+      "exponent": 0
+    },
+    {
+      "denom": "DANX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

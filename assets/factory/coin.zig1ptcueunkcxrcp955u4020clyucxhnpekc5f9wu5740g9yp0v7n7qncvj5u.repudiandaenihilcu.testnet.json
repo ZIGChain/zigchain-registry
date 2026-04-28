@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ptcueunkcxrcp955u4020clyucxhnpekc5f9wu5740g9yp0v7n7qncvj5u.repudiandaenihilcu",
+  "type": "factory",
+  "symbol": "REPUDIANDAENIHILCU",
+  "name": "Repudiandaenihilcu",
+  "decimals": 6,
+  "display_denom": "REPUDIANDAENIHILCU",
+  "base_denom": "coin.zig1ptcueunkcxrcp955u4020clyucxhnpekc5f9wu5740g9yp0v7n7qncvj5u.repudiandaenihilcu",
+  "creator": "zig1ptcueunkcxrcp955u4020clyucxhnpekc5f9wu5740g9yp0v7n7qncvj5u",
+  "subdenom": "repudiandaenihilcu",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ptcueunkcxrcp955u4020clyucxhnpekc5f9wu5740g9yp0v7n7qncvj5u.repudiandaenihilcu",
+      "exponent": 0
+    },
+    {
+      "denom": "REPUDIANDAENIHILCU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18sytwc03z5j3wge5egf4rdue6gxkzzyf4658vq.derwa",
+  "type": "factory",
+  "symbol": "DERWA",
+  "name": "Derwa",
+  "decimals": 6,
+  "display_denom": "DERWA",
+  "base_denom": "coin.zig18sytwc03z5j3wge5egf4rdue6gxkzzyf4658vq.derwa",
+  "creator": "zig18sytwc03z5j3wge5egf4rdue6gxkzzyf4658vq",
+  "subdenom": "derwa",
+  "denom_units": [
+    {
+      "denom": "coin.zig18sytwc03z5j3wge5egf4rdue6gxkzzyf4658vq.derwa",
+      "exponent": 0
+    },
+    {
+      "denom": "DERWA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

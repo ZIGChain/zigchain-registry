@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14e9wn343d69lrqrkj2nsw86jy4qf3uaaucxdvu428y0jsv90zazqf68sm4.zerocarbon",
+  "type": "factory",
+  "symbol": "ZEROCARBON",
+  "name": "Zerocarbon",
+  "decimals": 6,
+  "display_denom": "ZEROCARBON",
+  "base_denom": "coin.zig14e9wn343d69lrqrkj2nsw86jy4qf3uaaucxdvu428y0jsv90zazqf68sm4.zerocarbon",
+  "creator": "zig14e9wn343d69lrqrkj2nsw86jy4qf3uaaucxdvu428y0jsv90zazqf68sm4",
+  "subdenom": "zerocarbon",
+  "denom_units": [
+    {
+      "denom": "coin.zig14e9wn343d69lrqrkj2nsw86jy4qf3uaaucxdvu428y0jsv90zazqf68sm4.zerocarbon",
+      "exponent": 0
+    },
+    {
+      "denom": "ZEROCARBON",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

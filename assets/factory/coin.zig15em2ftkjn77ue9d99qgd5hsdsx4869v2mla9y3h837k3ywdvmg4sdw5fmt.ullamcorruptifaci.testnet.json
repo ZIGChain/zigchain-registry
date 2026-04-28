@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15em2ftkjn77ue9d99qgd5hsdsx4869v2mla9y3h837k3ywdvmg4sdw5fmt.ullamcorruptifaci",
+  "type": "factory",
+  "symbol": "ULLAMCORRUPTIFACI",
+  "name": "Ullamcorruptifaci",
+  "decimals": 6,
+  "display_denom": "ULLAMCORRUPTIFACI",
+  "base_denom": "coin.zig15em2ftkjn77ue9d99qgd5hsdsx4869v2mla9y3h837k3ywdvmg4sdw5fmt.ullamcorruptifaci",
+  "creator": "zig15em2ftkjn77ue9d99qgd5hsdsx4869v2mla9y3h837k3ywdvmg4sdw5fmt",
+  "subdenom": "ullamcorruptifaci",
+  "denom_units": [
+    {
+      "denom": "coin.zig15em2ftkjn77ue9d99qgd5hsdsx4869v2mla9y3h837k3ywdvmg4sdw5fmt.ullamcorruptifaci",
+      "exponent": 0
+    },
+    {
+      "denom": "ULLAMCORRUPTIFACI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

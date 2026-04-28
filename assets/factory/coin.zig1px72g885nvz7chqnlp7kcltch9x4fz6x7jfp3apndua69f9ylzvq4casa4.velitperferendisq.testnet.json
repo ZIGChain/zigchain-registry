@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1px72g885nvz7chqnlp7kcltch9x4fz6x7jfp3apndua69f9ylzvq4casa4.velitperferendisq",
+  "type": "factory",
+  "symbol": "VELITPERFERENDISQ",
+  "name": "Velitperferendisq",
+  "decimals": 6,
+  "display_denom": "VELITPERFERENDISQ",
+  "base_denom": "coin.zig1px72g885nvz7chqnlp7kcltch9x4fz6x7jfp3apndua69f9ylzvq4casa4.velitperferendisq",
+  "creator": "zig1px72g885nvz7chqnlp7kcltch9x4fz6x7jfp3apndua69f9ylzvq4casa4",
+  "subdenom": "velitperferendisq",
+  "denom_units": [
+    {
+      "denom": "coin.zig1px72g885nvz7chqnlp7kcltch9x4fz6x7jfp3apndua69f9ylzvq4casa4.velitperferendisq",
+      "exponent": 0
+    },
+    {
+      "denom": "VELITPERFERENDISQ",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

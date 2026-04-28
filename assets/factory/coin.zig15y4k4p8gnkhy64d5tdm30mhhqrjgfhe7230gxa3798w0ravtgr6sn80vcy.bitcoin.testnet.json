@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15y4k4p8gnkhy64d5tdm30mhhqrjgfhe7230gxa3798w0ravtgr6sn80vcy.bitcoin",
+  "type": "factory",
+  "symbol": "BITCOIN",
+  "name": "Bitcoin",
+  "decimals": 6,
+  "display_denom": "BITCOIN",
+  "base_denom": "coin.zig15y4k4p8gnkhy64d5tdm30mhhqrjgfhe7230gxa3798w0ravtgr6sn80vcy.bitcoin",
+  "creator": "zig15y4k4p8gnkhy64d5tdm30mhhqrjgfhe7230gxa3798w0ravtgr6sn80vcy",
+  "subdenom": "bitcoin",
+  "denom_units": [
+    {
+      "denom": "coin.zig15y4k4p8gnkhy64d5tdm30mhhqrjgfhe7230gxa3798w0ravtgr6sn80vcy.bitcoin",
+      "exponent": 0
+    },
+    {
+      "denom": "BITCOIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

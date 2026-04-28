@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1nw3a7tlalyv8pm3qyrmgf0y5yag6xcsa45hcv8h0kw36zhlq962qdtq00a.officiaestadsapie",
+  "type": "factory",
+  "symbol": "OFFICIAESTADSAPIE",
+  "name": "Officiaestadsapie",
+  "decimals": 6,
+  "display_denom": "OFFICIAESTADSAPIE",
+  "base_denom": "coin.zig1nw3a7tlalyv8pm3qyrmgf0y5yag6xcsa45hcv8h0kw36zhlq962qdtq00a.officiaestadsapie",
+  "creator": "zig1nw3a7tlalyv8pm3qyrmgf0y5yag6xcsa45hcv8h0kw36zhlq962qdtq00a",
+  "subdenom": "officiaestadsapie",
+  "denom_units": [
+    {
+      "denom": "coin.zig1nw3a7tlalyv8pm3qyrmgf0y5yag6xcsa45hcv8h0kw36zhlq962qdtq00a.officiaestadsapie",
+      "exponent": 0
+    },
+    {
+      "denom": "OFFICIAESTADSAPIE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

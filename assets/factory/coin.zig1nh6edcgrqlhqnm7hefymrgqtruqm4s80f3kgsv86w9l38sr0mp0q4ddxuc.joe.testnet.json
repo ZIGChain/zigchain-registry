@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1nh6edcgrqlhqnm7hefymrgqtruqm4s80f3kgsv86w9l38sr0mp0q4ddxuc.joe",
+  "type": "factory",
+  "symbol": "JOE",
+  "name": "Joe",
+  "decimals": 6,
+  "display_denom": "JOE",
+  "base_denom": "coin.zig1nh6edcgrqlhqnm7hefymrgqtruqm4s80f3kgsv86w9l38sr0mp0q4ddxuc.joe",
+  "creator": "zig1nh6edcgrqlhqnm7hefymrgqtruqm4s80f3kgsv86w9l38sr0mp0q4ddxuc",
+  "subdenom": "joe",
+  "denom_units": [
+    {
+      "denom": "coin.zig1nh6edcgrqlhqnm7hefymrgqtruqm4s80f3kgsv86w9l38sr0mp0q4ddxuc.joe",
+      "exponent": 0
+    },
+    {
+      "denom": "JOE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

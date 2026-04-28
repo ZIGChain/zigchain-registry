@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1awh63fqdnagnqkylfhmrdmqxnmvw402jgn9l5qml8lk0jv5v875sa65pmm.troncoin",
+  "type": "factory",
+  "symbol": "TRONCOIN",
+  "name": "Troncoin",
+  "decimals": 6,
+  "display_denom": "TRONCOIN",
+  "base_denom": "coin.zig1awh63fqdnagnqkylfhmrdmqxnmvw402jgn9l5qml8lk0jv5v875sa65pmm.troncoin",
+  "creator": "zig1awh63fqdnagnqkylfhmrdmqxnmvw402jgn9l5qml8lk0jv5v875sa65pmm",
+  "subdenom": "troncoin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1awh63fqdnagnqkylfhmrdmqxnmvw402jgn9l5qml8lk0jv5v875sa65pmm.troncoin",
+      "exponent": 0
+    },
+    {
+      "denom": "TRONCOIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

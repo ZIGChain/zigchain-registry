@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1t5z3k23vxzu0kpyjhst2j9a3u6t8hcaz8yc22xhntj3wzl7n43zsn3uwlz.euro4bdk",
+  "type": "factory",
+  "symbol": "EURO4BDK",
+  "name": "Euro4bdk",
+  "decimals": 6,
+  "display_denom": "EURO4BDK",
+  "base_denom": "coin.zig1t5z3k23vxzu0kpyjhst2j9a3u6t8hcaz8yc22xhntj3wzl7n43zsn3uwlz.euro4bdk",
+  "creator": "zig1t5z3k23vxzu0kpyjhst2j9a3u6t8hcaz8yc22xhntj3wzl7n43zsn3uwlz",
+  "subdenom": "euro4bdk",
+  "denom_units": [
+    {
+      "denom": "coin.zig1t5z3k23vxzu0kpyjhst2j9a3u6t8hcaz8yc22xhntj3wzl7n43zsn3uwlz.euro4bdk",
+      "exponent": 0
+    },
+    {
+      "denom": "EURO4BDK",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

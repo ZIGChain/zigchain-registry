@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qygw37jdxcar4rys5mqrct477tetdg7vkncwtkgsn5qm535uulpq8p7t7k.zigmaster",
+  "type": "factory",
+  "symbol": "ZIGMASTER",
+  "name": "Zigmaster",
+  "decimals": 6,
+  "display_denom": "ZIGMASTER",
+  "base_denom": "coin.zig1qygw37jdxcar4rys5mqrct477tetdg7vkncwtkgsn5qm535uulpq8p7t7k.zigmaster",
+  "creator": "zig1qygw37jdxcar4rys5mqrct477tetdg7vkncwtkgsn5qm535uulpq8p7t7k",
+  "subdenom": "zigmaster",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qygw37jdxcar4rys5mqrct477tetdg7vkncwtkgsn5qm535uulpq8p7t7k.zigmaster",
+      "exponent": 0
+    },
+    {
+      "denom": "ZIGMASTER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

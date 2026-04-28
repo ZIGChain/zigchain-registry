@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1gv5qa28w8zdzcwu8zfwlvadnyzw952fnkf6ed8v5u22w253z4k0q3x5kuv.stzig",
+  "type": "factory",
+  "symbol": "STZIG",
+  "name": "Stzig",
+  "decimals": 6,
+  "display_denom": "STZIG",
+  "base_denom": "coin.zig1gv5qa28w8zdzcwu8zfwlvadnyzw952fnkf6ed8v5u22w253z4k0q3x5kuv.stzig",
+  "creator": "zig1gv5qa28w8zdzcwu8zfwlvadnyzw952fnkf6ed8v5u22w253z4k0q3x5kuv",
+  "subdenom": "stzig",
+  "denom_units": [
+    {
+      "denom": "coin.zig1gv5qa28w8zdzcwu8zfwlvadnyzw952fnkf6ed8v5u22w253z4k0q3x5kuv.stzig",
+      "exponent": 0
+    },
+    {
+      "denom": "STZIG",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

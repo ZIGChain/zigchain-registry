@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig13pthd5yunv74vn5w7e4mllm4dwqu3wk8yfn4q84fqgpekx0e97ns2qc6st.wink",
+  "type": "factory",
+  "symbol": "WINK",
+  "name": "Wink",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig13pthd5yunv74vn5w7e4mllm4dwqu3wk8yfn4q84fqgpekx0e97ns2qc6st.wink",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig13pthd5yunv74vn5w7e4mllm4dwqu3wk8yfn4q84fqgpekx0e97ns2qc6st.wink",
+  "base_denom": "coin.zig13pthd5yunv74vn5w7e4mllm4dwqu3wk8yfn4q84fqgpekx0e97ns2qc6st.wink",
+  "creator": "zig13pthd5yunv74vn5w7e4mllm4dwqu3wk8yfn4q84fqgpekx0e97ns2qc6st",
+  "subdenom": "wink",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

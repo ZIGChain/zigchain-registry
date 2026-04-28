@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ch543a3fuaf6x9f9dxx6f5mcu7cyyal36442wala30r556kvtx8s302rsh.officiaharumquisqu",
+  "type": "factory",
+  "symbol": "OFFICIAHARUMQUISQU",
+  "name": "Officiaharumquisqu",
+  "decimals": 6,
+  "display_denom": "OFFICIAHARUMQUISQU",
+  "base_denom": "coin.zig1ch543a3fuaf6x9f9dxx6f5mcu7cyyal36442wala30r556kvtx8s302rsh.officiaharumquisqu",
+  "creator": "zig1ch543a3fuaf6x9f9dxx6f5mcu7cyyal36442wala30r556kvtx8s302rsh",
+  "subdenom": "officiaharumquisqu",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ch543a3fuaf6x9f9dxx6f5mcu7cyyal36442wala30r556kvtx8s302rsh.officiaharumquisqu",
+      "exponent": 0
+    },
+    {
+      "denom": "OFFICIAHARUMQUISQU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1987xgtc8zywuj2gj90vcncme8ml6p46kzgcflu249xy4hwvp406s6n4aem.autofficiaconsecte",
+  "type": "factory",
+  "symbol": "AUTOFFICIACONSECTE",
+  "name": "Autofficiaconsecte",
+  "decimals": 6,
+  "display_denom": "AUTOFFICIACONSECTE",
+  "base_denom": "coin.zig1987xgtc8zywuj2gj90vcncme8ml6p46kzgcflu249xy4hwvp406s6n4aem.autofficiaconsecte",
+  "creator": "zig1987xgtc8zywuj2gj90vcncme8ml6p46kzgcflu249xy4hwvp406s6n4aem",
+  "subdenom": "autofficiaconsecte",
+  "denom_units": [
+    {
+      "denom": "coin.zig1987xgtc8zywuj2gj90vcncme8ml6p46kzgcflu249xy4hwvp406s6n4aem.autofficiaconsecte",
+      "exponent": 0
+    },
+    {
+      "denom": "AUTOFFICIACONSECTE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

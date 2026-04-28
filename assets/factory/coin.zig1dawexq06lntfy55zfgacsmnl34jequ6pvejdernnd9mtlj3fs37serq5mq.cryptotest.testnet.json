@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1dawexq06lntfy55zfgacsmnl34jequ6pvejdernnd9mtlj3fs37serq5mq.cryptotest",
+  "type": "factory",
+  "symbol": "CRYPTOTEST",
+  "name": "Cryptotest",
+  "decimals": 6,
+  "display_denom": "CRYPTOTEST",
+  "base_denom": "coin.zig1dawexq06lntfy55zfgacsmnl34jequ6pvejdernnd9mtlj3fs37serq5mq.cryptotest",
+  "creator": "zig1dawexq06lntfy55zfgacsmnl34jequ6pvejdernnd9mtlj3fs37serq5mq",
+  "subdenom": "cryptotest",
+  "denom_units": [
+    {
+      "denom": "coin.zig1dawexq06lntfy55zfgacsmnl34jequ6pvejdernnd9mtlj3fs37serq5mq.cryptotest",
+      "exponent": 0
+    },
+    {
+      "denom": "CRYPTOTEST",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

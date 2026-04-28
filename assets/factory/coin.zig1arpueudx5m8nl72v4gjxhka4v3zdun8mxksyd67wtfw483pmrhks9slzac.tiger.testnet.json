@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1arpueudx5m8nl72v4gjxhka4v3zdun8mxksyd67wtfw483pmrhks9slzac.tiger",
+  "type": "factory",
+  "symbol": "TIGER",
+  "name": "Tiger",
+  "decimals": 6,
+  "display_denom": "TIGER",
+  "base_denom": "coin.zig1arpueudx5m8nl72v4gjxhka4v3zdun8mxksyd67wtfw483pmrhks9slzac.tiger",
+  "creator": "zig1arpueudx5m8nl72v4gjxhka4v3zdun8mxksyd67wtfw483pmrhks9slzac",
+  "subdenom": "tiger",
+  "denom_units": [
+    {
+      "denom": "coin.zig1arpueudx5m8nl72v4gjxhka4v3zdun8mxksyd67wtfw483pmrhks9slzac.tiger",
+      "exponent": 0
+    },
+    {
+      "denom": "TIGER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

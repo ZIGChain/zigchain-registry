@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig16r29w5jducl8v73n6u0rxvjnge3xvkn2flaaqzhl7wqzdckdulgq0xyqet.admaximeminussapi",
+  "type": "factory",
+  "symbol": "ADMAXIMEMINUSSAPI",
+  "name": "Admaximeminussapi",
+  "decimals": 6,
+  "display_denom": "ADMAXIMEMINUSSAPI",
+  "base_denom": "coin.zig16r29w5jducl8v73n6u0rxvjnge3xvkn2flaaqzhl7wqzdckdulgq0xyqet.admaximeminussapi",
+  "creator": "zig16r29w5jducl8v73n6u0rxvjnge3xvkn2flaaqzhl7wqzdckdulgq0xyqet",
+  "subdenom": "admaximeminussapi",
+  "denom_units": [
+    {
+      "denom": "coin.zig16r29w5jducl8v73n6u0rxvjnge3xvkn2flaaqzhl7wqzdckdulgq0xyqet.admaximeminussapi",
+      "exponent": 0
+    },
+    {
+      "denom": "ADMAXIMEMINUSSAPI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

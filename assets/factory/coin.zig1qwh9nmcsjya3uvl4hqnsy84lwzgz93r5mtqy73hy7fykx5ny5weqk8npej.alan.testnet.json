@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qwh9nmcsjya3uvl4hqnsy84lwzgz93r5mtqy73hy7fykx5ny5weqk8npej.alan",
+  "type": "factory",
+  "symbol": "ALAN",
+  "name": "Alan",
+  "decimals": 6,
+  "display_denom": "ALAN",
+  "base_denom": "coin.zig1qwh9nmcsjya3uvl4hqnsy84lwzgz93r5mtqy73hy7fykx5ny5weqk8npej.alan",
+  "creator": "zig1qwh9nmcsjya3uvl4hqnsy84lwzgz93r5mtqy73hy7fykx5ny5weqk8npej",
+  "subdenom": "alan",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qwh9nmcsjya3uvl4hqnsy84lwzgz93r5mtqy73hy7fykx5ny5weqk8npej.alan",
+      "exponent": 0
+    },
+    {
+      "denom": "ALAN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1f3ua96tqctxxvcs3e8qjvlygdcz5sxtk35wfjmwakvv9ch8nsr3qatgny7.sde",
+  "type": "factory",
+  "symbol": "SDE",
+  "name": "Sde",
+  "decimals": 6,
+  "display_denom": "SDE",
+  "base_denom": "coin.zig1f3ua96tqctxxvcs3e8qjvlygdcz5sxtk35wfjmwakvv9ch8nsr3qatgny7.sde",
+  "creator": "zig1f3ua96tqctxxvcs3e8qjvlygdcz5sxtk35wfjmwakvv9ch8nsr3qatgny7",
+  "subdenom": "sde",
+  "denom_units": [
+    {
+      "denom": "coin.zig1f3ua96tqctxxvcs3e8qjvlygdcz5sxtk35wfjmwakvv9ch8nsr3qatgny7.sde",
+      "exponent": 0
+    },
+    {
+      "denom": "SDE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

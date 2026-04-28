@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1a5kz5dtmj8kqufdetkv06qs6utq0yd0wmfd967qanmh58j5dxpqsm3u35f.ametexutarchitec",
+  "type": "factory",
+  "symbol": "AMETEXUTARCHITEC",
+  "name": "Ametexutarchitec",
+  "decimals": 6,
+  "display_denom": "AMETEXUTARCHITEC",
+  "base_denom": "coin.zig1a5kz5dtmj8kqufdetkv06qs6utq0yd0wmfd967qanmh58j5dxpqsm3u35f.ametexutarchitec",
+  "creator": "zig1a5kz5dtmj8kqufdetkv06qs6utq0yd0wmfd967qanmh58j5dxpqsm3u35f",
+  "subdenom": "ametexutarchitec",
+  "denom_units": [
+    {
+      "denom": "coin.zig1a5kz5dtmj8kqufdetkv06qs6utq0yd0wmfd967qanmh58j5dxpqsm3u35f.ametexutarchitec",
+      "exponent": 0
+    },
+    {
+      "denom": "AMETEXUTARCHITEC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

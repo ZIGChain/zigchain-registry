@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig144286xfga03gfya9sktg5wt8ae8rdm8kvfxhffm49tujn6h56cps5llwr3.quoveniamillonul",
+  "type": "factory",
+  "symbol": "QUOVENIAMILLONUL",
+  "name": "Quoveniamillonul",
+  "decimals": 6,
+  "display_denom": "QUOVENIAMILLONUL",
+  "base_denom": "coin.zig144286xfga03gfya9sktg5wt8ae8rdm8kvfxhffm49tujn6h56cps5llwr3.quoveniamillonul",
+  "creator": "zig144286xfga03gfya9sktg5wt8ae8rdm8kvfxhffm49tujn6h56cps5llwr3",
+  "subdenom": "quoveniamillonul",
+  "denom_units": [
+    {
+      "denom": "coin.zig144286xfga03gfya9sktg5wt8ae8rdm8kvfxhffm49tujn6h56cps5llwr3.quoveniamillonul",
+      "exponent": 0
+    },
+    {
+      "denom": "QUOVENIAMILLONUL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1dzj9gfyg6gnz7ex2c53nn40e9pucfxah5600hmrwvz90ncq3v3wsc93pzw.smirk",
+  "type": "factory",
+  "symbol": "SMIRK",
+  "name": "Smirk",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1dzj9gfyg6gnz7ex2c53nn40e9pucfxah5600hmrwvz90ncq3v3wsc93pzw.smirk",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1dzj9gfyg6gnz7ex2c53nn40e9pucfxah5600hmrwvz90ncq3v3wsc93pzw.smirk",
+  "base_denom": "coin.zig1dzj9gfyg6gnz7ex2c53nn40e9pucfxah5600hmrwvz90ncq3v3wsc93pzw.smirk",
+  "creator": "zig1dzj9gfyg6gnz7ex2c53nn40e9pucfxah5600hmrwvz90ncq3v3wsc93pzw",
+  "subdenom": "smirk",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

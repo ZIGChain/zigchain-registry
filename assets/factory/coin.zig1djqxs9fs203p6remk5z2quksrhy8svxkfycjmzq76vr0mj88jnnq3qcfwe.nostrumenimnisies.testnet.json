@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1djqxs9fs203p6remk5z2quksrhy8svxkfycjmzq76vr0mj88jnnq3qcfwe.nostrumenimnisies",
+  "type": "factory",
+  "symbol": "NOSTRUMENIMNISIES",
+  "name": "Nostrumenimnisies",
+  "decimals": 6,
+  "display_denom": "NOSTRUMENIMNISIES",
+  "base_denom": "coin.zig1djqxs9fs203p6remk5z2quksrhy8svxkfycjmzq76vr0mj88jnnq3qcfwe.nostrumenimnisies",
+  "creator": "zig1djqxs9fs203p6remk5z2quksrhy8svxkfycjmzq76vr0mj88jnnq3qcfwe",
+  "subdenom": "nostrumenimnisies",
+  "denom_units": [
+    {
+      "denom": "coin.zig1djqxs9fs203p6remk5z2quksrhy8svxkfycjmzq76vr0mj88jnnq3qcfwe.nostrumenimnisies",
+      "exponent": 0
+    },
+    {
+      "denom": "NOSTRUMENIMNISIES",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

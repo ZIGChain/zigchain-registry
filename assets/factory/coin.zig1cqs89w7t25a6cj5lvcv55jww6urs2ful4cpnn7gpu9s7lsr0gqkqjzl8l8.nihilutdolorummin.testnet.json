@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1cqs89w7t25a6cj5lvcv55jww6urs2ful4cpnn7gpu9s7lsr0gqkqjzl8l8.nihilutdolorummin",
+  "type": "factory",
+  "symbol": "NIHILUTDOLORUMMIN",
+  "name": "Nihilutdolorummin",
+  "decimals": 6,
+  "display_denom": "NIHILUTDOLORUMMIN",
+  "base_denom": "coin.zig1cqs89w7t25a6cj5lvcv55jww6urs2ful4cpnn7gpu9s7lsr0gqkqjzl8l8.nihilutdolorummin",
+  "creator": "zig1cqs89w7t25a6cj5lvcv55jww6urs2ful4cpnn7gpu9s7lsr0gqkqjzl8l8",
+  "subdenom": "nihilutdolorummin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1cqs89w7t25a6cj5lvcv55jww6urs2ful4cpnn7gpu9s7lsr0gqkqjzl8l8.nihilutdolorummin",
+      "exponent": 0
+    },
+    {
+      "denom": "NIHILUTDOLORUMMIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1sd0jh77hjchgrynm2xmj4caq4tasjql49fgd88rqysk8atm4c6zs83dmny.genbitco",
+  "type": "factory",
+  "symbol": "GENBITCO",
+  "name": "Genbitco",
+  "decimals": 6,
+  "display_denom": "GENBITCO",
+  "base_denom": "coin.zig1sd0jh77hjchgrynm2xmj4caq4tasjql49fgd88rqysk8atm4c6zs83dmny.genbitco",
+  "creator": "zig1sd0jh77hjchgrynm2xmj4caq4tasjql49fgd88rqysk8atm4c6zs83dmny",
+  "subdenom": "genbitco",
+  "denom_units": [
+    {
+      "denom": "coin.zig1sd0jh77hjchgrynm2xmj4caq4tasjql49fgd88rqysk8atm4c6zs83dmny.genbitco",
+      "exponent": 0
+    },
+    {
+      "denom": "GENBITCO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

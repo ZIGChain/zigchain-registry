@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ulnla845y3wec9sm5d9js7wsux8yg3lg6trkqz.dramacoin",
+  "type": "factory",
+  "symbol": "DRAMACOIN",
+  "name": "Dramacoin",
+  "decimals": 6,
+  "display_denom": "DRAMACOIN",
+  "base_denom": "coin.zig1ulnla845y3wec9sm5d9js7wsux8yg3lg6trkqz.dramacoin",
+  "creator": "zig1ulnla845y3wec9sm5d9js7wsux8yg3lg6trkqz",
+  "subdenom": "dramacoin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ulnla845y3wec9sm5d9js7wsux8yg3lg6trkqz.dramacoin",
+      "exponent": 0
+    },
+    {
+      "denom": "DRAMACOIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

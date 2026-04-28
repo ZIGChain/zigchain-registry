@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17c8ccyhfgxzpy30xthnjx4xq6a50hsqs0200skjrzwwelp7lfltqrj7nt3.sandbox",
+  "type": "factory",
+  "symbol": "SANDBOX",
+  "name": "Sandbox",
+  "decimals": 6,
+  "display_denom": "SANDBOX",
+  "base_denom": "coin.zig17c8ccyhfgxzpy30xthnjx4xq6a50hsqs0200skjrzwwelp7lfltqrj7nt3.sandbox",
+  "creator": "zig17c8ccyhfgxzpy30xthnjx4xq6a50hsqs0200skjrzwwelp7lfltqrj7nt3",
+  "subdenom": "sandbox",
+  "denom_units": [
+    {
+      "denom": "coin.zig17c8ccyhfgxzpy30xthnjx4xq6a50hsqs0200skjrzwwelp7lfltqrj7nt3.sandbox",
+      "exponent": 0
+    },
+    {
+      "denom": "SANDBOX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

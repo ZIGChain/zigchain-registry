@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1q3agznsp7kpu8xdxhlr2wr6kcvtu80ecg7kjgy.zig",
+  "type": "factory",
+  "symbol": "ZIG",
+  "name": "Zig",
+  "decimals": 6,
+  "display_denom": "ZIG",
+  "base_denom": "coin.zig1q3agznsp7kpu8xdxhlr2wr6kcvtu80ecg7kjgy.zig",
+  "creator": "zig1q3agznsp7kpu8xdxhlr2wr6kcvtu80ecg7kjgy",
+  "subdenom": "zig",
+  "denom_units": [
+    {
+      "denom": "coin.zig1q3agznsp7kpu8xdxhlr2wr6kcvtu80ecg7kjgy.zig",
+      "exponent": 0
+    },
+    {
+      "denom": "ZIG",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

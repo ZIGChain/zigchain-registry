@@ -1,0 +1,45 @@
+name: Verify Chain Denominations (Mainnet + Testnet)
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  verify-chain-denoms:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # Mainnet: report only (do not fail job if on-chain denoms missing from registry)
+          - network: mainnet
+            fail_on_missing_registry: false
+          # Testnet: report only (do not fail job by default)
+          - network: testnet
+            fail_on_missing_registry: false
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Verify chain denominations (REST API)
+        env:
+          NETWORK: ${{ matrix.network }}
+          FAIL_ON_MISSING: ${{ matrix.fail_on_missing_registry }}
+        run: |
+          echo "Network: ${NETWORK}"
+          if [ "${FAIL_ON_MISSING}" = "true" ]; then
+            python3 scripts/verify_chain_denominations.py --network "${NETWORK}" --fail-on-missing-registry --max-missing-registry 200
+          else
+            python3 scripts/verify_chain_denominations.py --network "${NETWORK}" --max-missing-registry 200
+          fi

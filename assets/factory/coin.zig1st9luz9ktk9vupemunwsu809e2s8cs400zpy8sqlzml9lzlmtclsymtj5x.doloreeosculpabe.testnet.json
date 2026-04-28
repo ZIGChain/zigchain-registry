@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1st9luz9ktk9vupemunwsu809e2s8cs400zpy8sqlzml9lzlmtclsymtj5x.doloreeosculpabe",
+  "type": "factory",
+  "symbol": "DOLOREEOSCULPABE",
+  "name": "Doloreeosculpabe",
+  "decimals": 6,
+  "display_denom": "DOLOREEOSCULPABE",
+  "base_denom": "coin.zig1st9luz9ktk9vupemunwsu809e2s8cs400zpy8sqlzml9lzlmtclsymtj5x.doloreeosculpabe",
+  "creator": "zig1st9luz9ktk9vupemunwsu809e2s8cs400zpy8sqlzml9lzlmtclsymtj5x",
+  "subdenom": "doloreeosculpabe",
+  "denom_units": [
+    {
+      "denom": "coin.zig1st9luz9ktk9vupemunwsu809e2s8cs400zpy8sqlzml9lzlmtclsymtj5x.doloreeosculpabe",
+      "exponent": 0
+    },
+    {
+      "denom": "DOLOREEOSCULPABE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

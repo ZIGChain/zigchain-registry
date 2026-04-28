@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1z8x85x5vujlsdqpd0v57704yzpkgx22lm3rr6hjw6r92tk7gewysxmhkqk.repudiandaedolores",
+  "type": "factory",
+  "symbol": "REPUDIANDAEDOLORES",
+  "name": "Repudiandaedolores",
+  "decimals": 6,
+  "display_denom": "REPUDIANDAEDOLORES",
+  "base_denom": "coin.zig1z8x85x5vujlsdqpd0v57704yzpkgx22lm3rr6hjw6r92tk7gewysxmhkqk.repudiandaedolores",
+  "creator": "zig1z8x85x5vujlsdqpd0v57704yzpkgx22lm3rr6hjw6r92tk7gewysxmhkqk",
+  "subdenom": "repudiandaedolores",
+  "denom_units": [
+    {
+      "denom": "coin.zig1z8x85x5vujlsdqpd0v57704yzpkgx22lm3rr6hjw6r92tk7gewysxmhkqk.repudiandaedolores",
+      "exponent": 0
+    },
+    {
+      "denom": "REPUDIANDAEDOLORES",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

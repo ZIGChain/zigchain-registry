@@ -1,0 +1,62 @@
+{
+  "$schema": "../../schemas/asset.ibc.schema.json",
+  "order": 8,
+  "network": "mainnet",
+  "asset_id": "ibc/7B02D9C0746D2D6551CD358D4C7ABAC6EE94527D613BACFDEE122559CEB41AA4",
+  "type": "ibc",
+  "symbol": "WBTC",
+  "name": "Wrapped Bitcoin on ZIGChain",
+  "description": "Wrapped Bitcoin on ZIGChain",
+  "decimals": 8,
+  "display_denom": "wbtc",
+  "base_denom": "ibc/7B02D9C0746D2D6551CD358D4C7ABAC6EE94527D613BACFDEE122559CEB41AA4",
+  "hash": "7B02D9C0746D2D6551CD358D4C7ABAC6EE94527D613BACFDEE122559CEB41AA4",
+  "origin_chain": "ethereum",
+  "origin_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+  "traces": [
+    {
+      "type": "ibc",
+      "chain_name": "zigchain",
+      "base_denom": "ibc/7B02D9C0746D2D6551CD358D4C7ABAC6EE94527D613BACFDEE122559CEB41AA4",
+      "path": "transfer/channel-4/transfer/08-wasm-1369/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+    },
+    {
+      "type": "ibc",
+      "chain_name": "cosmoshub",
+      "base_denom": "ibc/D742E8566B0B8CC8F569D950051C09CF57988A88F0E45574BFB3079D41DE6462",
+      "path": "transfer/channel-1555"
+    },
+    {
+      "type": "ibc-bridge",
+      "chain_name": "ethereum",
+      "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "path": "transfer/08-wasm-1369/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "provider": "eureka"
+    }
+  ],
+  "channels": [
+    {
+      "zigchain_channel": "channel-4",
+      "counterparty_chain": "cosmoshub",
+      "counterparty_channel": "channel-1555"
+    },
+    {
+      "zigchain_channel": "08-wasm-1369",
+      "counterparty_chain": "ethereum",
+      "counterparty_channel": "channel-0"
+    }
+  ],
+  "logo_uris": {
+    "chain_name": "ethereum",
+    "png": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/wbtc.png",
+    "svg": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/wbtc.svg"
+  },
+  "images": [
+    {
+      "chain_name": "ethereum",
+      "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+    }
+  ],
+  "coingecko_id": "wrapped-bitcoin",
+  "is_verified": true
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18yj08lljlf67dx5vkpe72xzdwlklpcdxeyv309y5tcvwercjsvkq56zlkf.loginkey",
+  "type": "factory",
+  "symbol": "LOGINKEY",
+  "name": "Loginkey",
+  "decimals": 6,
+  "display_denom": "LOGINKEY",
+  "base_denom": "coin.zig18yj08lljlf67dx5vkpe72xzdwlklpcdxeyv309y5tcvwercjsvkq56zlkf.loginkey",
+  "creator": "zig18yj08lljlf67dx5vkpe72xzdwlklpcdxeyv309y5tcvwercjsvkq56zlkf",
+  "subdenom": "loginkey",
+  "denom_units": [
+    {
+      "denom": "coin.zig18yj08lljlf67dx5vkpe72xzdwlklpcdxeyv309y5tcvwercjsvkq56zlkf.loginkey",
+      "exponent": 0
+    },
+    {
+      "denom": "LOGINKEY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

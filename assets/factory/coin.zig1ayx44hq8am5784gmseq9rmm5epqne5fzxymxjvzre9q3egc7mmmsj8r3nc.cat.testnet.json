@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ayx44hq8am5784gmseq9rmm5epqne5fzxymxjvzre9q3egc7mmmsj8r3nc.cat",
+  "type": "factory",
+  "symbol": "CAT",
+  "name": "Cat",
+  "decimals": 6,
+  "display_denom": "CAT",
+  "base_denom": "coin.zig1ayx44hq8am5784gmseq9rmm5epqne5fzxymxjvzre9q3egc7mmmsj8r3nc.cat",
+  "creator": "zig1ayx44hq8am5784gmseq9rmm5epqne5fzxymxjvzre9q3egc7mmmsj8r3nc",
+  "subdenom": "cat",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ayx44hq8am5784gmseq9rmm5epqne5fzxymxjvzre9q3egc7mmmsj8r3nc.cat",
+      "exponent": 0
+    },
+    {
+      "denom": "CAT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

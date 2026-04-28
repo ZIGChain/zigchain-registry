@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig19n5cmu2r8urulf7szsynngs0qjpqnlg6afqa63yzjm5sz9q4dzyqwpgm7x.exercitationemnisi",
+  "type": "factory",
+  "symbol": "EXERCITATIONEMNISI",
+  "name": "Exercitationemnisi",
+  "decimals": 6,
+  "display_denom": "EXERCITATIONEMNISI",
+  "base_denom": "coin.zig19n5cmu2r8urulf7szsynngs0qjpqnlg6afqa63yzjm5sz9q4dzyqwpgm7x.exercitationemnisi",
+  "creator": "zig19n5cmu2r8urulf7szsynngs0qjpqnlg6afqa63yzjm5sz9q4dzyqwpgm7x",
+  "subdenom": "exercitationemnisi",
+  "denom_units": [
+    {
+      "denom": "coin.zig19n5cmu2r8urulf7szsynngs0qjpqnlg6afqa63yzjm5sz9q4dzyqwpgm7x.exercitationemnisi",
+      "exponent": 0
+    },
+    {
+      "denom": "EXERCITATIONEMNISI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

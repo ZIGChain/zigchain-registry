@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1efzqhw27suswphjafck2w8nl3zc3yqy5gemeaknqgp9ql9vzqcvqq6snhg.doloreconsectetur",
+  "type": "factory",
+  "symbol": "DOLORECONSECTETUR",
+  "name": "Doloreconsectetur",
+  "decimals": 6,
+  "display_denom": "DOLORECONSECTETUR",
+  "base_denom": "coin.zig1efzqhw27suswphjafck2w8nl3zc3yqy5gemeaknqgp9ql9vzqcvqq6snhg.doloreconsectetur",
+  "creator": "zig1efzqhw27suswphjafck2w8nl3zc3yqy5gemeaknqgp9ql9vzqcvqq6snhg",
+  "subdenom": "doloreconsectetur",
+  "denom_units": [
+    {
+      "denom": "coin.zig1efzqhw27suswphjafck2w8nl3zc3yqy5gemeaknqgp9ql9vzqcvqq6snhg.doloreconsectetur",
+      "exponent": 0
+    },
+    {
+      "denom": "DOLORECONSECTETUR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

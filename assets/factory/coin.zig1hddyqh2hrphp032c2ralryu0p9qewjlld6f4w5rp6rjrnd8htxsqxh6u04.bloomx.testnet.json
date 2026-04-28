@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hddyqh2hrphp032c2ralryu0p9qewjlld6f4w5rp6rjrnd8htxsqxh6u04.bloomx",
+  "type": "factory",
+  "symbol": "BLOOMX",
+  "name": "Bloomx",
+  "decimals": 6,
+  "display_denom": "BLOOMX",
+  "base_denom": "coin.zig1hddyqh2hrphp032c2ralryu0p9qewjlld6f4w5rp6rjrnd8htxsqxh6u04.bloomx",
+  "creator": "zig1hddyqh2hrphp032c2ralryu0p9qewjlld6f4w5rp6rjrnd8htxsqxh6u04",
+  "subdenom": "bloomx",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hddyqh2hrphp032c2ralryu0p9qewjlld6f4w5rp6rjrnd8htxsqxh6u04.bloomx",
+      "exponent": 0
+    },
+    {
+      "denom": "BLOOMX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

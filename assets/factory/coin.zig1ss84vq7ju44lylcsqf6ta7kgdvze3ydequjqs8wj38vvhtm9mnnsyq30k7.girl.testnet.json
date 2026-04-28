@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ss84vq7ju44lylcsqf6ta7kgdvze3ydequjqs8wj38vvhtm9mnnsyq30k7.girl",
+  "type": "factory",
+  "symbol": "GIRL",
+  "name": "Girl",
+  "decimals": 6,
+  "display_denom": "GIRL",
+  "base_denom": "coin.zig1ss84vq7ju44lylcsqf6ta7kgdvze3ydequjqs8wj38vvhtm9mnnsyq30k7.girl",
+  "creator": "zig1ss84vq7ju44lylcsqf6ta7kgdvze3ydequjqs8wj38vvhtm9mnnsyq30k7",
+  "subdenom": "girl",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ss84vq7ju44lylcsqf6ta7kgdvze3ydequjqs8wj38vvhtm9mnnsyq30k7.girl",
+      "exponent": 0
+    },
+    {
+      "denom": "GIRL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

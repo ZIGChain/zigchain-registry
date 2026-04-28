@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1fwdnftstf4q47k6pmcp7j0asp5wujx4ejxxzaq9u5e6kjpwdpmfqje80wp.skinwalker",
+  "type": "factory",
+  "symbol": "SKINWALKER",
+  "name": "Skinwalker",
+  "decimals": 6,
+  "display_denom": "SKINWALKER",
+  "base_denom": "coin.zig1fwdnftstf4q47k6pmcp7j0asp5wujx4ejxxzaq9u5e6kjpwdpmfqje80wp.skinwalker",
+  "creator": "zig1fwdnftstf4q47k6pmcp7j0asp5wujx4ejxxzaq9u5e6kjpwdpmfqje80wp",
+  "subdenom": "skinwalker",
+  "denom_units": [
+    {
+      "denom": "coin.zig1fwdnftstf4q47k6pmcp7j0asp5wujx4ejxxzaq9u5e6kjpwdpmfqje80wp.skinwalker",
+      "exponent": 0
+    },
+    {
+      "denom": "SKINWALKER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

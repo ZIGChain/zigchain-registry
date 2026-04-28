@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1jwlmxklyc8ggfk4kuuyu7jp5ww9htrjrqml0rxt8qpwkvcqghjrsauexca.inadipiscifacilis",
+  "type": "factory",
+  "symbol": "INADIPISCIFACILIS",
+  "name": "Inadipiscifacilis",
+  "decimals": 6,
+  "display_denom": "INADIPISCIFACILIS",
+  "base_denom": "coin.zig1jwlmxklyc8ggfk4kuuyu7jp5ww9htrjrqml0rxt8qpwkvcqghjrsauexca.inadipiscifacilis",
+  "creator": "zig1jwlmxklyc8ggfk4kuuyu7jp5ww9htrjrqml0rxt8qpwkvcqghjrsauexca",
+  "subdenom": "inadipiscifacilis",
+  "denom_units": [
+    {
+      "denom": "coin.zig1jwlmxklyc8ggfk4kuuyu7jp5ww9htrjrqml0rxt8qpwkvcqghjrsauexca.inadipiscifacilis",
+      "exponent": 0
+    },
+    {
+      "denom": "INADIPISCIFACILIS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

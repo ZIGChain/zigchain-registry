@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1ynrqa7zetj80rx4rqfr470vhlhgpru08k2lpdjq7vc8q4llv6w8s93lee8.bitcoinplsgotomoon",
+  "type": "factory",
+  "symbol": "BITCOINPLSGOTOMOON",
+  "name": "Bitcoinplsgotomoon",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1ynrqa7zetj80rx4rqfr470vhlhgpru08k2lpdjq7vc8q4llv6w8s93lee8.bitcoinplsgotomoon",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1ynrqa7zetj80rx4rqfr470vhlhgpru08k2lpdjq7vc8q4llv6w8s93lee8.bitcoinplsgotomoon",
+  "base_denom": "coin.zig1ynrqa7zetj80rx4rqfr470vhlhgpru08k2lpdjq7vc8q4llv6w8s93lee8.bitcoinplsgotomoon",
+  "creator": "zig1ynrqa7zetj80rx4rqfr470vhlhgpru08k2lpdjq7vc8q4llv6w8s93lee8",
+  "subdenom": "bitcoinplsgotomoon",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

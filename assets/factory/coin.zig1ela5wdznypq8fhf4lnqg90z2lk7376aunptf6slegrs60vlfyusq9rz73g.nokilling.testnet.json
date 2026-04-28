@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ela5wdznypq8fhf4lnqg90z2lk7376aunptf6slegrs60vlfyusq9rz73g.nokilling",
+  "type": "factory",
+  "symbol": "NOKILLING",
+  "name": "Nokilling",
+  "decimals": 6,
+  "display_denom": "NOKILLING",
+  "base_denom": "coin.zig1ela5wdznypq8fhf4lnqg90z2lk7376aunptf6slegrs60vlfyusq9rz73g.nokilling",
+  "creator": "zig1ela5wdznypq8fhf4lnqg90z2lk7376aunptf6slegrs60vlfyusq9rz73g",
+  "subdenom": "nokilling",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ela5wdznypq8fhf4lnqg90z2lk7376aunptf6slegrs60vlfyusq9rz73g.nokilling",
+      "exponent": 0
+    },
+    {
+      "denom": "NOKILLING",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

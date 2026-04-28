@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.coldcoffee",
+  "type": "factory",
+  "symbol": "COLDCOFFEE",
+  "name": "Coldcoffee",
+  "decimals": 6,
+  "display_denom": "COLDCOFFEE",
+  "base_denom": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.coldcoffee",
+  "creator": "zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm",
+  "subdenom": "coldcoffee",
+  "denom_units": [
+    {
+      "denom": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.coldcoffee",
+      "exponent": 0
+    },
+    {
+      "denom": "COLDCOFFEE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

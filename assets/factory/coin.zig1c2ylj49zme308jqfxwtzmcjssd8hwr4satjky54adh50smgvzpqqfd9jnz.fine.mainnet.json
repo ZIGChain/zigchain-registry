@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1c2ylj49zme308jqfxwtzmcjssd8hwr4satjky54adh50smgvzpqqfd9jnz.fine",
+  "type": "factory",
+  "symbol": "FINE",
+  "name": "Fine",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1c2ylj49zme308jqfxwtzmcjssd8hwr4satjky54adh50smgvzpqqfd9jnz.fine",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1c2ylj49zme308jqfxwtzmcjssd8hwr4satjky54adh50smgvzpqqfd9jnz.fine",
+  "base_denom": "coin.zig1c2ylj49zme308jqfxwtzmcjssd8hwr4satjky54adh50smgvzpqqfd9jnz.fine",
+  "creator": "zig1c2ylj49zme308jqfxwtzmcjssd8hwr4satjky54adh50smgvzpqqfd9jnz",
+  "subdenom": "fine",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

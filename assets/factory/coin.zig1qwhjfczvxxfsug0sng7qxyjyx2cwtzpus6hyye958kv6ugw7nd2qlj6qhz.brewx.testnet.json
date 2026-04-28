@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qwhjfczvxxfsug0sng7qxyjyx2cwtzpus6hyye958kv6ugw7nd2qlj6qhz.brewx",
+  "type": "factory",
+  "symbol": "BREWX",
+  "name": "Brewx",
+  "decimals": 6,
+  "display_denom": "BREWX",
+  "base_denom": "coin.zig1qwhjfczvxxfsug0sng7qxyjyx2cwtzpus6hyye958kv6ugw7nd2qlj6qhz.brewx",
+  "creator": "zig1qwhjfczvxxfsug0sng7qxyjyx2cwtzpus6hyye958kv6ugw7nd2qlj6qhz",
+  "subdenom": "brewx",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qwhjfczvxxfsug0sng7qxyjyx2cwtzpus6hyye958kv6ugw7nd2qlj6qhz.brewx",
+      "exponent": 0
+    },
+    {
+      "denom": "BREWX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

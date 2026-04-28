@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1t3zxln853ckjjahjcs326dasmanwru9jlmvj4rl7l7qskxt8da3qdcu42t.spicy",
+  "type": "factory",
+  "symbol": "SPICY",
+  "name": "Spicy",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1t3zxln853ckjjahjcs326dasmanwru9jlmvj4rl7l7qskxt8da3qdcu42t.spicy",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1t3zxln853ckjjahjcs326dasmanwru9jlmvj4rl7l7qskxt8da3qdcu42t.spicy",
+  "base_denom": "coin.zig1t3zxln853ckjjahjcs326dasmanwru9jlmvj4rl7l7qskxt8da3qdcu42t.spicy",
+  "creator": "zig1t3zxln853ckjjahjcs326dasmanwru9jlmvj4rl7l7qskxt8da3qdcu42t",
+  "subdenom": "spicy",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

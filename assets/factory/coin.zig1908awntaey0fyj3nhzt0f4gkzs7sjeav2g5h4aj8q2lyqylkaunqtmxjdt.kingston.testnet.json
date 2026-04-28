@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1908awntaey0fyj3nhzt0f4gkzs7sjeav2g5h4aj8q2lyqylkaunqtmxjdt.kingston",
+  "type": "factory",
+  "symbol": "KINGSTON",
+  "name": "Kingston",
+  "decimals": 6,
+  "display_denom": "KINGSTON",
+  "base_denom": "coin.zig1908awntaey0fyj3nhzt0f4gkzs7sjeav2g5h4aj8q2lyqylkaunqtmxjdt.kingston",
+  "creator": "zig1908awntaey0fyj3nhzt0f4gkzs7sjeav2g5h4aj8q2lyqylkaunqtmxjdt",
+  "subdenom": "kingston",
+  "denom_units": [
+    {
+      "denom": "coin.zig1908awntaey0fyj3nhzt0f4gkzs7sjeav2g5h4aj8q2lyqylkaunqtmxjdt.kingston",
+      "exponent": 0
+    },
+    {
+      "denom": "KINGSTON",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

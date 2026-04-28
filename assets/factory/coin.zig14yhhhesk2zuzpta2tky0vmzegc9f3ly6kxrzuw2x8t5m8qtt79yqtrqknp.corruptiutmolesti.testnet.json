@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14yhhhesk2zuzpta2tky0vmzegc9f3ly6kxrzuw2x8t5m8qtt79yqtrqknp.corruptiutmolesti",
+  "type": "factory",
+  "symbol": "CORRUPTIUTMOLESTI",
+  "name": "Corruptiutmolesti",
+  "decimals": 6,
+  "display_denom": "CORRUPTIUTMOLESTI",
+  "base_denom": "coin.zig14yhhhesk2zuzpta2tky0vmzegc9f3ly6kxrzuw2x8t5m8qtt79yqtrqknp.corruptiutmolesti",
+  "creator": "zig14yhhhesk2zuzpta2tky0vmzegc9f3ly6kxrzuw2x8t5m8qtt79yqtrqknp",
+  "subdenom": "corruptiutmolesti",
+  "denom_units": [
+    {
+      "denom": "coin.zig14yhhhesk2zuzpta2tky0vmzegc9f3ly6kxrzuw2x8t5m8qtt79yqtrqknp.corruptiutmolesti",
+      "exponent": 0
+    },
+    {
+      "denom": "CORRUPTIUTMOLESTI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

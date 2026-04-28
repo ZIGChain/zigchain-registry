@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10zv2y88uwscsyvgry8avd7qv2j79c2xc3ttjxud2nucr9s0j2wssgtdrvl.debitisconsectetur",
+  "type": "factory",
+  "symbol": "DEBITISCONSECTETUR",
+  "name": "Debitisconsectetur",
+  "decimals": 6,
+  "display_denom": "DEBITISCONSECTETUR",
+  "base_denom": "coin.zig10zv2y88uwscsyvgry8avd7qv2j79c2xc3ttjxud2nucr9s0j2wssgtdrvl.debitisconsectetur",
+  "creator": "zig10zv2y88uwscsyvgry8avd7qv2j79c2xc3ttjxud2nucr9s0j2wssgtdrvl",
+  "subdenom": "debitisconsectetur",
+  "denom_units": [
+    {
+      "denom": "coin.zig10zv2y88uwscsyvgry8avd7qv2j79c2xc3ttjxud2nucr9s0j2wssgtdrvl.debitisconsectetur",
+      "exponent": 0
+    },
+    {
+      "denom": "DEBITISCONSECTETUR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

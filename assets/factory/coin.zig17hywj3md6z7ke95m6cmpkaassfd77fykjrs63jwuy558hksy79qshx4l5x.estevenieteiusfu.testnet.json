@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17hywj3md6z7ke95m6cmpkaassfd77fykjrs63jwuy558hksy79qshx4l5x.estevenieteiusfu",
+  "type": "factory",
+  "symbol": "ESTEVENIETEIUSFU",
+  "name": "Estevenieteiusfu",
+  "decimals": 6,
+  "display_denom": "ESTEVENIETEIUSFU",
+  "base_denom": "coin.zig17hywj3md6z7ke95m6cmpkaassfd77fykjrs63jwuy558hksy79qshx4l5x.estevenieteiusfu",
+  "creator": "zig17hywj3md6z7ke95m6cmpkaassfd77fykjrs63jwuy558hksy79qshx4l5x",
+  "subdenom": "estevenieteiusfu",
+  "denom_units": [
+    {
+      "denom": "coin.zig17hywj3md6z7ke95m6cmpkaassfd77fykjrs63jwuy558hksy79qshx4l5x.estevenieteiusfu",
+      "exponent": 0
+    },
+    {
+      "denom": "ESTEVENIETEIUSFU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

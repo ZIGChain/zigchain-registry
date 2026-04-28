@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1yatzc54ln59caxxnj53rff2s359pezx3hqxpzu2tkyl2f9ud9yvsuuuhyz.mdfd",
+  "type": "factory",
+  "symbol": "MDFD",
+  "name": "Mdfd",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1yatzc54ln59caxxnj53rff2s359pezx3hqxpzu2tkyl2f9ud9yvsuuuhyz.mdfd",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1yatzc54ln59caxxnj53rff2s359pezx3hqxpzu2tkyl2f9ud9yvsuuuhyz.mdfd",
+  "base_denom": "coin.zig1yatzc54ln59caxxnj53rff2s359pezx3hqxpzu2tkyl2f9ud9yvsuuuhyz.mdfd",
+  "creator": "zig1yatzc54ln59caxxnj53rff2s359pezx3hqxpzu2tkyl2f9ud9yvsuuuhyz",
+  "subdenom": "mdfd",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

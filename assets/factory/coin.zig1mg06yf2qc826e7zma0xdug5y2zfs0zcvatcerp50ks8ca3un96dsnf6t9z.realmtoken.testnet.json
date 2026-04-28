@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mg06yf2qc826e7zma0xdug5y2zfs0zcvatcerp50ks8ca3un96dsnf6t9z.realmtoken",
+  "type": "factory",
+  "symbol": "REALMTOKEN",
+  "name": "Realmtoken",
+  "decimals": 6,
+  "display_denom": "REALMTOKEN",
+  "base_denom": "coin.zig1mg06yf2qc826e7zma0xdug5y2zfs0zcvatcerp50ks8ca3un96dsnf6t9z.realmtoken",
+  "creator": "zig1mg06yf2qc826e7zma0xdug5y2zfs0zcvatcerp50ks8ca3un96dsnf6t9z",
+  "subdenom": "realmtoken",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mg06yf2qc826e7zma0xdug5y2zfs0zcvatcerp50ks8ca3un96dsnf6t9z.realmtoken",
+      "exponent": 0
+    },
+    {
+      "denom": "REALMTOKEN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

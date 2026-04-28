@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1etm7a9cvvwsjevyfw4wexw9yhl0ucljv279qv20lc0g0hjmehdrq24al6n.flexes",
+  "type": "factory",
+  "symbol": "FLEXES",
+  "name": "Flexes",
+  "decimals": 6,
+  "display_denom": "FLEXES",
+  "base_denom": "coin.zig1etm7a9cvvwsjevyfw4wexw9yhl0ucljv279qv20lc0g0hjmehdrq24al6n.flexes",
+  "creator": "zig1etm7a9cvvwsjevyfw4wexw9yhl0ucljv279qv20lc0g0hjmehdrq24al6n",
+  "subdenom": "flexes",
+  "denom_units": [
+    {
+      "denom": "coin.zig1etm7a9cvvwsjevyfw4wexw9yhl0ucljv279qv20lc0g0hjmehdrq24al6n.flexes",
+      "exponent": 0
+    },
+    {
+      "denom": "FLEXES",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

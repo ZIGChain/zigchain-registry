@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hcsvf2n8andv8rtmaw7r26mhtwufhwhjyps0xknfv5dlggh9wzkqxjm4q6.veldignissimosveri",
+  "type": "factory",
+  "symbol": "VELDIGNISSIMOSVERI",
+  "name": "Veldignissimosveri",
+  "decimals": 6,
+  "display_denom": "VELDIGNISSIMOSVERI",
+  "base_denom": "coin.zig1hcsvf2n8andv8rtmaw7r26mhtwufhwhjyps0xknfv5dlggh9wzkqxjm4q6.veldignissimosveri",
+  "creator": "zig1hcsvf2n8andv8rtmaw7r26mhtwufhwhjyps0xknfv5dlggh9wzkqxjm4q6",
+  "subdenom": "veldignissimosveri",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hcsvf2n8andv8rtmaw7r26mhtwufhwhjyps0xknfv5dlggh9wzkqxjm4q6.veldignissimosveri",
+      "exponent": 0
+    },
+    {
+      "denom": "VELDIGNISSIMOSVERI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

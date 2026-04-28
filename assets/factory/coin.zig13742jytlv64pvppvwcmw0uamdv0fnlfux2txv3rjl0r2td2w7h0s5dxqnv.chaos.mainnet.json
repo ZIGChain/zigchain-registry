@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig13742jytlv64pvppvwcmw0uamdv0fnlfux2txv3rjl0r2td2w7h0s5dxqnv.chaos",
+  "type": "factory",
+  "symbol": "CHAOS",
+  "name": "Chaos",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig13742jytlv64pvppvwcmw0uamdv0fnlfux2txv3rjl0r2td2w7h0s5dxqnv.chaos",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig13742jytlv64pvppvwcmw0uamdv0fnlfux2txv3rjl0r2td2w7h0s5dxqnv.chaos",
+  "base_denom": "coin.zig13742jytlv64pvppvwcmw0uamdv0fnlfux2txv3rjl0r2td2w7h0s5dxqnv.chaos",
+  "creator": "zig13742jytlv64pvppvwcmw0uamdv0fnlfux2txv3rjl0r2td2w7h0s5dxqnv",
+  "subdenom": "chaos",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

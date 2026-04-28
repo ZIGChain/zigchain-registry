@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qvr9k5mlvmx6elhszgumlxp2x0z7s0tmq28q02634c8zl4v69gvszrsy0h.remreprehenderital",
+  "type": "factory",
+  "symbol": "REMREPREHENDERITAL",
+  "name": "Remreprehenderital",
+  "decimals": 6,
+  "display_denom": "REMREPREHENDERITAL",
+  "base_denom": "coin.zig1qvr9k5mlvmx6elhszgumlxp2x0z7s0tmq28q02634c8zl4v69gvszrsy0h.remreprehenderital",
+  "creator": "zig1qvr9k5mlvmx6elhszgumlxp2x0z7s0tmq28q02634c8zl4v69gvszrsy0h",
+  "subdenom": "remreprehenderital",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qvr9k5mlvmx6elhszgumlxp2x0z7s0tmq28q02634c8zl4v69gvszrsy0h.remreprehenderital",
+      "exponent": 0
+    },
+    {
+      "denom": "REMREPREHENDERITAL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1szxapsyzu53drhvpfpk59p9ep8f509qvnt4y7t2p5al8ky3vzhjs8qsujz.pinchwave",
+  "type": "factory",
+  "symbol": "PINCHWAVE",
+  "name": "Pinchwave",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1szxapsyzu53drhvpfpk59p9ep8f509qvnt4y7t2p5al8ky3vzhjs8qsujz.pinchwave",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1szxapsyzu53drhvpfpk59p9ep8f509qvnt4y7t2p5al8ky3vzhjs8qsujz.pinchwave",
+  "base_denom": "coin.zig1szxapsyzu53drhvpfpk59p9ep8f509qvnt4y7t2p5al8ky3vzhjs8qsujz.pinchwave",
+  "creator": "zig1szxapsyzu53drhvpfpk59p9ep8f509qvnt4y7t2p5al8ky3vzhjs8qsujz",
+  "subdenom": "pinchwave",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

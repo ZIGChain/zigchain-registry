@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1l8z9t0hny99z9ncumpn4uqvd7k6sk6l90m68pu9mgvddmyr4vrwq3ckylf.facerepraesentiumu",
+  "type": "factory",
+  "symbol": "FACEREPRAESENTIUMU",
+  "name": "Facerepraesentiumu",
+  "decimals": 6,
+  "display_denom": "FACEREPRAESENTIUMU",
+  "base_denom": "coin.zig1l8z9t0hny99z9ncumpn4uqvd7k6sk6l90m68pu9mgvddmyr4vrwq3ckylf.facerepraesentiumu",
+  "creator": "zig1l8z9t0hny99z9ncumpn4uqvd7k6sk6l90m68pu9mgvddmyr4vrwq3ckylf",
+  "subdenom": "facerepraesentiumu",
+  "denom_units": [
+    {
+      "denom": "coin.zig1l8z9t0hny99z9ncumpn4uqvd7k6sk6l90m68pu9mgvddmyr4vrwq3ckylf.facerepraesentiumu",
+      "exponent": 0
+    },
+    {
+      "denom": "FACEREPRAESENTIUMU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

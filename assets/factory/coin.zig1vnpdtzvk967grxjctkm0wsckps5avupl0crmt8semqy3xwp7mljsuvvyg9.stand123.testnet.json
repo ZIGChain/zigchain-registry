@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1vnpdtzvk967grxjctkm0wsckps5avupl0crmt8semqy3xwp7mljsuvvyg9.stand123",
+  "type": "factory",
+  "symbol": "STAND123",
+  "name": "Stand123",
+  "decimals": 6,
+  "display_denom": "STAND123",
+  "base_denom": "coin.zig1vnpdtzvk967grxjctkm0wsckps5avupl0crmt8semqy3xwp7mljsuvvyg9.stand123",
+  "creator": "zig1vnpdtzvk967grxjctkm0wsckps5avupl0crmt8semqy3xwp7mljsuvvyg9",
+  "subdenom": "stand123",
+  "denom_units": [
+    {
+      "denom": "coin.zig1vnpdtzvk967grxjctkm0wsckps5avupl0crmt8semqy3xwp7mljsuvvyg9.stand123",
+      "exponent": 0
+    },
+    {
+      "denom": "STAND123",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

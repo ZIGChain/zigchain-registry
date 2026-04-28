@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe.zbtc",
+  "type": "factory",
+  "symbol": "ZBTC",
+  "name": "Zbtc",
+  "decimals": 6,
+  "display_denom": "ZBTC",
+  "base_denom": "coin.zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe.zbtc",
+  "creator": "zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe",
+  "subdenom": "zbtc",
+  "denom_units": [
+    {
+      "denom": "coin.zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe.zbtc",
+      "exponent": 0
+    },
+    {
+      "denom": "ZBTC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13xxn5k3688t35yujljzatsjtjcv908svaxtyrfsq4py59ympuuyqwerxap.iureullamcorerumd",
+  "type": "factory",
+  "symbol": "IUREULLAMCORERUMD",
+  "name": "Iureullamcorerumd",
+  "decimals": 6,
+  "display_denom": "IUREULLAMCORERUMD",
+  "base_denom": "coin.zig13xxn5k3688t35yujljzatsjtjcv908svaxtyrfsq4py59ympuuyqwerxap.iureullamcorerumd",
+  "creator": "zig13xxn5k3688t35yujljzatsjtjcv908svaxtyrfsq4py59ympuuyqwerxap",
+  "subdenom": "iureullamcorerumd",
+  "denom_units": [
+    {
+      "denom": "coin.zig13xxn5k3688t35yujljzatsjtjcv908svaxtyrfsq4py59ympuuyqwerxap.iureullamcorerumd",
+      "exponent": 0
+    },
+    {
+      "denom": "IUREULLAMCORERUMD",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

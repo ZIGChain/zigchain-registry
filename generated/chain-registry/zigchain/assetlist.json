@@ -1,0 +1,3059 @@
+{
+  "$schema": "../assetlist.schema.json",
+  "chain_name": "zigchain",
+  "assets": [
+    {
+      "description": "The native token of ZIGChain",
+      "extended_description": "ZIGChain (ZIG) is a Layer 1 blockchain focused on unlocking financial opportunities for everyone - regardless of their income, location, or level of knowledge.",
+      "denom_units": [
+        {
+          "denom": "uzig",
+          "exponent": 0,
+          "aliases": [
+            "microzig"
+          ]
+        },
+        {
+          "denom": "mzig",
+          "exponent": 3,
+          "aliases": [
+            "millizig"
+          ]
+        },
+        {
+          "denom": "zig",
+          "exponent": 6
+        }
+      ],
+      "base": "uzig",
+      "name": "ZIGChain Native Token",
+      "display": "ZIG",
+      "symbol": "ZIG",
+      "coingecko_id": "zignaly",
+      "keywords": [
+        "zigchain",
+        "rwa",
+        "wealth generation infrastructure",
+        "wasm"
+      ],
+      "socials": {
+        "website": "https://zigchain.com/",
+        "x": "https://x.com/zigchain",
+        "telegram": "https://t.me/ZignalyHQ",
+        "discord": "https://discord.zignaly.com",
+        "medium": "https://medium.com/zignaly"
+      },
+      "traces": [
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0xb2617246d0c6c0087f18703d576831899ca94f01"
+          },
+          "provider": "ZIGChain"
+        }
+      ],
+      "type_asset": "sdk.coin",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "ethereum",
+            "base_denom": "0xb2617246d0c6c0087f18703d576831899ca94f01"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg"
+        }
+      ]
+    },
+    {
+      "description": "Staked Zig Token by Valdora Finance - Decentralized staking with stZIG",
+      "denom_units": [
+        {
+          "denom": "coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig",
+          "exponent": 0
+        },
+        {
+          "denom": "stzig",
+          "exponent": 6
+        }
+      ],
+      "base": "coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig",
+      "name": "Staked Zig",
+      "display": "stzig",
+      "symbol": "STZIG",
+      "socials": {
+        "website": "https://valdora.finance",
+        "x": "https://x.com/Valdora_finance",
+        "telegram": "https://t.me/ValdoraWarriors",
+        "discord": "http://discord.gg/valdora"
+      },
+      "type_asset": "sdk.coin",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/stzig.png"
+        }
+      ]
+    },
+    {
+      "description": "Noble USDC on ZIGChain",
+      "denom_units": [
+        {
+          "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+          "exponent": 0,
+          "aliases": [
+            "microusdc",
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+      "name": "Noble USDC",
+      "display": "usdc",
+      "symbol": "USDC",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chain_name": "forex",
+            "base_denom": "USD"
+          },
+          "provider": "Circle"
+        },
+        {
+          "type": "additional-mintage",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          },
+          "provider": "Circle"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "noble",
+            "base_denom": "uusdc",
+            "channel_id": "channel-175"
+          },
+          "chain": {
+            "channel_id": "channel-3",
+            "path": "transfer/channel-3/uusdc"
+          }
+        }
+      ],
+      "coingecko_id": "usd-coin",
+      "type_asset": "ics20",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "noble",
+            "base_denom": "uusdc"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
+        }
+      ]
+    },
+    {
+      "description": "Cosmos Hub Atom on ZIGChain",
+      "denom_units": [
+        {
+          "denom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+          "exponent": 0,
+          "aliases": [
+            "uatom"
+          ]
+        },
+        {
+          "denom": "atom",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+      "name": "Cosmos Hub Atom",
+      "display": "atom",
+      "symbol": "ATOM",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "cosmoshub",
+            "base_denom": "uatom",
+            "channel_id": "channel-1555"
+          },
+          "chain": {
+            "channel_id": "channel-4",
+            "path": "transfer/channel-4/uatom"
+          }
+        }
+      ],
+      "coingecko_id": "cosmos",
+      "type_asset": "ics20",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "cosmoshub",
+            "base_denom": "uatom"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+        }
+      ]
+    },
+    {
+      "description": "ZIG bridged via Axelar on ZIGChain",
+      "denom_units": [
+        {
+          "denom": "ibc/9BEE293E6559ED860CC702685996F394D4991D6DFFD60A19ABC3723E6F34788A",
+          "exponent": 0,
+          "aliases": [
+            "unit-zig"
+          ]
+        },
+        {
+          "denom": "zig.axl",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/9BEE293E6559ED860CC702685996F394D4991D6DFFD60A19ABC3723E6F34788A",
+      "name": "ZIG (Axelar)",
+      "display": "zig.axl",
+      "symbol": "ZIG.axl",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "axelar",
+            "base_denom": "unit-zig",
+            "channel_id": "channel-182"
+          },
+          "chain": {
+            "channel_id": "channel-1",
+            "path": "transfer/channel-1/unit-zig"
+          }
+        }
+      ],
+      "type_asset": "ics20",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "zigchain",
+            "base_denom": "uzig"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.svg"
+        }
+      ]
+    },
+    {
+      "description": "Ether ETH on ZIGChain",
+      "denom_units": [
+        {
+          "denom": "ibc/5E970F9FF7B696B42F75B92CC05A74B9C44AB0B5D231FBE794A29D74344B19D7",
+          "exponent": 0,
+          "aliases": [
+            "wei"
+          ]
+        },
+        {
+          "denom": "eth",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/5E970F9FF7B696B42F75B92CC05A74B9C44AB0B5D231FBE794A29D74344B19D7",
+      "name": "Ethereum",
+      "display": "eth",
+      "symbol": "ETH",
+      "traces": [
+        {
+          "type": "ibc-bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "08-wasm-1369",
+            "path": "transfer/08-wasm-1369/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          },
+          "provider": "Eureka"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "cosmoshub",
+            "base_denom": "ibc/C0B53D3D23827AE38058BED0BDCD554229278AF530A8D265FCF6DFF7C4B2ADFF",
+            "channel_id": "channel-1555"
+          },
+          "chain": {
+            "channel_id": "channel-4",
+            "path": "transfer/channel-4/transfer/08-wasm-1369/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          }
+        }
+      ],
+      "coingecko_id": "ethereum",
+      "type_asset": "ics20",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "ethereum",
+            "base_denom": "wei"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
+        }
+      ]
+    },
+    {
+      "description": "NEIRO on ZIGChain",
+      "denom_units": [
+        {
+          "denom": "ibc/E5EE3EF1D0770C7E5F8CE3AF49B9828613BC90C12EA7577D688B1022EFDDA43C",
+          "exponent": 0,
+          "aliases": [
+            "0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee"
+          ]
+        },
+        {
+          "denom": "neiro",
+          "exponent": 9
+        }
+      ],
+      "base": "ibc/E5EE3EF1D0770C7E5F8CE3AF49B9828613BC90C12EA7577D688B1022EFDDA43C",
+      "name": "NEIRO",
+      "display": "neiro",
+      "symbol": "NEIRO",
+      "traces": [
+        {
+          "type": "ibc-bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "08-wasm-1369",
+            "path": "transfer/08-wasm-1369/0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee"
+          },
+          "provider": "Eureka"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "cosmoshub",
+            "base_denom": "ibc/F7C4726BF9F1B1872C48BA39688A1AC741E9D77B3182662CF6D42A149C86B758",
+            "channel_id": "channel-1555"
+          },
+          "chain": {
+            "channel_id": "channel-4",
+            "path": "transfer/channel-4/transfer/08-wasm-1369/0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee"
+          }
+        }
+      ],
+      "type_asset": "ics20",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/neiro.png"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "ethereum",
+            "base_denom": "0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/neiro.png"
+        }
+      ]
+    },
+    {
+      "description": "Wrapped Bitcoin on ZIGChain",
+      "denom_units": [
+        {
+          "denom": "ibc/7B02D9C0746D2D6551CD358D4C7ABAC6EE94527D613BACFDEE122559CEB41AA4",
+          "exponent": 0,
+          "aliases": [
+            "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+          ]
+        },
+        {
+          "denom": "wbtc",
+          "exponent": 8
+        }
+      ],
+      "base": "ibc/7B02D9C0746D2D6551CD358D4C7ABAC6EE94527D613BACFDEE122559CEB41AA4",
+      "name": "Wrapped Bitcoin on ZIGChain",
+      "display": "wbtc",
+      "symbol": "WBTC",
+      "traces": [
+        {
+          "type": "ibc-bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "08-wasm-1369",
+            "path": "transfer/08-wasm-1369/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+          },
+          "provider": "Eureka"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "cosmoshub",
+            "base_denom": "ibc/D742E8566B0B8CC8F569D950051C09CF57988A88F0E45574BFB3079D41DE6462",
+            "channel_id": "channel-1555"
+          },
+          "chain": {
+            "channel_id": "channel-4",
+            "path": "transfer/channel-4/transfer/08-wasm-1369/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+          }
+        }
+      ],
+      "coingecko_id": "wrapped-bitcoin",
+      "type_asset": "ics20",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "ethereum",
+            "base_denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
+        }
+      ]
+    },
+    {
+      "description": "Tether USD on ZIGChain",
+      "denom_units": [
+        {
+          "denom": "ibc/630F28419AFD118B9EA8B96AE9D280CFDA4EB9FAB3108F1CA9E7DC00F396B4F9",
+          "exponent": 0,
+          "aliases": [
+            "microusdt",
+            "uusdt"
+          ]
+        },
+        {
+          "denom": "usdt",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/630F28419AFD118B9EA8B96AE9D280CFDA4EB9FAB3108F1CA9E7DC00F396B4F9",
+      "name": "Tether USD",
+      "display": "usdt",
+      "symbol": "USDT",
+      "traces": [
+        {
+          "type": "ibc-bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "08-wasm-1369",
+            "path": "transfer/08-wasm-1369/0xdac17f958d2ee523a2206206994597c13d831ec7"
+          },
+          "provider": "Eureka"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "cosmoshub",
+            "base_denom": "ibc/E7E51FFF94A8B55BE84CEB0345E5CAF0A5DAEB374C6806CE908098B8996C7782",
+            "channel_id": "channel-1555"
+          },
+          "chain": {
+            "channel_id": "channel-4",
+            "path": "transfer/channel-4/transfer/08-wasm-1369/0xdac17f958d2ee523a2206206994597c13d831ec7"
+          }
+        }
+      ],
+      "coingecko_id": "tether",
+      "type_asset": "ics20",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "ethereum",
+            "base_denom": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+        }
+      ]
+    },
+    {
+      "description": "Stride Staked ATOM on ZIGChain",
+      "denom_units": [
+        {
+          "denom": "ibc/729AE368985B0F7B35648D17BA74A3D0A1C833FBAE8C3B49D75C6A2B578B9930",
+          "exponent": 0,
+          "aliases": [
+            "stuatom"
+          ]
+        },
+        {
+          "denom": "statom",
+          "exponent": 6
+        }
+      ],
+      "base": "ibc/729AE368985B0F7B35648D17BA74A3D0A1C833FBAE8C3B49D75C6A2B578B9930",
+      "name": "Stride Staked ATOM",
+      "display": "statom",
+      "symbol": "stATOM",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "stride",
+            "base_denom": "stuatom",
+            "channel_id": "channel-391"
+          },
+          "chain": {
+            "channel_id": "channel-4",
+            "path": "transfer/channel-4/transfer/channel-391/stuatom"
+          }
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "cosmoshub",
+            "base_denom": "ibc/B05539B66B72E2739B986B86391E5D08F12B8D5D2C2A7F8F8CF9ADF674DFA231",
+            "channel_id": "channel-1555"
+          },
+          "chain": {
+            "channel_id": "channel-4",
+            "path": "transfer/channel-4/transfer/channel-391/stuatom"
+          }
+        }
+      ],
+      "coingecko_id": "stride-staked-atom",
+      "type_asset": "ics20",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "stride",
+            "base_denom": "stuatom"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/statom.svg"
+        }
+      ]
+    },
+    {
+      "description": "SolvBTC on ZIGChain",
+      "denom_units": [
+        {
+          "denom": "ibc/F1E29C7A6E0A3782CD87D279722AC11FEDE1BAAB9BD5A25A2A7EAE44ED02ADD5",
+          "exponent": 0
+        },
+        {
+          "denom": "solvbtc",
+          "exponent": 18
+        }
+      ],
+      "base": "ibc/F1E29C7A6E0A3782CD87D279722AC11FEDE1BAAB9BD5A25A2A7EAE44ED02ADD5",
+      "name": "SolvBTC on ZIGChain",
+      "display": "solvbtc",
+      "symbol": "SolvBTC",
+      "traces": [
+        {
+          "type": "ibc-bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x7a56e1c57c7475ccf742a1832b028f0456652f97",
+            "channel_id": "channel-0"
+          },
+          "chain": {
+            "channel_id": "08-wasm-1369",
+            "path": "transfer/08-wasm-1369/0x7a56e1c57c7475ccf742a1832b028f0456652f97"
+          },
+          "provider": "Eureka"
+        },
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "cosmoshub",
+            "base_denom": "ibc/0C4417F123459B47B6933939BF6F128C362B0C1F9EDA6A6EBC08860E4672AF7E",
+            "channel_id": "channel-1555"
+          },
+          "chain": {
+            "channel_id": "channel-4",
+            "path": "transfer/channel-4/transfer/08-wasm-1369/0x7a56e1c57c7475ccf742a1832b028f0456652f97"
+          }
+        }
+      ],
+      "coingecko_id": "solv-btc",
+      "type_asset": "ics20",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvbtc.png"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "ethereum",
+            "base_denom": "0x7a56e1c57c7475ccf742a1832b028f0456652f97"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/solvbtc.png"
+        }
+      ]
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig10emnel04g8clxfdtg40sph9lsy4yp79djkqxsy2tpf9524ed0xfq9xc9j5.fly",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig10emnel04g8clxfdtg40sph9lsy4yp79djkqxsy2tpf9524ed0xfq9xc9j5.fly",
+      "name": "Fly",
+      "display": "coin.zig10emnel04g8clxfdtg40sph9lsy4yp79djkqxsy2tpf9524ed0xfq9xc9j5.fly",
+      "symbol": "FLY",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig10nt4xezy9ascsczunkxrxdj7dw8zwaaa9fwnumnhj5vca5psyzdqj5khj6.shibainu",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig10nt4xezy9ascsczunkxrxdj7dw8zwaaa9fwnumnhj5vca5psyzdqj5khj6.shibainu",
+      "name": "Shibainu",
+      "display": "coin.zig10nt4xezy9ascsczunkxrxdj7dw8zwaaa9fwnumnhj5vca5psyzdqj5khj6.shibainu",
+      "symbol": "SHIBAINU",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig10wzwl7g0f2cjcsxhs38ffx8jlrenp93c97a2l9n56w9u9gwnfasqxgezaz.focus",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig10wzwl7g0f2cjcsxhs38ffx8jlrenp93c97a2l9n56w9u9gwnfasqxgezaz.focus",
+      "name": "Focus",
+      "display": "coin.zig10wzwl7g0f2cjcsxhs38ffx8jlrenp93c97a2l9n56w9u9gwnfasqxgezaz.focus",
+      "symbol": "FOCUS",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig128ug2dgq5qvrmscl4krpw080lvkcv95swfsj200q8pf0zf8agstq4u0ad8.oroswap2dominate",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig128ug2dgq5qvrmscl4krpw080lvkcv95swfsj200q8pf0zf8agstq4u0ad8.oroswap2dominate",
+      "name": "Oroswap2dominate",
+      "display": "coin.zig128ug2dgq5qvrmscl4krpw080lvkcv95swfsj200q8pf0zf8agstq4u0ad8.oroswap2dominate",
+      "symbol": "OROSWAP2DOMINATE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig12cedka28yrz4rjah45azz9c7u6yxgek9zf99naj4f7g68rlkjqcsady9f7.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig12cedka28yrz4rjah45azz9c7u6yxgek9zf99naj4f7g68rlkjqcsady9f7.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig12cedka28yrz4rjah45azz9c7u6yxgek9zf99naj4f7g68rlkjqcsady9f7.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig12e2npch0qsccpadhvrlrartsydtvwj6kxv2n3vy9zfcxsu396r8qrpj5h6.ramen",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig12e2npch0qsccpadhvrlrartsydtvwj6kxv2n3vy9zfcxsu396r8qrpj5h6.ramen",
+      "name": "Ramen",
+      "display": "coin.zig12e2npch0qsccpadhvrlrartsydtvwj6kxv2n3vy9zfcxsu396r8qrpj5h6.ramen",
+      "symbol": "RAMEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig12k3k54rq9vutxt9w4dz2agzm4zs8z450nlrdgced99cq8jgpgttqpl44du.dontmissit",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig12k3k54rq9vutxt9w4dz2agzm4zs8z450nlrdgced99cq8jgpgttqpl44du.dontmissit",
+      "name": "Dontmissit",
+      "display": "coin.zig12k3k54rq9vutxt9w4dz2agzm4zs8z450nlrdgced99cq8jgpgttqpl44du.dontmissit",
+      "symbol": "DONTMISSIT",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig12q9rgle5z4rtrzmsehup6e9q9cvk2kaznppx0y8cn7hs7tjpwj7shflm79.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig12q9rgle5z4rtrzmsehup6e9q9cvk2kaznppx0y8cn7hs7tjpwj7shflm79.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig12q9rgle5z4rtrzmsehup6e9q9cvk2kaznppx0y8cn7hs7tjpwj7shflm79.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig12uxfwsdsl7jrjrmuunflz4avqc34myaqtv8s84mcfryl49kc6qeqtdz5me.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig12uxfwsdsl7jrjrmuunflz4avqc34myaqtv8s84mcfryl49kc6qeqtdz5me.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig12uxfwsdsl7jrjrmuunflz4avqc34myaqtv8s84mcfryl49kc6qeqtdz5me.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig12wdgkvj9kjl80xhdduszzcgggxr63tmx22upzcx6daa2fstdn06qr5w4yq.floor005",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig12wdgkvj9kjl80xhdduszzcgggxr63tmx22upzcx6daa2fstdn06qr5w4yq.floor005",
+      "name": "Floor005",
+      "display": "coin.zig12wdgkvj9kjl80xhdduszzcgggxr63tmx22upzcx6daa2fstdn06qr5w4yq.floor005",
+      "symbol": "FLOOR005",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1320x2j4khmtd0kmrcwhax0tfthqemdg4svy27a6v5mya94077y8sdkq6sd.hungry",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1320x2j4khmtd0kmrcwhax0tfthqemdg4svy27a6v5mya94077y8sdkq6sd.hungry",
+      "name": "Hungry",
+      "display": "coin.zig1320x2j4khmtd0kmrcwhax0tfthqemdg4svy27a6v5mya94077y8sdkq6sd.hungry",
+      "symbol": "HUNGRY",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig13742jytlv64pvppvwcmw0uamdv0fnlfux2txv3rjl0r2td2w7h0s5dxqnv.chaos",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig13742jytlv64pvppvwcmw0uamdv0fnlfux2txv3rjl0r2td2w7h0s5dxqnv.chaos",
+      "name": "Chaos",
+      "display": "coin.zig13742jytlv64pvppvwcmw0uamdv0fnlfux2txv3rjl0r2td2w7h0s5dxqnv.chaos",
+      "symbol": "CHAOS",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig13fz5j3glx7t8ntveg7hyppztyz8ujxj8s588c3zu2ydpvswfkc8q0garp3.santa",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig13fz5j3glx7t8ntveg7hyppztyz8ujxj8s588c3zu2ydpvswfkc8q0garp3.santa",
+      "name": "Santa",
+      "display": "coin.zig13fz5j3glx7t8ntveg7hyppztyz8ujxj8s588c3zu2ydpvswfkc8q0garp3.santa",
+      "symbol": "SANTA",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig13pthd5yunv74vn5w7e4mllm4dwqu3wk8yfn4q84fqgpekx0e97ns2qc6st.wink",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig13pthd5yunv74vn5w7e4mllm4dwqu3wk8yfn4q84fqgpekx0e97ns2qc6st.wink",
+      "name": "Wink",
+      "display": "coin.zig13pthd5yunv74vn5w7e4mllm4dwqu3wk8yfn4q84fqgpekx0e97ns2qc6st.wink",
+      "symbol": "WINK",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig13sefptyux3jl4y86kf0nfyjql2e6pfkyyc0j3072nsfyr98wc0ls42ad9q.hunger",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig13sefptyux3jl4y86kf0nfyjql2e6pfkyyc0j3072nsfyr98wc0ls42ad9q.hunger",
+      "name": "Hunger",
+      "display": "coin.zig13sefptyux3jl4y86kf0nfyjql2e6pfkyyc0j3072nsfyr98wc0ls42ad9q.hunger",
+      "symbol": "HUNGER",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig13x2k0qpuppllvp603u99jkq5d7kft2hqh5v5e8d0wxyzf8sywxzs446mgj.shruggie",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig13x2k0qpuppllvp603u99jkq5d7kft2hqh5v5e8d0wxyzf8sywxzs446mgj.shruggie",
+      "name": "Shruggie",
+      "display": "coin.zig13x2k0qpuppllvp603u99jkq5d7kft2hqh5v5e8d0wxyzf8sywxzs446mgj.shruggie",
+      "symbol": "SHRUGGIE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig140alcyte0gj2eax6x62xxqcg27ygjq8ag5dz6z4r6u70pdv4lw0qjp79hc.theros",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig140alcyte0gj2eax6x62xxqcg27ygjq8ag5dz6z4r6u70pdv4lw0qjp79hc.theros",
+      "name": "Theros",
+      "display": "coin.zig140alcyte0gj2eax6x62xxqcg27ygjq8ag5dz6z4r6u70pdv4lw0qjp79hc.theros",
+      "symbol": "THEROS",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1466nf3zuxpya8q9emxukd7vftaf6h4psr0a07srl5zw74zh84yjq6868zg.abc5da0e68104",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1466nf3zuxpya8q9emxukd7vftaf6h4psr0a07srl5zw74zh84yjq6868zg.abc5da0e68104",
+      "name": "Abc5da0e68104",
+      "display": "coin.zig1466nf3zuxpya8q9emxukd7vftaf6h4psr0a07srl5zw74zh84yjq6868zg.abc5da0e68104",
+      "symbol": "ABC5DA0E68104",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1466nf3zuxpya8q9emxukd7vftaf6h4psr0a07srl5zw74zh84yjq6868zg.zyx8e57ee025c",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1466nf3zuxpya8q9emxukd7vftaf6h4psr0a07srl5zw74zh84yjq6868zg.zyx8e57ee025c",
+      "name": "Zyx8e57ee025c",
+      "display": "coin.zig1466nf3zuxpya8q9emxukd7vftaf6h4psr0a07srl5zw74zh84yjq6868zg.zyx8e57ee025c",
+      "symbol": "ZYX8E57EE025C",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig147ssatunm8wuukmzer8jc7nw2hqmrgawwmc9gu6hgqtm24c8x29qhjtl58.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig147ssatunm8wuukmzer8jc7nw2hqmrgawwmc9gu6hgqtm24c8x29qhjtl58.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig147ssatunm8wuukmzer8jc7nw2hqmrgawwmc9gu6hgqtm24c8x29qhjtl58.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig14hpg9wup26t2t2ppfjfaj6w3knxrwasw9sjwzhd7ru0gl83xkxxq5fawzr.mdfe",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig14hpg9wup26t2t2ppfjfaj6w3knxrwasw9sjwzhd7ru0gl83xkxxq5fawzr.mdfe",
+      "name": "Mdfe",
+      "display": "coin.zig14hpg9wup26t2t2ppfjfaj6w3knxrwasw9sjwzhd7ru0gl83xkxxq5fawzr.mdfe",
+      "symbol": "MDFE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig14sferxzpwqzdz24nhdndgunjaca4uww0hf86eelr449v9d0nr8wsac2m4r.zig2one",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig14sferxzpwqzdz24nhdndgunjaca4uww0hf86eelr449v9d0nr8wsac2m4r.zig2one",
+      "name": "Zig2one",
+      "display": "coin.zig14sferxzpwqzdz24nhdndgunjaca4uww0hf86eelr449v9d0nr8wsac2m4r.zig2one",
+      "symbol": "ZIG2ONE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig15d0zmcmlmycvywzjl4nwmuyn7p2d55gzxsn53axwwajlthenaqessmnwzz.rebelioussheep",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig15d0zmcmlmycvywzjl4nwmuyn7p2d55gzxsn53axwwajlthenaqessmnwzz.rebelioussheep",
+      "name": "Rebelioussheep",
+      "display": "coin.zig15d0zmcmlmycvywzjl4nwmuyn7p2d55gzxsn53axwwajlthenaqessmnwzz.rebelioussheep",
+      "symbol": "REBELIOUSSHEEP",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig15fp8v5kdgh9zhzfelfmt2qpzgtw2rcskz7hhkuqa3gr7y720s0xsppgqkr.zbert",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig15fp8v5kdgh9zhzfelfmt2qpzgtw2rcskz7hhkuqa3gr7y720s0xsppgqkr.zbert",
+      "name": "Zbert",
+      "display": "coin.zig15fp8v5kdgh9zhzfelfmt2qpzgtw2rcskz7hhkuqa3gr7y720s0xsppgqkr.zbert",
+      "symbol": "ZBERT",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig15m5fe2pfxq6796rf2z7gma8a0n2s0f0dxasmrzark3q26tltgsyssgmpad.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig15m5fe2pfxq6796rf2z7gma8a0n2s0f0dxasmrzark3q26tltgsyssgmpad.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig15m5fe2pfxq6796rf2z7gma8a0n2s0f0dxasmrzark3q26tltgsyssgmpad.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig15sllxl4qevqdfpfuzdelvqldd3qsxjx9u2lrwkkrsh8hpuu97rqs63fsl7.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig15sllxl4qevqdfpfuzdelvqldd3qsxjx9u2lrwkkrsh8hpuu97rqs63fsl7.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig15sllxl4qevqdfpfuzdelvqldd3qsxjx9u2lrwkkrsh8hpuu97rqs63fsl7.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig163gnqunyjakjmg9ssngr4dtf47pwaqtcjuatj88ath8ujzp375fqk6kuqr.wen",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig163gnqunyjakjmg9ssngr4dtf47pwaqtcjuatj88ath8ujzp375fqk6kuqr.wen",
+      "name": "Wen",
+      "display": "coin.zig163gnqunyjakjmg9ssngr4dtf47pwaqtcjuatj88ath8ujzp375fqk6kuqr.wen",
+      "symbol": "WEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig164nsh34m76plmnj29ek7xfhycy932v6yerp7337zvufua8dmj2fqk9898w.ore",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig164nsh34m76plmnj29ek7xfhycy932v6yerp7337zvufua8dmj2fqk9898w.ore",
+      "name": "Ore",
+      "display": "coin.zig164nsh34m76plmnj29ek7xfhycy932v6yerp7337zvufua8dmj2fqk9898w.ore",
+      "symbol": "ORE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig16m87akk4pq84tnwnxzhuq5asy9m43n727j4h86rgnnecc0gc4zwqwuczv9.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig16m87akk4pq84tnwnxzhuq5asy9m43n727j4h86rgnnecc0gc4zwqwuczv9.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig16m87akk4pq84tnwnxzhuq5asy9m43n727j4h86rgnnecc0gc4zwqwuczv9.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1707ccwapsqtkceefqaxtm6hly7jxmytxx3dlejn8kedrqf2rjlns0dgn29.mdfc",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1707ccwapsqtkceefqaxtm6hly7jxmytxx3dlejn8kedrqf2rjlns0dgn29.mdfc",
+      "name": "Mdfc",
+      "display": "coin.zig1707ccwapsqtkceefqaxtm6hly7jxmytxx3dlejn8kedrqf2rjlns0dgn29.mdfc",
+      "symbol": "MDFC",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig177vjwkg6hqwgccjsvth02cacmwj7d568qs4wxgzg8vt4n70sg9ms49kp28.moonzig",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig177vjwkg6hqwgccjsvth02cacmwj7d568qs4wxgzg8vt4n70sg9ms49kp28.moonzig",
+      "name": "Moonzig",
+      "display": "coin.zig177vjwkg6hqwgccjsvth02cacmwj7d568qs4wxgzg8vt4n70sg9ms49kp28.moonzig",
+      "symbol": "MOONZIG",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig17g3a2z7l6zn88m8ymgwghk8hnclh824h5zh88zkw4z4zfa8q5zqqp0uvn0.ziggy",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig17g3a2z7l6zn88m8ymgwghk8hnclh824h5zh88zkw4z4zfa8q5zqqp0uvn0.ziggy",
+      "name": "Ziggy",
+      "display": "coin.zig17g3a2z7l6zn88m8ymgwghk8hnclh824h5zh88zkw4z4zfa8q5zqqp0uvn0.ziggy",
+      "symbol": "ZIGGY",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig17kkd7cqpw5h25xpkm2eqrv89uye43gmsrt2glectht47m47vwy2syv0cw2.mdftb",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig17kkd7cqpw5h25xpkm2eqrv89uye43gmsrt2glectht47m47vwy2syv0cw2.mdftb",
+      "name": "Mdftb",
+      "display": "coin.zig17kkd7cqpw5h25xpkm2eqrv89uye43gmsrt2glectht47m47vwy2syv0cw2.mdftb",
+      "symbol": "MDFTB",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig17m0fljgzssqjg260nle2vlufahjreqxzqqlq48rskrg7g6v4h5qs6rsrg3.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig17m0fljgzssqjg260nle2vlufahjreqxzqqlq48rskrg7g6v4h5qs6rsrg3.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig17m0fljgzssqjg260nle2vlufahjreqxzqqlq48rskrg7g6v4h5qs6rsrg3.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig17xlr7dzy8yh3l7tdnan4h5hmm0nvn6227du7m9fnx2am47wyxkpqujxcqp.stasher",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig17xlr7dzy8yh3l7tdnan4h5hmm0nvn6227du7m9fnx2am47wyxkpqujxcqp.stasher",
+      "name": "Stasher",
+      "display": "coin.zig17xlr7dzy8yh3l7tdnan4h5hmm0nvn6227du7m9fnx2am47wyxkpqujxcqp.stasher",
+      "symbol": "STASHER",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig183tkskctfxfm3d4pa63kwgy6maqaw7h6d3n35pkst3g82muu48nsm3wsja.zigshalla",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig183tkskctfxfm3d4pa63kwgy6maqaw7h6d3n35pkst3g82muu48nsm3wsja.zigshalla",
+      "name": "Zigshalla",
+      "display": "coin.zig183tkskctfxfm3d4pa63kwgy6maqaw7h6d3n35pkst3g82muu48nsm3wsja.zigshalla",
+      "symbol": "ZIGSHALLA",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig186ucx5mtdq6ams8rsvvcu7yfw5lhtxue8ykdkyqvlnk3gpc77lasw8373h.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig186ucx5mtdq6ams8rsvvcu7yfw5lhtxue8ykdkyqvlnk3gpc77lasw8373h.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig186ucx5mtdq6ams8rsvvcu7yfw5lhtxue8ykdkyqvlnk3gpc77lasw8373h.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig18ms23xsakyj4kehsp00d0yld3v0ft9png7s8cqtzvnu9epnsn2yqmd5v2s.nervousbreakdown",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig18ms23xsakyj4kehsp00d0yld3v0ft9png7s8cqtzvnu9epnsn2yqmd5v2s.nervousbreakdown",
+      "name": "Nervousbreakdown",
+      "display": "coin.zig18ms23xsakyj4kehsp00d0yld3v0ft9png7s8cqtzvnu9epnsn2yqmd5v2s.nervousbreakdown",
+      "symbol": "NERVOUSBREAKDOWN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig18nad6v80tv5l40kz37mh64hyjgpvmnz5dlrnuymngchxxw8600kq9w4qta.alexbecker",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig18nad6v80tv5l40kz37mh64hyjgpvmnz5dlrnuymngchxxw8600kq9w4qta.alexbecker",
+      "name": "Alexbecker",
+      "display": "coin.zig18nad6v80tv5l40kz37mh64hyjgpvmnz5dlrnuymngchxxw8600kq9w4qta.alexbecker",
+      "symbol": "ALEXBECKER",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig18waz745xrwfhtdgvgvpse60hvtygc0zdrahppcl92wd7nasmxarq5gw2r4.mouse",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig18waz745xrwfhtdgvgvpse60hvtygc0zdrahppcl92wd7nasmxarq5gw2r4.mouse",
+      "name": "Mouse",
+      "display": "coin.zig18waz745xrwfhtdgvgvpse60hvtygc0zdrahppcl92wd7nasmxarq5gw2r4.mouse",
+      "symbol": "MOUSE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig19602xl6zfzrlzlamncl05eep2s3t3gj9vqdfxpd58hkd5q742j7s5ek9zm.zella",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig19602xl6zfzrlzlamncl05eep2s3t3gj9vqdfxpd58hkd5q742j7s5ek9zm.zella",
+      "name": "Zella",
+      "display": "coin.zig19602xl6zfzrlzlamncl05eep2s3t3gj9vqdfxpd58hkd5q742j7s5ek9zm.zella",
+      "symbol": "ZELLA",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig196ywx2seau2usdgw98r65lmzkve4pepv0kavvqjl6k9jwykz8pesz8zlcu.gasp",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig196ywx2seau2usdgw98r65lmzkve4pepv0kavvqjl6k9jwykz8pesz8zlcu.gasp",
+      "name": "Gasp",
+      "display": "coin.zig196ywx2seau2usdgw98r65lmzkve4pepv0kavvqjl6k9jwykz8pesz8zlcu.gasp",
+      "symbol": "GASP",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig19e938ptea97hwsj4hmzf3l6m63mw5v29arqf4vnqx2w75sc5eppsu9csxv.daddy",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig19e938ptea97hwsj4hmzf3l6m63mw5v29arqf4vnqx2w75sc5eppsu9csxv.daddy",
+      "name": "Daddy",
+      "display": "coin.zig19e938ptea97hwsj4hmzf3l6m63mw5v29arqf4vnqx2w75sc5eppsu9csxv.daddy",
+      "symbol": "DADDY",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig19ls55lcg6kys8g69xwqkcm6w4gw4pry0lcurzfayfs029kx75fvsg06lj9.craze",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig19ls55lcg6kys8g69xwqkcm6w4gw4pry0lcurzfayfs029kx75fvsg06lj9.craze",
+      "name": "Craze",
+      "display": "coin.zig19ls55lcg6kys8g69xwqkcm6w4gw4pry0lcurzfayfs029kx75fvsg06lj9.craze",
+      "symbol": "CRAZE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig19svrle09x9sdp3sya9szraufwrj70tmv9lgnrjmcjyur56pzaqzqqy25gy.mushrooms",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig19svrle09x9sdp3sya9szraufwrj70tmv9lgnrjmcjyur56pzaqzqqy25gy.mushrooms",
+      "name": "Mushrooms",
+      "display": "coin.zig19svrle09x9sdp3sya9szraufwrj70tmv9lgnrjmcjyur56pzaqzqqy25gy.mushrooms",
+      "symbol": "MUSHROOMS",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig19w85mt4x0mml6x98n9e78vyzy7uq0d8st3klhc0x699pexh40uqs4f84me.cigarclubx",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig19w85mt4x0mml6x98n9e78vyzy7uq0d8st3klhc0x699pexh40uqs4f84me.cigarclubx",
+      "name": "Cigarclubx",
+      "display": "coin.zig19w85mt4x0mml6x98n9e78vyzy7uq0d8st3klhc0x699pexh40uqs4f84me.cigarclubx",
+      "symbol": "CIGARCLUBX",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1a0ay3q555ead7jpxpsus64w4gd38sv8p398ml3flamn45wnmwrhq9tca7j.bullishdegen",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1a0ay3q555ead7jpxpsus64w4gd38sv8p398ml3flamn45wnmwrhq9tca7j.bullishdegen",
+      "name": "Bullishdegen",
+      "display": "coin.zig1a0ay3q555ead7jpxpsus64w4gd38sv8p398ml3flamn45wnmwrhq9tca7j.bullishdegen",
+      "symbol": "BULLISHDEGEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1a7qym26kc05s5mmfeqfck0f5zqu2v8f3tx5u9ndml5xcmpr0aayqv0xalx.powell",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1a7qym26kc05s5mmfeqfck0f5zqu2v8f3tx5u9ndml5xcmpr0aayqv0xalx.powell",
+      "name": "Powell",
+      "display": "coin.zig1a7qym26kc05s5mmfeqfck0f5zqu2v8f3tx5u9ndml5xcmpr0aayqv0xalx.powell",
+      "symbol": "POWELL",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1au8wu3ryfa34a8we6daes57ztfw8lqq2ssd0nu6zam99u9xy8sssldd5q3.spill",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1au8wu3ryfa34a8we6daes57ztfw8lqq2ssd0nu6zam99u9xy8sssldd5q3.spill",
+      "name": "Spill",
+      "display": "coin.zig1au8wu3ryfa34a8we6daes57ztfw8lqq2ssd0nu6zam99u9xy8sssldd5q3.spill",
+      "symbol": "SPILL",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1c2ylj49zme308jqfxwtzmcjssd8hwr4satjky54adh50smgvzpqqfd9jnz.fine",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1c2ylj49zme308jqfxwtzmcjssd8hwr4satjky54adh50smgvzpqqfd9jnz.fine",
+      "name": "Fine",
+      "display": "coin.zig1c2ylj49zme308jqfxwtzmcjssd8hwr4satjky54adh50smgvzpqqfd9jnz.fine",
+      "symbol": "FINE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1c3ndw42kwd3nx37z3qjyxs88xun5j05d6k3huhzsrukdpxlk80msra8lzu.perfect",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1c3ndw42kwd3nx37z3qjyxs88xun5j05d6k3huhzsrukdpxlk80msra8lzu.perfect",
+      "name": "Perfect",
+      "display": "coin.zig1c3ndw42kwd3nx37z3qjyxs88xun5j05d6k3huhzsrukdpxlk80msra8lzu.perfect",
+      "symbol": "PERFECT",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1c829w6huclrkzx55cdgq0azuzv9277wezwkum8.bridge",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1c829w6huclrkzx55cdgq0azuzv9277wezwkum8.bridge",
+      "name": "Bridge",
+      "display": "coin.zig1c829w6huclrkzx55cdgq0azuzv9277wezwkum8.bridge",
+      "symbol": "BRIDGE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1cadlevcnq2dy4lzqjp3y0cmyq6lrrl7928vg0kc40hd5tegj59wq9hp2yw.snowball",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1cadlevcnq2dy4lzqjp3y0cmyq6lrrl7928vg0kc40hd5tegj59wq9hp2yw.snowball",
+      "name": "Snowball",
+      "display": "coin.zig1cadlevcnq2dy4lzqjp3y0cmyq6lrrl7928vg0kc40hd5tegj59wq9hp2yw.snowball",
+      "symbol": "SNOWBALL",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1cd3jzdm4cnqyw74xpmgrjznw3zware0k7rdp3lnzhhamwjcsaleqhfwly3.midgetcoin",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1cd3jzdm4cnqyw74xpmgrjznw3zware0k7rdp3lnzhhamwjcsaleqhfwly3.midgetcoin",
+      "name": "Midgetcoin",
+      "display": "coin.zig1cd3jzdm4cnqyw74xpmgrjznw3zware0k7rdp3lnzhhamwjcsaleqhfwly3.midgetcoin",
+      "symbol": "MIDGETCOIN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1cfh0kqtv8rq894a66ulvv39q6czd79acttz7fer0ne7pg2zt9y8q2h85uh.wojak",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1cfh0kqtv8rq894a66ulvv39q6czd79acttz7fer0ne7pg2zt9y8q2h85uh.wojak",
+      "name": "Wojak",
+      "display": "coin.zig1cfh0kqtv8rq894a66ulvv39q6czd79acttz7fer0ne7pg2zt9y8q2h85uh.wojak",
+      "symbol": "WOJAK",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1cjszvv3lf35c0wvqek3548raup3zz6apk2cgc0z3mamjwn8rt9qqwjt0pu.throb",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1cjszvv3lf35c0wvqek3548raup3zz6apk2cgc0z3mamjwn8rt9qqwjt0pu.throb",
+      "name": "Throb",
+      "display": "coin.zig1cjszvv3lf35c0wvqek3548raup3zz6apk2cgc0z3mamjwn8rt9qqwjt0pu.throb",
+      "symbol": "THROB",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1d7zkthlelv0ydvklyjvy9pfxm5c2an4c4dklcwd9ucmlf6skkwvsdyut9j.abdul",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1d7zkthlelv0ydvklyjvy9pfxm5c2an4c4dklcwd9ucmlf6skkwvsdyut9j.abdul",
+      "name": "Abdul",
+      "display": "coin.zig1d7zkthlelv0ydvklyjvy9pfxm5c2an4c4dklcwd9ucmlf6skkwvsdyut9j.abdul",
+      "symbol": "ABDUL",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1deh67vdt67uevyvst2z55uf7pd3xcpa0c7rhn5awhdy85mqtr95sj8339n.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1deh67vdt67uevyvst2z55uf7pd3xcpa0c7rhn5awhdy85mqtr95sj8339n.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1deh67vdt67uevyvst2z55uf7pd3xcpa0c7rhn5awhdy85mqtr95sj8339n.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1dnhjj864zqlgwd2wkadrzkahrqp2aww0vp5qfmvjlhc087zc04as2nlt0c.zigai",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1dnhjj864zqlgwd2wkadrzkahrqp2aww0vp5qfmvjlhc087zc04as2nlt0c.zigai",
+      "name": "Zigai",
+      "display": "coin.zig1dnhjj864zqlgwd2wkadrzkahrqp2aww0vp5qfmvjlhc087zc04as2nlt0c.zigai",
+      "symbol": "ZIGAI",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1dnuhcsytmy8n5tzgnstta9zaxavvc3t2e644sdxvw67vuzpw9dzq26qz0g.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1dnuhcsytmy8n5tzgnstta9zaxavvc3t2e644sdxvw67vuzpw9dzq26qz0g.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1dnuhcsytmy8n5tzgnstta9zaxavvc3t2e644sdxvw67vuzpw9dzq26qz0g.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1dzel9vgyvgmnaww666mf9xr6wdu42dsfz0dvpks2fe2m4a09qu2qmq5xe2.panda",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1dzel9vgyvgmnaww666mf9xr6wdu42dsfz0dvpks2fe2m4a09qu2qmq5xe2.panda",
+      "name": "Panda",
+      "display": "coin.zig1dzel9vgyvgmnaww666mf9xr6wdu42dsfz0dvpks2fe2m4a09qu2qmq5xe2.panda",
+      "symbol": "PANDA",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1dzj9gfyg6gnz7ex2c53nn40e9pucfxah5600hmrwvz90ncq3v3wsc93pzw.smirk",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1dzj9gfyg6gnz7ex2c53nn40e9pucfxah5600hmrwvz90ncq3v3wsc93pzw.smirk",
+      "name": "Smirk",
+      "display": "coin.zig1dzj9gfyg6gnz7ex2c53nn40e9pucfxah5600hmrwvz90ncq3v3wsc93pzw.smirk",
+      "symbol": "SMIRK",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1e9t3zxc64u7jggrfqgvfmq096ckhm0r5ep0klyh7f5f5eu5yk96q8rneg2.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1e9t3zxc64u7jggrfqgvfmq096ckhm0r5ep0klyh7f5f5eu5yk96q8rneg2.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1e9t3zxc64u7jggrfqgvfmq096ckhm0r5ep0klyh7f5f5eu5yk96q8rneg2.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1ejqzph2ac07wmpmts7ujrhhj46kwdj476628rqajmgkf7wzxelgs3nxynq.squeal",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1ejqzph2ac07wmpmts7ujrhhj46kwdj476628rqajmgkf7wzxelgs3nxynq.squeal",
+      "name": "Squeal",
+      "display": "coin.zig1ejqzph2ac07wmpmts7ujrhhj46kwdj476628rqajmgkf7wzxelgs3nxynq.squeal",
+      "symbol": "SQUEAL",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1epw3cvft6aw2wwhl08376fg7sc6ey9ta4dfpappdandkec0ccmzs7yprdm.clown",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1epw3cvft6aw2wwhl08376fg7sc6ey9ta4dfpappdandkec0ccmzs7yprdm.clown",
+      "name": "Clown",
+      "display": "coin.zig1epw3cvft6aw2wwhl08376fg7sc6ey9ta4dfpappdandkec0ccmzs7yprdm.clown",
+      "symbol": "CLOWN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1f0q8gjyqk36mnycp0prxjhkn6q05sw780lxzp3cwtrxmas74hwkqgjxe0x.lols2lambos",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1f0q8gjyqk36mnycp0prxjhkn6q05sw780lxzp3cwtrxmas74hwkqgjxe0x.lols2lambos",
+      "name": "Lols2lambos",
+      "display": "coin.zig1f0q8gjyqk36mnycp0prxjhkn6q05sw780lxzp3cwtrxmas74hwkqgjxe0x.lols2lambos",
+      "symbol": "LOLS2LAMBOS",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1f2jt3f9gzajp5uupeq6xm20h90uzy6l8klvrx52ujaznc8xu8d7sfnrd87.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1f2jt3f9gzajp5uupeq6xm20h90uzy6l8klvrx52ujaznc8xu8d7sfnrd87.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1f2jt3f9gzajp5uupeq6xm20h90uzy6l8klvrx52ujaznc8xu8d7sfnrd87.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1f2ztzm2t6t8msn542w2rvcaarxlm9q6lj5qjs5a3mhtrt0qzalkset50zp.fogswap",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1f2ztzm2t6t8msn542w2rvcaarxlm9q6lj5qjs5a3mhtrt0qzalkset50zp.fogswap",
+      "name": "Fogswap",
+      "display": "coin.zig1f2ztzm2t6t8msn542w2rvcaarxlm9q6lj5qjs5a3mhtrt0qzalkset50zp.fogswap",
+      "symbol": "FOGSWAP",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1f36u3u5gefvh334shz0fvaue6cpkp2pgdg44hszr0ldqyswleyjs2c8d8g.mdf",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1f36u3u5gefvh334shz0fvaue6cpkp2pgdg44hszr0ldqyswleyjs2c8d8g.mdf",
+      "name": "Mdf",
+      "display": "coin.zig1f36u3u5gefvh334shz0fvaue6cpkp2pgdg44hszr0ldqyswleyjs2c8d8g.mdf",
+      "symbol": "MDF",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1fa7tuuwmd5r3r40ujtrz82xxnxx8l4v2u74x9643v0c9j0h698qsvg5d0f.realtesttoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1fa7tuuwmd5r3r40ujtrz82xxnxx8l4v2u74x9643v0c9j0h698qsvg5d0f.realtesttoken",
+      "name": "Realtesttoken",
+      "display": "coin.zig1fa7tuuwmd5r3r40ujtrz82xxnxx8l4v2u74x9643v0c9j0h698qsvg5d0f.realtesttoken",
+      "symbol": "REALTESTTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1fc3gznkwx3j5eeujhpsjr5fxluxp8442dtxaeen8njtlj0ec700qg43kta.mdfa",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1fc3gznkwx3j5eeujhpsjr5fxluxp8442dtxaeen8njtlj0ec700qg43kta.mdfa",
+      "name": "Mdfa",
+      "display": "coin.zig1fc3gznkwx3j5eeujhpsjr5fxluxp8442dtxaeen8njtlj0ec700qg43kta.mdfa",
+      "symbol": "MDFA",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1fkshdtpjjkz8f0lrd4kh6uaefmrrmeacq8ewu92c9rlq9ha5afhqzf844d.argsanta",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1fkshdtpjjkz8f0lrd4kh6uaefmrrmeacq8ewu92c9rlq9ha5afhqzf844d.argsanta",
+      "name": "Argsanta",
+      "display": "coin.zig1fkshdtpjjkz8f0lrd4kh6uaefmrrmeacq8ewu92c9rlq9ha5afhqzf844d.argsanta",
+      "symbol": "ARGSANTA",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1fvge5wj86y3g9q9drmp6n3g348rl29vd8dyxmjskq2n7w7c6cqdsrvq837.kabuto",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1fvge5wj86y3g9q9drmp6n3g348rl29vd8dyxmjskq2n7w7c6cqdsrvq837.kabuto",
+      "name": "Kabuto",
+      "display": "coin.zig1fvge5wj86y3g9q9drmp6n3g348rl29vd8dyxmjskq2n7w7c6cqdsrvq837.kabuto",
+      "symbol": "KABUTO",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1fwmkhs85kjj0gspjqs90tu2mfrvdhnztwv6fjhgnmug27jnevhms49vzk9.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1fwmkhs85kjj0gspjqs90tu2mfrvdhnztwv6fjhgnmug27jnevhms49vzk9.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1fwmkhs85kjj0gspjqs90tu2mfrvdhnztwv6fjhgnmug27jnevhms49vzk9.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1fxyfm8sg00q5zm8rx93pnaum32kr9vkq4g5ezaghj3gdcz94tyzq98kl5c.flame",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1fxyfm8sg00q5zm8rx93pnaum32kr9vkq4g5ezaghj3gdcz94tyzq98kl5c.flame",
+      "name": "Flame",
+      "display": "coin.zig1fxyfm8sg00q5zm8rx93pnaum32kr9vkq4g5ezaghj3gdcz94tyzq98kl5c.flame",
+      "symbol": "FLAME",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1g3nkdsjkfjm7ex0fmj69wsr672ke9rjlzuskjqzfwgqptfvy9a8sqd832l.rafay",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1g3nkdsjkfjm7ex0fmj69wsr672ke9rjlzuskjqzfwgqptfvy9a8sqd832l.rafay",
+      "name": "Rafay",
+      "display": "coin.zig1g3nkdsjkfjm7ex0fmj69wsr672ke9rjlzuskjqzfwgqptfvy9a8sqd832l.rafay",
+      "symbol": "RAFAY",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1g4ywcghjg7plt99aakq5xt4w2wa32z80ryuj3cp60t60r9pywfmsuulwhw.tissue",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1g4ywcghjg7plt99aakq5xt4w2wa32z80ryuj3cp60t60r9pywfmsuulwhw.tissue",
+      "name": "Tissue",
+      "display": "coin.zig1g4ywcghjg7plt99aakq5xt4w2wa32z80ryuj3cp60t60r9pywfmsuulwhw.tissue",
+      "symbol": "TISSUE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1g87x7z86p5f7cc7k3ctdcm83zxt2ds442pe8xa7208me94p347qqus679u.shibetoshinakamoto",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1g87x7z86p5f7cc7k3ctdcm83zxt2ds442pe8xa7208me94p347qqus679u.shibetoshinakamoto",
+      "name": "Shibetoshinakamoto",
+      "display": "coin.zig1g87x7z86p5f7cc7k3ctdcm83zxt2ds442pe8xa7208me94p347qqus679u.shibetoshinakamoto",
+      "symbol": "SHIBETOSHINAKAMOTO",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1gl0h5hjjjh0pd8n9jzw3pf0gsv7fg76h5yx8x4djnuuzwmcsjtcqe7rzzm.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1gl0h5hjjjh0pd8n9jzw3pf0gsv7fg76h5yx8x4djnuuzwmcsjtcqe7rzzm.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1gl0h5hjjjh0pd8n9jzw3pf0gsv7fg76h5yx8x4djnuuzwmcsjtcqe7rzzm.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1gs92kytt8ty3s48czfu2x3scjxjt3cu8av9g9prr2zq357dgajmse5ylgl.giz",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1gs92kytt8ty3s48czfu2x3scjxjt3cu8av9g9prr2zq357dgajmse5ylgl.giz",
+      "name": "Giz",
+      "display": "coin.zig1gs92kytt8ty3s48czfu2x3scjxjt3cu8av9g9prr2zq357dgajmse5ylgl.giz",
+      "symbol": "GIZ",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1gx06ljlldwj3r80k7av3jnlygqkse68jxe34t93p3stx9aq60yls0fslla.mommy",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1gx06ljlldwj3r80k7av3jnlygqkse68jxe34t93p3stx9aq60yls0fslla.mommy",
+      "name": "Mommy",
+      "display": "coin.zig1gx06ljlldwj3r80k7av3jnlygqkse68jxe34t93p3stx9aq60yls0fslla.mommy",
+      "symbol": "MOMMY",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1h72z8ptvcdqvuvy2lqanupwtextjmjmktj2ejgne2padxk0z8zds48shzq.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1h72z8ptvcdqvuvy2lqanupwtextjmjmktj2ejgne2padxk0z8zds48shzq.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1h72z8ptvcdqvuvy2lqanupwtextjmjmktj2ejgne2padxk0z8zds48shzq.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1hfy6g260lhyertu2v4sfmwkk3dktthr5fpz8thhshdersn60acxq82r78e.oopsie",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1hfy6g260lhyertu2v4sfmwkk3dktthr5fpz8thhshdersn60acxq82r78e.oopsie",
+      "name": "Oopsie",
+      "display": "coin.zig1hfy6g260lhyertu2v4sfmwkk3dktthr5fpz8thhshdersn60acxq82r78e.oopsie",
+      "symbol": "OOPSIE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1hlznn3dxyg59gttgzj3pawug0zvlapqa48rc66pwt4fvdh5lz4zqsvsz9k.bullfrog",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1hlznn3dxyg59gttgzj3pawug0zvlapqa48rc66pwt4fvdh5lz4zqsvsz9k.bullfrog",
+      "name": "Bullfrog",
+      "display": "coin.zig1hlznn3dxyg59gttgzj3pawug0zvlapqa48rc66pwt4fvdh5lz4zqsvsz9k.bullfrog",
+      "symbol": "BULLFROG",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1hp7a8ct38qk79wkze93nu7p4773ymu62tpnzpjrcjg8jwmx4d3xqzvadqu.zoomer",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1hp7a8ct38qk79wkze93nu7p4773ymu62tpnzpjrcjg8jwmx4d3xqzvadqu.zoomer",
+      "name": "Zoomer",
+      "display": "coin.zig1hp7a8ct38qk79wkze93nu7p4773ymu62tpnzpjrcjg8jwmx4d3xqzvadqu.zoomer",
+      "symbol": "ZOOMER",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1hqfhq8eysjs74lc44xm8s02cmfpsvf9f20nrc6u3n4740g9ndh9s6cptf4.stuckintrap",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1hqfhq8eysjs74lc44xm8s02cmfpsvf9f20nrc6u3n4740g9ndh9s6cptf4.stuckintrap",
+      "name": "Stuckintrap",
+      "display": "coin.zig1hqfhq8eysjs74lc44xm8s02cmfpsvf9f20nrc6u3n4740g9ndh9s6cptf4.stuckintrap",
+      "symbol": "STUCKINTRAP",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1jqyza70spvpkq5z38wdtmg9fah4u0srf3w3258nsw8vkyp0javusuzfl55.fartcoin",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1jqyza70spvpkq5z38wdtmg9fah4u0srf3w3258nsw8vkyp0javusuzfl55.fartcoin",
+      "name": "Fartcoin",
+      "display": "coin.zig1jqyza70spvpkq5z38wdtmg9fah4u0srf3w3258nsw8vkyp0javusuzfl55.fartcoin",
+      "symbol": "FARTCOIN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1jswxzr990k303d246pjkc8ghqtyprevsc9n5cyml7d2suv250cssy9dwpc.fouronzig",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1jswxzr990k303d246pjkc8ghqtyprevsc9n5cyml7d2suv250cssy9dwpc.fouronzig",
+      "name": "Fouronzig",
+      "display": "coin.zig1jswxzr990k303d246pjkc8ghqtyprevsc9n5cyml7d2suv250cssy9dwpc.fouronzig",
+      "symbol": "FOURONZIG",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1jtzqfe0sw9eez45e4pzh7y3ky5plgp56uzd4pn9nrg0vrq3sy3wsc2kmt0.tututoilet",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1jtzqfe0sw9eez45e4pzh7y3ky5plgp56uzd4pn9nrg0vrq3sy3wsc2kmt0.tututoilet",
+      "name": "Tututoilet",
+      "display": "coin.zig1jtzqfe0sw9eez45e4pzh7y3ky5plgp56uzd4pn9nrg0vrq3sy3wsc2kmt0.tututoilet",
+      "symbol": "TUTUTOILET",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1jv7v8an78vwyfx409nvrguktz8dl97hg7v0qs59pnc9krlf4en8szqsq8h.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1jv7v8an78vwyfx409nvrguktz8dl97hg7v0qs59pnc9krlf4en8szqsq8h.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1jv7v8an78vwyfx409nvrguktz8dl97hg7v0qs59pnc9krlf4en8szqsq8h.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1jw448jc8fy3hfhzl6fgc9jazsx5lu39y0k0vespnc9delqv5jx4sgl5ea8.mdog",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1jw448jc8fy3hfhzl6fgc9jazsx5lu39y0k0vespnc9delqv5jx4sgl5ea8.mdog",
+      "name": "Mdog",
+      "display": "coin.zig1jw448jc8fy3hfhzl6fgc9jazsx5lu39y0k0vespnc9delqv5jx4sgl5ea8.mdog",
+      "symbol": "MDOG",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1k73kxytnf8d4cuxxhgyff54ap04ryu8rv0sz3v.testtoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1k73kxytnf8d4cuxxhgyff54ap04ryu8rv0sz3v.testtoken",
+      "name": "Testtoken",
+      "display": "coin.zig1k73kxytnf8d4cuxxhgyff54ap04ryu8rv0sz3v.testtoken",
+      "symbol": "TESTTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1kk3vxxnamw7x5xfzm8lxw4zluhx9v74ha7xe4fvscex0td55d0yqx0g7f7.kiku",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1kk3vxxnamw7x5xfzm8lxw4zluhx9v74ha7xe4fvscex0td55d0yqx0g7f7.kiku",
+      "name": "Kiku",
+      "display": "coin.zig1kk3vxxnamw7x5xfzm8lxw4zluhx9v74ha7xe4fvscex0td55d0yqx0g7f7.kiku",
+      "symbol": "KIKU",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1kpearc55nvp8r5c0vftuyh3fwhka58ch4806csu0eaepd304awtqzjzhaf.catgod",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1kpearc55nvp8r5c0vftuyh3fwhka58ch4806csu0eaepd304awtqzjzhaf.catgod",
+      "name": "Catgod",
+      "display": "coin.zig1kpearc55nvp8r5c0vftuyh3fwhka58ch4806csu0eaepd304awtqzjzhaf.catgod",
+      "symbol": "CATGOD",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1kq2pmqmcuccmjctwx0rqzc9f57lvcnctauyfkhflrts3upwtkzgqfuu5uh.lambo",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1kq2pmqmcuccmjctwx0rqzc9f57lvcnctauyfkhflrts3upwtkzgqfuu5uh.lambo",
+      "name": "Lambo",
+      "display": "coin.zig1kq2pmqmcuccmjctwx0rqzc9f57lvcnctauyfkhflrts3upwtkzgqfuu5uh.lambo",
+      "symbol": "LAMBO",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1kt33w2ztud5duv0e6sc05y2xk046dtv4n8tfg38h4x2ryj5td9kq804928.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1kt33w2ztud5duv0e6sc05y2xk046dtv4n8tfg38h4x2ryj5td9kq804928.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1kt33w2ztud5duv0e6sc05y2xk046dtv4n8tfg38h4x2ryj5td9kq804928.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1lffp94kk9h8hhk3q4xv9pwdqtlervfh8h8rmq7yrnxpacl7k4deqyswmef.stasher",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1lffp94kk9h8hhk3q4xv9pwdqtlervfh8h8rmq7yrnxpacl7k4deqyswmef.stasher",
+      "name": "Stasher",
+      "display": "coin.zig1lffp94kk9h8hhk3q4xv9pwdqtlervfh8h8rmq7yrnxpacl7k4deqyswmef.stasher",
+      "symbol": "STASHER",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1lp5zex6685kd22agzskhqsylpnssxnweyuvsz4edr4p4ta92qf3q0jdnz9.bunny",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1lp5zex6685kd22agzskhqsylpnssxnweyuvsz4edr4p4ta92qf3q0jdnz9.bunny",
+      "name": "Bunny",
+      "display": "coin.zig1lp5zex6685kd22agzskhqsylpnssxnweyuvsz4edr4p4ta92qf3q0jdnz9.bunny",
+      "symbol": "BUNNY",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1mcvwss65nk0yl7mvh3d83vw48dq7ue20ey3aa790ku5a96dkk9kqldcx2z.mdfta",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1mcvwss65nk0yl7mvh3d83vw48dq7ue20ey3aa790ku5a96dkk9kqldcx2z.mdfta",
+      "name": "Mdfta",
+      "display": "coin.zig1mcvwss65nk0yl7mvh3d83vw48dq7ue20ey3aa790ku5a96dkk9kqldcx2z.mdfta",
+      "symbol": "MDFTA",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1mrkjms6lzkv8908muvymcpvlf7w8z9xg6jtgklklqw5gxh2d7k3s3q8g4j.gbgcoin",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1mrkjms6lzkv8908muvymcpvlf7w8z9xg6jtgklklqw5gxh2d7k3s3q8g4j.gbgcoin",
+      "name": "Gbgcoin",
+      "display": "coin.zig1mrkjms6lzkv8908muvymcpvlf7w8z9xg6jtgklklqw5gxh2d7k3s3q8g4j.gbgcoin",
+      "symbol": "GBGCOIN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1mswx0ldqfujrpwm0lge9l9sfws4w7q3wmgrmjmshepk06e5sndgsxkzk5y.pumpeet",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1mswx0ldqfujrpwm0lge9l9sfws4w7q3wmgrmjmshepk06e5sndgsxkzk5y.pumpeet",
+      "name": "Pumpeet",
+      "display": "coin.zig1mswx0ldqfujrpwm0lge9l9sfws4w7q3wmgrmjmshepk06e5sndgsxkzk5y.pumpeet",
+      "symbol": "PUMPEET",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1muy97vw2893ztjvhs4dtqhvg3t8a4alm0nlk66kwncl53yeeq3dsyfszlc.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1muy97vw2893ztjvhs4dtqhvg3t8a4alm0nlk66kwncl53yeeq3dsyfszlc.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1muy97vw2893ztjvhs4dtqhvg3t8a4alm0nlk66kwncl53yeeq3dsyfszlc.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1n5c29pf6xrk399pqfd0hkg3gc22xvl94u8rkgy0f8pt4z49fxkns2drae3.oroswap",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1n5c29pf6xrk399pqfd0hkg3gc22xvl94u8rkgy0f8pt4z49fxkns2drae3.oroswap",
+      "name": "Oroswap",
+      "display": "coin.zig1n5c29pf6xrk399pqfd0hkg3gc22xvl94u8rkgy0f8pt4z49fxkns2drae3.oroswap",
+      "symbol": "OROSWAP",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1n8amlyt960cxz7myfphhcsptjuhr2wtdm57wfurdgm7hy4eu693qhavlwq.poppycoin",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1n8amlyt960cxz7myfphhcsptjuhr2wtdm57wfurdgm7hy4eu693qhavlwq.poppycoin",
+      "name": "Poppycoin",
+      "display": "coin.zig1n8amlyt960cxz7myfphhcsptjuhr2wtdm57wfurdgm7hy4eu693qhavlwq.poppycoin",
+      "symbol": "POPPYCOIN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1n9q6d9j59gaxhk55rpf8ejrcmpeqtxyke8e6d8zehmptmsvj3xas8n0ch7.oob",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1n9q6d9j59gaxhk55rpf8ejrcmpeqtxyke8e6d8zehmptmsvj3xas8n0ch7.oob",
+      "name": "Oob",
+      "display": "coin.zig1n9q6d9j59gaxhk55rpf8ejrcmpeqtxyke8e6d8zehmptmsvj3xas8n0ch7.oob",
+      "symbol": "OOB",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1ne23yznaqkrrywet0grrz6uzppa937q9fzgwxqv2e8v68wu3pnfqn6pkua.coolbus",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1ne23yznaqkrrywet0grrz6uzppa937q9fzgwxqv2e8v68wu3pnfqn6pkua.coolbus",
+      "name": "Coolbus",
+      "display": "coin.zig1ne23yznaqkrrywet0grrz6uzppa937q9fzgwxqv2e8v68wu3pnfqn6pkua.coolbus",
+      "symbol": "COOLBUS",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1nfp2kvw9fwjwm6h9rs9xrf754ntpdqujk7z5pfy4pkwxpf0s5zcq5nx2dm.toocripsy",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1nfp2kvw9fwjwm6h9rs9xrf754ntpdqujk7z5pfy4pkwxpf0s5zcq5nx2dm.toocripsy",
+      "name": "Toocripsy",
+      "display": "coin.zig1nfp2kvw9fwjwm6h9rs9xrf754ntpdqujk7z5pfy4pkwxpf0s5zcq5nx2dm.toocripsy",
+      "symbol": "TOOCRIPSY",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1nkw387jr258d3w7zj40t3cu6f6smw40fupf3t90xpg6fjuxxfhqqg99xhj.goodtogo",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1nkw387jr258d3w7zj40t3cu6f6smw40fupf3t90xpg6fjuxxfhqqg99xhj.goodtogo",
+      "name": "Goodtogo",
+      "display": "coin.zig1nkw387jr258d3w7zj40t3cu6f6smw40fupf3t90xpg6fjuxxfhqqg99xhj.goodtogo",
+      "symbol": "GOODTOGO",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1nplqhfd64jru7cj5ng2f3kh9g70gr3l3yut7wsu85z4q599hag5sh9f8qw.spongebob",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1nplqhfd64jru7cj5ng2f3kh9g70gr3l3yut7wsu85z4q599hag5sh9f8qw.spongebob",
+      "name": "Spongebob",
+      "display": "coin.zig1nplqhfd64jru7cj5ng2f3kh9g70gr3l3yut7wsu85z4q599hag5sh9f8qw.spongebob",
+      "symbol": "SPONGEBOB",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1pk8tmuxs5724j0dwarhvuukvwkykf0pv94hdfp3ejjp2fmkf54rqhvcaqs.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1pk8tmuxs5724j0dwarhvuukvwkykf0pv94hdfp3ejjp2fmkf54rqhvcaqs.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1pk8tmuxs5724j0dwarhvuukvwkykf0pv94hdfp3ejjp2fmkf54rqhvcaqs.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1pk99xge6q94qtu3568x3qhp68zzv0mx7za4ct008ks36qhx5tvss9tfhhg.zigdog",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1pk99xge6q94qtu3568x3qhp68zzv0mx7za4ct008ks36qhx5tvss9tfhhg.zigdog",
+      "name": "Zigdog",
+      "display": "coin.zig1pk99xge6q94qtu3568x3qhp68zzv0mx7za4ct008ks36qhx5tvss9tfhhg.zigdog",
+      "symbol": "ZIGDOG",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1pljvaz7wnahy8ywrqdwn9kda86x9nhr0mzn0dj5zzm979wyfk70sdlqs3k.pookicoin",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1pljvaz7wnahy8ywrqdwn9kda86x9nhr0mzn0dj5zzm979wyfk70sdlqs3k.pookicoin",
+      "name": "Pookicoin",
+      "display": "coin.zig1pljvaz7wnahy8ywrqdwn9kda86x9nhr0mzn0dj5zzm979wyfk70sdlqs3k.pookicoin",
+      "symbol": "POOKICOIN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1pt9u490q0km4lx8h9h48vzu3q20yl9nmq3ulkqjeelrfp5ec7nws68c2rn.sacrifice2dominate",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1pt9u490q0km4lx8h9h48vzu3q20yl9nmq3ulkqjeelrfp5ec7nws68c2rn.sacrifice2dominate",
+      "name": "Sacrifice2dominate",
+      "display": "coin.zig1pt9u490q0km4lx8h9h48vzu3q20yl9nmq3ulkqjeelrfp5ec7nws68c2rn.sacrifice2dominate",
+      "symbol": "SACRIFICE2DOMINATE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1pt9xxmwy3s8frn4klkk4hy6yjup5vdu2n0g46r7lax9856lmtxzss9rzad.snowball",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1pt9xxmwy3s8frn4klkk4hy6yjup5vdu2n0g46r7lax9856lmtxzss9rzad.snowball",
+      "name": "Snowball",
+      "display": "coin.zig1pt9xxmwy3s8frn4klkk4hy6yjup5vdu2n0g46r7lax9856lmtxzss9rzad.snowball",
+      "symbol": "SNOWBALL",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1puua6kj5v5vtrglpumr4evlug4sl8tpsj26n0yappw7k69z3pa9sxpcy2l.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1puua6kj5v5vtrglpumr4evlug4sl8tpsj26n0yappw7k69z3pa9sxpcy2l.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1puua6kj5v5vtrglpumr4evlug4sl8tpsj26n0yappw7k69z3pa9sxpcy2l.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1pzvwmjmrf0k5jw9ts3v2758r9syf2ve52due0354a5mh8kejzehq66yfk8.zella",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1pzvwmjmrf0k5jw9ts3v2758r9syf2ve52due0354a5mh8kejzehq66yfk8.zella",
+      "name": "Zella",
+      "display": "coin.zig1pzvwmjmrf0k5jw9ts3v2758r9syf2ve52due0354a5mh8kejzehq66yfk8.zella",
+      "symbol": "ZELLA",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1qh3dzw5llplnap4kdfhm25plc2r6n5t3jn4635fwa3yasaf27taqr3tpf9.tenoct25",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1qh3dzw5llplnap4kdfhm25plc2r6n5t3jn4635fwa3yasaf27taqr3tpf9.tenoct25",
+      "name": "Tenoct25",
+      "display": "coin.zig1qh3dzw5llplnap4kdfhm25plc2r6n5t3jn4635fwa3yasaf27taqr3tpf9.tenoct25",
+      "symbol": "TENOCT25",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1qkqcpsvvr4lgy6xnsg2vz2fjtu22lgx6aeh2cv4hvtufyhnkjlxsu6k99h.funwithhare",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1qkqcpsvvr4lgy6xnsg2vz2fjtu22lgx6aeh2cv4hvtufyhnkjlxsu6k99h.funwithhare",
+      "name": "Funwithhare",
+      "display": "coin.zig1qkqcpsvvr4lgy6xnsg2vz2fjtu22lgx6aeh2cv4hvtufyhnkjlxsu6k99h.funwithhare",
+      "symbol": "FUNWITHHARE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1qkyjjwp0xrv96htkm5z2ua4430pyk30wzeugv9l0jwgtnv4yq4zqtz6a7k.zpepe",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1qkyjjwp0xrv96htkm5z2ua4430pyk30wzeugv9l0jwgtnv4yq4zqtz6a7k.zpepe",
+      "name": "Zpepe",
+      "display": "coin.zig1qkyjjwp0xrv96htkm5z2ua4430pyk30wzeugv9l0jwgtnv4yq4zqtz6a7k.zpepe",
+      "symbol": "ZPEPE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1qm62qvux86w8ex36tpl24lz5qcanaql8t0zhs974m08r8u8jzlxsl3rhxr.mdfc",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1qm62qvux86w8ex36tpl24lz5qcanaql8t0zhs974m08r8u8jzlxsl3rhxr.mdfc",
+      "name": "Mdfc",
+      "display": "coin.zig1qm62qvux86w8ex36tpl24lz5qcanaql8t0zhs974m08r8u8jzlxsl3rhxr.mdfc",
+      "symbol": "MDFC",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1qmq8dh5e6l9xttmmd6v0rjpejehk6c3qdauny362scau39dg2clqkazc3h.conquest",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1qmq8dh5e6l9xttmmd6v0rjpejehk6c3qdauny362scau39dg2clqkazc3h.conquest",
+      "name": "Conquest",
+      "display": "coin.zig1qmq8dh5e6l9xttmmd6v0rjpejehk6c3qdauny362scau39dg2clqkazc3h.conquest",
+      "symbol": "CONQUEST",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1qpqqz06uk7yswe63z7wh0w4w8sw92rg2rrqpmuqp4hakm07ae0wq8vqqxq.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1qpqqz06uk7yswe63z7wh0w4w8sw92rg2rrqpmuqp4hakm07ae0wq8vqqxq.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1qpqqz06uk7yswe63z7wh0w4w8sw92rg2rrqpmuqp4hakm07ae0wq8vqqxq.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1qum2tr7hh4y7ruzew68c64myjec0dq2s2njf6waja5t0w879lutqrj8nf6.abc3e03da2c1d",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1qum2tr7hh4y7ruzew68c64myjec0dq2s2njf6waja5t0w879lutqrj8nf6.abc3e03da2c1d",
+      "name": "Abc3e03da2c1d",
+      "display": "coin.zig1qum2tr7hh4y7ruzew68c64myjec0dq2s2njf6waja5t0w879lutqrj8nf6.abc3e03da2c1d",
+      "symbol": "ABC3E03DA2C1D",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1qum2tr7hh4y7ruzew68c64myjec0dq2s2njf6waja5t0w879lutqrj8nf6.zyxebc035f37b",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1qum2tr7hh4y7ruzew68c64myjec0dq2s2njf6waja5t0w879lutqrj8nf6.zyxebc035f37b",
+      "name": "Zyxebc035f37b",
+      "display": "coin.zig1qum2tr7hh4y7ruzew68c64myjec0dq2s2njf6waja5t0w879lutqrj8nf6.zyxebc035f37b",
+      "symbol": "ZYXEBC035F37B",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1qwnltle5tx0fzxetrawxrj2ad45mtlzk0adsx0fml9v97ha9qkpqkv5ak4.scurry",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1qwnltle5tx0fzxetrawxrj2ad45mtlzk0adsx0fml9v97ha9qkpqkv5ak4.scurry",
+      "name": "Scurry",
+      "display": "coin.zig1qwnltle5tx0fzxetrawxrj2ad45mtlzk0adsx0fml9v97ha9qkpqkv5ak4.scurry",
+      "symbol": "SCURRY",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1rhguz09xr9a76zy0ktlgay3l8lrezz7vqakehx.uzm",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1rhguz09xr9a76zy0ktlgay3l8lrezz7vqakehx.uzm",
+      "name": "Uzm",
+      "display": "coin.zig1rhguz09xr9a76zy0ktlgay3l8lrezz7vqakehx.uzm",
+      "symbol": "UZM",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1rsjk5ta7wg9dt82a706fmxwskujd2de3mkqn7yc3dsy8z268xnwqyu3jvl.sahur",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1rsjk5ta7wg9dt82a706fmxwskujd2de3mkqn7yc3dsy8z268xnwqyu3jvl.sahur",
+      "name": "Sahur",
+      "display": "coin.zig1rsjk5ta7wg9dt82a706fmxwskujd2de3mkqn7yc3dsy8z268xnwqyu3jvl.sahur",
+      "symbol": "SAHUR",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1s3s97skr2q4he3aev3lq47k5tfynfdeau9e62g4ap7ln9z5ev5jqzx3rhr.nerdyboycz",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1s3s97skr2q4he3aev3lq47k5tfynfdeau9e62g4ap7ln9z5ev5jqzx3rhr.nerdyboycz",
+      "name": "Nerdyboycz",
+      "display": "coin.zig1s3s97skr2q4he3aev3lq47k5tfynfdeau9e62g4ap7ln9z5ev5jqzx3rhr.nerdyboycz",
+      "symbol": "NERDYBOYCZ",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1s962su3af20wlz7n23zgkwa0zfn4d0y7uv5wus.doge",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1s962su3af20wlz7n23zgkwa0zfn4d0y7uv5wus.doge",
+      "name": "Doge",
+      "display": "coin.zig1s962su3af20wlz7n23zgkwa0zfn4d0y7uv5wus.doge",
+      "symbol": "DOGE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1sgpyrs5farvhae68u3eevuuw2knxd6uqagptw968ys26zvgjvrvq685sxn.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1sgpyrs5farvhae68u3eevuuw2knxd6uqagptw968ys26zvgjvrvq685sxn.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1sgpyrs5farvhae68u3eevuuw2knxd6uqagptw968ys26zvgjvrvq685sxn.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1sqgs383ya7tqdsl7wlzn03qkfuz8qqd3et3laeq6tgrtyw4zxx6str0qs7.fouronzig",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1sqgs383ya7tqdsl7wlzn03qkfuz8qqd3et3laeq6tgrtyw4zxx6str0qs7.fouronzig",
+      "name": "Fouronzig",
+      "display": "coin.zig1sqgs383ya7tqdsl7wlzn03qkfuz8qqd3et3laeq6tgrtyw4zxx6str0qs7.fouronzig",
+      "symbol": "FOURONZIG",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1sz0z0q47kngtan2vw9un4ejyhmsv07ff8njakh4mhu4d5mx09qgq2tpzn7.blackswan",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1sz0z0q47kngtan2vw9un4ejyhmsv07ff8njakh4mhu4d5mx09qgq2tpzn7.blackswan",
+      "name": "Blackswan",
+      "display": "coin.zig1sz0z0q47kngtan2vw9un4ejyhmsv07ff8njakh4mhu4d5mx09qgq2tpzn7.blackswan",
+      "symbol": "BLACKSWAN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1szxapsyzu53drhvpfpk59p9ep8f509qvnt4y7t2p5al8ky3vzhjs8qsujz.pinchwave",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1szxapsyzu53drhvpfpk59p9ep8f509qvnt4y7t2p5al8ky3vzhjs8qsujz.pinchwave",
+      "name": "Pinchwave",
+      "display": "coin.zig1szxapsyzu53drhvpfpk59p9ep8f509qvnt4y7t2p5al8ky3vzhjs8qsujz.pinchwave",
+      "symbol": "PINCHWAVE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1t2sje6mfsuhwrk0f6hydv0hwvv0wqf6wtzshsrk382le9f7qju5q0wnhhs.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1t2sje6mfsuhwrk0f6hydv0hwvv0wqf6wtzshsrk382le9f7qju5q0wnhhs.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1t2sje6mfsuhwrk0f6hydv0hwvv0wqf6wtzshsrk382le9f7qju5q0wnhhs.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1t38ufmxky6xhdmnut8zvccgkvwfdz50qwuagvm6f5rhxx7lpey7qs3nl0s.wizz",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1t38ufmxky6xhdmnut8zvccgkvwfdz50qwuagvm6f5rhxx7lpey7qs3nl0s.wizz",
+      "name": "Wizz",
+      "display": "coin.zig1t38ufmxky6xhdmnut8zvccgkvwfdz50qwuagvm6f5rhxx7lpey7qs3nl0s.wizz",
+      "symbol": "WIZZ",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1t3zxln853ckjjahjcs326dasmanwru9jlmvj4rl7l7qskxt8da3qdcu42t.spicy",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1t3zxln853ckjjahjcs326dasmanwru9jlmvj4rl7l7qskxt8da3qdcu42t.spicy",
+      "name": "Spicy",
+      "display": "coin.zig1t3zxln853ckjjahjcs326dasmanwru9jlmvj4rl7l7qskxt8da3qdcu42t.spicy",
+      "symbol": "SPICY",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1tf85h6sqd0pd6acplk49e24mepnefuxcc0lufcvx70tqfs9tfjksmt8yn8.degenpump",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1tf85h6sqd0pd6acplk49e24mepnefuxcc0lufcvx70tqfs9tfjksmt8yn8.degenpump",
+      "name": "Degenpump",
+      "display": "coin.zig1tf85h6sqd0pd6acplk49e24mepnefuxcc0lufcvx70tqfs9tfjksmt8yn8.degenpump",
+      "symbol": "DEGENPUMP",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1uay5ex5z547dw7mhw4puwcg998zu474czftlv5s9qpmywl2umaushewpr3.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1uay5ex5z547dw7mhw4puwcg998zu474czftlv5s9qpmywl2umaushewpr3.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1uay5ex5z547dw7mhw4puwcg998zu474czftlv5s9qpmywl2umaushewpr3.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1ucwnlul7t97fx4xr83kzxt76pdgk86gmz36adl8mzk890frduwuslq09t6.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1ucwnlul7t97fx4xr83kzxt76pdgk86gmz36adl8mzk890frduwuslq09t6.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1ucwnlul7t97fx4xr83kzxt76pdgk86gmz36adl8mzk890frduwuslq09t6.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1ufs3tlq4umljk0qfe8k5ya0x6hpavn897u2cnf9k0en9jr7qarqqjchrnd.abcb677a08e29",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1ufs3tlq4umljk0qfe8k5ya0x6hpavn897u2cnf9k0en9jr7qarqqjchrnd.abcb677a08e29",
+      "name": "Abcb677a08e29",
+      "display": "coin.zig1ufs3tlq4umljk0qfe8k5ya0x6hpavn897u2cnf9k0en9jr7qarqqjchrnd.abcb677a08e29",
+      "symbol": "ABCB677A08E29",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1unwt79ww5lhvl80dhjzaw6lp6wne3fds4tsnh2t2jvywaw97g3nqrryxdj.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1unwt79ww5lhvl80dhjzaw6lp6wne3fds4tsnh2t2jvywaw97g3nqrryxdj.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1unwt79ww5lhvl80dhjzaw6lp6wne3fds4tsnh2t2jvywaw97g3nqrryxdj.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1uv7s5c2aslgzkj8wtwgzmrsmmptdyc2c58d4z8rd5whq2d0cxkcs984q25.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1uv7s5c2aslgzkj8wtwgzmrsmmptdyc2c58d4z8rd5whq2d0cxkcs984q25.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1uv7s5c2aslgzkj8wtwgzmrsmmptdyc2c58d4z8rd5whq2d0cxkcs984q25.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1uzvynexu8yk43njlk2uw9ezywandc4ru8tqyekurxcqwfja8t8kqjp6jr5.zigmorning",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1uzvynexu8yk43njlk2uw9ezywandc4ru8tqyekurxcqwfja8t8kqjp6jr5.zigmorning",
+      "name": "Zigmorning",
+      "display": "coin.zig1uzvynexu8yk43njlk2uw9ezywandc4ru8tqyekurxcqwfja8t8kqjp6jr5.zigmorning",
+      "symbol": "ZIGMORNING",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.panda05e6926221",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.panda05e6926221",
+      "name": "Panda05e6926221",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.panda05e6926221",
+      "symbol": "PANDA05E6926221",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.panda1d58771bfd",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.panda1d58771bfd",
+      "name": "Panda1d58771bfd",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.panda1d58771bfd",
+      "symbol": "PANDA1D58771BFD",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandaaa4fd836af",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandaaa4fd836af",
+      "name": "Pandaaa4fd836af",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandaaa4fd836af",
+      "symbol": "PANDAAA4FD836AF",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandaaafdb",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandaaafdb",
+      "name": "Pandaaafdb",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandaaafdb",
+      "symbol": "PANDAAAFDB",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandab63f6677a4",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandab63f6677a4",
+      "name": "Pandab63f6677a4",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandab63f6677a4",
+      "symbol": "PANDAB63F6677A4",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandabedd",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandabedd",
+      "name": "Pandabedd",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandabedd",
+      "symbol": "PANDABEDD",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandacbc",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandacbc",
+      "name": "Pandacbc",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandacbc",
+      "symbol": "PANDACBC",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandacdd",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandacdd",
+      "name": "Pandacdd",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandacdd",
+      "symbol": "PANDACDD",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandacefd",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandacefd",
+      "name": "Pandacefd",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandacefd",
+      "symbol": "PANDACEFD",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandad",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandad",
+      "name": "Pandad",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandad",
+      "symbol": "PANDAD",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandad15ccc49d0",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandad15ccc49d0",
+      "name": "Pandad15ccc49d0",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandad15ccc49d0",
+      "symbol": "PANDAD15CCC49D0",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandadacae",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandadacae",
+      "name": "Pandadacae",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandadacae",
+      "symbol": "PANDADACAE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandae3059e2e8e",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandae3059e2e8e",
+      "name": "Pandae3059e2e8e",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandae3059e2e8e",
+      "symbol": "PANDAE3059E2E8E",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandaedaf",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandaedaf",
+      "name": "Pandaedaf",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandaedaf",
+      "symbol": "PANDAEDAF",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quote05e6926221",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quote05e6926221",
+      "name": "Quote05e6926221",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quote05e6926221",
+      "symbol": "QUOTE05E6926221",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quote1d58771bfd",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quote1d58771bfd",
+      "name": "Quote1d58771bfd",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quote1d58771bfd",
+      "symbol": "QUOTE1D58771BFD",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoteaa4fd836af",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoteaa4fd836af",
+      "name": "Quoteaa4fd836af",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoteaa4fd836af",
+      "symbol": "QUOTEAA4FD836AF",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoteaafdb",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoteaafdb",
+      "name": "Quoteaafdb",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoteaafdb",
+      "symbol": "QUOTEAAFDB",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoteb63f6677a4",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoteb63f6677a4",
+      "name": "Quoteb63f6677a4",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoteb63f6677a4",
+      "symbol": "QUOTEB63F6677A4",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quotecdd",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quotecdd",
+      "name": "Quotecdd",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quotecdd",
+      "symbol": "QUOTECDD",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quotecefd",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quotecefd",
+      "name": "Quotecefd",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quotecefd",
+      "symbol": "QUOTECEFD",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoted",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoted",
+      "name": "Quoted",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoted",
+      "symbol": "QUOTED",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoted15ccc49d0",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoted15ccc49d0",
+      "name": "Quoted15ccc49d0",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quoted15ccc49d0",
+      "symbol": "QUOTED15CCC49D0",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quotedacae",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quotedacae",
+      "name": "Quotedacae",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quotedacae",
+      "symbol": "QUOTEDACAE",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quotee3059e2e8e",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quotee3059e2e8e",
+      "name": "Quotee3059e2e8e",
+      "display": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quotee3059e2e8e",
+      "symbol": "QUOTEE3059E2E8E",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vlyq7djprqm583xqtumsrvkh5mg294m2kv8ky22z5m9cwwjsej2qxnmzas.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vlyq7djprqm583xqtumsrvkh5mg294m2kv8ky22z5m9cwwjsej2qxnmzas.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1vlyq7djprqm583xqtumsrvkh5mg294m2kv8ky22z5m9cwwjsej2qxnmzas.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1vpsu45tg2g9t2jej5qs2gkvlyd34f6e7ddxvht7zcs257rqt6yns0p5gl4.zigapex",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1vpsu45tg2g9t2jej5qs2gkvlyd34f6e7ddxvht7zcs257rqt6yns0p5gl4.zigapex",
+      "name": "Zigapex",
+      "display": "coin.zig1vpsu45tg2g9t2jej5qs2gkvlyd34f6e7ddxvht7zcs257rqt6yns0p5gl4.zigapex",
+      "symbol": "ZIGAPEX",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1wcucvuy9ws629pktn73tgxsjxn7xa7vfmuxv8hemrn7xnes5kc8s624nly.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1wcucvuy9ws629pktn73tgxsjxn7xa7vfmuxv8hemrn7xnes5kc8s624nly.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1wcucvuy9ws629pktn73tgxsjxn7xa7vfmuxv8hemrn7xnes5kc8s624nly.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1wtza4twglvyyj9hj2dpax6cruscypaumjwj5gwcpfu58fzyjmsmqkk86kq.stasher",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1wtza4twglvyyj9hj2dpax6cruscypaumjwj5gwcpfu58fzyjmsmqkk86kq.stasher",
+      "name": "Stasher",
+      "display": "coin.zig1wtza4twglvyyj9hj2dpax6cruscypaumjwj5gwcpfu58fzyjmsmqkk86kq.stasher",
+      "symbol": "STASHER",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1wvqk2tm38dn3yp9ry7h5zzjqv3tytzpwpkkg55w3j58cdhvqrnfq78fe45.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1wvqk2tm38dn3yp9ry7h5zzjqv3tytzpwpkkg55w3j58cdhvqrnfq78fe45.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1wvqk2tm38dn3yp9ry7h5zzjqv3tytzpwpkkg55w3j58cdhvqrnfq78fe45.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1x3mtxh3s3je6yjtpuss8p42d5sf0zkeh3um0yadpp9vz8ysmx3vszfgh3l.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1x3mtxh3s3je6yjtpuss8p42d5sf0zkeh3um0yadpp9vz8ysmx3vszfgh3l.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1x3mtxh3s3je6yjtpuss8p42d5sf0zkeh3um0yadpp9vz8ysmx3vszfgh3l.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1x623ehq3gqx9m9t8asyd9cgehf32gy94mhsw8l99cj3l2nvda2fqsup8ap.mfdtd",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1x623ehq3gqx9m9t8asyd9cgehf32gy94mhsw8l99cj3l2nvda2fqsup8ap.mfdtd",
+      "name": "Mfdtd",
+      "display": "coin.zig1x623ehq3gqx9m9t8asyd9cgehf32gy94mhsw8l99cj3l2nvda2fqsup8ap.mfdtd",
+      "symbol": "MFDTD",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1xllcm6eprlatxyjvleedhxxpjnfapqwvgdkzhzh5vrkl09rwg5rsfhaq45.aiwian",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1xllcm6eprlatxyjvleedhxxpjnfapqwvgdkzhzh5vrkl09rwg5rsfhaq45.aiwian",
+      "name": "Aiwian",
+      "display": "coin.zig1xllcm6eprlatxyjvleedhxxpjnfapqwvgdkzhzh5vrkl09rwg5rsfhaq45.aiwian",
+      "symbol": "AIWIAN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1xtdd038rf3zfdsdqskeds946un8470rnnewv6xa5r4r3xdw4s0yqguac0e.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1xtdd038rf3zfdsdqskeds946un8470rnnewv6xa5r4r3xdw4s0yqguac0e.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1xtdd038rf3zfdsdqskeds946un8470rnnewv6xa5r4r3xdw4s0yqguac0e.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1yatzc54ln59caxxnj53rff2s359pezx3hqxpzu2tkyl2f9ud9yvsuuuhyz.mdfd",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1yatzc54ln59caxxnj53rff2s359pezx3hqxpzu2tkyl2f9ud9yvsuuuhyz.mdfd",
+      "name": "Mdfd",
+      "display": "coin.zig1yatzc54ln59caxxnj53rff2s359pezx3hqxpzu2tkyl2f9ud9yvsuuuhyz.mdfd",
+      "symbol": "MDFD",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1ycjh2fsj6wewnf9vpvdph9dg48w2y5vqsw2r9l6umm4urf3x0svq08x8k5.stroop",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1ycjh2fsj6wewnf9vpvdph9dg48w2y5vqsw2r9l6umm4urf3x0svq08x8k5.stroop",
+      "name": "Stroop",
+      "display": "coin.zig1ycjh2fsj6wewnf9vpvdph9dg48w2y5vqsw2r9l6umm4urf3x0svq08x8k5.stroop",
+      "symbol": "STROOP",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1yg2cl37ey7snegl0ltzsmxt5aa4gnp53tqymzhx0lh9prl8zll0q5hwkce.missedit",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1yg2cl37ey7snegl0ltzsmxt5aa4gnp53tqymzhx0lh9prl8zll0q5hwkce.missedit",
+      "name": "Missedit",
+      "display": "coin.zig1yg2cl37ey7snegl0ltzsmxt5aa4gnp53tqymzhx0lh9prl8zll0q5hwkce.missedit",
+      "symbol": "MISSEDIT",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1ynrqa7zetj80rx4rqfr470vhlhgpru08k2lpdjq7vc8q4llv6w8s93lee8.bitcoinplsgotomoon",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1ynrqa7zetj80rx4rqfr470vhlhgpru08k2lpdjq7vc8q4llv6w8s93lee8.bitcoinplsgotomoon",
+      "name": "Bitcoinplsgotomoon",
+      "display": "coin.zig1ynrqa7zetj80rx4rqfr470vhlhgpru08k2lpdjq7vc8q4llv6w8s93lee8.bitcoinplsgotomoon",
+      "symbol": "BITCOINPLSGOTOMOON",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1yyaz9q9wslg5a6d9dses7aj5rmplfqaazgk736pw00d902jk2w9sk4seuy.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1yyaz9q9wslg5a6d9dses7aj5rmplfqaazgk736pw00d902jk2w9sk4seuy.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1yyaz9q9wslg5a6d9dses7aj5rmplfqaazgk736pw00d902jk2w9sk4seuy.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1z9qaug5l4dhtgffe9gjyevgemtlrxrqfudxlgcrcnajfg9kytdpstmne6w.mango",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1z9qaug5l4dhtgffe9gjyevgemtlrxrqfudxlgcrcnajfg9kytdpstmne6w.mango",
+      "name": "Mango",
+      "display": "coin.zig1z9qaug5l4dhtgffe9gjyevgemtlrxrqfudxlgcrcnajfg9kytdpstmne6w.mango",
+      "symbol": "MANGO",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1za7dkf3uut9y9zp3dg3snqx0s3eez28vjtd2n5wwldc8ez43eksq7c5mfn.oroswaplptoken",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1za7dkf3uut9y9zp3dg3snqx0s3eez28vjtd2n5wwldc8ez43eksq7c5mfn.oroswaplptoken",
+      "name": "Oroswaplptoken",
+      "display": "coin.zig1za7dkf3uut9y9zp3dg3snqx0s3eez28vjtd2n5wwldc8ez43eksq7c5mfn.oroswaplptoken",
+      "symbol": "OROSWAPLPTOKEN",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1znqylju9g78q96jj02wsnkmt4e8xqsj9qavlzaqq4xgpm9nn0nqsmcjztd.zigstrategy",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1znqylju9g78q96jj02wsnkmt4e8xqsj9qavlzaqq4xgpm9nn0nqsmcjztd.zigstrategy",
+      "name": "Zigstrategy",
+      "display": "coin.zig1znqylju9g78q96jj02wsnkmt4e8xqsj9qavlzaqq4xgpm9nn0nqsmcjztd.zigstrategy",
+      "symbol": "ZIGSTRATEGY",
+      "type_asset": "sdk.coin"
+    },
+    {
+      "denom_units": [
+        {
+          "denom": "coin.zig1znslh9u87vc5my8ehdwfz40hvslt8ulxwqn9m7jp3g8lq4uxdy8q74g2ay.chaosnugget",
+          "exponent": 0
+        }
+      ],
+      "base": "coin.zig1znslh9u87vc5my8ehdwfz40hvslt8ulxwqn9m7jp3g8lq4uxdy8q74g2ay.chaosnugget",
+      "name": "Chaosnugget",
+      "display": "coin.zig1znslh9u87vc5my8ehdwfz40hvslt8ulxwqn9m7jp3g8lq4uxdy8q74g2ay.chaosnugget",
+      "symbol": "CHAOSNUGGET",
+      "type_asset": "sdk.coin"
+    }
+  ]
+}

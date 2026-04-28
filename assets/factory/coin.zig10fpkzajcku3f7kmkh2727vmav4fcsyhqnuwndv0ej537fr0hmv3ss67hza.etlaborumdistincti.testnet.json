@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10fpkzajcku3f7kmkh2727vmav4fcsyhqnuwndv0ej537fr0hmv3ss67hza.etlaborumdistincti",
+  "type": "factory",
+  "symbol": "ETLABORUMDISTINCTI",
+  "name": "Etlaborumdistincti",
+  "decimals": 6,
+  "display_denom": "ETLABORUMDISTINCTI",
+  "base_denom": "coin.zig10fpkzajcku3f7kmkh2727vmav4fcsyhqnuwndv0ej537fr0hmv3ss67hza.etlaborumdistincti",
+  "creator": "zig10fpkzajcku3f7kmkh2727vmav4fcsyhqnuwndv0ej537fr0hmv3ss67hza",
+  "subdenom": "etlaborumdistincti",
+  "denom_units": [
+    {
+      "denom": "coin.zig10fpkzajcku3f7kmkh2727vmav4fcsyhqnuwndv0ej537fr0hmv3ss67hza.etlaborumdistincti",
+      "exponent": 0
+    },
+    {
+      "denom": "ETLABORUMDISTINCTI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

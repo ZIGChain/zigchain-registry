@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig12wdgkvj9kjl80xhdduszzcgggxr63tmx22upzcx6daa2fstdn06qr5w4yq.floor005",
+  "type": "factory",
+  "symbol": "FLOOR005",
+  "name": "Floor005",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig12wdgkvj9kjl80xhdduszzcgggxr63tmx22upzcx6daa2fstdn06qr5w4yq.floor005",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig12wdgkvj9kjl80xhdduszzcgggxr63tmx22upzcx6daa2fstdn06qr5w4yq.floor005",
+  "base_denom": "coin.zig12wdgkvj9kjl80xhdduszzcgggxr63tmx22upzcx6daa2fstdn06qr5w4yq.floor005",
+  "creator": "zig12wdgkvj9kjl80xhdduszzcgggxr63tmx22upzcx6daa2fstdn06qr5w4yq",
+  "subdenom": "floor005",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

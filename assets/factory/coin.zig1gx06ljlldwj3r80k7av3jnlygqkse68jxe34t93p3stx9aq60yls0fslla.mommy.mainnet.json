@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1gx06ljlldwj3r80k7av3jnlygqkse68jxe34t93p3stx9aq60yls0fslla.mommy",
+  "type": "factory",
+  "symbol": "MOMMY",
+  "name": "Mommy",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1gx06ljlldwj3r80k7av3jnlygqkse68jxe34t93p3stx9aq60yls0fslla.mommy",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1gx06ljlldwj3r80k7av3jnlygqkse68jxe34t93p3stx9aq60yls0fslla.mommy",
+  "base_denom": "coin.zig1gx06ljlldwj3r80k7av3jnlygqkse68jxe34t93p3stx9aq60yls0fslla.mommy",
+  "creator": "zig1gx06ljlldwj3r80k7av3jnlygqkse68jxe34t93p3stx9aq60yls0fslla",
+  "subdenom": "mommy",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

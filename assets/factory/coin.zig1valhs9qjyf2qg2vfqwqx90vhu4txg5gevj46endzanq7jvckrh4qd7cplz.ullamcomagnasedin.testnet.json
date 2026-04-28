@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1valhs9qjyf2qg2vfqwqx90vhu4txg5gevj46endzanq7jvckrh4qd7cplz.ullamcomagnasedin",
+  "type": "factory",
+  "symbol": "ULLAMCOMAGNASEDIN",
+  "name": "Ullamcomagnasedin",
+  "decimals": 6,
+  "display_denom": "ULLAMCOMAGNASEDIN",
+  "base_denom": "coin.zig1valhs9qjyf2qg2vfqwqx90vhu4txg5gevj46endzanq7jvckrh4qd7cplz.ullamcomagnasedin",
+  "creator": "zig1valhs9qjyf2qg2vfqwqx90vhu4txg5gevj46endzanq7jvckrh4qd7cplz",
+  "subdenom": "ullamcomagnasedin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1valhs9qjyf2qg2vfqwqx90vhu4txg5gevj46endzanq7jvckrh4qd7cplz.ullamcomagnasedin",
+      "exponent": 0
+    },
+    {
+      "denom": "ULLAMCOMAGNASEDIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

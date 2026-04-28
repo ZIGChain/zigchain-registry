@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1r32gd3r9m6wjug7zuenl4qstugkx2ngq499kx57cphaek88pth2q9q6eaa.football",
+  "type": "factory",
+  "symbol": "FOOTBALL",
+  "name": "Football",
+  "decimals": 6,
+  "display_denom": "FOOTBALL",
+  "base_denom": "coin.zig1r32gd3r9m6wjug7zuenl4qstugkx2ngq499kx57cphaek88pth2q9q6eaa.football",
+  "creator": "zig1r32gd3r9m6wjug7zuenl4qstugkx2ngq499kx57cphaek88pth2q9q6eaa",
+  "subdenom": "football",
+  "denom_units": [
+    {
+      "denom": "coin.zig1r32gd3r9m6wjug7zuenl4qstugkx2ngq499kx57cphaek88pth2q9q6eaa.football",
+      "exponent": 0
+    },
+    {
+      "denom": "FOOTBALL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

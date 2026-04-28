@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig19e3lhnu4u4ktewzlmu6ngsjvtxf67h28z05d0sdznk2r09uhml8qfkwdad.chill",
+  "type": "factory",
+  "symbol": "CHILL",
+  "name": "Chill",
+  "decimals": 6,
+  "display_denom": "CHILL",
+  "base_denom": "coin.zig19e3lhnu4u4ktewzlmu6ngsjvtxf67h28z05d0sdznk2r09uhml8qfkwdad.chill",
+  "creator": "zig19e3lhnu4u4ktewzlmu6ngsjvtxf67h28z05d0sdznk2r09uhml8qfkwdad",
+  "subdenom": "chill",
+  "denom_units": [
+    {
+      "denom": "coin.zig19e3lhnu4u4ktewzlmu6ngsjvtxf67h28z05d0sdznk2r09uhml8qfkwdad.chill",
+      "exponent": 0
+    },
+    {
+      "denom": "CHILL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1y0k20d7szewq0yayphktnjg5hrcfepk6s6vv62qt057zd8nk5njqdk6vsk.laboruminconsequa",
+  "type": "factory",
+  "symbol": "LABORUMINCONSEQUA",
+  "name": "Laboruminconsequa",
+  "decimals": 6,
+  "display_denom": "LABORUMINCONSEQUA",
+  "base_denom": "coin.zig1y0k20d7szewq0yayphktnjg5hrcfepk6s6vv62qt057zd8nk5njqdk6vsk.laboruminconsequa",
+  "creator": "zig1y0k20d7szewq0yayphktnjg5hrcfepk6s6vv62qt057zd8nk5njqdk6vsk",
+  "subdenom": "laboruminconsequa",
+  "denom_units": [
+    {
+      "denom": "coin.zig1y0k20d7szewq0yayphktnjg5hrcfepk6s6vv62qt057zd8nk5njqdk6vsk.laboruminconsequa",
+      "exponent": 0
+    },
+    {
+      "denom": "LABORUMINCONSEQUA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

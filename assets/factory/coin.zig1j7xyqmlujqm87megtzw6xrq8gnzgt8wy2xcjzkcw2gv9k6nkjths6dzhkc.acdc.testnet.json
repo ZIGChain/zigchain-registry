@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1j7xyqmlujqm87megtzw6xrq8gnzgt8wy2xcjzkcw2gv9k6nkjths6dzhkc.acdc",
+  "type": "factory",
+  "symbol": "ACDC",
+  "name": "Acdc",
+  "decimals": 6,
+  "display_denom": "ACDC",
+  "base_denom": "coin.zig1j7xyqmlujqm87megtzw6xrq8gnzgt8wy2xcjzkcw2gv9k6nkjths6dzhkc.acdc",
+  "creator": "zig1j7xyqmlujqm87megtzw6xrq8gnzgt8wy2xcjzkcw2gv9k6nkjths6dzhkc",
+  "subdenom": "acdc",
+  "denom_units": [
+    {
+      "denom": "coin.zig1j7xyqmlujqm87megtzw6xrq8gnzgt8wy2xcjzkcw2gv9k6nkjths6dzhkc.acdc",
+      "exponent": 0
+    },
+    {
+      "denom": "ACDC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

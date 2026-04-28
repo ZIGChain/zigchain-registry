@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ela5wdznypq8fhf4lnqg90z2lk7376aunptf6slegrs60vlfyusq9rz73g.jake",
+  "type": "factory",
+  "symbol": "JAKE",
+  "name": "Jake",
+  "decimals": 6,
+  "display_denom": "JAKE",
+  "base_denom": "coin.zig1ela5wdznypq8fhf4lnqg90z2lk7376aunptf6slegrs60vlfyusq9rz73g.jake",
+  "creator": "zig1ela5wdznypq8fhf4lnqg90z2lk7376aunptf6slegrs60vlfyusq9rz73g",
+  "subdenom": "jake",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ela5wdznypq8fhf4lnqg90z2lk7376aunptf6slegrs60vlfyusq9rz73g.jake",
+      "exponent": 0
+    },
+    {
+      "denom": "JAKE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

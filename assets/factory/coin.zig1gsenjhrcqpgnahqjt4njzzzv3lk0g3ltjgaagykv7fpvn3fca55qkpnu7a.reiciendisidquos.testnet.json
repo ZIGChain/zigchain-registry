@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1gsenjhrcqpgnahqjt4njzzzv3lk0g3ltjgaagykv7fpvn3fca55qkpnu7a.reiciendisidquos",
+  "type": "factory",
+  "symbol": "REICIENDISIDQUOS",
+  "name": "Reiciendisidquos",
+  "decimals": 6,
+  "display_denom": "REICIENDISIDQUOS",
+  "base_denom": "coin.zig1gsenjhrcqpgnahqjt4njzzzv3lk0g3ltjgaagykv7fpvn3fca55qkpnu7a.reiciendisidquos",
+  "creator": "zig1gsenjhrcqpgnahqjt4njzzzv3lk0g3ltjgaagykv7fpvn3fca55qkpnu7a",
+  "subdenom": "reiciendisidquos",
+  "denom_units": [
+    {
+      "denom": "coin.zig1gsenjhrcqpgnahqjt4njzzzv3lk0g3ltjgaagykv7fpvn3fca55qkpnu7a.reiciendisidquos",
+      "exponent": 0
+    },
+    {
+      "denom": "REICIENDISIDQUOS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

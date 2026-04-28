@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1pt9xxmwy3s8frn4klkk4hy6yjup5vdu2n0g46r7lax9856lmtxzss9rzad.snowball",
+  "type": "factory",
+  "symbol": "SNOWBALL",
+  "name": "Snowball",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1pt9xxmwy3s8frn4klkk4hy6yjup5vdu2n0g46r7lax9856lmtxzss9rzad.snowball",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1pt9xxmwy3s8frn4klkk4hy6yjup5vdu2n0g46r7lax9856lmtxzss9rzad.snowball",
+  "base_denom": "coin.zig1pt9xxmwy3s8frn4klkk4hy6yjup5vdu2n0g46r7lax9856lmtxzss9rzad.snowball",
+  "creator": "zig1pt9xxmwy3s8frn4klkk4hy6yjup5vdu2n0g46r7lax9856lmtxzss9rzad",
+  "subdenom": "snowball",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

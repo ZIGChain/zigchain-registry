@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1h4ajzt825gq6vn5wrwcezkezr3sq780y6hhuk55yc07xw2g0xhtqyapg52.exvoluptasquamsit",
+  "type": "factory",
+  "symbol": "EXVOLUPTASQUAMSIT",
+  "name": "Exvoluptasquamsit",
+  "decimals": 6,
+  "display_denom": "EXVOLUPTASQUAMSIT",
+  "base_denom": "coin.zig1h4ajzt825gq6vn5wrwcezkezr3sq780y6hhuk55yc07xw2g0xhtqyapg52.exvoluptasquamsit",
+  "creator": "zig1h4ajzt825gq6vn5wrwcezkezr3sq780y6hhuk55yc07xw2g0xhtqyapg52",
+  "subdenom": "exvoluptasquamsit",
+  "denom_units": [
+    {
+      "denom": "coin.zig1h4ajzt825gq6vn5wrwcezkezr3sq780y6hhuk55yc07xw2g0xhtqyapg52.exvoluptasquamsit",
+      "exponent": 0
+    },
+    {
+      "denom": "EXVOLUPTASQUAMSIT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig19w65da9npjvk3fafatdnz9cu3nzytd2a8vddfg6qu9e8dtekuh9qqf983q.taken253",
+  "type": "factory",
+  "symbol": "TAKEN253",
+  "name": "Taken253",
+  "decimals": 6,
+  "display_denom": "TAKEN253",
+  "base_denom": "coin.zig19w65da9npjvk3fafatdnz9cu3nzytd2a8vddfg6qu9e8dtekuh9qqf983q.taken253",
+  "creator": "zig19w65da9npjvk3fafatdnz9cu3nzytd2a8vddfg6qu9e8dtekuh9qqf983q",
+  "subdenom": "taken253",
+  "denom_units": [
+    {
+      "denom": "coin.zig19w65da9npjvk3fafatdnz9cu3nzytd2a8vddfg6qu9e8dtekuh9qqf983q.taken253",
+      "exponent": 0
+    },
+    {
+      "denom": "TAKEN253",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

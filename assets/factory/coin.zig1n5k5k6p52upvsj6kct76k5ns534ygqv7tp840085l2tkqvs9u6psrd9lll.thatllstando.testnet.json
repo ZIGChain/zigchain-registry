@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1n5k5k6p52upvsj6kct76k5ns534ygqv7tp840085l2tkqvs9u6psrd9lll.thatllstando",
+  "type": "factory",
+  "symbol": "THATLLSTANDO",
+  "name": "Thatllstando",
+  "decimals": 6,
+  "display_denom": "THATLLSTANDO",
+  "base_denom": "coin.zig1n5k5k6p52upvsj6kct76k5ns534ygqv7tp840085l2tkqvs9u6psrd9lll.thatllstando",
+  "creator": "zig1n5k5k6p52upvsj6kct76k5ns534ygqv7tp840085l2tkqvs9u6psrd9lll",
+  "subdenom": "thatllstando",
+  "denom_units": [
+    {
+      "denom": "coin.zig1n5k5k6p52upvsj6kct76k5ns534ygqv7tp840085l2tkqvs9u6psrd9lll.thatllstando",
+      "exponent": 0
+    },
+    {
+      "denom": "THATLLSTANDO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

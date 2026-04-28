@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1vg47hdcf5ua39zvdyn6cjxayq4lgucj88lvps8rmcq5m7vljqets9xn5t0.estveniamfugapr",
+  "type": "factory",
+  "symbol": "ESTVENIAMFUGAPR",
+  "name": "Estveniamfugapr",
+  "decimals": 6,
+  "display_denom": "ESTVENIAMFUGAPR",
+  "base_denom": "coin.zig1vg47hdcf5ua39zvdyn6cjxayq4lgucj88lvps8rmcq5m7vljqets9xn5t0.estveniamfugapr",
+  "creator": "zig1vg47hdcf5ua39zvdyn6cjxayq4lgucj88lvps8rmcq5m7vljqets9xn5t0",
+  "subdenom": "estveniamfugapr",
+  "denom_units": [
+    {
+      "denom": "coin.zig1vg47hdcf5ua39zvdyn6cjxayq4lgucj88lvps8rmcq5m7vljqets9xn5t0.estveniamfugapr",
+      "exponent": 0
+    },
+    {
+      "denom": "ESTVENIAMFUGAPR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

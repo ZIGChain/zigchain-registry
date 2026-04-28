@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13avaa0972r0fh868av6k9dvt9cxndynxwyktfu6m2jsdzrlys2mqglzazr.quasvoluptatemali",
+  "type": "factory",
+  "symbol": "QUASVOLUPTATEMALI",
+  "name": "Quasvoluptatemali",
+  "decimals": 6,
+  "display_denom": "QUASVOLUPTATEMALI",
+  "base_denom": "coin.zig13avaa0972r0fh868av6k9dvt9cxndynxwyktfu6m2jsdzrlys2mqglzazr.quasvoluptatemali",
+  "creator": "zig13avaa0972r0fh868av6k9dvt9cxndynxwyktfu6m2jsdzrlys2mqglzazr",
+  "subdenom": "quasvoluptatemali",
+  "denom_units": [
+    {
+      "denom": "coin.zig13avaa0972r0fh868av6k9dvt9cxndynxwyktfu6m2jsdzrlys2mqglzazr.quasvoluptatemali",
+      "exponent": 0
+    },
+    {
+      "denom": "QUASVOLUPTATEMALI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

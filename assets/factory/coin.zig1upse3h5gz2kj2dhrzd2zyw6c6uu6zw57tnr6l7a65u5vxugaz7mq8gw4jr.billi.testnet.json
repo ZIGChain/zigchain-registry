@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1upse3h5gz2kj2dhrzd2zyw6c6uu6zw57tnr6l7a65u5vxugaz7mq8gw4jr.billi",
+  "type": "factory",
+  "symbol": "BILLI",
+  "name": "Billi",
+  "decimals": 6,
+  "display_denom": "BILLI",
+  "base_denom": "coin.zig1upse3h5gz2kj2dhrzd2zyw6c6uu6zw57tnr6l7a65u5vxugaz7mq8gw4jr.billi",
+  "creator": "zig1upse3h5gz2kj2dhrzd2zyw6c6uu6zw57tnr6l7a65u5vxugaz7mq8gw4jr",
+  "subdenom": "billi",
+  "denom_units": [
+    {
+      "denom": "coin.zig1upse3h5gz2kj2dhrzd2zyw6c6uu6zw57tnr6l7a65u5vxugaz7mq8gw4jr.billi",
+      "exponent": 0
+    },
+    {
+      "denom": "BILLI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

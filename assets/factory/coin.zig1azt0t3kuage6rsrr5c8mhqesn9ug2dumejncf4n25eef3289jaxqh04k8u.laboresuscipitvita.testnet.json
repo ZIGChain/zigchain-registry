@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1azt0t3kuage6rsrr5c8mhqesn9ug2dumejncf4n25eef3289jaxqh04k8u.laboresuscipitvita",
+  "type": "factory",
+  "symbol": "LABORESUSCIPITVITA",
+  "name": "Laboresuscipitvita",
+  "decimals": 6,
+  "display_denom": "LABORESUSCIPITVITA",
+  "base_denom": "coin.zig1azt0t3kuage6rsrr5c8mhqesn9ug2dumejncf4n25eef3289jaxqh04k8u.laboresuscipitvita",
+  "creator": "zig1azt0t3kuage6rsrr5c8mhqesn9ug2dumejncf4n25eef3289jaxqh04k8u",
+  "subdenom": "laboresuscipitvita",
+  "denom_units": [
+    {
+      "denom": "coin.zig1azt0t3kuage6rsrr5c8mhqesn9ug2dumejncf4n25eef3289jaxqh04k8u.laboresuscipitvita",
+      "exponent": 0
+    },
+    {
+      "denom": "LABORESUSCIPITVITA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

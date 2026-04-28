@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1gnuz0hpc3htdh3wmflpf7zzwhtf72kadxlsuxnljtva6jgdnxcdske3zxu.billu",
+  "type": "factory",
+  "symbol": "BILLU",
+  "name": "Billu",
+  "decimals": 6,
+  "display_denom": "BILLU",
+  "base_denom": "coin.zig1gnuz0hpc3htdh3wmflpf7zzwhtf72kadxlsuxnljtva6jgdnxcdske3zxu.billu",
+  "creator": "zig1gnuz0hpc3htdh3wmflpf7zzwhtf72kadxlsuxnljtva6jgdnxcdske3zxu",
+  "subdenom": "billu",
+  "denom_units": [
+    {
+      "denom": "coin.zig1gnuz0hpc3htdh3wmflpf7zzwhtf72kadxlsuxnljtva6jgdnxcdske3zxu.billu",
+      "exponent": 0
+    },
+    {
+      "denom": "BILLU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

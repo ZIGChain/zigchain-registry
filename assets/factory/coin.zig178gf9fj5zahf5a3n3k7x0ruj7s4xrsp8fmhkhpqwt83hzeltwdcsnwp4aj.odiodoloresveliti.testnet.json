@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig178gf9fj5zahf5a3n3k7x0ruj7s4xrsp8fmhkhpqwt83hzeltwdcsnwp4aj.odiodoloresveliti",
+  "type": "factory",
+  "symbol": "ODIODOLORESVELITI",
+  "name": "Odiodoloresveliti",
+  "decimals": 6,
+  "display_denom": "ODIODOLORESVELITI",
+  "base_denom": "coin.zig178gf9fj5zahf5a3n3k7x0ruj7s4xrsp8fmhkhpqwt83hzeltwdcsnwp4aj.odiodoloresveliti",
+  "creator": "zig178gf9fj5zahf5a3n3k7x0ruj7s4xrsp8fmhkhpqwt83hzeltwdcsnwp4aj",
+  "subdenom": "odiodoloresveliti",
+  "denom_units": [
+    {
+      "denom": "coin.zig178gf9fj5zahf5a3n3k7x0ruj7s4xrsp8fmhkhpqwt83hzeltwdcsnwp4aj.odiodoloresveliti",
+      "exponent": 0
+    },
+    {
+      "denom": "ODIODOLORESVELITI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

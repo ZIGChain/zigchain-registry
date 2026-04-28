@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14tfn0dalk345gyk0pnuvqz95zru7tqc6pl84gxwv936s9v6ujx6qkawp04.breeze",
+  "type": "factory",
+  "symbol": "BREEZE",
+  "name": "Breeze",
+  "decimals": 6,
+  "display_denom": "BREEZE",
+  "base_denom": "coin.zig14tfn0dalk345gyk0pnuvqz95zru7tqc6pl84gxwv936s9v6ujx6qkawp04.breeze",
+  "creator": "zig14tfn0dalk345gyk0pnuvqz95zru7tqc6pl84gxwv936s9v6ujx6qkawp04",
+  "subdenom": "breeze",
+  "denom_units": [
+    {
+      "denom": "coin.zig14tfn0dalk345gyk0pnuvqz95zru7tqc6pl84gxwv936s9v6ujx6qkawp04.breeze",
+      "exponent": 0
+    },
+    {
+      "denom": "BREEZE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

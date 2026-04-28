@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1tagheekvjk2l7c4qmxsen9fh979cgmvumfn4azvx755wwunthzwqa2zvdy.pariaturlaborisat",
+  "type": "factory",
+  "symbol": "PARIATURLABORISAT",
+  "name": "Pariaturlaborisat",
+  "decimals": 6,
+  "display_denom": "PARIATURLABORISAT",
+  "base_denom": "coin.zig1tagheekvjk2l7c4qmxsen9fh979cgmvumfn4azvx755wwunthzwqa2zvdy.pariaturlaborisat",
+  "creator": "zig1tagheekvjk2l7c4qmxsen9fh979cgmvumfn4azvx755wwunthzwqa2zvdy",
+  "subdenom": "pariaturlaborisat",
+  "denom_units": [
+    {
+      "denom": "coin.zig1tagheekvjk2l7c4qmxsen9fh979cgmvumfn4azvx755wwunthzwqa2zvdy.pariaturlaborisat",
+      "exponent": 0
+    },
+    {
+      "denom": "PARIATURLABORISAT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

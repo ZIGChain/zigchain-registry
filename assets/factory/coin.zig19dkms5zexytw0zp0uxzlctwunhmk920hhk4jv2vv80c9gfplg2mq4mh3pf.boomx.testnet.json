@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig19dkms5zexytw0zp0uxzlctwunhmk920hhk4jv2vv80c9gfplg2mq4mh3pf.boomx",
+  "type": "factory",
+  "symbol": "BOOMX",
+  "name": "Boomx",
+  "decimals": 6,
+  "display_denom": "BOOMX",
+  "base_denom": "coin.zig19dkms5zexytw0zp0uxzlctwunhmk920hhk4jv2vv80c9gfplg2mq4mh3pf.boomx",
+  "creator": "zig19dkms5zexytw0zp0uxzlctwunhmk920hhk4jv2vv80c9gfplg2mq4mh3pf",
+  "subdenom": "boomx",
+  "denom_units": [
+    {
+      "denom": "coin.zig19dkms5zexytw0zp0uxzlctwunhmk920hhk4jv2vv80c9gfplg2mq4mh3pf.boomx",
+      "exponent": 0
+    },
+    {
+      "denom": "BOOMX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

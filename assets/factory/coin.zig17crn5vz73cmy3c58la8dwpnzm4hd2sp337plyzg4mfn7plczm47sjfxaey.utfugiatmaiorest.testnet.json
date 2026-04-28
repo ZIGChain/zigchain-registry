@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17crn5vz73cmy3c58la8dwpnzm4hd2sp337plyzg4mfn7plczm47sjfxaey.utfugiatmaiorest",
+  "type": "factory",
+  "symbol": "UTFUGIATMAIOREST",
+  "name": "Utfugiatmaiorest",
+  "decimals": 6,
+  "display_denom": "UTFUGIATMAIOREST",
+  "base_denom": "coin.zig17crn5vz73cmy3c58la8dwpnzm4hd2sp337plyzg4mfn7plczm47sjfxaey.utfugiatmaiorest",
+  "creator": "zig17crn5vz73cmy3c58la8dwpnzm4hd2sp337plyzg4mfn7plczm47sjfxaey",
+  "subdenom": "utfugiatmaiorest",
+  "denom_units": [
+    {
+      "denom": "coin.zig17crn5vz73cmy3c58la8dwpnzm4hd2sp337plyzg4mfn7plczm47sjfxaey.utfugiatmaiorest",
+      "exponent": 0
+    },
+    {
+      "denom": "UTFUGIATMAIOREST",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

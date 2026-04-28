@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig16nlrzqf26k5cmkh5x8c669rcxzgckd42kwxjkxuy3u9kchqspr4sfzq0vh.hen",
+  "type": "factory",
+  "symbol": "HEN",
+  "name": "Hen",
+  "decimals": 6,
+  "display_denom": "HEN",
+  "base_denom": "coin.zig16nlrzqf26k5cmkh5x8c669rcxzgckd42kwxjkxuy3u9kchqspr4sfzq0vh.hen",
+  "creator": "zig16nlrzqf26k5cmkh5x8c669rcxzgckd42kwxjkxuy3u9kchqspr4sfzq0vh",
+  "subdenom": "hen",
+  "denom_units": [
+    {
+      "denom": "coin.zig16nlrzqf26k5cmkh5x8c669rcxzgckd42kwxjkxuy3u9kchqspr4sfzq0vh.hen",
+      "exponent": 0
+    },
+    {
+      "denom": "HEN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

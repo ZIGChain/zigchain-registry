@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ypl2djv3g4egyw9h6lnyt55fhxe62awem4655k7ewz2vz7sf47wqevlp6t.estconsecteturest",
+  "type": "factory",
+  "symbol": "ESTCONSECTETUREST",
+  "name": "Estconsecteturest",
+  "decimals": 6,
+  "display_denom": "ESTCONSECTETUREST",
+  "base_denom": "coin.zig1ypl2djv3g4egyw9h6lnyt55fhxe62awem4655k7ewz2vz7sf47wqevlp6t.estconsecteturest",
+  "creator": "zig1ypl2djv3g4egyw9h6lnyt55fhxe62awem4655k7ewz2vz7sf47wqevlp6t",
+  "subdenom": "estconsecteturest",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ypl2djv3g4egyw9h6lnyt55fhxe62awem4655k7ewz2vz7sf47wqevlp6t.estconsecteturest",
+      "exponent": 0
+    },
+    {
+      "denom": "ESTCONSECTETUREST",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

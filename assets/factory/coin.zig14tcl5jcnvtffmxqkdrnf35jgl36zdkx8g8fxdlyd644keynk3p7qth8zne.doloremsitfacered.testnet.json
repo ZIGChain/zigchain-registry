@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14tcl5jcnvtffmxqkdrnf35jgl36zdkx8g8fxdlyd644keynk3p7qth8zne.doloremsitfacered",
+  "type": "factory",
+  "symbol": "DOLOREMSITFACERED",
+  "name": "Doloremsitfacered",
+  "decimals": 6,
+  "display_denom": "DOLOREMSITFACERED",
+  "base_denom": "coin.zig14tcl5jcnvtffmxqkdrnf35jgl36zdkx8g8fxdlyd644keynk3p7qth8zne.doloremsitfacered",
+  "creator": "zig14tcl5jcnvtffmxqkdrnf35jgl36zdkx8g8fxdlyd644keynk3p7qth8zne",
+  "subdenom": "doloremsitfacered",
+  "denom_units": [
+    {
+      "denom": "coin.zig14tcl5jcnvtffmxqkdrnf35jgl36zdkx8g8fxdlyd644keynk3p7qth8zne.doloremsitfacered",
+      "exponent": 0
+    },
+    {
+      "denom": "DOLOREMSITFACERED",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

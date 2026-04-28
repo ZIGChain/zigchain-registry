@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig103my7xcmwy3ndh7pq9eh9qh3ps52f3n79acdtrv6scvhkn4st7xqeefr4l.dignissimoscupidita",
+  "type": "factory",
+  "symbol": "DIGNISSIMOSCUPIDITA",
+  "name": "Dignissimoscupidita",
+  "decimals": 6,
+  "display_denom": "DIGNISSIMOSCUPIDITA",
+  "base_denom": "coin.zig103my7xcmwy3ndh7pq9eh9qh3ps52f3n79acdtrv6scvhkn4st7xqeefr4l.dignissimoscupidita",
+  "creator": "zig103my7xcmwy3ndh7pq9eh9qh3ps52f3n79acdtrv6scvhkn4st7xqeefr4l",
+  "subdenom": "dignissimoscupidita",
+  "denom_units": [
+    {
+      "denom": "coin.zig103my7xcmwy3ndh7pq9eh9qh3ps52f3n79acdtrv6scvhkn4st7xqeefr4l.dignissimoscupidita",
+      "exponent": 0
+    },
+    {
+      "denom": "DIGNISSIMOSCUPIDITA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

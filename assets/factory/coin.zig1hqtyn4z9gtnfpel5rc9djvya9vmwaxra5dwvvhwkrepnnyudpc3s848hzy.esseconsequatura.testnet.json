@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hqtyn4z9gtnfpel5rc9djvya9vmwaxra5dwvvhwkrepnnyudpc3s848hzy.esseconsequatura",
+  "type": "factory",
+  "symbol": "ESSECONSEQUATURA",
+  "name": "Esseconsequatura",
+  "decimals": 6,
+  "display_denom": "ESSECONSEQUATURA",
+  "base_denom": "coin.zig1hqtyn4z9gtnfpel5rc9djvya9vmwaxra5dwvvhwkrepnnyudpc3s848hzy.esseconsequatura",
+  "creator": "zig1hqtyn4z9gtnfpel5rc9djvya9vmwaxra5dwvvhwkrepnnyudpc3s848hzy",
+  "subdenom": "esseconsequatura",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hqtyn4z9gtnfpel5rc9djvya9vmwaxra5dwvvhwkrepnnyudpc3s848hzy.esseconsequatura",
+      "exponent": 0
+    },
+    {
+      "denom": "ESSECONSEQUATURA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

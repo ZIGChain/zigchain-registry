@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1tf85h6sqd0pd6acplk49e24mepnefuxcc0lufcvx70tqfs9tfjksmt8yn8.degenpump",
+  "type": "factory",
+  "symbol": "DEGENPUMP",
+  "name": "Degenpump",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1tf85h6sqd0pd6acplk49e24mepnefuxcc0lufcvx70tqfs9tfjksmt8yn8.degenpump",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1tf85h6sqd0pd6acplk49e24mepnefuxcc0lufcvx70tqfs9tfjksmt8yn8.degenpump",
+  "base_denom": "coin.zig1tf85h6sqd0pd6acplk49e24mepnefuxcc0lufcvx70tqfs9tfjksmt8yn8.degenpump",
+  "creator": "zig1tf85h6sqd0pd6acplk49e24mepnefuxcc0lufcvx70tqfs9tfjksmt8yn8",
+  "subdenom": "degenpump",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

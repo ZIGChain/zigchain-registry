@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ej799pdusk60scwhsx7wa4eh78u7splge9fayergtxvprf3gxw8qm92q0c.summer",
+  "type": "factory",
+  "symbol": "SUMMER",
+  "name": "Summer",
+  "decimals": 6,
+  "display_denom": "SUMMER",
+  "base_denom": "coin.zig1ej799pdusk60scwhsx7wa4eh78u7splge9fayergtxvprf3gxw8qm92q0c.summer",
+  "creator": "zig1ej799pdusk60scwhsx7wa4eh78u7splge9fayergtxvprf3gxw8qm92q0c",
+  "subdenom": "summer",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ej799pdusk60scwhsx7wa4eh78u7splge9fayergtxvprf3gxw8qm92q0c.summer",
+      "exponent": 0
+    },
+    {
+      "denom": "SUMMER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quote1d58771bfd",
+  "type": "factory",
+  "symbol": "QUOTE1D58771BFD",
+  "name": "Quote1d58771bfd",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quote1d58771bfd",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quote1d58771bfd",
+  "base_denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quote1d58771bfd",
+  "creator": "zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd",
+  "subdenom": "quote1d58771bfd",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

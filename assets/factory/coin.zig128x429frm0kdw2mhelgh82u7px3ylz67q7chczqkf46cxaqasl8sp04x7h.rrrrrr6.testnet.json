@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig128x429frm0kdw2mhelgh82u7px3ylz67q7chczqkf46cxaqasl8sp04x7h.rrrrrr6",
+  "type": "factory",
+  "symbol": "RRRRRR6",
+  "name": "Rrrrrr6",
+  "decimals": 6,
+  "display_denom": "RRRRRR6",
+  "base_denom": "coin.zig128x429frm0kdw2mhelgh82u7px3ylz67q7chczqkf46cxaqasl8sp04x7h.rrrrrr6",
+  "creator": "zig128x429frm0kdw2mhelgh82u7px3ylz67q7chczqkf46cxaqasl8sp04x7h",
+  "subdenom": "rrrrrr6",
+  "denom_units": [
+    {
+      "denom": "coin.zig128x429frm0kdw2mhelgh82u7px3ylz67q7chczqkf46cxaqasl8sp04x7h.rrrrrr6",
+      "exponent": 0
+    },
+    {
+      "denom": "RRRRRR6",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

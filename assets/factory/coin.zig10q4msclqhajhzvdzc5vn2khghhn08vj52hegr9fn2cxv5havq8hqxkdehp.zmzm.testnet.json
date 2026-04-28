@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10q4msclqhajhzvdzc5vn2khghhn08vj52hegr9fn2cxv5havq8hqxkdehp.zmzm",
+  "type": "factory",
+  "symbol": "ZMZM",
+  "name": "Zmzm",
+  "decimals": 6,
+  "display_denom": "ZMZM",
+  "base_denom": "coin.zig10q4msclqhajhzvdzc5vn2khghhn08vj52hegr9fn2cxv5havq8hqxkdehp.zmzm",
+  "creator": "zig10q4msclqhajhzvdzc5vn2khghhn08vj52hegr9fn2cxv5havq8hqxkdehp",
+  "subdenom": "zmzm",
+  "denom_units": [
+    {
+      "denom": "coin.zig10q4msclqhajhzvdzc5vn2khghhn08vj52hegr9fn2cxv5havq8hqxkdehp.zmzm",
+      "exponent": 0
+    },
+    {
+      "denom": "ZMZM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

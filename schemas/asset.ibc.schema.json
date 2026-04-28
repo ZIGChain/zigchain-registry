@@ -1,0 +1,875 @@
+{
+  "$defs": {
+    "DenomUnit": {
+      "additionalProperties": false,
+      "description": "Denom unit with exponent for conversion (chain-registry compatible).",
+      "properties": {
+        "denom": {
+          "description": "Denomination identifier for this unit, subject to Cosmos SDK's 128-character limit",
+          "example": "uzig",
+          "maxLength": 128,
+          "minLength": 1,
+          "title": "Denomination",
+          "type": "string"
+        },
+        "exponent": {
+          "description": "Exponent for conversion (0-18, matching Cosmos SDK convention)",
+          "example": 6,
+          "maximum": 18,
+          "minimum": 0,
+          "title": "Exponent",
+          "type": "integer"
+        },
+        "aliases": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "maxItems": 10,
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional alternative names or symbols that can be used to refer to this denomination (max 10)",
+          "example": [
+            "ZIG"
+          ],
+          "title": "Aliases"
+        }
+      },
+      "required": [
+        "denom",
+        "exponent"
+      ],
+      "title": "DenomUnit",
+      "type": "object"
+    },
+    "IBCChannel": {
+      "additionalProperties": false,
+      "description": "IBC channel information.",
+      "properties": {
+        "zigchain_channel": {
+          "description": "IBC channel identifier on ZIGChain side of the connection",
+          "example": "channel-3",
+          "maxLength": 64,
+          "minLength": 1,
+          "title": "ZIGChain Channel",
+          "type": "string"
+        },
+        "counterparty_chain": {
+          "description": "Name of the blockchain on the other side of this channel",
+          "example": "noble",
+          "maxLength": 64,
+          "minLength": 1,
+          "title": "Counterparty Chain",
+          "type": "string"
+        },
+        "counterparty_channel": {
+          "description": "IBC channel identifier on the counterparty chain",
+          "example": "channel-175",
+          "maxLength": 64,
+          "minLength": 1,
+          "title": "Counterparty Channel",
+          "type": "string"
+        }
+      },
+      "required": [
+        "zigchain_channel",
+        "counterparty_chain",
+        "counterparty_channel"
+      ],
+      "title": "IBCChannel",
+      "type": "object"
+    },
+    "IBCTrace": {
+      "additionalProperties": false,
+      "description": "IBC trace information.",
+      "properties": {
+        "type": {
+          "description": "Type identifier for the IBC trace",
+          "example": "ibc",
+          "title": "Trace Type",
+          "type": "string"
+        },
+        "chain_name": {
+          "description": "Name of the blockchain in this trace step",
+          "example": "zigchain",
+          "maxLength": 64,
+          "minLength": 1,
+          "title": "Chain Name",
+          "type": "string"
+        },
+        "base_denom": {
+          "description": "Denomination identifier used on this chain in the trace. Can be an IBC denom (ibc/{64-char-hash}) or a native denom on the origin chain (e.g. uatom, uusdc).",
+          "example": "uatom",
+          "maxLength": 128,
+          "minLength": 1,
+          "title": "Base Denomination",
+          "type": "string"
+        },
+        "path": {
+          "description": "IBC transfer path showing the routing through channels",
+          "example": "transfer/channel-3/uusdc",
+          "maxLength": 256,
+          "minLength": 1,
+          "title": "IBC Transfer Path",
+          "type": "string"
+        },
+        "provider": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional hint for the bridge/transport provider used for this hop (e.g. 'eureka').",
+          "example": "eureka",
+          "title": "Provider"
+        }
+      },
+      "required": [
+        "type",
+        "chain_name",
+        "base_denom",
+        "path"
+      ],
+      "title": "IBCTrace",
+      "type": "object"
+    },
+    "ImageEntry": {
+      "additionalProperties": false,
+      "description": "Cosmos chain-registry compatible images entry.\n\nNote: for convenience, this repo also allows the shortcut form:\n  { \"chain_name\": \"...\", \"base_denom\": \"...\" }\nwhich is represented by ImageSyncPointer and transformed during generation.",
+      "properties": {
+        "image_sync": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ImageSyncPointer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Pointer to upstream image metadata (Cosmos chain-registry 'pointer' definition)"
+        },
+        "png": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "PNG image URL (uri-reference)",
+          "title": "Png"
+        },
+        "svg": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "SVG image URL (uri-reference)",
+          "title": "Svg"
+        },
+        "theme": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ImageTheme"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional theming hints"
+        }
+      },
+      "title": "ImageEntry",
+      "type": "object"
+    },
+    "ImageSyncPointer": {
+      "additionalProperties": false,
+      "description": "Pointer to an upstream image definition in the Cosmos chain-registry.",
+      "properties": {
+        "chain_name": {
+          "description": "Chain name in the Cosmos chain registry",
+          "maxLength": 64,
+          "minLength": 1,
+          "title": "Chain Name",
+          "type": "string"
+        },
+        "base_denom": {
+          "description": "Base denom (or contract address) on the source chain",
+          "maxLength": 256,
+          "minLength": 1,
+          "title": "Base Denom",
+          "type": "string"
+        }
+      },
+      "required": [
+        "chain_name",
+        "base_denom"
+      ],
+      "title": "ImageSyncPointer",
+      "type": "object"
+    },
+    "ImageTheme": {
+      "additionalProperties": false,
+      "description": "Optional theming hints for images.",
+      "minProperties": 1,
+      "properties": {
+        "circle": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Circle"
+        },
+        "dark_mode": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Dark Mode"
+        }
+      },
+      "title": "ImageTheme",
+      "type": "object"
+    },
+    "LogoUris": {
+      "additionalProperties": false,
+      "description": "Logo URIs for an asset.",
+      "properties": {
+        "chain_name": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional Cosmos chain-registry folder name to resolve this logo from during generation (e.g. 'cosmoshub', 'noble', 'stride', or 'ethereum' for _non-cosmos).",
+          "title": "Chain Name"
+        },
+        "png": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "URL to the PNG format logo image",
+          "example": "https://example.com/logo.png",
+          "title": "PNG Logo URL"
+        },
+        "svg": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "URL to the SVG format logo image",
+          "example": "https://example.com/logo.svg",
+          "title": "SVG Logo URL"
+        }
+      },
+      "title": "LogoUris",
+      "type": "object"
+    },
+    "NativeTrace": {
+      "additionalProperties": false,
+      "description": "Trace entry for native (and potentially factory) assets.\n\nExample (as used in this repo's asset JSONs):\n  {\n    \"type\": \"additional-mintage\",\n    \"counterparty\": { \"chain_name\": \"ethereum\", \"base_denom\": \"0x...\" },\n    \"provider\": \"ZIGChain\"\n  }",
+      "properties": {
+        "type": {
+          "description": "Trace type identifier (free-form)",
+          "maxLength": 64,
+          "minLength": 1,
+          "title": "Type",
+          "type": "string"
+        },
+        "counterparty": {
+          "$ref": "#/$defs/TraceCounterparty",
+          "description": "Counterparty reference for this trace"
+        },
+        "provider": {
+          "anyOf": [
+            {
+              "maxLength": 64,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional provider hint. When omitted, generation must not emit a provider field.",
+          "title": "Provider"
+        }
+      },
+      "required": [
+        "type",
+        "counterparty"
+      ],
+      "title": "NativeTrace",
+      "type": "object"
+    },
+    "Socials": {
+      "additionalProperties": false,
+      "description": "Social links for an asset (project/community URLs).",
+      "minProperties": 1,
+      "properties": {
+        "website": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2048,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "format": "uri",
+          "title": "Website"
+        },
+        "x": {
+          "anyOf": [
+            {
+              "maxLength": 2048,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "X (formerly Twitter)",
+          "format": "uri",
+          "pattern": "^https://(x\\.com|twitter\\.com)/.+$",
+          "title": "X"
+        },
+        "telegram": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2048,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "format": "uri",
+          "title": "Telegram"
+        },
+        "discord": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2048,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "format": "uri",
+          "title": "Discord"
+        },
+        "github": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2048,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "format": "uri",
+          "title": "Github"
+        },
+        "medium": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2048,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "format": "uri",
+          "title": "Medium"
+        },
+        "reddit": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2048,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "format": "uri",
+          "title": "Reddit"
+        }
+      },
+      "title": "Socials",
+      "type": "object"
+    },
+    "TraceCounterparty": {
+      "additionalProperties": false,
+      "description": "Counterparty reference for a non-IBC trace entry (e.g. Ethereum contract address).",
+      "properties": {
+        "chain_name": {
+          "description": "Counterparty chain name",
+          "maxLength": 64,
+          "minLength": 1,
+          "title": "Chain Name",
+          "type": "string"
+        },
+        "base_denom": {
+          "description": "Counterparty base denom (e.g. uatom, uusdc, or an EVM contract address).",
+          "maxLength": 256,
+          "minLength": 1,
+          "title": "Base Denom",
+          "type": "string"
+        }
+      },
+      "required": [
+        "chain_name",
+        "base_denom"
+      ],
+      "title": "TraceCounterparty",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Schema for IBC ZIGChain assets",
+  "properties": {
+    "$schema": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional JSON Schema reference for tooling (editors/validators). Not part of on-chain asset data.",
+      "example": "../../schemas/asset.native.schema.json",
+      "title": "JSON Schema Reference"
+    },
+    "network": {
+      "description": "Blockchain network where this asset is available",
+      "enum": [
+        "mainnet",
+        "testnet"
+      ],
+      "example": "mainnet",
+      "title": "Network Environment",
+      "type": "string"
+    },
+    "asset_id": {
+      "description": "Deterministic ID, e.g. zig, factory.creator.subdenom, ibc/HASH...",
+      "examples": [
+        "zig",
+        "factory.zig1pvm4lt2xct387nhxynedz0zll9uw0gyh4mftlw.panda",
+        "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0"
+      ],
+      "maxLength": 128,
+      "minLength": 1,
+      "title": "Asset ID",
+      "type": "string"
+    },
+    "order": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional numerical order for controlling asset display order in generated chain-registry outputs. Lower values appear first. Assets without order are sorted after ordered assets.",
+      "example": 10,
+      "title": "Order"
+    },
+    "type": {
+      "const": "ibc",
+      "default": "ibc",
+      "description": "Classification indicating this is an IBC-transferred token",
+      "example": "ibc",
+      "title": "Asset Type",
+      "type": "string"
+    },
+    "symbol": {
+      "description": "Ticker symbol used to represent the asset (typically uppercase, 2-42 characters)",
+      "example": "ZIG",
+      "maxLength": 42,
+      "minLength": 2,
+      "title": "Asset Symbol",
+      "type": "string"
+    },
+    "name": {
+      "description": "Full human-readable name of the asset",
+      "example": "ZIGChain Native Token",
+      "maxLength": 100,
+      "minLength": 2,
+      "title": "Asset Name",
+      "type": "string"
+    },
+    "decimals": {
+      "description": "Precision for the asset's smallest unit (typically 6-18 for most tokens)",
+      "example": 6,
+      "maximum": 18,
+      "minimum": 0,
+      "title": "Decimal Places",
+      "type": "integer"
+    },
+    "denom_units": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/DenomUnit"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional list of denomination units for conversion between different scales (Cosmos chain-registry compatible). Native and factory assets require this; IBC assets may omit it and rely on generation defaults.",
+      "example": [
+        {
+          "denom": "ibc/ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789",
+          "exponent": 0
+        },
+        {
+          "denom": "token",
+          "exponent": 6
+        }
+      ],
+      "title": "Denomination Units"
+    },
+    "display_denom": {
+      "description": "Denomination symbol shown to users in wallets and interfaces",
+      "example": "ZIG",
+      "maxLength": 32,
+      "minLength": 1,
+      "title": "Display Denomination",
+      "type": "string"
+    },
+    "description": {
+      "anyOf": [
+        {
+          "maxLength": 2048,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional text providing additional context about the asset",
+      "example": "The native staking token of ZIGChain",
+      "title": "Asset Description"
+    },
+    "extended_description": {
+      "anyOf": [
+        {
+          "maxLength": 8192,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional long description of the asset",
+      "example": "ZIGChain (ZIG) is a Layer 1 blockchain focused on unlocking financial opportunities for everyone.",
+      "title": "Extended Description"
+    },
+    "keywords": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional list of keywords (1-20 items) to help categorize/search this asset",
+      "maxContains": 20,
+      "minContains": 1,
+      "title": "Keywords"
+    },
+    "images": {
+      "anyOf": [
+        {
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/ImageEntry"
+              },
+              {
+                "$ref": "#/$defs/ImageSyncPointer"
+              }
+            ]
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional images entries. Supports Cosmos chain-registry format, and also a shortcut form of {chain_name, base_denom} which will be transformed into image_sync during generation.",
+      "title": "Images"
+    },
+    "logo_uris": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/LogoUris"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Image URLs for displaying the asset logo in different formats",
+      "example": {
+        "png": "https://example.com/logo.png",
+        "svg": "https://example.com/logo.svg"
+      },
+      "title": "Logo URIs"
+    },
+    "socials": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Socials"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional social links for the asset/project/community",
+      "example": {
+        "discord": "https://discord.gg/example",
+        "github": "https://github.com/example",
+        "medium": "https://medium.com/@example",
+        "reddit": "https://reddit.com/r/example",
+        "telegram": "https://t.me/example",
+        "website": "https://example.com",
+        "x": "https://x.com/example"
+      },
+      "title": "Socials"
+    },
+    "coingecko_id": {
+      "anyOf": [
+        {
+          "maxLength": 100,
+          "minLength": 2,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "CoinGecko API slug for fetching price and market data (lowercase alphanumerics and hyphens only, e.g. 'usd-coin')",
+      "example": "usd-coin",
+      "title": "CoinGecko ID"
+    },
+    "is_verified": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Indicates if this asset has been verified or audited by the platform",
+      "example": false,
+      "title": "Is Verified"
+    },
+    "base_denom": {
+      "description": "On-chain IBC denomination identifier constructed from the IBC hash. Uses SHA256 hash to ensure the denomination fits within Cosmos SDK's 64-character limit for token denominations.",
+      "example": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+      "maxLength": 68,
+      "minLength": 68,
+      "pattern": "^ibc/[A-Fa-f0-9]{64}$",
+      "title": "Base Denomination",
+      "type": "string"
+    },
+    "hash": {
+      "description": "SHA256 hash (64 hexadecimal characters) of the IBC transfer path, used to create a fixed-length denomination that fits within Cosmos SDK's 64-character limit",
+      "example": "6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+      "maxLength": 64,
+      "minLength": 64,
+      "pattern": "^[A-Fa-f0-9]{64}$",
+      "title": "IBC Hash",
+      "type": "string"
+    },
+    "origin_chain": {
+      "description": "Name of the blockchain where this token originated",
+      "example": "noble",
+      "maxLength": 64,
+      "minLength": 1,
+      "title": "Origin Chain",
+      "type": "string"
+    },
+    "origin_denom": {
+      "description": "Original denomination identifier on the source blockchain",
+      "example": "uusdc",
+      "maxLength": 128,
+      "minLength": 1,
+      "title": "Origin Denomination",
+      "type": "string"
+    },
+    "traces": {
+      "description": "Traces for IBC assets.\n- IBC hop traces (required): chain_name/base_denom/path describing routing.\n- Supplemental traces (optional): {type, counterparty{chain_name,base_denom}, provider?} for extra metadata.",
+      "example": [
+        {
+          "base_denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+          "chain_name": "zigchain",
+          "path": "transfer/channel-3/uusdc",
+          "type": "ibc"
+        },
+        {
+          "counterparty": {
+            "base_denom": "USD",
+            "chain_name": "forex"
+          },
+          "provider": "Circle",
+          "type": "synthetic"
+        }
+      ],
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/IBCTrace"
+          },
+          {
+            "$ref": "#/$defs/NativeTrace"
+          }
+        ]
+      },
+      "maxItems": 10,
+      "minItems": 1,
+      "title": "IBC Traces",
+      "type": "array"
+    },
+    "channels": {
+      "description": "IBC channel connections between ZIGChain and counterparty chains (max 5)",
+      "example": [
+        {
+          "counterparty_chain": "noble",
+          "counterparty_channel": "channel-175",
+          "zigchain_channel": "channel-3"
+        }
+      ],
+      "items": {
+        "$ref": "#/$defs/IBCChannel"
+      },
+      "maxItems": 5,
+      "minItems": 1,
+      "title": "IBC Channels",
+      "type": "array"
+    }
+  },
+  "required": [
+    "network",
+    "asset_id",
+    "symbol",
+    "name",
+    "decimals",
+    "display_denom",
+    "base_denom",
+    "hash",
+    "origin_chain",
+    "origin_denom",
+    "traces",
+    "channels"
+  ],
+  "title": "IBC Asset Schema",
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

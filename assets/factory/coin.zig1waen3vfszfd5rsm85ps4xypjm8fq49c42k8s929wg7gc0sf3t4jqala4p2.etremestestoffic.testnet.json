@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1waen3vfszfd5rsm85ps4xypjm8fq49c42k8s929wg7gc0sf3t4jqala4p2.etremestestoffic",
+  "type": "factory",
+  "symbol": "ETREMESTESTOFFIC",
+  "name": "Etremestestoffic",
+  "decimals": 6,
+  "display_denom": "ETREMESTESTOFFIC",
+  "base_denom": "coin.zig1waen3vfszfd5rsm85ps4xypjm8fq49c42k8s929wg7gc0sf3t4jqala4p2.etremestestoffic",
+  "creator": "zig1waen3vfszfd5rsm85ps4xypjm8fq49c42k8s929wg7gc0sf3t4jqala4p2",
+  "subdenom": "etremestestoffic",
+  "denom_units": [
+    {
+      "denom": "coin.zig1waen3vfszfd5rsm85ps4xypjm8fq49c42k8s929wg7gc0sf3t4jqala4p2.etremestestoffic",
+      "exponent": 0
+    },
+    {
+      "denom": "ETREMESTESTOFFIC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

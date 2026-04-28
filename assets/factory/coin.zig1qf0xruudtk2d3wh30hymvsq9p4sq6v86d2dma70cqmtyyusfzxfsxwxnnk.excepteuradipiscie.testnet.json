@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qf0xruudtk2d3wh30hymvsq9p4sq6v86d2dma70cqmtyyusfzxfsxwxnnk.excepteuradipiscie",
+  "type": "factory",
+  "symbol": "EXCEPTEURADIPISCIE",
+  "name": "Excepteuradipiscie",
+  "decimals": 6,
+  "display_denom": "EXCEPTEURADIPISCIE",
+  "base_denom": "coin.zig1qf0xruudtk2d3wh30hymvsq9p4sq6v86d2dma70cqmtyyusfzxfsxwxnnk.excepteuradipiscie",
+  "creator": "zig1qf0xruudtk2d3wh30hymvsq9p4sq6v86d2dma70cqmtyyusfzxfsxwxnnk",
+  "subdenom": "excepteuradipiscie",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qf0xruudtk2d3wh30hymvsq9p4sq6v86d2dma70cqmtyyusfzxfsxwxnnk.excepteuradipiscie",
+      "exponent": 0
+    },
+    {
+      "denom": "EXCEPTEURADIPISCIE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

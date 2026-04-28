@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1pqt84yqeqmvf4ltghvxqj774pk40xn8djydefdnzlx8lu3u9madqd33j5m.tulsa",
+  "type": "factory",
+  "symbol": "TULSA",
+  "name": "Tulsa",
+  "decimals": 6,
+  "display_denom": "TULSA",
+  "base_denom": "coin.zig1pqt84yqeqmvf4ltghvxqj774pk40xn8djydefdnzlx8lu3u9madqd33j5m.tulsa",
+  "creator": "zig1pqt84yqeqmvf4ltghvxqj774pk40xn8djydefdnzlx8lu3u9madqd33j5m",
+  "subdenom": "tulsa",
+  "denom_units": [
+    {
+      "denom": "coin.zig1pqt84yqeqmvf4ltghvxqj774pk40xn8djydefdnzlx8lu3u9madqd33j5m.tulsa",
+      "exponent": 0
+    },
+    {
+      "denom": "TULSA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

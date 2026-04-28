@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig19zctgl482q226x6jwrpcqyqqs504ayc4xw7elyk5lwsqlas6mzdszlxf6y.eeefefx",
+  "type": "factory",
+  "symbol": "EEEFEFX",
+  "name": "Eeefefx",
+  "decimals": 6,
+  "display_denom": "EEEFEFX",
+  "base_denom": "coin.zig19zctgl482q226x6jwrpcqyqqs504ayc4xw7elyk5lwsqlas6mzdszlxf6y.eeefefx",
+  "creator": "zig19zctgl482q226x6jwrpcqyqqs504ayc4xw7elyk5lwsqlas6mzdszlxf6y",
+  "subdenom": "eeefefx",
+  "denom_units": [
+    {
+      "denom": "coin.zig19zctgl482q226x6jwrpcqyqqs504ayc4xw7elyk5lwsqlas6mzdszlxf6y.eeefefx",
+      "exponent": 0
+    },
+    {
+      "denom": "EEEFEFX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

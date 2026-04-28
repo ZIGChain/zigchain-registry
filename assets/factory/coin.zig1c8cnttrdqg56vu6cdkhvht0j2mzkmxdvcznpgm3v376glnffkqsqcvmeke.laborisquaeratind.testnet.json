@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1c8cnttrdqg56vu6cdkhvht0j2mzkmxdvcznpgm3v376glnffkqsqcvmeke.laborisquaeratind",
+  "type": "factory",
+  "symbol": "LABORISQUAERATIND",
+  "name": "Laborisquaeratind",
+  "decimals": 6,
+  "display_denom": "LABORISQUAERATIND",
+  "base_denom": "coin.zig1c8cnttrdqg56vu6cdkhvht0j2mzkmxdvcznpgm3v376glnffkqsqcvmeke.laborisquaeratind",
+  "creator": "zig1c8cnttrdqg56vu6cdkhvht0j2mzkmxdvcznpgm3v376glnffkqsqcvmeke",
+  "subdenom": "laborisquaeratind",
+  "denom_units": [
+    {
+      "denom": "coin.zig1c8cnttrdqg56vu6cdkhvht0j2mzkmxdvcznpgm3v376glnffkqsqcvmeke.laborisquaeratind",
+      "exponent": 0
+    },
+    {
+      "denom": "LABORISQUAERATIND",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

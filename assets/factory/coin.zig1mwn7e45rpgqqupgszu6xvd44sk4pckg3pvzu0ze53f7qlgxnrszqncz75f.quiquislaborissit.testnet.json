@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mwn7e45rpgqqupgszu6xvd44sk4pckg3pvzu0ze53f7qlgxnrszqncz75f.quiquislaborissit",
+  "type": "factory",
+  "symbol": "QUIQUISLABORISSIT",
+  "name": "Quiquislaborissit",
+  "decimals": 6,
+  "display_denom": "QUIQUISLABORISSIT",
+  "base_denom": "coin.zig1mwn7e45rpgqqupgszu6xvd44sk4pckg3pvzu0ze53f7qlgxnrszqncz75f.quiquislaborissit",
+  "creator": "zig1mwn7e45rpgqqupgszu6xvd44sk4pckg3pvzu0ze53f7qlgxnrszqncz75f",
+  "subdenom": "quiquislaborissit",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mwn7e45rpgqqupgszu6xvd44sk4pckg3pvzu0ze53f7qlgxnrszqncz75f.quiquislaborissit",
+      "exponent": 0
+    },
+    {
+      "denom": "QUIQUISLABORISSIT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

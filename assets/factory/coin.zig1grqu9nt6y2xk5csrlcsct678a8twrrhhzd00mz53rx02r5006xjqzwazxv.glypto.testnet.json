@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1grqu9nt6y2xk5csrlcsct678a8twrrhhzd00mz53rx02r5006xjqzwazxv.glypto",
+  "type": "factory",
+  "symbol": "GLYPTO",
+  "name": "Glypto",
+  "decimals": 6,
+  "display_denom": "GLYPTO",
+  "base_denom": "coin.zig1grqu9nt6y2xk5csrlcsct678a8twrrhhzd00mz53rx02r5006xjqzwazxv.glypto",
+  "creator": "zig1grqu9nt6y2xk5csrlcsct678a8twrrhhzd00mz53rx02r5006xjqzwazxv",
+  "subdenom": "glypto",
+  "denom_units": [
+    {
+      "denom": "coin.zig1grqu9nt6y2xk5csrlcsct678a8twrrhhzd00mz53rx02r5006xjqzwazxv.glypto",
+      "exponent": 0
+    },
+    {
+      "denom": "GLYPTO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

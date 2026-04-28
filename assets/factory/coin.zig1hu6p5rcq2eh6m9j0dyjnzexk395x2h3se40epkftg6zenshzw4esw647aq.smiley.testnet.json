@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hu6p5rcq2eh6m9j0dyjnzexk395x2h3se40epkftg6zenshzw4esw647aq.smiley",
+  "type": "factory",
+  "symbol": "SMILEY",
+  "name": "Smiley",
+  "decimals": 6,
+  "display_denom": "SMILEY",
+  "base_denom": "coin.zig1hu6p5rcq2eh6m9j0dyjnzexk395x2h3se40epkftg6zenshzw4esw647aq.smiley",
+  "creator": "zig1hu6p5rcq2eh6m9j0dyjnzexk395x2h3se40epkftg6zenshzw4esw647aq",
+  "subdenom": "smiley",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hu6p5rcq2eh6m9j0dyjnzexk395x2h3se40epkftg6zenshzw4esw647aq.smiley",
+      "exponent": 0
+    },
+    {
+      "denom": "SMILEY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

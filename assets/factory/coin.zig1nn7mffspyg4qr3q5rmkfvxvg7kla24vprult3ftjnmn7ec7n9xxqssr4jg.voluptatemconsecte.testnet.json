@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1nn7mffspyg4qr3q5rmkfvxvg7kla24vprult3ftjnmn7ec7n9xxqssr4jg.voluptatemconsecte",
+  "type": "factory",
+  "symbol": "VOLUPTATEMCONSECTE",
+  "name": "Voluptatemconsecte",
+  "decimals": 6,
+  "display_denom": "VOLUPTATEMCONSECTE",
+  "base_denom": "coin.zig1nn7mffspyg4qr3q5rmkfvxvg7kla24vprult3ftjnmn7ec7n9xxqssr4jg.voluptatemconsecte",
+  "creator": "zig1nn7mffspyg4qr3q5rmkfvxvg7kla24vprult3ftjnmn7ec7n9xxqssr4jg",
+  "subdenom": "voluptatemconsecte",
+  "denom_units": [
+    {
+      "denom": "coin.zig1nn7mffspyg4qr3q5rmkfvxvg7kla24vprult3ftjnmn7ec7n9xxqssr4jg.voluptatemconsecte",
+      "exponent": 0
+    },
+    {
+      "denom": "VOLUPTATEMCONSECTE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

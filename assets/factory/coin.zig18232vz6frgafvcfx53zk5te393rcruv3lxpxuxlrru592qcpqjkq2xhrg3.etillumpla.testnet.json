@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18232vz6frgafvcfx53zk5te393rcruv3lxpxuxlrru592qcpqjkq2xhrg3.etillumpla",
+  "type": "factory",
+  "symbol": "ETILLUMPLA",
+  "name": "Etillumpla",
+  "decimals": 6,
+  "display_denom": "ETILLUMPLA",
+  "base_denom": "coin.zig18232vz6frgafvcfx53zk5te393rcruv3lxpxuxlrru592qcpqjkq2xhrg3.etillumpla",
+  "creator": "zig18232vz6frgafvcfx53zk5te393rcruv3lxpxuxlrru592qcpqjkq2xhrg3",
+  "subdenom": "etillumpla",
+  "denom_units": [
+    {
+      "denom": "coin.zig18232vz6frgafvcfx53zk5te393rcruv3lxpxuxlrru592qcpqjkq2xhrg3.etillumpla",
+      "exponent": 0
+    },
+    {
+      "denom": "ETILLUMPLA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

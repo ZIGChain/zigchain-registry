@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zfrk27adr46mnyydjtn6kxqdswyt2a54uem9d7x3nq2s7p5jhk9sha3epj.bitlaptop",
+  "type": "factory",
+  "symbol": "BITLAPTOP",
+  "name": "Bitlaptop",
+  "decimals": 6,
+  "display_denom": "BITLAPTOP",
+  "base_denom": "coin.zig1zfrk27adr46mnyydjtn6kxqdswyt2a54uem9d7x3nq2s7p5jhk9sha3epj.bitlaptop",
+  "creator": "zig1zfrk27adr46mnyydjtn6kxqdswyt2a54uem9d7x3nq2s7p5jhk9sha3epj",
+  "subdenom": "bitlaptop",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zfrk27adr46mnyydjtn6kxqdswyt2a54uem9d7x3nq2s7p5jhk9sha3epj.bitlaptop",
+      "exponent": 0
+    },
+    {
+      "denom": "BITLAPTOP",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

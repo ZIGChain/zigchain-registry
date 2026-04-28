@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mc3qza4prwcz0ftvrhpage075cu4x0yh4gamq6lxkzsahvzh4uvqtrse3l.laboreipsumquamco",
+  "type": "factory",
+  "symbol": "LABOREIPSUMQUAMCO",
+  "name": "Laboreipsumquamco",
+  "decimals": 6,
+  "display_denom": "LABOREIPSUMQUAMCO",
+  "base_denom": "coin.zig1mc3qza4prwcz0ftvrhpage075cu4x0yh4gamq6lxkzsahvzh4uvqtrse3l.laboreipsumquamco",
+  "creator": "zig1mc3qza4prwcz0ftvrhpage075cu4x0yh4gamq6lxkzsahvzh4uvqtrse3l",
+  "subdenom": "laboreipsumquamco",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mc3qza4prwcz0ftvrhpage075cu4x0yh4gamq6lxkzsahvzh4uvqtrse3l.laboreipsumquamco",
+      "exponent": 0
+    },
+    {
+      "denom": "LABOREIPSUMQUAMCO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rn4ldjft323xk055p0z9rg3awqwguw0ztwwwylk72fr4996kns6s0hx5tl.devcoin",
+  "type": "factory",
+  "symbol": "DEVCOIN",
+  "name": "Devcoin",
+  "decimals": 6,
+  "display_denom": "DEVCOIN",
+  "base_denom": "coin.zig1rn4ldjft323xk055p0z9rg3awqwguw0ztwwwylk72fr4996kns6s0hx5tl.devcoin",
+  "creator": "zig1rn4ldjft323xk055p0z9rg3awqwguw0ztwwwylk72fr4996kns6s0hx5tl",
+  "subdenom": "devcoin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rn4ldjft323xk055p0z9rg3awqwguw0ztwwwylk72fr4996kns6s0hx5tl.devcoin",
+      "exponent": 0
+    },
+    {
+      "denom": "DEVCOIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

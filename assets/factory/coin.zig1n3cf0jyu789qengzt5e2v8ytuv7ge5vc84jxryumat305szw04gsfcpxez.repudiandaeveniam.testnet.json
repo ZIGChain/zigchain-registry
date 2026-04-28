@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1n3cf0jyu789qengzt5e2v8ytuv7ge5vc84jxryumat305szw04gsfcpxez.repudiandaeveniam",
+  "type": "factory",
+  "symbol": "REPUDIANDAEVENIAM",
+  "name": "Repudiandaeveniam",
+  "decimals": 6,
+  "display_denom": "REPUDIANDAEVENIAM",
+  "base_denom": "coin.zig1n3cf0jyu789qengzt5e2v8ytuv7ge5vc84jxryumat305szw04gsfcpxez.repudiandaeveniam",
+  "creator": "zig1n3cf0jyu789qengzt5e2v8ytuv7ge5vc84jxryumat305szw04gsfcpxez",
+  "subdenom": "repudiandaeveniam",
+  "denom_units": [
+    {
+      "denom": "coin.zig1n3cf0jyu789qengzt5e2v8ytuv7ge5vc84jxryumat305szw04gsfcpxez.repudiandaeveniam",
+      "exponent": 0
+    },
+    {
+      "denom": "REPUDIANDAEVENIAM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1whfhhjushq2y0qv5dsw9mzrnwreauhvr6y8dme548stkyqlgdjlsr2k723.perferendisullamco",
+  "type": "factory",
+  "symbol": "PERFERENDISULLAMCO",
+  "name": "Perferendisullamco",
+  "decimals": 6,
+  "display_denom": "PERFERENDISULLAMCO",
+  "base_denom": "coin.zig1whfhhjushq2y0qv5dsw9mzrnwreauhvr6y8dme548stkyqlgdjlsr2k723.perferendisullamco",
+  "creator": "zig1whfhhjushq2y0qv5dsw9mzrnwreauhvr6y8dme548stkyqlgdjlsr2k723",
+  "subdenom": "perferendisullamco",
+  "denom_units": [
+    {
+      "denom": "coin.zig1whfhhjushq2y0qv5dsw9mzrnwreauhvr6y8dme548stkyqlgdjlsr2k723.perferendisullamco",
+      "exponent": 0
+    },
+    {
+      "denom": "PERFERENDISULLAMCO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

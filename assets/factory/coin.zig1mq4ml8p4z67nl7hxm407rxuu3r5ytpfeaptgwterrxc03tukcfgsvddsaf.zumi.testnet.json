@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mq4ml8p4z67nl7hxm407rxuu3r5ytpfeaptgwterrxc03tukcfgsvddsaf.zumi",
+  "type": "factory",
+  "symbol": "ZUMI",
+  "name": "Zumi",
+  "decimals": 6,
+  "display_denom": "ZUMI",
+  "base_denom": "coin.zig1mq4ml8p4z67nl7hxm407rxuu3r5ytpfeaptgwterrxc03tukcfgsvddsaf.zumi",
+  "creator": "zig1mq4ml8p4z67nl7hxm407rxuu3r5ytpfeaptgwterrxc03tukcfgsvddsaf",
+  "subdenom": "zumi",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mq4ml8p4z67nl7hxm407rxuu3r5ytpfeaptgwterrxc03tukcfgsvddsaf.zumi",
+      "exponent": 0
+    },
+    {
+      "denom": "ZUMI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

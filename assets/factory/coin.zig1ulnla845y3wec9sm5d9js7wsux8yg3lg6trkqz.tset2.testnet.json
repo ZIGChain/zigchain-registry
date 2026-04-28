@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ulnla845y3wec9sm5d9js7wsux8yg3lg6trkqz.tset2",
+  "type": "factory",
+  "symbol": "TSET2",
+  "name": "Tset2",
+  "decimals": 6,
+  "display_denom": "TSET2",
+  "base_denom": "coin.zig1ulnla845y3wec9sm5d9js7wsux8yg3lg6trkqz.tset2",
+  "creator": "zig1ulnla845y3wec9sm5d9js7wsux8yg3lg6trkqz",
+  "subdenom": "tset2",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ulnla845y3wec9sm5d9js7wsux8yg3lg6trkqz.tset2",
+      "exponent": 0
+    },
+    {
+      "denom": "TSET2",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

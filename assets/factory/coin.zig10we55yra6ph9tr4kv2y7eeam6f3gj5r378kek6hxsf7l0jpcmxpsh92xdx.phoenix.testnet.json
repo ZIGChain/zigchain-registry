@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10we55yra6ph9tr4kv2y7eeam6f3gj5r378kek6hxsf7l0jpcmxpsh92xdx.phoenix",
+  "type": "factory",
+  "symbol": "PHOENIX",
+  "name": "Phoenix",
+  "decimals": 6,
+  "display_denom": "PHOENIX",
+  "base_denom": "coin.zig10we55yra6ph9tr4kv2y7eeam6f3gj5r378kek6hxsf7l0jpcmxpsh92xdx.phoenix",
+  "creator": "zig10we55yra6ph9tr4kv2y7eeam6f3gj5r378kek6hxsf7l0jpcmxpsh92xdx",
+  "subdenom": "phoenix",
+  "denom_units": [
+    {
+      "denom": "coin.zig10we55yra6ph9tr4kv2y7eeam6f3gj5r378kek6hxsf7l0jpcmxpsh92xdx.phoenix",
+      "exponent": 0
+    },
+    {
+      "denom": "PHOENIX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

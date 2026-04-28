@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15y67tzxk4mms39zxcrz0yez0pnd425rspg4t6tgukdjk23h5wxhsycet93.testbo",
+  "type": "factory",
+  "symbol": "TESTBO",
+  "name": "Testbo",
+  "decimals": 6,
+  "display_denom": "TESTBO",
+  "base_denom": "coin.zig15y67tzxk4mms39zxcrz0yez0pnd425rspg4t6tgukdjk23h5wxhsycet93.testbo",
+  "creator": "zig15y67tzxk4mms39zxcrz0yez0pnd425rspg4t6tgukdjk23h5wxhsycet93",
+  "subdenom": "testbo",
+  "denom_units": [
+    {
+      "denom": "coin.zig15y67tzxk4mms39zxcrz0yez0pnd425rspg4t6tgukdjk23h5wxhsycet93.testbo",
+      "exponent": 0
+    },
+    {
+      "denom": "TESTBO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

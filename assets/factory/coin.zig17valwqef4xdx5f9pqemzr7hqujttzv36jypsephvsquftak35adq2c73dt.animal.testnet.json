@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17valwqef4xdx5f9pqemzr7hqujttzv36jypsephvsquftak35adq2c73dt.animal",
+  "type": "factory",
+  "symbol": "ANIMAL",
+  "name": "Animal",
+  "decimals": 6,
+  "display_denom": "ANIMAL",
+  "base_denom": "coin.zig17valwqef4xdx5f9pqemzr7hqujttzv36jypsephvsquftak35adq2c73dt.animal",
+  "creator": "zig17valwqef4xdx5f9pqemzr7hqujttzv36jypsephvsquftak35adq2c73dt",
+  "subdenom": "animal",
+  "denom_units": [
+    {
+      "denom": "coin.zig17valwqef4xdx5f9pqemzr7hqujttzv36jypsephvsquftak35adq2c73dt.animal",
+      "exponent": 0
+    },
+    {
+      "denom": "ANIMAL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

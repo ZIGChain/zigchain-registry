@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1a02rymfrfr0dv7x4gpesphqulra3qa7qds5ey593se24k6y39rns6k0tk7.assumendaoccaecata",
+  "type": "factory",
+  "symbol": "ASSUMENDAOCCAECATA",
+  "name": "Assumendaoccaecata",
+  "decimals": 6,
+  "display_denom": "ASSUMENDAOCCAECATA",
+  "base_denom": "coin.zig1a02rymfrfr0dv7x4gpesphqulra3qa7qds5ey593se24k6y39rns6k0tk7.assumendaoccaecata",
+  "creator": "zig1a02rymfrfr0dv7x4gpesphqulra3qa7qds5ey593se24k6y39rns6k0tk7",
+  "subdenom": "assumendaoccaecata",
+  "denom_units": [
+    {
+      "denom": "coin.zig1a02rymfrfr0dv7x4gpesphqulra3qa7qds5ey593se24k6y39rns6k0tk7.assumendaoccaecata",
+      "exponent": 0
+    },
+    {
+      "denom": "ASSUMENDAOCCAECATA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

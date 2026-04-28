@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hht7l0adtrm7eut4rsxkpfr8carhvh3ldarr2y7qqcy68rf5sqwszzx3u6.dolorequodoloremo",
+  "type": "factory",
+  "symbol": "DOLOREQUODOLOREMO",
+  "name": "Dolorequodoloremo",
+  "decimals": 6,
+  "display_denom": "DOLOREQUODOLOREMO",
+  "base_denom": "coin.zig1hht7l0adtrm7eut4rsxkpfr8carhvh3ldarr2y7qqcy68rf5sqwszzx3u6.dolorequodoloremo",
+  "creator": "zig1hht7l0adtrm7eut4rsxkpfr8carhvh3ldarr2y7qqcy68rf5sqwszzx3u6",
+  "subdenom": "dolorequodoloremo",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hht7l0adtrm7eut4rsxkpfr8carhvh3ldarr2y7qqcy68rf5sqwszzx3u6.dolorequodoloremo",
+      "exponent": 0
+    },
+    {
+      "denom": "DOLOREQUODOLOREMO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

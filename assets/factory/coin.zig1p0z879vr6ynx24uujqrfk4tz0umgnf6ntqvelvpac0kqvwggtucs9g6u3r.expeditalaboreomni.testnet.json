@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1p0z879vr6ynx24uujqrfk4tz0umgnf6ntqvelvpac0kqvwggtucs9g6u3r.expeditalaboreomni",
+  "type": "factory",
+  "symbol": "EXPEDITALABOREOMNI",
+  "name": "Expeditalaboreomni",
+  "decimals": 6,
+  "display_denom": "EXPEDITALABOREOMNI",
+  "base_denom": "coin.zig1p0z879vr6ynx24uujqrfk4tz0umgnf6ntqvelvpac0kqvwggtucs9g6u3r.expeditalaboreomni",
+  "creator": "zig1p0z879vr6ynx24uujqrfk4tz0umgnf6ntqvelvpac0kqvwggtucs9g6u3r",
+  "subdenom": "expeditalaboreomni",
+  "denom_units": [
+    {
+      "denom": "coin.zig1p0z879vr6ynx24uujqrfk4tz0umgnf6ntqvelvpac0kqvwggtucs9g6u3r.expeditalaboreomni",
+      "exponent": 0
+    },
+    {
+      "denom": "EXPEDITALABOREOMNI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rt8rw43kl4ldr3km6gea859f3xvx3na642hs2cj4tln57zhkgefqj8h8n8.peepo",
+  "type": "factory",
+  "symbol": "PEEPO",
+  "name": "Peepo",
+  "decimals": 6,
+  "display_denom": "PEEPO",
+  "base_denom": "coin.zig1rt8rw43kl4ldr3km6gea859f3xvx3na642hs2cj4tln57zhkgefqj8h8n8.peepo",
+  "creator": "zig1rt8rw43kl4ldr3km6gea859f3xvx3na642hs2cj4tln57zhkgefqj8h8n8",
+  "subdenom": "peepo",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rt8rw43kl4ldr3km6gea859f3xvx3na642hs2cj4tln57zhkgefqj8h8n8.peepo",
+      "exponent": 0
+    },
+    {
+      "denom": "PEEPO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

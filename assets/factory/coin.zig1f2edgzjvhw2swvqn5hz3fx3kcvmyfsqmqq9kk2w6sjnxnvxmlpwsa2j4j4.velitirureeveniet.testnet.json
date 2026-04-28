@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1f2edgzjvhw2swvqn5hz3fx3kcvmyfsqmqq9kk2w6sjnxnvxmlpwsa2j4j4.velitirureeveniet",
+  "type": "factory",
+  "symbol": "VELITIRUREEVENIET",
+  "name": "Velitirureeveniet",
+  "decimals": 6,
+  "display_denom": "VELITIRUREEVENIET",
+  "base_denom": "coin.zig1f2edgzjvhw2swvqn5hz3fx3kcvmyfsqmqq9kk2w6sjnxnvxmlpwsa2j4j4.velitirureeveniet",
+  "creator": "zig1f2edgzjvhw2swvqn5hz3fx3kcvmyfsqmqq9kk2w6sjnxnvxmlpwsa2j4j4",
+  "subdenom": "velitirureeveniet",
+  "denom_units": [
+    {
+      "denom": "coin.zig1f2edgzjvhw2swvqn5hz3fx3kcvmyfsqmqq9kk2w6sjnxnvxmlpwsa2j4j4.velitirureeveniet",
+      "exponent": 0
+    },
+    {
+      "denom": "VELITIRUREEVENIET",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

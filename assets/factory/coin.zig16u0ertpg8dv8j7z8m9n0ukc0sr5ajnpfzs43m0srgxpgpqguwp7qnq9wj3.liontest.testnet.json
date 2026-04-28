@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig16u0ertpg8dv8j7z8m9n0ukc0sr5ajnpfzs43m0srgxpgpqguwp7qnq9wj3.liontest",
+  "type": "factory",
+  "symbol": "LIONTEST",
+  "name": "Liontest",
+  "decimals": 6,
+  "display_denom": "LIONTEST",
+  "base_denom": "coin.zig16u0ertpg8dv8j7z8m9n0ukc0sr5ajnpfzs43m0srgxpgpqguwp7qnq9wj3.liontest",
+  "creator": "zig16u0ertpg8dv8j7z8m9n0ukc0sr5ajnpfzs43m0srgxpgpqguwp7qnq9wj3",
+  "subdenom": "liontest",
+  "denom_units": [
+    {
+      "denom": "coin.zig16u0ertpg8dv8j7z8m9n0ukc0sr5ajnpfzs43m0srgxpgpqguwp7qnq9wj3.liontest",
+      "exponent": 0
+    },
+    {
+      "denom": "LIONTEST",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

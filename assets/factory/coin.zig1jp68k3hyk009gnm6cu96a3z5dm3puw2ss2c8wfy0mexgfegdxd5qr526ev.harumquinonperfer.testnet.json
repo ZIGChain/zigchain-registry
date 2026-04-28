@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1jp68k3hyk009gnm6cu96a3z5dm3puw2ss2c8wfy0mexgfegdxd5qr526ev.harumquinonperfer",
+  "type": "factory",
+  "symbol": "HARUMQUINONPERFER",
+  "name": "Harumquinonperfer",
+  "decimals": 6,
+  "display_denom": "HARUMQUINONPERFER",
+  "base_denom": "coin.zig1jp68k3hyk009gnm6cu96a3z5dm3puw2ss2c8wfy0mexgfegdxd5qr526ev.harumquinonperfer",
+  "creator": "zig1jp68k3hyk009gnm6cu96a3z5dm3puw2ss2c8wfy0mexgfegdxd5qr526ev",
+  "subdenom": "harumquinonperfer",
+  "denom_units": [
+    {
+      "denom": "coin.zig1jp68k3hyk009gnm6cu96a3z5dm3puw2ss2c8wfy0mexgfegdxd5qr526ev.harumquinonperfer",
+      "exponent": 0
+    },
+    {
+      "denom": "HARUMQUINONPERFER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

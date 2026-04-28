@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14hk3mm3cs9cl5vq8veekyne93qvzdqdlw0p0mr6hacmrgd870ddqgppjq7.itaqueestminimul",
+  "type": "factory",
+  "symbol": "ITAQUEESTMINIMUL",
+  "name": "Itaqueestminimul",
+  "decimals": 6,
+  "display_denom": "ITAQUEESTMINIMUL",
+  "base_denom": "coin.zig14hk3mm3cs9cl5vq8veekyne93qvzdqdlw0p0mr6hacmrgd870ddqgppjq7.itaqueestminimul",
+  "creator": "zig14hk3mm3cs9cl5vq8veekyne93qvzdqdlw0p0mr6hacmrgd870ddqgppjq7",
+  "subdenom": "itaqueestminimul",
+  "denom_units": [
+    {
+      "denom": "coin.zig14hk3mm3cs9cl5vq8veekyne93qvzdqdlw0p0mr6hacmrgd870ddqgppjq7.itaqueestminimul",
+      "exponent": 0
+    },
+    {
+      "denom": "ITAQUEESTMINIMUL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

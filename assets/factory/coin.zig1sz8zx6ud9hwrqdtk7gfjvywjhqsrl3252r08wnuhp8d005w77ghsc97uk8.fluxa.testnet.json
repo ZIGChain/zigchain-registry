@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1sz8zx6ud9hwrqdtk7gfjvywjhqsrl3252r08wnuhp8d005w77ghsc97uk8.fluxa",
+  "type": "factory",
+  "symbol": "FLUXA",
+  "name": "Fluxa",
+  "decimals": 6,
+  "display_denom": "FLUXA",
+  "base_denom": "coin.zig1sz8zx6ud9hwrqdtk7gfjvywjhqsrl3252r08wnuhp8d005w77ghsc97uk8.fluxa",
+  "creator": "zig1sz8zx6ud9hwrqdtk7gfjvywjhqsrl3252r08wnuhp8d005w77ghsc97uk8",
+  "subdenom": "fluxa",
+  "denom_units": [
+    {
+      "denom": "coin.zig1sz8zx6ud9hwrqdtk7gfjvywjhqsrl3252r08wnuhp8d005w77ghsc97uk8.fluxa",
+      "exponent": 0
+    },
+    {
+      "denom": "FLUXA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

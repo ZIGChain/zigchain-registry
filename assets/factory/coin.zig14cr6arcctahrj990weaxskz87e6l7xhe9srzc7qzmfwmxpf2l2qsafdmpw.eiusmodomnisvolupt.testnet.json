@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14cr6arcctahrj990weaxskz87e6l7xhe9srzc7qzmfwmxpf2l2qsafdmpw.eiusmodomnisvolupt",
+  "type": "factory",
+  "symbol": "EIUSMODOMNISVOLUPT",
+  "name": "Eiusmodomnisvolupt",
+  "decimals": 6,
+  "display_denom": "EIUSMODOMNISVOLUPT",
+  "base_denom": "coin.zig14cr6arcctahrj990weaxskz87e6l7xhe9srzc7qzmfwmxpf2l2qsafdmpw.eiusmodomnisvolupt",
+  "creator": "zig14cr6arcctahrj990weaxskz87e6l7xhe9srzc7qzmfwmxpf2l2qsafdmpw",
+  "subdenom": "eiusmodomnisvolupt",
+  "denom_units": [
+    {
+      "denom": "coin.zig14cr6arcctahrj990weaxskz87e6l7xhe9srzc7qzmfwmxpf2l2qsafdmpw.eiusmodomnisvolupt",
+      "exponent": 0
+    },
+    {
+      "denom": "EIUSMODOMNISVOLUPT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

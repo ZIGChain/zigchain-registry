@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig18ms23xsakyj4kehsp00d0yld3v0ft9png7s8cqtzvnu9epnsn2yqmd5v2s.nervousbreakdown",
+  "type": "factory",
+  "symbol": "NERVOUSBREAKDOWN",
+  "name": "Nervousbreakdown",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig18ms23xsakyj4kehsp00d0yld3v0ft9png7s8cqtzvnu9epnsn2yqmd5v2s.nervousbreakdown",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig18ms23xsakyj4kehsp00d0yld3v0ft9png7s8cqtzvnu9epnsn2yqmd5v2s.nervousbreakdown",
+  "base_denom": "coin.zig18ms23xsakyj4kehsp00d0yld3v0ft9png7s8cqtzvnu9epnsn2yqmd5v2s.nervousbreakdown",
+  "creator": "zig18ms23xsakyj4kehsp00d0yld3v0ft9png7s8cqtzvnu9epnsn2yqmd5v2s",
+  "subdenom": "nervousbreakdown",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

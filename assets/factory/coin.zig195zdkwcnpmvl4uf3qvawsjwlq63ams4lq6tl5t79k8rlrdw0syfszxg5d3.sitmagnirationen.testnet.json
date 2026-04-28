@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig195zdkwcnpmvl4uf3qvawsjwlq63ams4lq6tl5t79k8rlrdw0syfszxg5d3.sitmagnirationen",
+  "type": "factory",
+  "symbol": "SITMAGNIRATIONEN",
+  "name": "Sitmagnirationen",
+  "decimals": 6,
+  "display_denom": "SITMAGNIRATIONEN",
+  "base_denom": "coin.zig195zdkwcnpmvl4uf3qvawsjwlq63ams4lq6tl5t79k8rlrdw0syfszxg5d3.sitmagnirationen",
+  "creator": "zig195zdkwcnpmvl4uf3qvawsjwlq63ams4lq6tl5t79k8rlrdw0syfszxg5d3",
+  "subdenom": "sitmagnirationen",
+  "denom_units": [
+    {
+      "denom": "coin.zig195zdkwcnpmvl4uf3qvawsjwlq63ams4lq6tl5t79k8rlrdw0syfszxg5d3.sitmagnirationen",
+      "exponent": 0
+    },
+    {
+      "denom": "SITMAGNIRATIONEN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

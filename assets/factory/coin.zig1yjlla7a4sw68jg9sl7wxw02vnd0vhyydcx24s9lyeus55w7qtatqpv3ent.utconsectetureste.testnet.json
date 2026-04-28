@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1yjlla7a4sw68jg9sl7wxw02vnd0vhyydcx24s9lyeus55w7qtatqpv3ent.utconsectetureste",
+  "type": "factory",
+  "symbol": "UTCONSECTETURESTE",
+  "name": "Utconsectetureste",
+  "decimals": 6,
+  "display_denom": "UTCONSECTETURESTE",
+  "base_denom": "coin.zig1yjlla7a4sw68jg9sl7wxw02vnd0vhyydcx24s9lyeus55w7qtatqpv3ent.utconsectetureste",
+  "creator": "zig1yjlla7a4sw68jg9sl7wxw02vnd0vhyydcx24s9lyeus55w7qtatqpv3ent",
+  "subdenom": "utconsectetureste",
+  "denom_units": [
+    {
+      "denom": "coin.zig1yjlla7a4sw68jg9sl7wxw02vnd0vhyydcx24s9lyeus55w7qtatqpv3ent.utconsectetureste",
+      "exponent": 0
+    },
+    {
+      "denom": "UTCONSECTETURESTE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

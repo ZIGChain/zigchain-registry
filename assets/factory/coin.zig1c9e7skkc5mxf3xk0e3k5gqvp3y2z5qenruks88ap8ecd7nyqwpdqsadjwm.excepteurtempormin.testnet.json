@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1c9e7skkc5mxf3xk0e3k5gqvp3y2z5qenruks88ap8ecd7nyqwpdqsadjwm.excepteurtempormin",
+  "type": "factory",
+  "symbol": "EXCEPTEURTEMPORMIN",
+  "name": "Excepteurtempormin",
+  "decimals": 6,
+  "display_denom": "EXCEPTEURTEMPORMIN",
+  "base_denom": "coin.zig1c9e7skkc5mxf3xk0e3k5gqvp3y2z5qenruks88ap8ecd7nyqwpdqsadjwm.excepteurtempormin",
+  "creator": "zig1c9e7skkc5mxf3xk0e3k5gqvp3y2z5qenruks88ap8ecd7nyqwpdqsadjwm",
+  "subdenom": "excepteurtempormin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1c9e7skkc5mxf3xk0e3k5gqvp3y2z5qenruks88ap8ecd7nyqwpdqsadjwm.excepteurtempormin",
+      "exponent": 0
+    },
+    {
+      "denom": "EXCEPTEURTEMPORMIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

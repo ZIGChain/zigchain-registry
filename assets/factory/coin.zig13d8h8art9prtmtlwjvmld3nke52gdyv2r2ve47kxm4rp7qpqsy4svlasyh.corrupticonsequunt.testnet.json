@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13d8h8art9prtmtlwjvmld3nke52gdyv2r2ve47kxm4rp7qpqsy4svlasyh.corrupticonsequunt",
+  "type": "factory",
+  "symbol": "CORRUPTICONSEQUUNT",
+  "name": "Corrupticonsequunt",
+  "decimals": 6,
+  "display_denom": "CORRUPTICONSEQUUNT",
+  "base_denom": "coin.zig13d8h8art9prtmtlwjvmld3nke52gdyv2r2ve47kxm4rp7qpqsy4svlasyh.corrupticonsequunt",
+  "creator": "zig13d8h8art9prtmtlwjvmld3nke52gdyv2r2ve47kxm4rp7qpqsy4svlasyh",
+  "subdenom": "corrupticonsequunt",
+  "denom_units": [
+    {
+      "denom": "coin.zig13d8h8art9prtmtlwjvmld3nke52gdyv2r2ve47kxm4rp7qpqsy4svlasyh.corrupticonsequunt",
+      "exponent": 0
+    },
+    {
+      "denom": "CORRUPTICONSEQUUNT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

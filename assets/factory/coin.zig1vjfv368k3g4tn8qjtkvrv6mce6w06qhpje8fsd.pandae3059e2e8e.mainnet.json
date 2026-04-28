@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandae3059e2e8e",
+  "type": "factory",
+  "symbol": "PANDAE3059E2E8E",
+  "name": "Pandae3059e2e8e",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandae3059e2e8e",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandae3059e2e8e",
+  "base_denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.pandae3059e2e8e",
+  "creator": "zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd",
+  "subdenom": "pandae3059e2e8e",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

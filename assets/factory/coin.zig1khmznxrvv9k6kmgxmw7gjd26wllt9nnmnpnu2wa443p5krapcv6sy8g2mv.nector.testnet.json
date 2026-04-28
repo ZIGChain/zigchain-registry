@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1khmznxrvv9k6kmgxmw7gjd26wllt9nnmnpnu2wa443p5krapcv6sy8g2mv.nector",
+  "type": "factory",
+  "symbol": "NECTOR",
+  "name": "Nector",
+  "decimals": 6,
+  "display_denom": "NECTOR",
+  "base_denom": "coin.zig1khmznxrvv9k6kmgxmw7gjd26wllt9nnmnpnu2wa443p5krapcv6sy8g2mv.nector",
+  "creator": "zig1khmznxrvv9k6kmgxmw7gjd26wllt9nnmnpnu2wa443p5krapcv6sy8g2mv",
+  "subdenom": "nector",
+  "denom_units": [
+    {
+      "denom": "coin.zig1khmznxrvv9k6kmgxmw7gjd26wllt9nnmnpnu2wa443p5krapcv6sy8g2mv.nector",
+      "exponent": 0
+    },
+    {
+      "denom": "NECTOR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

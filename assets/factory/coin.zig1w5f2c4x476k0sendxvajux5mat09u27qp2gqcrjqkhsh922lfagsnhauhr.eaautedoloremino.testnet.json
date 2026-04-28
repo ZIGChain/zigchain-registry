@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1w5f2c4x476k0sendxvajux5mat09u27qp2gqcrjqkhsh922lfagsnhauhr.eaautedoloremino",
+  "type": "factory",
+  "symbol": "EAAUTEDOLOREMINO",
+  "name": "Eaautedoloremino",
+  "decimals": 6,
+  "display_denom": "EAAUTEDOLOREMINO",
+  "base_denom": "coin.zig1w5f2c4x476k0sendxvajux5mat09u27qp2gqcrjqkhsh922lfagsnhauhr.eaautedoloremino",
+  "creator": "zig1w5f2c4x476k0sendxvajux5mat09u27qp2gqcrjqkhsh922lfagsnhauhr",
+  "subdenom": "eaautedoloremino",
+  "denom_units": [
+    {
+      "denom": "coin.zig1w5f2c4x476k0sendxvajux5mat09u27qp2gqcrjqkhsh922lfagsnhauhr.eaautedoloremino",
+      "exponent": 0
+    },
+    {
+      "denom": "EAAUTEDOLOREMINO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

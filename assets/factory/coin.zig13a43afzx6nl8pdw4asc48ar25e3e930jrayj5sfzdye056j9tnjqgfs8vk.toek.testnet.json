@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13a43afzx6nl8pdw4asc48ar25e3e930jrayj5sfzdye056j9tnjqgfs8vk.toek",
+  "type": "factory",
+  "symbol": "TOEK",
+  "name": "Toek",
+  "decimals": 6,
+  "display_denom": "TOEK",
+  "base_denom": "coin.zig13a43afzx6nl8pdw4asc48ar25e3e930jrayj5sfzdye056j9tnjqgfs8vk.toek",
+  "creator": "zig13a43afzx6nl8pdw4asc48ar25e3e930jrayj5sfzdye056j9tnjqgfs8vk",
+  "subdenom": "toek",
+  "denom_units": [
+    {
+      "denom": "coin.zig13a43afzx6nl8pdw4asc48ar25e3e930jrayj5sfzdye056j9tnjqgfs8vk.toek",
+      "exponent": 0
+    },
+    {
+      "denom": "TOEK",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

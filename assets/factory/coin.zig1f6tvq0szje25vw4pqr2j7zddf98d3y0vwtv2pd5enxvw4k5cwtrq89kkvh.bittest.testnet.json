@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1f6tvq0szje25vw4pqr2j7zddf98d3y0vwtv2pd5enxvw4k5cwtrq89kkvh.bittest",
+  "type": "factory",
+  "symbol": "BITTEST",
+  "name": "Bittest",
+  "decimals": 6,
+  "display_denom": "BITTEST",
+  "base_denom": "coin.zig1f6tvq0szje25vw4pqr2j7zddf98d3y0vwtv2pd5enxvw4k5cwtrq89kkvh.bittest",
+  "creator": "zig1f6tvq0szje25vw4pqr2j7zddf98d3y0vwtv2pd5enxvw4k5cwtrq89kkvh",
+  "subdenom": "bittest",
+  "denom_units": [
+    {
+      "denom": "coin.zig1f6tvq0szje25vw4pqr2j7zddf98d3y0vwtv2pd5enxvw4k5cwtrq89kkvh.bittest",
+      "exponent": 0
+    },
+    {
+      "denom": "BITTEST",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

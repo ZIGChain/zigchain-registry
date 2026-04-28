@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1wcwxjy9dj3xqlw74a5c0jd5e4vf4jj62mfrcwzcqwa3zenz27n5qhfnkwz.sintvoluptatessit",
+  "type": "factory",
+  "symbol": "SINTVOLUPTATESSIT",
+  "name": "Sintvoluptatessit",
+  "decimals": 6,
+  "display_denom": "SINTVOLUPTATESSIT",
+  "base_denom": "coin.zig1wcwxjy9dj3xqlw74a5c0jd5e4vf4jj62mfrcwzcqwa3zenz27n5qhfnkwz.sintvoluptatessit",
+  "creator": "zig1wcwxjy9dj3xqlw74a5c0jd5e4vf4jj62mfrcwzcqwa3zenz27n5qhfnkwz",
+  "subdenom": "sintvoluptatessit",
+  "denom_units": [
+    {
+      "denom": "coin.zig1wcwxjy9dj3xqlw74a5c0jd5e4vf4jj62mfrcwzcqwa3zenz27n5qhfnkwz.sintvoluptatessit",
+      "exponent": 0
+    },
+    {
+      "denom": "SINTVOLUPTATESSIT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

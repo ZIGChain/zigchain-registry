@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1cj0np3gqt7jta59p6w9agfx3prf3z72ttvq7d2dw9zmvx6mpmy7spq4es2.pizza",
+  "type": "factory",
+  "symbol": "PIZZA",
+  "name": "Pizza",
+  "decimals": 6,
+  "display_denom": "PIZZA",
+  "base_denom": "coin.zig1cj0np3gqt7jta59p6w9agfx3prf3z72ttvq7d2dw9zmvx6mpmy7spq4es2.pizza",
+  "creator": "zig1cj0np3gqt7jta59p6w9agfx3prf3z72ttvq7d2dw9zmvx6mpmy7spq4es2",
+  "subdenom": "pizza",
+  "denom_units": [
+    {
+      "denom": "coin.zig1cj0np3gqt7jta59p6w9agfx3prf3z72ttvq7d2dw9zmvx6mpmy7spq4es2.pizza",
+      "exponent": 0
+    },
+    {
+      "denom": "PIZZA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

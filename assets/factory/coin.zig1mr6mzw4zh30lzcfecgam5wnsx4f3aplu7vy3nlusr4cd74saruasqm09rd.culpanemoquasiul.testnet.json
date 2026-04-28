@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mr6mzw4zh30lzcfecgam5wnsx4f3aplu7vy3nlusr4cd74saruasqm09rd.culpanemoquasiul",
+  "type": "factory",
+  "symbol": "CULPANEMOQUASIUL",
+  "name": "Culpanemoquasiul",
+  "decimals": 6,
+  "display_denom": "CULPANEMOQUASIUL",
+  "base_denom": "coin.zig1mr6mzw4zh30lzcfecgam5wnsx4f3aplu7vy3nlusr4cd74saruasqm09rd.culpanemoquasiul",
+  "creator": "zig1mr6mzw4zh30lzcfecgam5wnsx4f3aplu7vy3nlusr4cd74saruasqm09rd",
+  "subdenom": "culpanemoquasiul",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mr6mzw4zh30lzcfecgam5wnsx4f3aplu7vy3nlusr4cd74saruasqm09rd.culpanemoquasiul",
+      "exponent": 0
+    },
+    {
+      "denom": "CULPANEMOQUASIUL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

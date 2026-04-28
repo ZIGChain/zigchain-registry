@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1qmq8dh5e6l9xttmmd6v0rjpejehk6c3qdauny362scau39dg2clqkazc3h.conquest",
+  "type": "factory",
+  "symbol": "CONQUEST",
+  "name": "Conquest",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1qmq8dh5e6l9xttmmd6v0rjpejehk6c3qdauny362scau39dg2clqkazc3h.conquest",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1qmq8dh5e6l9xttmmd6v0rjpejehk6c3qdauny362scau39dg2clqkazc3h.conquest",
+  "base_denom": "coin.zig1qmq8dh5e6l9xttmmd6v0rjpejehk6c3qdauny362scau39dg2clqkazc3h.conquest",
+  "creator": "zig1qmq8dh5e6l9xttmmd6v0rjpejehk6c3qdauny362scau39dg2clqkazc3h",
+  "subdenom": "conquest",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

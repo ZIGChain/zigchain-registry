@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13x4ckf0tywe9fxrtfvr5svhjls2vm8yyxt3u27r56z08k9j4wu9qm3y8ay.utautanimsimiliqu",
+  "type": "factory",
+  "symbol": "UTAUTANIMSIMILIQU",
+  "name": "Utautanimsimiliqu",
+  "decimals": 6,
+  "display_denom": "UTAUTANIMSIMILIQU",
+  "base_denom": "coin.zig13x4ckf0tywe9fxrtfvr5svhjls2vm8yyxt3u27r56z08k9j4wu9qm3y8ay.utautanimsimiliqu",
+  "creator": "zig13x4ckf0tywe9fxrtfvr5svhjls2vm8yyxt3u27r56z08k9j4wu9qm3y8ay",
+  "subdenom": "utautanimsimiliqu",
+  "denom_units": [
+    {
+      "denom": "coin.zig13x4ckf0tywe9fxrtfvr5svhjls2vm8yyxt3u27r56z08k9j4wu9qm3y8ay.utautanimsimiliqu",
+      "exponent": 0
+    },
+    {
+      "denom": "UTAUTANIMSIMILIQU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

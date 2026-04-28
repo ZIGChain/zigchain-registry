@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1vrvacx804085nsctf9ss03g6rvdqmwkrwgh5z25jkzlhn9ygd3yqft4een.pariaturexplicabo",
+  "type": "factory",
+  "symbol": "PARIATUREXPLICABO",
+  "name": "Pariaturexplicabo",
+  "decimals": 6,
+  "display_denom": "PARIATUREXPLICABO",
+  "base_denom": "coin.zig1vrvacx804085nsctf9ss03g6rvdqmwkrwgh5z25jkzlhn9ygd3yqft4een.pariaturexplicabo",
+  "creator": "zig1vrvacx804085nsctf9ss03g6rvdqmwkrwgh5z25jkzlhn9ygd3yqft4een",
+  "subdenom": "pariaturexplicabo",
+  "denom_units": [
+    {
+      "denom": "coin.zig1vrvacx804085nsctf9ss03g6rvdqmwkrwgh5z25jkzlhn9ygd3yqft4een.pariaturexplicabo",
+      "exponent": 0
+    },
+    {
+      "denom": "PARIATUREXPLICABO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

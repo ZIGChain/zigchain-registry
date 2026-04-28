@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1vsrphupccfg0ag5uljra2jlz0q4006puzw70pd69kkr35vkc9g5q97kvxh.quisexplicaboprov",
+  "type": "factory",
+  "symbol": "QUISEXPLICABOPROV",
+  "name": "Quisexplicaboprov",
+  "decimals": 6,
+  "display_denom": "QUISEXPLICABOPROV",
+  "base_denom": "coin.zig1vsrphupccfg0ag5uljra2jlz0q4006puzw70pd69kkr35vkc9g5q97kvxh.quisexplicaboprov",
+  "creator": "zig1vsrphupccfg0ag5uljra2jlz0q4006puzw70pd69kkr35vkc9g5q97kvxh",
+  "subdenom": "quisexplicaboprov",
+  "denom_units": [
+    {
+      "denom": "coin.zig1vsrphupccfg0ag5uljra2jlz0q4006puzw70pd69kkr35vkc9g5q97kvxh.quisexplicaboprov",
+      "exponent": 0
+    },
+    {
+      "denom": "QUISEXPLICABOPROV",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

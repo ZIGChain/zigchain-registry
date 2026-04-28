@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig152z2atkyu4ng5u9cncxk05kmc0wm7q50ry48gyx8weq42g94889sa749ke.commodiremminimre",
+  "type": "factory",
+  "symbol": "COMMODIREMMINIMRE",
+  "name": "Commodiremminimre",
+  "decimals": 6,
+  "display_denom": "COMMODIREMMINIMRE",
+  "base_denom": "coin.zig152z2atkyu4ng5u9cncxk05kmc0wm7q50ry48gyx8weq42g94889sa749ke.commodiremminimre",
+  "creator": "zig152z2atkyu4ng5u9cncxk05kmc0wm7q50ry48gyx8weq42g94889sa749ke",
+  "subdenom": "commodiremminimre",
+  "denom_units": [
+    {
+      "denom": "coin.zig152z2atkyu4ng5u9cncxk05kmc0wm7q50ry48gyx8weq42g94889sa749ke.commodiremminimre",
+      "exponent": 0
+    },
+    {
+      "denom": "COMMODIREMMINIMRE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

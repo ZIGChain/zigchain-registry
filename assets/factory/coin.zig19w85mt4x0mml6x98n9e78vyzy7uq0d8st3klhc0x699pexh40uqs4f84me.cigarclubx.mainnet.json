@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig19w85mt4x0mml6x98n9e78vyzy7uq0d8st3klhc0x699pexh40uqs4f84me.cigarclubx",
+  "type": "factory",
+  "symbol": "CIGARCLUBX",
+  "name": "Cigarclubx",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig19w85mt4x0mml6x98n9e78vyzy7uq0d8st3klhc0x699pexh40uqs4f84me.cigarclubx",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig19w85mt4x0mml6x98n9e78vyzy7uq0d8st3klhc0x699pexh40uqs4f84me.cigarclubx",
+  "base_denom": "coin.zig19w85mt4x0mml6x98n9e78vyzy7uq0d8st3klhc0x699pexh40uqs4f84me.cigarclubx",
+  "creator": "zig19w85mt4x0mml6x98n9e78vyzy7uq0d8st3klhc0x699pexh40uqs4f84me",
+  "subdenom": "cigarclubx",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

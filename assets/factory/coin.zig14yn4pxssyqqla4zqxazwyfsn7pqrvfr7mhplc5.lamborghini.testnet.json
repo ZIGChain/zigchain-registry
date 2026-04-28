@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14yn4pxssyqqla4zqxazwyfsn7pqrvfr7mhplc5.lamborghini",
+  "type": "factory",
+  "symbol": "LAMBORGHINI",
+  "name": "Lamborghini",
+  "decimals": 6,
+  "display_denom": "LAMBORGHINI",
+  "base_denom": "coin.zig14yn4pxssyqqla4zqxazwyfsn7pqrvfr7mhplc5.lamborghini",
+  "creator": "zig14yn4pxssyqqla4zqxazwyfsn7pqrvfr7mhplc5",
+  "subdenom": "lamborghini",
+  "denom_units": [
+    {
+      "denom": "coin.zig14yn4pxssyqqla4zqxazwyfsn7pqrvfr7mhplc5.lamborghini",
+      "exponent": 0
+    },
+    {
+      "denom": "LAMBORGHINI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

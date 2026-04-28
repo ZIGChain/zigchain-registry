@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1wdkzs6uxc9rr02g74t4lntdychvxewuy2zcx6u4774l3lxdxqz6sm9dxw7.agent",
+  "type": "factory",
+  "symbol": "AGENT",
+  "name": "Agent",
+  "decimals": 6,
+  "display_denom": "AGENT",
+  "base_denom": "coin.zig1wdkzs6uxc9rr02g74t4lntdychvxewuy2zcx6u4774l3lxdxqz6sm9dxw7.agent",
+  "creator": "zig1wdkzs6uxc9rr02g74t4lntdychvxewuy2zcx6u4774l3lxdxqz6sm9dxw7",
+  "subdenom": "agent",
+  "denom_units": [
+    {
+      "denom": "coin.zig1wdkzs6uxc9rr02g74t4lntdychvxewuy2zcx6u4774l3lxdxqz6sm9dxw7.agent",
+      "exponent": 0
+    },
+    {
+      "denom": "AGENT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

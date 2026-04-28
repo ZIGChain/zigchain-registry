@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ua058pkmtkw4vj2cvk2kqn9cumy5xujzpwctq833s8ez3enaa7lsc8gtxr.oditvoluptatumine",
+  "type": "factory",
+  "symbol": "ODITVOLUPTATUMINE",
+  "name": "Oditvoluptatumine",
+  "decimals": 6,
+  "display_denom": "ODITVOLUPTATUMINE",
+  "base_denom": "coin.zig1ua058pkmtkw4vj2cvk2kqn9cumy5xujzpwctq833s8ez3enaa7lsc8gtxr.oditvoluptatumine",
+  "creator": "zig1ua058pkmtkw4vj2cvk2kqn9cumy5xujzpwctq833s8ez3enaa7lsc8gtxr",
+  "subdenom": "oditvoluptatumine",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ua058pkmtkw4vj2cvk2kqn9cumy5xujzpwctq833s8ez3enaa7lsc8gtxr.oditvoluptatumine",
+      "exponent": 0
+    },
+    {
+      "denom": "ODITVOLUPTATUMINE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

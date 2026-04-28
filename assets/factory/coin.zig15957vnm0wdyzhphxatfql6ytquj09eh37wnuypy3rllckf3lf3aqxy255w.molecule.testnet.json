@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15957vnm0wdyzhphxatfql6ytquj09eh37wnuypy3rllckf3lf3aqxy255w.molecule",
+  "type": "factory",
+  "symbol": "MOLECULE",
+  "name": "Molecule",
+  "decimals": 6,
+  "display_denom": "MOLECULE",
+  "base_denom": "coin.zig15957vnm0wdyzhphxatfql6ytquj09eh37wnuypy3rllckf3lf3aqxy255w.molecule",
+  "creator": "zig15957vnm0wdyzhphxatfql6ytquj09eh37wnuypy3rllckf3lf3aqxy255w",
+  "subdenom": "molecule",
+  "denom_units": [
+    {
+      "denom": "coin.zig15957vnm0wdyzhphxatfql6ytquj09eh37wnuypy3rllckf3lf3aqxy255w.molecule",
+      "exponent": 0
+    },
+    {
+      "denom": "MOLECULE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

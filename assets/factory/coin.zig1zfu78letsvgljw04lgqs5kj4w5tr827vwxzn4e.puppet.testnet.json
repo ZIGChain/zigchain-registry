@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zfu78letsvgljw04lgqs5kj4w5tr827vwxzn4e.puppet",
+  "type": "factory",
+  "symbol": "PUPPET",
+  "name": "Puppet",
+  "decimals": 6,
+  "display_denom": "PUPPET",
+  "base_denom": "coin.zig1zfu78letsvgljw04lgqs5kj4w5tr827vwxzn4e.puppet",
+  "creator": "zig1zfu78letsvgljw04lgqs5kj4w5tr827vwxzn4e",
+  "subdenom": "puppet",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zfu78letsvgljw04lgqs5kj4w5tr827vwxzn4e.puppet",
+      "exponent": 0
+    },
+    {
+      "denom": "PUPPET",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

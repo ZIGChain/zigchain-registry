@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zvvvkl2uecpl7vcrrjxluhdk08u5lef4v84tu0n6dp483plnzjesqgc0f5.quasiipsamplaceat",
+  "type": "factory",
+  "symbol": "QUASIIPSAMPLACEAT",
+  "name": "Quasiipsamplaceat",
+  "decimals": 6,
+  "display_denom": "QUASIIPSAMPLACEAT",
+  "base_denom": "coin.zig1zvvvkl2uecpl7vcrrjxluhdk08u5lef4v84tu0n6dp483plnzjesqgc0f5.quasiipsamplaceat",
+  "creator": "zig1zvvvkl2uecpl7vcrrjxluhdk08u5lef4v84tu0n6dp483plnzjesqgc0f5",
+  "subdenom": "quasiipsamplaceat",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zvvvkl2uecpl7vcrrjxluhdk08u5lef4v84tu0n6dp483plnzjesqgc0f5.quasiipsamplaceat",
+      "exponent": 0
+    },
+    {
+      "denom": "QUASIIPSAMPLACEAT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

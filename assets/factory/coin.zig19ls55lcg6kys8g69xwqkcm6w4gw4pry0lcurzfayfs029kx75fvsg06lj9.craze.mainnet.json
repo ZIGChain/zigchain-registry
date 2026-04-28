@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig19ls55lcg6kys8g69xwqkcm6w4gw4pry0lcurzfayfs029kx75fvsg06lj9.craze",
+  "type": "factory",
+  "symbol": "CRAZE",
+  "name": "Craze",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig19ls55lcg6kys8g69xwqkcm6w4gw4pry0lcurzfayfs029kx75fvsg06lj9.craze",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig19ls55lcg6kys8g69xwqkcm6w4gw4pry0lcurzfayfs029kx75fvsg06lj9.craze",
+  "base_denom": "coin.zig19ls55lcg6kys8g69xwqkcm6w4gw4pry0lcurzfayfs029kx75fvsg06lj9.craze",
+  "creator": "zig19ls55lcg6kys8g69xwqkcm6w4gw4pry0lcurzfayfs029kx75fvsg06lj9",
+  "subdenom": "craze",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

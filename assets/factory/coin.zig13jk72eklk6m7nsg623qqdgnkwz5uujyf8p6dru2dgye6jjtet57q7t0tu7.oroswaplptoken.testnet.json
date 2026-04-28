@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13jk72eklk6m7nsg623qqdgnkwz5uujyf8p6dru2dgye6jjtet57q7t0tu7.oroswaplptoken",
+  "type": "factory",
+  "symbol": "OROSWAPLPTOKEN",
+  "name": "Oroswaplptoken",
+  "decimals": 6,
+  "display_denom": "OROSWAPLPTOKEN",
+  "base_denom": "coin.zig13jk72eklk6m7nsg623qqdgnkwz5uujyf8p6dru2dgye6jjtet57q7t0tu7.oroswaplptoken",
+  "creator": "zig13jk72eklk6m7nsg623qqdgnkwz5uujyf8p6dru2dgye6jjtet57q7t0tu7",
+  "subdenom": "oroswaplptoken",
+  "denom_units": [
+    {
+      "denom": "coin.zig13jk72eklk6m7nsg623qqdgnkwz5uujyf8p6dru2dgye6jjtet57q7t0tu7.oroswaplptoken",
+      "exponent": 0
+    },
+    {
+      "denom": "OROSWAPLPTOKEN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

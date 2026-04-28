@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qdfkekx8er0ljpzekl7sexgf9ny6zj6y944szl0mqcw3k6z6s2as986a27.crypteon",
+  "type": "factory",
+  "symbol": "CRYPTEON",
+  "name": "Crypteon",
+  "decimals": 6,
+  "display_denom": "CRYPTEON",
+  "base_denom": "coin.zig1qdfkekx8er0ljpzekl7sexgf9ny6zj6y944szl0mqcw3k6z6s2as986a27.crypteon",
+  "creator": "zig1qdfkekx8er0ljpzekl7sexgf9ny6zj6y944szl0mqcw3k6z6s2as986a27",
+  "subdenom": "crypteon",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qdfkekx8er0ljpzekl7sexgf9ny6zj6y944szl0mqcw3k6z6s2as986a27.crypteon",
+      "exponent": 0
+    },
+    {
+      "denom": "CRYPTEON",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rna3paqg58d5huw54p2hzqgjveshyetuw3k6qd08eg7qy8rngm3qjmcwsp.randum",
+  "type": "factory",
+  "symbol": "RANDUM",
+  "name": "Randum",
+  "decimals": 6,
+  "display_denom": "RANDUM",
+  "base_denom": "coin.zig1rna3paqg58d5huw54p2hzqgjveshyetuw3k6qd08eg7qy8rngm3qjmcwsp.randum",
+  "creator": "zig1rna3paqg58d5huw54p2hzqgjveshyetuw3k6qd08eg7qy8rngm3qjmcwsp",
+  "subdenom": "randum",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rna3paqg58d5huw54p2hzqgjveshyetuw3k6qd08eg7qy8rngm3qjmcwsp.randum",
+      "exponent": 0
+    },
+    {
+      "denom": "RANDUM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

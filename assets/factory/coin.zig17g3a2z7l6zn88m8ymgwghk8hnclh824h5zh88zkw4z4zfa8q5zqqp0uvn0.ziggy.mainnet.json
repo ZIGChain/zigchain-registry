@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig17g3a2z7l6zn88m8ymgwghk8hnclh824h5zh88zkw4z4zfa8q5zqqp0uvn0.ziggy",
+  "type": "factory",
+  "symbol": "ZIGGY",
+  "name": "Ziggy",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig17g3a2z7l6zn88m8ymgwghk8hnclh824h5zh88zkw4z4zfa8q5zqqp0uvn0.ziggy",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig17g3a2z7l6zn88m8ymgwghk8hnclh824h5zh88zkw4z4zfa8q5zqqp0uvn0.ziggy",
+  "base_denom": "coin.zig17g3a2z7l6zn88m8ymgwghk8hnclh824h5zh88zkw4z4zfa8q5zqqp0uvn0.ziggy",
+  "creator": "zig17g3a2z7l6zn88m8ymgwghk8hnclh824h5zh88zkw4z4zfa8q5zqqp0uvn0",
+  "subdenom": "ziggy",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

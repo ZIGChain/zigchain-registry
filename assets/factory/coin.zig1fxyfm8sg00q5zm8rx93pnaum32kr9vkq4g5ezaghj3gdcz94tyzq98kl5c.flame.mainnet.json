@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1fxyfm8sg00q5zm8rx93pnaum32kr9vkq4g5ezaghj3gdcz94tyzq98kl5c.flame",
+  "type": "factory",
+  "symbol": "FLAME",
+  "name": "Flame",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1fxyfm8sg00q5zm8rx93pnaum32kr9vkq4g5ezaghj3gdcz94tyzq98kl5c.flame",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1fxyfm8sg00q5zm8rx93pnaum32kr9vkq4g5ezaghj3gdcz94tyzq98kl5c.flame",
+  "base_denom": "coin.zig1fxyfm8sg00q5zm8rx93pnaum32kr9vkq4g5ezaghj3gdcz94tyzq98kl5c.flame",
+  "creator": "zig1fxyfm8sg00q5zm8rx93pnaum32kr9vkq4g5ezaghj3gdcz94tyzq98kl5c",
+  "subdenom": "flame",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

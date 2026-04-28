@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig145g5rxanqrp0yzzleunlu6sh93gl8z7zqx4gel2c65w325vflh7qduxxrs.placeattemporamag",
+  "type": "factory",
+  "symbol": "PLACEATTEMPORAMAG",
+  "name": "Placeattemporamag",
+  "decimals": 6,
+  "display_denom": "PLACEATTEMPORAMAG",
+  "base_denom": "coin.zig145g5rxanqrp0yzzleunlu6sh93gl8z7zqx4gel2c65w325vflh7qduxxrs.placeattemporamag",
+  "creator": "zig145g5rxanqrp0yzzleunlu6sh93gl8z7zqx4gel2c65w325vflh7qduxxrs",
+  "subdenom": "placeattemporamag",
+  "denom_units": [
+    {
+      "denom": "coin.zig145g5rxanqrp0yzzleunlu6sh93gl8z7zqx4gel2c65w325vflh7qduxxrs.placeattemporamag",
+      "exponent": 0
+    },
+    {
+      "denom": "PLACEATTEMPORAMAG",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1mcvwss65nk0yl7mvh3d83vw48dq7ue20ey3aa790ku5a96dkk9kqldcx2z.mdfta",
+  "type": "factory",
+  "symbol": "MDFTA",
+  "name": "Mdfta",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1mcvwss65nk0yl7mvh3d83vw48dq7ue20ey3aa790ku5a96dkk9kqldcx2z.mdfta",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1mcvwss65nk0yl7mvh3d83vw48dq7ue20ey3aa790ku5a96dkk9kqldcx2z.mdfta",
+  "base_denom": "coin.zig1mcvwss65nk0yl7mvh3d83vw48dq7ue20ey3aa790ku5a96dkk9kqldcx2z.mdfta",
+  "creator": "zig1mcvwss65nk0yl7mvh3d83vw48dq7ue20ey3aa790ku5a96dkk9kqldcx2z",
+  "subdenom": "mdfta",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

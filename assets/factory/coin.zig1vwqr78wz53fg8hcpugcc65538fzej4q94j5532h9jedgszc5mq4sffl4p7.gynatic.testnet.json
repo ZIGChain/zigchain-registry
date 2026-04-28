@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1vwqr78wz53fg8hcpugcc65538fzej4q94j5532h9jedgszc5mq4sffl4p7.gynatic",
+  "type": "factory",
+  "symbol": "GYNATIC",
+  "name": "Gynatic",
+  "decimals": 6,
+  "display_denom": "GYNATIC",
+  "base_denom": "coin.zig1vwqr78wz53fg8hcpugcc65538fzej4q94j5532h9jedgszc5mq4sffl4p7.gynatic",
+  "creator": "zig1vwqr78wz53fg8hcpugcc65538fzej4q94j5532h9jedgszc5mq4sffl4p7",
+  "subdenom": "gynatic",
+  "denom_units": [
+    {
+      "denom": "coin.zig1vwqr78wz53fg8hcpugcc65538fzej4q94j5532h9jedgszc5mq4sffl4p7.gynatic",
+      "exponent": 0
+    },
+    {
+      "denom": "GYNATIC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

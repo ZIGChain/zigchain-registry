@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1fs0lpvwdhu5zqnqk0wp04jxtwkz0965yduvslp55ey20pq7dc73qjs8lfe.smardex",
+  "type": "factory",
+  "symbol": "SMARDEX",
+  "name": "Smardex",
+  "decimals": 6,
+  "display_denom": "SMARDEX",
+  "base_denom": "coin.zig1fs0lpvwdhu5zqnqk0wp04jxtwkz0965yduvslp55ey20pq7dc73qjs8lfe.smardex",
+  "creator": "zig1fs0lpvwdhu5zqnqk0wp04jxtwkz0965yduvslp55ey20pq7dc73qjs8lfe",
+  "subdenom": "smardex",
+  "denom_units": [
+    {
+      "denom": "coin.zig1fs0lpvwdhu5zqnqk0wp04jxtwkz0965yduvslp55ey20pq7dc73qjs8lfe.smardex",
+      "exponent": 0
+    },
+    {
+      "denom": "SMARDEX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

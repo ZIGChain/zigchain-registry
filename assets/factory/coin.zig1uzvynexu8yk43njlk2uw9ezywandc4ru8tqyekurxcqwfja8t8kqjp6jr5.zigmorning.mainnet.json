@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1uzvynexu8yk43njlk2uw9ezywandc4ru8tqyekurxcqwfja8t8kqjp6jr5.zigmorning",
+  "type": "factory",
+  "symbol": "ZIGMORNING",
+  "name": "Zigmorning",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1uzvynexu8yk43njlk2uw9ezywandc4ru8tqyekurxcqwfja8t8kqjp6jr5.zigmorning",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1uzvynexu8yk43njlk2uw9ezywandc4ru8tqyekurxcqwfja8t8kqjp6jr5.zigmorning",
+  "base_denom": "coin.zig1uzvynexu8yk43njlk2uw9ezywandc4ru8tqyekurxcqwfja8t8kqjp6jr5.zigmorning",
+  "creator": "zig1uzvynexu8yk43njlk2uw9ezywandc4ru8tqyekurxcqwfja8t8kqjp6jr5",
+  "subdenom": "zigmorning",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

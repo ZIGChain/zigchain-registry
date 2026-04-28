@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig129fg4q4qzs8g2f508x9l706rave282kwlqnmj44ukl2d8e5cekfqx0fyrr.ullamexcepturiesse",
+  "type": "factory",
+  "symbol": "ULLAMEXCEPTURIESSE",
+  "name": "Ullamexcepturiesse",
+  "decimals": 6,
+  "display_denom": "ULLAMEXCEPTURIESSE",
+  "base_denom": "coin.zig129fg4q4qzs8g2f508x9l706rave282kwlqnmj44ukl2d8e5cekfqx0fyrr.ullamexcepturiesse",
+  "creator": "zig129fg4q4qzs8g2f508x9l706rave282kwlqnmj44ukl2d8e5cekfqx0fyrr",
+  "subdenom": "ullamexcepturiesse",
+  "denom_units": [
+    {
+      "denom": "coin.zig129fg4q4qzs8g2f508x9l706rave282kwlqnmj44ukl2d8e5cekfqx0fyrr.ullamexcepturiesse",
+      "exponent": 0
+    },
+    {
+      "denom": "ULLAMEXCEPTURIESSE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

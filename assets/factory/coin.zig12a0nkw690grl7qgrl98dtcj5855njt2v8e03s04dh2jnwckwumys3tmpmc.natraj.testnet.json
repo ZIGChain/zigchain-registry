@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig12a0nkw690grl7qgrl98dtcj5855njt2v8e03s04dh2jnwckwumys3tmpmc.natraj",
+  "type": "factory",
+  "symbol": "NATRAJ",
+  "name": "Natraj",
+  "decimals": 6,
+  "display_denom": "NATRAJ",
+  "base_denom": "coin.zig12a0nkw690grl7qgrl98dtcj5855njt2v8e03s04dh2jnwckwumys3tmpmc.natraj",
+  "creator": "zig12a0nkw690grl7qgrl98dtcj5855njt2v8e03s04dh2jnwckwumys3tmpmc",
+  "subdenom": "natraj",
+  "denom_units": [
+    {
+      "denom": "coin.zig12a0nkw690grl7qgrl98dtcj5855njt2v8e03s04dh2jnwckwumys3tmpmc.natraj",
+      "exponent": 0
+    },
+    {
+      "denom": "NATRAJ",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

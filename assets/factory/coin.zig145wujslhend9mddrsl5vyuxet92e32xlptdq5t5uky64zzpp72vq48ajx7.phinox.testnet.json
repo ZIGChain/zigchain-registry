@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig145wujslhend9mddrsl5vyuxet92e32xlptdq5t5uky64zzpp72vq48ajx7.phinox",
+  "type": "factory",
+  "symbol": "PHINOX",
+  "name": "Phinox",
+  "decimals": 6,
+  "display_denom": "PHINOX",
+  "base_denom": "coin.zig145wujslhend9mddrsl5vyuxet92e32xlptdq5t5uky64zzpp72vq48ajx7.phinox",
+  "creator": "zig145wujslhend9mddrsl5vyuxet92e32xlptdq5t5uky64zzpp72vq48ajx7",
+  "subdenom": "phinox",
+  "denom_units": [
+    {
+      "denom": "coin.zig145wujslhend9mddrsl5vyuxet92e32xlptdq5t5uky64zzpp72vq48ajx7.phinox",
+      "exponent": 0
+    },
+    {
+      "denom": "PHINOX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1cuj48ptq7j07ununjeml99m3kcghm20gfqswj3q77venudagmc4qnp83na.sss4555",
+  "type": "factory",
+  "symbol": "SSS4555",
+  "name": "Sss4555",
+  "decimals": 6,
+  "display_denom": "SSS4555",
+  "base_denom": "coin.zig1cuj48ptq7j07ununjeml99m3kcghm20gfqswj3q77venudagmc4qnp83na.sss4555",
+  "creator": "zig1cuj48ptq7j07ununjeml99m3kcghm20gfqswj3q77venudagmc4qnp83na",
+  "subdenom": "sss4555",
+  "denom_units": [
+    {
+      "denom": "coin.zig1cuj48ptq7j07ununjeml99m3kcghm20gfqswj3q77venudagmc4qnp83na.sss4555",
+      "exponent": 0
+    },
+    {
+      "denom": "SSS4555",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

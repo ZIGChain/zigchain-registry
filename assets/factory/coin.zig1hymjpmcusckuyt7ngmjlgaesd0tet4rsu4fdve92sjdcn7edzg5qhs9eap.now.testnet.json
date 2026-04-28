@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hymjpmcusckuyt7ngmjlgaesd0tet4rsu4fdve92sjdcn7edzg5qhs9eap.now",
+  "type": "factory",
+  "symbol": "NOW",
+  "name": "Now",
+  "decimals": 6,
+  "display_denom": "NOW",
+  "base_denom": "coin.zig1hymjpmcusckuyt7ngmjlgaesd0tet4rsu4fdve92sjdcn7edzg5qhs9eap.now",
+  "creator": "zig1hymjpmcusckuyt7ngmjlgaesd0tet4rsu4fdve92sjdcn7edzg5qhs9eap",
+  "subdenom": "now",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hymjpmcusckuyt7ngmjlgaesd0tet4rsu4fdve92sjdcn7edzg5qhs9eap.now",
+      "exponent": 0
+    },
+    {
+      "denom": "NOW",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

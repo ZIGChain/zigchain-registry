@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1s08yf8km5k6qntcukf7xu92qe4ngj7263rage9s9kgjythl7aues890t5a.autsapientevolupta",
+  "type": "factory",
+  "symbol": "AUTSAPIENTEVOLUPTA",
+  "name": "Autsapientevolupta",
+  "decimals": 6,
+  "display_denom": "AUTSAPIENTEVOLUPTA",
+  "base_denom": "coin.zig1s08yf8km5k6qntcukf7xu92qe4ngj7263rage9s9kgjythl7aues890t5a.autsapientevolupta",
+  "creator": "zig1s08yf8km5k6qntcukf7xu92qe4ngj7263rage9s9kgjythl7aues890t5a",
+  "subdenom": "autsapientevolupta",
+  "denom_units": [
+    {
+      "denom": "coin.zig1s08yf8km5k6qntcukf7xu92qe4ngj7263rage9s9kgjythl7aues890t5a.autsapientevolupta",
+      "exponent": 0
+    },
+    {
+      "denom": "AUTSAPIENTEVOLUPTA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

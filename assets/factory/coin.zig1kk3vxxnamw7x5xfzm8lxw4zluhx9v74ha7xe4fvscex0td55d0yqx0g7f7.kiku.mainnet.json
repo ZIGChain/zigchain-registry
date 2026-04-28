@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1kk3vxxnamw7x5xfzm8lxw4zluhx9v74ha7xe4fvscex0td55d0yqx0g7f7.kiku",
+  "type": "factory",
+  "symbol": "KIKU",
+  "name": "Kiku",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1kk3vxxnamw7x5xfzm8lxw4zluhx9v74ha7xe4fvscex0td55d0yqx0g7f7.kiku",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1kk3vxxnamw7x5xfzm8lxw4zluhx9v74ha7xe4fvscex0td55d0yqx0g7f7.kiku",
+  "base_denom": "coin.zig1kk3vxxnamw7x5xfzm8lxw4zluhx9v74ha7xe4fvscex0td55d0yqx0g7f7.kiku",
+  "creator": "zig1kk3vxxnamw7x5xfzm8lxw4zluhx9v74ha7xe4fvscex0td55d0yqx0g7f7",
+  "subdenom": "kiku",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

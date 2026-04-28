@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1yg2cl37ey7snegl0ltzsmxt5aa4gnp53tqymzhx0lh9prl8zll0q5hwkce.missedit",
+  "type": "factory",
+  "symbol": "MISSEDIT",
+  "name": "Missedit",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1yg2cl37ey7snegl0ltzsmxt5aa4gnp53tqymzhx0lh9prl8zll0q5hwkce.missedit",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1yg2cl37ey7snegl0ltzsmxt5aa4gnp53tqymzhx0lh9prl8zll0q5hwkce.missedit",
+  "base_denom": "coin.zig1yg2cl37ey7snegl0ltzsmxt5aa4gnp53tqymzhx0lh9prl8zll0q5hwkce.missedit",
+  "creator": "zig1yg2cl37ey7snegl0ltzsmxt5aa4gnp53tqymzhx0lh9prl8zll0q5hwkce",
+  "subdenom": "missedit",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

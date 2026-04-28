@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zsl3enqva95txz6r306hfv6d7a5axu70ps759mf964zklk9xd2pswv969u.rwatest",
+  "type": "factory",
+  "symbol": "RWATEST",
+  "name": "Rwatest",
+  "decimals": 6,
+  "display_denom": "RWATEST",
+  "base_denom": "coin.zig1zsl3enqva95txz6r306hfv6d7a5axu70ps759mf964zklk9xd2pswv969u.rwatest",
+  "creator": "zig1zsl3enqva95txz6r306hfv6d7a5axu70ps759mf964zklk9xd2pswv969u",
+  "subdenom": "rwatest",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zsl3enqva95txz6r306hfv6d7a5axu70ps759mf964zklk9xd2pswv969u.rwatest",
+      "exponent": 0
+    },
+    {
+      "denom": "RWATEST",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ckfhss5dr844hmny86sa650ujtv2mcym5y430vx7c6eged362w9qhpt9jy.hazelx",
+  "type": "factory",
+  "symbol": "HAZELX",
+  "name": "Hazelx",
+  "decimals": 6,
+  "display_denom": "HAZELX",
+  "base_denom": "coin.zig1ckfhss5dr844hmny86sa650ujtv2mcym5y430vx7c6eged362w9qhpt9jy.hazelx",
+  "creator": "zig1ckfhss5dr844hmny86sa650ujtv2mcym5y430vx7c6eged362w9qhpt9jy",
+  "subdenom": "hazelx",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ckfhss5dr844hmny86sa650ujtv2mcym5y430vx7c6eged362w9qhpt9jy.hazelx",
+      "exponent": 0
+    },
+    {
+      "denom": "HAZELX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

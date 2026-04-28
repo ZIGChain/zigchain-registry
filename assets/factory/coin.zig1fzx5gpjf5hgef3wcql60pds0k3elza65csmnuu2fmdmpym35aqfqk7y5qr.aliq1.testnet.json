@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1fzx5gpjf5hgef3wcql60pds0k3elza65csmnuu2fmdmpym35aqfqk7y5qr.aliq1",
+  "type": "factory",
+  "symbol": "ALIQ1",
+  "name": "Aliq1",
+  "decimals": 6,
+  "display_denom": "ALIQ1",
+  "base_denom": "coin.zig1fzx5gpjf5hgef3wcql60pds0k3elza65csmnuu2fmdmpym35aqfqk7y5qr.aliq1",
+  "creator": "zig1fzx5gpjf5hgef3wcql60pds0k3elza65csmnuu2fmdmpym35aqfqk7y5qr",
+  "subdenom": "aliq1",
+  "denom_units": [
+    {
+      "denom": "coin.zig1fzx5gpjf5hgef3wcql60pds0k3elza65csmnuu2fmdmpym35aqfqk7y5qr.aliq1",
+      "exponent": 0
+    },
+    {
+      "denom": "ALIQ1",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

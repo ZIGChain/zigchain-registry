@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1au8wu3ryfa34a8we6daes57ztfw8lqq2ssd0nu6zam99u9xy8sssldd5q3.spill",
+  "type": "factory",
+  "symbol": "SPILL",
+  "name": "Spill",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1au8wu3ryfa34a8we6daes57ztfw8lqq2ssd0nu6zam99u9xy8sssldd5q3.spill",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1au8wu3ryfa34a8we6daes57ztfw8lqq2ssd0nu6zam99u9xy8sssldd5q3.spill",
+  "base_denom": "coin.zig1au8wu3ryfa34a8we6daes57ztfw8lqq2ssd0nu6zam99u9xy8sssldd5q3.spill",
+  "creator": "zig1au8wu3ryfa34a8we6daes57ztfw8lqq2ssd0nu6zam99u9xy8sssldd5q3",
+  "subdenom": "spill",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

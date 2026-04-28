@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14pgjx3ad552sdnuelpnhxxtpdjztaqjyacch9wv6q0kshjlhl6dslwjt8w.abc81e679d796",
+  "type": "factory",
+  "symbol": "ABC81E679D796",
+  "name": "Abc81e679d796",
+  "decimals": 6,
+  "display_denom": "ABC81E679D796",
+  "base_denom": "coin.zig14pgjx3ad552sdnuelpnhxxtpdjztaqjyacch9wv6q0kshjlhl6dslwjt8w.abc81e679d796",
+  "creator": "zig14pgjx3ad552sdnuelpnhxxtpdjztaqjyacch9wv6q0kshjlhl6dslwjt8w",
+  "subdenom": "abc81e679d796",
+  "denom_units": [
+    {
+      "denom": "coin.zig14pgjx3ad552sdnuelpnhxxtpdjztaqjyacch9wv6q0kshjlhl6dslwjt8w.abc81e679d796",
+      "exponent": 0
+    },
+    {
+      "denom": "ABC81E679D796",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

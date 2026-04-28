@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qlvlwnnqda9q79d9nnsd4t0q94e2r70kee6clmtvs3a3ee6qvu3q66uqdm.rsintheloop",
+  "type": "factory",
+  "symbol": "RSINTHELOOP",
+  "name": "Rsintheloop",
+  "decimals": 6,
+  "display_denom": "RSINTHELOOP",
+  "base_denom": "coin.zig1qlvlwnnqda9q79d9nnsd4t0q94e2r70kee6clmtvs3a3ee6qvu3q66uqdm.rsintheloop",
+  "creator": "zig1qlvlwnnqda9q79d9nnsd4t0q94e2r70kee6clmtvs3a3ee6qvu3q66uqdm",
+  "subdenom": "rsintheloop",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qlvlwnnqda9q79d9nnsd4t0q94e2r70kee6clmtvs3a3ee6qvu3q66uqdm.rsintheloop",
+      "exponent": 0
+    },
+    {
+      "denom": "RSINTHELOOP",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

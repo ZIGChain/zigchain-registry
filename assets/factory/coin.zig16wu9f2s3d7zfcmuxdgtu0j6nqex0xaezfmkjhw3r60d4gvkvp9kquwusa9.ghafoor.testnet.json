@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig16wu9f2s3d7zfcmuxdgtu0j6nqex0xaezfmkjhw3r60d4gvkvp9kquwusa9.ghafoor",
+  "type": "factory",
+  "symbol": "GHAFOOR",
+  "name": "Ghafoor",
+  "decimals": 6,
+  "display_denom": "GHAFOOR",
+  "base_denom": "coin.zig16wu9f2s3d7zfcmuxdgtu0j6nqex0xaezfmkjhw3r60d4gvkvp9kquwusa9.ghafoor",
+  "creator": "zig16wu9f2s3d7zfcmuxdgtu0j6nqex0xaezfmkjhw3r60d4gvkvp9kquwusa9",
+  "subdenom": "ghafoor",
+  "denom_units": [
+    {
+      "denom": "coin.zig16wu9f2s3d7zfcmuxdgtu0j6nqex0xaezfmkjhw3r60d4gvkvp9kquwusa9.ghafoor",
+      "exponent": 0
+    },
+    {
+      "denom": "GHAFOOR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

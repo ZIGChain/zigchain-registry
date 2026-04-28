@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1uf623q3lhq6fkm758f2qpt6x8knmxyss9lns3d.sniper",
+  "type": "factory",
+  "symbol": "SNIPER",
+  "name": "Sniper",
+  "decimals": 6,
+  "display_denom": "SNIPER",
+  "base_denom": "coin.zig1uf623q3lhq6fkm758f2qpt6x8knmxyss9lns3d.sniper",
+  "creator": "zig1uf623q3lhq6fkm758f2qpt6x8knmxyss9lns3d",
+  "subdenom": "sniper",
+  "denom_units": [
+    {
+      "denom": "coin.zig1uf623q3lhq6fkm758f2qpt6x8knmxyss9lns3d.sniper",
+      "exponent": 0
+    },
+    {
+      "denom": "SNIPER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

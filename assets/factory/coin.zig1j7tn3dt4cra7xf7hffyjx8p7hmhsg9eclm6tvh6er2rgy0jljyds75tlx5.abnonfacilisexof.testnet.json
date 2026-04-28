@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1j7tn3dt4cra7xf7hffyjx8p7hmhsg9eclm6tvh6er2rgy0jljyds75tlx5.abnonfacilisexof",
+  "type": "factory",
+  "symbol": "ABNONFACILISEXOF",
+  "name": "Abnonfacilisexof",
+  "decimals": 6,
+  "display_denom": "ABNONFACILISEXOF",
+  "base_denom": "coin.zig1j7tn3dt4cra7xf7hffyjx8p7hmhsg9eclm6tvh6er2rgy0jljyds75tlx5.abnonfacilisexof",
+  "creator": "zig1j7tn3dt4cra7xf7hffyjx8p7hmhsg9eclm6tvh6er2rgy0jljyds75tlx5",
+  "subdenom": "abnonfacilisexof",
+  "denom_units": [
+    {
+      "denom": "coin.zig1j7tn3dt4cra7xf7hffyjx8p7hmhsg9eclm6tvh6er2rgy0jljyds75tlx5.abnonfacilisexof",
+      "exponent": 0
+    },
+    {
+      "denom": "ABNONFACILISEXOF",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

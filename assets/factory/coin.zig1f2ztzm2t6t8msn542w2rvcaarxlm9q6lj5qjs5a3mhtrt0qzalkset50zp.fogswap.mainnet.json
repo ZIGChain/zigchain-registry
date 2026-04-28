@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1f2ztzm2t6t8msn542w2rvcaarxlm9q6lj5qjs5a3mhtrt0qzalkset50zp.fogswap",
+  "type": "factory",
+  "symbol": "FOGSWAP",
+  "name": "Fogswap",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1f2ztzm2t6t8msn542w2rvcaarxlm9q6lj5qjs5a3mhtrt0qzalkset50zp.fogswap",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1f2ztzm2t6t8msn542w2rvcaarxlm9q6lj5qjs5a3mhtrt0qzalkset50zp.fogswap",
+  "base_denom": "coin.zig1f2ztzm2t6t8msn542w2rvcaarxlm9q6lj5qjs5a3mhtrt0qzalkset50zp.fogswap",
+  "creator": "zig1f2ztzm2t6t8msn542w2rvcaarxlm9q6lj5qjs5a3mhtrt0qzalkset50zp",
+  "subdenom": "fogswap",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

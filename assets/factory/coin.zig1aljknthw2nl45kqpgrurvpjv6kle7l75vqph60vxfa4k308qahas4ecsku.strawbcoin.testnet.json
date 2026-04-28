@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1aljknthw2nl45kqpgrurvpjv6kle7l75vqph60vxfa4k308qahas4ecsku.strawbcoin",
+  "type": "factory",
+  "symbol": "STRAWBCOIN",
+  "name": "Strawbcoin",
+  "decimals": 6,
+  "display_denom": "STRAWBCOIN",
+  "base_denom": "coin.zig1aljknthw2nl45kqpgrurvpjv6kle7l75vqph60vxfa4k308qahas4ecsku.strawbcoin",
+  "creator": "zig1aljknthw2nl45kqpgrurvpjv6kle7l75vqph60vxfa4k308qahas4ecsku",
+  "subdenom": "strawbcoin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1aljknthw2nl45kqpgrurvpjv6kle7l75vqph60vxfa4k308qahas4ecsku.strawbcoin",
+      "exponent": 0
+    },
+    {
+      "denom": "STRAWBCOIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1gmvzrw8e4qa4zudfz9lqjavsqvczl438wgyqer3e6ptk9med27fs0fm9fp.autvoluptatemnon",
+  "type": "factory",
+  "symbol": "AUTVOLUPTATEMNON",
+  "name": "Autvoluptatemnon",
+  "decimals": 6,
+  "display_denom": "AUTVOLUPTATEMNON",
+  "base_denom": "coin.zig1gmvzrw8e4qa4zudfz9lqjavsqvczl438wgyqer3e6ptk9med27fs0fm9fp.autvoluptatemnon",
+  "creator": "zig1gmvzrw8e4qa4zudfz9lqjavsqvczl438wgyqer3e6ptk9med27fs0fm9fp",
+  "subdenom": "autvoluptatemnon",
+  "denom_units": [
+    {
+      "denom": "coin.zig1gmvzrw8e4qa4zudfz9lqjavsqvczl438wgyqer3e6ptk9med27fs0fm9fp.autvoluptatemnon",
+      "exponent": 0
+    },
+    {
+      "denom": "AUTVOLUPTATEMNON",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

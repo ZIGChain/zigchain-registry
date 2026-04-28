@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1htrruw9wpxuwal3gpgzh33u3v0yk6eps3sh6n3.bot",
+  "type": "factory",
+  "symbol": "BOT",
+  "name": "Bot",
+  "decimals": 6,
+  "display_denom": "BOT",
+  "base_denom": "coin.zig1htrruw9wpxuwal3gpgzh33u3v0yk6eps3sh6n3.bot",
+  "creator": "zig1htrruw9wpxuwal3gpgzh33u3v0yk6eps3sh6n3",
+  "subdenom": "bot",
+  "denom_units": [
+    {
+      "denom": "coin.zig1htrruw9wpxuwal3gpgzh33u3v0yk6eps3sh6n3.bot",
+      "exponent": 0
+    },
+    {
+      "denom": "BOT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

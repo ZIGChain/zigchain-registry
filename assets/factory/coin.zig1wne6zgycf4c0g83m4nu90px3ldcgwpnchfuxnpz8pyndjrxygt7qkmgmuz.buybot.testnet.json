@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1wne6zgycf4c0g83m4nu90px3ldcgwpnchfuxnpz8pyndjrxygt7qkmgmuz.buybot",
+  "type": "factory",
+  "symbol": "BUYBOT",
+  "name": "Buybot",
+  "decimals": 6,
+  "display_denom": "BUYBOT",
+  "base_denom": "coin.zig1wne6zgycf4c0g83m4nu90px3ldcgwpnchfuxnpz8pyndjrxygt7qkmgmuz.buybot",
+  "creator": "zig1wne6zgycf4c0g83m4nu90px3ldcgwpnchfuxnpz8pyndjrxygt7qkmgmuz",
+  "subdenom": "buybot",
+  "denom_units": [
+    {
+      "denom": "coin.zig1wne6zgycf4c0g83m4nu90px3ldcgwpnchfuxnpz8pyndjrxygt7qkmgmuz.buybot",
+      "exponent": 0
+    },
+    {
+      "denom": "BUYBOT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

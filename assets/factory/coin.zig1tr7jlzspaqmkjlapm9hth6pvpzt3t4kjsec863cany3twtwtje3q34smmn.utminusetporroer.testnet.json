@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1tr7jlzspaqmkjlapm9hth6pvpzt3t4kjsec863cany3twtwtje3q34smmn.utminusetporroer",
+  "type": "factory",
+  "symbol": "UTMINUSETPORROER",
+  "name": "Utminusetporroer",
+  "decimals": 6,
+  "display_denom": "UTMINUSETPORROER",
+  "base_denom": "coin.zig1tr7jlzspaqmkjlapm9hth6pvpzt3t4kjsec863cany3twtwtje3q34smmn.utminusetporroer",
+  "creator": "zig1tr7jlzspaqmkjlapm9hth6pvpzt3t4kjsec863cany3twtwtje3q34smmn",
+  "subdenom": "utminusetporroer",
+  "denom_units": [
+    {
+      "denom": "coin.zig1tr7jlzspaqmkjlapm9hth6pvpzt3t4kjsec863cany3twtwtje3q34smmn.utminusetporroer",
+      "exponent": 0
+    },
+    {
+      "denom": "UTMINUSETPORROER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

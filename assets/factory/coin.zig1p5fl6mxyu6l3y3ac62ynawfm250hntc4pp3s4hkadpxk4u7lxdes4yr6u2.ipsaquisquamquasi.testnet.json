@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1p5fl6mxyu6l3y3ac62ynawfm250hntc4pp3s4hkadpxk4u7lxdes4yr6u2.ipsaquisquamquasi",
+  "type": "factory",
+  "symbol": "IPSAQUISQUAMQUASI",
+  "name": "Ipsaquisquamquasi",
+  "decimals": 6,
+  "display_denom": "IPSAQUISQUAMQUASI",
+  "base_denom": "coin.zig1p5fl6mxyu6l3y3ac62ynawfm250hntc4pp3s4hkadpxk4u7lxdes4yr6u2.ipsaquisquamquasi",
+  "creator": "zig1p5fl6mxyu6l3y3ac62ynawfm250hntc4pp3s4hkadpxk4u7lxdes4yr6u2",
+  "subdenom": "ipsaquisquamquasi",
+  "denom_units": [
+    {
+      "denom": "coin.zig1p5fl6mxyu6l3y3ac62ynawfm250hntc4pp3s4hkadpxk4u7lxdes4yr6u2.ipsaquisquamquasi",
+      "exponent": 0
+    },
+    {
+      "denom": "IPSAQUISQUAMQUASI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

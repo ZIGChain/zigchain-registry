@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ldfd8jvhqly7vetg84s0qw3eluda4y39tdayu3x7px5rc3hc38vqnn66f0.rangetest1",
+  "type": "factory",
+  "symbol": "RANGETEST1",
+  "name": "Rangetest1",
+  "decimals": 6,
+  "display_denom": "RANGETEST1",
+  "base_denom": "coin.zig1ldfd8jvhqly7vetg84s0qw3eluda4y39tdayu3x7px5rc3hc38vqnn66f0.rangetest1",
+  "creator": "zig1ldfd8jvhqly7vetg84s0qw3eluda4y39tdayu3x7px5rc3hc38vqnn66f0",
+  "subdenom": "rangetest1",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ldfd8jvhqly7vetg84s0qw3eluda4y39tdayu3x7px5rc3hc38vqnn66f0.rangetest1",
+      "exponent": 0
+    },
+    {
+      "denom": "RANGETEST1",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

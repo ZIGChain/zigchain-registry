@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig126kn23lxurns83w2n59a7e0v2wprjdrrfv4xw8.qa123",
+  "type": "factory",
+  "symbol": "QA123",
+  "name": "Qa123",
+  "decimals": 6,
+  "display_denom": "QA123",
+  "base_denom": "coin.zig126kn23lxurns83w2n59a7e0v2wprjdrrfv4xw8.qa123",
+  "creator": "zig126kn23lxurns83w2n59a7e0v2wprjdrrfv4xw8",
+  "subdenom": "qa123",
+  "denom_units": [
+    {
+      "denom": "coin.zig126kn23lxurns83w2n59a7e0v2wprjdrrfv4xw8.qa123",
+      "exponent": 0
+    },
+    {
+      "denom": "QA123",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

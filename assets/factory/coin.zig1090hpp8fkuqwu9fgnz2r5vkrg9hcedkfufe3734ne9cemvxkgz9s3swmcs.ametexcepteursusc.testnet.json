@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1090hpp8fkuqwu9fgnz2r5vkrg9hcedkfufe3734ne9cemvxkgz9s3swmcs.ametexcepteursusc",
+  "type": "factory",
+  "symbol": "AMETEXCEPTEURSUSC",
+  "name": "Ametexcepteursusc",
+  "decimals": 6,
+  "display_denom": "AMETEXCEPTEURSUSC",
+  "base_denom": "coin.zig1090hpp8fkuqwu9fgnz2r5vkrg9hcedkfufe3734ne9cemvxkgz9s3swmcs.ametexcepteursusc",
+  "creator": "zig1090hpp8fkuqwu9fgnz2r5vkrg9hcedkfufe3734ne9cemvxkgz9s3swmcs",
+  "subdenom": "ametexcepteursusc",
+  "denom_units": [
+    {
+      "denom": "coin.zig1090hpp8fkuqwu9fgnz2r5vkrg9hcedkfufe3734ne9cemvxkgz9s3swmcs.ametexcepteursusc",
+      "exponent": 0
+    },
+    {
+      "denom": "AMETEXCEPTEURSUSC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

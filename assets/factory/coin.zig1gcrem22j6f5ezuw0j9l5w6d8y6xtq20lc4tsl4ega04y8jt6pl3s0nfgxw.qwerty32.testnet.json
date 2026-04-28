@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1gcrem22j6f5ezuw0j9l5w6d8y6xtq20lc4tsl4ega04y8jt6pl3s0nfgxw.qwerty32",
+  "type": "factory",
+  "symbol": "QWERTY32",
+  "name": "Qwerty32",
+  "decimals": 6,
+  "display_denom": "QWERTY32",
+  "base_denom": "coin.zig1gcrem22j6f5ezuw0j9l5w6d8y6xtq20lc4tsl4ega04y8jt6pl3s0nfgxw.qwerty32",
+  "creator": "zig1gcrem22j6f5ezuw0j9l5w6d8y6xtq20lc4tsl4ega04y8jt6pl3s0nfgxw",
+  "subdenom": "qwerty32",
+  "denom_units": [
+    {
+      "denom": "coin.zig1gcrem22j6f5ezuw0j9l5w6d8y6xtq20lc4tsl4ega04y8jt6pl3s0nfgxw.qwerty32",
+      "exponent": 0
+    },
+    {
+      "denom": "QWERTY32",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

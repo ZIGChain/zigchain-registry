@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14a6lhxlwrz9sjxp5naff79nevg9r26rdfpwqw04970y4pnlqg5uq36sr8a.optioliberoexcept",
+  "type": "factory",
+  "symbol": "OPTIOLIBEROEXCEPT",
+  "name": "Optioliberoexcept",
+  "decimals": 6,
+  "display_denom": "OPTIOLIBEROEXCEPT",
+  "base_denom": "coin.zig14a6lhxlwrz9sjxp5naff79nevg9r26rdfpwqw04970y4pnlqg5uq36sr8a.optioliberoexcept",
+  "creator": "zig14a6lhxlwrz9sjxp5naff79nevg9r26rdfpwqw04970y4pnlqg5uq36sr8a",
+  "subdenom": "optioliberoexcept",
+  "denom_units": [
+    {
+      "denom": "coin.zig14a6lhxlwrz9sjxp5naff79nevg9r26rdfpwqw04970y4pnlqg5uq36sr8a.optioliberoexcept",
+      "exponent": 0
+    },
+    {
+      "denom": "OPTIOLIBEROEXCEPT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

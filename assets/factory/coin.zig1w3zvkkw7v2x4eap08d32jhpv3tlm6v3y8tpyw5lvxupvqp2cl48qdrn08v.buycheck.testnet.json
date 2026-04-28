@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1w3zvkkw7v2x4eap08d32jhpv3tlm6v3y8tpyw5lvxupvqp2cl48qdrn08v.buycheck",
+  "type": "factory",
+  "symbol": "BUYCHECK",
+  "name": "Buycheck",
+  "decimals": 6,
+  "display_denom": "BUYCHECK",
+  "base_denom": "coin.zig1w3zvkkw7v2x4eap08d32jhpv3tlm6v3y8tpyw5lvxupvqp2cl48qdrn08v.buycheck",
+  "creator": "zig1w3zvkkw7v2x4eap08d32jhpv3tlm6v3y8tpyw5lvxupvqp2cl48qdrn08v",
+  "subdenom": "buycheck",
+  "denom_units": [
+    {
+      "denom": "coin.zig1w3zvkkw7v2x4eap08d32jhpv3tlm6v3y8tpyw5lvxupvqp2cl48qdrn08v.buycheck",
+      "exponent": 0
+    },
+    {
+      "denom": "BUYCHECK",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

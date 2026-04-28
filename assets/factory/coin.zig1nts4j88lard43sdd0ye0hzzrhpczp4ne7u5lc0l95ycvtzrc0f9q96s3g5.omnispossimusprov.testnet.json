@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1nts4j88lard43sdd0ye0hzzrhpczp4ne7u5lc0l95ycvtzrc0f9q96s3g5.omnispossimusprov",
+  "type": "factory",
+  "symbol": "OMNISPOSSIMUSPROV",
+  "name": "Omnispossimusprov",
+  "decimals": 6,
+  "display_denom": "OMNISPOSSIMUSPROV",
+  "base_denom": "coin.zig1nts4j88lard43sdd0ye0hzzrhpczp4ne7u5lc0l95ycvtzrc0f9q96s3g5.omnispossimusprov",
+  "creator": "zig1nts4j88lard43sdd0ye0hzzrhpczp4ne7u5lc0l95ycvtzrc0f9q96s3g5",
+  "subdenom": "omnispossimusprov",
+  "denom_units": [
+    {
+      "denom": "coin.zig1nts4j88lard43sdd0ye0hzzrhpczp4ne7u5lc0l95ycvtzrc0f9q96s3g5.omnispossimusprov",
+      "exponent": 0
+    },
+    {
+      "denom": "OMNISPOSSIMUSPROV",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1wg4mnscgytpa0as4dhj7svzq2je4kn85j3t2mvq0ns4mg0l35x0shp8sdg.fugaadipisciharum",
+  "type": "factory",
+  "symbol": "FUGAADIPISCIHARUM",
+  "name": "Fugaadipisciharum",
+  "decimals": 6,
+  "display_denom": "FUGAADIPISCIHARUM",
+  "base_denom": "coin.zig1wg4mnscgytpa0as4dhj7svzq2je4kn85j3t2mvq0ns4mg0l35x0shp8sdg.fugaadipisciharum",
+  "creator": "zig1wg4mnscgytpa0as4dhj7svzq2je4kn85j3t2mvq0ns4mg0l35x0shp8sdg",
+  "subdenom": "fugaadipisciharum",
+  "denom_units": [
+    {
+      "denom": "coin.zig1wg4mnscgytpa0as4dhj7svzq2je4kn85j3t2mvq0ns4mg0l35x0shp8sdg.fugaadipisciharum",
+      "exponent": 0
+    },
+    {
+      "denom": "FUGAADIPISCIHARUM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

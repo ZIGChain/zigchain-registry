@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig132dttlrkdmaw5uttf68sz636h5jt64zt7cr0vm0pd4ty4cwmq73ste9sp5.eanobisipsaperfe",
+  "type": "factory",
+  "symbol": "EANOBISIPSAPERFE",
+  "name": "Eanobisipsaperfe",
+  "decimals": 6,
+  "display_denom": "EANOBISIPSAPERFE",
+  "base_denom": "coin.zig132dttlrkdmaw5uttf68sz636h5jt64zt7cr0vm0pd4ty4cwmq73ste9sp5.eanobisipsaperfe",
+  "creator": "zig132dttlrkdmaw5uttf68sz636h5jt64zt7cr0vm0pd4ty4cwmq73ste9sp5",
+  "subdenom": "eanobisipsaperfe",
+  "denom_units": [
+    {
+      "denom": "coin.zig132dttlrkdmaw5uttf68sz636h5jt64zt7cr0vm0pd4ty4cwmq73ste9sp5.eanobisipsaperfe",
+      "exponent": 0
+    },
+    {
+      "denom": "EANOBISIPSAPERFE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

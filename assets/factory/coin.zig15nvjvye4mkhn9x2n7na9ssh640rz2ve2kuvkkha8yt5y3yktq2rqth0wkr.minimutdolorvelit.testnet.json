@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15nvjvye4mkhn9x2n7na9ssh640rz2ve2kuvkkha8yt5y3yktq2rqth0wkr.minimutdolorvelit",
+  "type": "factory",
+  "symbol": "MINIMUTDOLORVELIT",
+  "name": "Minimutdolorvelit",
+  "decimals": 6,
+  "display_denom": "MINIMUTDOLORVELIT",
+  "base_denom": "coin.zig15nvjvye4mkhn9x2n7na9ssh640rz2ve2kuvkkha8yt5y3yktq2rqth0wkr.minimutdolorvelit",
+  "creator": "zig15nvjvye4mkhn9x2n7na9ssh640rz2ve2kuvkkha8yt5y3yktq2rqth0wkr",
+  "subdenom": "minimutdolorvelit",
+  "denom_units": [
+    {
+      "denom": "coin.zig15nvjvye4mkhn9x2n7na9ssh640rz2ve2kuvkkha8yt5y3yktq2rqth0wkr.minimutdolorvelit",
+      "exponent": 0
+    },
+    {
+      "denom": "MINIMUTDOLORVELIT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig12zs35pj7hymnkmu7njg5q4gmp8kmp36pjc34jl.usd1",
+  "type": "factory",
+  "symbol": "USD1",
+  "name": "Usd1",
+  "decimals": 6,
+  "display_denom": "USD1",
+  "base_denom": "coin.zig12zs35pj7hymnkmu7njg5q4gmp8kmp36pjc34jl.usd1",
+  "creator": "zig12zs35pj7hymnkmu7njg5q4gmp8kmp36pjc34jl",
+  "subdenom": "usd1",
+  "denom_units": [
+    {
+      "denom": "coin.zig12zs35pj7hymnkmu7njg5q4gmp8kmp36pjc34jl.usd1",
+      "exponent": 0
+    },
+    {
+      "denom": "USD1",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

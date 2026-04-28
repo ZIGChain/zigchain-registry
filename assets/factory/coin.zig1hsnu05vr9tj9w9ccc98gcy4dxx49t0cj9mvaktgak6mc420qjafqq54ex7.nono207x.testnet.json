@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hsnu05vr9tj9w9ccc98gcy4dxx49t0cj9mvaktgak6mc420qjafqq54ex7.nono207x",
+  "type": "factory",
+  "symbol": "NONO207X",
+  "name": "Nono207x",
+  "decimals": 6,
+  "display_denom": "NONO207X",
+  "base_denom": "coin.zig1hsnu05vr9tj9w9ccc98gcy4dxx49t0cj9mvaktgak6mc420qjafqq54ex7.nono207x",
+  "creator": "zig1hsnu05vr9tj9w9ccc98gcy4dxx49t0cj9mvaktgak6mc420qjafqq54ex7",
+  "subdenom": "nono207x",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hsnu05vr9tj9w9ccc98gcy4dxx49t0cj9mvaktgak6mc420qjafqq54ex7.nono207x",
+      "exponent": 0
+    },
+    {
+      "denom": "NONO207X",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

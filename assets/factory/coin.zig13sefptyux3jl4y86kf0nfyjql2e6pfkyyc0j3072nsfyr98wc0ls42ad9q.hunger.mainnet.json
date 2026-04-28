@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig13sefptyux3jl4y86kf0nfyjql2e6pfkyyc0j3072nsfyr98wc0ls42ad9q.hunger",
+  "type": "factory",
+  "symbol": "HUNGER",
+  "name": "Hunger",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig13sefptyux3jl4y86kf0nfyjql2e6pfkyyc0j3072nsfyr98wc0ls42ad9q.hunger",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig13sefptyux3jl4y86kf0nfyjql2e6pfkyyc0j3072nsfyr98wc0ls42ad9q.hunger",
+  "base_denom": "coin.zig13sefptyux3jl4y86kf0nfyjql2e6pfkyyc0j3072nsfyr98wc0ls42ad9q.hunger",
+  "creator": "zig13sefptyux3jl4y86kf0nfyjql2e6pfkyyc0j3072nsfyr98wc0ls42ad9q",
+  "subdenom": "hunger",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig130nj0zystp46wh2vlme3q0gk70kr44rt2x848q9m52gvp5k6t0ds5egrlv.perferendisdeleniti",
+  "type": "factory",
+  "symbol": "PERFERENDISDELENITI",
+  "name": "Perferendisdeleniti",
+  "decimals": 6,
+  "display_denom": "PERFERENDISDELENITI",
+  "base_denom": "coin.zig130nj0zystp46wh2vlme3q0gk70kr44rt2x848q9m52gvp5k6t0ds5egrlv.perferendisdeleniti",
+  "creator": "zig130nj0zystp46wh2vlme3q0gk70kr44rt2x848q9m52gvp5k6t0ds5egrlv",
+  "subdenom": "perferendisdeleniti",
+  "denom_units": [
+    {
+      "denom": "coin.zig130nj0zystp46wh2vlme3q0gk70kr44rt2x848q9m52gvp5k6t0ds5egrlv.perferendisdeleniti",
+      "exponent": 0
+    },
+    {
+      "denom": "PERFERENDISDELENITI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

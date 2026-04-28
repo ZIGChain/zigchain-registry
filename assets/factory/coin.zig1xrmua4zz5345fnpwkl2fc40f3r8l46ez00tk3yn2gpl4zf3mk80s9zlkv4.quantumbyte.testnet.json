@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1xrmua4zz5345fnpwkl2fc40f3r8l46ez00tk3yn2gpl4zf3mk80s9zlkv4.quantumbyte",
+  "type": "factory",
+  "symbol": "QUANTUMBYTE",
+  "name": "Quantumbyte",
+  "decimals": 6,
+  "display_denom": "QUANTUMBYTE",
+  "base_denom": "coin.zig1xrmua4zz5345fnpwkl2fc40f3r8l46ez00tk3yn2gpl4zf3mk80s9zlkv4.quantumbyte",
+  "creator": "zig1xrmua4zz5345fnpwkl2fc40f3r8l46ez00tk3yn2gpl4zf3mk80s9zlkv4",
+  "subdenom": "quantumbyte",
+  "denom_units": [
+    {
+      "denom": "coin.zig1xrmua4zz5345fnpwkl2fc40f3r8l46ez00tk3yn2gpl4zf3mk80s9zlkv4.quantumbyte",
+      "exponent": 0
+    },
+    {
+      "denom": "QUANTUMBYTE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

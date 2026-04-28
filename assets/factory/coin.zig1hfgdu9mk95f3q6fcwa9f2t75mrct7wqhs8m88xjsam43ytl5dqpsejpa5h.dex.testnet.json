@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hfgdu9mk95f3q6fcwa9f2t75mrct7wqhs8m88xjsam43ytl5dqpsejpa5h.dex",
+  "type": "factory",
+  "symbol": "DEX",
+  "name": "Dex",
+  "decimals": 6,
+  "display_denom": "DEX",
+  "base_denom": "coin.zig1hfgdu9mk95f3q6fcwa9f2t75mrct7wqhs8m88xjsam43ytl5dqpsejpa5h.dex",
+  "creator": "zig1hfgdu9mk95f3q6fcwa9f2t75mrct7wqhs8m88xjsam43ytl5dqpsejpa5h",
+  "subdenom": "dex",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hfgdu9mk95f3q6fcwa9f2t75mrct7wqhs8m88xjsam43ytl5dqpsejpa5h.dex",
+      "exponent": 0
+    },
+    {
+      "denom": "DEX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

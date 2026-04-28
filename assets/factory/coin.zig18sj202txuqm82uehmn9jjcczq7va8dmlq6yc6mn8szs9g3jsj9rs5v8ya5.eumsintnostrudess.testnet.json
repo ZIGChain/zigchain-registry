@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18sj202txuqm82uehmn9jjcczq7va8dmlq6yc6mn8szs9g3jsj9rs5v8ya5.eumsintnostrudess",
+  "type": "factory",
+  "symbol": "EUMSINTNOSTRUDESS",
+  "name": "Eumsintnostrudess",
+  "decimals": 6,
+  "display_denom": "EUMSINTNOSTRUDESS",
+  "base_denom": "coin.zig18sj202txuqm82uehmn9jjcczq7va8dmlq6yc6mn8szs9g3jsj9rs5v8ya5.eumsintnostrudess",
+  "creator": "zig18sj202txuqm82uehmn9jjcczq7va8dmlq6yc6mn8szs9g3jsj9rs5v8ya5",
+  "subdenom": "eumsintnostrudess",
+  "denom_units": [
+    {
+      "denom": "coin.zig18sj202txuqm82uehmn9jjcczq7va8dmlq6yc6mn8szs9g3jsj9rs5v8ya5.eumsintnostrudess",
+      "exponent": 0
+    },
+    {
+      "denom": "EUMSINTNOSTRUDESS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

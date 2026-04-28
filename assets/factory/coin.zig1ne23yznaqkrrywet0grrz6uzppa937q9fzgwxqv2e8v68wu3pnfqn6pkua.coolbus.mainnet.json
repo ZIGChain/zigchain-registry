@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1ne23yznaqkrrywet0grrz6uzppa937q9fzgwxqv2e8v68wu3pnfqn6pkua.coolbus",
+  "type": "factory",
+  "symbol": "COOLBUS",
+  "name": "Coolbus",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1ne23yznaqkrrywet0grrz6uzppa937q9fzgwxqv2e8v68wu3pnfqn6pkua.coolbus",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1ne23yznaqkrrywet0grrz6uzppa937q9fzgwxqv2e8v68wu3pnfqn6pkua.coolbus",
+  "base_denom": "coin.zig1ne23yznaqkrrywet0grrz6uzppa937q9fzgwxqv2e8v68wu3pnfqn6pkua.coolbus",
+  "creator": "zig1ne23yznaqkrrywet0grrz6uzppa937q9fzgwxqv2e8v68wu3pnfqn6pkua",
+  "subdenom": "coolbus",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

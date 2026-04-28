@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1lgd7hlrz4c8r2kkakzauh4sqkk42tjetjj8c66gkk5hd5slt7sess3ne2w.velenimcilluminq",
+  "type": "factory",
+  "symbol": "VELENIMCILLUMINQ",
+  "name": "Velenimcilluminq",
+  "decimals": 6,
+  "display_denom": "VELENIMCILLUMINQ",
+  "base_denom": "coin.zig1lgd7hlrz4c8r2kkakzauh4sqkk42tjetjj8c66gkk5hd5slt7sess3ne2w.velenimcilluminq",
+  "creator": "zig1lgd7hlrz4c8r2kkakzauh4sqkk42tjetjj8c66gkk5hd5slt7sess3ne2w",
+  "subdenom": "velenimcilluminq",
+  "denom_units": [
+    {
+      "denom": "coin.zig1lgd7hlrz4c8r2kkakzauh4sqkk42tjetjj8c66gkk5hd5slt7sess3ne2w.velenimcilluminq",
+      "exponent": 0
+    },
+    {
+      "denom": "VELENIMCILLUMINQ",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

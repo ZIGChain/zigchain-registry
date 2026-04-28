@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe.smok",
+  "type": "factory",
+  "symbol": "SMOK",
+  "name": "Smok",
+  "decimals": 6,
+  "display_denom": "SMOK",
+  "base_denom": "coin.zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe.smok",
+  "creator": "zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe",
+  "subdenom": "smok",
+  "denom_units": [
+    {
+      "denom": "coin.zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe.smok",
+      "exponent": 0
+    },
+    {
+      "denom": "SMOK",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

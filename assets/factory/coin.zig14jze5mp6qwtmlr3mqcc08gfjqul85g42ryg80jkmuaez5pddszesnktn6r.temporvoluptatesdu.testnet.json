@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14jze5mp6qwtmlr3mqcc08gfjqul85g42ryg80jkmuaez5pddszesnktn6r.temporvoluptatesdu",
+  "type": "factory",
+  "symbol": "TEMPORVOLUPTATESDU",
+  "name": "Temporvoluptatesdu",
+  "decimals": 6,
+  "display_denom": "TEMPORVOLUPTATESDU",
+  "base_denom": "coin.zig14jze5mp6qwtmlr3mqcc08gfjqul85g42ryg80jkmuaez5pddszesnktn6r.temporvoluptatesdu",
+  "creator": "zig14jze5mp6qwtmlr3mqcc08gfjqul85g42ryg80jkmuaez5pddszesnktn6r",
+  "subdenom": "temporvoluptatesdu",
+  "denom_units": [
+    {
+      "denom": "coin.zig14jze5mp6qwtmlr3mqcc08gfjqul85g42ryg80jkmuaez5pddszesnktn6r.temporvoluptatesdu",
+      "exponent": 0
+    },
+    {
+      "denom": "TEMPORVOLUPTATESDU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

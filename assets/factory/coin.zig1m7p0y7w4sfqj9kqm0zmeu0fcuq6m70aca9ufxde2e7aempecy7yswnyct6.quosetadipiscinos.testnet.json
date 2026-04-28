@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1m7p0y7w4sfqj9kqm0zmeu0fcuq6m70aca9ufxde2e7aempecy7yswnyct6.quosetadipiscinos",
+  "type": "factory",
+  "symbol": "QUOSETADIPISCINOS",
+  "name": "Quosetadipiscinos",
+  "decimals": 6,
+  "display_denom": "QUOSETADIPISCINOS",
+  "base_denom": "coin.zig1m7p0y7w4sfqj9kqm0zmeu0fcuq6m70aca9ufxde2e7aempecy7yswnyct6.quosetadipiscinos",
+  "creator": "zig1m7p0y7w4sfqj9kqm0zmeu0fcuq6m70aca9ufxde2e7aempecy7yswnyct6",
+  "subdenom": "quosetadipiscinos",
+  "denom_units": [
+    {
+      "denom": "coin.zig1m7p0y7w4sfqj9kqm0zmeu0fcuq6m70aca9ufxde2e7aempecy7yswnyct6.quosetadipiscinos",
+      "exponent": 0
+    },
+    {
+      "denom": "QUOSETADIPISCINOS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

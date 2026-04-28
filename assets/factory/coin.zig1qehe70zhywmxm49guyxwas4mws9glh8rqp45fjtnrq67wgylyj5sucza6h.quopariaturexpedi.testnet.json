@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qehe70zhywmxm49guyxwas4mws9glh8rqp45fjtnrq67wgylyj5sucza6h.quopariaturexpedi",
+  "type": "factory",
+  "symbol": "QUOPARIATUREXPEDI",
+  "name": "Quopariaturexpedi",
+  "decimals": 6,
+  "display_denom": "QUOPARIATUREXPEDI",
+  "base_denom": "coin.zig1qehe70zhywmxm49guyxwas4mws9glh8rqp45fjtnrq67wgylyj5sucza6h.quopariaturexpedi",
+  "creator": "zig1qehe70zhywmxm49guyxwas4mws9glh8rqp45fjtnrq67wgylyj5sucza6h",
+  "subdenom": "quopariaturexpedi",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qehe70zhywmxm49guyxwas4mws9glh8rqp45fjtnrq67wgylyj5sucza6h.quopariaturexpedi",
+      "exponent": 0
+    },
+    {
+      "denom": "QUOPARIATUREXPEDI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1n8qcvae0wf4ylu7ue4j7ms33jxpxqrz26zer9qfgunl5rjk30cnqyfk4gh.quisexercitationeu",
+  "type": "factory",
+  "symbol": "QUISEXERCITATIONEU",
+  "name": "Quisexercitationeu",
+  "decimals": 6,
+  "display_denom": "QUISEXERCITATIONEU",
+  "base_denom": "coin.zig1n8qcvae0wf4ylu7ue4j7ms33jxpxqrz26zer9qfgunl5rjk30cnqyfk4gh.quisexercitationeu",
+  "creator": "zig1n8qcvae0wf4ylu7ue4j7ms33jxpxqrz26zer9qfgunl5rjk30cnqyfk4gh",
+  "subdenom": "quisexercitationeu",
+  "denom_units": [
+    {
+      "denom": "coin.zig1n8qcvae0wf4ylu7ue4j7ms33jxpxqrz26zer9qfgunl5rjk30cnqyfk4gh.quisexercitationeu",
+      "exponent": 0
+    },
+    {
+      "denom": "QUISEXERCITATIONEU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

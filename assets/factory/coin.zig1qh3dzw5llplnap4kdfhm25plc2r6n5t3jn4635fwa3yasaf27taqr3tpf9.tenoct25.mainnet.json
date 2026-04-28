@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1qh3dzw5llplnap4kdfhm25plc2r6n5t3jn4635fwa3yasaf27taqr3tpf9.tenoct25",
+  "type": "factory",
+  "symbol": "TENOCT25",
+  "name": "Tenoct25",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1qh3dzw5llplnap4kdfhm25plc2r6n5t3jn4635fwa3yasaf27taqr3tpf9.tenoct25",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1qh3dzw5llplnap4kdfhm25plc2r6n5t3jn4635fwa3yasaf27taqr3tpf9.tenoct25",
+  "base_denom": "coin.zig1qh3dzw5llplnap4kdfhm25plc2r6n5t3jn4635fwa3yasaf27taqr3tpf9.tenoct25",
+  "creator": "zig1qh3dzw5llplnap4kdfhm25plc2r6n5t3jn4635fwa3yasaf27taqr3tpf9",
+  "subdenom": "tenoct25",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

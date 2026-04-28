@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14a8lzfytwxlasyvu43qpjtp5wy55jd4228hu8tj8wwj9ewzg2yzqlxmrkq.quaesedquaeratqui",
+  "type": "factory",
+  "symbol": "QUAESEDQUAERATQUI",
+  "name": "Quaesedquaeratqui",
+  "decimals": 6,
+  "display_denom": "QUAESEDQUAERATQUI",
+  "base_denom": "coin.zig14a8lzfytwxlasyvu43qpjtp5wy55jd4228hu8tj8wwj9ewzg2yzqlxmrkq.quaesedquaeratqui",
+  "creator": "zig14a8lzfytwxlasyvu43qpjtp5wy55jd4228hu8tj8wwj9ewzg2yzqlxmrkq",
+  "subdenom": "quaesedquaeratqui",
+  "denom_units": [
+    {
+      "denom": "coin.zig14a8lzfytwxlasyvu43qpjtp5wy55jd4228hu8tj8wwj9ewzg2yzqlxmrkq.quaesedquaeratqui",
+      "exponent": 0
+    },
+    {
+      "denom": "QUAESEDQUAERATQUI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

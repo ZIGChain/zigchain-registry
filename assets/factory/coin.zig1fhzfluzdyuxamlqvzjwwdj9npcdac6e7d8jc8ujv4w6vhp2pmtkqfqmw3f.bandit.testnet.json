@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1fhzfluzdyuxamlqvzjwwdj9npcdac6e7d8jc8ujv4w6vhp2pmtkqfqmw3f.bandit",
+  "type": "factory",
+  "symbol": "BANDIT",
+  "name": "Bandit",
+  "decimals": 6,
+  "display_denom": "BANDIT",
+  "base_denom": "coin.zig1fhzfluzdyuxamlqvzjwwdj9npcdac6e7d8jc8ujv4w6vhp2pmtkqfqmw3f.bandit",
+  "creator": "zig1fhzfluzdyuxamlqvzjwwdj9npcdac6e7d8jc8ujv4w6vhp2pmtkqfqmw3f",
+  "subdenom": "bandit",
+  "denom_units": [
+    {
+      "denom": "coin.zig1fhzfluzdyuxamlqvzjwwdj9npcdac6e7d8jc8ujv4w6vhp2pmtkqfqmw3f.bandit",
+      "exponent": 0
+    },
+    {
+      "denom": "BANDIT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

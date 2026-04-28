@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1fx4uq76j325r3xza6e6p3wjfgtz34znwxvczxg0dx58m0wrzrl3qjp530d.rbycoin",
+  "type": "factory",
+  "symbol": "RBYCOIN",
+  "name": "Rbycoin",
+  "decimals": 6,
+  "display_denom": "RBYCOIN",
+  "base_denom": "coin.zig1fx4uq76j325r3xza6e6p3wjfgtz34znwxvczxg0dx58m0wrzrl3qjp530d.rbycoin",
+  "creator": "zig1fx4uq76j325r3xza6e6p3wjfgtz34znwxvczxg0dx58m0wrzrl3qjp530d",
+  "subdenom": "rbycoin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1fx4uq76j325r3xza6e6p3wjfgtz34znwxvczxg0dx58m0wrzrl3qjp530d.rbycoin",
+      "exponent": 0
+    },
+    {
+      "denom": "RBYCOIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

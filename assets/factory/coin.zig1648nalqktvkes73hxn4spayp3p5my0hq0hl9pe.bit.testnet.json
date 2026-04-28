@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe.bit",
+  "type": "factory",
+  "symbol": "BIT",
+  "name": "Bit",
+  "decimals": 6,
+  "display_denom": "BIT",
+  "base_denom": "coin.zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe.bit",
+  "creator": "zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe",
+  "subdenom": "bit",
+  "denom_units": [
+    {
+      "denom": "coin.zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe.bit",
+      "exponent": 0
+    },
+    {
+      "denom": "BIT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1jqyza70spvpkq5z38wdtmg9fah4u0srf3w3258nsw8vkyp0javusuzfl55.fartcoin",
+  "type": "factory",
+  "symbol": "FARTCOIN",
+  "name": "Fartcoin",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1jqyza70spvpkq5z38wdtmg9fah4u0srf3w3258nsw8vkyp0javusuzfl55.fartcoin",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1jqyza70spvpkq5z38wdtmg9fah4u0srf3w3258nsw8vkyp0javusuzfl55.fartcoin",
+  "base_denom": "coin.zig1jqyza70spvpkq5z38wdtmg9fah4u0srf3w3258nsw8vkyp0javusuzfl55.fartcoin",
+  "creator": "zig1jqyza70spvpkq5z38wdtmg9fah4u0srf3w3258nsw8vkyp0javusuzfl55",
+  "subdenom": "fartcoin",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

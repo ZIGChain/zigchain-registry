@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rlsv309h69y008ref74xc847afz4fssgdmg59f.fuckoff",
+  "type": "factory",
+  "symbol": "FUCKOFF",
+  "name": "Fuckoff",
+  "decimals": 6,
+  "display_denom": "FUCKOFF",
+  "base_denom": "coin.zig1rlsv309h69y008ref74xc847afz4fssgdmg59f.fuckoff",
+  "creator": "zig1rlsv309h69y008ref74xc847afz4fssgdmg59f",
+  "subdenom": "fuckoff",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rlsv309h69y008ref74xc847afz4fssgdmg59f.fuckoff",
+      "exponent": 0
+    },
+    {
+      "denom": "FUCKOFF",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

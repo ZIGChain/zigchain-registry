@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1c3ndw42kwd3nx37z3qjyxs88xun5j05d6k3huhzsrukdpxlk80msra8lzu.perfect",
+  "type": "factory",
+  "symbol": "PERFECT",
+  "name": "Perfect",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1c3ndw42kwd3nx37z3qjyxs88xun5j05d6k3huhzsrukdpxlk80msra8lzu.perfect",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1c3ndw42kwd3nx37z3qjyxs88xun5j05d6k3huhzsrukdpxlk80msra8lzu.perfect",
+  "base_denom": "coin.zig1c3ndw42kwd3nx37z3qjyxs88xun5j05d6k3huhzsrukdpxlk80msra8lzu.perfect",
+  "creator": "zig1c3ndw42kwd3nx37z3qjyxs88xun5j05d6k3huhzsrukdpxlk80msra8lzu",
+  "subdenom": "perfect",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

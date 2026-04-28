@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1jtunpkazz098z5xjgnh90x8m2x93z4w4u2gq0w9kecs45usjmgvsc4fyha.ikea",
+  "type": "factory",
+  "symbol": "IKEA",
+  "name": "Ikea",
+  "decimals": 6,
+  "display_denom": "IKEA",
+  "base_denom": "coin.zig1jtunpkazz098z5xjgnh90x8m2x93z4w4u2gq0w9kecs45usjmgvsc4fyha.ikea",
+  "creator": "zig1jtunpkazz098z5xjgnh90x8m2x93z4w4u2gq0w9kecs45usjmgvsc4fyha",
+  "subdenom": "ikea",
+  "denom_units": [
+    {
+      "denom": "coin.zig1jtunpkazz098z5xjgnh90x8m2x93z4w4u2gq0w9kecs45usjmgvsc4fyha.ikea",
+      "exponent": 0
+    },
+    {
+      "denom": "IKEA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

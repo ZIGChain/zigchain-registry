@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15p9sqp52ms23cjjdd04q3kxlar6wzf98xyv40sa2ed4zg2lx0mjq6x8gpn.animdelenitivelqu",
+  "type": "factory",
+  "symbol": "ANIMDELENITIVELQU",
+  "name": "Animdelenitivelqu",
+  "decimals": 6,
+  "display_denom": "ANIMDELENITIVELQU",
+  "base_denom": "coin.zig15p9sqp52ms23cjjdd04q3kxlar6wzf98xyv40sa2ed4zg2lx0mjq6x8gpn.animdelenitivelqu",
+  "creator": "zig15p9sqp52ms23cjjdd04q3kxlar6wzf98xyv40sa2ed4zg2lx0mjq6x8gpn",
+  "subdenom": "animdelenitivelqu",
+  "denom_units": [
+    {
+      "denom": "coin.zig15p9sqp52ms23cjjdd04q3kxlar6wzf98xyv40sa2ed4zg2lx0mjq6x8gpn.animdelenitivelqu",
+      "exponent": 0
+    },
+    {
+      "denom": "ANIMDELENITIVELQU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

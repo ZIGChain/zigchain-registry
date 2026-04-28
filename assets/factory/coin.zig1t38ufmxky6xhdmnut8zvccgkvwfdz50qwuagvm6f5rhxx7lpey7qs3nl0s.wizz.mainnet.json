@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1t38ufmxky6xhdmnut8zvccgkvwfdz50qwuagvm6f5rhxx7lpey7qs3nl0s.wizz",
+  "type": "factory",
+  "symbol": "WIZZ",
+  "name": "Wizz",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1t38ufmxky6xhdmnut8zvccgkvwfdz50qwuagvm6f5rhxx7lpey7qs3nl0s.wizz",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1t38ufmxky6xhdmnut8zvccgkvwfdz50qwuagvm6f5rhxx7lpey7qs3nl0s.wizz",
+  "base_denom": "coin.zig1t38ufmxky6xhdmnut8zvccgkvwfdz50qwuagvm6f5rhxx7lpey7qs3nl0s.wizz",
+  "creator": "zig1t38ufmxky6xhdmnut8zvccgkvwfdz50qwuagvm6f5rhxx7lpey7qs3nl0s",
+  "subdenom": "wizz",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

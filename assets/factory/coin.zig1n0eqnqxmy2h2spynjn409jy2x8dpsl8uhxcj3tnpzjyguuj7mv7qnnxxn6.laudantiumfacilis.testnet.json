@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1n0eqnqxmy2h2spynjn409jy2x8dpsl8uhxcj3tnpzjyguuj7mv7qnnxxn6.laudantiumfacilis",
+  "type": "factory",
+  "symbol": "LAUDANTIUMFACILIS",
+  "name": "Laudantiumfacilis",
+  "decimals": 6,
+  "display_denom": "LAUDANTIUMFACILIS",
+  "base_denom": "coin.zig1n0eqnqxmy2h2spynjn409jy2x8dpsl8uhxcj3tnpzjyguuj7mv7qnnxxn6.laudantiumfacilis",
+  "creator": "zig1n0eqnqxmy2h2spynjn409jy2x8dpsl8uhxcj3tnpzjyguuj7mv7qnnxxn6",
+  "subdenom": "laudantiumfacilis",
+  "denom_units": [
+    {
+      "denom": "coin.zig1n0eqnqxmy2h2spynjn409jy2x8dpsl8uhxcj3tnpzjyguuj7mv7qnnxxn6.laudantiumfacilis",
+      "exponent": 0
+    },
+    {
+      "denom": "LAUDANTIUMFACILIS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

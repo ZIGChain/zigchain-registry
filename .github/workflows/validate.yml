@@ -1,0 +1,54 @@
+name: Validate Assets
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Generate JSON Schemas
+        run: |
+          python3 scripts/generate_schemas.py
+
+      - name: Validate JSON Schemas
+        run: |
+          python3 -c "
+          import json
+          import sys
+          from pathlib import Path
+
+          schemas_dir = Path('schemas')
+          errors = []
+
+          for schema_file in schemas_dir.glob('*.json'):
+              try:
+                  with open(schema_file, 'r') as f:
+                      json.load(f)
+                  print(f'✅ {schema_file.name} is valid JSON')
+              except json.JSONDecodeError as e:
+                  errors.append(f'{schema_file.name}: {e}')
+                  print(f'❌ {schema_file.name} is invalid JSON: {e}')
+
+          if errors:
+              sys.exit(1)
+          "
+
+      - name: Validate Assets
+        run: |
+          python3 scripts/validate_assets.py --repo-root .

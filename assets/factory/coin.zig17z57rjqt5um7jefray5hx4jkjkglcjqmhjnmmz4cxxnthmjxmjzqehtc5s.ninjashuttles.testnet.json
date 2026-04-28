@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17z57rjqt5um7jefray5hx4jkjkglcjqmhjnmmz4cxxnthmjxmjzqehtc5s.ninjashuttles",
+  "type": "factory",
+  "symbol": "NINJASHUTTLES",
+  "name": "Ninjashuttles",
+  "decimals": 6,
+  "display_denom": "NINJASHUTTLES",
+  "base_denom": "coin.zig17z57rjqt5um7jefray5hx4jkjkglcjqmhjnmmz4cxxnthmjxmjzqehtc5s.ninjashuttles",
+  "creator": "zig17z57rjqt5um7jefray5hx4jkjkglcjqmhjnmmz4cxxnthmjxmjzqehtc5s",
+  "subdenom": "ninjashuttles",
+  "denom_units": [
+    {
+      "denom": "coin.zig17z57rjqt5um7jefray5hx4jkjkglcjqmhjnmmz4cxxnthmjxmjzqehtc5s.ninjashuttles",
+      "exponent": 0
+    },
+    {
+      "denom": "NINJASHUTTLES",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

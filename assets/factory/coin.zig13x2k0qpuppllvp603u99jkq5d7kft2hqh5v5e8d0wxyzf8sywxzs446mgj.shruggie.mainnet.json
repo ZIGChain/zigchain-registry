@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig13x2k0qpuppllvp603u99jkq5d7kft2hqh5v5e8d0wxyzf8sywxzs446mgj.shruggie",
+  "type": "factory",
+  "symbol": "SHRUGGIE",
+  "name": "Shruggie",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig13x2k0qpuppllvp603u99jkq5d7kft2hqh5v5e8d0wxyzf8sywxzs446mgj.shruggie",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig13x2k0qpuppllvp603u99jkq5d7kft2hqh5v5e8d0wxyzf8sywxzs446mgj.shruggie",
+  "base_denom": "coin.zig13x2k0qpuppllvp603u99jkq5d7kft2hqh5v5e8d0wxyzf8sywxzs446mgj.shruggie",
+  "creator": "zig13x2k0qpuppllvp603u99jkq5d7kft2hqh5v5e8d0wxyzf8sywxzs446mgj",
+  "subdenom": "shruggie",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

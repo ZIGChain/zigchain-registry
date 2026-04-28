@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1lhqj06vgla3qn8y7ucft2mqj64n32x8asy9qetvmzw957smkkxqq2w9wxg.leftover",
+  "type": "factory",
+  "symbol": "LEFTOVER",
+  "name": "Leftover",
+  "decimals": 6,
+  "display_denom": "LEFTOVER",
+  "base_denom": "coin.zig1lhqj06vgla3qn8y7ucft2mqj64n32x8asy9qetvmzw957smkkxqq2w9wxg.leftover",
+  "creator": "zig1lhqj06vgla3qn8y7ucft2mqj64n32x8asy9qetvmzw957smkkxqq2w9wxg",
+  "subdenom": "leftover",
+  "denom_units": [
+    {
+      "denom": "coin.zig1lhqj06vgla3qn8y7ucft2mqj64n32x8asy9qetvmzw957smkkxqq2w9wxg.leftover",
+      "exponent": 0
+    },
+    {
+      "denom": "LEFTOVER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

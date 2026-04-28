@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hh4l79hg0dgrlwv3ufv0f67976e9l26sdur52073vlx9lsx62cuqzg2mwn.doloreabconsequatu",
+  "type": "factory",
+  "symbol": "DOLOREABCONSEQUATU",
+  "name": "Doloreabconsequatu",
+  "decimals": 6,
+  "display_denom": "DOLOREABCONSEQUATU",
+  "base_denom": "coin.zig1hh4l79hg0dgrlwv3ufv0f67976e9l26sdur52073vlx9lsx62cuqzg2mwn.doloreabconsequatu",
+  "creator": "zig1hh4l79hg0dgrlwv3ufv0f67976e9l26sdur52073vlx9lsx62cuqzg2mwn",
+  "subdenom": "doloreabconsequatu",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hh4l79hg0dgrlwv3ufv0f67976e9l26sdur52073vlx9lsx62cuqzg2mwn.doloreabconsequatu",
+      "exponent": 0
+    },
+    {
+      "denom": "DOLOREABCONSEQUATU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

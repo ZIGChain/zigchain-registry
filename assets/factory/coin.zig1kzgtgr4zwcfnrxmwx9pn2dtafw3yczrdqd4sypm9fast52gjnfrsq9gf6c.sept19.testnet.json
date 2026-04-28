@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1kzgtgr4zwcfnrxmwx9pn2dtafw3yczrdqd4sypm9fast52gjnfrsq9gf6c.sept19",
+  "type": "factory",
+  "symbol": "SEPT19",
+  "name": "Sept19",
+  "decimals": 6,
+  "display_denom": "SEPT19",
+  "base_denom": "coin.zig1kzgtgr4zwcfnrxmwx9pn2dtafw3yczrdqd4sypm9fast52gjnfrsq9gf6c.sept19",
+  "creator": "zig1kzgtgr4zwcfnrxmwx9pn2dtafw3yczrdqd4sypm9fast52gjnfrsq9gf6c",
+  "subdenom": "sept19",
+  "denom_units": [
+    {
+      "denom": "coin.zig1kzgtgr4zwcfnrxmwx9pn2dtafw3yczrdqd4sypm9fast52gjnfrsq9gf6c.sept19",
+      "exponent": 0
+    },
+    {
+      "denom": "SEPT19",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig170y5lq7n2dqq67zkdsvge7vjlzuqldc5yw03guxutkku292wa70qek2e00.neurocoin",
+  "type": "factory",
+  "symbol": "NEUROCOIN",
+  "name": "Neurocoin",
+  "decimals": 6,
+  "display_denom": "NEUROCOIN",
+  "base_denom": "coin.zig170y5lq7n2dqq67zkdsvge7vjlzuqldc5yw03guxutkku292wa70qek2e00.neurocoin",
+  "creator": "zig170y5lq7n2dqq67zkdsvge7vjlzuqldc5yw03guxutkku292wa70qek2e00",
+  "subdenom": "neurocoin",
+  "denom_units": [
+    {
+      "denom": "coin.zig170y5lq7n2dqq67zkdsvge7vjlzuqldc5yw03guxutkku292wa70qek2e00.neurocoin",
+      "exponent": 0
+    },
+    {
+      "denom": "NEUROCOIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

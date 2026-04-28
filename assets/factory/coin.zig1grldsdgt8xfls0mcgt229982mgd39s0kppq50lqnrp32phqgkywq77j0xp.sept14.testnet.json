@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1grldsdgt8xfls0mcgt229982mgd39s0kppq50lqnrp32phqgkywq77j0xp.sept14",
+  "type": "factory",
+  "symbol": "SEPT14",
+  "name": "Sept14",
+  "decimals": 6,
+  "display_denom": "SEPT14",
+  "base_denom": "coin.zig1grldsdgt8xfls0mcgt229982mgd39s0kppq50lqnrp32phqgkywq77j0xp.sept14",
+  "creator": "zig1grldsdgt8xfls0mcgt229982mgd39s0kppq50lqnrp32phqgkywq77j0xp",
+  "subdenom": "sept14",
+  "denom_units": [
+    {
+      "denom": "coin.zig1grldsdgt8xfls0mcgt229982mgd39s0kppq50lqnrp32phqgkywq77j0xp.sept14",
+      "exponent": 0
+    },
+    {
+      "denom": "SEPT14",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qcgtltyje56e2gwnrtf0sd88dc8q6g3j9w88gt0uhp7lwytse6tsk9cjy3.etculpaconsequatu",
+  "type": "factory",
+  "symbol": "ETCULPACONSEQUATU",
+  "name": "Etculpaconsequatu",
+  "decimals": 6,
+  "display_denom": "ETCULPACONSEQUATU",
+  "base_denom": "coin.zig1qcgtltyje56e2gwnrtf0sd88dc8q6g3j9w88gt0uhp7lwytse6tsk9cjy3.etculpaconsequatu",
+  "creator": "zig1qcgtltyje56e2gwnrtf0sd88dc8q6g3j9w88gt0uhp7lwytse6tsk9cjy3",
+  "subdenom": "etculpaconsequatu",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qcgtltyje56e2gwnrtf0sd88dc8q6g3j9w88gt0uhp7lwytse6tsk9cjy3.etculpaconsequatu",
+      "exponent": 0
+    },
+    {
+      "denom": "ETCULPACONSEQUATU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

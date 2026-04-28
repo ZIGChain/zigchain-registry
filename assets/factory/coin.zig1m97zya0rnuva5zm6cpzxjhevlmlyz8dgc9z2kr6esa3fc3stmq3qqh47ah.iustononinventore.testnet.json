@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1m97zya0rnuva5zm6cpzxjhevlmlyz8dgc9z2kr6esa3fc3stmq3qqh47ah.iustononinventore",
+  "type": "factory",
+  "symbol": "IUSTONONINVENTORE",
+  "name": "Iustononinventore",
+  "decimals": 6,
+  "display_denom": "IUSTONONINVENTORE",
+  "base_denom": "coin.zig1m97zya0rnuva5zm6cpzxjhevlmlyz8dgc9z2kr6esa3fc3stmq3qqh47ah.iustononinventore",
+  "creator": "zig1m97zya0rnuva5zm6cpzxjhevlmlyz8dgc9z2kr6esa3fc3stmq3qqh47ah",
+  "subdenom": "iustononinventore",
+  "denom_units": [
+    {
+      "denom": "coin.zig1m97zya0rnuva5zm6cpzxjhevlmlyz8dgc9z2kr6esa3fc3stmq3qqh47ah.iustononinventore",
+      "exponent": 0
+    },
+    {
+      "denom": "IUSTONONINVENTORE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

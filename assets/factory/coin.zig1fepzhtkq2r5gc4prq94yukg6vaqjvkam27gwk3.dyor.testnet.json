@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1fepzhtkq2r5gc4prq94yukg6vaqjvkam27gwk3.dyor",
+  "type": "factory",
+  "symbol": "DYOR",
+  "name": "Dyor",
+  "decimals": 6,
+  "display_denom": "DYOR",
+  "base_denom": "coin.zig1fepzhtkq2r5gc4prq94yukg6vaqjvkam27gwk3.dyor",
+  "creator": "zig1fepzhtkq2r5gc4prq94yukg6vaqjvkam27gwk3",
+  "subdenom": "dyor",
+  "denom_units": [
+    {
+      "denom": "coin.zig1fepzhtkq2r5gc4prq94yukg6vaqjvkam27gwk3.dyor",
+      "exponent": 0
+    },
+    {
+      "denom": "DYOR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

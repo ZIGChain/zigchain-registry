@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1fkshdtpjjkz8f0lrd4kh6uaefmrrmeacq8ewu92c9rlq9ha5afhqzf844d.argsanta",
+  "type": "factory",
+  "symbol": "ARGSANTA",
+  "name": "Argsanta",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1fkshdtpjjkz8f0lrd4kh6uaefmrrmeacq8ewu92c9rlq9ha5afhqzf844d.argsanta",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1fkshdtpjjkz8f0lrd4kh6uaefmrrmeacq8ewu92c9rlq9ha5afhqzf844d.argsanta",
+  "base_denom": "coin.zig1fkshdtpjjkz8f0lrd4kh6uaefmrrmeacq8ewu92c9rlq9ha5afhqzf844d.argsanta",
+  "creator": "zig1fkshdtpjjkz8f0lrd4kh6uaefmrrmeacq8ewu92c9rlq9ha5afhqzf844d",
+  "subdenom": "argsanta",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

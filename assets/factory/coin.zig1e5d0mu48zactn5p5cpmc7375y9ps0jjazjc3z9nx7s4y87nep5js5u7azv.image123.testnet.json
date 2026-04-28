@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1e5d0mu48zactn5p5cpmc7375y9ps0jjazjc3z9nx7s4y87nep5js5u7azv.image123",
+  "type": "factory",
+  "symbol": "IMAGE123",
+  "name": "Image123",
+  "decimals": 6,
+  "display_denom": "IMAGE123",
+  "base_denom": "coin.zig1e5d0mu48zactn5p5cpmc7375y9ps0jjazjc3z9nx7s4y87nep5js5u7azv.image123",
+  "creator": "zig1e5d0mu48zactn5p5cpmc7375y9ps0jjazjc3z9nx7s4y87nep5js5u7azv",
+  "subdenom": "image123",
+  "denom_units": [
+    {
+      "denom": "coin.zig1e5d0mu48zactn5p5cpmc7375y9ps0jjazjc3z9nx7s4y87nep5js5u7azv.image123",
+      "exponent": 0
+    },
+    {
+      "denom": "IMAGE123",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

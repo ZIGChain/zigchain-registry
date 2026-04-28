@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ya3whhcvq3qxjsxys5fjkj3zlxpf3s7235fdly0hehlwuy0l2pdqf5ymzu.bee2",
+  "type": "factory",
+  "symbol": "BEE2",
+  "name": "Bee2",
+  "decimals": 6,
+  "display_denom": "BEE2",
+  "base_denom": "coin.zig1ya3whhcvq3qxjsxys5fjkj3zlxpf3s7235fdly0hehlwuy0l2pdqf5ymzu.bee2",
+  "creator": "zig1ya3whhcvq3qxjsxys5fjkj3zlxpf3s7235fdly0hehlwuy0l2pdqf5ymzu",
+  "subdenom": "bee2",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ya3whhcvq3qxjsxys5fjkj3zlxpf3s7235fdly0hehlwuy0l2pdqf5ymzu.bee2",
+      "exponent": 0
+    },
+    {
+      "denom": "BEE2",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

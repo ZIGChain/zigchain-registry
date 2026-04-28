@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18078936m7w5mkcfsna3j9k94d6drdmct4uywrp9ew8kfa4mxf6ssmv0cwp.spongebob",
+  "type": "factory",
+  "symbol": "SPONGEBOB",
+  "name": "Spongebob",
+  "decimals": 6,
+  "display_denom": "SPONGEBOB",
+  "base_denom": "coin.zig18078936m7w5mkcfsna3j9k94d6drdmct4uywrp9ew8kfa4mxf6ssmv0cwp.spongebob",
+  "creator": "zig18078936m7w5mkcfsna3j9k94d6drdmct4uywrp9ew8kfa4mxf6ssmv0cwp",
+  "subdenom": "spongebob",
+  "denom_units": [
+    {
+      "denom": "coin.zig18078936m7w5mkcfsna3j9k94d6drdmct4uywrp9ew8kfa4mxf6ssmv0cwp.spongebob",
+      "exponent": 0
+    },
+    {
+      "denom": "SPONGEBOB",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

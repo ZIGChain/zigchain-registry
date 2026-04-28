@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1cxt69nphejw6qwn6dj5ck3u6dc9v9jnndgfp77kvfptd0q95etesmy9w7d.explicaboomnisduc",
+  "type": "factory",
+  "symbol": "EXPLICABOOMNISDUC",
+  "name": "Explicaboomnisduc",
+  "decimals": 6,
+  "display_denom": "EXPLICABOOMNISDUC",
+  "base_denom": "coin.zig1cxt69nphejw6qwn6dj5ck3u6dc9v9jnndgfp77kvfptd0q95etesmy9w7d.explicaboomnisduc",
+  "creator": "zig1cxt69nphejw6qwn6dj5ck3u6dc9v9jnndgfp77kvfptd0q95etesmy9w7d",
+  "subdenom": "explicaboomnisduc",
+  "denom_units": [
+    {
+      "denom": "coin.zig1cxt69nphejw6qwn6dj5ck3u6dc9v9jnndgfp77kvfptd0q95etesmy9w7d.explicaboomnisduc",
+      "exponent": 0
+    },
+    {
+      "denom": "EXPLICABOOMNISDUC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

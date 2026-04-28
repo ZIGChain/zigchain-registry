@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1fz5a9vc5tme84d0psulmrfvr6z5af96u8agq6kfhnf98x0wn4m2s8g4pla.nobisevenietducim",
+  "type": "factory",
+  "symbol": "NOBISEVENIETDUCIM",
+  "name": "Nobisevenietducim",
+  "decimals": 6,
+  "display_denom": "NOBISEVENIETDUCIM",
+  "base_denom": "coin.zig1fz5a9vc5tme84d0psulmrfvr6z5af96u8agq6kfhnf98x0wn4m2s8g4pla.nobisevenietducim",
+  "creator": "zig1fz5a9vc5tme84d0psulmrfvr6z5af96u8agq6kfhnf98x0wn4m2s8g4pla",
+  "subdenom": "nobisevenietducim",
+  "denom_units": [
+    {
+      "denom": "coin.zig1fz5a9vc5tme84d0psulmrfvr6z5af96u8agq6kfhnf98x0wn4m2s8g4pla.nobisevenietducim",
+      "exponent": 0
+    },
+    {
+      "denom": "NOBISEVENIETDUCIM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

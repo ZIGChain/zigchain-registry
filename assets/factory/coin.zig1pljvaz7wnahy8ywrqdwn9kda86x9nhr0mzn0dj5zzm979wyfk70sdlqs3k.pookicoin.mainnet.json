@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1pljvaz7wnahy8ywrqdwn9kda86x9nhr0mzn0dj5zzm979wyfk70sdlqs3k.pookicoin",
+  "type": "factory",
+  "symbol": "POOKICOIN",
+  "name": "Pookicoin",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1pljvaz7wnahy8ywrqdwn9kda86x9nhr0mzn0dj5zzm979wyfk70sdlqs3k.pookicoin",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1pljvaz7wnahy8ywrqdwn9kda86x9nhr0mzn0dj5zzm979wyfk70sdlqs3k.pookicoin",
+  "base_denom": "coin.zig1pljvaz7wnahy8ywrqdwn9kda86x9nhr0mzn0dj5zzm979wyfk70sdlqs3k.pookicoin",
+  "creator": "zig1pljvaz7wnahy8ywrqdwn9kda86x9nhr0mzn0dj5zzm979wyfk70sdlqs3k",
+  "subdenom": "pookicoin",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13wcxkpcqm6qt0wcccmuszp825emdy6pg3xuf4zfp7sm2swkcj8ms4utmpn.sarizard",
+  "type": "factory",
+  "symbol": "SARIZARD",
+  "name": "Sarizard",
+  "decimals": 6,
+  "display_denom": "SARIZARD",
+  "base_denom": "coin.zig13wcxkpcqm6qt0wcccmuszp825emdy6pg3xuf4zfp7sm2swkcj8ms4utmpn.sarizard",
+  "creator": "zig13wcxkpcqm6qt0wcccmuszp825emdy6pg3xuf4zfp7sm2swkcj8ms4utmpn",
+  "subdenom": "sarizard",
+  "denom_units": [
+    {
+      "denom": "coin.zig13wcxkpcqm6qt0wcccmuszp825emdy6pg3xuf4zfp7sm2swkcj8ms4utmpn.sarizard",
+      "exponent": 0
+    },
+    {
+      "denom": "SARIZARD",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

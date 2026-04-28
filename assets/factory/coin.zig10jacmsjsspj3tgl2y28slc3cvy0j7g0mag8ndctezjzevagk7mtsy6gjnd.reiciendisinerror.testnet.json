@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10jacmsjsspj3tgl2y28slc3cvy0j7g0mag8ndctezjzevagk7mtsy6gjnd.reiciendisinerror",
+  "type": "factory",
+  "symbol": "REICIENDISINERROR",
+  "name": "Reiciendisinerror",
+  "decimals": 6,
+  "display_denom": "REICIENDISINERROR",
+  "base_denom": "coin.zig10jacmsjsspj3tgl2y28slc3cvy0j7g0mag8ndctezjzevagk7mtsy6gjnd.reiciendisinerror",
+  "creator": "zig10jacmsjsspj3tgl2y28slc3cvy0j7g0mag8ndctezjzevagk7mtsy6gjnd",
+  "subdenom": "reiciendisinerror",
+  "denom_units": [
+    {
+      "denom": "coin.zig10jacmsjsspj3tgl2y28slc3cvy0j7g0mag8ndctezjzevagk7mtsy6gjnd.reiciendisinerror",
+      "exponent": 0
+    },
+    {
+      "denom": "REICIENDISINERROR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1gz25gvk0dq7z70syf4fjga472avxa6a58fm7jmfu9q8d6xgs9yfsafz00x.totamloremnisiali",
+  "type": "factory",
+  "symbol": "TOTAMLOREMNISIALI",
+  "name": "Totamloremnisiali",
+  "decimals": 6,
+  "display_denom": "TOTAMLOREMNISIALI",
+  "base_denom": "coin.zig1gz25gvk0dq7z70syf4fjga472avxa6a58fm7jmfu9q8d6xgs9yfsafz00x.totamloremnisiali",
+  "creator": "zig1gz25gvk0dq7z70syf4fjga472avxa6a58fm7jmfu9q8d6xgs9yfsafz00x",
+  "subdenom": "totamloremnisiali",
+  "denom_units": [
+    {
+      "denom": "coin.zig1gz25gvk0dq7z70syf4fjga472avxa6a58fm7jmfu9q8d6xgs9yfsafz00x.totamloremnisiali",
+      "exponent": 0
+    },
+    {
+      "denom": "TOTAMLOREMNISIALI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1r6kkg2mtzn5sg48a82p750mvvrwftqhvj8rpkykj5tgx7hgq5xcs0hnxyn.heartbeat",
+  "type": "factory",
+  "symbol": "HEARTBEAT",
+  "name": "Heartbeat",
+  "decimals": 6,
+  "display_denom": "HEARTBEAT",
+  "base_denom": "coin.zig1r6kkg2mtzn5sg48a82p750mvvrwftqhvj8rpkykj5tgx7hgq5xcs0hnxyn.heartbeat",
+  "creator": "zig1r6kkg2mtzn5sg48a82p750mvvrwftqhvj8rpkykj5tgx7hgq5xcs0hnxyn",
+  "subdenom": "heartbeat",
+  "denom_units": [
+    {
+      "denom": "coin.zig1r6kkg2mtzn5sg48a82p750mvvrwftqhvj8rpkykj5tgx7hgq5xcs0hnxyn.heartbeat",
+      "exponent": 0
+    },
+    {
+      "denom": "HEARTBEAT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

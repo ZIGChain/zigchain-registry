@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1nml8qztm7352w6rtvjfkr2ufya2g3pl6ng3qe6hepggdpam933qq7jq0e5.ipsumsintloremfug",
+  "type": "factory",
+  "symbol": "IPSUMSINTLOREMFUG",
+  "name": "Ipsumsintloremfug",
+  "decimals": 6,
+  "display_denom": "IPSUMSINTLOREMFUG",
+  "base_denom": "coin.zig1nml8qztm7352w6rtvjfkr2ufya2g3pl6ng3qe6hepggdpam933qq7jq0e5.ipsumsintloremfug",
+  "creator": "zig1nml8qztm7352w6rtvjfkr2ufya2g3pl6ng3qe6hepggdpam933qq7jq0e5",
+  "subdenom": "ipsumsintloremfug",
+  "denom_units": [
+    {
+      "denom": "coin.zig1nml8qztm7352w6rtvjfkr2ufya2g3pl6ng3qe6hepggdpam933qq7jq0e5.ipsumsintloremfug",
+      "exponent": 0
+    },
+    {
+      "denom": "IPSUMSINTLOREMFUG",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

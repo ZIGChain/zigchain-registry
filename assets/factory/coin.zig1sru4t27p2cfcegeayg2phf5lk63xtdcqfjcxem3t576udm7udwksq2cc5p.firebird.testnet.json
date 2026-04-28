@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1sru4t27p2cfcegeayg2phf5lk63xtdcqfjcxem3t576udm7udwksq2cc5p.firebird",
+  "type": "factory",
+  "symbol": "FIREBIRD",
+  "name": "Firebird",
+  "decimals": 6,
+  "display_denom": "FIREBIRD",
+  "base_denom": "coin.zig1sru4t27p2cfcegeayg2phf5lk63xtdcqfjcxem3t576udm7udwksq2cc5p.firebird",
+  "creator": "zig1sru4t27p2cfcegeayg2phf5lk63xtdcqfjcxem3t576udm7udwksq2cc5p",
+  "subdenom": "firebird",
+  "denom_units": [
+    {
+      "denom": "coin.zig1sru4t27p2cfcegeayg2phf5lk63xtdcqfjcxem3t576udm7udwksq2cc5p.firebird",
+      "exponent": 0
+    },
+    {
+      "denom": "FIREBIRD",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1jz7d9dj29lfccdxn76f0m3s2fwnjmt6tqm0xse30tpffnfkzy9js5hgx0z.boy",
+  "type": "factory",
+  "symbol": "BOY",
+  "name": "Boy",
+  "decimals": 6,
+  "display_denom": "BOY",
+  "base_denom": "coin.zig1jz7d9dj29lfccdxn76f0m3s2fwnjmt6tqm0xse30tpffnfkzy9js5hgx0z.boy",
+  "creator": "zig1jz7d9dj29lfccdxn76f0m3s2fwnjmt6tqm0xse30tpffnfkzy9js5hgx0z",
+  "subdenom": "boy",
+  "denom_units": [
+    {
+      "denom": "coin.zig1jz7d9dj29lfccdxn76f0m3s2fwnjmt6tqm0xse30tpffnfkzy9js5hgx0z.boy",
+      "exponent": 0
+    },
+    {
+      "denom": "BOY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15asfp6w4wtunlna0h0cj9mazmamh0hl96rph8cmefc9gcnn8nlqq9hqg7w.skip",
+  "type": "factory",
+  "symbol": "SKIP",
+  "name": "Skip",
+  "decimals": 6,
+  "display_denom": "SKIP",
+  "base_denom": "coin.zig15asfp6w4wtunlna0h0cj9mazmamh0hl96rph8cmefc9gcnn8nlqq9hqg7w.skip",
+  "creator": "zig15asfp6w4wtunlna0h0cj9mazmamh0hl96rph8cmefc9gcnn8nlqq9hqg7w",
+  "subdenom": "skip",
+  "denom_units": [
+    {
+      "denom": "coin.zig15asfp6w4wtunlna0h0cj9mazmamh0hl96rph8cmefc9gcnn8nlqq9hqg7w.skip",
+      "exponent": 0
+    },
+    {
+      "denom": "SKIP",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1yl4ajnsd0fpype885fd2e8vwgf34t9gw9hax53f9xv44m53ve42s95cysy.charm",
+  "type": "factory",
+  "symbol": "CHARM",
+  "name": "Charm",
+  "decimals": 6,
+  "display_denom": "CHARM",
+  "base_denom": "coin.zig1yl4ajnsd0fpype885fd2e8vwgf34t9gw9hax53f9xv44m53ve42s95cysy.charm",
+  "creator": "zig1yl4ajnsd0fpype885fd2e8vwgf34t9gw9hax53f9xv44m53ve42s95cysy",
+  "subdenom": "charm",
+  "denom_units": [
+    {
+      "denom": "coin.zig1yl4ajnsd0fpype885fd2e8vwgf34t9gw9hax53f9xv44m53ve42s95cysy.charm",
+      "exponent": 0
+    },
+    {
+      "denom": "CHARM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

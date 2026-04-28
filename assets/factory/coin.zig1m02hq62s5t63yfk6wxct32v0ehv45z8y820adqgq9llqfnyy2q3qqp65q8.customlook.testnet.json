@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1m02hq62s5t63yfk6wxct32v0ehv45z8y820adqgq9llqfnyy2q3qqp65q8.customlook",
+  "type": "factory",
+  "symbol": "CUSTOMLOOK",
+  "name": "Customlook",
+  "decimals": 6,
+  "display_denom": "CUSTOMLOOK",
+  "base_denom": "coin.zig1m02hq62s5t63yfk6wxct32v0ehv45z8y820adqgq9llqfnyy2q3qqp65q8.customlook",
+  "creator": "zig1m02hq62s5t63yfk6wxct32v0ehv45z8y820adqgq9llqfnyy2q3qqp65q8",
+  "subdenom": "customlook",
+  "denom_units": [
+    {
+      "denom": "coin.zig1m02hq62s5t63yfk6wxct32v0ehv45z8y820adqgq9llqfnyy2q3qqp65q8.customlook",
+      "exponent": 0
+    },
+    {
+      "denom": "CUSTOMLOOK",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

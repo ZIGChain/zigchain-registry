@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1vqr7ar5q6agg5xquq9zys99phwdsn88rynu4f4583tkf5dwqpyvqxp2eqh.kong",
+  "type": "factory",
+  "symbol": "KONG",
+  "name": "Kong",
+  "decimals": 6,
+  "display_denom": "KONG",
+  "base_denom": "coin.zig1vqr7ar5q6agg5xquq9zys99phwdsn88rynu4f4583tkf5dwqpyvqxp2eqh.kong",
+  "creator": "zig1vqr7ar5q6agg5xquq9zys99phwdsn88rynu4f4583tkf5dwqpyvqxp2eqh",
+  "subdenom": "kong",
+  "denom_units": [
+    {
+      "denom": "coin.zig1vqr7ar5q6agg5xquq9zys99phwdsn88rynu4f4583tkf5dwqpyvqxp2eqh.kong",
+      "exponent": 0
+    },
+    {
+      "denom": "KONG",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

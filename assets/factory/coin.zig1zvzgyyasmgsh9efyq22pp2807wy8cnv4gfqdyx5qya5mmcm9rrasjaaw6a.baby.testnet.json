@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zvzgyyasmgsh9efyq22pp2807wy8cnv4gfqdyx5qya5mmcm9rrasjaaw6a.baby",
+  "type": "factory",
+  "symbol": "BABY",
+  "name": "Baby",
+  "decimals": 6,
+  "display_denom": "BABY",
+  "base_denom": "coin.zig1zvzgyyasmgsh9efyq22pp2807wy8cnv4gfqdyx5qya5mmcm9rrasjaaw6a.baby",
+  "creator": "zig1zvzgyyasmgsh9efyq22pp2807wy8cnv4gfqdyx5qya5mmcm9rrasjaaw6a",
+  "subdenom": "baby",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zvzgyyasmgsh9efyq22pp2807wy8cnv4gfqdyx5qya5mmcm9rrasjaaw6a.baby",
+      "exponent": 0
+    },
+    {
+      "denom": "BABY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

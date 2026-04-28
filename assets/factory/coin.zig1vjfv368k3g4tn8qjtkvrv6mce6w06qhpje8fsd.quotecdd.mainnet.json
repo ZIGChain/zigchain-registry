@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quotecdd",
+  "type": "factory",
+  "symbol": "QUOTECDD",
+  "name": "Quotecdd",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quotecdd",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quotecdd",
+  "base_denom": "coin.zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd.quotecdd",
+  "creator": "zig1vjfv368k3g4tn8qjtkvrv6mce6w06qhpje8fsd",
+  "subdenom": "quotecdd",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

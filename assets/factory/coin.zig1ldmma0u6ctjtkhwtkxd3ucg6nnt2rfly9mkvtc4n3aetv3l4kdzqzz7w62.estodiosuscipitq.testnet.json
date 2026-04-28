@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ldmma0u6ctjtkhwtkxd3ucg6nnt2rfly9mkvtc4n3aetv3l4kdzqzz7w62.estodiosuscipitq",
+  "type": "factory",
+  "symbol": "ESTODIOSUSCIPITQ",
+  "name": "Estodiosuscipitq",
+  "decimals": 6,
+  "display_denom": "ESTODIOSUSCIPITQ",
+  "base_denom": "coin.zig1ldmma0u6ctjtkhwtkxd3ucg6nnt2rfly9mkvtc4n3aetv3l4kdzqzz7w62.estodiosuscipitq",
+  "creator": "zig1ldmma0u6ctjtkhwtkxd3ucg6nnt2rfly9mkvtc4n3aetv3l4kdzqzz7w62",
+  "subdenom": "estodiosuscipitq",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ldmma0u6ctjtkhwtkxd3ucg6nnt2rfly9mkvtc4n3aetv3l4kdzqzz7w62.estodiosuscipitq",
+      "exponent": 0
+    },
+    {
+      "denom": "ESTODIOSUSCIPITQ",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

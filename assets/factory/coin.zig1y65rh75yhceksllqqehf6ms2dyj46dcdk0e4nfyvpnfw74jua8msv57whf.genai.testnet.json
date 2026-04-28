@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1y65rh75yhceksllqqehf6ms2dyj46dcdk0e4nfyvpnfw74jua8msv57whf.genai",
+  "type": "factory",
+  "symbol": "GENAI",
+  "name": "Genai",
+  "decimals": 6,
+  "display_denom": "GENAI",
+  "base_denom": "coin.zig1y65rh75yhceksllqqehf6ms2dyj46dcdk0e4nfyvpnfw74jua8msv57whf.genai",
+  "creator": "zig1y65rh75yhceksllqqehf6ms2dyj46dcdk0e4nfyvpnfw74jua8msv57whf",
+  "subdenom": "genai",
+  "denom_units": [
+    {
+      "denom": "coin.zig1y65rh75yhceksllqqehf6ms2dyj46dcdk0e4nfyvpnfw74jua8msv57whf.genai",
+      "exponent": 0
+    },
+    {
+      "denom": "GENAI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

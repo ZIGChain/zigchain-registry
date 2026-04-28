@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14l227m505g0yseyfv2nxjt5tcxx8tqpyrvr7ml5kvatjemw3hyasqg6yxe.consecteturdolorem",
+  "type": "factory",
+  "symbol": "CONSECTETURDOLOREM",
+  "name": "Consecteturdolorem",
+  "decimals": 6,
+  "display_denom": "CONSECTETURDOLOREM",
+  "base_denom": "coin.zig14l227m505g0yseyfv2nxjt5tcxx8tqpyrvr7ml5kvatjemw3hyasqg6yxe.consecteturdolorem",
+  "creator": "zig14l227m505g0yseyfv2nxjt5tcxx8tqpyrvr7ml5kvatjemw3hyasqg6yxe",
+  "subdenom": "consecteturdolorem",
+  "denom_units": [
+    {
+      "denom": "coin.zig14l227m505g0yseyfv2nxjt5tcxx8tqpyrvr7ml5kvatjemw3hyasqg6yxe.consecteturdolorem",
+      "exponent": 0
+    },
+    {
+      "denom": "CONSECTETURDOLOREM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

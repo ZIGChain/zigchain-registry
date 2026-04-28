@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1fvge5wj86y3g9q9drmp6n3g348rl29vd8dyxmjskq2n7w7c6cqdsrvq837.kabuto",
+  "type": "factory",
+  "symbol": "KABUTO",
+  "name": "Kabuto",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1fvge5wj86y3g9q9drmp6n3g348rl29vd8dyxmjskq2n7w7c6cqdsrvq837.kabuto",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1fvge5wj86y3g9q9drmp6n3g348rl29vd8dyxmjskq2n7w7c6cqdsrvq837.kabuto",
+  "base_denom": "coin.zig1fvge5wj86y3g9q9drmp6n3g348rl29vd8dyxmjskq2n7w7c6cqdsrvq837.kabuto",
+  "creator": "zig1fvge5wj86y3g9q9drmp6n3g348rl29vd8dyxmjskq2n7w7c6cqdsrvq837",
+  "subdenom": "kabuto",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

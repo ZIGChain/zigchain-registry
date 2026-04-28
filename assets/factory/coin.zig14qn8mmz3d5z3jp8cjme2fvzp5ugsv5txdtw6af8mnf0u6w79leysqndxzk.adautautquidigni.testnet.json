@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14qn8mmz3d5z3jp8cjme2fvzp5ugsv5txdtw6af8mnf0u6w79leysqndxzk.adautautquidigni",
+  "type": "factory",
+  "symbol": "ADAUTAUTQUIDIGNI",
+  "name": "Adautautquidigni",
+  "decimals": 6,
+  "display_denom": "ADAUTAUTQUIDIGNI",
+  "base_denom": "coin.zig14qn8mmz3d5z3jp8cjme2fvzp5ugsv5txdtw6af8mnf0u6w79leysqndxzk.adautautquidigni",
+  "creator": "zig14qn8mmz3d5z3jp8cjme2fvzp5ugsv5txdtw6af8mnf0u6w79leysqndxzk",
+  "subdenom": "adautautquidigni",
+  "denom_units": [
+    {
+      "denom": "coin.zig14qn8mmz3d5z3jp8cjme2fvzp5ugsv5txdtw6af8mnf0u6w79leysqndxzk.adautautquidigni",
+      "exponent": 0
+    },
+    {
+      "denom": "ADAUTAUTQUIDIGNI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

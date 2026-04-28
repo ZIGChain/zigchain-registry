@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1qm62qvux86w8ex36tpl24lz5qcanaql8t0zhs974m08r8u8jzlxsl3rhxr.mdfc",
+  "type": "factory",
+  "symbol": "MDFC",
+  "name": "Mdfc",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1qm62qvux86w8ex36tpl24lz5qcanaql8t0zhs974m08r8u8jzlxsl3rhxr.mdfc",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1qm62qvux86w8ex36tpl24lz5qcanaql8t0zhs974m08r8u8jzlxsl3rhxr.mdfc",
+  "base_denom": "coin.zig1qm62qvux86w8ex36tpl24lz5qcanaql8t0zhs974m08r8u8jzlxsl3rhxr.mdfc",
+  "creator": "zig1qm62qvux86w8ex36tpl24lz5qcanaql8t0zhs974m08r8u8jzlxsl3rhxr",
+  "subdenom": "mdfc",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

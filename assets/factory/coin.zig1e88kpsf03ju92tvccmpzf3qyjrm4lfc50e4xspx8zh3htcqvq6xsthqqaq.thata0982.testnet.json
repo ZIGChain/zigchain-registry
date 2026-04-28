@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1e88kpsf03ju92tvccmpzf3qyjrm4lfc50e4xspx8zh3htcqvq6xsthqqaq.thata0982",
+  "type": "factory",
+  "symbol": "THATA0982",
+  "name": "Thata0982",
+  "decimals": 6,
+  "display_denom": "THATA0982",
+  "base_denom": "coin.zig1e88kpsf03ju92tvccmpzf3qyjrm4lfc50e4xspx8zh3htcqvq6xsthqqaq.thata0982",
+  "creator": "zig1e88kpsf03ju92tvccmpzf3qyjrm4lfc50e4xspx8zh3htcqvq6xsthqqaq",
+  "subdenom": "thata0982",
+  "denom_units": [
+    {
+      "denom": "coin.zig1e88kpsf03ju92tvccmpzf3qyjrm4lfc50e4xspx8zh3htcqvq6xsthqqaq.thata0982",
+      "exponent": 0
+    },
+    {
+      "denom": "THATA0982",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

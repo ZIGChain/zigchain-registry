@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig19602xl6zfzrlzlamncl05eep2s3t3gj9vqdfxpd58hkd5q742j7s5ek9zm.zella",
+  "type": "factory",
+  "symbol": "ZELLA",
+  "name": "Zella",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig19602xl6zfzrlzlamncl05eep2s3t3gj9vqdfxpd58hkd5q742j7s5ek9zm.zella",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig19602xl6zfzrlzlamncl05eep2s3t3gj9vqdfxpd58hkd5q742j7s5ek9zm.zella",
+  "base_denom": "coin.zig19602xl6zfzrlzlamncl05eep2s3t3gj9vqdfxpd58hkd5q742j7s5ek9zm.zella",
+  "creator": "zig19602xl6zfzrlzlamncl05eep2s3t3gj9vqdfxpd58hkd5q742j7s5ek9zm",
+  "subdenom": "zella",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

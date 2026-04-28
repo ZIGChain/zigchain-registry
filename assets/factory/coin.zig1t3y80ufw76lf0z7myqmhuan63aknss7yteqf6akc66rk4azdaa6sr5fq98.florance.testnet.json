@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1t3y80ufw76lf0z7myqmhuan63aknss7yteqf6akc66rk4azdaa6sr5fq98.florance",
+  "type": "factory",
+  "symbol": "FLORANCE",
+  "name": "Florance",
+  "decimals": 6,
+  "display_denom": "FLORANCE",
+  "base_denom": "coin.zig1t3y80ufw76lf0z7myqmhuan63aknss7yteqf6akc66rk4azdaa6sr5fq98.florance",
+  "creator": "zig1t3y80ufw76lf0z7myqmhuan63aknss7yteqf6akc66rk4azdaa6sr5fq98",
+  "subdenom": "florance",
+  "denom_units": [
+    {
+      "denom": "coin.zig1t3y80ufw76lf0z7myqmhuan63aknss7yteqf6akc66rk4azdaa6sr5fq98.florance",
+      "exponent": 0
+    },
+    {
+      "denom": "FLORANCE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

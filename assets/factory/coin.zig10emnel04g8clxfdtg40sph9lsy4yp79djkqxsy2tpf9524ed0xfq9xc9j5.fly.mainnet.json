@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig10emnel04g8clxfdtg40sph9lsy4yp79djkqxsy2tpf9524ed0xfq9xc9j5.fly",
+  "type": "factory",
+  "symbol": "FLY",
+  "name": "Fly",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig10emnel04g8clxfdtg40sph9lsy4yp79djkqxsy2tpf9524ed0xfq9xc9j5.fly",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig10emnel04g8clxfdtg40sph9lsy4yp79djkqxsy2tpf9524ed0xfq9xc9j5.fly",
+  "base_denom": "coin.zig10emnel04g8clxfdtg40sph9lsy4yp79djkqxsy2tpf9524ed0xfq9xc9j5.fly",
+  "creator": "zig10emnel04g8clxfdtg40sph9lsy4yp79djkqxsy2tpf9524ed0xfq9xc9j5",
+  "subdenom": "fly",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

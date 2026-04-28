@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig19ayd209xzwvalv8e87mwcph6376th7e4nwyt5hkhu8ad3jlx7nlsv6jaxp.tayyebman",
+  "type": "factory",
+  "symbol": "TAYYEBMAN",
+  "name": "Tayyebman",
+  "decimals": 6,
+  "display_denom": "TAYYEBMAN",
+  "base_denom": "coin.zig19ayd209xzwvalv8e87mwcph6376th7e4nwyt5hkhu8ad3jlx7nlsv6jaxp.tayyebman",
+  "creator": "zig19ayd209xzwvalv8e87mwcph6376th7e4nwyt5hkhu8ad3jlx7nlsv6jaxp",
+  "subdenom": "tayyebman",
+  "denom_units": [
+    {
+      "denom": "coin.zig19ayd209xzwvalv8e87mwcph6376th7e4nwyt5hkhu8ad3jlx7nlsv6jaxp.tayyebman",
+      "exponent": 0
+    },
+    {
+      "denom": "TAYYEBMAN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

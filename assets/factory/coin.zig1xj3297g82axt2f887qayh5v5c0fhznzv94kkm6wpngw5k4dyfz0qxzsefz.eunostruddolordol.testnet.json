@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1xj3297g82axt2f887qayh5v5c0fhznzv94kkm6wpngw5k4dyfz0qxzsefz.eunostruddolordol",
+  "type": "factory",
+  "symbol": "EUNOSTRUDDOLORDOL",
+  "name": "Eunostruddolordol",
+  "decimals": 6,
+  "display_denom": "EUNOSTRUDDOLORDOL",
+  "base_denom": "coin.zig1xj3297g82axt2f887qayh5v5c0fhznzv94kkm6wpngw5k4dyfz0qxzsefz.eunostruddolordol",
+  "creator": "zig1xj3297g82axt2f887qayh5v5c0fhznzv94kkm6wpngw5k4dyfz0qxzsefz",
+  "subdenom": "eunostruddolordol",
+  "denom_units": [
+    {
+      "denom": "coin.zig1xj3297g82axt2f887qayh5v5c0fhznzv94kkm6wpngw5k4dyfz0qxzsefz.eunostruddolordol",
+      "exponent": 0
+    },
+    {
+      "denom": "EUNOSTRUDDOLORDOL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

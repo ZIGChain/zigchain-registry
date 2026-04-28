@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1e7ry705gcey04e4mch08frqhx3quzkal3yvtke3tuna4d3sqdd8s4vqhmj.magniinametassum",
+  "type": "factory",
+  "symbol": "MAGNIINAMETASSUM",
+  "name": "Magniinametassum",
+  "decimals": 6,
+  "display_denom": "MAGNIINAMETASSUM",
+  "base_denom": "coin.zig1e7ry705gcey04e4mch08frqhx3quzkal3yvtke3tuna4d3sqdd8s4vqhmj.magniinametassum",
+  "creator": "zig1e7ry705gcey04e4mch08frqhx3quzkal3yvtke3tuna4d3sqdd8s4vqhmj",
+  "subdenom": "magniinametassum",
+  "denom_units": [
+    {
+      "denom": "coin.zig1e7ry705gcey04e4mch08frqhx3quzkal3yvtke3tuna4d3sqdd8s4vqhmj.magniinametassum",
+      "exponent": 0
+    },
+    {
+      "denom": "MAGNIINAMETASSUM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

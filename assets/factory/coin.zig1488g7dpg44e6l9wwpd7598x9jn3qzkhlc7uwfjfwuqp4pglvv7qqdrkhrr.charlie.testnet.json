@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1488g7dpg44e6l9wwpd7598x9jn3qzkhlc7uwfjfwuqp4pglvv7qqdrkhrr.charlie",
+  "type": "factory",
+  "symbol": "CHARLIE",
+  "name": "Charlie",
+  "decimals": 6,
+  "display_denom": "CHARLIE",
+  "base_denom": "coin.zig1488g7dpg44e6l9wwpd7598x9jn3qzkhlc7uwfjfwuqp4pglvv7qqdrkhrr.charlie",
+  "creator": "zig1488g7dpg44e6l9wwpd7598x9jn3qzkhlc7uwfjfwuqp4pglvv7qqdrkhrr",
+  "subdenom": "charlie",
+  "denom_units": [
+    {
+      "denom": "coin.zig1488g7dpg44e6l9wwpd7598x9jn3qzkhlc7uwfjfwuqp4pglvv7qqdrkhrr.charlie",
+      "exponent": 0
+    },
+    {
+      "denom": "CHARLIE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

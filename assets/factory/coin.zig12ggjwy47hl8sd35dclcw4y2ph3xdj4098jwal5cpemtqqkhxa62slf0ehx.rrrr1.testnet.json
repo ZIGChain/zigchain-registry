@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig12ggjwy47hl8sd35dclcw4y2ph3xdj4098jwal5cpemtqqkhxa62slf0ehx.rrrr1",
+  "type": "factory",
+  "symbol": "RRRR1",
+  "name": "Rrrr1",
+  "decimals": 6,
+  "display_denom": "RRRR1",
+  "base_denom": "coin.zig12ggjwy47hl8sd35dclcw4y2ph3xdj4098jwal5cpemtqqkhxa62slf0ehx.rrrr1",
+  "creator": "zig12ggjwy47hl8sd35dclcw4y2ph3xdj4098jwal5cpemtqqkhxa62slf0ehx",
+  "subdenom": "rrrr1",
+  "denom_units": [
+    {
+      "denom": "coin.zig12ggjwy47hl8sd35dclcw4y2ph3xdj4098jwal5cpemtqqkhxa62slf0ehx.rrrr1",
+      "exponent": 0
+    },
+    {
+      "denom": "RRRR1",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1mrkjms6lzkv8908muvymcpvlf7w8z9xg6jtgklklqw5gxh2d7k3s3q8g4j.gbgcoin",
+  "type": "factory",
+  "symbol": "GBGCOIN",
+  "name": "Gbgcoin",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1mrkjms6lzkv8908muvymcpvlf7w8z9xg6jtgklklqw5gxh2d7k3s3q8g4j.gbgcoin",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1mrkjms6lzkv8908muvymcpvlf7w8z9xg6jtgklklqw5gxh2d7k3s3q8g4j.gbgcoin",
+  "base_denom": "coin.zig1mrkjms6lzkv8908muvymcpvlf7w8z9xg6jtgklklqw5gxh2d7k3s3q8g4j.gbgcoin",
+  "creator": "zig1mrkjms6lzkv8908muvymcpvlf7w8z9xg6jtgklklqw5gxh2d7k3s3q8g4j",
+  "subdenom": "gbgcoin",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

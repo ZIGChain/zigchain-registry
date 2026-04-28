@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ws7p4avtyzqzqy6cq20e7y8qrac70l9pk3zvw28tsncycnvqlkws9yejmk.officiaeosdolorem",
+  "type": "factory",
+  "symbol": "OFFICIAEOSDOLOREM",
+  "name": "Officiaeosdolorem",
+  "decimals": 6,
+  "display_denom": "OFFICIAEOSDOLOREM",
+  "base_denom": "coin.zig1ws7p4avtyzqzqy6cq20e7y8qrac70l9pk3zvw28tsncycnvqlkws9yejmk.officiaeosdolorem",
+  "creator": "zig1ws7p4avtyzqzqy6cq20e7y8qrac70l9pk3zvw28tsncycnvqlkws9yejmk",
+  "subdenom": "officiaeosdolorem",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ws7p4avtyzqzqy6cq20e7y8qrac70l9pk3zvw28tsncycnvqlkws9yejmk.officiaeosdolorem",
+      "exponent": 0
+    },
+    {
+      "denom": "OFFICIAEOSDOLOREM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

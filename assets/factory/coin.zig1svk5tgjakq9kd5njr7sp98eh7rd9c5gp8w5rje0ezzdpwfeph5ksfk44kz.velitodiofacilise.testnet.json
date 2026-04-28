@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1svk5tgjakq9kd5njr7sp98eh7rd9c5gp8w5rje0ezzdpwfeph5ksfk44kz.velitodiofacilise",
+  "type": "factory",
+  "symbol": "VELITODIOFACILISE",
+  "name": "Velitodiofacilise",
+  "decimals": 6,
+  "display_denom": "VELITODIOFACILISE",
+  "base_denom": "coin.zig1svk5tgjakq9kd5njr7sp98eh7rd9c5gp8w5rje0ezzdpwfeph5ksfk44kz.velitodiofacilise",
+  "creator": "zig1svk5tgjakq9kd5njr7sp98eh7rd9c5gp8w5rje0ezzdpwfeph5ksfk44kz",
+  "subdenom": "velitodiofacilise",
+  "denom_units": [
+    {
+      "denom": "coin.zig1svk5tgjakq9kd5njr7sp98eh7rd9c5gp8w5rje0ezzdpwfeph5ksfk44kz.velitodiofacilise",
+      "exponent": 0
+    },
+    {
+      "denom": "VELITODIOFACILISE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

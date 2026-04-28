@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1agcy6lmrsa3wj309l2pdhh2x8syl74d4rch4f9pfhudfthwm8ehscggg8r.uno",
+  "type": "factory",
+  "symbol": "UNO",
+  "name": "Uno",
+  "decimals": 6,
+  "display_denom": "UNO",
+  "base_denom": "coin.zig1agcy6lmrsa3wj309l2pdhh2x8syl74d4rch4f9pfhudfthwm8ehscggg8r.uno",
+  "creator": "zig1agcy6lmrsa3wj309l2pdhh2x8syl74d4rch4f9pfhudfthwm8ehscggg8r",
+  "subdenom": "uno",
+  "denom_units": [
+    {
+      "denom": "coin.zig1agcy6lmrsa3wj309l2pdhh2x8syl74d4rch4f9pfhudfthwm8ehscggg8r.uno",
+      "exponent": 0
+    },
+    {
+      "denom": "UNO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1320x2j4khmtd0kmrcwhax0tfthqemdg4svy27a6v5mya94077y8sdkq6sd.hungry",
+  "type": "factory",
+  "symbol": "HUNGRY",
+  "name": "Hungry",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1320x2j4khmtd0kmrcwhax0tfthqemdg4svy27a6v5mya94077y8sdkq6sd.hungry",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1320x2j4khmtd0kmrcwhax0tfthqemdg4svy27a6v5mya94077y8sdkq6sd.hungry",
+  "base_denom": "coin.zig1320x2j4khmtd0kmrcwhax0tfthqemdg4svy27a6v5mya94077y8sdkq6sd.hungry",
+  "creator": "zig1320x2j4khmtd0kmrcwhax0tfthqemdg4svy27a6v5mya94077y8sdkq6sd",
+  "subdenom": "hungry",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

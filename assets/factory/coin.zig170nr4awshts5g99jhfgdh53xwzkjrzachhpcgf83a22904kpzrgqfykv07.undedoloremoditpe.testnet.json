@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig170nr4awshts5g99jhfgdh53xwzkjrzachhpcgf83a22904kpzrgqfykv07.undedoloremoditpe",
+  "type": "factory",
+  "symbol": "UNDEDOLOREMODITPE",
+  "name": "Undedoloremoditpe",
+  "decimals": 6,
+  "display_denom": "UNDEDOLOREMODITPE",
+  "base_denom": "coin.zig170nr4awshts5g99jhfgdh53xwzkjrzachhpcgf83a22904kpzrgqfykv07.undedoloremoditpe",
+  "creator": "zig170nr4awshts5g99jhfgdh53xwzkjrzachhpcgf83a22904kpzrgqfykv07",
+  "subdenom": "undedoloremoditpe",
+  "denom_units": [
+    {
+      "denom": "coin.zig170nr4awshts5g99jhfgdh53xwzkjrzachhpcgf83a22904kpzrgqfykv07.undedoloremoditpe",
+      "exponent": 0
+    },
+    {
+      "denom": "UNDEDOLOREMODITPE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

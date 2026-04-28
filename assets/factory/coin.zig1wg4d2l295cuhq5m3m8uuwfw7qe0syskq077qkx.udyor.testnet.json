@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1wg4d2l295cuhq5m3m8uuwfw7qe0syskq077qkx.udyor",
+  "type": "factory",
+  "symbol": "UDYOR",
+  "name": "Udyor",
+  "decimals": 6,
+  "display_denom": "UDYOR",
+  "base_denom": "coin.zig1wg4d2l295cuhq5m3m8uuwfw7qe0syskq077qkx.udyor",
+  "creator": "zig1wg4d2l295cuhq5m3m8uuwfw7qe0syskq077qkx",
+  "subdenom": "udyor",
+  "denom_units": [
+    {
+      "denom": "coin.zig1wg4d2l295cuhq5m3m8uuwfw7qe0syskq077qkx.udyor",
+      "exponent": 0
+    },
+    {
+      "denom": "UDYOR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

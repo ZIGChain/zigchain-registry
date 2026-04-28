@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mu5x45qfpxruv5qpht5sp6syzgvxhm9g996d624sz3ctgvvpw7mqe2zsze.quibusdamlaborumdo",
+  "type": "factory",
+  "symbol": "QUIBUSDAMLABORUMDO",
+  "name": "Quibusdamlaborumdo",
+  "decimals": 6,
+  "display_denom": "QUIBUSDAMLABORUMDO",
+  "base_denom": "coin.zig1mu5x45qfpxruv5qpht5sp6syzgvxhm9g996d624sz3ctgvvpw7mqe2zsze.quibusdamlaborumdo",
+  "creator": "zig1mu5x45qfpxruv5qpht5sp6syzgvxhm9g996d624sz3ctgvvpw7mqe2zsze",
+  "subdenom": "quibusdamlaborumdo",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mu5x45qfpxruv5qpht5sp6syzgvxhm9g996d624sz3ctgvvpw7mqe2zsze.quibusdamlaborumdo",
+      "exponent": 0
+    },
+    {
+      "denom": "QUIBUSDAMLABORUMDO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1f2ly9nx0njdkzwdtyjqwjfrkdetspl2vmlekne6skd367kld7zxscv3jd4.inveniamsedquos",
+  "type": "factory",
+  "symbol": "INVENIAMSEDQUOS",
+  "name": "Inveniamsedquos",
+  "decimals": 6,
+  "display_denom": "INVENIAMSEDQUOS",
+  "base_denom": "coin.zig1f2ly9nx0njdkzwdtyjqwjfrkdetspl2vmlekne6skd367kld7zxscv3jd4.inveniamsedquos",
+  "creator": "zig1f2ly9nx0njdkzwdtyjqwjfrkdetspl2vmlekne6skd367kld7zxscv3jd4",
+  "subdenom": "inveniamsedquos",
+  "denom_units": [
+    {
+      "denom": "coin.zig1f2ly9nx0njdkzwdtyjqwjfrkdetspl2vmlekne6skd367kld7zxscv3jd4.inveniamsedquos",
+      "exponent": 0
+    },
+    {
+      "denom": "INVENIAMSEDQUOS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schemas/asset.ibc.schema.json",
+  "order": 7,
+  "network": "mainnet",
+  "asset_id": "ibc/E5EE3EF1D0770C7E5F8CE3AF49B9828613BC90C12EA7577D688B1022EFDDA43C",
+  "type": "ibc",
+  "symbol": "NEIRO",
+  "name": "NEIRO",
+  "description": "NEIRO on ZIGChain",
+  "decimals": 9,
+  "display_denom": "neiro",
+  "base_denom": "ibc/E5EE3EF1D0770C7E5F8CE3AF49B9828613BC90C12EA7577D688B1022EFDDA43C",
+  "hash": "E5EE3EF1D0770C7E5F8CE3AF49B9828613BC90C12EA7577D688B1022EFDDA43C",
+  "origin_chain": "ethereum",
+  "origin_denom": "0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee",
+  "traces": [
+    {
+      "type": "ibc",
+      "chain_name": "zigchain",
+      "base_denom": "ibc/E5EE3EF1D0770C7E5F8CE3AF49B9828613BC90C12EA7577D688B1022EFDDA43C",
+      "path": "transfer/channel-4/transfer/08-wasm-1369/0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee"
+    },
+    {
+      "type": "ibc",
+      "chain_name": "cosmoshub",
+      "base_denom": "ibc/F7C4726BF9F1B1872C48BA39688A1AC741E9D77B3182662CF6D42A149C86B758",
+      "path": "transfer/channel-1555"
+    },
+    {
+      "type": "ibc-bridge",
+      "chain_name": "ethereum",
+      "base_denom": "0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee",
+      "path": "transfer/08-wasm-1369/0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee",
+      "provider": "eureka"
+    }
+  ],
+  "channels": [
+    {
+      "zigchain_channel": "channel-4",
+      "counterparty_chain": "cosmoshub",
+      "counterparty_channel": "channel-1555"
+    },
+    {
+      "zigchain_channel": "08-wasm-1369",
+      "counterparty_chain": "ethereum",
+      "counterparty_channel": "channel-0"
+    }
+  ],
+  "logo_uris": {
+    "chain_name": "ethereum",
+    "png": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/neiro.png"
+  },
+  "images": [
+    {
+      "chain_name": "ethereum",
+      "base_denom": "0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee"
+    }
+  ],
+  "is_verified": true
+}

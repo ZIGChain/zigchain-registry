@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1a2qqzsp9u3m59e2va5fda5rtkreq0ec4rn5hd8sgmqky8wdutezqm6ehq8.crow",
+  "type": "factory",
+  "symbol": "CROW",
+  "name": "Crow",
+  "decimals": 6,
+  "display_denom": "CROW",
+  "base_denom": "coin.zig1a2qqzsp9u3m59e2va5fda5rtkreq0ec4rn5hd8sgmqky8wdutezqm6ehq8.crow",
+  "creator": "zig1a2qqzsp9u3m59e2va5fda5rtkreq0ec4rn5hd8sgmqky8wdutezqm6ehq8",
+  "subdenom": "crow",
+  "denom_units": [
+    {
+      "denom": "coin.zig1a2qqzsp9u3m59e2va5fda5rtkreq0ec4rn5hd8sgmqky8wdutezqm6ehq8.crow",
+      "exponent": 0
+    },
+    {
+      "denom": "CROW",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

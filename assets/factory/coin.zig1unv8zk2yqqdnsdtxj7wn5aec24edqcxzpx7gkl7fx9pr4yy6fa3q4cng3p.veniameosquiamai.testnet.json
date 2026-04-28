@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1unv8zk2yqqdnsdtxj7wn5aec24edqcxzpx7gkl7fx9pr4yy6fa3q4cng3p.veniameosquiamai",
+  "type": "factory",
+  "symbol": "VENIAMEOSQUIAMAI",
+  "name": "Veniameosquiamai",
+  "decimals": 6,
+  "display_denom": "VENIAMEOSQUIAMAI",
+  "base_denom": "coin.zig1unv8zk2yqqdnsdtxj7wn5aec24edqcxzpx7gkl7fx9pr4yy6fa3q4cng3p.veniameosquiamai",
+  "creator": "zig1unv8zk2yqqdnsdtxj7wn5aec24edqcxzpx7gkl7fx9pr4yy6fa3q4cng3p",
+  "subdenom": "veniameosquiamai",
+  "denom_units": [
+    {
+      "denom": "coin.zig1unv8zk2yqqdnsdtxj7wn5aec24edqcxzpx7gkl7fx9pr4yy6fa3q4cng3p.veniameosquiamai",
+      "exponent": 0
+    },
+    {
+      "denom": "VENIAMEOSQUIAMAI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

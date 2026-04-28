@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig108wagrzemayswmgen230clehxjhrfsqygfs3ktmtpjy470s3mavssznsjr.eaobcaecatiomnisi",
+  "type": "factory",
+  "symbol": "EAOBCAECATIOMNISI",
+  "name": "Eaobcaecatiomnisi",
+  "decimals": 6,
+  "display_denom": "EAOBCAECATIOMNISI",
+  "base_denom": "coin.zig108wagrzemayswmgen230clehxjhrfsqygfs3ktmtpjy470s3mavssznsjr.eaobcaecatiomnisi",
+  "creator": "zig108wagrzemayswmgen230clehxjhrfsqygfs3ktmtpjy470s3mavssznsjr",
+  "subdenom": "eaobcaecatiomnisi",
+  "denom_units": [
+    {
+      "denom": "coin.zig108wagrzemayswmgen230clehxjhrfsqygfs3ktmtpjy470s3mavssznsjr.eaobcaecatiomnisi",
+      "exponent": 0
+    },
+    {
+      "denom": "EAOBCAECATIOMNISI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

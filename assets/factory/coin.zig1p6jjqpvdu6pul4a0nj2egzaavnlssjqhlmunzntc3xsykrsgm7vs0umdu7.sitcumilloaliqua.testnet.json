@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1p6jjqpvdu6pul4a0nj2egzaavnlssjqhlmunzntc3xsykrsgm7vs0umdu7.sitcumilloaliqua",
+  "type": "factory",
+  "symbol": "SITCUMILLOALIQUA",
+  "name": "Sitcumilloaliqua",
+  "decimals": 6,
+  "display_denom": "SITCUMILLOALIQUA",
+  "base_denom": "coin.zig1p6jjqpvdu6pul4a0nj2egzaavnlssjqhlmunzntc3xsykrsgm7vs0umdu7.sitcumilloaliqua",
+  "creator": "zig1p6jjqpvdu6pul4a0nj2egzaavnlssjqhlmunzntc3xsykrsgm7vs0umdu7",
+  "subdenom": "sitcumilloaliqua",
+  "denom_units": [
+    {
+      "denom": "coin.zig1p6jjqpvdu6pul4a0nj2egzaavnlssjqhlmunzntc3xsykrsgm7vs0umdu7.sitcumilloaliqua",
+      "exponent": 0
+    },
+    {
+      "denom": "SITCUMILLOALIQUA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

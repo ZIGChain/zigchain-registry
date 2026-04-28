@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15w6u59h8z5sq6wst6vy7agua07cd4kxpufvqgw8pj9yagu0pyfgspmrdtu.lifecycle",
+  "type": "factory",
+  "symbol": "LIFECYCLE",
+  "name": "Lifecycle",
+  "decimals": 6,
+  "display_denom": "LIFECYCLE",
+  "base_denom": "coin.zig15w6u59h8z5sq6wst6vy7agua07cd4kxpufvqgw8pj9yagu0pyfgspmrdtu.lifecycle",
+  "creator": "zig15w6u59h8z5sq6wst6vy7agua07cd4kxpufvqgw8pj9yagu0pyfgspmrdtu",
+  "subdenom": "lifecycle",
+  "denom_units": [
+    {
+      "denom": "coin.zig15w6u59h8z5sq6wst6vy7agua07cd4kxpufvqgw8pj9yagu0pyfgspmrdtu.lifecycle",
+      "exponent": 0
+    },
+    {
+      "denom": "LIFECYCLE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

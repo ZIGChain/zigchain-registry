@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1f36u3u5gefvh334shz0fvaue6cpkp2pgdg44hszr0ldqyswleyjs2c8d8g.mdf",
+  "type": "factory",
+  "symbol": "MDF",
+  "name": "Mdf",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1f36u3u5gefvh334shz0fvaue6cpkp2pgdg44hszr0ldqyswleyjs2c8d8g.mdf",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1f36u3u5gefvh334shz0fvaue6cpkp2pgdg44hszr0ldqyswleyjs2c8d8g.mdf",
+  "base_denom": "coin.zig1f36u3u5gefvh334shz0fvaue6cpkp2pgdg44hszr0ldqyswleyjs2c8d8g.mdf",
+  "creator": "zig1f36u3u5gefvh334shz0fvaue6cpkp2pgdg44hszr0ldqyswleyjs2c8d8g",
+  "subdenom": "mdf",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

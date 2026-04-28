@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18l9l0gas2jj6wgjhwcd3jpknsmjt6u775rfck5v60vjygsypuxpqszf4g0.numquamsunteudict",
+  "type": "factory",
+  "symbol": "NUMQUAMSUNTEUDICT",
+  "name": "Numquamsunteudict",
+  "decimals": 6,
+  "display_denom": "NUMQUAMSUNTEUDICT",
+  "base_denom": "coin.zig18l9l0gas2jj6wgjhwcd3jpknsmjt6u775rfck5v60vjygsypuxpqszf4g0.numquamsunteudict",
+  "creator": "zig18l9l0gas2jj6wgjhwcd3jpknsmjt6u775rfck5v60vjygsypuxpqszf4g0",
+  "subdenom": "numquamsunteudict",
+  "denom_units": [
+    {
+      "denom": "coin.zig18l9l0gas2jj6wgjhwcd3jpknsmjt6u775rfck5v60vjygsypuxpqszf4g0.numquamsunteudict",
+      "exponent": 0
+    },
+    {
+      "denom": "NUMQUAMSUNTEUDICT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rzshmqvav6rlqxtg5afj3mjamgp9f9rzp854z929tvueqkhm9dmqlpfrwm.mickeymouse",
+  "type": "factory",
+  "symbol": "MICKEYMOUSE",
+  "name": "Mickeymouse",
+  "decimals": 6,
+  "display_denom": "MICKEYMOUSE",
+  "base_denom": "coin.zig1rzshmqvav6rlqxtg5afj3mjamgp9f9rzp854z929tvueqkhm9dmqlpfrwm.mickeymouse",
+  "creator": "zig1rzshmqvav6rlqxtg5afj3mjamgp9f9rzp854z929tvueqkhm9dmqlpfrwm",
+  "subdenom": "mickeymouse",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rzshmqvav6rlqxtg5afj3mjamgp9f9rzp854z929tvueqkhm9dmqlpfrwm.mickeymouse",
+      "exponent": 0
+    },
+    {
+      "denom": "MICKEYMOUSE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

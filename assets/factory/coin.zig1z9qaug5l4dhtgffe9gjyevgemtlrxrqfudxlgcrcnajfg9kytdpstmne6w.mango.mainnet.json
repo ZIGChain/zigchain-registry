@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1z9qaug5l4dhtgffe9gjyevgemtlrxrqfudxlgcrcnajfg9kytdpstmne6w.mango",
+  "type": "factory",
+  "symbol": "MANGO",
+  "name": "Mango",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1z9qaug5l4dhtgffe9gjyevgemtlrxrqfudxlgcrcnajfg9kytdpstmne6w.mango",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1z9qaug5l4dhtgffe9gjyevgemtlrxrqfudxlgcrcnajfg9kytdpstmne6w.mango",
+  "base_denom": "coin.zig1z9qaug5l4dhtgffe9gjyevgemtlrxrqfudxlgcrcnajfg9kytdpstmne6w.mango",
+  "creator": "zig1z9qaug5l4dhtgffe9gjyevgemtlrxrqfudxlgcrcnajfg9kytdpstmne6w",
+  "subdenom": "mango",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

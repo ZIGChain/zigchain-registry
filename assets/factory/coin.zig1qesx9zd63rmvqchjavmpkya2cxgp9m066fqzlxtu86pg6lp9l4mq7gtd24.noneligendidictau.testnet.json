@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qesx9zd63rmvqchjavmpkya2cxgp9m066fqzlxtu86pg6lp9l4mq7gtd24.noneligendidictau",
+  "type": "factory",
+  "symbol": "NONELIGENDIDICTAU",
+  "name": "Noneligendidictau",
+  "decimals": 6,
+  "display_denom": "NONELIGENDIDICTAU",
+  "base_denom": "coin.zig1qesx9zd63rmvqchjavmpkya2cxgp9m066fqzlxtu86pg6lp9l4mq7gtd24.noneligendidictau",
+  "creator": "zig1qesx9zd63rmvqchjavmpkya2cxgp9m066fqzlxtu86pg6lp9l4mq7gtd24",
+  "subdenom": "noneligendidictau",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qesx9zd63rmvqchjavmpkya2cxgp9m066fqzlxtu86pg6lp9l4mq7gtd24.noneligendidictau",
+      "exponent": 0
+    },
+    {
+      "denom": "NONELIGENDIDICTAU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

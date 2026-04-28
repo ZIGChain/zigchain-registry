@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1e73c08v3y9kl8t6c8wqzrym4ww6m6nr79pkxng.gibigo",
+  "type": "factory",
+  "symbol": "GIBIGO",
+  "name": "Gibigo",
+  "decimals": 6,
+  "display_denom": "GIBIGO",
+  "base_denom": "coin.zig1e73c08v3y9kl8t6c8wqzrym4ww6m6nr79pkxng.gibigo",
+  "creator": "zig1e73c08v3y9kl8t6c8wqzrym4ww6m6nr79pkxng",
+  "subdenom": "gibigo",
+  "denom_units": [
+    {
+      "denom": "coin.zig1e73c08v3y9kl8t6c8wqzrym4ww6m6nr79pkxng.gibigo",
+      "exponent": 0
+    },
+    {
+      "denom": "GIBIGO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

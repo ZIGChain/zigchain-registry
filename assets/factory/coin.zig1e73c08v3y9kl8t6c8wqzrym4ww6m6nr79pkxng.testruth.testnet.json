@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1e73c08v3y9kl8t6c8wqzrym4ww6m6nr79pkxng.testruth",
+  "type": "factory",
+  "symbol": "TESTRUTH",
+  "name": "Testruth",
+  "decimals": 6,
+  "display_denom": "TESTRUTH",
+  "base_denom": "coin.zig1e73c08v3y9kl8t6c8wqzrym4ww6m6nr79pkxng.testruth",
+  "creator": "zig1e73c08v3y9kl8t6c8wqzrym4ww6m6nr79pkxng",
+  "subdenom": "testruth",
+  "denom_units": [
+    {
+      "denom": "coin.zig1e73c08v3y9kl8t6c8wqzrym4ww6m6nr79pkxng.testruth",
+      "exponent": 0
+    },
+    {
+      "denom": "TESTRUTH",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

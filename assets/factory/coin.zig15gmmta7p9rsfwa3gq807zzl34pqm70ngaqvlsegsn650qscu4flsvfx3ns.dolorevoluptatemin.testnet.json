@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15gmmta7p9rsfwa3gq807zzl34pqm70ngaqvlsegsn650qscu4flsvfx3ns.dolorevoluptatemin",
+  "type": "factory",
+  "symbol": "DOLOREVOLUPTATEMIN",
+  "name": "Dolorevoluptatemin",
+  "decimals": 6,
+  "display_denom": "DOLOREVOLUPTATEMIN",
+  "base_denom": "coin.zig15gmmta7p9rsfwa3gq807zzl34pqm70ngaqvlsegsn650qscu4flsvfx3ns.dolorevoluptatemin",
+  "creator": "zig15gmmta7p9rsfwa3gq807zzl34pqm70ngaqvlsegsn650qscu4flsvfx3ns",
+  "subdenom": "dolorevoluptatemin",
+  "denom_units": [
+    {
+      "denom": "coin.zig15gmmta7p9rsfwa3gq807zzl34pqm70ngaqvlsegsn650qscu4flsvfx3ns.dolorevoluptatemin",
+      "exponent": 0
+    },
+    {
+      "denom": "DOLOREVOLUPTATEMIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

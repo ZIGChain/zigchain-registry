@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qtvge97e5u6xgqrp0j42vcgghayu9mvqfnzdkukl4y3umjmcn2dq9e9rmu.erferend",
+  "type": "factory",
+  "symbol": "ERFEREND",
+  "name": "Erferend",
+  "decimals": 6,
+  "display_denom": "ERFEREND",
+  "base_denom": "coin.zig1qtvge97e5u6xgqrp0j42vcgghayu9mvqfnzdkukl4y3umjmcn2dq9e9rmu.erferend",
+  "creator": "zig1qtvge97e5u6xgqrp0j42vcgghayu9mvqfnzdkukl4y3umjmcn2dq9e9rmu",
+  "subdenom": "erferend",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qtvge97e5u6xgqrp0j42vcgghayu9mvqfnzdkukl4y3umjmcn2dq9e9rmu.erferend",
+      "exponent": 0
+    },
+    {
+      "denom": "ERFEREND",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

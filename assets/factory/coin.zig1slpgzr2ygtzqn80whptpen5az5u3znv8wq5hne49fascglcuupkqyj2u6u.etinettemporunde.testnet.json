@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1slpgzr2ygtzqn80whptpen5az5u3znv8wq5hne49fascglcuupkqyj2u6u.etinettemporunde",
+  "type": "factory",
+  "symbol": "ETINETTEMPORUNDE",
+  "name": "Etinettemporunde",
+  "decimals": 6,
+  "display_denom": "ETINETTEMPORUNDE",
+  "base_denom": "coin.zig1slpgzr2ygtzqn80whptpen5az5u3znv8wq5hne49fascglcuupkqyj2u6u.etinettemporunde",
+  "creator": "zig1slpgzr2ygtzqn80whptpen5az5u3znv8wq5hne49fascglcuupkqyj2u6u",
+  "subdenom": "etinettemporunde",
+  "denom_units": [
+    {
+      "denom": "coin.zig1slpgzr2ygtzqn80whptpen5az5u3znv8wq5hne49fascglcuupkqyj2u6u.etinettemporunde",
+      "exponent": 0
+    },
+    {
+      "denom": "ETINETTEMPORUNDE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

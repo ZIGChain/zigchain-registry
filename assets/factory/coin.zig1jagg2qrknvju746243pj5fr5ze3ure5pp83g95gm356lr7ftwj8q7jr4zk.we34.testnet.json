@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1jagg2qrknvju746243pj5fr5ze3ure5pp83g95gm356lr7ftwj8q7jr4zk.we34",
+  "type": "factory",
+  "symbol": "WE34",
+  "name": "We34",
+  "decimals": 6,
+  "display_denom": "WE34",
+  "base_denom": "coin.zig1jagg2qrknvju746243pj5fr5ze3ure5pp83g95gm356lr7ftwj8q7jr4zk.we34",
+  "creator": "zig1jagg2qrknvju746243pj5fr5ze3ure5pp83g95gm356lr7ftwj8q7jr4zk",
+  "subdenom": "we34",
+  "denom_units": [
+    {
+      "denom": "coin.zig1jagg2qrknvju746243pj5fr5ze3ure5pp83g95gm356lr7ftwj8q7jr4zk.we34",
+      "exponent": 0
+    },
+    {
+      "denom": "WE34",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

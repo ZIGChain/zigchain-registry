@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qennx0ycuspgpuy3kznvwlsa063jswgpjwyhcr39xp8j942jfd0sxn6gfw.bilcoin",
+  "type": "factory",
+  "symbol": "BILCOIN",
+  "name": "Bilcoin",
+  "decimals": 6,
+  "display_denom": "BILCOIN",
+  "base_denom": "coin.zig1qennx0ycuspgpuy3kznvwlsa063jswgpjwyhcr39xp8j942jfd0sxn6gfw.bilcoin",
+  "creator": "zig1qennx0ycuspgpuy3kznvwlsa063jswgpjwyhcr39xp8j942jfd0sxn6gfw",
+  "subdenom": "bilcoin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qennx0ycuspgpuy3kznvwlsa063jswgpjwyhcr39xp8j942jfd0sxn6gfw.bilcoin",
+      "exponent": 0
+    },
+    {
+      "denom": "BILCOIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

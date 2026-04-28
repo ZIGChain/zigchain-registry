@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ruja46aqr4qfj9jn6g63wwqeja8lwrl4x0tk4m9448tnz0s5s7xsgdnvxq.lptoken",
+  "type": "factory",
+  "symbol": "LPTOKEN",
+  "name": "Lptoken",
+  "decimals": 6,
+  "display_denom": "LPTOKEN",
+  "base_denom": "coin.zig1ruja46aqr4qfj9jn6g63wwqeja8lwrl4x0tk4m9448tnz0s5s7xsgdnvxq.lptoken",
+  "creator": "zig1ruja46aqr4qfj9jn6g63wwqeja8lwrl4x0tk4m9448tnz0s5s7xsgdnvxq",
+  "subdenom": "lptoken",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ruja46aqr4qfj9jn6g63wwqeja8lwrl4x0tk4m9448tnz0s5s7xsgdnvxq.lptoken",
+      "exponent": 0
+    },
+    {
+      "denom": "LPTOKEN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

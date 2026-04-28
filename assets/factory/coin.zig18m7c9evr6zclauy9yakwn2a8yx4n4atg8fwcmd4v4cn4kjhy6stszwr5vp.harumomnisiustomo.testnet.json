@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18m7c9evr6zclauy9yakwn2a8yx4n4atg8fwcmd4v4cn4kjhy6stszwr5vp.harumomnisiustomo",
+  "type": "factory",
+  "symbol": "HARUMOMNISIUSTOMO",
+  "name": "Harumomnisiustomo",
+  "decimals": 6,
+  "display_denom": "HARUMOMNISIUSTOMO",
+  "base_denom": "coin.zig18m7c9evr6zclauy9yakwn2a8yx4n4atg8fwcmd4v4cn4kjhy6stszwr5vp.harumomnisiustomo",
+  "creator": "zig18m7c9evr6zclauy9yakwn2a8yx4n4atg8fwcmd4v4cn4kjhy6stszwr5vp",
+  "subdenom": "harumomnisiustomo",
+  "denom_units": [
+    {
+      "denom": "coin.zig18m7c9evr6zclauy9yakwn2a8yx4n4atg8fwcmd4v4cn4kjhy6stszwr5vp.harumomnisiustomo",
+      "exponent": 0
+    },
+    {
+      "denom": "HARUMOMNISIUSTOMO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

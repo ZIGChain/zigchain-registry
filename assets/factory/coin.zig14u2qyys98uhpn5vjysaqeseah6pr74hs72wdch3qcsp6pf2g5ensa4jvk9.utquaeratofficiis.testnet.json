@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14u2qyys98uhpn5vjysaqeseah6pr74hs72wdch3qcsp6pf2g5ensa4jvk9.utquaeratofficiis",
+  "type": "factory",
+  "symbol": "UTQUAERATOFFICIIS",
+  "name": "Utquaeratofficiis",
+  "decimals": 6,
+  "display_denom": "UTQUAERATOFFICIIS",
+  "base_denom": "coin.zig14u2qyys98uhpn5vjysaqeseah6pr74hs72wdch3qcsp6pf2g5ensa4jvk9.utquaeratofficiis",
+  "creator": "zig14u2qyys98uhpn5vjysaqeseah6pr74hs72wdch3qcsp6pf2g5ensa4jvk9",
+  "subdenom": "utquaeratofficiis",
+  "denom_units": [
+    {
+      "denom": "coin.zig14u2qyys98uhpn5vjysaqeseah6pr74hs72wdch3qcsp6pf2g5ensa4jvk9.utquaeratofficiis",
+      "exponent": 0
+    },
+    {
+      "denom": "UTQUAERATOFFICIIS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

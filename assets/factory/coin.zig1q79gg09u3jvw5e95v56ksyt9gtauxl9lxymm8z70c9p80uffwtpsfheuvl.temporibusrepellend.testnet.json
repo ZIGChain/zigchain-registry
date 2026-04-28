@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1q79gg09u3jvw5e95v56ksyt9gtauxl9lxymm8z70c9p80uffwtpsfheuvl.temporibusrepellend",
+  "type": "factory",
+  "symbol": "TEMPORIBUSREPELLEND",
+  "name": "Temporibusrepellend",
+  "decimals": 6,
+  "display_denom": "TEMPORIBUSREPELLEND",
+  "base_denom": "coin.zig1q79gg09u3jvw5e95v56ksyt9gtauxl9lxymm8z70c9p80uffwtpsfheuvl.temporibusrepellend",
+  "creator": "zig1q79gg09u3jvw5e95v56ksyt9gtauxl9lxymm8z70c9p80uffwtpsfheuvl",
+  "subdenom": "temporibusrepellend",
+  "denom_units": [
+    {
+      "denom": "coin.zig1q79gg09u3jvw5e95v56ksyt9gtauxl9lxymm8z70c9p80uffwtpsfheuvl.temporibusrepellend",
+      "exponent": 0
+    },
+    {
+      "denom": "TEMPORIBUSREPELLEND",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

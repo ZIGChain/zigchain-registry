@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig186026ytld8yneqlccwc5cqr6wxy6q2cyl0psex08vln78skad3zqfdzznr.voluptatemreiciend",
+  "type": "factory",
+  "symbol": "VOLUPTATEMREICIEND",
+  "name": "Voluptatemreiciend",
+  "decimals": 6,
+  "display_denom": "VOLUPTATEMREICIEND",
+  "base_denom": "coin.zig186026ytld8yneqlccwc5cqr6wxy6q2cyl0psex08vln78skad3zqfdzznr.voluptatemreiciend",
+  "creator": "zig186026ytld8yneqlccwc5cqr6wxy6q2cyl0psex08vln78skad3zqfdzznr",
+  "subdenom": "voluptatemreiciend",
+  "denom_units": [
+    {
+      "denom": "coin.zig186026ytld8yneqlccwc5cqr6wxy6q2cyl0psex08vln78skad3zqfdzznr.voluptatemreiciend",
+      "exponent": 0
+    },
+    {
+      "denom": "VOLUPTATEMREICIEND",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

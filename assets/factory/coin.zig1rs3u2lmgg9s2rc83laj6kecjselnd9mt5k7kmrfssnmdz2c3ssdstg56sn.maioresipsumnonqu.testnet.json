@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rs3u2lmgg9s2rc83laj6kecjselnd9mt5k7kmrfssnmdz2c3ssdstg56sn.maioresipsumnonqu",
+  "type": "factory",
+  "symbol": "MAIORESIPSUMNONQU",
+  "name": "Maioresipsumnonqu",
+  "decimals": 6,
+  "display_denom": "MAIORESIPSUMNONQU",
+  "base_denom": "coin.zig1rs3u2lmgg9s2rc83laj6kecjselnd9mt5k7kmrfssnmdz2c3ssdstg56sn.maioresipsumnonqu",
+  "creator": "zig1rs3u2lmgg9s2rc83laj6kecjselnd9mt5k7kmrfssnmdz2c3ssdstg56sn",
+  "subdenom": "maioresipsumnonqu",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rs3u2lmgg9s2rc83laj6kecjselnd9mt5k7kmrfssnmdz2c3ssdstg56sn.maioresipsumnonqu",
+      "exponent": 0
+    },
+    {
+      "denom": "MAIORESIPSUMNONQU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

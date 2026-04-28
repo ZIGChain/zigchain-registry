@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1g885x8vhnetq5w5zgqw8gahdelmcfmc52yddll02n6pgnjtah7gqszmp6c.laboriosamlaboren",
+  "type": "factory",
+  "symbol": "LABORIOSAMLABOREN",
+  "name": "Laboriosamlaboren",
+  "decimals": 6,
+  "display_denom": "LABORIOSAMLABOREN",
+  "base_denom": "coin.zig1g885x8vhnetq5w5zgqw8gahdelmcfmc52yddll02n6pgnjtah7gqszmp6c.laboriosamlaboren",
+  "creator": "zig1g885x8vhnetq5w5zgqw8gahdelmcfmc52yddll02n6pgnjtah7gqszmp6c",
+  "subdenom": "laboriosamlaboren",
+  "denom_units": [
+    {
+      "denom": "coin.zig1g885x8vhnetq5w5zgqw8gahdelmcfmc52yddll02n6pgnjtah7gqszmp6c.laboriosamlaboren",
+      "exponent": 0
+    },
+    {
+      "denom": "LABORIOSAMLABOREN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10xep7tp43u57murd406feyqh228emdh5qdvz7jynenjuuh6dcz9sdak0gs.estconsequunturul",
+  "type": "factory",
+  "symbol": "ESTCONSEQUUNTURUL",
+  "name": "Estconsequunturul",
+  "decimals": 6,
+  "display_denom": "ESTCONSEQUUNTURUL",
+  "base_denom": "coin.zig10xep7tp43u57murd406feyqh228emdh5qdvz7jynenjuuh6dcz9sdak0gs.estconsequunturul",
+  "creator": "zig10xep7tp43u57murd406feyqh228emdh5qdvz7jynenjuuh6dcz9sdak0gs",
+  "subdenom": "estconsequunturul",
+  "denom_units": [
+    {
+      "denom": "coin.zig10xep7tp43u57murd406feyqh228emdh5qdvz7jynenjuuh6dcz9sdak0gs.estconsequunturul",
+      "exponent": 0
+    },
+    {
+      "denom": "ESTCONSEQUUNTURUL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

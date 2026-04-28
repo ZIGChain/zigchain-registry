@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14r6lxktrm9l92wdd8l0hw3wrtax82w6u5r4cmc4decrc28exrs5qtlzzw8.voluptatererumnihi",
+  "type": "factory",
+  "symbol": "VOLUPTATERERUMNIHI",
+  "name": "Voluptatererumnihi",
+  "decimals": 6,
+  "display_denom": "VOLUPTATERERUMNIHI",
+  "base_denom": "coin.zig14r6lxktrm9l92wdd8l0hw3wrtax82w6u5r4cmc4decrc28exrs5qtlzzw8.voluptatererumnihi",
+  "creator": "zig14r6lxktrm9l92wdd8l0hw3wrtax82w6u5r4cmc4decrc28exrs5qtlzzw8",
+  "subdenom": "voluptatererumnihi",
+  "denom_units": [
+    {
+      "denom": "coin.zig14r6lxktrm9l92wdd8l0hw3wrtax82w6u5r4cmc4decrc28exrs5qtlzzw8.voluptatererumnihi",
+      "exponent": 0
+    },
+    {
+      "denom": "VOLUPTATERERUMNIHI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

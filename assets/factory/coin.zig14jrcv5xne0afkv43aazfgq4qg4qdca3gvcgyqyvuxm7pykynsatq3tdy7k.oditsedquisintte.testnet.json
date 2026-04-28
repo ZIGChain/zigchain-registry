@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14jrcv5xne0afkv43aazfgq4qg4qdca3gvcgyqyvuxm7pykynsatq3tdy7k.oditsedquisintte",
+  "type": "factory",
+  "symbol": "ODITSEDQUISINTTE",
+  "name": "Oditsedquisintte",
+  "decimals": 6,
+  "display_denom": "ODITSEDQUISINTTE",
+  "base_denom": "coin.zig14jrcv5xne0afkv43aazfgq4qg4qdca3gvcgyqyvuxm7pykynsatq3tdy7k.oditsedquisintte",
+  "creator": "zig14jrcv5xne0afkv43aazfgq4qg4qdca3gvcgyqyvuxm7pykynsatq3tdy7k",
+  "subdenom": "oditsedquisintte",
+  "denom_units": [
+    {
+      "denom": "coin.zig14jrcv5xne0afkv43aazfgq4qg4qdca3gvcgyqyvuxm7pykynsatq3tdy7k.oditsedquisintte",
+      "exponent": 0
+    },
+    {
+      "denom": "ODITSEDQUISINTTE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

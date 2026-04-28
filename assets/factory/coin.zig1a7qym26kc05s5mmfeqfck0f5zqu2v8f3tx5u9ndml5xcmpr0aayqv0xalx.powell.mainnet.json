@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1a7qym26kc05s5mmfeqfck0f5zqu2v8f3tx5u9ndml5xcmpr0aayqv0xalx.powell",
+  "type": "factory",
+  "symbol": "POWELL",
+  "name": "Powell",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1a7qym26kc05s5mmfeqfck0f5zqu2v8f3tx5u9ndml5xcmpr0aayqv0xalx.powell",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1a7qym26kc05s5mmfeqfck0f5zqu2v8f3tx5u9ndml5xcmpr0aayqv0xalx.powell",
+  "base_denom": "coin.zig1a7qym26kc05s5mmfeqfck0f5zqu2v8f3tx5u9ndml5xcmpr0aayqv0xalx.powell",
+  "creator": "zig1a7qym26kc05s5mmfeqfck0f5zqu2v8f3tx5u9ndml5xcmpr0aayqv0xalx",
+  "subdenom": "powell",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

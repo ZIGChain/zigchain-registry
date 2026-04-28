@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hy76dnr5tp494we6el5vt9qvv2jwnrpmgltghd9gzjtcwk3hgzpsjk6pey.laborumsitdictaa",
+  "type": "factory",
+  "symbol": "LABORUMSITDICTAA",
+  "name": "Laborumsitdictaa",
+  "decimals": 6,
+  "display_denom": "LABORUMSITDICTAA",
+  "base_denom": "coin.zig1hy76dnr5tp494we6el5vt9qvv2jwnrpmgltghd9gzjtcwk3hgzpsjk6pey.laborumsitdictaa",
+  "creator": "zig1hy76dnr5tp494we6el5vt9qvv2jwnrpmgltghd9gzjtcwk3hgzpsjk6pey",
+  "subdenom": "laborumsitdictaa",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hy76dnr5tp494we6el5vt9qvv2jwnrpmgltghd9gzjtcwk3hgzpsjk6pey.laborumsitdictaa",
+      "exponent": 0
+    },
+    {
+      "denom": "LABORUMSITDICTAA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17adewze9dunqx3z7f5kehk0ukp7nk2ghurvdvh6qjyd8ahe8m7xqp0dcs4.velitdeserunteaq",
+  "type": "factory",
+  "symbol": "VELITDESERUNTEAQ",
+  "name": "Velitdeserunteaq",
+  "decimals": 6,
+  "display_denom": "VELITDESERUNTEAQ",
+  "base_denom": "coin.zig17adewze9dunqx3z7f5kehk0ukp7nk2ghurvdvh6qjyd8ahe8m7xqp0dcs4.velitdeserunteaq",
+  "creator": "zig17adewze9dunqx3z7f5kehk0ukp7nk2ghurvdvh6qjyd8ahe8m7xqp0dcs4",
+  "subdenom": "velitdeserunteaq",
+  "denom_units": [
+    {
+      "denom": "coin.zig17adewze9dunqx3z7f5kehk0ukp7nk2ghurvdvh6qjyd8ahe8m7xqp0dcs4.velitdeserunteaq",
+      "exponent": 0
+    },
+    {
+      "denom": "VELITDESERUNTEAQ",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

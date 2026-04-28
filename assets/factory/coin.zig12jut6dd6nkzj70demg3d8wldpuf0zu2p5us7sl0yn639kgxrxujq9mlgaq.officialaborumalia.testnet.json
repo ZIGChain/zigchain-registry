@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig12jut6dd6nkzj70demg3d8wldpuf0zu2p5us7sl0yn639kgxrxujq9mlgaq.officialaborumalia",
+  "type": "factory",
+  "symbol": "OFFICIALABORUMALIA",
+  "name": "Officialaborumalia",
+  "decimals": 6,
+  "display_denom": "OFFICIALABORUMALIA",
+  "base_denom": "coin.zig12jut6dd6nkzj70demg3d8wldpuf0zu2p5us7sl0yn639kgxrxujq9mlgaq.officialaborumalia",
+  "creator": "zig12jut6dd6nkzj70demg3d8wldpuf0zu2p5us7sl0yn639kgxrxujq9mlgaq",
+  "subdenom": "officialaborumalia",
+  "denom_units": [
+    {
+      "denom": "coin.zig12jut6dd6nkzj70demg3d8wldpuf0zu2p5us7sl0yn639kgxrxujq9mlgaq.officialaborumalia",
+      "exponent": 0
+    },
+    {
+      "denom": "OFFICIALABORUMALIA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

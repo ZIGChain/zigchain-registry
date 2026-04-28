@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1xhzswsdts7kf4hk62spndqerpe6yrkv49hw2ygnu68880s0krg7srlevut.esseestvelsapient",
+  "type": "factory",
+  "symbol": "ESSEESTVELSAPIENT",
+  "name": "Esseestvelsapient",
+  "decimals": 6,
+  "display_denom": "ESSEESTVELSAPIENT",
+  "base_denom": "coin.zig1xhzswsdts7kf4hk62spndqerpe6yrkv49hw2ygnu68880s0krg7srlevut.esseestvelsapient",
+  "creator": "zig1xhzswsdts7kf4hk62spndqerpe6yrkv49hw2ygnu68880s0krg7srlevut",
+  "subdenom": "esseestvelsapient",
+  "denom_units": [
+    {
+      "denom": "coin.zig1xhzswsdts7kf4hk62spndqerpe6yrkv49hw2ygnu68880s0krg7srlevut.esseestvelsapient",
+      "exponent": 0
+    },
+    {
+      "denom": "ESSEESTVELSAPIENT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

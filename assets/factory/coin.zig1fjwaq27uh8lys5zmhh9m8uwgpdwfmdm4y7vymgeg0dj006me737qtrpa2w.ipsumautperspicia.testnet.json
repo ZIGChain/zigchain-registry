@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1fjwaq27uh8lys5zmhh9m8uwgpdwfmdm4y7vymgeg0dj006me737qtrpa2w.ipsumautperspicia",
+  "type": "factory",
+  "symbol": "IPSUMAUTPERSPICIA",
+  "name": "Ipsumautperspicia",
+  "decimals": 6,
+  "display_denom": "IPSUMAUTPERSPICIA",
+  "base_denom": "coin.zig1fjwaq27uh8lys5zmhh9m8uwgpdwfmdm4y7vymgeg0dj006me737qtrpa2w.ipsumautperspicia",
+  "creator": "zig1fjwaq27uh8lys5zmhh9m8uwgpdwfmdm4y7vymgeg0dj006me737qtrpa2w",
+  "subdenom": "ipsumautperspicia",
+  "denom_units": [
+    {
+      "denom": "coin.zig1fjwaq27uh8lys5zmhh9m8uwgpdwfmdm4y7vymgeg0dj006me737qtrpa2w.ipsumautperspicia",
+      "exponent": 0
+    },
+    {
+      "denom": "IPSUMAUTPERSPICIA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

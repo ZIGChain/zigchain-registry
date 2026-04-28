@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15mrutwlzlavpjnrxmsfwdcjauasqqt4lsqkphutcd8neke3yte6sc4x0w4.coinone",
+  "type": "factory",
+  "symbol": "COINONE",
+  "name": "Coinone",
+  "decimals": 6,
+  "display_denom": "COINONE",
+  "base_denom": "coin.zig15mrutwlzlavpjnrxmsfwdcjauasqqt4lsqkphutcd8neke3yte6sc4x0w4.coinone",
+  "creator": "zig15mrutwlzlavpjnrxmsfwdcjauasqqt4lsqkphutcd8neke3yte6sc4x0w4",
+  "subdenom": "coinone",
+  "denom_units": [
+    {
+      "denom": "coin.zig15mrutwlzlavpjnrxmsfwdcjauasqqt4lsqkphutcd8neke3yte6sc4x0w4.coinone",
+      "exponent": 0
+    },
+    {
+      "denom": "COINONE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

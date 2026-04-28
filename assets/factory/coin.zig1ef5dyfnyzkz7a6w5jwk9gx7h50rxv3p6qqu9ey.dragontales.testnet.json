@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey.dragontales",
+  "type": "factory",
+  "symbol": "DRAGONTALES",
+  "name": "Dragontales",
+  "decimals": 6,
+  "display_denom": "DRAGONTALES",
+  "base_denom": "coin.zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey.dragontales",
+  "creator": "zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey",
+  "subdenom": "dragontales",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey.dragontales",
+      "exponent": 0
+    },
+    {
+      "denom": "DRAGONTALES",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

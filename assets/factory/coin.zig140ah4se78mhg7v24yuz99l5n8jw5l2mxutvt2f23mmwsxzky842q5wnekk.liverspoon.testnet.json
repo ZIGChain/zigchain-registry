@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig140ah4se78mhg7v24yuz99l5n8jw5l2mxutvt2f23mmwsxzky842q5wnekk.liverspoon",
+  "type": "factory",
+  "symbol": "LIVERSPOON",
+  "name": "Liverspoon",
+  "decimals": 6,
+  "display_denom": "LIVERSPOON",
+  "base_denom": "coin.zig140ah4se78mhg7v24yuz99l5n8jw5l2mxutvt2f23mmwsxzky842q5wnekk.liverspoon",
+  "creator": "zig140ah4se78mhg7v24yuz99l5n8jw5l2mxutvt2f23mmwsxzky842q5wnekk",
+  "subdenom": "liverspoon",
+  "denom_units": [
+    {
+      "denom": "coin.zig140ah4se78mhg7v24yuz99l5n8jw5l2mxutvt2f23mmwsxzky842q5wnekk.liverspoon",
+      "exponent": 0
+    },
+    {
+      "denom": "LIVERSPOON",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

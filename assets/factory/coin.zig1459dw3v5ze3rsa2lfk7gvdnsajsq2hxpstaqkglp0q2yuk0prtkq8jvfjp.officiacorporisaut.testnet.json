@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1459dw3v5ze3rsa2lfk7gvdnsajsq2hxpstaqkglp0q2yuk0prtkq8jvfjp.officiacorporisaut",
+  "type": "factory",
+  "symbol": "OFFICIACORPORISAUT",
+  "name": "Officiacorporisaut",
+  "decimals": 6,
+  "display_denom": "OFFICIACORPORISAUT",
+  "base_denom": "coin.zig1459dw3v5ze3rsa2lfk7gvdnsajsq2hxpstaqkglp0q2yuk0prtkq8jvfjp.officiacorporisaut",
+  "creator": "zig1459dw3v5ze3rsa2lfk7gvdnsajsq2hxpstaqkglp0q2yuk0prtkq8jvfjp",
+  "subdenom": "officiacorporisaut",
+  "denom_units": [
+    {
+      "denom": "coin.zig1459dw3v5ze3rsa2lfk7gvdnsajsq2hxpstaqkglp0q2yuk0prtkq8jvfjp.officiacorporisaut",
+      "exponent": 0
+    },
+    {
+      "denom": "OFFICIACORPORISAUT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

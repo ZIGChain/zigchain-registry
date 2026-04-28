@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1e0gu908ph38lnxracrytm87hn7n2v7hpv2pxjkxkjwhsd3rgph2s26nffv.idquorerumaperia",
+  "type": "factory",
+  "symbol": "IDQUORERUMAPERIA",
+  "name": "Idquorerumaperia",
+  "decimals": 6,
+  "display_denom": "IDQUORERUMAPERIA",
+  "base_denom": "coin.zig1e0gu908ph38lnxracrytm87hn7n2v7hpv2pxjkxkjwhsd3rgph2s26nffv.idquorerumaperia",
+  "creator": "zig1e0gu908ph38lnxracrytm87hn7n2v7hpv2pxjkxkjwhsd3rgph2s26nffv",
+  "subdenom": "idquorerumaperia",
+  "denom_units": [
+    {
+      "denom": "coin.zig1e0gu908ph38lnxracrytm87hn7n2v7hpv2pxjkxkjwhsd3rgph2s26nffv.idquorerumaperia",
+      "exponent": 0
+    },
+    {
+      "denom": "IDQUORERUMAPERIA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

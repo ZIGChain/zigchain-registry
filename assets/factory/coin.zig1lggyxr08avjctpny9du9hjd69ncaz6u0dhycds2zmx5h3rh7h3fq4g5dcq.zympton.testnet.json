@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1lggyxr08avjctpny9du9hjd69ncaz6u0dhycds2zmx5h3rh7h3fq4g5dcq.zympton",
+  "type": "factory",
+  "symbol": "ZYMPTON",
+  "name": "Zympton",
+  "decimals": 6,
+  "display_denom": "ZYMPTON",
+  "base_denom": "coin.zig1lggyxr08avjctpny9du9hjd69ncaz6u0dhycds2zmx5h3rh7h3fq4g5dcq.zympton",
+  "creator": "zig1lggyxr08avjctpny9du9hjd69ncaz6u0dhycds2zmx5h3rh7h3fq4g5dcq",
+  "subdenom": "zympton",
+  "denom_units": [
+    {
+      "denom": "coin.zig1lggyxr08avjctpny9du9hjd69ncaz6u0dhycds2zmx5h3rh7h3fq4g5dcq.zympton",
+      "exponent": 0
+    },
+    {
+      "denom": "ZYMPTON",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

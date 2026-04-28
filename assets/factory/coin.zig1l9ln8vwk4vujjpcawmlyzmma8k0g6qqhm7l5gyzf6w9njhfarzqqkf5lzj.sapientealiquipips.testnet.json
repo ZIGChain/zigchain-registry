@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1l9ln8vwk4vujjpcawmlyzmma8k0g6qqhm7l5gyzf6w9njhfarzqqkf5lzj.sapientealiquipips",
+  "type": "factory",
+  "symbol": "SAPIENTEALIQUIPIPS",
+  "name": "Sapientealiquipips",
+  "decimals": 6,
+  "display_denom": "SAPIENTEALIQUIPIPS",
+  "base_denom": "coin.zig1l9ln8vwk4vujjpcawmlyzmma8k0g6qqhm7l5gyzf6w9njhfarzqqkf5lzj.sapientealiquipips",
+  "creator": "zig1l9ln8vwk4vujjpcawmlyzmma8k0g6qqhm7l5gyzf6w9njhfarzqqkf5lzj",
+  "subdenom": "sapientealiquipips",
+  "denom_units": [
+    {
+      "denom": "coin.zig1l9ln8vwk4vujjpcawmlyzmma8k0g6qqhm7l5gyzf6w9njhfarzqqkf5lzj.sapientealiquipips",
+      "exponent": 0
+    },
+    {
+      "denom": "SAPIENTEALIQUIPIPS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1key4pt0mv8dtdfjfchu82jxanrt3h0rcky7hqlg2pekrksdlpy7sf2a8qe.doloresomnisidqui",
+  "type": "factory",
+  "symbol": "DOLORESOMNISIDQUI",
+  "name": "Doloresomnisidqui",
+  "decimals": 6,
+  "display_denom": "DOLORESOMNISIDQUI",
+  "base_denom": "coin.zig1key4pt0mv8dtdfjfchu82jxanrt3h0rcky7hqlg2pekrksdlpy7sf2a8qe.doloresomnisidqui",
+  "creator": "zig1key4pt0mv8dtdfjfchu82jxanrt3h0rcky7hqlg2pekrksdlpy7sf2a8qe",
+  "subdenom": "doloresomnisidqui",
+  "denom_units": [
+    {
+      "denom": "coin.zig1key4pt0mv8dtdfjfchu82jxanrt3h0rcky7hqlg2pekrksdlpy7sf2a8qe.doloresomnisidqui",
+      "exponent": 0
+    },
+    {
+      "denom": "DOLORESOMNISIDQUI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

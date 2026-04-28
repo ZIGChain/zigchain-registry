@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig16n47s6mffj29lxhw3reuryfynxzcfpedshftqypmexyee7p94s5q0lleem.irureexcepteurest",
+  "type": "factory",
+  "symbol": "IRUREEXCEPTEUREST",
+  "name": "Irureexcepteurest",
+  "decimals": 6,
+  "display_denom": "IRUREEXCEPTEUREST",
+  "base_denom": "coin.zig16n47s6mffj29lxhw3reuryfynxzcfpedshftqypmexyee7p94s5q0lleem.irureexcepteurest",
+  "creator": "zig16n47s6mffj29lxhw3reuryfynxzcfpedshftqypmexyee7p94s5q0lleem",
+  "subdenom": "irureexcepteurest",
+  "denom_units": [
+    {
+      "denom": "coin.zig16n47s6mffj29lxhw3reuryfynxzcfpedshftqypmexyee7p94s5q0lleem.irureexcepteurest",
+      "exponent": 0
+    },
+    {
+      "denom": "IRUREEXCEPTEUREST",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

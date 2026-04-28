@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1n8amlyt960cxz7myfphhcsptjuhr2wtdm57wfurdgm7hy4eu693qhavlwq.poppycoin",
+  "type": "factory",
+  "symbol": "POPPYCOIN",
+  "name": "Poppycoin",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1n8amlyt960cxz7myfphhcsptjuhr2wtdm57wfurdgm7hy4eu693qhavlwq.poppycoin",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1n8amlyt960cxz7myfphhcsptjuhr2wtdm57wfurdgm7hy4eu693qhavlwq.poppycoin",
+  "base_denom": "coin.zig1n8amlyt960cxz7myfphhcsptjuhr2wtdm57wfurdgm7hy4eu693qhavlwq.poppycoin",
+  "creator": "zig1n8amlyt960cxz7myfphhcsptjuhr2wtdm57wfurdgm7hy4eu693qhavlwq",
+  "subdenom": "poppycoin",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

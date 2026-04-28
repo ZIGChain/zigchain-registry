@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15ztppgc8859ramweldxdmcf7fa5y6kzs5lewfd.uyamal",
+  "type": "factory",
+  "symbol": "UYAMAL",
+  "name": "Uyamal",
+  "decimals": 6,
+  "display_denom": "UYAMAL",
+  "base_denom": "coin.zig15ztppgc8859ramweldxdmcf7fa5y6kzs5lewfd.uyamal",
+  "creator": "zig15ztppgc8859ramweldxdmcf7fa5y6kzs5lewfd",
+  "subdenom": "uyamal",
+  "denom_units": [
+    {
+      "denom": "coin.zig15ztppgc8859ramweldxdmcf7fa5y6kzs5lewfd.uyamal",
+      "exponent": 0
+    },
+    {
+      "denom": "UYAMAL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1l7k2vck3n2th9d9vx8va8elx75stty070v5e6037zgljuejc65xqwdkp0x.masked",
+  "type": "factory",
+  "symbol": "MASKED",
+  "name": "Masked",
+  "decimals": 6,
+  "display_denom": "MASKED",
+  "base_denom": "coin.zig1l7k2vck3n2th9d9vx8va8elx75stty070v5e6037zgljuejc65xqwdkp0x.masked",
+  "creator": "zig1l7k2vck3n2th9d9vx8va8elx75stty070v5e6037zgljuejc65xqwdkp0x",
+  "subdenom": "masked",
+  "denom_units": [
+    {
+      "denom": "coin.zig1l7k2vck3n2th9d9vx8va8elx75stty070v5e6037zgljuejc65xqwdkp0x.masked",
+      "exponent": 0
+    },
+    {
+      "denom": "MASKED",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

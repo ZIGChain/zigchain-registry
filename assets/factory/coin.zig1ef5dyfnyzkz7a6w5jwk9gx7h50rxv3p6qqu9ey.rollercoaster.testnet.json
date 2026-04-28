@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey.rollercoaster",
+  "type": "factory",
+  "symbol": "ROLLERCOASTER",
+  "name": "Rollercoaster",
+  "decimals": 6,
+  "display_denom": "ROLLERCOASTER",
+  "base_denom": "coin.zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey.rollercoaster",
+  "creator": "zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey",
+  "subdenom": "rollercoaster",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey.rollercoaster",
+      "exponent": 0
+    },
+    {
+      "denom": "ROLLERCOASTER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig19telrf7u4l00hscrzxurcjlcgzr7jrkkg6w2rfakj45d2cuf2zcqzrefxh.exipsamreprehender",
+  "type": "factory",
+  "symbol": "EXIPSAMREPREHENDER",
+  "name": "Exipsamreprehender",
+  "decimals": 6,
+  "display_denom": "EXIPSAMREPREHENDER",
+  "base_denom": "coin.zig19telrf7u4l00hscrzxurcjlcgzr7jrkkg6w2rfakj45d2cuf2zcqzrefxh.exipsamreprehender",
+  "creator": "zig19telrf7u4l00hscrzxurcjlcgzr7jrkkg6w2rfakj45d2cuf2zcqzrefxh",
+  "subdenom": "exipsamreprehender",
+  "denom_units": [
+    {
+      "denom": "coin.zig19telrf7u4l00hscrzxurcjlcgzr7jrkkg6w2rfakj45d2cuf2zcqzrefxh.exipsamreprehender",
+      "exponent": 0
+    },
+    {
+      "denom": "EXIPSAMREPREHENDER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

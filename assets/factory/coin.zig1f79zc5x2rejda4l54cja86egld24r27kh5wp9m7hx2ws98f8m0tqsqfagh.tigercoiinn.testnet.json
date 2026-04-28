@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1f79zc5x2rejda4l54cja86egld24r27kh5wp9m7hx2ws98f8m0tqsqfagh.tigercoiinn",
+  "type": "factory",
+  "symbol": "TIGERCOIINN",
+  "name": "Tigercoiinn",
+  "decimals": 6,
+  "display_denom": "TIGERCOIINN",
+  "base_denom": "coin.zig1f79zc5x2rejda4l54cja86egld24r27kh5wp9m7hx2ws98f8m0tqsqfagh.tigercoiinn",
+  "creator": "zig1f79zc5x2rejda4l54cja86egld24r27kh5wp9m7hx2ws98f8m0tqsqfagh",
+  "subdenom": "tigercoiinn",
+  "denom_units": [
+    {
+      "denom": "coin.zig1f79zc5x2rejda4l54cja86egld24r27kh5wp9m7hx2ws98f8m0tqsqfagh.tigercoiinn",
+      "exponent": 0
+    },
+    {
+      "denom": "TIGERCOIINN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

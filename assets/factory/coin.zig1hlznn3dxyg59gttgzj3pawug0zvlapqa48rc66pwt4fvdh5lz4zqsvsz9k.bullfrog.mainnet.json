@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1hlznn3dxyg59gttgzj3pawug0zvlapqa48rc66pwt4fvdh5lz4zqsvsz9k.bullfrog",
+  "type": "factory",
+  "symbol": "BULLFROG",
+  "name": "Bullfrog",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1hlznn3dxyg59gttgzj3pawug0zvlapqa48rc66pwt4fvdh5lz4zqsvsz9k.bullfrog",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1hlznn3dxyg59gttgzj3pawug0zvlapqa48rc66pwt4fvdh5lz4zqsvsz9k.bullfrog",
+  "base_denom": "coin.zig1hlznn3dxyg59gttgzj3pawug0zvlapqa48rc66pwt4fvdh5lz4zqsvsz9k.bullfrog",
+  "creator": "zig1hlznn3dxyg59gttgzj3pawug0zvlapqa48rc66pwt4fvdh5lz4zqsvsz9k",
+  "subdenom": "bullfrog",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

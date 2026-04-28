@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1s445rn68v4ujzh989ja9w8zncrzmgvlldh4cds78sjxquw664lsquwkd6e.spihold",
+  "type": "factory",
+  "symbol": "SPIHOLD",
+  "name": "Spihold",
+  "decimals": 6,
+  "display_denom": "SPIHOLD",
+  "base_denom": "coin.zig1s445rn68v4ujzh989ja9w8zncrzmgvlldh4cds78sjxquw664lsquwkd6e.spihold",
+  "creator": "zig1s445rn68v4ujzh989ja9w8zncrzmgvlldh4cds78sjxquw664lsquwkd6e",
+  "subdenom": "spihold",
+  "denom_units": [
+    {
+      "denom": "coin.zig1s445rn68v4ujzh989ja9w8zncrzmgvlldh4cds78sjxquw664lsquwkd6e.spihold",
+      "exponent": 0
+    },
+    {
+      "denom": "SPIHOLD",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

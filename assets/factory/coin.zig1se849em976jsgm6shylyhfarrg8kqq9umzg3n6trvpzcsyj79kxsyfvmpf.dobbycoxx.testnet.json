@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1se849em976jsgm6shylyhfarrg8kqq9umzg3n6trvpzcsyj79kxsyfvmpf.dobbycoxx",
+  "type": "factory",
+  "symbol": "DOBBYCOXX",
+  "name": "Dobbycoxx",
+  "decimals": 6,
+  "display_denom": "DOBBYCOXX",
+  "base_denom": "coin.zig1se849em976jsgm6shylyhfarrg8kqq9umzg3n6trvpzcsyj79kxsyfvmpf.dobbycoxx",
+  "creator": "zig1se849em976jsgm6shylyhfarrg8kqq9umzg3n6trvpzcsyj79kxsyfvmpf",
+  "subdenom": "dobbycoxx",
+  "denom_units": [
+    {
+      "denom": "coin.zig1se849em976jsgm6shylyhfarrg8kqq9umzg3n6trvpzcsyj79kxsyfvmpf.dobbycoxx",
+      "exponent": 0
+    },
+    {
+      "denom": "DOBBYCOXX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

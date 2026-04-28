@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig16k3n9tcucj7vhl2a26wl4u0g9v5dske446ctyslyfmf6fv6v9rcqe7q23x.rationeaccusantium",
+  "type": "factory",
+  "symbol": "RATIONEACCUSANTIUM",
+  "name": "Rationeaccusantium",
+  "decimals": 6,
+  "display_denom": "RATIONEACCUSANTIUM",
+  "base_denom": "coin.zig16k3n9tcucj7vhl2a26wl4u0g9v5dske446ctyslyfmf6fv6v9rcqe7q23x.rationeaccusantium",
+  "creator": "zig16k3n9tcucj7vhl2a26wl4u0g9v5dske446ctyslyfmf6fv6v9rcqe7q23x",
+  "subdenom": "rationeaccusantium",
+  "denom_units": [
+    {
+      "denom": "coin.zig16k3n9tcucj7vhl2a26wl4u0g9v5dske446ctyslyfmf6fv6v9rcqe7q23x.rationeaccusantium",
+      "exponent": 0
+    },
+    {
+      "denom": "RATIONEACCUSANTIUM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

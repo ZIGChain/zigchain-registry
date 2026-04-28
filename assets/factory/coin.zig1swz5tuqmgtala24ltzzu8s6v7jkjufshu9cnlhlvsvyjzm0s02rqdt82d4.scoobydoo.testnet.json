@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1swz5tuqmgtala24ltzzu8s6v7jkjufshu9cnlhlvsvyjzm0s02rqdt82d4.scoobydoo",
+  "type": "factory",
+  "symbol": "SCOOBYDOO",
+  "name": "Scoobydoo",
+  "decimals": 6,
+  "display_denom": "SCOOBYDOO",
+  "base_denom": "coin.zig1swz5tuqmgtala24ltzzu8s6v7jkjufshu9cnlhlvsvyjzm0s02rqdt82d4.scoobydoo",
+  "creator": "zig1swz5tuqmgtala24ltzzu8s6v7jkjufshu9cnlhlvsvyjzm0s02rqdt82d4",
+  "subdenom": "scoobydoo",
+  "denom_units": [
+    {
+      "denom": "coin.zig1swz5tuqmgtala24ltzzu8s6v7jkjufshu9cnlhlvsvyjzm0s02rqdt82d4.scoobydoo",
+      "exponent": 0
+    },
+    {
+      "denom": "SCOOBYDOO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

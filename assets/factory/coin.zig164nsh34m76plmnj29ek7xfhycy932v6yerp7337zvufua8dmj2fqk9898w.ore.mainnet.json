@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig164nsh34m76plmnj29ek7xfhycy932v6yerp7337zvufua8dmj2fqk9898w.ore",
+  "type": "factory",
+  "symbol": "ORE",
+  "name": "Ore",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig164nsh34m76plmnj29ek7xfhycy932v6yerp7337zvufua8dmj2fqk9898w.ore",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig164nsh34m76plmnj29ek7xfhycy932v6yerp7337zvufua8dmj2fqk9898w.ore",
+  "base_denom": "coin.zig164nsh34m76plmnj29ek7xfhycy932v6yerp7337zvufua8dmj2fqk9898w.ore",
+  "creator": "zig164nsh34m76plmnj29ek7xfhycy932v6yerp7337zvufua8dmj2fqk9898w",
+  "subdenom": "ore",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

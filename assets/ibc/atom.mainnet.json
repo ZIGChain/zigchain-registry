@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/asset.ibc.schema.json",
+  "order": 4,
+  "network": "mainnet",
+  "asset_id": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+  "type": "ibc",
+  "symbol": "ATOM",
+  "name": "Cosmos Hub Atom",
+  "description": "Cosmos Hub Atom on ZIGChain",
+  "decimals": 6,
+  "display_denom": "atom",
+  "base_denom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+  "hash": "EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+  "origin_chain": "cosmoshub",
+  "origin_denom": "uatom",
+  "traces": [
+    {
+      "type": "ibc",
+      "chain_name": "zigchain",
+      "base_denom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+      "path": "transfer/channel-4/uatom"
+    },
+    {
+      "type": "ibc",
+      "chain_name": "cosmoshub",
+      "base_denom": "uatom",
+      "path": "transfer/channel-1555"
+    }
+  ],
+  "channels": [
+    {
+      "zigchain_channel": "channel-4",
+      "counterparty_chain": "cosmoshub",
+      "counterparty_channel": "channel-1555"
+    }
+  ],
+  "logo_uris": {
+    "chain_name": "cosmoshub",
+    "png": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/atom.png",
+    "svg": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/atom.svg"
+  },
+  "images": [
+    {
+      "image_sync": {
+        "chain_name": "cosmoshub",
+        "base_denom": "uatom"
+      }
+    }
+  ],
+  "coingecko_id": "cosmos",
+  "is_verified": true
+}

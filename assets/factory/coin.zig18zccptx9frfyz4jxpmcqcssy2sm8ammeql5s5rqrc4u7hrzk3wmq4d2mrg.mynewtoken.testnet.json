@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18zccptx9frfyz4jxpmcqcssy2sm8ammeql5s5rqrc4u7hrzk3wmq4d2mrg.mynewtoken",
+  "type": "factory",
+  "symbol": "MYNEWTOKEN",
+  "name": "Mynewtoken",
+  "decimals": 6,
+  "display_denom": "MYNEWTOKEN",
+  "base_denom": "coin.zig18zccptx9frfyz4jxpmcqcssy2sm8ammeql5s5rqrc4u7hrzk3wmq4d2mrg.mynewtoken",
+  "creator": "zig18zccptx9frfyz4jxpmcqcssy2sm8ammeql5s5rqrc4u7hrzk3wmq4d2mrg",
+  "subdenom": "mynewtoken",
+  "denom_units": [
+    {
+      "denom": "coin.zig18zccptx9frfyz4jxpmcqcssy2sm8ammeql5s5rqrc4u7hrzk3wmq4d2mrg.mynewtoken",
+      "exponent": 0
+    },
+    {
+      "denom": "MYNEWTOKEN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

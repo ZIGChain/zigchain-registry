@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17nkjfcdf3y3v0tnwuevs4c3metlwg5j84qvd4gh6le4ww3g278lsr4zkqw.voluptateestsitco",
+  "type": "factory",
+  "symbol": "VOLUPTATEESTSITCO",
+  "name": "Voluptateestsitco",
+  "decimals": 6,
+  "display_denom": "VOLUPTATEESTSITCO",
+  "base_denom": "coin.zig17nkjfcdf3y3v0tnwuevs4c3metlwg5j84qvd4gh6le4ww3g278lsr4zkqw.voluptateestsitco",
+  "creator": "zig17nkjfcdf3y3v0tnwuevs4c3metlwg5j84qvd4gh6le4ww3g278lsr4zkqw",
+  "subdenom": "voluptateestsitco",
+  "denom_units": [
+    {
+      "denom": "coin.zig17nkjfcdf3y3v0tnwuevs4c3metlwg5j84qvd4gh6le4ww3g278lsr4zkqw.voluptateestsitco",
+      "exponent": 0
+    },
+    {
+      "denom": "VOLUPTATEESTSITCO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

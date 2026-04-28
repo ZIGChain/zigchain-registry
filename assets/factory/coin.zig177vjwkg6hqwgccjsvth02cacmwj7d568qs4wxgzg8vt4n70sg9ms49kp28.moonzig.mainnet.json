@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig177vjwkg6hqwgccjsvth02cacmwj7d568qs4wxgzg8vt4n70sg9ms49kp28.moonzig",
+  "type": "factory",
+  "symbol": "MOONZIG",
+  "name": "Moonzig",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig177vjwkg6hqwgccjsvth02cacmwj7d568qs4wxgzg8vt4n70sg9ms49kp28.moonzig",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig177vjwkg6hqwgccjsvth02cacmwj7d568qs4wxgzg8vt4n70sg9ms49kp28.moonzig",
+  "base_denom": "coin.zig177vjwkg6hqwgccjsvth02cacmwj7d568qs4wxgzg8vt4n70sg9ms49kp28.moonzig",
+  "creator": "zig177vjwkg6hqwgccjsvth02cacmwj7d568qs4wxgzg8vt4n70sg9ms49kp28",
+  "subdenom": "moonzig",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

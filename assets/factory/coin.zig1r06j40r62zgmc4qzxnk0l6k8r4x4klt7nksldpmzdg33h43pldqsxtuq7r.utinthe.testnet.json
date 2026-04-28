@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1r06j40r62zgmc4qzxnk0l6k8r4x4klt7nksldpmzdg33h43pldqsxtuq7r.utinthe",
+  "type": "factory",
+  "symbol": "UTINTHE",
+  "name": "Utinthe",
+  "decimals": 6,
+  "display_denom": "UTINTHE",
+  "base_denom": "coin.zig1r06j40r62zgmc4qzxnk0l6k8r4x4klt7nksldpmzdg33h43pldqsxtuq7r.utinthe",
+  "creator": "zig1r06j40r62zgmc4qzxnk0l6k8r4x4klt7nksldpmzdg33h43pldqsxtuq7r",
+  "subdenom": "utinthe",
+  "denom_units": [
+    {
+      "denom": "coin.zig1r06j40r62zgmc4qzxnk0l6k8r4x4klt7nksldpmzdg33h43pldqsxtuq7r.utinthe",
+      "exponent": 0
+    },
+    {
+      "denom": "UTINTHE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

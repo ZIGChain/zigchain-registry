@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1fg6wa880mnhhqr9jqsryhgvzp4aplvypj2rzs99v0tqmrs3kdx7s3h3jkm.ladybugx",
+  "type": "factory",
+  "symbol": "LADYBUGX",
+  "name": "Ladybugx",
+  "decimals": 6,
+  "display_denom": "LADYBUGX",
+  "base_denom": "coin.zig1fg6wa880mnhhqr9jqsryhgvzp4aplvypj2rzs99v0tqmrs3kdx7s3h3jkm.ladybugx",
+  "creator": "zig1fg6wa880mnhhqr9jqsryhgvzp4aplvypj2rzs99v0tqmrs3kdx7s3h3jkm",
+  "subdenom": "ladybugx",
+  "denom_units": [
+    {
+      "denom": "coin.zig1fg6wa880mnhhqr9jqsryhgvzp4aplvypj2rzs99v0tqmrs3kdx7s3h3jkm.ladybugx",
+      "exponent": 0
+    },
+    {
+      "denom": "LADYBUGX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

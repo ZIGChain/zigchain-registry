@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rmnz05r2k9hsfzjlxl2pym2ruxp5q7p39whkstm03qzkhpxsv4tsmyay6k.glock",
+  "type": "factory",
+  "symbol": "GLOCK",
+  "name": "Glock",
+  "decimals": 6,
+  "display_denom": "GLOCK",
+  "base_denom": "coin.zig1rmnz05r2k9hsfzjlxl2pym2ruxp5q7p39whkstm03qzkhpxsv4tsmyay6k.glock",
+  "creator": "zig1rmnz05r2k9hsfzjlxl2pym2ruxp5q7p39whkstm03qzkhpxsv4tsmyay6k",
+  "subdenom": "glock",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rmnz05r2k9hsfzjlxl2pym2ruxp5q7p39whkstm03qzkhpxsv4tsmyay6k.glock",
+      "exponent": 0
+    },
+    {
+      "denom": "GLOCK",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

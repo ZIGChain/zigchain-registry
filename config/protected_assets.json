@@ -1,0 +1,82 @@
+{
+    "assets": [
+      {
+        "symbol": "USDC",
+        "name": "USD Coin",
+        "allowed_types": ["ibc"],
+        "expected_origin_chains": ["noble"],
+        "similar_patterns": ["^[ux]?USDC[ex]?$", "^USDC\\.[a-z]+$"],
+        "description": "Circle USD Coin via Noble"
+      },
+      {
+        "symbol": "USDT",
+        "name": "Tether USD",
+        "allowed_types": ["ibc"],
+        "expected_origin_chains": ["ethereum", "kava"],
+        "similar_patterns": ["^[ux]?USDT[ex]?$"],
+        "description": "Tether USD stablecoin"
+      },
+      {
+        "symbol": "ATOM",
+        "name": "Cosmos Hub Atom",
+        "allowed_types": ["ibc"],
+        "expected_origin_chains": ["cosmoshub"],
+        "similar_patterns": ["^[sx]?ATOM[0-9]*$"],
+        "description": "Native Cosmos Hub token"
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "allowed_types": ["ibc"],
+        "expected_origin_chains": ["ethereum"],
+        "similar_patterns": ["^[ux]?ETH[ex]?$", "^ETH\\.[a-z]+$"],
+        "description": "Ether (ETH) bridged from Ethereum"
+      },
+      {
+        "symbol": "WBTC",
+        "name": "Wrapped Bitcoin",
+        "allowed_types": ["ibc"],
+        "expected_origin_chains": ["ethereum"],
+        "similar_patterns": ["^[ux]?WBTC[ex]?$", "^WBTC\\.[a-z]+$"],
+        "description": "Wrapped Bitcoin (WBTC) bridged from Ethereum"
+      },
+      {
+        "symbol": "stATOM",
+        "name": "Stride Staked ATOM",
+        "allowed_types": ["ibc"],
+        "expected_origin_chains": ["stride"],
+        "similar_patterns": ["^[ux]?STATOM[ex]?$"],
+        "description": "Stride liquid-staked ATOM"
+      },
+      {
+        "symbol": "SolvBTC",
+        "name": "SolvBTC",
+        "allowed_types": ["ibc"],
+        "expected_origin_chains": ["ethereum"],
+        "similar_patterns": ["^[ux]?SOLVBTC[ex]?$", "^SOLVBTC\\.[a-z]+$"],
+        "description": "SolvBTC (Solv Protocol) bridged from Ethereum"
+      },
+      {
+        "symbol": "NEIRO",
+        "name": "NEIRO",
+        "allowed_types": ["ibc"],
+        "expected_origin_chains": ["ethereum"],
+        "similar_patterns": ["^[ux]?NEIRO[ex]?$", "^NEIRO\\.[a-z]+$"],
+        "description": "NEIRO ERC-20 token bridged from Ethereum"
+      },
+      {
+        "symbol": "ZIG.axl",
+        "name": "ZIG (Axelar)",
+        "allowed_types": ["ibc"],
+        "expected_origin_chains": ["axelar"],
+        "similar_patterns": ["^ZIG\\.[a-z]+$"],
+        "description": "ZIG token bridged via Axelar"
+      }
+    ],
+    "config": {
+      "case_sensitive": false,
+      "enforce_on_testnet": false,
+      "warn_on_similar": true
+    }
+  }
+  

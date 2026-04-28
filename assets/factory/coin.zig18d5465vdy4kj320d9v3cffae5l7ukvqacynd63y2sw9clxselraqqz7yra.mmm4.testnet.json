@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18d5465vdy4kj320d9v3cffae5l7ukvqacynd63y2sw9clxselraqqz7yra.mmm4",
+  "type": "factory",
+  "symbol": "MMM4",
+  "name": "Mmm4",
+  "decimals": 6,
+  "display_denom": "MMM4",
+  "base_denom": "coin.zig18d5465vdy4kj320d9v3cffae5l7ukvqacynd63y2sw9clxselraqqz7yra.mmm4",
+  "creator": "zig18d5465vdy4kj320d9v3cffae5l7ukvqacynd63y2sw9clxselraqqz7yra",
+  "subdenom": "mmm4",
+  "denom_units": [
+    {
+      "denom": "coin.zig18d5465vdy4kj320d9v3cffae5l7ukvqacynd63y2sw9clxselraqqz7yra.mmm4",
+      "exponent": 0
+    },
+    {
+      "denom": "MMM4",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

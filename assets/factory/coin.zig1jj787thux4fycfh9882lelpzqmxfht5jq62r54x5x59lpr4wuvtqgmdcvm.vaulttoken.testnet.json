@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1jj787thux4fycfh9882lelpzqmxfht5jq62r54x5x59lpr4wuvtqgmdcvm.vaulttoken",
+  "type": "factory",
+  "symbol": "VAULTTOKEN",
+  "name": "Vaulttoken",
+  "decimals": 6,
+  "display_denom": "VAULTTOKEN",
+  "base_denom": "coin.zig1jj787thux4fycfh9882lelpzqmxfht5jq62r54x5x59lpr4wuvtqgmdcvm.vaulttoken",
+  "creator": "zig1jj787thux4fycfh9882lelpzqmxfht5jq62r54x5x59lpr4wuvtqgmdcvm",
+  "subdenom": "vaulttoken",
+  "denom_units": [
+    {
+      "denom": "coin.zig1jj787thux4fycfh9882lelpzqmxfht5jq62r54x5x59lpr4wuvtqgmdcvm.vaulttoken",
+      "exponent": 0
+    },
+    {
+      "denom": "VAULTTOKEN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

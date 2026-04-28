@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1a4plldlccf8fn9q97sxgrc2z6qcncsrlhzuj8we6u46qmfmky8aq0wj65w.final",
+  "type": "factory",
+  "symbol": "FINAL",
+  "name": "Final",
+  "decimals": 6,
+  "display_denom": "FINAL",
+  "base_denom": "coin.zig1a4plldlccf8fn9q97sxgrc2z6qcncsrlhzuj8we6u46qmfmky8aq0wj65w.final",
+  "creator": "zig1a4plldlccf8fn9q97sxgrc2z6qcncsrlhzuj8we6u46qmfmky8aq0wj65w",
+  "subdenom": "final",
+  "denom_units": [
+    {
+      "denom": "coin.zig1a4plldlccf8fn9q97sxgrc2z6qcncsrlhzuj8we6u46qmfmky8aq0wj65w.final",
+      "exponent": 0
+    },
+    {
+      "denom": "FINAL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

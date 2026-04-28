@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey.strawberry",
+  "type": "factory",
+  "symbol": "STRAWBERRY",
+  "name": "Strawberry",
+  "decimals": 6,
+  "display_denom": "STRAWBERRY",
+  "base_denom": "coin.zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey.strawberry",
+  "creator": "zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey",
+  "subdenom": "strawberry",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey.strawberry",
+      "exponent": 0
+    },
+    {
+      "denom": "STRAWBERRY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

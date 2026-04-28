@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1chtf82h0esml53tlh8g8tyndhdc2rsk67ys67w8fzxxgzvf70qnscfyduk.corporisquosfugiat",
+  "type": "factory",
+  "symbol": "CORPORISQUOSFUGIAT",
+  "name": "Corporisquosfugiat",
+  "decimals": 6,
+  "display_denom": "CORPORISQUOSFUGIAT",
+  "base_denom": "coin.zig1chtf82h0esml53tlh8g8tyndhdc2rsk67ys67w8fzxxgzvf70qnscfyduk.corporisquosfugiat",
+  "creator": "zig1chtf82h0esml53tlh8g8tyndhdc2rsk67ys67w8fzxxgzvf70qnscfyduk",
+  "subdenom": "corporisquosfugiat",
+  "denom_units": [
+    {
+      "denom": "coin.zig1chtf82h0esml53tlh8g8tyndhdc2rsk67ys67w8fzxxgzvf70qnscfyduk.corporisquosfugiat",
+      "exponent": 0
+    },
+    {
+      "denom": "CORPORISQUOSFUGIAT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1gswa3qffpasyy0kr2tw3grz7e32kczj0jlv0450nd8tuw6p484mqe542xc.minusesseliberoq",
+  "type": "factory",
+  "symbol": "MINUSESSELIBEROQ",
+  "name": "Minusesseliberoq",
+  "decimals": 6,
+  "display_denom": "MINUSESSELIBEROQ",
+  "base_denom": "coin.zig1gswa3qffpasyy0kr2tw3grz7e32kczj0jlv0450nd8tuw6p484mqe542xc.minusesseliberoq",
+  "creator": "zig1gswa3qffpasyy0kr2tw3grz7e32kczj0jlv0450nd8tuw6p484mqe542xc",
+  "subdenom": "minusesseliberoq",
+  "denom_units": [
+    {
+      "denom": "coin.zig1gswa3qffpasyy0kr2tw3grz7e32kczj0jlv0450nd8tuw6p484mqe542xc.minusesseliberoq",
+      "exponent": 0
+    },
+    {
+      "denom": "MINUSESSELIBEROQ",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

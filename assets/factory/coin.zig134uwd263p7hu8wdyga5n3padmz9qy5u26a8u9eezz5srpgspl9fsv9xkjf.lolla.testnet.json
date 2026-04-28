@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig134uwd263p7hu8wdyga5n3padmz9qy5u26a8u9eezz5srpgspl9fsv9xkjf.lolla",
+  "type": "factory",
+  "symbol": "LOLLA",
+  "name": "Lolla",
+  "decimals": 6,
+  "display_denom": "LOLLA",
+  "base_denom": "coin.zig134uwd263p7hu8wdyga5n3padmz9qy5u26a8u9eezz5srpgspl9fsv9xkjf.lolla",
+  "creator": "zig134uwd263p7hu8wdyga5n3padmz9qy5u26a8u9eezz5srpgspl9fsv9xkjf",
+  "subdenom": "lolla",
+  "denom_units": [
+    {
+      "denom": "coin.zig134uwd263p7hu8wdyga5n3padmz9qy5u26a8u9eezz5srpgspl9fsv9xkjf.lolla",
+      "exponent": 0
+    },
+    {
+      "denom": "LOLLA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

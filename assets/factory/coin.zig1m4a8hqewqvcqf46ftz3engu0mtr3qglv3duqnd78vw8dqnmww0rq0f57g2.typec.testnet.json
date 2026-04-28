@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1m4a8hqewqvcqf46ftz3engu0mtr3qglv3duqnd78vw8dqnmww0rq0f57g2.typec",
+  "type": "factory",
+  "symbol": "TYPEC",
+  "name": "Typec",
+  "decimals": 6,
+  "display_denom": "TYPEC",
+  "base_denom": "coin.zig1m4a8hqewqvcqf46ftz3engu0mtr3qglv3duqnd78vw8dqnmww0rq0f57g2.typec",
+  "creator": "zig1m4a8hqewqvcqf46ftz3engu0mtr3qglv3duqnd78vw8dqnmww0rq0f57g2",
+  "subdenom": "typec",
+  "denom_units": [
+    {
+      "denom": "coin.zig1m4a8hqewqvcqf46ftz3engu0mtr3qglv3duqnd78vw8dqnmww0rq0f57g2.typec",
+      "exponent": 0
+    },
+    {
+      "denom": "TYPEC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

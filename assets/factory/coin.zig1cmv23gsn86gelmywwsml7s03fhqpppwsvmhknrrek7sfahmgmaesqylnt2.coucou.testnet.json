@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1cmv23gsn86gelmywwsml7s03fhqpppwsvmhknrrek7sfahmgmaesqylnt2.coucou",
+  "type": "factory",
+  "symbol": "COUCOU",
+  "name": "Coucou",
+  "decimals": 6,
+  "display_denom": "COUCOU",
+  "base_denom": "coin.zig1cmv23gsn86gelmywwsml7s03fhqpppwsvmhknrrek7sfahmgmaesqylnt2.coucou",
+  "creator": "zig1cmv23gsn86gelmywwsml7s03fhqpppwsvmhknrrek7sfahmgmaesqylnt2",
+  "subdenom": "coucou",
+  "denom_units": [
+    {
+      "denom": "coin.zig1cmv23gsn86gelmywwsml7s03fhqpppwsvmhknrrek7sfahmgmaesqylnt2.coucou",
+      "exponent": 0
+    },
+    {
+      "denom": "COUCOU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

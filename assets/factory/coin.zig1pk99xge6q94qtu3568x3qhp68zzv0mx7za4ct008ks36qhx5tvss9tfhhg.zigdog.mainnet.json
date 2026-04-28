@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1pk99xge6q94qtu3568x3qhp68zzv0mx7za4ct008ks36qhx5tvss9tfhhg.zigdog",
+  "type": "factory",
+  "symbol": "ZIGDOG",
+  "name": "Zigdog",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1pk99xge6q94qtu3568x3qhp68zzv0mx7za4ct008ks36qhx5tvss9tfhhg.zigdog",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1pk99xge6q94qtu3568x3qhp68zzv0mx7za4ct008ks36qhx5tvss9tfhhg.zigdog",
+  "base_denom": "coin.zig1pk99xge6q94qtu3568x3qhp68zzv0mx7za4ct008ks36qhx5tvss9tfhhg.zigdog",
+  "creator": "zig1pk99xge6q94qtu3568x3qhp68zzv0mx7za4ct008ks36qhx5tvss9tfhhg",
+  "subdenom": "zigdog",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

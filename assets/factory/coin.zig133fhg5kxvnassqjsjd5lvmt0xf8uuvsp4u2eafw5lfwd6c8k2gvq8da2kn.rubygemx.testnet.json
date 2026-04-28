@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig133fhg5kxvnassqjsjd5lvmt0xf8uuvsp4u2eafw5lfwd6c8k2gvq8da2kn.rubygemx",
+  "type": "factory",
+  "symbol": "RUBYGEMX",
+  "name": "Rubygemx",
+  "decimals": 6,
+  "display_denom": "RUBYGEMX",
+  "base_denom": "coin.zig133fhg5kxvnassqjsjd5lvmt0xf8uuvsp4u2eafw5lfwd6c8k2gvq8da2kn.rubygemx",
+  "creator": "zig133fhg5kxvnassqjsjd5lvmt0xf8uuvsp4u2eafw5lfwd6c8k2gvq8da2kn",
+  "subdenom": "rubygemx",
+  "denom_units": [
+    {
+      "denom": "coin.zig133fhg5kxvnassqjsjd5lvmt0xf8uuvsp4u2eafw5lfwd6c8k2gvq8da2kn.rubygemx",
+      "exponent": 0
+    },
+    {
+      "denom": "RUBYGEMX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1d590n2w3kkz73ymhsgcpqvscheayt2aey5jdxdwye0nzqjeukc2qu3445x.china",
+  "type": "factory",
+  "symbol": "CHINA",
+  "name": "China",
+  "decimals": 6,
+  "display_denom": "CHINA",
+  "base_denom": "coin.zig1d590n2w3kkz73ymhsgcpqvscheayt2aey5jdxdwye0nzqjeukc2qu3445x.china",
+  "creator": "zig1d590n2w3kkz73ymhsgcpqvscheayt2aey5jdxdwye0nzqjeukc2qu3445x",
+  "subdenom": "china",
+  "denom_units": [
+    {
+      "denom": "coin.zig1d590n2w3kkz73ymhsgcpqvscheayt2aey5jdxdwye0nzqjeukc2qu3445x.china",
+      "exponent": 0
+    },
+    {
+      "denom": "CHINA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

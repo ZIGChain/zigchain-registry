@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1yvl4umlvy0kgfzkc2wd778e69agfa69ypd4gmyk2eutnyhyd4mtsgerwhe.sitvoluptatesdolo",
+  "type": "factory",
+  "symbol": "SITVOLUPTATESDOLO",
+  "name": "Sitvoluptatesdolo",
+  "decimals": 6,
+  "display_denom": "SITVOLUPTATESDOLO",
+  "base_denom": "coin.zig1yvl4umlvy0kgfzkc2wd778e69agfa69ypd4gmyk2eutnyhyd4mtsgerwhe.sitvoluptatesdolo",
+  "creator": "zig1yvl4umlvy0kgfzkc2wd778e69agfa69ypd4gmyk2eutnyhyd4mtsgerwhe",
+  "subdenom": "sitvoluptatesdolo",
+  "denom_units": [
+    {
+      "denom": "coin.zig1yvl4umlvy0kgfzkc2wd778e69agfa69ypd4gmyk2eutnyhyd4mtsgerwhe.sitvoluptatesdolo",
+      "exponent": 0
+    },
+    {
+      "denom": "SITVOLUPTATESDOLO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

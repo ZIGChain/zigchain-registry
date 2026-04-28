@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mef2zls2t4uulmagfhxkspygl0uf6edtq8dejqnnwn9n0xxekxmque7kup.logo23",
+  "type": "factory",
+  "symbol": "LOGO23",
+  "name": "Logo23",
+  "decimals": 6,
+  "display_denom": "LOGO23",
+  "base_denom": "coin.zig1mef2zls2t4uulmagfhxkspygl0uf6edtq8dejqnnwn9n0xxekxmque7kup.logo23",
+  "creator": "zig1mef2zls2t4uulmagfhxkspygl0uf6edtq8dejqnnwn9n0xxekxmque7kup",
+  "subdenom": "logo23",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mef2zls2t4uulmagfhxkspygl0uf6edtq8dejqnnwn9n0xxekxmque7kup.logo23",
+      "exponent": 0
+    },
+    {
+      "denom": "LOGO23",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

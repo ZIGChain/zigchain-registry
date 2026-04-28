@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1m2j3z238tf2uz4h3xfy0rvrv9kgv4p75602n5ptw5pkaajd0qyhsfurtm0.beerx",
+  "type": "factory",
+  "symbol": "BEERX",
+  "name": "Beerx",
+  "decimals": 6,
+  "display_denom": "BEERX",
+  "base_denom": "coin.zig1m2j3z238tf2uz4h3xfy0rvrv9kgv4p75602n5ptw5pkaajd0qyhsfurtm0.beerx",
+  "creator": "zig1m2j3z238tf2uz4h3xfy0rvrv9kgv4p75602n5ptw5pkaajd0qyhsfurtm0",
+  "subdenom": "beerx",
+  "denom_units": [
+    {
+      "denom": "coin.zig1m2j3z238tf2uz4h3xfy0rvrv9kgv4p75602n5ptw5pkaajd0qyhsfurtm0.beerx",
+      "exponent": 0
+    },
+    {
+      "denom": "BEERX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18fdjnp4lvnydtuvxa9wq5lk99d3agfecd7p3lfs8a8w4xewwqldq0xhpmv.stand",
+  "type": "factory",
+  "symbol": "STAND",
+  "name": "Stand",
+  "decimals": 6,
+  "display_denom": "STAND",
+  "base_denom": "coin.zig18fdjnp4lvnydtuvxa9wq5lk99d3agfecd7p3lfs8a8w4xewwqldq0xhpmv.stand",
+  "creator": "zig18fdjnp4lvnydtuvxa9wq5lk99d3agfecd7p3lfs8a8w4xewwqldq0xhpmv",
+  "subdenom": "stand",
+  "denom_units": [
+    {
+      "denom": "coin.zig18fdjnp4lvnydtuvxa9wq5lk99d3agfecd7p3lfs8a8w4xewwqldq0xhpmv.stand",
+      "exponent": 0
+    },
+    {
+      "denom": "STAND",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

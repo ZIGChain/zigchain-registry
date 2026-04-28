@@ -1,0 +1,686 @@
+{
+  "$defs": {
+    "DenomUnit": {
+      "additionalProperties": false,
+      "description": "Denom unit with exponent for conversion (chain-registry compatible).",
+      "properties": {
+        "denom": {
+          "description": "Denomination identifier for this unit, subject to Cosmos SDK's 128-character limit",
+          "example": "uzig",
+          "maxLength": 128,
+          "minLength": 1,
+          "title": "Denomination",
+          "type": "string"
+        },
+        "exponent": {
+          "description": "Exponent for conversion (0-18, matching Cosmos SDK convention)",
+          "example": 6,
+          "maximum": 18,
+          "minimum": 0,
+          "title": "Exponent",
+          "type": "integer"
+        },
+        "aliases": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "maxItems": 10,
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional alternative names or symbols that can be used to refer to this denomination (max 10)",
+          "example": [
+            "ZIG"
+          ],
+          "title": "Aliases"
+        }
+      },
+      "required": [
+        "denom",
+        "exponent"
+      ],
+      "title": "DenomUnit",
+      "type": "object"
+    },
+    "ImageEntry": {
+      "additionalProperties": false,
+      "description": "Cosmos chain-registry compatible images entry.\n\nNote: for convenience, this repo also allows the shortcut form:\n  { \"chain_name\": \"...\", \"base_denom\": \"...\" }\nwhich is represented by ImageSyncPointer and transformed during generation.",
+      "properties": {
+        "image_sync": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ImageSyncPointer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Pointer to upstream image metadata (Cosmos chain-registry 'pointer' definition)"
+        },
+        "png": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "PNG image URL (uri-reference)",
+          "title": "Png"
+        },
+        "svg": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "SVG image URL (uri-reference)",
+          "title": "Svg"
+        },
+        "theme": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ImageTheme"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional theming hints"
+        }
+      },
+      "title": "ImageEntry",
+      "type": "object"
+    },
+    "ImageSyncPointer": {
+      "additionalProperties": false,
+      "description": "Pointer to an upstream image definition in the Cosmos chain-registry.",
+      "properties": {
+        "chain_name": {
+          "description": "Chain name in the Cosmos chain registry",
+          "maxLength": 64,
+          "minLength": 1,
+          "title": "Chain Name",
+          "type": "string"
+        },
+        "base_denom": {
+          "description": "Base denom (or contract address) on the source chain",
+          "maxLength": 256,
+          "minLength": 1,
+          "title": "Base Denom",
+          "type": "string"
+        }
+      },
+      "required": [
+        "chain_name",
+        "base_denom"
+      ],
+      "title": "ImageSyncPointer",
+      "type": "object"
+    },
+    "ImageTheme": {
+      "additionalProperties": false,
+      "description": "Optional theming hints for images.",
+      "minProperties": 1,
+      "properties": {
+        "circle": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Circle"
+        },
+        "dark_mode": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Dark Mode"
+        }
+      },
+      "title": "ImageTheme",
+      "type": "object"
+    },
+    "LogoUris": {
+      "additionalProperties": false,
+      "description": "Logo URIs for an asset.",
+      "properties": {
+        "chain_name": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional Cosmos chain-registry folder name to resolve this logo from during generation (e.g. 'cosmoshub', 'noble', 'stride', or 'ethereum' for _non-cosmos).",
+          "title": "Chain Name"
+        },
+        "png": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "URL to the PNG format logo image",
+          "example": "https://example.com/logo.png",
+          "title": "PNG Logo URL"
+        },
+        "svg": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "URL to the SVG format logo image",
+          "example": "https://example.com/logo.svg",
+          "title": "SVG Logo URL"
+        }
+      },
+      "title": "LogoUris",
+      "type": "object"
+    },
+    "Socials": {
+      "additionalProperties": false,
+      "description": "Social links for an asset (project/community URLs).",
+      "minProperties": 1,
+      "properties": {
+        "website": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2048,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "format": "uri",
+          "title": "Website"
+        },
+        "x": {
+          "anyOf": [
+            {
+              "maxLength": 2048,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "X (formerly Twitter)",
+          "format": "uri",
+          "pattern": "^https://(x\\.com|twitter\\.com)/.+$",
+          "title": "X"
+        },
+        "telegram": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2048,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "format": "uri",
+          "title": "Telegram"
+        },
+        "discord": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2048,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "format": "uri",
+          "title": "Discord"
+        },
+        "github": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2048,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "format": "uri",
+          "title": "Github"
+        },
+        "medium": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2048,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "format": "uri",
+          "title": "Medium"
+        },
+        "reddit": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2048,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "format": "uri",
+          "title": "Reddit"
+        }
+      },
+      "title": "Socials",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Schema for factory ZIGChain assets",
+  "properties": {
+    "$schema": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional JSON Schema reference for tooling (editors/validators). Not part of on-chain asset data.",
+      "example": "../../schemas/asset.native.schema.json",
+      "title": "JSON Schema Reference"
+    },
+    "network": {
+      "description": "Blockchain network where this asset is available",
+      "enum": [
+        "mainnet",
+        "testnet"
+      ],
+      "example": "mainnet",
+      "title": "Network Environment",
+      "type": "string"
+    },
+    "asset_id": {
+      "description": "Deterministic ID, e.g. zig, factory.creator.subdenom, ibc/HASH...",
+      "examples": [
+        "zig",
+        "factory.zig1pvm4lt2xct387nhxynedz0zll9uw0gyh4mftlw.panda",
+        "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0"
+      ],
+      "maxLength": 128,
+      "minLength": 1,
+      "title": "Asset ID",
+      "type": "string"
+    },
+    "order": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional numerical order for controlling asset display order in generated chain-registry outputs. Lower values appear first. Assets without order are sorted after ordered assets.",
+      "example": 10,
+      "title": "Order"
+    },
+    "type": {
+      "const": "factory",
+      "default": "factory",
+      "description": "Classification indicating this is a factory-created token",
+      "example": "factory",
+      "title": "Asset Type",
+      "type": "string"
+    },
+    "symbol": {
+      "description": "Ticker symbol used to represent the asset (typically uppercase, 2-42 characters)",
+      "example": "ZIG",
+      "maxLength": 42,
+      "minLength": 2,
+      "title": "Asset Symbol",
+      "type": "string"
+    },
+    "name": {
+      "description": "Full human-readable name of the asset",
+      "example": "ZIGChain Native Token",
+      "maxLength": 100,
+      "minLength": 2,
+      "title": "Asset Name",
+      "type": "string"
+    },
+    "decimals": {
+      "description": "Precision for the asset's smallest unit (typically 6-18 for most tokens)",
+      "example": 6,
+      "maximum": 18,
+      "minimum": 0,
+      "title": "Decimal Places",
+      "type": "integer"
+    },
+    "denom_units": {
+      "description": "List of denomination units for conversion between different scales",
+      "example": [
+        {
+          "denom": "coin.zig1wze8mn5nsgl9qrgazq6a92fvh7m5e6psjcx2du.panda",
+          "exponent": 0
+        },
+        {
+          "denom": "PANDA",
+          "exponent": 6
+        }
+      ],
+      "items": {
+        "$ref": "#/$defs/DenomUnit"
+      },
+      "minItems": 1,
+      "title": "Denomination Units",
+      "type": "array"
+    },
+    "display_denom": {
+      "description": "Denomination symbol shown to users in wallets and interfaces. For factory assets this may be set to the full base_denom to guarantee uniqueness.",
+      "example": "coin.zig1wze8mn5nsgl9qrgazq6a92fvh7m5e6psjcx2du.panda",
+      "maxLength": 128,
+      "minLength": 1,
+      "title": "Display Denomination",
+      "type": "string"
+    },
+    "description": {
+      "anyOf": [
+        {
+          "maxLength": 2048,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional text providing additional context about the asset",
+      "example": "The native staking token of ZIGChain",
+      "title": "Asset Description"
+    },
+    "extended_description": {
+      "anyOf": [
+        {
+          "maxLength": 8192,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional long description of the asset",
+      "example": "ZIGChain (ZIG) is a Layer 1 blockchain focused on unlocking financial opportunities for everyone.",
+      "title": "Extended Description"
+    },
+    "keywords": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional list of keywords (1-20 items) to help categorize/search this asset",
+      "maxContains": 20,
+      "minContains": 1,
+      "title": "Keywords"
+    },
+    "images": {
+      "anyOf": [
+        {
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/ImageEntry"
+              },
+              {
+                "$ref": "#/$defs/ImageSyncPointer"
+              }
+            ]
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional images entries. Supports Cosmos chain-registry format, and also a shortcut form of {chain_name, base_denom} which will be transformed into image_sync during generation.",
+      "title": "Images"
+    },
+    "logo_uris": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/LogoUris"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Image URLs for displaying the asset logo in different formats",
+      "example": {
+        "png": "https://example.com/logo.png",
+        "svg": "https://example.com/logo.svg"
+      },
+      "title": "Logo URIs"
+    },
+    "socials": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Socials"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional social links for the asset/project/community",
+      "example": {
+        "discord": "https://discord.gg/example",
+        "github": "https://github.com/example",
+        "medium": "https://medium.com/@example",
+        "reddit": "https://reddit.com/r/example",
+        "telegram": "https://t.me/example",
+        "website": "https://example.com",
+        "x": "https://x.com/example"
+      },
+      "title": "Socials"
+    },
+    "coingecko_id": {
+      "anyOf": [
+        {
+          "maxLength": 100,
+          "minLength": 2,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "CoinGecko API slug for fetching price and market data (lowercase alphanumerics and hyphens only, e.g. 'usd-coin')",
+      "example": "usd-coin",
+      "title": "CoinGecko ID"
+    },
+    "is_verified": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Indicates if this asset has been verified or audited by the platform",
+      "example": false,
+      "title": "Is Verified"
+    },
+    "base_denom": {
+      "description": "On-chain token base denomination constructed from creator address and subdenom. Maximum length is 128 bytes per ZIGChain factory constraints (https://docs.zigchain.com/build/factory).",
+      "example": "coin.zig1wze8mn5nsgl9qrgazq6a92fvh7m5e6psjcx2du.panda",
+      "maxLength": 128,
+      "minLength": 51,
+      "pattern": "^coin\\.zig1[0-9a-z]{38,}\\.[a-z][a-z0-9-]{2,43}$",
+      "title": "Base Denomination",
+      "type": "string"
+    },
+    "creator": {
+      "description": "Bech32 address of the wallet or smart contract that created this token",
+      "examples": [
+        "zig1wze8mn5nsgl9qrgazq6a92fvh7m5e6psjcx2du",
+        "zig1pt9u490q0km4lx8h9h48vzu3q20yl9nmq3ulkqjeelrfp5ec7nws68c2rn"
+      ],
+      "maxLength": 100,
+      "minLength": 42,
+      "pattern": "^zig1[0-9a-z]{38,}$",
+      "title": "Creator Address",
+      "type": "string"
+    },
+    "subdenom": {
+      "description": "Unique identifier for this token within the creator's namespace",
+      "example": "panda",
+      "maxLength": 44,
+      "minLength": 3,
+      "pattern": "^[a-z][a-z0-9-]{2,43}$",
+      "title": "Subdenomination",
+      "type": "string"
+    },
+    "uri": {
+      "anyOf": [
+        {
+          "format": "uri",
+          "maxLength": 2048,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "A URI pointing to an on-chain or off-chain document containing additional information",
+      "example": "https://example.com/whitepaper.pdf",
+      "title": "URI"
+    },
+    "uri_hash": {
+      "anyOf": [
+        {
+          "pattern": "^[a-fA-F0-9]{64}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "SHA-256 hash of the document at URI for integrity verification",
+      "example": "a3f4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4",
+      "title": "URI Hash"
+    }
+  },
+  "required": [
+    "network",
+    "asset_id",
+    "symbol",
+    "name",
+    "decimals",
+    "denom_units",
+    "display_denom",
+    "base_denom",
+    "creator",
+    "subdenom"
+  ],
+  "title": "Factory Asset Schema",
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

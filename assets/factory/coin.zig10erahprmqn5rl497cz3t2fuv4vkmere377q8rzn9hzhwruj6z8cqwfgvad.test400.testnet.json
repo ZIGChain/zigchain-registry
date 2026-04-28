@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10erahprmqn5rl497cz3t2fuv4vkmere377q8rzn9hzhwruj6z8cqwfgvad.test400",
+  "type": "factory",
+  "symbol": "TEST400",
+  "name": "Test400",
+  "decimals": 6,
+  "display_denom": "TEST400",
+  "base_denom": "coin.zig10erahprmqn5rl497cz3t2fuv4vkmere377q8rzn9hzhwruj6z8cqwfgvad.test400",
+  "creator": "zig10erahprmqn5rl497cz3t2fuv4vkmere377q8rzn9hzhwruj6z8cqwfgvad",
+  "subdenom": "test400",
+  "denom_units": [
+    {
+      "denom": "coin.zig10erahprmqn5rl497cz3t2fuv4vkmere377q8rzn9hzhwruj6z8cqwfgvad.test400",
+      "exponent": 0
+    },
+    {
+      "denom": "TEST400",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

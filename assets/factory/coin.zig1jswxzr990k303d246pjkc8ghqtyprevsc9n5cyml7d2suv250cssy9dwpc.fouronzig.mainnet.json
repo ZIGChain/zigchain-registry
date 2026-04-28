@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1jswxzr990k303d246pjkc8ghqtyprevsc9n5cyml7d2suv250cssy9dwpc.fouronzig",
+  "type": "factory",
+  "symbol": "FOURONZIG",
+  "name": "Fouronzig",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1jswxzr990k303d246pjkc8ghqtyprevsc9n5cyml7d2suv250cssy9dwpc.fouronzig",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1jswxzr990k303d246pjkc8ghqtyprevsc9n5cyml7d2suv250cssy9dwpc.fouronzig",
+  "base_denom": "coin.zig1jswxzr990k303d246pjkc8ghqtyprevsc9n5cyml7d2suv250cssy9dwpc.fouronzig",
+  "creator": "zig1jswxzr990k303d246pjkc8ghqtyprevsc9n5cyml7d2suv250cssy9dwpc",
+  "subdenom": "fouronzig",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

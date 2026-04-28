@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1utgweey3g5c82uufmr6x4tnzjnu36cz5a7qwagp8pahwpp7v2ejsfv2s42.quidolorelaborism",
+  "type": "factory",
+  "symbol": "QUIDOLORELABORISM",
+  "name": "Quidolorelaborism",
+  "decimals": 6,
+  "display_denom": "QUIDOLORELABORISM",
+  "base_denom": "coin.zig1utgweey3g5c82uufmr6x4tnzjnu36cz5a7qwagp8pahwpp7v2ejsfv2s42.quidolorelaborism",
+  "creator": "zig1utgweey3g5c82uufmr6x4tnzjnu36cz5a7qwagp8pahwpp7v2ejsfv2s42",
+  "subdenom": "quidolorelaborism",
+  "denom_units": [
+    {
+      "denom": "coin.zig1utgweey3g5c82uufmr6x4tnzjnu36cz5a7qwagp8pahwpp7v2ejsfv2s42.quidolorelaborism",
+      "exponent": 0
+    },
+    {
+      "denom": "QUIDOLORELABORISM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

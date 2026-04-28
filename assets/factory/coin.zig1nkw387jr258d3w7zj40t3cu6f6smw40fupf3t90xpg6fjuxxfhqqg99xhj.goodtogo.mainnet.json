@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1nkw387jr258d3w7zj40t3cu6f6smw40fupf3t90xpg6fjuxxfhqqg99xhj.goodtogo",
+  "type": "factory",
+  "symbol": "GOODTOGO",
+  "name": "Goodtogo",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1nkw387jr258d3w7zj40t3cu6f6smw40fupf3t90xpg6fjuxxfhqqg99xhj.goodtogo",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1nkw387jr258d3w7zj40t3cu6f6smw40fupf3t90xpg6fjuxxfhqqg99xhj.goodtogo",
+  "base_denom": "coin.zig1nkw387jr258d3w7zj40t3cu6f6smw40fupf3t90xpg6fjuxxfhqqg99xhj.goodtogo",
+  "creator": "zig1nkw387jr258d3w7zj40t3cu6f6smw40fupf3t90xpg6fjuxxfhqqg99xhj",
+  "subdenom": "goodtogo",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

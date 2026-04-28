@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1lwcukhrqpw50j6uffenp6ug6pxkf4q6k865jnzgkjmulpp7k5s8s09qw98.consequaturexpedita",
+  "type": "factory",
+  "symbol": "CONSEQUATUREXPEDITA",
+  "name": "Consequaturexpedita",
+  "decimals": 6,
+  "display_denom": "CONSEQUATUREXPEDITA",
+  "base_denom": "coin.zig1lwcukhrqpw50j6uffenp6ug6pxkf4q6k865jnzgkjmulpp7k5s8s09qw98.consequaturexpedita",
+  "creator": "zig1lwcukhrqpw50j6uffenp6ug6pxkf4q6k865jnzgkjmulpp7k5s8s09qw98",
+  "subdenom": "consequaturexpedita",
+  "denom_units": [
+    {
+      "denom": "coin.zig1lwcukhrqpw50j6uffenp6ug6pxkf4q6k865jnzgkjmulpp7k5s8s09qw98.consequaturexpedita",
+      "exponent": 0
+    },
+    {
+      "denom": "CONSEQUATUREXPEDITA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

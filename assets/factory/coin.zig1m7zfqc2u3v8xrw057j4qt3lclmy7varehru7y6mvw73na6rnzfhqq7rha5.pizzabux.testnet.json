@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1m7zfqc2u3v8xrw057j4qt3lclmy7varehru7y6mvw73na6rnzfhqq7rha5.pizzabux",
+  "type": "factory",
+  "symbol": "PIZZABUX",
+  "name": "Pizzabux",
+  "decimals": 6,
+  "display_denom": "PIZZABUX",
+  "base_denom": "coin.zig1m7zfqc2u3v8xrw057j4qt3lclmy7varehru7y6mvw73na6rnzfhqq7rha5.pizzabux",
+  "creator": "zig1m7zfqc2u3v8xrw057j4qt3lclmy7varehru7y6mvw73na6rnzfhqq7rha5",
+  "subdenom": "pizzabux",
+  "denom_units": [
+    {
+      "denom": "coin.zig1m7zfqc2u3v8xrw057j4qt3lclmy7varehru7y6mvw73na6rnzfhqq7rha5.pizzabux",
+      "exponent": 0
+    },
+    {
+      "denom": "PIZZABUX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

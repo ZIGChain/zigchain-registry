@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1v9ge8cp75qgtx7sj2n903lgcl8y0rfs98x3gjf.defamedcoin",
+  "type": "factory",
+  "symbol": "DEFAMEDCOIN",
+  "name": "Defamedcoin",
+  "decimals": 6,
+  "display_denom": "DEFAMEDCOIN",
+  "base_denom": "coin.zig1v9ge8cp75qgtx7sj2n903lgcl8y0rfs98x3gjf.defamedcoin",
+  "creator": "zig1v9ge8cp75qgtx7sj2n903lgcl8y0rfs98x3gjf",
+  "subdenom": "defamedcoin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1v9ge8cp75qgtx7sj2n903lgcl8y0rfs98x3gjf.defamedcoin",
+      "exponent": 0
+    },
+    {
+      "denom": "DEFAMEDCOIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

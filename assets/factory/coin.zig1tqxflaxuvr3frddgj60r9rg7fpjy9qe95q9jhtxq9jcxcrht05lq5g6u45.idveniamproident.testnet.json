@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1tqxflaxuvr3frddgj60r9rg7fpjy9qe95q9jhtxq9jcxcrht05lq5g6u45.idveniamproident",
+  "type": "factory",
+  "symbol": "IDVENIAMPROIDENT",
+  "name": "Idveniamproident",
+  "decimals": 6,
+  "display_denom": "IDVENIAMPROIDENT",
+  "base_denom": "coin.zig1tqxflaxuvr3frddgj60r9rg7fpjy9qe95q9jhtxq9jcxcrht05lq5g6u45.idveniamproident",
+  "creator": "zig1tqxflaxuvr3frddgj60r9rg7fpjy9qe95q9jhtxq9jcxcrht05lq5g6u45",
+  "subdenom": "idveniamproident",
+  "denom_units": [
+    {
+      "denom": "coin.zig1tqxflaxuvr3frddgj60r9rg7fpjy9qe95q9jhtxq9jcxcrht05lq5g6u45.idveniamproident",
+      "exponent": 0
+    },
+    {
+      "denom": "IDVENIAMPROIDENT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

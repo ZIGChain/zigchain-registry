@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qcxau23p3cxs50vme2l995hafr5zlq0jw8t88v9k5wu6ej3hztxsxwdtn9.sitipsumvoluptate",
+  "type": "factory",
+  "symbol": "SITIPSUMVOLUPTATE",
+  "name": "Sitipsumvoluptate",
+  "decimals": 6,
+  "display_denom": "SITIPSUMVOLUPTATE",
+  "base_denom": "coin.zig1qcxau23p3cxs50vme2l995hafr5zlq0jw8t88v9k5wu6ej3hztxsxwdtn9.sitipsumvoluptate",
+  "creator": "zig1qcxau23p3cxs50vme2l995hafr5zlq0jw8t88v9k5wu6ej3hztxsxwdtn9",
+  "subdenom": "sitipsumvoluptate",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qcxau23p3cxs50vme2l995hafr5zlq0jw8t88v9k5wu6ej3hztxsxwdtn9.sitipsumvoluptate",
+      "exponent": 0
+    },
+    {
+      "denom": "SITIPSUMVOLUPTATE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

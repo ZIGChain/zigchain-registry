@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig104vd7txk3cj5cet0mf8z4lhqsmp4nea7hcdm5855z8l9rg7n8m8spneedq.beataemagnisitet",
+  "type": "factory",
+  "symbol": "BEATAEMAGNISITET",
+  "name": "Beataemagnisitet",
+  "decimals": 6,
+  "display_denom": "BEATAEMAGNISITET",
+  "base_denom": "coin.zig104vd7txk3cj5cet0mf8z4lhqsmp4nea7hcdm5855z8l9rg7n8m8spneedq.beataemagnisitet",
+  "creator": "zig104vd7txk3cj5cet0mf8z4lhqsmp4nea7hcdm5855z8l9rg7n8m8spneedq",
+  "subdenom": "beataemagnisitet",
+  "denom_units": [
+    {
+      "denom": "coin.zig104vd7txk3cj5cet0mf8z4lhqsmp4nea7hcdm5855z8l9rg7n8m8spneedq.beataemagnisitet",
+      "exponent": 0
+    },
+    {
+      "denom": "BEATAEMAGNISITET",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

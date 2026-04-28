@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1skeuqekq2rxsvawz4u9rwkrpj857zrg4suuau2z07lynh49y03aq8hgxls.tony",
+  "type": "factory",
+  "symbol": "TONY",
+  "name": "Tony",
+  "decimals": 6,
+  "display_denom": "TONY",
+  "base_denom": "coin.zig1skeuqekq2rxsvawz4u9rwkrpj857zrg4suuau2z07lynh49y03aq8hgxls.tony",
+  "creator": "zig1skeuqekq2rxsvawz4u9rwkrpj857zrg4suuau2z07lynh49y03aq8hgxls",
+  "subdenom": "tony",
+  "denom_units": [
+    {
+      "denom": "coin.zig1skeuqekq2rxsvawz4u9rwkrpj857zrg4suuau2z07lynh49y03aq8hgxls.tony",
+      "exponent": 0
+    },
+    {
+      "denom": "TONY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

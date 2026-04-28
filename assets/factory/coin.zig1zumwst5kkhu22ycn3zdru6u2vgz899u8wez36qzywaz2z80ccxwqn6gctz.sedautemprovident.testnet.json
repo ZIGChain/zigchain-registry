@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zumwst5kkhu22ycn3zdru6u2vgz899u8wez36qzywaz2z80ccxwqn6gctz.sedautemprovident",
+  "type": "factory",
+  "symbol": "SEDAUTEMPROVIDENT",
+  "name": "Sedautemprovident",
+  "decimals": 6,
+  "display_denom": "SEDAUTEMPROVIDENT",
+  "base_denom": "coin.zig1zumwst5kkhu22ycn3zdru6u2vgz899u8wez36qzywaz2z80ccxwqn6gctz.sedautemprovident",
+  "creator": "zig1zumwst5kkhu22ycn3zdru6u2vgz899u8wez36qzywaz2z80ccxwqn6gctz",
+  "subdenom": "sedautemprovident",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zumwst5kkhu22ycn3zdru6u2vgz899u8wez36qzywaz2z80ccxwqn6gctz.sedautemprovident",
+      "exponent": 0
+    },
+    {
+      "denom": "SEDAUTEMPROVIDENT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

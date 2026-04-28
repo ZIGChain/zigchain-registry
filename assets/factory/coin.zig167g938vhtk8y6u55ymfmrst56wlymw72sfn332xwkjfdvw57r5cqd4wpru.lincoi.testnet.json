@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig167g938vhtk8y6u55ymfmrst56wlymw72sfn332xwkjfdvw57r5cqd4wpru.lincoi",
+  "type": "factory",
+  "symbol": "LINCOI",
+  "name": "Lincoi",
+  "decimals": 6,
+  "display_denom": "LINCOI",
+  "base_denom": "coin.zig167g938vhtk8y6u55ymfmrst56wlymw72sfn332xwkjfdvw57r5cqd4wpru.lincoi",
+  "creator": "zig167g938vhtk8y6u55ymfmrst56wlymw72sfn332xwkjfdvw57r5cqd4wpru",
+  "subdenom": "lincoi",
+  "denom_units": [
+    {
+      "denom": "coin.zig167g938vhtk8y6u55ymfmrst56wlymw72sfn332xwkjfdvw57r5cqd4wpru.lincoi",
+      "exponent": 0
+    },
+    {
+      "denom": "LINCOI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

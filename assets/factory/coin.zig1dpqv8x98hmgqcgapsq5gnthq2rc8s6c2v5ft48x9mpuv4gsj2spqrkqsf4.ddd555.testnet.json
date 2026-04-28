@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1dpqv8x98hmgqcgapsq5gnthq2rc8s6c2v5ft48x9mpuv4gsj2spqrkqsf4.ddd555",
+  "type": "factory",
+  "symbol": "DDD555",
+  "name": "Ddd555",
+  "decimals": 6,
+  "display_denom": "DDD555",
+  "base_denom": "coin.zig1dpqv8x98hmgqcgapsq5gnthq2rc8s6c2v5ft48x9mpuv4gsj2spqrkqsf4.ddd555",
+  "creator": "zig1dpqv8x98hmgqcgapsq5gnthq2rc8s6c2v5ft48x9mpuv4gsj2spqrkqsf4",
+  "subdenom": "ddd555",
+  "denom_units": [
+    {
+      "denom": "coin.zig1dpqv8x98hmgqcgapsq5gnthq2rc8s6c2v5ft48x9mpuv4gsj2spqrkqsf4.ddd555",
+      "exponent": 0
+    },
+    {
+      "denom": "DDD555",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

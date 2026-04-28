@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1593rv7286agprxmf0x34f09vd3qrgmn6adcpcvffd0ztwev5w56q0wk4p9.assumendaconsequatu",
+  "type": "factory",
+  "symbol": "ASSUMENDACONSEQUATU",
+  "name": "Assumendaconsequatu",
+  "decimals": 6,
+  "display_denom": "ASSUMENDACONSEQUATU",
+  "base_denom": "coin.zig1593rv7286agprxmf0x34f09vd3qrgmn6adcpcvffd0ztwev5w56q0wk4p9.assumendaconsequatu",
+  "creator": "zig1593rv7286agprxmf0x34f09vd3qrgmn6adcpcvffd0ztwev5w56q0wk4p9",
+  "subdenom": "assumendaconsequatu",
+  "denom_units": [
+    {
+      "denom": "coin.zig1593rv7286agprxmf0x34f09vd3qrgmn6adcpcvffd0ztwev5w56q0wk4p9.assumendaconsequatu",
+      "exponent": 0
+    },
+    {
+      "denom": "ASSUMENDACONSEQUATU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

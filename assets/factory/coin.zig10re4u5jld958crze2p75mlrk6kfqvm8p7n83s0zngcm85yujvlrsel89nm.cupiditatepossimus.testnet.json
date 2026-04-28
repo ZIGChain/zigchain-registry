@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10re4u5jld958crze2p75mlrk6kfqvm8p7n83s0zngcm85yujvlrsel89nm.cupiditatepossimus",
+  "type": "factory",
+  "symbol": "CUPIDITATEPOSSIMUS",
+  "name": "Cupiditatepossimus",
+  "decimals": 6,
+  "display_denom": "CUPIDITATEPOSSIMUS",
+  "base_denom": "coin.zig10re4u5jld958crze2p75mlrk6kfqvm8p7n83s0zngcm85yujvlrsel89nm.cupiditatepossimus",
+  "creator": "zig10re4u5jld958crze2p75mlrk6kfqvm8p7n83s0zngcm85yujvlrsel89nm",
+  "subdenom": "cupiditatepossimus",
+  "denom_units": [
+    {
+      "denom": "coin.zig10re4u5jld958crze2p75mlrk6kfqvm8p7n83s0zngcm85yujvlrsel89nm.cupiditatepossimus",
+      "exponent": 0
+    },
+    {
+      "denom": "CUPIDITATEPOSSIMUS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

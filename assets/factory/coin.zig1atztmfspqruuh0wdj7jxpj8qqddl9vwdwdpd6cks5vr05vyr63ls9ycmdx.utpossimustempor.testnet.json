@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1atztmfspqruuh0wdj7jxpj8qqddl9vwdwdpd6cks5vr05vyr63ls9ycmdx.utpossimustempor",
+  "type": "factory",
+  "symbol": "UTPOSSIMUSTEMPOR",
+  "name": "Utpossimustempor",
+  "decimals": 6,
+  "display_denom": "UTPOSSIMUSTEMPOR",
+  "base_denom": "coin.zig1atztmfspqruuh0wdj7jxpj8qqddl9vwdwdpd6cks5vr05vyr63ls9ycmdx.utpossimustempor",
+  "creator": "zig1atztmfspqruuh0wdj7jxpj8qqddl9vwdwdpd6cks5vr05vyr63ls9ycmdx",
+  "subdenom": "utpossimustempor",
+  "denom_units": [
+    {
+      "denom": "coin.zig1atztmfspqruuh0wdj7jxpj8qqddl9vwdwdpd6cks5vr05vyr63ls9ycmdx.utpossimustempor",
+      "exponent": 0
+    },
+    {
+      "denom": "UTPOSSIMUSTEMPOR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

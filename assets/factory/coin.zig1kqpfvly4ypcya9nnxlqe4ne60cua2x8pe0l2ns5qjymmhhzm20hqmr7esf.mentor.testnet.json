@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1kqpfvly4ypcya9nnxlqe4ne60cua2x8pe0l2ns5qjymmhhzm20hqmr7esf.mentor",
+  "type": "factory",
+  "symbol": "MENTOR",
+  "name": "Mentor",
+  "decimals": 6,
+  "display_denom": "MENTOR",
+  "base_denom": "coin.zig1kqpfvly4ypcya9nnxlqe4ne60cua2x8pe0l2ns5qjymmhhzm20hqmr7esf.mentor",
+  "creator": "zig1kqpfvly4ypcya9nnxlqe4ne60cua2x8pe0l2ns5qjymmhhzm20hqmr7esf",
+  "subdenom": "mentor",
+  "denom_units": [
+    {
+      "denom": "coin.zig1kqpfvly4ypcya9nnxlqe4ne60cua2x8pe0l2ns5qjymmhhzm20hqmr7esf.mentor",
+      "exponent": 0
+    },
+    {
+      "denom": "MENTOR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

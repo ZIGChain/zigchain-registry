@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18sytwc03z5j3wge5egf4rdue6gxkzzyf4658vq.uusdc",
+  "type": "factory",
+  "symbol": "UUSDC",
+  "name": "Uusdc",
+  "decimals": 6,
+  "display_denom": "UUSDC",
+  "base_denom": "coin.zig18sytwc03z5j3wge5egf4rdue6gxkzzyf4658vq.uusdc",
+  "creator": "zig18sytwc03z5j3wge5egf4rdue6gxkzzyf4658vq",
+  "subdenom": "uusdc",
+  "denom_units": [
+    {
+      "denom": "coin.zig18sytwc03z5j3wge5egf4rdue6gxkzzyf4658vq.uusdc",
+      "exponent": 0
+    },
+    {
+      "denom": "UUSDC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

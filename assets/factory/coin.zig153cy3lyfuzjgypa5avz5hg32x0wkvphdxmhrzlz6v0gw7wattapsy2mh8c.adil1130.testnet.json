@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig153cy3lyfuzjgypa5avz5hg32x0wkvphdxmhrzlz6v0gw7wattapsy2mh8c.adil1130",
+  "type": "factory",
+  "symbol": "ADIL1130",
+  "name": "Adil1130",
+  "decimals": 6,
+  "display_denom": "ADIL1130",
+  "base_denom": "coin.zig153cy3lyfuzjgypa5avz5hg32x0wkvphdxmhrzlz6v0gw7wattapsy2mh8c.adil1130",
+  "creator": "zig153cy3lyfuzjgypa5avz5hg32x0wkvphdxmhrzlz6v0gw7wattapsy2mh8c",
+  "subdenom": "adil1130",
+  "denom_units": [
+    {
+      "denom": "coin.zig153cy3lyfuzjgypa5avz5hg32x0wkvphdxmhrzlz6v0gw7wattapsy2mh8c.adil1130",
+      "exponent": 0
+    },
+    {
+      "denom": "ADIL1130",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1j9hjfsv85fs3hcxwdn05ldjrwkex6gnegdg0fcxdl4gunml0ah2st5us4x.nifter",
+  "type": "factory",
+  "symbol": "NIFTER",
+  "name": "Nifter",
+  "decimals": 6,
+  "display_denom": "NIFTER",
+  "base_denom": "coin.zig1j9hjfsv85fs3hcxwdn05ldjrwkex6gnegdg0fcxdl4gunml0ah2st5us4x.nifter",
+  "creator": "zig1j9hjfsv85fs3hcxwdn05ldjrwkex6gnegdg0fcxdl4gunml0ah2st5us4x",
+  "subdenom": "nifter",
+  "denom_units": [
+    {
+      "denom": "coin.zig1j9hjfsv85fs3hcxwdn05ldjrwkex6gnegdg0fcxdl4gunml0ah2st5us4x.nifter",
+      "exponent": 0
+    },
+    {
+      "denom": "NIFTER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

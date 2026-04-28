@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey.loonytunes",
+  "type": "factory",
+  "symbol": "LOONYTUNES",
+  "name": "Loonytunes",
+  "decimals": 6,
+  "display_denom": "LOONYTUNES",
+  "base_denom": "coin.zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey.loonytunes",
+  "creator": "zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey",
+  "subdenom": "loonytunes",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ef5dyfnyzkz7a6w5jwk9gx7h50rxv3p6qqu9ey.loonytunes",
+      "exponent": 0
+    },
+    {
+      "denom": "LOONYTUNES",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17a7u3aj803as08vq2yq0jnytezsfkzyum98k9nwgu68msr3a609s7790vu.sedperferendisqui",
+  "type": "factory",
+  "symbol": "SEDPERFERENDISQUI",
+  "name": "Sedperferendisqui",
+  "decimals": 6,
+  "display_denom": "SEDPERFERENDISQUI",
+  "base_denom": "coin.zig17a7u3aj803as08vq2yq0jnytezsfkzyum98k9nwgu68msr3a609s7790vu.sedperferendisqui",
+  "creator": "zig17a7u3aj803as08vq2yq0jnytezsfkzyum98k9nwgu68msr3a609s7790vu",
+  "subdenom": "sedperferendisqui",
+  "denom_units": [
+    {
+      "denom": "coin.zig17a7u3aj803as08vq2yq0jnytezsfkzyum98k9nwgu68msr3a609s7790vu.sedperferendisqui",
+      "exponent": 0
+    },
+    {
+      "denom": "SEDPERFERENDISQUI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

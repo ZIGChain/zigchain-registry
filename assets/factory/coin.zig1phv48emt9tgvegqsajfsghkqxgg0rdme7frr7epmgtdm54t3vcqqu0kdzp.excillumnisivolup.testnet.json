@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1phv48emt9tgvegqsajfsghkqxgg0rdme7frr7epmgtdm54t3vcqqu0kdzp.excillumnisivolup",
+  "type": "factory",
+  "symbol": "EXCILLUMNISIVOLUP",
+  "name": "Excillumnisivolup",
+  "decimals": 6,
+  "display_denom": "EXCILLUMNISIVOLUP",
+  "base_denom": "coin.zig1phv48emt9tgvegqsajfsghkqxgg0rdme7frr7epmgtdm54t3vcqqu0kdzp.excillumnisivolup",
+  "creator": "zig1phv48emt9tgvegqsajfsghkqxgg0rdme7frr7epmgtdm54t3vcqqu0kdzp",
+  "subdenom": "excillumnisivolup",
+  "denom_units": [
+    {
+      "denom": "coin.zig1phv48emt9tgvegqsajfsghkqxgg0rdme7frr7epmgtdm54t3vcqqu0kdzp.excillumnisivolup",
+      "exponent": 0
+    },
+    {
+      "denom": "EXCILLUMNISIVOLUP",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

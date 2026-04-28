@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1j0skdhfzsdw6svw8nnvjxg3ld6ffu67lqhd8vlfztjjmxwzraj6s237x5t.veroquiaadipisicin",
+  "type": "factory",
+  "symbol": "VEROQUIAADIPISICIN",
+  "name": "Veroquiaadipisicin",
+  "decimals": 6,
+  "display_denom": "VEROQUIAADIPISICIN",
+  "base_denom": "coin.zig1j0skdhfzsdw6svw8nnvjxg3ld6ffu67lqhd8vlfztjjmxwzraj6s237x5t.veroquiaadipisicin",
+  "creator": "zig1j0skdhfzsdw6svw8nnvjxg3ld6ffu67lqhd8vlfztjjmxwzraj6s237x5t",
+  "subdenom": "veroquiaadipisicin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1j0skdhfzsdw6svw8nnvjxg3ld6ffu67lqhd8vlfztjjmxwzraj6s237x5t.veroquiaadipisicin",
+      "exponent": 0
+    },
+    {
+      "denom": "VEROQUIAADIPISICIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

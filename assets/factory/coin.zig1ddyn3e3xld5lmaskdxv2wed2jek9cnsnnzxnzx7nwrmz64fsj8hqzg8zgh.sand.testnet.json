@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ddyn3e3xld5lmaskdxv2wed2jek9cnsnnzxnzx7nwrmz64fsj8hqzg8zgh.sand",
+  "type": "factory",
+  "symbol": "SAND",
+  "name": "Sand",
+  "decimals": 6,
+  "display_denom": "SAND",
+  "base_denom": "coin.zig1ddyn3e3xld5lmaskdxv2wed2jek9cnsnnzxnzx7nwrmz64fsj8hqzg8zgh.sand",
+  "creator": "zig1ddyn3e3xld5lmaskdxv2wed2jek9cnsnnzxnzx7nwrmz64fsj8hqzg8zgh",
+  "subdenom": "sand",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ddyn3e3xld5lmaskdxv2wed2jek9cnsnnzxnzx7nwrmz64fsj8hqzg8zgh.sand",
+      "exponent": 0
+    },
+    {
+      "denom": "SAND",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

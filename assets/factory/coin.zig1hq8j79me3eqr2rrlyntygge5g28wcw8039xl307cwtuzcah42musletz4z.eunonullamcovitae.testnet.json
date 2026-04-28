@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hq8j79me3eqr2rrlyntygge5g28wcw8039xl307cwtuzcah42musletz4z.eunonullamcovitae",
+  "type": "factory",
+  "symbol": "EUNONULLAMCOVITAE",
+  "name": "Eunonullamcovitae",
+  "decimals": 6,
+  "display_denom": "EUNONULLAMCOVITAE",
+  "base_denom": "coin.zig1hq8j79me3eqr2rrlyntygge5g28wcw8039xl307cwtuzcah42musletz4z.eunonullamcovitae",
+  "creator": "zig1hq8j79me3eqr2rrlyntygge5g28wcw8039xl307cwtuzcah42musletz4z",
+  "subdenom": "eunonullamcovitae",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hq8j79me3eqr2rrlyntygge5g28wcw8039xl307cwtuzcah42musletz4z.eunonullamcovitae",
+      "exponent": 0
+    },
+    {
+      "denom": "EUNONULLAMCOVITAE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

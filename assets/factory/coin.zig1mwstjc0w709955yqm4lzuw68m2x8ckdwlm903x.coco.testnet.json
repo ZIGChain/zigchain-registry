@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mwstjc0w709955yqm4lzuw68m2x8ckdwlm903x.coco",
+  "type": "factory",
+  "symbol": "COCO",
+  "name": "Coco",
+  "decimals": 6,
+  "display_denom": "COCO",
+  "base_denom": "coin.zig1mwstjc0w709955yqm4lzuw68m2x8ckdwlm903x.coco",
+  "creator": "zig1mwstjc0w709955yqm4lzuw68m2x8ckdwlm903x",
+  "subdenom": "coco",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mwstjc0w709955yqm4lzuw68m2x8ckdwlm903x.coco",
+      "exponent": 0
+    },
+    {
+      "denom": "COCO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

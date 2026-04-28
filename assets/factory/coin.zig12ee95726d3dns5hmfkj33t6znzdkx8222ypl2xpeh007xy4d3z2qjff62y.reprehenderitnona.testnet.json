@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig12ee95726d3dns5hmfkj33t6znzdkx8222ypl2xpeh007xy4d3z2qjff62y.reprehenderitnona",
+  "type": "factory",
+  "symbol": "REPREHENDERITNONA",
+  "name": "Reprehenderitnona",
+  "decimals": 6,
+  "display_denom": "REPREHENDERITNONA",
+  "base_denom": "coin.zig12ee95726d3dns5hmfkj33t6znzdkx8222ypl2xpeh007xy4d3z2qjff62y.reprehenderitnona",
+  "creator": "zig12ee95726d3dns5hmfkj33t6znzdkx8222ypl2xpeh007xy4d3z2qjff62y",
+  "subdenom": "reprehenderitnona",
+  "denom_units": [
+    {
+      "denom": "coin.zig12ee95726d3dns5hmfkj33t6znzdkx8222ypl2xpeh007xy4d3z2qjff62y.reprehenderitnona",
+      "exponent": 0
+    },
+    {
+      "denom": "REPREHENDERITNONA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

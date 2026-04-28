@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1hfy6g260lhyertu2v4sfmwkk3dktthr5fpz8thhshdersn60acxq82r78e.oopsie",
+  "type": "factory",
+  "symbol": "OOPSIE",
+  "name": "Oopsie",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1hfy6g260lhyertu2v4sfmwkk3dktthr5fpz8thhshdersn60acxq82r78e.oopsie",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1hfy6g260lhyertu2v4sfmwkk3dktthr5fpz8thhshdersn60acxq82r78e.oopsie",
+  "base_denom": "coin.zig1hfy6g260lhyertu2v4sfmwkk3dktthr5fpz8thhshdersn60acxq82r78e.oopsie",
+  "creator": "zig1hfy6g260lhyertu2v4sfmwkk3dktthr5fpz8thhshdersn60acxq82r78e",
+  "subdenom": "oopsie",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ptxpjgl3lsxrq99zl6ad2nmrx4lhnhne26m6ys.bee",
+  "type": "factory",
+  "symbol": "BEE",
+  "name": "Bee",
+  "decimals": 6,
+  "display_denom": "BEE",
+  "base_denom": "coin.zig1ptxpjgl3lsxrq99zl6ad2nmrx4lhnhne26m6ys.bee",
+  "creator": "zig1ptxpjgl3lsxrq99zl6ad2nmrx4lhnhne26m6ys",
+  "subdenom": "bee",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ptxpjgl3lsxrq99zl6ad2nmrx4lhnhne26m6ys.bee",
+      "exponent": 0
+    },
+    {
+      "denom": "BEE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

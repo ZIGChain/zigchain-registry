@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1j422znrw6nd3kkdm7ugvf3uhy50qmetg844q50g2ntvpey7fglesp5u72p.andouti",
+  "type": "factory",
+  "symbol": "ANDOUTI",
+  "name": "Andouti",
+  "decimals": 6,
+  "display_denom": "ANDOUTI",
+  "base_denom": "coin.zig1j422znrw6nd3kkdm7ugvf3uhy50qmetg844q50g2ntvpey7fglesp5u72p.andouti",
+  "creator": "zig1j422znrw6nd3kkdm7ugvf3uhy50qmetg844q50g2ntvpey7fglesp5u72p",
+  "subdenom": "andouti",
+  "denom_units": [
+    {
+      "denom": "coin.zig1j422znrw6nd3kkdm7ugvf3uhy50qmetg844q50g2ntvpey7fglesp5u72p.andouti",
+      "exponent": 0
+    },
+    {
+      "denom": "ANDOUTI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

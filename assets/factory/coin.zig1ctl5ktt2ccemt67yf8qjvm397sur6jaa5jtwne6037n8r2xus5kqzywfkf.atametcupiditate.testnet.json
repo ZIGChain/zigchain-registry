@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ctl5ktt2ccemt67yf8qjvm397sur6jaa5jtwne6037n8r2xus5kqzywfkf.atametcupiditate",
+  "type": "factory",
+  "symbol": "ATAMETCUPIDITATE",
+  "name": "Atametcupiditate",
+  "decimals": 6,
+  "display_denom": "ATAMETCUPIDITATE",
+  "base_denom": "coin.zig1ctl5ktt2ccemt67yf8qjvm397sur6jaa5jtwne6037n8r2xus5kqzywfkf.atametcupiditate",
+  "creator": "zig1ctl5ktt2ccemt67yf8qjvm397sur6jaa5jtwne6037n8r2xus5kqzywfkf",
+  "subdenom": "atametcupiditate",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ctl5ktt2ccemt67yf8qjvm397sur6jaa5jtwne6037n8r2xus5kqzywfkf.atametcupiditate",
+      "exponent": 0
+    },
+    {
+      "denom": "ATAMETCUPIDITATE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

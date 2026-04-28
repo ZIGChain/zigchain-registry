@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1wdy4sq63cftazeq73p37cryaaalhxu39sdj786.pandaeeba",
+  "type": "factory",
+  "symbol": "PANDAEEBA",
+  "name": "Pandaeeba",
+  "decimals": 6,
+  "display_denom": "PANDAEEBA",
+  "base_denom": "coin.zig1wdy4sq63cftazeq73p37cryaaalhxu39sdj786.pandaeeba",
+  "creator": "zig1wdy4sq63cftazeq73p37cryaaalhxu39sdj786",
+  "subdenom": "pandaeeba",
+  "denom_units": [
+    {
+      "denom": "coin.zig1wdy4sq63cftazeq73p37cryaaalhxu39sdj786.pandaeeba",
+      "exponent": 0
+    },
+    {
+      "denom": "PANDAEEBA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

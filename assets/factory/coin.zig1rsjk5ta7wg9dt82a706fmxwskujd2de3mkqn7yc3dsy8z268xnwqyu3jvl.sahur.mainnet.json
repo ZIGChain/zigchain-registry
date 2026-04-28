@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1rsjk5ta7wg9dt82a706fmxwskujd2de3mkqn7yc3dsy8z268xnwqyu3jvl.sahur",
+  "type": "factory",
+  "symbol": "SAHUR",
+  "name": "Sahur",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1rsjk5ta7wg9dt82a706fmxwskujd2de3mkqn7yc3dsy8z268xnwqyu3jvl.sahur",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1rsjk5ta7wg9dt82a706fmxwskujd2de3mkqn7yc3dsy8z268xnwqyu3jvl.sahur",
+  "base_denom": "coin.zig1rsjk5ta7wg9dt82a706fmxwskujd2de3mkqn7yc3dsy8z268xnwqyu3jvl.sahur",
+  "creator": "zig1rsjk5ta7wg9dt82a706fmxwskujd2de3mkqn7yc3dsy8z268xnwqyu3jvl",
+  "subdenom": "sahur",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

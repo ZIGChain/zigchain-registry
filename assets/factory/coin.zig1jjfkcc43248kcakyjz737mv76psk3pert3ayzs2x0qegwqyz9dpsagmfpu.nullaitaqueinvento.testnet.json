@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1jjfkcc43248kcakyjz737mv76psk3pert3ayzs2x0qegwqyz9dpsagmfpu.nullaitaqueinvento",
+  "type": "factory",
+  "symbol": "NULLAITAQUEINVENTO",
+  "name": "Nullaitaqueinvento",
+  "decimals": 6,
+  "display_denom": "NULLAITAQUEINVENTO",
+  "base_denom": "coin.zig1jjfkcc43248kcakyjz737mv76psk3pert3ayzs2x0qegwqyz9dpsagmfpu.nullaitaqueinvento",
+  "creator": "zig1jjfkcc43248kcakyjz737mv76psk3pert3ayzs2x0qegwqyz9dpsagmfpu",
+  "subdenom": "nullaitaqueinvento",
+  "denom_units": [
+    {
+      "denom": "coin.zig1jjfkcc43248kcakyjz737mv76psk3pert3ayzs2x0qegwqyz9dpsagmfpu.nullaitaqueinvento",
+      "exponent": 0
+    },
+    {
+      "denom": "NULLAITAQUEINVENTO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

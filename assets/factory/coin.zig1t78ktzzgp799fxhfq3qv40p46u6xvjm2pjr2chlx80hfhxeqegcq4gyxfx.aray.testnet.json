@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1t78ktzzgp799fxhfq3qv40p46u6xvjm2pjr2chlx80hfhxeqegcq4gyxfx.aray",
+  "type": "factory",
+  "symbol": "ARAY",
+  "name": "Aray",
+  "decimals": 6,
+  "display_denom": "ARAY",
+  "base_denom": "coin.zig1t78ktzzgp799fxhfq3qv40p46u6xvjm2pjr2chlx80hfhxeqegcq4gyxfx.aray",
+  "creator": "zig1t78ktzzgp799fxhfq3qv40p46u6xvjm2pjr2chlx80hfhxeqegcq4gyxfx",
+  "subdenom": "aray",
+  "denom_units": [
+    {
+      "denom": "coin.zig1t78ktzzgp799fxhfq3qv40p46u6xvjm2pjr2chlx80hfhxeqegcq4gyxfx.aray",
+      "exponent": 0
+    },
+    {
+      "denom": "ARAY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig12e7ykpgshd9wkmvetftvqwl8fmmsfzxms9ngtvp0lzfw3kukffkspdr905.repudiandaealiasau",
+  "type": "factory",
+  "symbol": "REPUDIANDAEALIASAU",
+  "name": "Repudiandaealiasau",
+  "decimals": 6,
+  "display_denom": "REPUDIANDAEALIASAU",
+  "base_denom": "coin.zig12e7ykpgshd9wkmvetftvqwl8fmmsfzxms9ngtvp0lzfw3kukffkspdr905.repudiandaealiasau",
+  "creator": "zig12e7ykpgshd9wkmvetftvqwl8fmmsfzxms9ngtvp0lzfw3kukffkspdr905",
+  "subdenom": "repudiandaealiasau",
+  "denom_units": [
+    {
+      "denom": "coin.zig12e7ykpgshd9wkmvetftvqwl8fmmsfzxms9ngtvp0lzfw3kukffkspdr905.repudiandaealiasau",
+      "exponent": 0
+    },
+    {
+      "denom": "REPUDIANDAEALIASAU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

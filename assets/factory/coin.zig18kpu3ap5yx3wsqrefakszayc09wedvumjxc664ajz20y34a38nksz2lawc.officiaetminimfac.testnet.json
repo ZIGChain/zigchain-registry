@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18kpu3ap5yx3wsqrefakszayc09wedvumjxc664ajz20y34a38nksz2lawc.officiaetminimfac",
+  "type": "factory",
+  "symbol": "OFFICIAETMINIMFAC",
+  "name": "Officiaetminimfac",
+  "decimals": 6,
+  "display_denom": "OFFICIAETMINIMFAC",
+  "base_denom": "coin.zig18kpu3ap5yx3wsqrefakszayc09wedvumjxc664ajz20y34a38nksz2lawc.officiaetminimfac",
+  "creator": "zig18kpu3ap5yx3wsqrefakszayc09wedvumjxc664ajz20y34a38nksz2lawc",
+  "subdenom": "officiaetminimfac",
+  "denom_units": [
+    {
+      "denom": "coin.zig18kpu3ap5yx3wsqrefakszayc09wedvumjxc664ajz20y34a38nksz2lawc.officiaetminimfac",
+      "exponent": 0
+    },
+    {
+      "denom": "OFFICIAETMINIMFAC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

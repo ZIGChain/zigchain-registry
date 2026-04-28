@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1z9s279qmr6z9te950a3sft76dkfztfvvuswxj98rnt7dmhjnquvsl4n8ew.dignissimosmagnico",
+  "type": "factory",
+  "symbol": "DIGNISSIMOSMAGNICO",
+  "name": "Dignissimosmagnico",
+  "decimals": 6,
+  "display_denom": "DIGNISSIMOSMAGNICO",
+  "base_denom": "coin.zig1z9s279qmr6z9te950a3sft76dkfztfvvuswxj98rnt7dmhjnquvsl4n8ew.dignissimosmagnico",
+  "creator": "zig1z9s279qmr6z9te950a3sft76dkfztfvvuswxj98rnt7dmhjnquvsl4n8ew",
+  "subdenom": "dignissimosmagnico",
+  "denom_units": [
+    {
+      "denom": "coin.zig1z9s279qmr6z9te950a3sft76dkfztfvvuswxj98rnt7dmhjnquvsl4n8ew.dignissimosmagnico",
+      "exponent": 0
+    },
+    {
+      "denom": "DIGNISSIMOSMAGNICO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1nndd7c5e7num74ztmfv7hg24hth0kdwx065udxudfytkmvgr64sqqfelxm.philiphs",
+  "type": "factory",
+  "symbol": "PHILIPHS",
+  "name": "Philiphs",
+  "decimals": 6,
+  "display_denom": "PHILIPHS",
+  "base_denom": "coin.zig1nndd7c5e7num74ztmfv7hg24hth0kdwx065udxudfytkmvgr64sqqfelxm.philiphs",
+  "creator": "zig1nndd7c5e7num74ztmfv7hg24hth0kdwx065udxudfytkmvgr64sqqfelxm",
+  "subdenom": "philiphs",
+  "denom_units": [
+    {
+      "denom": "coin.zig1nndd7c5e7num74ztmfv7hg24hth0kdwx065udxudfytkmvgr64sqqfelxm.philiphs",
+      "exponent": 0
+    },
+    {
+      "denom": "PHILIPHS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

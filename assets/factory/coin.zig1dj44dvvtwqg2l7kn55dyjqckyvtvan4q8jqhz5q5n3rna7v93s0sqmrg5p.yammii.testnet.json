@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1dj44dvvtwqg2l7kn55dyjqckyvtvan4q8jqhz5q5n3rna7v93s0sqmrg5p.yammii",
+  "type": "factory",
+  "symbol": "YAMMII",
+  "name": "Yammii",
+  "decimals": 6,
+  "display_denom": "YAMMII",
+  "base_denom": "coin.zig1dj44dvvtwqg2l7kn55dyjqckyvtvan4q8jqhz5q5n3rna7v93s0sqmrg5p.yammii",
+  "creator": "zig1dj44dvvtwqg2l7kn55dyjqckyvtvan4q8jqhz5q5n3rna7v93s0sqmrg5p",
+  "subdenom": "yammii",
+  "denom_units": [
+    {
+      "denom": "coin.zig1dj44dvvtwqg2l7kn55dyjqckyvtvan4q8jqhz5q5n3rna7v93s0sqmrg5p.yammii",
+      "exponent": 0
+    },
+    {
+      "denom": "YAMMII",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

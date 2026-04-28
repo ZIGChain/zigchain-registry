@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1yhn8ms2kmv6vfsghmcj45ldex4lwweujqj7v4dgzh2kevq9rvuns9q87ju.lambooo",
+  "type": "factory",
+  "symbol": "LAMBOOO",
+  "name": "Lambooo",
+  "decimals": 6,
+  "display_denom": "LAMBOOO",
+  "base_denom": "coin.zig1yhn8ms2kmv6vfsghmcj45ldex4lwweujqj7v4dgzh2kevq9rvuns9q87ju.lambooo",
+  "creator": "zig1yhn8ms2kmv6vfsghmcj45ldex4lwweujqj7v4dgzh2kevq9rvuns9q87ju",
+  "subdenom": "lambooo",
+  "denom_units": [
+    {
+      "denom": "coin.zig1yhn8ms2kmv6vfsghmcj45ldex4lwweujqj7v4dgzh2kevq9rvuns9q87ju.lambooo",
+      "exponent": 0
+    },
+    {
+      "denom": "LAMBOOO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ldldujdrkfh8463rq947jxusnusu8w8y4fz9xy8r69hd3z4l3lnqxchmqc.eaqueexcepturiinm",
+  "type": "factory",
+  "symbol": "EAQUEEXCEPTURIINM",
+  "name": "Eaqueexcepturiinm",
+  "decimals": 6,
+  "display_denom": "EAQUEEXCEPTURIINM",
+  "base_denom": "coin.zig1ldldujdrkfh8463rq947jxusnusu8w8y4fz9xy8r69hd3z4l3lnqxchmqc.eaqueexcepturiinm",
+  "creator": "zig1ldldujdrkfh8463rq947jxusnusu8w8y4fz9xy8r69hd3z4l3lnqxchmqc",
+  "subdenom": "eaqueexcepturiinm",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ldldujdrkfh8463rq947jxusnusu8w8y4fz9xy8r69hd3z4l3lnqxchmqc.eaqueexcepturiinm",
+      "exponent": 0
+    },
+    {
+      "denom": "EAQUEEXCEPTURIINM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

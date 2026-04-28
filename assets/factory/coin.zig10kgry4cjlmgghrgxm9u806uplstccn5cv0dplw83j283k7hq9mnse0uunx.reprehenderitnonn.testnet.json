@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10kgry4cjlmgghrgxm9u806uplstccn5cv0dplw83j283k7hq9mnse0uunx.reprehenderitnonn",
+  "type": "factory",
+  "symbol": "REPREHENDERITNONN",
+  "name": "Reprehenderitnonn",
+  "decimals": 6,
+  "display_denom": "REPREHENDERITNONN",
+  "base_denom": "coin.zig10kgry4cjlmgghrgxm9u806uplstccn5cv0dplw83j283k7hq9mnse0uunx.reprehenderitnonn",
+  "creator": "zig10kgry4cjlmgghrgxm9u806uplstccn5cv0dplw83j283k7hq9mnse0uunx",
+  "subdenom": "reprehenderitnonn",
+  "denom_units": [
+    {
+      "denom": "coin.zig10kgry4cjlmgghrgxm9u806uplstccn5cv0dplw83j283k7hq9mnse0uunx.reprehenderitnonn",
+      "exponent": 0
+    },
+    {
+      "denom": "REPREHENDERITNONN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

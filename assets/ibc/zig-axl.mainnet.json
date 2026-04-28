@@ -1,0 +1,49 @@
+{
+    "$schema": "../../schemas/asset.ibc.schema.json",
+    "order": 5,
+    "network": "mainnet",
+    "asset_id": "ibc/9BEE293E6559ED860CC702685996F394D4991D6DFFD60A19ABC3723E6F34788A",
+    "type": "ibc",
+    "symbol": "ZIG.axl",
+    "name": "ZIG (Axelar)",
+    "description": "ZIG bridged via Axelar on ZIGChain",
+    "decimals": 18,
+    "display_denom": "zig.axl",
+    "base_denom": "ibc/9BEE293E6559ED860CC702685996F394D4991D6DFFD60A19ABC3723E6F34788A",
+    "hash": "9BEE293E6559ED860CC702685996F394D4991D6DFFD60A19ABC3723E6F34788A",
+    "origin_chain": "axelar",
+    "origin_denom": "unit-zig",
+    "traces": [
+        {
+            "type": "ibc",
+            "chain_name": "zigchain",
+            "base_denom": "ibc/9BEE293E6559ED860CC702685996F394D4991D6DFFD60A19ABC3723E6F34788A",
+            "path": "transfer/channel-1/unit-zig"
+        },
+        {
+            "type": "ibc",
+            "chain_name": "axelar",
+            "base_denom": "unit-zig",
+            "path": "transfer/channel-182"
+        }
+    ],
+    "channels": [
+        {
+            "zigchain_channel": "channel-1",
+            "counterparty_chain": "axelar",
+            "counterparty_channel": "channel-182"
+        }
+    ],
+    "logo_uris": {
+        "chain_name": "zigchain",
+        "png": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/zigchain.png",
+        "svg": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/zigchain.svg"
+    },
+    "images": [
+        {
+            "chain_name": "zigchain",
+            "base_denom": "uzig"
+        }
+    ],
+    "is_verified": true
+}

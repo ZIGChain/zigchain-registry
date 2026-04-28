@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13vjacma4fcdreslnxs3yws2wehdpsl44ncwxjven8n07f3g57las6wh779.goat",
+  "type": "factory",
+  "symbol": "GOAT",
+  "name": "Goat",
+  "decimals": 6,
+  "display_denom": "GOAT",
+  "base_denom": "coin.zig13vjacma4fcdreslnxs3yws2wehdpsl44ncwxjven8n07f3g57las6wh779.goat",
+  "creator": "zig13vjacma4fcdreslnxs3yws2wehdpsl44ncwxjven8n07f3g57las6wh779",
+  "subdenom": "goat",
+  "denom_units": [
+    {
+      "denom": "coin.zig13vjacma4fcdreslnxs3yws2wehdpsl44ncwxjven8n07f3g57las6wh779.goat",
+      "exponent": 0
+    },
+    {
+      "denom": "GOAT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

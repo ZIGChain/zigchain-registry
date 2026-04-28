@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hu2qltx56pvgf0lavaz65lea6zugh59fkwp08q3vr0ctpsjsewkqevs66h.hyperflux",
+  "type": "factory",
+  "symbol": "HYPERFLUX",
+  "name": "Hyperflux",
+  "decimals": 6,
+  "display_denom": "HYPERFLUX",
+  "base_denom": "coin.zig1hu2qltx56pvgf0lavaz65lea6zugh59fkwp08q3vr0ctpsjsewkqevs66h.hyperflux",
+  "creator": "zig1hu2qltx56pvgf0lavaz65lea6zugh59fkwp08q3vr0ctpsjsewkqevs66h",
+  "subdenom": "hyperflux",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hu2qltx56pvgf0lavaz65lea6zugh59fkwp08q3vr0ctpsjsewkqevs66h.hyperflux",
+      "exponent": 0
+    },
+    {
+      "denom": "HYPERFLUX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

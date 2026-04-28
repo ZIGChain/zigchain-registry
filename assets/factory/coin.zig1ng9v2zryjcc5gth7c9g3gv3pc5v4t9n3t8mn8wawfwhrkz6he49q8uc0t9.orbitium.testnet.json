@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ng9v2zryjcc5gth7c9g3gv3pc5v4t9n3t8mn8wawfwhrkz6he49q8uc0t9.orbitium",
+  "type": "factory",
+  "symbol": "ORBITIUM",
+  "name": "Orbitium",
+  "decimals": 6,
+  "display_denom": "ORBITIUM",
+  "base_denom": "coin.zig1ng9v2zryjcc5gth7c9g3gv3pc5v4t9n3t8mn8wawfwhrkz6he49q8uc0t9.orbitium",
+  "creator": "zig1ng9v2zryjcc5gth7c9g3gv3pc5v4t9n3t8mn8wawfwhrkz6he49q8uc0t9",
+  "subdenom": "orbitium",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ng9v2zryjcc5gth7c9g3gv3pc5v4t9n3t8mn8wawfwhrkz6he49q8uc0t9.orbitium",
+      "exponent": 0
+    },
+    {
+      "denom": "ORBITIUM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

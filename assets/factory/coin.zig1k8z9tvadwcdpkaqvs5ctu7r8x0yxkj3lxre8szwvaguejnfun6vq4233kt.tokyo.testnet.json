@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1k8z9tvadwcdpkaqvs5ctu7r8x0yxkj3lxre8szwvaguejnfun6vq4233kt.tokyo",
+  "type": "factory",
+  "symbol": "TOKYO",
+  "name": "Tokyo",
+  "decimals": 6,
+  "display_denom": "TOKYO",
+  "base_denom": "coin.zig1k8z9tvadwcdpkaqvs5ctu7r8x0yxkj3lxre8szwvaguejnfun6vq4233kt.tokyo",
+  "creator": "zig1k8z9tvadwcdpkaqvs5ctu7r8x0yxkj3lxre8szwvaguejnfun6vq4233kt",
+  "subdenom": "tokyo",
+  "denom_units": [
+    {
+      "denom": "coin.zig1k8z9tvadwcdpkaqvs5ctu7r8x0yxkj3lxre8szwvaguejnfun6vq4233kt.tokyo",
+      "exponent": 0
+    },
+    {
+      "denom": "TOKYO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

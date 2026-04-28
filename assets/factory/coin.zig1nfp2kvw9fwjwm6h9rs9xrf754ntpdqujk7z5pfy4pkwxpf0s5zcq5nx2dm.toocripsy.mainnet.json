@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1nfp2kvw9fwjwm6h9rs9xrf754ntpdqujk7z5pfy4pkwxpf0s5zcq5nx2dm.toocripsy",
+  "type": "factory",
+  "symbol": "TOOCRIPSY",
+  "name": "Toocripsy",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1nfp2kvw9fwjwm6h9rs9xrf754ntpdqujk7z5pfy4pkwxpf0s5zcq5nx2dm.toocripsy",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1nfp2kvw9fwjwm6h9rs9xrf754ntpdqujk7z5pfy4pkwxpf0s5zcq5nx2dm.toocripsy",
+  "base_denom": "coin.zig1nfp2kvw9fwjwm6h9rs9xrf754ntpdqujk7z5pfy4pkwxpf0s5zcq5nx2dm.toocripsy",
+  "creator": "zig1nfp2kvw9fwjwm6h9rs9xrf754ntpdqujk7z5pfy4pkwxpf0s5zcq5nx2dm",
+  "subdenom": "toocripsy",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig18nad6v80tv5l40kz37mh64hyjgpvmnz5dlrnuymngchxxw8600kq9w4qta.alexbecker",
+  "type": "factory",
+  "symbol": "ALEXBECKER",
+  "name": "Alexbecker",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig18nad6v80tv5l40kz37mh64hyjgpvmnz5dlrnuymngchxxw8600kq9w4qta.alexbecker",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig18nad6v80tv5l40kz37mh64hyjgpvmnz5dlrnuymngchxxw8600kq9w4qta.alexbecker",
+  "base_denom": "coin.zig18nad6v80tv5l40kz37mh64hyjgpvmnz5dlrnuymngchxxw8600kq9w4qta.alexbecker",
+  "creator": "zig18nad6v80tv5l40kz37mh64hyjgpvmnz5dlrnuymngchxxw8600kq9w4qta",
+  "subdenom": "alexbecker",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

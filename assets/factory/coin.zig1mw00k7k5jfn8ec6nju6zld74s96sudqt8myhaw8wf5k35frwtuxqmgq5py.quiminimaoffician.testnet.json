@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mw00k7k5jfn8ec6nju6zld74s96sudqt8myhaw8wf5k35frwtuxqmgq5py.quiminimaoffician",
+  "type": "factory",
+  "symbol": "QUIMINIMAOFFICIAN",
+  "name": "Quiminimaoffician",
+  "decimals": 6,
+  "display_denom": "QUIMINIMAOFFICIAN",
+  "base_denom": "coin.zig1mw00k7k5jfn8ec6nju6zld74s96sudqt8myhaw8wf5k35frwtuxqmgq5py.quiminimaoffician",
+  "creator": "zig1mw00k7k5jfn8ec6nju6zld74s96sudqt8myhaw8wf5k35frwtuxqmgq5py",
+  "subdenom": "quiminimaoffician",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mw00k7k5jfn8ec6nju6zld74s96sudqt8myhaw8wf5k35frwtuxqmgq5py.quiminimaoffician",
+      "exponent": 0
+    },
+    {
+      "denom": "QUIMINIMAOFFICIAN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

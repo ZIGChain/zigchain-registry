@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14yyul02hjf4zatyrfeqat867lgm45ccl4ccyxy8ufy0d9wxyuatsxec2h3.buythetoken",
+  "type": "factory",
+  "symbol": "BUYTHETOKEN",
+  "name": "Buythetoken",
+  "decimals": 6,
+  "display_denom": "BUYTHETOKEN",
+  "base_denom": "coin.zig14yyul02hjf4zatyrfeqat867lgm45ccl4ccyxy8ufy0d9wxyuatsxec2h3.buythetoken",
+  "creator": "zig14yyul02hjf4zatyrfeqat867lgm45ccl4ccyxy8ufy0d9wxyuatsxec2h3",
+  "subdenom": "buythetoken",
+  "denom_units": [
+    {
+      "denom": "coin.zig14yyul02hjf4zatyrfeqat867lgm45ccl4ccyxy8ufy0d9wxyuatsxec2h3.buythetoken",
+      "exponent": 0
+    },
+    {
+      "denom": "BUYTHETOKEN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

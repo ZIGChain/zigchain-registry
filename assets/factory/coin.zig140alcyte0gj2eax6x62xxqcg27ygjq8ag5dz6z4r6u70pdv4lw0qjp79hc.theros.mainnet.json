@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig140alcyte0gj2eax6x62xxqcg27ygjq8ag5dz6z4r6u70pdv4lw0qjp79hc.theros",
+  "type": "factory",
+  "symbol": "THEROS",
+  "name": "Theros",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig140alcyte0gj2eax6x62xxqcg27ygjq8ag5dz6z4r6u70pdv4lw0qjp79hc.theros",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig140alcyte0gj2eax6x62xxqcg27ygjq8ag5dz6z4r6u70pdv4lw0qjp79hc.theros",
+  "base_denom": "coin.zig140alcyte0gj2eax6x62xxqcg27ygjq8ag5dz6z4r6u70pdv4lw0qjp79hc.theros",
+  "creator": "zig140alcyte0gj2eax6x62xxqcg27ygjq8ag5dz6z4r6u70pdv4lw0qjp79hc",
+  "subdenom": "theros",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

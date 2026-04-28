@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1k7m4k352j8yne0m9lj2t2l42va6puv4fr7ej6t.hodl",
+  "type": "factory",
+  "symbol": "HODL",
+  "name": "Hodl",
+  "decimals": 6,
+  "display_denom": "HODL",
+  "base_denom": "coin.zig1k7m4k352j8yne0m9lj2t2l42va6puv4fr7ej6t.hodl",
+  "creator": "zig1k7m4k352j8yne0m9lj2t2l42va6puv4fr7ej6t",
+  "subdenom": "hodl",
+  "denom_units": [
+    {
+      "denom": "coin.zig1k7m4k352j8yne0m9lj2t2l42va6puv4fr7ej6t.hodl",
+      "exponent": 0
+    },
+    {
+      "denom": "HODL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

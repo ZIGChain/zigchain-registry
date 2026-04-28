@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig199997e0rdt40w03zxc95z30r96m66542xak0zt48msf84eyfzp0suy9wje.sedobcaecativeniam",
+  "type": "factory",
+  "symbol": "SEDOBCAECATIVENIAM",
+  "name": "Sedobcaecativeniam",
+  "decimals": 6,
+  "display_denom": "SEDOBCAECATIVENIAM",
+  "base_denom": "coin.zig199997e0rdt40w03zxc95z30r96m66542xak0zt48msf84eyfzp0suy9wje.sedobcaecativeniam",
+  "creator": "zig199997e0rdt40w03zxc95z30r96m66542xak0zt48msf84eyfzp0suy9wje",
+  "subdenom": "sedobcaecativeniam",
+  "denom_units": [
+    {
+      "denom": "coin.zig199997e0rdt40w03zxc95z30r96m66542xak0zt48msf84eyfzp0suy9wje.sedobcaecativeniam",
+      "exponent": 0
+    },
+    {
+      "denom": "SEDOBCAECATIVENIAM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

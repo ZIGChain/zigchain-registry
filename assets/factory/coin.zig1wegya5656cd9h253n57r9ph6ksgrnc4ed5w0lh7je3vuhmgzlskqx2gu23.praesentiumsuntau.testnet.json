@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1wegya5656cd9h253n57r9ph6ksgrnc4ed5w0lh7je3vuhmgzlskqx2gu23.praesentiumsuntau",
+  "type": "factory",
+  "symbol": "PRAESENTIUMSUNTAU",
+  "name": "Praesentiumsuntau",
+  "decimals": 6,
+  "display_denom": "PRAESENTIUMSUNTAU",
+  "base_denom": "coin.zig1wegya5656cd9h253n57r9ph6ksgrnc4ed5w0lh7je3vuhmgzlskqx2gu23.praesentiumsuntau",
+  "creator": "zig1wegya5656cd9h253n57r9ph6ksgrnc4ed5w0lh7je3vuhmgzlskqx2gu23",
+  "subdenom": "praesentiumsuntau",
+  "denom_units": [
+    {
+      "denom": "coin.zig1wegya5656cd9h253n57r9ph6ksgrnc4ed5w0lh7je3vuhmgzlskqx2gu23.praesentiumsuntau",
+      "exponent": 0
+    },
+    {
+      "denom": "PRAESENTIUMSUNTAU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

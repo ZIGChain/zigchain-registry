@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1h7cr9jw4a7wdpsx4e7jqhw3gcc50psmm0t500mzt5k6tfhe6c0aqy70rgw.earumautnumquamom",
+  "type": "factory",
+  "symbol": "EARUMAUTNUMQUAMOM",
+  "name": "Earumautnumquamom",
+  "decimals": 6,
+  "display_denom": "EARUMAUTNUMQUAMOM",
+  "base_denom": "coin.zig1h7cr9jw4a7wdpsx4e7jqhw3gcc50psmm0t500mzt5k6tfhe6c0aqy70rgw.earumautnumquamom",
+  "creator": "zig1h7cr9jw4a7wdpsx4e7jqhw3gcc50psmm0t500mzt5k6tfhe6c0aqy70rgw",
+  "subdenom": "earumautnumquamom",
+  "denom_units": [
+    {
+      "denom": "coin.zig1h7cr9jw4a7wdpsx4e7jqhw3gcc50psmm0t500mzt5k6tfhe6c0aqy70rgw.earumautnumquamom",
+      "exponent": 0
+    },
+    {
+      "denom": "EARUMAUTNUMQUAMOM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1v9ge8cp75qgtx7sj2n903lgcl8y0rfs98x3gjf.pits",
+  "type": "factory",
+  "symbol": "PITS",
+  "name": "Pits",
+  "decimals": 6,
+  "display_denom": "PITS",
+  "base_denom": "coin.zig1v9ge8cp75qgtx7sj2n903lgcl8y0rfs98x3gjf.pits",
+  "creator": "zig1v9ge8cp75qgtx7sj2n903lgcl8y0rfs98x3gjf",
+  "subdenom": "pits",
+  "denom_units": [
+    {
+      "denom": "coin.zig1v9ge8cp75qgtx7sj2n903lgcl8y0rfs98x3gjf.pits",
+      "exponent": 0
+    },
+    {
+      "denom": "PITS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

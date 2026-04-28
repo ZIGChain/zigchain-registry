@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1q3z9r52p4a6aewq3rshh8k2h05vs4nr6ul57jq6te8uscqt9v2msh5t44l.temporaomnisdolori",
+  "type": "factory",
+  "symbol": "TEMPORAOMNISDOLORI",
+  "name": "Temporaomnisdolori",
+  "decimals": 6,
+  "display_denom": "TEMPORAOMNISDOLORI",
+  "base_denom": "coin.zig1q3z9r52p4a6aewq3rshh8k2h05vs4nr6ul57jq6te8uscqt9v2msh5t44l.temporaomnisdolori",
+  "creator": "zig1q3z9r52p4a6aewq3rshh8k2h05vs4nr6ul57jq6te8uscqt9v2msh5t44l",
+  "subdenom": "temporaomnisdolori",
+  "denom_units": [
+    {
+      "denom": "coin.zig1q3z9r52p4a6aewq3rshh8k2h05vs4nr6ul57jq6te8uscqt9v2msh5t44l.temporaomnisdolori",
+      "exponent": 0
+    },
+    {
+      "denom": "TEMPORAOMNISDOLORI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

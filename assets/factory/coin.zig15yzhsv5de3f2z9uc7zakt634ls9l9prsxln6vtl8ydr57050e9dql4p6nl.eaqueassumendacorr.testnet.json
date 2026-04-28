@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15yzhsv5de3f2z9uc7zakt634ls9l9prsxln6vtl8ydr57050e9dql4p6nl.eaqueassumendacorr",
+  "type": "factory",
+  "symbol": "EAQUEASSUMENDACORR",
+  "name": "Eaqueassumendacorr",
+  "decimals": 6,
+  "display_denom": "EAQUEASSUMENDACORR",
+  "base_denom": "coin.zig15yzhsv5de3f2z9uc7zakt634ls9l9prsxln6vtl8ydr57050e9dql4p6nl.eaqueassumendacorr",
+  "creator": "zig15yzhsv5de3f2z9uc7zakt634ls9l9prsxln6vtl8ydr57050e9dql4p6nl",
+  "subdenom": "eaqueassumendacorr",
+  "denom_units": [
+    {
+      "denom": "coin.zig15yzhsv5de3f2z9uc7zakt634ls9l9prsxln6vtl8ydr57050e9dql4p6nl.eaqueassumendacorr",
+      "exponent": 0
+    },
+    {
+      "denom": "EAQUEASSUMENDACORR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

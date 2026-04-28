@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1kpj43nzvjdemafvs54e2nkatue0w6fe27gdfldze2403ap2x5assvjh7hu.chips",
+  "type": "factory",
+  "symbol": "CHIPS",
+  "name": "Chips",
+  "decimals": 6,
+  "display_denom": "CHIPS",
+  "base_denom": "coin.zig1kpj43nzvjdemafvs54e2nkatue0w6fe27gdfldze2403ap2x5assvjh7hu.chips",
+  "creator": "zig1kpj43nzvjdemafvs54e2nkatue0w6fe27gdfldze2403ap2x5assvjh7hu",
+  "subdenom": "chips",
+  "denom_units": [
+    {
+      "denom": "coin.zig1kpj43nzvjdemafvs54e2nkatue0w6fe27gdfldze2403ap2x5assvjh7hu.chips",
+      "exponent": 0
+    },
+    {
+      "denom": "CHIPS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

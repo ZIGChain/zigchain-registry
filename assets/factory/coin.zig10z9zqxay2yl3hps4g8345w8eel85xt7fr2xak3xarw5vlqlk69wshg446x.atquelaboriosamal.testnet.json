@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10z9zqxay2yl3hps4g8345w8eel85xt7fr2xak3xarw5vlqlk69wshg446x.atquelaboriosamal",
+  "type": "factory",
+  "symbol": "ATQUELABORIOSAMAL",
+  "name": "Atquelaboriosamal",
+  "decimals": 6,
+  "display_denom": "ATQUELABORIOSAMAL",
+  "base_denom": "coin.zig10z9zqxay2yl3hps4g8345w8eel85xt7fr2xak3xarw5vlqlk69wshg446x.atquelaboriosamal",
+  "creator": "zig10z9zqxay2yl3hps4g8345w8eel85xt7fr2xak3xarw5vlqlk69wshg446x",
+  "subdenom": "atquelaboriosamal",
+  "denom_units": [
+    {
+      "denom": "coin.zig10z9zqxay2yl3hps4g8345w8eel85xt7fr2xak3xarw5vlqlk69wshg446x.atquelaboriosamal",
+      "exponent": 0
+    },
+    {
+      "denom": "ATQUELABORIOSAMAL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

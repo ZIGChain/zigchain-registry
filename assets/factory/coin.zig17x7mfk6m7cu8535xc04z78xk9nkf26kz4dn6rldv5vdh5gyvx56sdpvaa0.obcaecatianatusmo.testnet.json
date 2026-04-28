@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17x7mfk6m7cu8535xc04z78xk9nkf26kz4dn6rldv5vdh5gyvx56sdpvaa0.obcaecatianatusmo",
+  "type": "factory",
+  "symbol": "OBCAECATIANATUSMO",
+  "name": "Obcaecatianatusmo",
+  "decimals": 6,
+  "display_denom": "OBCAECATIANATUSMO",
+  "base_denom": "coin.zig17x7mfk6m7cu8535xc04z78xk9nkf26kz4dn6rldv5vdh5gyvx56sdpvaa0.obcaecatianatusmo",
+  "creator": "zig17x7mfk6m7cu8535xc04z78xk9nkf26kz4dn6rldv5vdh5gyvx56sdpvaa0",
+  "subdenom": "obcaecatianatusmo",
+  "denom_units": [
+    {
+      "denom": "coin.zig17x7mfk6m7cu8535xc04z78xk9nkf26kz4dn6rldv5vdh5gyvx56sdpvaa0.obcaecatianatusmo",
+      "exponent": 0
+    },
+    {
+      "denom": "OBCAECATIANATUSMO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

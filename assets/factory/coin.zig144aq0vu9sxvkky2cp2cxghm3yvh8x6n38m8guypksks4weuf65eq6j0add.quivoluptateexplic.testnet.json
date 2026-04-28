@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig144aq0vu9sxvkky2cp2cxghm3yvh8x6n38m8guypksks4weuf65eq6j0add.quivoluptateexplic",
+  "type": "factory",
+  "symbol": "QUIVOLUPTATEEXPLIC",
+  "name": "Quivoluptateexplic",
+  "decimals": 6,
+  "display_denom": "QUIVOLUPTATEEXPLIC",
+  "base_denom": "coin.zig144aq0vu9sxvkky2cp2cxghm3yvh8x6n38m8guypksks4weuf65eq6j0add.quivoluptateexplic",
+  "creator": "zig144aq0vu9sxvkky2cp2cxghm3yvh8x6n38m8guypksks4weuf65eq6j0add",
+  "subdenom": "quivoluptateexplic",
+  "denom_units": [
+    {
+      "denom": "coin.zig144aq0vu9sxvkky2cp2cxghm3yvh8x6n38m8guypksks4weuf65eq6j0add.quivoluptateexplic",
+      "exponent": 0
+    },
+    {
+      "denom": "QUIVOLUPTATEEXPLIC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

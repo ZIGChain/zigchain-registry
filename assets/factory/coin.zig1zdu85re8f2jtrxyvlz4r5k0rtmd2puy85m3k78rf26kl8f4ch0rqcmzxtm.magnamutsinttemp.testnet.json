@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zdu85re8f2jtrxyvlz4r5k0rtmd2puy85m3k78rf26kl8f4ch0rqcmzxtm.magnamutsinttemp",
+  "type": "factory",
+  "symbol": "MAGNAMUTSINTTEMP",
+  "name": "Magnamutsinttemp",
+  "decimals": 6,
+  "display_denom": "MAGNAMUTSINTTEMP",
+  "base_denom": "coin.zig1zdu85re8f2jtrxyvlz4r5k0rtmd2puy85m3k78rf26kl8f4ch0rqcmzxtm.magnamutsinttemp",
+  "creator": "zig1zdu85re8f2jtrxyvlz4r5k0rtmd2puy85m3k78rf26kl8f4ch0rqcmzxtm",
+  "subdenom": "magnamutsinttemp",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zdu85re8f2jtrxyvlz4r5k0rtmd2puy85m3k78rf26kl8f4ch0rqcmzxtm.magnamutsinttemp",
+      "exponent": 0
+    },
+    {
+      "denom": "MAGNAMUTSINTTEMP",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

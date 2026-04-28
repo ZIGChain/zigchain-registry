@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig173k0vpj7cqwz3fjxqun3jcr3n0saa0nh64lywuws384fmcamtkaqals3f9.kutta",
+  "type": "factory",
+  "symbol": "KUTTA",
+  "name": "Kutta",
+  "decimals": 6,
+  "display_denom": "KUTTA",
+  "base_denom": "coin.zig173k0vpj7cqwz3fjxqun3jcr3n0saa0nh64lywuws384fmcamtkaqals3f9.kutta",
+  "creator": "zig173k0vpj7cqwz3fjxqun3jcr3n0saa0nh64lywuws384fmcamtkaqals3f9",
+  "subdenom": "kutta",
+  "denom_units": [
+    {
+      "denom": "coin.zig173k0vpj7cqwz3fjxqun3jcr3n0saa0nh64lywuws384fmcamtkaqals3f9.kutta",
+      "exponent": 0
+    },
+    {
+      "denom": "KUTTA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1pxferzf0kmqkpzgjtpynuvuecqydnkeeygyd6sxwjd77u3h3y5qqe4rqy3.triflex",
+  "type": "factory",
+  "symbol": "TRIFLEX",
+  "name": "Triflex",
+  "decimals": 6,
+  "display_denom": "TRIFLEX",
+  "base_denom": "coin.zig1pxferzf0kmqkpzgjtpynuvuecqydnkeeygyd6sxwjd77u3h3y5qqe4rqy3.triflex",
+  "creator": "zig1pxferzf0kmqkpzgjtpynuvuecqydnkeeygyd6sxwjd77u3h3y5qqe4rqy3",
+  "subdenom": "triflex",
+  "denom_units": [
+    {
+      "denom": "coin.zig1pxferzf0kmqkpzgjtpynuvuecqydnkeeygyd6sxwjd77u3h3y5qqe4rqy3.triflex",
+      "exponent": 0
+    },
+    {
+      "denom": "TRIFLEX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

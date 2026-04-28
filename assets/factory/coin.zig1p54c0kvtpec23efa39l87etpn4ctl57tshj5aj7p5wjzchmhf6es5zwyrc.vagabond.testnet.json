@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1p54c0kvtpec23efa39l87etpn4ctl57tshj5aj7p5wjzchmhf6es5zwyrc.vagabond",
+  "type": "factory",
+  "symbol": "VAGABOND",
+  "name": "Vagabond",
+  "decimals": 6,
+  "display_denom": "VAGABOND",
+  "base_denom": "coin.zig1p54c0kvtpec23efa39l87etpn4ctl57tshj5aj7p5wjzchmhf6es5zwyrc.vagabond",
+  "creator": "zig1p54c0kvtpec23efa39l87etpn4ctl57tshj5aj7p5wjzchmhf6es5zwyrc",
+  "subdenom": "vagabond",
+  "denom_units": [
+    {
+      "denom": "coin.zig1p54c0kvtpec23efa39l87etpn4ctl57tshj5aj7p5wjzchmhf6es5zwyrc.vagabond",
+      "exponent": 0
+    },
+    {
+      "denom": "VAGABOND",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

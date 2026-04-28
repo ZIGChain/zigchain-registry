@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1lrcm4l9prv0ftnwtytgs9x8jdqn5xqvaef5wnn9z0ksdmy28zfxsd0vaqn.magnaipsaatquean",
+  "type": "factory",
+  "symbol": "MAGNAIPSAATQUEAN",
+  "name": "Magnaipsaatquean",
+  "decimals": 6,
+  "display_denom": "MAGNAIPSAATQUEAN",
+  "base_denom": "coin.zig1lrcm4l9prv0ftnwtytgs9x8jdqn5xqvaef5wnn9z0ksdmy28zfxsd0vaqn.magnaipsaatquean",
+  "creator": "zig1lrcm4l9prv0ftnwtytgs9x8jdqn5xqvaef5wnn9z0ksdmy28zfxsd0vaqn",
+  "subdenom": "magnaipsaatquean",
+  "denom_units": [
+    {
+      "denom": "coin.zig1lrcm4l9prv0ftnwtytgs9x8jdqn5xqvaef5wnn9z0ksdmy28zfxsd0vaqn.magnaipsaatquean",
+      "exponent": 0
+    },
+    {
+      "denom": "MAGNAIPSAATQUEAN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

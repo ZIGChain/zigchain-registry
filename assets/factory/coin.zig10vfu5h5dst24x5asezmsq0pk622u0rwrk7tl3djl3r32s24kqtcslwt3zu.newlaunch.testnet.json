@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10vfu5h5dst24x5asezmsq0pk622u0rwrk7tl3djl3r32s24kqtcslwt3zu.newlaunch",
+  "type": "factory",
+  "symbol": "NEWLAUNCH",
+  "name": "Newlaunch",
+  "decimals": 6,
+  "display_denom": "NEWLAUNCH",
+  "base_denom": "coin.zig10vfu5h5dst24x5asezmsq0pk622u0rwrk7tl3djl3r32s24kqtcslwt3zu.newlaunch",
+  "creator": "zig10vfu5h5dst24x5asezmsq0pk622u0rwrk7tl3djl3r32s24kqtcslwt3zu",
+  "subdenom": "newlaunch",
+  "denom_units": [
+    {
+      "denom": "coin.zig10vfu5h5dst24x5asezmsq0pk622u0rwrk7tl3djl3r32s24kqtcslwt3zu.newlaunch",
+      "exponent": 0
+    },
+    {
+      "denom": "NEWLAUNCH",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

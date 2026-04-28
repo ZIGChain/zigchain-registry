@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13ge39q8fjpm3awg6j2qr2aszu2eeywzyzgkhaqj7r0g6lsmjyu9qcpszw2.itaqueisteadminim",
+  "type": "factory",
+  "symbol": "ITAQUEISTEADMINIM",
+  "name": "Itaqueisteadminim",
+  "decimals": 6,
+  "display_denom": "ITAQUEISTEADMINIM",
+  "base_denom": "coin.zig13ge39q8fjpm3awg6j2qr2aszu2eeywzyzgkhaqj7r0g6lsmjyu9qcpszw2.itaqueisteadminim",
+  "creator": "zig13ge39q8fjpm3awg6j2qr2aszu2eeywzyzgkhaqj7r0g6lsmjyu9qcpszw2",
+  "subdenom": "itaqueisteadminim",
+  "denom_units": [
+    {
+      "denom": "coin.zig13ge39q8fjpm3awg6j2qr2aszu2eeywzyzgkhaqj7r0g6lsmjyu9qcpszw2.itaqueisteadminim",
+      "exponent": 0
+    },
+    {
+      "denom": "ITAQUEISTEADMINIM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

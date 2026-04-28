@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig126ulph32t5nlutnjnwcc7ndspjk3ue7ua9dlavz6x32tfneqku0qxjfl3f.dracola",
+  "type": "factory",
+  "symbol": "DRACOLA",
+  "name": "Dracola",
+  "decimals": 6,
+  "display_denom": "DRACOLA",
+  "base_denom": "coin.zig126ulph32t5nlutnjnwcc7ndspjk3ue7ua9dlavz6x32tfneqku0qxjfl3f.dracola",
+  "creator": "zig126ulph32t5nlutnjnwcc7ndspjk3ue7ua9dlavz6x32tfneqku0qxjfl3f",
+  "subdenom": "dracola",
+  "denom_units": [
+    {
+      "denom": "coin.zig126ulph32t5nlutnjnwcc7ndspjk3ue7ua9dlavz6x32tfneqku0qxjfl3f.dracola",
+      "exponent": 0
+    },
+    {
+      "denom": "DRACOLA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

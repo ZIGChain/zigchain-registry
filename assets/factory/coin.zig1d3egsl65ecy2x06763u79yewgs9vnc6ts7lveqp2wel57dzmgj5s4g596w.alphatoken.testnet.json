@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1d3egsl65ecy2x06763u79yewgs9vnc6ts7lveqp2wel57dzmgj5s4g596w.alphatoken",
+  "type": "factory",
+  "symbol": "ALPHATOKEN",
+  "name": "Alphatoken",
+  "decimals": 6,
+  "display_denom": "ALPHATOKEN",
+  "base_denom": "coin.zig1d3egsl65ecy2x06763u79yewgs9vnc6ts7lveqp2wel57dzmgj5s4g596w.alphatoken",
+  "creator": "zig1d3egsl65ecy2x06763u79yewgs9vnc6ts7lveqp2wel57dzmgj5s4g596w",
+  "subdenom": "alphatoken",
+  "denom_units": [
+    {
+      "denom": "coin.zig1d3egsl65ecy2x06763u79yewgs9vnc6ts7lveqp2wel57dzmgj5s4g596w.alphatoken",
+      "exponent": 0
+    },
+    {
+      "denom": "ALPHATOKEN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

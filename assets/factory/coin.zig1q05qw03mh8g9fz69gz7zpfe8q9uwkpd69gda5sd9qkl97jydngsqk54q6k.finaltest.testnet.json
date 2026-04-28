@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1q05qw03mh8g9fz69gz7zpfe8q9uwkpd69gda5sd9qkl97jydngsqk54q6k.finaltest",
+  "type": "factory",
+  "symbol": "FINALTEST",
+  "name": "Finaltest",
+  "decimals": 6,
+  "display_denom": "FINALTEST",
+  "base_denom": "coin.zig1q05qw03mh8g9fz69gz7zpfe8q9uwkpd69gda5sd9qkl97jydngsqk54q6k.finaltest",
+  "creator": "zig1q05qw03mh8g9fz69gz7zpfe8q9uwkpd69gda5sd9qkl97jydngsqk54q6k",
+  "subdenom": "finaltest",
+  "denom_units": [
+    {
+      "denom": "coin.zig1q05qw03mh8g9fz69gz7zpfe8q9uwkpd69gda5sd9qkl97jydngsqk54q6k.finaltest",
+      "exponent": 0
+    },
+    {
+      "denom": "FINALTEST",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

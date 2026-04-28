@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig140ywkre3f39lg4n2v44hvka6tvgtdfnlkz25ymdyupp7e3mpvwusgqqey4.nisiquasinesciunt",
+  "type": "factory",
+  "symbol": "NISIQUASINESCIUNT",
+  "name": "Nisiquasinesciunt",
+  "decimals": 6,
+  "display_denom": "NISIQUASINESCIUNT",
+  "base_denom": "coin.zig140ywkre3f39lg4n2v44hvka6tvgtdfnlkz25ymdyupp7e3mpvwusgqqey4.nisiquasinesciunt",
+  "creator": "zig140ywkre3f39lg4n2v44hvka6tvgtdfnlkz25ymdyupp7e3mpvwusgqqey4",
+  "subdenom": "nisiquasinesciunt",
+  "denom_units": [
+    {
+      "denom": "coin.zig140ywkre3f39lg4n2v44hvka6tvgtdfnlkz25ymdyupp7e3mpvwusgqqey4.nisiquasinesciunt",
+      "exponent": 0
+    },
+    {
+      "denom": "NISIQUASINESCIUNT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

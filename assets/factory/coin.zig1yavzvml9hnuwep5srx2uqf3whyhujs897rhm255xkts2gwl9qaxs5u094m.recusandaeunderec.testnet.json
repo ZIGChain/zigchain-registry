@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1yavzvml9hnuwep5srx2uqf3whyhujs897rhm255xkts2gwl9qaxs5u094m.recusandaeunderec",
+  "type": "factory",
+  "symbol": "RECUSANDAEUNDEREC",
+  "name": "Recusandaeunderec",
+  "decimals": 6,
+  "display_denom": "RECUSANDAEUNDEREC",
+  "base_denom": "coin.zig1yavzvml9hnuwep5srx2uqf3whyhujs897rhm255xkts2gwl9qaxs5u094m.recusandaeunderec",
+  "creator": "zig1yavzvml9hnuwep5srx2uqf3whyhujs897rhm255xkts2gwl9qaxs5u094m",
+  "subdenom": "recusandaeunderec",
+  "denom_units": [
+    {
+      "denom": "coin.zig1yavzvml9hnuwep5srx2uqf3whyhujs897rhm255xkts2gwl9qaxs5u094m.recusandaeunderec",
+      "exponent": 0
+    },
+    {
+      "denom": "RECUSANDAEUNDEREC",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

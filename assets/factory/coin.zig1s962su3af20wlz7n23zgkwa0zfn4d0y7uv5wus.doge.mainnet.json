@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1s962su3af20wlz7n23zgkwa0zfn4d0y7uv5wus.doge",
+  "type": "factory",
+  "symbol": "DOGE",
+  "name": "Doge",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1s962su3af20wlz7n23zgkwa0zfn4d0y7uv5wus.doge",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1s962su3af20wlz7n23zgkwa0zfn4d0y7uv5wus.doge",
+  "base_denom": "coin.zig1s962su3af20wlz7n23zgkwa0zfn4d0y7uv5wus.doge",
+  "creator": "zig1s962su3af20wlz7n23zgkwa0zfn4d0y7uv5wus",
+  "subdenom": "doge",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

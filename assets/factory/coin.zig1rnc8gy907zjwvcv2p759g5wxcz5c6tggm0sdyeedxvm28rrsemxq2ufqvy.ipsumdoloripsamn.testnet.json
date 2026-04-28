@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rnc8gy907zjwvcv2p759g5wxcz5c6tggm0sdyeedxvm28rrsemxq2ufqvy.ipsumdoloripsamn",
+  "type": "factory",
+  "symbol": "IPSUMDOLORIPSAMN",
+  "name": "Ipsumdoloripsamn",
+  "decimals": 6,
+  "display_denom": "IPSUMDOLORIPSAMN",
+  "base_denom": "coin.zig1rnc8gy907zjwvcv2p759g5wxcz5c6tggm0sdyeedxvm28rrsemxq2ufqvy.ipsumdoloripsamn",
+  "creator": "zig1rnc8gy907zjwvcv2p759g5wxcz5c6tggm0sdyeedxvm28rrsemxq2ufqvy",
+  "subdenom": "ipsumdoloripsamn",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rnc8gy907zjwvcv2p759g5wxcz5c6tggm0sdyeedxvm28rrsemxq2ufqvy.ipsumdoloripsamn",
+      "exponent": 0
+    },
+    {
+      "denom": "IPSUMDOLORIPSAMN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

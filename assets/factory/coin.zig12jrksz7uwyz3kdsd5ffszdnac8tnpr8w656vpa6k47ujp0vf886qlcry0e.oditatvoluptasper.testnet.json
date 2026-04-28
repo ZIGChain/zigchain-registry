@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig12jrksz7uwyz3kdsd5ffszdnac8tnpr8w656vpa6k47ujp0vf886qlcry0e.oditatvoluptasper",
+  "type": "factory",
+  "symbol": "ODITATVOLUPTASPER",
+  "name": "Oditatvoluptasper",
+  "decimals": 6,
+  "display_denom": "ODITATVOLUPTASPER",
+  "base_denom": "coin.zig12jrksz7uwyz3kdsd5ffszdnac8tnpr8w656vpa6k47ujp0vf886qlcry0e.oditatvoluptasper",
+  "creator": "zig12jrksz7uwyz3kdsd5ffszdnac8tnpr8w656vpa6k47ujp0vf886qlcry0e",
+  "subdenom": "oditatvoluptasper",
+  "denom_units": [
+    {
+      "denom": "coin.zig12jrksz7uwyz3kdsd5ffszdnac8tnpr8w656vpa6k47ujp0vf886qlcry0e.oditatvoluptasper",
+      "exponent": 0
+    },
+    {
+      "denom": "ODITATVOLUPTASPER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

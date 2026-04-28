@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1z9v4umvv0akfha76hehht9lyxl68wdv7p4hzlhjhfykv3yluscpqmh6ufc.link",
+  "type": "factory",
+  "symbol": "LINK",
+  "name": "Link",
+  "decimals": 6,
+  "display_denom": "LINK",
+  "base_denom": "coin.zig1z9v4umvv0akfha76hehht9lyxl68wdv7p4hzlhjhfykv3yluscpqmh6ufc.link",
+  "creator": "zig1z9v4umvv0akfha76hehht9lyxl68wdv7p4hzlhjhfykv3yluscpqmh6ufc",
+  "subdenom": "link",
+  "denom_units": [
+    {
+      "denom": "coin.zig1z9v4umvv0akfha76hehht9lyxl68wdv7p4hzlhjhfykv3yluscpqmh6ufc.link",
+      "exponent": 0
+    },
+    {
+      "denom": "LINK",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

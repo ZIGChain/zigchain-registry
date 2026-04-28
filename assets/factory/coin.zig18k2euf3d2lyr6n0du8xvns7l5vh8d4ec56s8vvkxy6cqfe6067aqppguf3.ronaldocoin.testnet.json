@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18k2euf3d2lyr6n0du8xvns7l5vh8d4ec56s8vvkxy6cqfe6067aqppguf3.ronaldocoin",
+  "type": "factory",
+  "symbol": "RONALDOCOIN",
+  "name": "Ronaldocoin",
+  "decimals": 6,
+  "display_denom": "RONALDOCOIN",
+  "base_denom": "coin.zig18k2euf3d2lyr6n0du8xvns7l5vh8d4ec56s8vvkxy6cqfe6067aqppguf3.ronaldocoin",
+  "creator": "zig18k2euf3d2lyr6n0du8xvns7l5vh8d4ec56s8vvkxy6cqfe6067aqppguf3",
+  "subdenom": "ronaldocoin",
+  "denom_units": [
+    {
+      "denom": "coin.zig18k2euf3d2lyr6n0du8xvns7l5vh8d4ec56s8vvkxy6cqfe6067aqppguf3.ronaldocoin",
+      "exponent": 0
+    },
+    {
+      "denom": "RONALDOCOIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

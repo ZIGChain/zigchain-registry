@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig12jgpgq5ec88nwzkkjx7jyrzrljpph5pnags8sn.ucultcoin",
+  "type": "factory",
+  "symbol": "UCULTCOIN",
+  "name": "Ucultcoin",
+  "decimals": 6,
+  "display_denom": "UCULTCOIN",
+  "base_denom": "coin.zig12jgpgq5ec88nwzkkjx7jyrzrljpph5pnags8sn.ucultcoin",
+  "creator": "zig12jgpgq5ec88nwzkkjx7jyrzrljpph5pnags8sn",
+  "subdenom": "ucultcoin",
+  "denom_units": [
+    {
+      "denom": "coin.zig12jgpgq5ec88nwzkkjx7jyrzrljpph5pnags8sn.ucultcoin",
+      "exponent": 0
+    },
+    {
+      "denom": "UCULTCOIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

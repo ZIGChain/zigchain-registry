@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1e98msq933stj2wyf02tkl8la5j3m5dyvfj4l4u.chashmdeed",
+  "type": "factory",
+  "symbol": "CHASHMDEED",
+  "name": "Chashmdeed",
+  "decimals": 6,
+  "display_denom": "CHASHMDEED",
+  "base_denom": "coin.zig1e98msq933stj2wyf02tkl8la5j3m5dyvfj4l4u.chashmdeed",
+  "creator": "zig1e98msq933stj2wyf02tkl8la5j3m5dyvfj4l4u",
+  "subdenom": "chashmdeed",
+  "denom_units": [
+    {
+      "denom": "coin.zig1e98msq933stj2wyf02tkl8la5j3m5dyvfj4l4u.chashmdeed",
+      "exponent": 0
+    },
+    {
+      "denom": "CHASHMDEED",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

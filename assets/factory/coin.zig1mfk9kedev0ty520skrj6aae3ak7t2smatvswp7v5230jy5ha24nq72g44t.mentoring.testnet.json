@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mfk9kedev0ty520skrj6aae3ak7t2smatvswp7v5230jy5ha24nq72g44t.mentoring",
+  "type": "factory",
+  "symbol": "MENTORING",
+  "name": "Mentoring",
+  "decimals": 6,
+  "display_denom": "MENTORING",
+  "base_denom": "coin.zig1mfk9kedev0ty520skrj6aae3ak7t2smatvswp7v5230jy5ha24nq72g44t.mentoring",
+  "creator": "zig1mfk9kedev0ty520skrj6aae3ak7t2smatvswp7v5230jy5ha24nq72g44t",
+  "subdenom": "mentoring",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mfk9kedev0ty520skrj6aae3ak7t2smatvswp7v5230jy5ha24nq72g44t.mentoring",
+      "exponent": 0
+    },
+    {
+      "denom": "MENTORING",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10avt76j65ggl9r55x0aw06zf3esx3zzgd6qyvum5ynns375shnaseerjhq.www",
+  "type": "factory",
+  "symbol": "WWW",
+  "name": "Www",
+  "decimals": 6,
+  "display_denom": "WWW",
+  "base_denom": "coin.zig10avt76j65ggl9r55x0aw06zf3esx3zzgd6qyvum5ynns375shnaseerjhq.www",
+  "creator": "zig10avt76j65ggl9r55x0aw06zf3esx3zzgd6qyvum5ynns375shnaseerjhq",
+  "subdenom": "www",
+  "denom_units": [
+    {
+      "denom": "coin.zig10avt76j65ggl9r55x0aw06zf3esx3zzgd6qyvum5ynns375shnaseerjhq.www",
+      "exponent": 0
+    },
+    {
+      "denom": "WWW",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

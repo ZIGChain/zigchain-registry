@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mn63ff0x4m8nj2gtm7etu4uvdtpj0pgky2cdanewsllvpez0rl7s6g0pju.donaldduck",
+  "type": "factory",
+  "symbol": "DONALDDUCK",
+  "name": "Donaldduck",
+  "decimals": 6,
+  "display_denom": "DONALDDUCK",
+  "base_denom": "coin.zig1mn63ff0x4m8nj2gtm7etu4uvdtpj0pgky2cdanewsllvpez0rl7s6g0pju.donaldduck",
+  "creator": "zig1mn63ff0x4m8nj2gtm7etu4uvdtpj0pgky2cdanewsllvpez0rl7s6g0pju",
+  "subdenom": "donaldduck",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mn63ff0x4m8nj2gtm7etu4uvdtpj0pgky2cdanewsllvpez0rl7s6g0pju.donaldduck",
+      "exponent": 0
+    },
+    {
+      "denom": "DONALDDUCK",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

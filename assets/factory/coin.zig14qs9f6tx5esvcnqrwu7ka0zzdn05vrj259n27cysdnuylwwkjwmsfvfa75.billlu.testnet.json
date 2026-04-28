@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14qs9f6tx5esvcnqrwu7ka0zzdn05vrj259n27cysdnuylwwkjwmsfvfa75.billlu",
+  "type": "factory",
+  "symbol": "BILLLU",
+  "name": "Billlu",
+  "decimals": 6,
+  "display_denom": "BILLLU",
+  "base_denom": "coin.zig14qs9f6tx5esvcnqrwu7ka0zzdn05vrj259n27cysdnuylwwkjwmsfvfa75.billlu",
+  "creator": "zig14qs9f6tx5esvcnqrwu7ka0zzdn05vrj259n27cysdnuylwwkjwmsfvfa75",
+  "subdenom": "billlu",
+  "denom_units": [
+    {
+      "denom": "coin.zig14qs9f6tx5esvcnqrwu7ka0zzdn05vrj259n27cysdnuylwwkjwmsfvfa75.billlu",
+      "exponent": 0
+    },
+    {
+      "denom": "BILLLU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

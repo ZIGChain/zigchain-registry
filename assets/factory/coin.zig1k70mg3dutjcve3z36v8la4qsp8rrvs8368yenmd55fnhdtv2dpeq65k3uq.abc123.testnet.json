@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1k70mg3dutjcve3z36v8la4qsp8rrvs8368yenmd55fnhdtv2dpeq65k3uq.abc123",
+  "type": "factory",
+  "symbol": "ABC123",
+  "name": "Abc123",
+  "decimals": 6,
+  "display_denom": "ABC123",
+  "base_denom": "coin.zig1k70mg3dutjcve3z36v8la4qsp8rrvs8368yenmd55fnhdtv2dpeq65k3uq.abc123",
+  "creator": "zig1k70mg3dutjcve3z36v8la4qsp8rrvs8368yenmd55fnhdtv2dpeq65k3uq",
+  "subdenom": "abc123",
+  "denom_units": [
+    {
+      "denom": "coin.zig1k70mg3dutjcve3z36v8la4qsp8rrvs8368yenmd55fnhdtv2dpeq65k3uq.abc123",
+      "exponent": 0
+    },
+    {
+      "denom": "ABC123",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

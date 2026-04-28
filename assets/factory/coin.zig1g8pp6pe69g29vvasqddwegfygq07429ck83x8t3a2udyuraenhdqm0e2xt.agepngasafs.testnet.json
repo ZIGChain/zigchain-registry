@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1g8pp6pe69g29vvasqddwegfygq07429ck83x8t3a2udyuraenhdqm0e2xt.agepngasafs",
+  "type": "factory",
+  "symbol": "AGEPNGASAFS",
+  "name": "Agepngasafs",
+  "decimals": 6,
+  "display_denom": "AGEPNGASAFS",
+  "base_denom": "coin.zig1g8pp6pe69g29vvasqddwegfygq07429ck83x8t3a2udyuraenhdqm0e2xt.agepngasafs",
+  "creator": "zig1g8pp6pe69g29vvasqddwegfygq07429ck83x8t3a2udyuraenhdqm0e2xt",
+  "subdenom": "agepngasafs",
+  "denom_units": [
+    {
+      "denom": "coin.zig1g8pp6pe69g29vvasqddwegfygq07429ck83x8t3a2udyuraenhdqm0e2xt.agepngasafs",
+      "exponent": 0
+    },
+    {
+      "denom": "AGEPNGASAFS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

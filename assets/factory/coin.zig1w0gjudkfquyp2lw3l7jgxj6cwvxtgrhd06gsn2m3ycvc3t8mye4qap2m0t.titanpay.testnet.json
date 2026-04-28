@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1w0gjudkfquyp2lw3l7jgxj6cwvxtgrhd06gsn2m3ycvc3t8mye4qap2m0t.titanpay",
+  "type": "factory",
+  "symbol": "TITANPAY",
+  "name": "Titanpay",
+  "decimals": 6,
+  "display_denom": "TITANPAY",
+  "base_denom": "coin.zig1w0gjudkfquyp2lw3l7jgxj6cwvxtgrhd06gsn2m3ycvc3t8mye4qap2m0t.titanpay",
+  "creator": "zig1w0gjudkfquyp2lw3l7jgxj6cwvxtgrhd06gsn2m3ycvc3t8mye4qap2m0t",
+  "subdenom": "titanpay",
+  "denom_units": [
+    {
+      "denom": "coin.zig1w0gjudkfquyp2lw3l7jgxj6cwvxtgrhd06gsn2m3ycvc3t8mye4qap2m0t.titanpay",
+      "exponent": 0
+    },
+    {
+      "denom": "TITANPAY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

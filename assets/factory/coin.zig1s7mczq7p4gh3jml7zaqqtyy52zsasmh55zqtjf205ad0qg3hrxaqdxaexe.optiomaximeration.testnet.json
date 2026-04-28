@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1s7mczq7p4gh3jml7zaqqtyy52zsasmh55zqtjf205ad0qg3hrxaqdxaexe.optiomaximeration",
+  "type": "factory",
+  "symbol": "OPTIOMAXIMERATION",
+  "name": "Optiomaximeration",
+  "decimals": 6,
+  "display_denom": "OPTIOMAXIMERATION",
+  "base_denom": "coin.zig1s7mczq7p4gh3jml7zaqqtyy52zsasmh55zqtjf205ad0qg3hrxaqdxaexe.optiomaximeration",
+  "creator": "zig1s7mczq7p4gh3jml7zaqqtyy52zsasmh55zqtjf205ad0qg3hrxaqdxaexe",
+  "subdenom": "optiomaximeration",
+  "denom_units": [
+    {
+      "denom": "coin.zig1s7mczq7p4gh3jml7zaqqtyy52zsasmh55zqtjf205ad0qg3hrxaqdxaexe.optiomaximeration",
+      "exponent": 0
+    },
+    {
+      "denom": "OPTIOMAXIMERATION",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

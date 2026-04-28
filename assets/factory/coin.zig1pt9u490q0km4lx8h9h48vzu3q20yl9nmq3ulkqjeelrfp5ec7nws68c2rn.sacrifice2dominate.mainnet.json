@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1pt9u490q0km4lx8h9h48vzu3q20yl9nmq3ulkqjeelrfp5ec7nws68c2rn.sacrifice2dominate",
+  "type": "factory",
+  "symbol": "SACRIFICE2DOMINATE",
+  "name": "Sacrifice2dominate",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1pt9u490q0km4lx8h9h48vzu3q20yl9nmq3ulkqjeelrfp5ec7nws68c2rn.sacrifice2dominate",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1pt9u490q0km4lx8h9h48vzu3q20yl9nmq3ulkqjeelrfp5ec7nws68c2rn.sacrifice2dominate",
+  "base_denom": "coin.zig1pt9u490q0km4lx8h9h48vzu3q20yl9nmq3ulkqjeelrfp5ec7nws68c2rn.sacrifice2dominate",
+  "creator": "zig1pt9u490q0km4lx8h9h48vzu3q20yl9nmq3ulkqjeelrfp5ec7nws68c2rn",
+  "subdenom": "sacrifice2dominate",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

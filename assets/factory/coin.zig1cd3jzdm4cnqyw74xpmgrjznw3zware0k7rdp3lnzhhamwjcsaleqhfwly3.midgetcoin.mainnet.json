@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1cd3jzdm4cnqyw74xpmgrjznw3zware0k7rdp3lnzhhamwjcsaleqhfwly3.midgetcoin",
+  "type": "factory",
+  "symbol": "MIDGETCOIN",
+  "name": "Midgetcoin",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1cd3jzdm4cnqyw74xpmgrjznw3zware0k7rdp3lnzhhamwjcsaleqhfwly3.midgetcoin",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1cd3jzdm4cnqyw74xpmgrjznw3zware0k7rdp3lnzhhamwjcsaleqhfwly3.midgetcoin",
+  "base_denom": "coin.zig1cd3jzdm4cnqyw74xpmgrjznw3zware0k7rdp3lnzhhamwjcsaleqhfwly3.midgetcoin",
+  "creator": "zig1cd3jzdm4cnqyw74xpmgrjznw3zware0k7rdp3lnzhhamwjcsaleqhfwly3",
+  "subdenom": "midgetcoin",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

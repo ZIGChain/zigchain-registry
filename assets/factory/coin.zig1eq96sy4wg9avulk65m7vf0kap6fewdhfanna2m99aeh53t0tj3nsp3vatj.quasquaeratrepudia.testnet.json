@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1eq96sy4wg9avulk65m7vf0kap6fewdhfanna2m99aeh53t0tj3nsp3vatj.quasquaeratrepudia",
+  "type": "factory",
+  "symbol": "QUASQUAERATREPUDIA",
+  "name": "Quasquaeratrepudia",
+  "decimals": 6,
+  "display_denom": "QUASQUAERATREPUDIA",
+  "base_denom": "coin.zig1eq96sy4wg9avulk65m7vf0kap6fewdhfanna2m99aeh53t0tj3nsp3vatj.quasquaeratrepudia",
+  "creator": "zig1eq96sy4wg9avulk65m7vf0kap6fewdhfanna2m99aeh53t0tj3nsp3vatj",
+  "subdenom": "quasquaeratrepudia",
+  "denom_units": [
+    {
+      "denom": "coin.zig1eq96sy4wg9avulk65m7vf0kap6fewdhfanna2m99aeh53t0tj3nsp3vatj.quasquaeratrepudia",
+      "exponent": 0
+    },
+    {
+      "denom": "QUASQUAERATREPUDIA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

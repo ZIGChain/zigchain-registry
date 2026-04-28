@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1jt89d6ajq39ry54gd0zzj52a3xr5sxwatgscz7wse248fdv5an7sahyjhw.saadbhai",
+  "type": "factory",
+  "symbol": "SAADBHAI",
+  "name": "Saadbhai",
+  "decimals": 6,
+  "display_denom": "SAADBHAI",
+  "base_denom": "coin.zig1jt89d6ajq39ry54gd0zzj52a3xr5sxwatgscz7wse248fdv5an7sahyjhw.saadbhai",
+  "creator": "zig1jt89d6ajq39ry54gd0zzj52a3xr5sxwatgscz7wse248fdv5an7sahyjhw",
+  "subdenom": "saadbhai",
+  "denom_units": [
+    {
+      "denom": "coin.zig1jt89d6ajq39ry54gd0zzj52a3xr5sxwatgscz7wse248fdv5an7sahyjhw.saadbhai",
+      "exponent": 0
+    },
+    {
+      "denom": "SAADBHAI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

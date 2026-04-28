@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig198x54wzk63hvwe0qppjtzuc57uejfklf6g9yuzmp6f5ure0c65kqydvw2d.dolorrerumdeleniti",
+  "type": "factory",
+  "symbol": "DOLORRERUMDELENITI",
+  "name": "Dolorrerumdeleniti",
+  "decimals": 6,
+  "display_denom": "DOLORRERUMDELENITI",
+  "base_denom": "coin.zig198x54wzk63hvwe0qppjtzuc57uejfklf6g9yuzmp6f5ure0c65kqydvw2d.dolorrerumdeleniti",
+  "creator": "zig198x54wzk63hvwe0qppjtzuc57uejfklf6g9yuzmp6f5ure0c65kqydvw2d",
+  "subdenom": "dolorrerumdeleniti",
+  "denom_units": [
+    {
+      "denom": "coin.zig198x54wzk63hvwe0qppjtzuc57uejfklf6g9yuzmp6f5ure0c65kqydvw2d.dolorrerumdeleniti",
+      "exponent": 0
+    },
+    {
+      "denom": "DOLORRERUMDELENITI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

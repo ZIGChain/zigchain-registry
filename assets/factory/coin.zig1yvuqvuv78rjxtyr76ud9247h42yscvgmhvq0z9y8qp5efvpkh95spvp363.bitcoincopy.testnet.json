@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1yvuqvuv78rjxtyr76ud9247h42yscvgmhvq0z9y8qp5efvpkh95spvp363.bitcoincopy",
+  "type": "factory",
+  "symbol": "BITCOINCOPY",
+  "name": "Bitcoincopy",
+  "decimals": 6,
+  "display_denom": "BITCOINCOPY",
+  "base_denom": "coin.zig1yvuqvuv78rjxtyr76ud9247h42yscvgmhvq0z9y8qp5efvpkh95spvp363.bitcoincopy",
+  "creator": "zig1yvuqvuv78rjxtyr76ud9247h42yscvgmhvq0z9y8qp5efvpkh95spvp363",
+  "subdenom": "bitcoincopy",
+  "denom_units": [
+    {
+      "denom": "coin.zig1yvuqvuv78rjxtyr76ud9247h42yscvgmhvq0z9y8qp5efvpkh95spvp363.bitcoincopy",
+      "exponent": 0
+    },
+    {
+      "denom": "BITCOINCOPY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

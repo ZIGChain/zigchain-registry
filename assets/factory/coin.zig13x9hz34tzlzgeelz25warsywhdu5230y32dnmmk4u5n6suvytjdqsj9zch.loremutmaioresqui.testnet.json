@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13x9hz34tzlzgeelz25warsywhdu5230y32dnmmk4u5n6suvytjdqsj9zch.loremutmaioresqui",
+  "type": "factory",
+  "symbol": "LOREMUTMAIORESQUI",
+  "name": "Loremutmaioresqui",
+  "decimals": 6,
+  "display_denom": "LOREMUTMAIORESQUI",
+  "base_denom": "coin.zig13x9hz34tzlzgeelz25warsywhdu5230y32dnmmk4u5n6suvytjdqsj9zch.loremutmaioresqui",
+  "creator": "zig13x9hz34tzlzgeelz25warsywhdu5230y32dnmmk4u5n6suvytjdqsj9zch",
+  "subdenom": "loremutmaioresqui",
+  "denom_units": [
+    {
+      "denom": "coin.zig13x9hz34tzlzgeelz25warsywhdu5230y32dnmmk4u5n6suvytjdqsj9zch.loremutmaioresqui",
+      "exponent": 0
+    },
+    {
+      "denom": "LOREMUTMAIORESQUI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

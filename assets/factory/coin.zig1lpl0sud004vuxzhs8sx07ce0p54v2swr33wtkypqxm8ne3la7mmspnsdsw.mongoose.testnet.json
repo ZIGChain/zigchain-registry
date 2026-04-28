@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1lpl0sud004vuxzhs8sx07ce0p54v2swr33wtkypqxm8ne3la7mmspnsdsw.mongoose",
+  "type": "factory",
+  "symbol": "MONGOOSE",
+  "name": "Mongoose",
+  "decimals": 6,
+  "display_denom": "MONGOOSE",
+  "base_denom": "coin.zig1lpl0sud004vuxzhs8sx07ce0p54v2swr33wtkypqxm8ne3la7mmspnsdsw.mongoose",
+  "creator": "zig1lpl0sud004vuxzhs8sx07ce0p54v2swr33wtkypqxm8ne3la7mmspnsdsw",
+  "subdenom": "mongoose",
+  "denom_units": [
+    {
+      "denom": "coin.zig1lpl0sud004vuxzhs8sx07ce0p54v2swr33wtkypqxm8ne3la7mmspnsdsw.mongoose",
+      "exponent": 0
+    },
+    {
+      "denom": "MONGOOSE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

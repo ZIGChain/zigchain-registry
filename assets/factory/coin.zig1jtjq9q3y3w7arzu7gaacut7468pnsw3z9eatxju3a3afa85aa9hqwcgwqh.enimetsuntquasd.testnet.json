@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1jtjq9q3y3w7arzu7gaacut7468pnsw3z9eatxju3a3afa85aa9hqwcgwqh.enimetsuntquasd",
+  "type": "factory",
+  "symbol": "ENIMETSUNTQUASD",
+  "name": "Enimetsuntquasd",
+  "decimals": 6,
+  "display_denom": "ENIMETSUNTQUASD",
+  "base_denom": "coin.zig1jtjq9q3y3w7arzu7gaacut7468pnsw3z9eatxju3a3afa85aa9hqwcgwqh.enimetsuntquasd",
+  "creator": "zig1jtjq9q3y3w7arzu7gaacut7468pnsw3z9eatxju3a3afa85aa9hqwcgwqh",
+  "subdenom": "enimetsuntquasd",
+  "denom_units": [
+    {
+      "denom": "coin.zig1jtjq9q3y3w7arzu7gaacut7468pnsw3z9eatxju3a3afa85aa9hqwcgwqh.enimetsuntquasd",
+      "exponent": 0
+    },
+    {
+      "denom": "ENIMETSUNTQUASD",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

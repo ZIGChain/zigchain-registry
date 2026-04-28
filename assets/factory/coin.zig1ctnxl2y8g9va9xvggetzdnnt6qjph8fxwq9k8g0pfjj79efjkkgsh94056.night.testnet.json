@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ctnxl2y8g9va9xvggetzdnnt6qjph8fxwq9k8g0pfjj79efjkkgsh94056.night",
+  "type": "factory",
+  "symbol": "NIGHT",
+  "name": "Night",
+  "decimals": 6,
+  "display_denom": "NIGHT",
+  "base_denom": "coin.zig1ctnxl2y8g9va9xvggetzdnnt6qjph8fxwq9k8g0pfjj79efjkkgsh94056.night",
+  "creator": "zig1ctnxl2y8g9va9xvggetzdnnt6qjph8fxwq9k8g0pfjj79efjkkgsh94056",
+  "subdenom": "night",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ctnxl2y8g9va9xvggetzdnnt6qjph8fxwq9k8g0pfjj79efjkkgsh94056.night",
+      "exponent": 0
+    },
+    {
+      "denom": "NIGHT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

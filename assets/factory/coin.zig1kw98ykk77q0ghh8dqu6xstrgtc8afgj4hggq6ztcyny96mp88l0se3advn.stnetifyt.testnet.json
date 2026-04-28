@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1kw98ykk77q0ghh8dqu6xstrgtc8afgj4hggq6ztcyny96mp88l0se3advn.stnetifyt",
+  "type": "factory",
+  "symbol": "STNETIFYT",
+  "name": "Stnetifyt",
+  "decimals": 6,
+  "display_denom": "STNETIFYT",
+  "base_denom": "coin.zig1kw98ykk77q0ghh8dqu6xstrgtc8afgj4hggq6ztcyny96mp88l0se3advn.stnetifyt",
+  "creator": "zig1kw98ykk77q0ghh8dqu6xstrgtc8afgj4hggq6ztcyny96mp88l0se3advn",
+  "subdenom": "stnetifyt",
+  "denom_units": [
+    {
+      "denom": "coin.zig1kw98ykk77q0ghh8dqu6xstrgtc8afgj4hggq6ztcyny96mp88l0se3advn.stnetifyt",
+      "exponent": 0
+    },
+    {
+      "denom": "STNETIFYT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

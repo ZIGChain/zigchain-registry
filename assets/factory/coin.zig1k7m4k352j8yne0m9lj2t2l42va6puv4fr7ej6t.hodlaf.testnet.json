@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1k7m4k352j8yne0m9lj2t2l42va6puv4fr7ej6t.hodlaf",
+  "type": "factory",
+  "symbol": "HODLAF",
+  "name": "Hodlaf",
+  "decimals": 6,
+  "display_denom": "HODLAF",
+  "base_denom": "coin.zig1k7m4k352j8yne0m9lj2t2l42va6puv4fr7ej6t.hodlaf",
+  "creator": "zig1k7m4k352j8yne0m9lj2t2l42va6puv4fr7ej6t",
+  "subdenom": "hodlaf",
+  "denom_units": [
+    {
+      "denom": "coin.zig1k7m4k352j8yne0m9lj2t2l42va6puv4fr7ej6t.hodlaf",
+      "exponent": 0
+    },
+    {
+      "denom": "HODLAF",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1t9tygt9glpphdha086cd3fnk7lycvr0w54xdcq.panda",
+  "type": "factory",
+  "symbol": "PANDA",
+  "name": "Panda",
+  "decimals": 6,
+  "display_denom": "PANDA",
+  "base_denom": "coin.zig1t9tygt9glpphdha086cd3fnk7lycvr0w54xdcq.panda",
+  "creator": "zig1t9tygt9glpphdha086cd3fnk7lycvr0w54xdcq",
+  "subdenom": "panda",
+  "denom_units": [
+    {
+      "denom": "coin.zig1t9tygt9glpphdha086cd3fnk7lycvr0w54xdcq.panda",
+      "exponent": 0
+    },
+    {
+      "denom": "PANDA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

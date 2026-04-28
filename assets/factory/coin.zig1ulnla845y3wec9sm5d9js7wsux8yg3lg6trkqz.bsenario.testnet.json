@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ulnla845y3wec9sm5d9js7wsux8yg3lg6trkqz.bsenario",
+  "type": "factory",
+  "symbol": "BSENARIO",
+  "name": "Bsenario",
+  "decimals": 6,
+  "display_denom": "BSENARIO",
+  "base_denom": "coin.zig1ulnla845y3wec9sm5d9js7wsux8yg3lg6trkqz.bsenario",
+  "creator": "zig1ulnla845y3wec9sm5d9js7wsux8yg3lg6trkqz",
+  "subdenom": "bsenario",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ulnla845y3wec9sm5d9js7wsux8yg3lg6trkqz.bsenario",
+      "exponent": 0
+    },
+    {
+      "denom": "BSENARIO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

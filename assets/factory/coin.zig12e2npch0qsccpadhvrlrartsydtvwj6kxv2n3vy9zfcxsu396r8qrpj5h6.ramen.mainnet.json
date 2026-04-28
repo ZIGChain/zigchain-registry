@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig12e2npch0qsccpadhvrlrartsydtvwj6kxv2n3vy9zfcxsu396r8qrpj5h6.ramen",
+  "type": "factory",
+  "symbol": "RAMEN",
+  "name": "Ramen",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig12e2npch0qsccpadhvrlrartsydtvwj6kxv2n3vy9zfcxsu396r8qrpj5h6.ramen",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig12e2npch0qsccpadhvrlrartsydtvwj6kxv2n3vy9zfcxsu396r8qrpj5h6.ramen",
+  "base_denom": "coin.zig12e2npch0qsccpadhvrlrartsydtvwj6kxv2n3vy9zfcxsu396r8qrpj5h6.ramen",
+  "creator": "zig12e2npch0qsccpadhvrlrartsydtvwj6kxv2n3vy9zfcxsu396r8qrpj5h6",
+  "subdenom": "ramen",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

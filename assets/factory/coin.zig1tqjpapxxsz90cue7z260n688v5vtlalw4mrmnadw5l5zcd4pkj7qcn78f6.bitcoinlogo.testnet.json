@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1tqjpapxxsz90cue7z260n688v5vtlalw4mrmnadw5l5zcd4pkj7qcn78f6.bitcoinlogo",
+  "type": "factory",
+  "symbol": "BITCOINLOGO",
+  "name": "Bitcoinlogo",
+  "decimals": 6,
+  "display_denom": "BITCOINLOGO",
+  "base_denom": "coin.zig1tqjpapxxsz90cue7z260n688v5vtlalw4mrmnadw5l5zcd4pkj7qcn78f6.bitcoinlogo",
+  "creator": "zig1tqjpapxxsz90cue7z260n688v5vtlalw4mrmnadw5l5zcd4pkj7qcn78f6",
+  "subdenom": "bitcoinlogo",
+  "denom_units": [
+    {
+      "denom": "coin.zig1tqjpapxxsz90cue7z260n688v5vtlalw4mrmnadw5l5zcd4pkj7qcn78f6.bitcoinlogo",
+      "exponent": 0
+    },
+    {
+      "denom": "BITCOINLOGO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

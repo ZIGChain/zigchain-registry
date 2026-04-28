@@ -1,0 +1,17 @@
+networks:
+  # Mainnet endpoints
+  mainnet:
+    # RPC endpoint used by scripts that call `zigchaind ... --node <rpc>`
+    #rpc: "https://rpc.zigchain.com:443"
+    rpc: "https://public-zigchain-rpc.numia.xyz"
+    # REST API endpoint used by scripts that query endpoints like /cosmos/bank/v1beta1/...
+    # api: "https://api.zigchain.com"
+    api: "https://public-zigchain-lcd.numia.xyz"
+
+  # Testnet endpoints
+  testnet:
+    # rpc: "https://testnet-rpc.zigchain.com:443"
+    rpc: "https://public-zigchain-testnet-rpc.numia.xyz"
+    # api: "https://testnet-api.zigchain.com"
+    api: "https://public-zigchain-testnet-lcd.numia.xyz"
+

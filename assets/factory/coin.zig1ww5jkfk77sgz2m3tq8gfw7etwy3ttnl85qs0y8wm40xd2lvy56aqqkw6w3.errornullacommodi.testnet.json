@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ww5jkfk77sgz2m3tq8gfw7etwy3ttnl85qs0y8wm40xd2lvy56aqqkw6w3.errornullacommodi",
+  "type": "factory",
+  "symbol": "ERRORNULLACOMMODI",
+  "name": "Errornullacommodi",
+  "decimals": 6,
+  "display_denom": "ERRORNULLACOMMODI",
+  "base_denom": "coin.zig1ww5jkfk77sgz2m3tq8gfw7etwy3ttnl85qs0y8wm40xd2lvy56aqqkw6w3.errornullacommodi",
+  "creator": "zig1ww5jkfk77sgz2m3tq8gfw7etwy3ttnl85qs0y8wm40xd2lvy56aqqkw6w3",
+  "subdenom": "errornullacommodi",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ww5jkfk77sgz2m3tq8gfw7etwy3ttnl85qs0y8wm40xd2lvy56aqqkw6w3.errornullacommodi",
+      "exponent": 0
+    },
+    {
+      "denom": "ERRORNULLACOMMODI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

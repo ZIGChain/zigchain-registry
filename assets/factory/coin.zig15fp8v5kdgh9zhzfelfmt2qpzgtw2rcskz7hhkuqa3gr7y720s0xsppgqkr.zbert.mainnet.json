@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig15fp8v5kdgh9zhzfelfmt2qpzgtw2rcskz7hhkuqa3gr7y720s0xsppgqkr.zbert",
+  "type": "factory",
+  "symbol": "ZBERT",
+  "name": "Zbert",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig15fp8v5kdgh9zhzfelfmt2qpzgtw2rcskz7hhkuqa3gr7y720s0xsppgqkr.zbert",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig15fp8v5kdgh9zhzfelfmt2qpzgtw2rcskz7hhkuqa3gr7y720s0xsppgqkr.zbert",
+  "base_denom": "coin.zig15fp8v5kdgh9zhzfelfmt2qpzgtw2rcskz7hhkuqa3gr7y720s0xsppgqkr.zbert",
+  "creator": "zig15fp8v5kdgh9zhzfelfmt2qpzgtw2rcskz7hhkuqa3gr7y720s0xsppgqkr",
+  "subdenom": "zbert",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

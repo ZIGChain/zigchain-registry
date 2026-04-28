@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1u90t9pkqc6m5lxec6t5phq0u6ey00mal6azq763q3ulxergnddgqgwa649.doloremomniseosa",
+  "type": "factory",
+  "symbol": "DOLOREMOMNISEOSA",
+  "name": "Doloremomniseosa",
+  "decimals": 6,
+  "display_denom": "DOLOREMOMNISEOSA",
+  "base_denom": "coin.zig1u90t9pkqc6m5lxec6t5phq0u6ey00mal6azq763q3ulxergnddgqgwa649.doloremomniseosa",
+  "creator": "zig1u90t9pkqc6m5lxec6t5phq0u6ey00mal6azq763q3ulxergnddgqgwa649",
+  "subdenom": "doloremomniseosa",
+  "denom_units": [
+    {
+      "denom": "coin.zig1u90t9pkqc6m5lxec6t5phq0u6ey00mal6azq763q3ulxergnddgqgwa649.doloremomniseosa",
+      "exponent": 0
+    },
+    {
+      "denom": "DOLOREMOMNISEOSA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

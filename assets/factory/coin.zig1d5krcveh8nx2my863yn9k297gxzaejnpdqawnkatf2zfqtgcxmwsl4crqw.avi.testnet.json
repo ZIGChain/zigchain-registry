@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1d5krcveh8nx2my863yn9k297gxzaejnpdqawnkatf2zfqtgcxmwsl4crqw.avi",
+  "type": "factory",
+  "symbol": "AVI",
+  "name": "Avi",
+  "decimals": 6,
+  "display_denom": "AVI",
+  "base_denom": "coin.zig1d5krcveh8nx2my863yn9k297gxzaejnpdqawnkatf2zfqtgcxmwsl4crqw.avi",
+  "creator": "zig1d5krcveh8nx2my863yn9k297gxzaejnpdqawnkatf2zfqtgcxmwsl4crqw",
+  "subdenom": "avi",
+  "denom_units": [
+    {
+      "denom": "coin.zig1d5krcveh8nx2my863yn9k297gxzaejnpdqawnkatf2zfqtgcxmwsl4crqw.avi",
+      "exponent": 0
+    },
+    {
+      "denom": "AVI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

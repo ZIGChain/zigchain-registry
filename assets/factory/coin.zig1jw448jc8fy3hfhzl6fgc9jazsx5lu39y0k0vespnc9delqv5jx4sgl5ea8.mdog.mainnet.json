@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1jw448jc8fy3hfhzl6fgc9jazsx5lu39y0k0vespnc9delqv5jx4sgl5ea8.mdog",
+  "type": "factory",
+  "symbol": "MDOG",
+  "name": "Mdog",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1jw448jc8fy3hfhzl6fgc9jazsx5lu39y0k0vespnc9delqv5jx4sgl5ea8.mdog",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1jw448jc8fy3hfhzl6fgc9jazsx5lu39y0k0vespnc9delqv5jx4sgl5ea8.mdog",
+  "base_denom": "coin.zig1jw448jc8fy3hfhzl6fgc9jazsx5lu39y0k0vespnc9delqv5jx4sgl5ea8.mdog",
+  "creator": "zig1jw448jc8fy3hfhzl6fgc9jazsx5lu39y0k0vespnc9delqv5jx4sgl5ea8",
+  "subdenom": "mdog",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

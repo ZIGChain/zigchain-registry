@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1hp7a8ct38qk79wkze93nu7p4773ymu62tpnzpjrcjg8jwmx4d3xqzvadqu.zoomer",
+  "type": "factory",
+  "symbol": "ZOOMER",
+  "name": "Zoomer",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1hp7a8ct38qk79wkze93nu7p4773ymu62tpnzpjrcjg8jwmx4d3xqzvadqu.zoomer",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1hp7a8ct38qk79wkze93nu7p4773ymu62tpnzpjrcjg8jwmx4d3xqzvadqu.zoomer",
+  "base_denom": "coin.zig1hp7a8ct38qk79wkze93nu7p4773ymu62tpnzpjrcjg8jwmx4d3xqzvadqu.zoomer",
+  "creator": "zig1hp7a8ct38qk79wkze93nu7p4773ymu62tpnzpjrcjg8jwmx4d3xqzvadqu",
+  "subdenom": "zoomer",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

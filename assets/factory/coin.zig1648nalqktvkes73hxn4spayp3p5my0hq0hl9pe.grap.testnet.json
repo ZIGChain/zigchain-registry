@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe.grap",
+  "type": "factory",
+  "symbol": "GRAP",
+  "name": "Grap",
+  "decimals": 6,
+  "display_denom": "GRAP",
+  "base_denom": "coin.zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe.grap",
+  "creator": "zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe",
+  "subdenom": "grap",
+  "denom_units": [
+    {
+      "denom": "coin.zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe.grap",
+      "exponent": 0
+    },
+    {
+      "denom": "GRAP",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

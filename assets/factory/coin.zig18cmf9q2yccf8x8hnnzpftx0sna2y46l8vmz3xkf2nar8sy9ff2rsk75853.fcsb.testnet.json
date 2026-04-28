@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18cmf9q2yccf8x8hnnzpftx0sna2y46l8vmz3xkf2nar8sy9ff2rsk75853.fcsb",
+  "type": "factory",
+  "symbol": "FCSB",
+  "name": "Fcsb",
+  "decimals": 6,
+  "display_denom": "FCSB",
+  "base_denom": "coin.zig18cmf9q2yccf8x8hnnzpftx0sna2y46l8vmz3xkf2nar8sy9ff2rsk75853.fcsb",
+  "creator": "zig18cmf9q2yccf8x8hnnzpftx0sna2y46l8vmz3xkf2nar8sy9ff2rsk75853",
+  "subdenom": "fcsb",
+  "denom_units": [
+    {
+      "denom": "coin.zig18cmf9q2yccf8x8hnnzpftx0sna2y46l8vmz3xkf2nar8sy9ff2rsk75853.fcsb",
+      "exponent": 0
+    },
+    {
+      "denom": "FCSB",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

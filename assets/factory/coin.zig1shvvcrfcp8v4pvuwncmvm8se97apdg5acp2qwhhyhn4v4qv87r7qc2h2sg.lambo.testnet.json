@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1shvvcrfcp8v4pvuwncmvm8se97apdg5acp2qwhhyhn4v4qv87r7qc2h2sg.lambo",
+  "type": "factory",
+  "symbol": "LAMBO",
+  "name": "Lambo",
+  "decimals": 6,
+  "display_denom": "LAMBO",
+  "base_denom": "coin.zig1shvvcrfcp8v4pvuwncmvm8se97apdg5acp2qwhhyhn4v4qv87r7qc2h2sg.lambo",
+  "creator": "zig1shvvcrfcp8v4pvuwncmvm8se97apdg5acp2qwhhyhn4v4qv87r7qc2h2sg",
+  "subdenom": "lambo",
+  "denom_units": [
+    {
+      "denom": "coin.zig1shvvcrfcp8v4pvuwncmvm8se97apdg5acp2qwhhyhn4v4qv87r7qc2h2sg.lambo",
+      "exponent": 0
+    },
+    {
+      "denom": "LAMBO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

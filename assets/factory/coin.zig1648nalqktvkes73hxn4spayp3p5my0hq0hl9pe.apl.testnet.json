@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe.apl",
+  "type": "factory",
+  "symbol": "APL",
+  "name": "Apl",
+  "decimals": 6,
+  "display_denom": "APL",
+  "base_denom": "coin.zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe.apl",
+  "creator": "zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe",
+  "subdenom": "apl",
+  "denom_units": [
+    {
+      "denom": "coin.zig1648nalqktvkes73hxn4spayp3p5my0hq0hl9pe.apl",
+      "exponent": 0
+    },
+    {
+      "denom": "APL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

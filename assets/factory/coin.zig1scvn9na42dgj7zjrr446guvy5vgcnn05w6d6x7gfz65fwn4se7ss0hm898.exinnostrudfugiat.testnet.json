@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1scvn9na42dgj7zjrr446guvy5vgcnn05w6d6x7gfz65fwn4se7ss0hm898.exinnostrudfugiat",
+  "type": "factory",
+  "symbol": "EXINNOSTRUDFUGIAT",
+  "name": "Exinnostrudfugiat",
+  "decimals": 6,
+  "display_denom": "EXINNOSTRUDFUGIAT",
+  "base_denom": "coin.zig1scvn9na42dgj7zjrr446guvy5vgcnn05w6d6x7gfz65fwn4se7ss0hm898.exinnostrudfugiat",
+  "creator": "zig1scvn9na42dgj7zjrr446guvy5vgcnn05w6d6x7gfz65fwn4se7ss0hm898",
+  "subdenom": "exinnostrudfugiat",
+  "denom_units": [
+    {
+      "denom": "coin.zig1scvn9na42dgj7zjrr446guvy5vgcnn05w6d6x7gfz65fwn4se7ss0hm898.exinnostrudfugiat",
+      "exponent": 0
+    },
+    {
+      "denom": "EXINNOSTRUDFUGIAT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

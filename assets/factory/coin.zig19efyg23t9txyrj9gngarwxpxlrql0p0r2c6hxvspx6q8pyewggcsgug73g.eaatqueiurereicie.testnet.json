@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig19efyg23t9txyrj9gngarwxpxlrql0p0r2c6hxvspx6q8pyewggcsgug73g.eaatqueiurereicie",
+  "type": "factory",
+  "symbol": "EAATQUEIUREREICIE",
+  "name": "Eaatqueiurereicie",
+  "decimals": 6,
+  "display_denom": "EAATQUEIUREREICIE",
+  "base_denom": "coin.zig19efyg23t9txyrj9gngarwxpxlrql0p0r2c6hxvspx6q8pyewggcsgug73g.eaatqueiurereicie",
+  "creator": "zig19efyg23t9txyrj9gngarwxpxlrql0p0r2c6hxvspx6q8pyewggcsgug73g",
+  "subdenom": "eaatqueiurereicie",
+  "denom_units": [
+    {
+      "denom": "coin.zig19efyg23t9txyrj9gngarwxpxlrql0p0r2c6hxvspx6q8pyewggcsgug73g.eaatqueiurereicie",
+      "exponent": 0
+    },
+    {
+      "denom": "EAATQUEIUREREICIE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

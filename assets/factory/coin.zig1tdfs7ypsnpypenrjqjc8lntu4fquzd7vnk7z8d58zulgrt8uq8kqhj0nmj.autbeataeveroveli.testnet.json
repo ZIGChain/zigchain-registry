@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1tdfs7ypsnpypenrjqjc8lntu4fquzd7vnk7z8d58zulgrt8uq8kqhj0nmj.autbeataeveroveli",
+  "type": "factory",
+  "symbol": "AUTBEATAEVEROVELI",
+  "name": "Autbeataeveroveli",
+  "decimals": 6,
+  "display_denom": "AUTBEATAEVEROVELI",
+  "base_denom": "coin.zig1tdfs7ypsnpypenrjqjc8lntu4fquzd7vnk7z8d58zulgrt8uq8kqhj0nmj.autbeataeveroveli",
+  "creator": "zig1tdfs7ypsnpypenrjqjc8lntu4fquzd7vnk7z8d58zulgrt8uq8kqhj0nmj",
+  "subdenom": "autbeataeveroveli",
+  "denom_units": [
+    {
+      "denom": "coin.zig1tdfs7ypsnpypenrjqjc8lntu4fquzd7vnk7z8d58zulgrt8uq8kqhj0nmj.autbeataeveroveli",
+      "exponent": 0
+    },
+    {
+      "denom": "AUTBEATAEVEROVELI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

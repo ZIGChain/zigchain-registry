@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mktj9rzu0tqnh8vkh3xcesgdvg582x6yshncmfvy0uq03ft4ul7q2wpdhx.nonestinauteetu",
+  "type": "factory",
+  "symbol": "NONESTINAUTEETU",
+  "name": "Nonestinauteetu",
+  "decimals": 6,
+  "display_denom": "NONESTINAUTEETU",
+  "base_denom": "coin.zig1mktj9rzu0tqnh8vkh3xcesgdvg582x6yshncmfvy0uq03ft4ul7q2wpdhx.nonestinauteetu",
+  "creator": "zig1mktj9rzu0tqnh8vkh3xcesgdvg582x6yshncmfvy0uq03ft4ul7q2wpdhx",
+  "subdenom": "nonestinauteetu",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mktj9rzu0tqnh8vkh3xcesgdvg582x6yshncmfvy0uq03ft4ul7q2wpdhx.nonestinauteetu",
+      "exponent": 0
+    },
+    {
+      "denom": "NONESTINAUTEETU",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

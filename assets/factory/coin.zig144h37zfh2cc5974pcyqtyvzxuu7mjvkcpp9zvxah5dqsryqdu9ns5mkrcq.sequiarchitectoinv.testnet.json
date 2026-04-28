@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig144h37zfh2cc5974pcyqtyvzxuu7mjvkcpp9zvxah5dqsryqdu9ns5mkrcq.sequiarchitectoinv",
+  "type": "factory",
+  "symbol": "SEQUIARCHITECTOINV",
+  "name": "Sequiarchitectoinv",
+  "decimals": 6,
+  "display_denom": "SEQUIARCHITECTOINV",
+  "base_denom": "coin.zig144h37zfh2cc5974pcyqtyvzxuu7mjvkcpp9zvxah5dqsryqdu9ns5mkrcq.sequiarchitectoinv",
+  "creator": "zig144h37zfh2cc5974pcyqtyvzxuu7mjvkcpp9zvxah5dqsryqdu9ns5mkrcq",
+  "subdenom": "sequiarchitectoinv",
+  "denom_units": [
+    {
+      "denom": "coin.zig144h37zfh2cc5974pcyqtyvzxuu7mjvkcpp9zvxah5dqsryqdu9ns5mkrcq.sequiarchitectoinv",
+      "exponent": 0
+    },
+    {
+      "denom": "SEQUIARCHITECTOINV",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

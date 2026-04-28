@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig19gz2rr6e2tvrw7ehw87r8fhqdfsg7ctldv67y3a3e0s2csyfs66s99s655.inventorymanager",
+  "type": "factory",
+  "symbol": "INVENTORYMANAGER",
+  "name": "Inventorymanager",
+  "decimals": 6,
+  "display_denom": "INVENTORYMANAGER",
+  "base_denom": "coin.zig19gz2rr6e2tvrw7ehw87r8fhqdfsg7ctldv67y3a3e0s2csyfs66s99s655.inventorymanager",
+  "creator": "zig19gz2rr6e2tvrw7ehw87r8fhqdfsg7ctldv67y3a3e0s2csyfs66s99s655",
+  "subdenom": "inventorymanager",
+  "denom_units": [
+    {
+      "denom": "coin.zig19gz2rr6e2tvrw7ehw87r8fhqdfsg7ctldv67y3a3e0s2csyfs66s99s655.inventorymanager",
+      "exponent": 0
+    },
+    {
+      "denom": "INVENTORYMANAGER",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

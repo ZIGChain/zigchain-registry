@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig127kfn0egvxq8vg8rndkkyl94l43lscutl3zc9tf8ytxz0fpxqs2sfsaddr.testto",
+  "type": "factory",
+  "symbol": "TESTTO",
+  "name": "Testto",
+  "decimals": 6,
+  "display_denom": "TESTTO",
+  "base_denom": "coin.zig127kfn0egvxq8vg8rndkkyl94l43lscutl3zc9tf8ytxz0fpxqs2sfsaddr.testto",
+  "creator": "zig127kfn0egvxq8vg8rndkkyl94l43lscutl3zc9tf8ytxz0fpxqs2sfsaddr",
+  "subdenom": "testto",
+  "denom_units": [
+    {
+      "denom": "coin.zig127kfn0egvxq8vg8rndkkyl94l43lscutl3zc9tf8ytxz0fpxqs2sfsaddr.testto",
+      "exponent": 0
+    },
+    {
+      "denom": "TESTTO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

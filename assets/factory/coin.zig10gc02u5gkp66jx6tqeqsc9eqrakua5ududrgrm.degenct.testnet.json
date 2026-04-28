@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10gc02u5gkp66jx6tqeqsc9eqrakua5ududrgrm.degenct",
+  "type": "factory",
+  "symbol": "DEGENCT",
+  "name": "Degenct",
+  "decimals": 6,
+  "display_denom": "DEGENCT",
+  "base_denom": "coin.zig10gc02u5gkp66jx6tqeqsc9eqrakua5ududrgrm.degenct",
+  "creator": "zig10gc02u5gkp66jx6tqeqsc9eqrakua5ududrgrm",
+  "subdenom": "degenct",
+  "denom_units": [
+    {
+      "denom": "coin.zig10gc02u5gkp66jx6tqeqsc9eqrakua5ududrgrm.degenct",
+      "exponent": 0
+    },
+    {
+      "denom": "DEGENCT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

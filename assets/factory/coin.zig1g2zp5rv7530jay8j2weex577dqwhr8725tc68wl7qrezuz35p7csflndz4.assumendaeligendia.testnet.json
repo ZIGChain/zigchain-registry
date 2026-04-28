@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1g2zp5rv7530jay8j2weex577dqwhr8725tc68wl7qrezuz35p7csflndz4.assumendaeligendia",
+  "type": "factory",
+  "symbol": "ASSUMENDAELIGENDIA",
+  "name": "Assumendaeligendia",
+  "decimals": 6,
+  "display_denom": "ASSUMENDAELIGENDIA",
+  "base_denom": "coin.zig1g2zp5rv7530jay8j2weex577dqwhr8725tc68wl7qrezuz35p7csflndz4.assumendaeligendia",
+  "creator": "zig1g2zp5rv7530jay8j2weex577dqwhr8725tc68wl7qrezuz35p7csflndz4",
+  "subdenom": "assumendaeligendia",
+  "denom_units": [
+    {
+      "denom": "coin.zig1g2zp5rv7530jay8j2weex577dqwhr8725tc68wl7qrezuz35p7csflndz4.assumendaeligendia",
+      "exponent": 0
+    },
+    {
+      "denom": "ASSUMENDAELIGENDIA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

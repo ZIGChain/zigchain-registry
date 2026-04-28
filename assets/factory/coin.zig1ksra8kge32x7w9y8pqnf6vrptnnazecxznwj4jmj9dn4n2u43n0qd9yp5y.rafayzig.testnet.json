@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ksra8kge32x7w9y8pqnf6vrptnnazecxznwj4jmj9dn4n2u43n0qd9yp5y.rafayzig",
+  "type": "factory",
+  "symbol": "RAFAYZIG",
+  "name": "Rafayzig",
+  "decimals": 6,
+  "display_denom": "RAFAYZIG",
+  "base_denom": "coin.zig1ksra8kge32x7w9y8pqnf6vrptnnazecxznwj4jmj9dn4n2u43n0qd9yp5y.rafayzig",
+  "creator": "zig1ksra8kge32x7w9y8pqnf6vrptnnazecxznwj4jmj9dn4n2u43n0qd9yp5y",
+  "subdenom": "rafayzig",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ksra8kge32x7w9y8pqnf6vrptnnazecxznwj4jmj9dn4n2u43n0qd9yp5y.rafayzig",
+      "exponent": 0
+    },
+    {
+      "denom": "RAFAYZIG",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

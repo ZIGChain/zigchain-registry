@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1uwxuafyc5qqwmp2608mqglmsad7rmk8n6c575jydnhvyk08ma02s6w7xcj.ferrary",
+  "type": "factory",
+  "symbol": "FERRARY",
+  "name": "Ferrary",
+  "decimals": 6,
+  "display_denom": "FERRARY",
+  "base_denom": "coin.zig1uwxuafyc5qqwmp2608mqglmsad7rmk8n6c575jydnhvyk08ma02s6w7xcj.ferrary",
+  "creator": "zig1uwxuafyc5qqwmp2608mqglmsad7rmk8n6c575jydnhvyk08ma02s6w7xcj",
+  "subdenom": "ferrary",
+  "denom_units": [
+    {
+      "denom": "coin.zig1uwxuafyc5qqwmp2608mqglmsad7rmk8n6c575jydnhvyk08ma02s6w7xcj.ferrary",
+      "exponent": 0
+    },
+    {
+      "denom": "FERRARY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

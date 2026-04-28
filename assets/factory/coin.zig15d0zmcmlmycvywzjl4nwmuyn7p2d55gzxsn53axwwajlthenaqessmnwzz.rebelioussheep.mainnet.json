@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig15d0zmcmlmycvywzjl4nwmuyn7p2d55gzxsn53axwwajlthenaqessmnwzz.rebelioussheep",
+  "type": "factory",
+  "symbol": "REBELIOUSSHEEP",
+  "name": "Rebelioussheep",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig15d0zmcmlmycvywzjl4nwmuyn7p2d55gzxsn53axwwajlthenaqessmnwzz.rebelioussheep",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig15d0zmcmlmycvywzjl4nwmuyn7p2d55gzxsn53axwwajlthenaqessmnwzz.rebelioussheep",
+  "base_denom": "coin.zig15d0zmcmlmycvywzjl4nwmuyn7p2d55gzxsn53axwwajlthenaqessmnwzz.rebelioussheep",
+  "creator": "zig15d0zmcmlmycvywzjl4nwmuyn7p2d55gzxsn53axwwajlthenaqessmnwzz",
+  "subdenom": "rebelioussheep",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

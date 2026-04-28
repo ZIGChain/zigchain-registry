@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig12jzwc0a3pyv4dze0t252qkwf77t4vs5rqfn3zc.mid",
+  "type": "factory",
+  "symbol": "MID",
+  "name": "Mid",
+  "decimals": 6,
+  "display_denom": "MID",
+  "base_denom": "coin.zig12jzwc0a3pyv4dze0t252qkwf77t4vs5rqfn3zc.mid",
+  "creator": "zig12jzwc0a3pyv4dze0t252qkwf77t4vs5rqfn3zc",
+  "subdenom": "mid",
+  "denom_units": [
+    {
+      "denom": "coin.zig12jzwc0a3pyv4dze0t252qkwf77t4vs5rqfn3zc.mid",
+      "exponent": 0
+    },
+    {
+      "denom": "MID",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

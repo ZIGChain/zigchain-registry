@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1xfp5s8h3c2y56pdfs9ky9s8n8ffzkxtw5a4fdmm3smhpg0wpszjqmfrlgd.accusamusvoluptasi",
+  "type": "factory",
+  "symbol": "ACCUSAMUSVOLUPTASI",
+  "name": "Accusamusvoluptasi",
+  "decimals": 6,
+  "display_denom": "ACCUSAMUSVOLUPTASI",
+  "base_denom": "coin.zig1xfp5s8h3c2y56pdfs9ky9s8n8ffzkxtw5a4fdmm3smhpg0wpszjqmfrlgd.accusamusvoluptasi",
+  "creator": "zig1xfp5s8h3c2y56pdfs9ky9s8n8ffzkxtw5a4fdmm3smhpg0wpszjqmfrlgd",
+  "subdenom": "accusamusvoluptasi",
+  "denom_units": [
+    {
+      "denom": "coin.zig1xfp5s8h3c2y56pdfs9ky9s8n8ffzkxtw5a4fdmm3smhpg0wpszjqmfrlgd.accusamusvoluptasi",
+      "exponent": 0
+    },
+    {
+      "denom": "ACCUSAMUSVOLUPTASI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

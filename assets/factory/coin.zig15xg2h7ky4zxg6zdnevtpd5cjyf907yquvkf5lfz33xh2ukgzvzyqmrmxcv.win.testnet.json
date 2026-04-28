@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig15xg2h7ky4zxg6zdnevtpd5cjyf907yquvkf5lfz33xh2ukgzvzyqmrmxcv.win",
+  "type": "factory",
+  "symbol": "WIN",
+  "name": "Win",
+  "decimals": 6,
+  "display_denom": "WIN",
+  "base_denom": "coin.zig15xg2h7ky4zxg6zdnevtpd5cjyf907yquvkf5lfz33xh2ukgzvzyqmrmxcv.win",
+  "creator": "zig15xg2h7ky4zxg6zdnevtpd5cjyf907yquvkf5lfz33xh2ukgzvzyqmrmxcv",
+  "subdenom": "win",
+  "denom_units": [
+    {
+      "denom": "coin.zig15xg2h7ky4zxg6zdnevtpd5cjyf907yquvkf5lfz33xh2ukgzvzyqmrmxcv.win",
+      "exponent": 0
+    },
+    {
+      "denom": "WIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

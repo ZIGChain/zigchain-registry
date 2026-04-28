@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1f0q8gjyqk36mnycp0prxjhkn6q05sw780lxzp3cwtrxmas74hwkqgjxe0x.lols2lambos",
+  "type": "factory",
+  "symbol": "LOLS2LAMBOS",
+  "name": "Lols2lambos",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1f0q8gjyqk36mnycp0prxjhkn6q05sw780lxzp3cwtrxmas74hwkqgjxe0x.lols2lambos",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1f0q8gjyqk36mnycp0prxjhkn6q05sw780lxzp3cwtrxmas74hwkqgjxe0x.lols2lambos",
+  "base_denom": "coin.zig1f0q8gjyqk36mnycp0prxjhkn6q05sw780lxzp3cwtrxmas74hwkqgjxe0x.lols2lambos",
+  "creator": "zig1f0q8gjyqk36mnycp0prxjhkn6q05sw780lxzp3cwtrxmas74hwkqgjxe0x",
+  "subdenom": "lols2lambos",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

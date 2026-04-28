@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1jtzqfe0sw9eez45e4pzh7y3ky5plgp56uzd4pn9nrg0vrq3sy3wsc2kmt0.tututoilet",
+  "type": "factory",
+  "symbol": "TUTUTOILET",
+  "name": "Tututoilet",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1jtzqfe0sw9eez45e4pzh7y3ky5plgp56uzd4pn9nrg0vrq3sy3wsc2kmt0.tututoilet",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1jtzqfe0sw9eez45e4pzh7y3ky5plgp56uzd4pn9nrg0vrq3sy3wsc2kmt0.tututoilet",
+  "base_denom": "coin.zig1jtzqfe0sw9eez45e4pzh7y3ky5plgp56uzd4pn9nrg0vrq3sy3wsc2kmt0.tututoilet",
+  "creator": "zig1jtzqfe0sw9eez45e4pzh7y3ky5plgp56uzd4pn9nrg0vrq3sy3wsc2kmt0",
+  "subdenom": "tututoilet",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

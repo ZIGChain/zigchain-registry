@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1wtza4twglvyyj9hj2dpax6cruscypaumjwj5gwcpfu58fzyjmsmqkk86kq.stasher",
+  "type": "factory",
+  "symbol": "STASHER",
+  "name": "Stasher",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1wtza4twglvyyj9hj2dpax6cruscypaumjwj5gwcpfu58fzyjmsmqkk86kq.stasher",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1wtza4twglvyyj9hj2dpax6cruscypaumjwj5gwcpfu58fzyjmsmqkk86kq.stasher",
+  "base_denom": "coin.zig1wtza4twglvyyj9hj2dpax6cruscypaumjwj5gwcpfu58fzyjmsmqkk86kq.stasher",
+  "creator": "zig1wtza4twglvyyj9hj2dpax6cruscypaumjwj5gwcpfu58fzyjmsmqkk86kq",
+  "subdenom": "stasher",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

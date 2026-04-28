@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rml6ehc8w6vj8rp336fuqr8579a0500vhuhc3vc4m7g4e44yta3swv86x7.possimusfugaenim",
+  "type": "factory",
+  "symbol": "POSSIMUSFUGAENIM",
+  "name": "Possimusfugaenim",
+  "decimals": 6,
+  "display_denom": "POSSIMUSFUGAENIM",
+  "base_denom": "coin.zig1rml6ehc8w6vj8rp336fuqr8579a0500vhuhc3vc4m7g4e44yta3swv86x7.possimusfugaenim",
+  "creator": "zig1rml6ehc8w6vj8rp336fuqr8579a0500vhuhc3vc4m7g4e44yta3swv86x7",
+  "subdenom": "possimusfugaenim",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rml6ehc8w6vj8rp336fuqr8579a0500vhuhc3vc4m7g4e44yta3swv86x7.possimusfugaenim",
+      "exponent": 0
+    },
+    {
+      "denom": "POSSIMUSFUGAENIM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1w0ge4qmu693qp9jd0sfrpp6jetcs784szhlvxn0mgn9gnsutqt3s2u5edj.etnonasperioresea",
+  "type": "factory",
+  "symbol": "ETNONASPERIORESEA",
+  "name": "Etnonasperioresea",
+  "decimals": 6,
+  "display_denom": "ETNONASPERIORESEA",
+  "base_denom": "coin.zig1w0ge4qmu693qp9jd0sfrpp6jetcs784szhlvxn0mgn9gnsutqt3s2u5edj.etnonasperioresea",
+  "creator": "zig1w0ge4qmu693qp9jd0sfrpp6jetcs784szhlvxn0mgn9gnsutqt3s2u5edj",
+  "subdenom": "etnonasperioresea",
+  "denom_units": [
+    {
+      "denom": "coin.zig1w0ge4qmu693qp9jd0sfrpp6jetcs784szhlvxn0mgn9gnsutqt3s2u5edj.etnonasperioresea",
+      "exponent": 0
+    },
+    {
+      "denom": "ETNONASPERIORESEA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

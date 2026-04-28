@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig168vud2cjfq0zxdn4py827pleznp502tqg0c6yny89jjs6jns9sqq34qdug.weekend",
+  "type": "factory",
+  "symbol": "WEEKEND",
+  "name": "Weekend",
+  "decimals": 6,
+  "display_denom": "WEEKEND",
+  "base_denom": "coin.zig168vud2cjfq0zxdn4py827pleznp502tqg0c6yny89jjs6jns9sqq34qdug.weekend",
+  "creator": "zig168vud2cjfq0zxdn4py827pleznp502tqg0c6yny89jjs6jns9sqq34qdug",
+  "subdenom": "weekend",
+  "denom_units": [
+    {
+      "denom": "coin.zig168vud2cjfq0zxdn4py827pleznp502tqg0c6yny89jjs6jns9sqq34qdug.weekend",
+      "exponent": 0
+    },
+    {
+      "denom": "WEEKEND",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

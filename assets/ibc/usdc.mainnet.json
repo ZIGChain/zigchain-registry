@@ -1,0 +1,80 @@
+{
+    "$schema": "../../schemas/asset.ibc.schema.json",
+    "order": 3,
+    "network": "mainnet",
+    "asset_id": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+    "type": "ibc",
+    "symbol": "USDC",
+    "name": "Noble USDC",
+    "description": "Noble USDC on ZIGChain",
+    "decimals": 6,
+    "display_denom": "usdc",
+    "base_denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+    "hash": "6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+    "origin_chain": "noble",
+    "origin_denom": "uusdc",
+    "denom_units": [
+        {
+          "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+          "exponent": 0,
+          "aliases": [
+            "microusdc",
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
+          "exponent": 6
+        }
+    ],
+    "traces": [
+        {
+            "type": "synthetic",
+            "counterparty": {
+              "chain_name": "forex",
+              "base_denom": "USD"
+            },
+            "provider": "Circle"
+          },
+          {
+            "type": "additional-mintage",
+            "counterparty": {
+              "chain_name": "ethereum",
+              "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            },
+            "provider": "Circle"
+          },
+        {
+            "type": "ibc",
+            "chain_name": "zigchain",
+            "base_denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+            "path": "transfer/channel-3/uusdc"
+        },
+        {
+            "type": "ibc",
+            "chain_name": "noble",
+            "base_denom": "uusdc",
+            "path": "transfer/channel-175"
+        }
+    ],
+    "channels": [
+        {
+            "zigchain_channel": "channel-3",
+            "counterparty_chain": "noble",
+            "counterparty_channel": "channel-175"
+        }
+    ],
+    "logo_uris": {
+        "chain_name": "ethereum",
+        "png": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/usdc.png",
+        "svg": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/usdc.svg"
+    },
+    "images": [
+        {
+            "chain_name": "noble",
+            "base_denom": "uusdc"
+        }
+    ],
+    "coingecko_id": "usd-coin",
+    "is_verified": true
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1xv4k0jtd2lsh6psyl7245q9jtqepka2k29cn072dqgxt73y2yr5q4twmku.exteneturducimus",
+  "type": "factory",
+  "symbol": "EXTENETURDUCIMUS",
+  "name": "Exteneturducimus",
+  "decimals": 6,
+  "display_denom": "EXTENETURDUCIMUS",
+  "base_denom": "coin.zig1xv4k0jtd2lsh6psyl7245q9jtqepka2k29cn072dqgxt73y2yr5q4twmku.exteneturducimus",
+  "creator": "zig1xv4k0jtd2lsh6psyl7245q9jtqepka2k29cn072dqgxt73y2yr5q4twmku",
+  "subdenom": "exteneturducimus",
+  "denom_units": [
+    {
+      "denom": "coin.zig1xv4k0jtd2lsh6psyl7245q9jtqepka2k29cn072dqgxt73y2yr5q4twmku.exteneturducimus",
+      "exponent": 0
+    },
+    {
+      "denom": "EXTENETURDUCIMUS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1rhguz09xr9a76zy0ktlgay3l8lrezz7vqakehx.uzm",
+  "type": "factory",
+  "symbol": "UZM",
+  "name": "Uzm",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1rhguz09xr9a76zy0ktlgay3l8lrezz7vqakehx.uzm",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1rhguz09xr9a76zy0ktlgay3l8lrezz7vqakehx.uzm",
+  "base_denom": "coin.zig1rhguz09xr9a76zy0ktlgay3l8lrezz7vqakehx.uzm",
+  "creator": "zig1rhguz09xr9a76zy0ktlgay3l8lrezz7vqakehx",
+  "subdenom": "uzm",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

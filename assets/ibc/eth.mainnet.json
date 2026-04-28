@@ -1,0 +1,75 @@
+{
+  "$schema": "../../schemas/asset.ibc.schema.json",
+  "order": 6,
+  "network": "mainnet",
+  "asset_id": "ibc/5E970F9FF7B696B42F75B92CC05A74B9C44AB0B5D231FBE794A29D74344B19D7",
+  "type": "ibc",
+  "symbol": "ETH",
+  "name": "Ethereum",
+  "description": "Ether ETH on ZIGChain",
+  "decimals": 18,
+  "display_denom": "eth",
+  "base_denom": "ibc/5E970F9FF7B696B42F75B92CC05A74B9C44AB0B5D231FBE794A29D74344B19D7",
+  "hash": "5E970F9FF7B696B42F75B92CC05A74B9C44AB0B5D231FBE794A29D74344B19D7",
+  "origin_chain": "ethereum",
+  "origin_denom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  "denom_units": [
+    {
+      "denom": "ibc/5E970F9FF7B696B42F75B92CC05A74B9C44AB0B5D231FBE794A29D74344B19D7",
+      "exponent": 0,
+      "aliases": [
+        "wei"
+      ]
+    },
+    {
+      "denom": "eth",
+      "exponent": 18
+    }
+  ],
+  "traces": [
+    {
+      "type": "ibc",
+      "chain_name": "zigchain",
+      "base_denom": "ibc/5E970F9FF7B696B42F75B92CC05A74B9C44AB0B5D231FBE794A29D74344B19D7",
+      "path": "transfer/channel-4/transfer/08-wasm-1369/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+    },
+    {
+      "type": "ibc",
+      "chain_name": "cosmoshub",
+      "base_denom": "ibc/C0B53D3D23827AE38058BED0BDCD554229278AF530A8D265FCF6DFF7C4B2ADFF",
+      "path": "transfer/channel-1555"
+    },
+    {
+      "type": "ibc-bridge",
+      "chain_name": "ethereum",
+      "base_denom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "path": "transfer/08-wasm-1369/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "provider": "eureka"
+    }
+  ],
+  "channels": [
+    {
+      "zigchain_channel": "channel-4",
+      "counterparty_chain": "cosmoshub",
+      "counterparty_channel": "channel-1555"
+    },
+    {
+      "zigchain_channel": "08-wasm-1369",
+      "counterparty_chain": "ethereum",
+      "counterparty_channel": "channel-0"
+    }
+  ],
+  "logo_uris": {
+    "chain_name": "ethereum",
+    "png": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/eth-white.png",
+    "svg": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/eth-white.svg"
+  },
+  "images": [
+    {
+      "chain_name": "ethereum",
+      "base_denom": "wei"
+    }
+  ],
+  "coingecko_id": "ethereum",
+  "is_verified": true
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1lt9cg33dyv6xndje3a5wcm2yq6e876mfqgvzmkywhzn2f58zdrms0707wu.ducimusdelectusr",
+  "type": "factory",
+  "symbol": "DUCIMUSDELECTUSR",
+  "name": "Ducimusdelectusr",
+  "decimals": 6,
+  "display_denom": "DUCIMUSDELECTUSR",
+  "base_denom": "coin.zig1lt9cg33dyv6xndje3a5wcm2yq6e876mfqgvzmkywhzn2f58zdrms0707wu.ducimusdelectusr",
+  "creator": "zig1lt9cg33dyv6xndje3a5wcm2yq6e876mfqgvzmkywhzn2f58zdrms0707wu",
+  "subdenom": "ducimusdelectusr",
+  "denom_units": [
+    {
+      "denom": "coin.zig1lt9cg33dyv6xndje3a5wcm2yq6e876mfqgvzmkywhzn2f58zdrms0707wu.ducimusdelectusr",
+      "exponent": 0
+    },
+    {
+      "denom": "DUCIMUSDELECTUSR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

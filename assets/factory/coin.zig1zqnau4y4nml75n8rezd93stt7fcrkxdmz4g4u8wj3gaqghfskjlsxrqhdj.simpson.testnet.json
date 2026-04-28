@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1zqnau4y4nml75n8rezd93stt7fcrkxdmz4g4u8wj3gaqghfskjlsxrqhdj.simpson",
+  "type": "factory",
+  "symbol": "SIMPSON",
+  "name": "Simpson",
+  "decimals": 6,
+  "display_denom": "SIMPSON",
+  "base_denom": "coin.zig1zqnau4y4nml75n8rezd93stt7fcrkxdmz4g4u8wj3gaqghfskjlsxrqhdj.simpson",
+  "creator": "zig1zqnau4y4nml75n8rezd93stt7fcrkxdmz4g4u8wj3gaqghfskjlsxrqhdj",
+  "subdenom": "simpson",
+  "denom_units": [
+    {
+      "denom": "coin.zig1zqnau4y4nml75n8rezd93stt7fcrkxdmz4g4u8wj3gaqghfskjlsxrqhdj.simpson",
+      "exponent": 0
+    },
+    {
+      "denom": "SIMPSON",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

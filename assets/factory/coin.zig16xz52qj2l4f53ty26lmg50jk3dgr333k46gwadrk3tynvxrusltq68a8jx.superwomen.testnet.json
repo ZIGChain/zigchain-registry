@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig16xz52qj2l4f53ty26lmg50jk3dgr333k46gwadrk3tynvxrusltq68a8jx.superwomen",
+  "type": "factory",
+  "symbol": "SUPERWOMEN",
+  "name": "Superwomen",
+  "decimals": 6,
+  "display_denom": "SUPERWOMEN",
+  "base_denom": "coin.zig16xz52qj2l4f53ty26lmg50jk3dgr333k46gwadrk3tynvxrusltq68a8jx.superwomen",
+  "creator": "zig16xz52qj2l4f53ty26lmg50jk3dgr333k46gwadrk3tynvxrusltq68a8jx",
+  "subdenom": "superwomen",
+  "denom_units": [
+    {
+      "denom": "coin.zig16xz52qj2l4f53ty26lmg50jk3dgr333k46gwadrk3tynvxrusltq68a8jx.superwomen",
+      "exponent": 0
+    },
+    {
+      "denom": "SUPERWOMEN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

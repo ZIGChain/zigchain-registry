@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1uxq0e7ctyff4nwedp7pz6vr6jarjugmh26spzzfj5cuurq9r5fxspc4neg.aa222",
+  "type": "factory",
+  "symbol": "AA222",
+  "name": "Aa222",
+  "decimals": 6,
+  "display_denom": "AA222",
+  "base_denom": "coin.zig1uxq0e7ctyff4nwedp7pz6vr6jarjugmh26spzzfj5cuurq9r5fxspc4neg.aa222",
+  "creator": "zig1uxq0e7ctyff4nwedp7pz6vr6jarjugmh26spzzfj5cuurq9r5fxspc4neg",
+  "subdenom": "aa222",
+  "denom_units": [
+    {
+      "denom": "coin.zig1uxq0e7ctyff4nwedp7pz6vr6jarjugmh26spzzfj5cuurq9r5fxspc4neg.aa222",
+      "exponent": 0
+    },
+    {
+      "denom": "AA222",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

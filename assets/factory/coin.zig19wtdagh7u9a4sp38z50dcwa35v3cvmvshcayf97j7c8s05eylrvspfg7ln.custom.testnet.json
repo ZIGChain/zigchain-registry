@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig19wtdagh7u9a4sp38z50dcwa35v3cvmvshcayf97j7c8s05eylrvspfg7ln.custom",
+  "type": "factory",
+  "symbol": "CUSTOM",
+  "name": "Custom",
+  "decimals": 6,
+  "display_denom": "CUSTOM",
+  "base_denom": "coin.zig19wtdagh7u9a4sp38z50dcwa35v3cvmvshcayf97j7c8s05eylrvspfg7ln.custom",
+  "creator": "zig19wtdagh7u9a4sp38z50dcwa35v3cvmvshcayf97j7c8s05eylrvspfg7ln",
+  "subdenom": "custom",
+  "denom_units": [
+    {
+      "denom": "coin.zig19wtdagh7u9a4sp38z50dcwa35v3cvmvshcayf97j7c8s05eylrvspfg7ln.custom",
+      "exponent": 0
+    },
+    {
+      "denom": "CUSTOM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

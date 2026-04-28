@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1cxqnwgrq270f9hzcqh89dpagxr8tegnrgqm7rxt2pvu2g6vctlnq4nd89v.ipsamnequeexceptur",
+  "type": "factory",
+  "symbol": "IPSAMNEQUEEXCEPTUR",
+  "name": "Ipsamnequeexceptur",
+  "decimals": 6,
+  "display_denom": "IPSAMNEQUEEXCEPTUR",
+  "base_denom": "coin.zig1cxqnwgrq270f9hzcqh89dpagxr8tegnrgqm7rxt2pvu2g6vctlnq4nd89v.ipsamnequeexceptur",
+  "creator": "zig1cxqnwgrq270f9hzcqh89dpagxr8tegnrgqm7rxt2pvu2g6vctlnq4nd89v",
+  "subdenom": "ipsamnequeexceptur",
+  "denom_units": [
+    {
+      "denom": "coin.zig1cxqnwgrq270f9hzcqh89dpagxr8tegnrgqm7rxt2pvu2g6vctlnq4nd89v.ipsamnequeexceptur",
+      "exponent": 0
+    },
+    {
+      "denom": "IPSAMNEQUEEXCEPTUR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1m7ytfr6tfmr7h9ut9azszark4zzyuhseeq59s7gy23dvuxyfh0zsang8v2.epellendus",
+  "type": "factory",
+  "symbol": "EPELLENDUS",
+  "name": "Epellendus",
+  "decimals": 6,
+  "display_denom": "EPELLENDUS",
+  "base_denom": "coin.zig1m7ytfr6tfmr7h9ut9azszark4zzyuhseeq59s7gy23dvuxyfh0zsang8v2.epellendus",
+  "creator": "zig1m7ytfr6tfmr7h9ut9azszark4zzyuhseeq59s7gy23dvuxyfh0zsang8v2",
+  "subdenom": "epellendus",
+  "denom_units": [
+    {
+      "denom": "coin.zig1m7ytfr6tfmr7h9ut9azszark4zzyuhseeq59s7gy23dvuxyfh0zsang8v2.epellendus",
+      "exponent": 0
+    },
+    {
+      "denom": "EPELLENDUS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

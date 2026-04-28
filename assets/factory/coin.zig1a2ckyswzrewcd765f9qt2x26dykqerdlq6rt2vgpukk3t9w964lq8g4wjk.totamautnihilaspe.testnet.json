@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1a2ckyswzrewcd765f9qt2x26dykqerdlq6rt2vgpukk3t9w964lq8g4wjk.totamautnihilaspe",
+  "type": "factory",
+  "symbol": "TOTAMAUTNIHILASPE",
+  "name": "Totamautnihilaspe",
+  "decimals": 6,
+  "display_denom": "TOTAMAUTNIHILASPE",
+  "base_denom": "coin.zig1a2ckyswzrewcd765f9qt2x26dykqerdlq6rt2vgpukk3t9w964lq8g4wjk.totamautnihilaspe",
+  "creator": "zig1a2ckyswzrewcd765f9qt2x26dykqerdlq6rt2vgpukk3t9w964lq8g4wjk",
+  "subdenom": "totamautnihilaspe",
+  "denom_units": [
+    {
+      "denom": "coin.zig1a2ckyswzrewcd765f9qt2x26dykqerdlq6rt2vgpukk3t9w964lq8g4wjk.totamautnihilaspe",
+      "exponent": 0
+    },
+    {
+      "denom": "TOTAMAUTNIHILASPE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

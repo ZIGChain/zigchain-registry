@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ec3ted07ugp08zgldccv66esenryh8k2c8hn8c9u2hyq4ahw4khq36cjcz.giraffe",
+  "type": "factory",
+  "symbol": "GIRAFFE",
+  "name": "Giraffe",
+  "decimals": 6,
+  "display_denom": "GIRAFFE",
+  "base_denom": "coin.zig1ec3ted07ugp08zgldccv66esenryh8k2c8hn8c9u2hyq4ahw4khq36cjcz.giraffe",
+  "creator": "zig1ec3ted07ugp08zgldccv66esenryh8k2c8hn8c9u2hyq4ahw4khq36cjcz",
+  "subdenom": "giraffe",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ec3ted07ugp08zgldccv66esenryh8k2c8hn8c9u2hyq4ahw4khq36cjcz.giraffe",
+      "exponent": 0
+    },
+    {
+      "denom": "GIRAFFE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

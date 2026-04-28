@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1v8r6pywdz20parv62eh5asu04smqlw8m3ulwm2g4jxjswfd2s39qsardgq.genlogo",
+  "type": "factory",
+  "symbol": "GENLOGO",
+  "name": "Genlogo",
+  "decimals": 6,
+  "display_denom": "GENLOGO",
+  "base_denom": "coin.zig1v8r6pywdz20parv62eh5asu04smqlw8m3ulwm2g4jxjswfd2s39qsardgq.genlogo",
+  "creator": "zig1v8r6pywdz20parv62eh5asu04smqlw8m3ulwm2g4jxjswfd2s39qsardgq",
+  "subdenom": "genlogo",
+  "denom_units": [
+    {
+      "denom": "coin.zig1v8r6pywdz20parv62eh5asu04smqlw8m3ulwm2g4jxjswfd2s39qsardgq.genlogo",
+      "exponent": 0
+    },
+    {
+      "denom": "GENLOGO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

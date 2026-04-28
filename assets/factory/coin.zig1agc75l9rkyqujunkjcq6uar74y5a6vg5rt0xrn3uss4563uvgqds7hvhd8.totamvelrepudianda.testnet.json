@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1agc75l9rkyqujunkjcq6uar74y5a6vg5rt0xrn3uss4563uvgqds7hvhd8.totamvelrepudianda",
+  "type": "factory",
+  "symbol": "TOTAMVELREPUDIANDA",
+  "name": "Totamvelrepudianda",
+  "decimals": 6,
+  "display_denom": "TOTAMVELREPUDIANDA",
+  "base_denom": "coin.zig1agc75l9rkyqujunkjcq6uar74y5a6vg5rt0xrn3uss4563uvgqds7hvhd8.totamvelrepudianda",
+  "creator": "zig1agc75l9rkyqujunkjcq6uar74y5a6vg5rt0xrn3uss4563uvgqds7hvhd8",
+  "subdenom": "totamvelrepudianda",
+  "denom_units": [
+    {
+      "denom": "coin.zig1agc75l9rkyqujunkjcq6uar74y5a6vg5rt0xrn3uss4563uvgqds7hvhd8.totamvelrepudianda",
+      "exponent": 0
+    },
+    {
+      "denom": "TOTAMVELREPUDIANDA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

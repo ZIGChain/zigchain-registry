@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1c829w6huclrkzx55cdgq0azuzv9277wezwkum8.bridge",
+  "type": "factory",
+  "symbol": "BRIDGE",
+  "name": "Bridge",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1c829w6huclrkzx55cdgq0azuzv9277wezwkum8.bridge",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1c829w6huclrkzx55cdgq0azuzv9277wezwkum8.bridge",
+  "base_denom": "coin.zig1c829w6huclrkzx55cdgq0azuzv9277wezwkum8.bridge",
+  "creator": "zig1c829w6huclrkzx55cdgq0azuzv9277wezwkum8",
+  "subdenom": "bridge",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

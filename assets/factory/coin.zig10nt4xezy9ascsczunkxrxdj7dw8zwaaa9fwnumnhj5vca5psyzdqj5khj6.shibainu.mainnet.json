@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig10nt4xezy9ascsczunkxrxdj7dw8zwaaa9fwnumnhj5vca5psyzdqj5khj6.shibainu",
+  "type": "factory",
+  "symbol": "SHIBAINU",
+  "name": "Shibainu",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig10nt4xezy9ascsczunkxrxdj7dw8zwaaa9fwnumnhj5vca5psyzdqj5khj6.shibainu",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig10nt4xezy9ascsczunkxrxdj7dw8zwaaa9fwnumnhj5vca5psyzdqj5khj6.shibainu",
+  "base_denom": "coin.zig10nt4xezy9ascsczunkxrxdj7dw8zwaaa9fwnumnhj5vca5psyzdqj5khj6.shibainu",
+  "creator": "zig10nt4xezy9ascsczunkxrxdj7dw8zwaaa9fwnumnhj5vca5psyzdqj5khj6",
+  "subdenom": "shibainu",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

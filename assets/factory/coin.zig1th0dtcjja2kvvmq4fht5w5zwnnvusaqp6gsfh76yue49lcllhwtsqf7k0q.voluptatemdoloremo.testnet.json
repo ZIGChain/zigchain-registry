@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1th0dtcjja2kvvmq4fht5w5zwnnvusaqp6gsfh76yue49lcllhwtsqf7k0q.voluptatemdoloremo",
+  "type": "factory",
+  "symbol": "VOLUPTATEMDOLOREMO",
+  "name": "Voluptatemdoloremo",
+  "decimals": 6,
+  "display_denom": "VOLUPTATEMDOLOREMO",
+  "base_denom": "coin.zig1th0dtcjja2kvvmq4fht5w5zwnnvusaqp6gsfh76yue49lcllhwtsqf7k0q.voluptatemdoloremo",
+  "creator": "zig1th0dtcjja2kvvmq4fht5w5zwnnvusaqp6gsfh76yue49lcllhwtsqf7k0q",
+  "subdenom": "voluptatemdoloremo",
+  "denom_units": [
+    {
+      "denom": "coin.zig1th0dtcjja2kvvmq4fht5w5zwnnvusaqp6gsfh76yue49lcllhwtsqf7k0q.voluptatemdoloremo",
+      "exponent": 0
+    },
+    {
+      "denom": "VOLUPTATEMDOLOREMO",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1w3w4netdj4y8c9cp8t5vtrn2g0txdagrwvt8p2xqqelckgmz2cgqfz9358.bloodvein",
+  "type": "factory",
+  "symbol": "BLOODVEIN",
+  "name": "Bloodvein",
+  "decimals": 6,
+  "display_denom": "BLOODVEIN",
+  "base_denom": "coin.zig1w3w4netdj4y8c9cp8t5vtrn2g0txdagrwvt8p2xqqelckgmz2cgqfz9358.bloodvein",
+  "creator": "zig1w3w4netdj4y8c9cp8t5vtrn2g0txdagrwvt8p2xqqelckgmz2cgqfz9358",
+  "subdenom": "bloodvein",
+  "denom_units": [
+    {
+      "denom": "coin.zig1w3w4netdj4y8c9cp8t5vtrn2g0txdagrwvt8p2xqqelckgmz2cgqfz9358.bloodvein",
+      "exponent": 0
+    },
+    {
+      "denom": "BLOODVEIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1llxk5lyge57mkyeegw4jm0x4arncxgzdr3rwyjggenwy90k5l6uq5y8ax0.ndoutinthe",
+  "type": "factory",
+  "symbol": "NDOUTINTHE",
+  "name": "Ndoutinthe",
+  "decimals": 6,
+  "display_denom": "NDOUTINTHE",
+  "base_denom": "coin.zig1llxk5lyge57mkyeegw4jm0x4arncxgzdr3rwyjggenwy90k5l6uq5y8ax0.ndoutinthe",
+  "creator": "zig1llxk5lyge57mkyeegw4jm0x4arncxgzdr3rwyjggenwy90k5l6uq5y8ax0",
+  "subdenom": "ndoutinthe",
+  "denom_units": [
+    {
+      "denom": "coin.zig1llxk5lyge57mkyeegw4jm0x4arncxgzdr3rwyjggenwy90k5l6uq5y8ax0.ndoutinthe",
+      "exponent": 0
+    },
+    {
+      "denom": "NDOUTINTHE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

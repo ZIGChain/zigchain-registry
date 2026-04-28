@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1nm3jlr098cuktfkq3fx39p5vwnc22jghm3yg8jl09ytvkfnklyksrjql45.obcaecatiutvolupta",
+  "type": "factory",
+  "symbol": "OBCAECATIUTVOLUPTA",
+  "name": "Obcaecatiutvolupta",
+  "decimals": 6,
+  "display_denom": "OBCAECATIUTVOLUPTA",
+  "base_denom": "coin.zig1nm3jlr098cuktfkq3fx39p5vwnc22jghm3yg8jl09ytvkfnklyksrjql45.obcaecatiutvolupta",
+  "creator": "zig1nm3jlr098cuktfkq3fx39p5vwnc22jghm3yg8jl09ytvkfnklyksrjql45",
+  "subdenom": "obcaecatiutvolupta",
+  "denom_units": [
+    {
+      "denom": "coin.zig1nm3jlr098cuktfkq3fx39p5vwnc22jghm3yg8jl09ytvkfnklyksrjql45.obcaecatiutvolupta",
+      "exponent": 0
+    },
+    {
+      "denom": "OBCAECATIUTVOLUPTA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

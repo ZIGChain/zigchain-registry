@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig194xaxdfuhjlave77mzzja9kyyad9yk06s6ljhvlqlv29sv366n2q5c5ufn.perferendismodiaut",
+  "type": "factory",
+  "symbol": "PERFERENDISMODIAUT",
+  "name": "Perferendismodiaut",
+  "decimals": 6,
+  "display_denom": "PERFERENDISMODIAUT",
+  "base_denom": "coin.zig194xaxdfuhjlave77mzzja9kyyad9yk06s6ljhvlqlv29sv366n2q5c5ufn.perferendismodiaut",
+  "creator": "zig194xaxdfuhjlave77mzzja9kyyad9yk06s6ljhvlqlv29sv366n2q5c5ufn",
+  "subdenom": "perferendismodiaut",
+  "denom_units": [
+    {
+      "denom": "coin.zig194xaxdfuhjlave77mzzja9kyyad9yk06s6ljhvlqlv29sv366n2q5c5ufn.perferendismodiaut",
+      "exponent": 0
+    },
+    {
+      "denom": "PERFERENDISMODIAUT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

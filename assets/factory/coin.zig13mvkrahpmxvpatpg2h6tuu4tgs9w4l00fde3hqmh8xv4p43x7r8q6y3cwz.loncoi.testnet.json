@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13mvkrahpmxvpatpg2h6tuu4tgs9w4l00fde3hqmh8xv4p43x7r8q6y3cwz.loncoi",
+  "type": "factory",
+  "symbol": "LONCOI",
+  "name": "Loncoi",
+  "decimals": 6,
+  "display_denom": "LONCOI",
+  "base_denom": "coin.zig13mvkrahpmxvpatpg2h6tuu4tgs9w4l00fde3hqmh8xv4p43x7r8q6y3cwz.loncoi",
+  "creator": "zig13mvkrahpmxvpatpg2h6tuu4tgs9w4l00fde3hqmh8xv4p43x7r8q6y3cwz",
+  "subdenom": "loncoi",
+  "denom_units": [
+    {
+      "denom": "coin.zig13mvkrahpmxvpatpg2h6tuu4tgs9w4l00fde3hqmh8xv4p43x7r8q6y3cwz.loncoi",
+      "exponent": 0
+    },
+    {
+      "denom": "LONCOI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

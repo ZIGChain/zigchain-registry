@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1gvra76j62jw6jwfav6gefcmurwv4vdl8euwcn0uyesqe7awk3v4qvzctgk.toke",
+  "type": "factory",
+  "symbol": "TOKE",
+  "name": "Toke",
+  "decimals": 6,
+  "display_denom": "TOKE",
+  "base_denom": "coin.zig1gvra76j62jw6jwfav6gefcmurwv4vdl8euwcn0uyesqe7awk3v4qvzctgk.toke",
+  "creator": "zig1gvra76j62jw6jwfav6gefcmurwv4vdl8euwcn0uyesqe7awk3v4qvzctgk",
+  "subdenom": "toke",
+  "denom_units": [
+    {
+      "denom": "coin.zig1gvra76j62jw6jwfav6gefcmurwv4vdl8euwcn0uyesqe7awk3v4qvzctgk.toke",
+      "exponent": 0
+    },
+    {
+      "denom": "TOKE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

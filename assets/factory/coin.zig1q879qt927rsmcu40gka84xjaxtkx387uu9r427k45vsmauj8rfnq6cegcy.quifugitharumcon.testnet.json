@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1q879qt927rsmcu40gka84xjaxtkx387uu9r427k45vsmauj8rfnq6cegcy.quifugitharumcon",
+  "type": "factory",
+  "symbol": "QUIFUGITHARUMCON",
+  "name": "Quifugitharumcon",
+  "decimals": 6,
+  "display_denom": "QUIFUGITHARUMCON",
+  "base_denom": "coin.zig1q879qt927rsmcu40gka84xjaxtkx387uu9r427k45vsmauj8rfnq6cegcy.quifugitharumcon",
+  "creator": "zig1q879qt927rsmcu40gka84xjaxtkx387uu9r427k45vsmauj8rfnq6cegcy",
+  "subdenom": "quifugitharumcon",
+  "denom_units": [
+    {
+      "denom": "coin.zig1q879qt927rsmcu40gka84xjaxtkx387uu9r427k45vsmauj8rfnq6cegcy.quifugitharumcon",
+      "exponent": 0
+    },
+    {
+      "denom": "QUIFUGITHARUMCON",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

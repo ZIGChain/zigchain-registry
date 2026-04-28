@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1slz57e5kl047z4fh8jeqpq6zj2nzuq8swxvdtpjnv7uw3qvhfmtsahvpj9.sapienterepellendus",
+  "type": "factory",
+  "symbol": "SAPIENTEREPELLENDUS",
+  "name": "Sapienterepellendus",
+  "decimals": 6,
+  "display_denom": "SAPIENTEREPELLENDUS",
+  "base_denom": "coin.zig1slz57e5kl047z4fh8jeqpq6zj2nzuq8swxvdtpjnv7uw3qvhfmtsahvpj9.sapienterepellendus",
+  "creator": "zig1slz57e5kl047z4fh8jeqpq6zj2nzuq8swxvdtpjnv7uw3qvhfmtsahvpj9",
+  "subdenom": "sapienterepellendus",
+  "denom_units": [
+    {
+      "denom": "coin.zig1slz57e5kl047z4fh8jeqpq6zj2nzuq8swxvdtpjnv7uw3qvhfmtsahvpj9.sapienterepellendus",
+      "exponent": 0
+    },
+    {
+      "denom": "SAPIENTEREPELLENDUS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

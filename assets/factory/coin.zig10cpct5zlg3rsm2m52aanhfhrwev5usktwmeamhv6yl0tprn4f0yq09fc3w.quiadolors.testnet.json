@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig10cpct5zlg3rsm2m52aanhfhrwev5usktwmeamhv6yl0tprn4f0yq09fc3w.quiadolors",
+  "type": "factory",
+  "symbol": "QUIADOLORS",
+  "name": "Quiadolors",
+  "decimals": 6,
+  "display_denom": "QUIADOLORS",
+  "base_denom": "coin.zig10cpct5zlg3rsm2m52aanhfhrwev5usktwmeamhv6yl0tprn4f0yq09fc3w.quiadolors",
+  "creator": "zig10cpct5zlg3rsm2m52aanhfhrwev5usktwmeamhv6yl0tprn4f0yq09fc3w",
+  "subdenom": "quiadolors",
+  "denom_units": [
+    {
+      "denom": "coin.zig10cpct5zlg3rsm2m52aanhfhrwev5usktwmeamhv6yl0tprn4f0yq09fc3w.quiadolors",
+      "exponent": 0
+    },
+    {
+      "denom": "QUIADOLORS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

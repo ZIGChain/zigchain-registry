@@ -1,0 +1,37 @@
+name: Check Schema Generation
+
+on:
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  check-schemas:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Generate JSON Schemas
+        run: |
+          python3 scripts/generate_schemas.py
+
+      - name: Ensure schemas are committed
+        run: |
+          echo "Checking whether generated schemas match committed files..."
+          git status --porcelain schemas/
+          if ! git diff --quiet -- schemas/; then
+            echo "::error::Generated schema files differ from what is committed. Run scripts/generate_schemas.py and commit the changes."
+            echo ""
+            echo "Schema diff:"
+            git diff -- schemas/
+            exit 1
+          fi

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1stevyalg4va0xptze7klf4ltmrwu9pk6g3xnmekgk0efyqvraq7sd6uw27.inaliquipplaceat",
+  "type": "factory",
+  "symbol": "INALIQUIPPLACEAT",
+  "name": "Inaliquipplaceat",
+  "decimals": 6,
+  "display_denom": "INALIQUIPPLACEAT",
+  "base_denom": "coin.zig1stevyalg4va0xptze7klf4ltmrwu9pk6g3xnmekgk0efyqvraq7sd6uw27.inaliquipplaceat",
+  "creator": "zig1stevyalg4va0xptze7klf4ltmrwu9pk6g3xnmekgk0efyqvraq7sd6uw27",
+  "subdenom": "inaliquipplaceat",
+  "denom_units": [
+    {
+      "denom": "coin.zig1stevyalg4va0xptze7klf4ltmrwu9pk6g3xnmekgk0efyqvraq7sd6uw27.inaliquipplaceat",
+      "exponent": 0
+    },
+    {
+      "denom": "INALIQUIPPLACEAT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

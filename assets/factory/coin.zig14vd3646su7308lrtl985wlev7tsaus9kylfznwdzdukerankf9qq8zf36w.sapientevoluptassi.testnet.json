@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14vd3646su7308lrtl985wlev7tsaus9kylfznwdzdukerankf9qq8zf36w.sapientevoluptassi",
+  "type": "factory",
+  "symbol": "SAPIENTEVOLUPTASSI",
+  "name": "Sapientevoluptassi",
+  "decimals": 6,
+  "display_denom": "SAPIENTEVOLUPTASSI",
+  "base_denom": "coin.zig14vd3646su7308lrtl985wlev7tsaus9kylfznwdzdukerankf9qq8zf36w.sapientevoluptassi",
+  "creator": "zig14vd3646su7308lrtl985wlev7tsaus9kylfznwdzdukerankf9qq8zf36w",
+  "subdenom": "sapientevoluptassi",
+  "denom_units": [
+    {
+      "denom": "coin.zig14vd3646su7308lrtl985wlev7tsaus9kylfznwdzdukerankf9qq8zf36w.sapientevoluptassi",
+      "exponent": 0
+    },
+    {
+      "denom": "SAPIENTEVOLUPTASSI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

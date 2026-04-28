@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ezsn27rzfpqkrw8wq86p7thq0a5cu8e3u9d27s7thuj4aymewyasdaqpvl.mmm282",
+  "type": "factory",
+  "symbol": "MMM282",
+  "name": "Mmm282",
+  "decimals": 6,
+  "display_denom": "MMM282",
+  "base_denom": "coin.zig1ezsn27rzfpqkrw8wq86p7thq0a5cu8e3u9d27s7thuj4aymewyasdaqpvl.mmm282",
+  "creator": "zig1ezsn27rzfpqkrw8wq86p7thq0a5cu8e3u9d27s7thuj4aymewyasdaqpvl",
+  "subdenom": "mmm282",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ezsn27rzfpqkrw8wq86p7thq0a5cu8e3u9d27s7thuj4aymewyasdaqpvl.mmm282",
+      "exponent": 0
+    },
+    {
+      "denom": "MMM282",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

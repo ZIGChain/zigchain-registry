@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1w8ydxh4a83vgaxsf9ly4w6wpxlmxcr2krawhwwjk3n9nswdr9p2swm3ycm.omnisutoptioopti",
+  "type": "factory",
+  "symbol": "OMNISUTOPTIOOPTI",
+  "name": "Omnisutoptioopti",
+  "decimals": 6,
+  "display_denom": "OMNISUTOPTIOOPTI",
+  "base_denom": "coin.zig1w8ydxh4a83vgaxsf9ly4w6wpxlmxcr2krawhwwjk3n9nswdr9p2swm3ycm.omnisutoptioopti",
+  "creator": "zig1w8ydxh4a83vgaxsf9ly4w6wpxlmxcr2krawhwwjk3n9nswdr9p2swm3ycm",
+  "subdenom": "omnisutoptioopti",
+  "denom_units": [
+    {
+      "denom": "coin.zig1w8ydxh4a83vgaxsf9ly4w6wpxlmxcr2krawhwwjk3n9nswdr9p2swm3ycm.omnisutoptioopti",
+      "exponent": 0
+    },
+    {
+      "denom": "OMNISUTOPTIOOPTI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

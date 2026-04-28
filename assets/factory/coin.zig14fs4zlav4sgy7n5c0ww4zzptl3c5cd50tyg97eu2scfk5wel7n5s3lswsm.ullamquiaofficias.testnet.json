@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14fs4zlav4sgy7n5c0ww4zzptl3c5cd50tyg97eu2scfk5wel7n5s3lswsm.ullamquiaofficias",
+  "type": "factory",
+  "symbol": "ULLAMQUIAOFFICIAS",
+  "name": "Ullamquiaofficias",
+  "decimals": 6,
+  "display_denom": "ULLAMQUIAOFFICIAS",
+  "base_denom": "coin.zig14fs4zlav4sgy7n5c0ww4zzptl3c5cd50tyg97eu2scfk5wel7n5s3lswsm.ullamquiaofficias",
+  "creator": "zig14fs4zlav4sgy7n5c0ww4zzptl3c5cd50tyg97eu2scfk5wel7n5s3lswsm",
+  "subdenom": "ullamquiaofficias",
+  "denom_units": [
+    {
+      "denom": "coin.zig14fs4zlav4sgy7n5c0ww4zzptl3c5cd50tyg97eu2scfk5wel7n5s3lswsm.ullamquiaofficias",
+      "exponent": 0
+    },
+    {
+      "denom": "ULLAMQUIAOFFICIAS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

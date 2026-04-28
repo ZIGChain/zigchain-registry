@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1x4g2uwcneqmel7uvtqxllu6k4x0men7kfucfd7w7l9jc35ejw30quuz8l6.asasa",
+  "type": "factory",
+  "symbol": "ASASA",
+  "name": "Asasa",
+  "decimals": 6,
+  "display_denom": "ASASA",
+  "base_denom": "coin.zig1x4g2uwcneqmel7uvtqxllu6k4x0men7kfucfd7w7l9jc35ejw30quuz8l6.asasa",
+  "creator": "zig1x4g2uwcneqmel7uvtqxllu6k4x0men7kfucfd7w7l9jc35ejw30quuz8l6",
+  "subdenom": "asasa",
+  "denom_units": [
+    {
+      "denom": "coin.zig1x4g2uwcneqmel7uvtqxllu6k4x0men7kfucfd7w7l9jc35ejw30quuz8l6.asasa",
+      "exponent": 0
+    },
+    {
+      "denom": "ASASA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

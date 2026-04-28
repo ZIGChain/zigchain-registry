@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig137d0es4c0az86nsaprj3x4zttu92z9va3n9gte86cdknaa8mfn9qpl0vrd.nutellax",
+  "type": "factory",
+  "symbol": "NUTELLAX",
+  "name": "Nutellax",
+  "decimals": 6,
+  "display_denom": "NUTELLAX",
+  "base_denom": "coin.zig137d0es4c0az86nsaprj3x4zttu92z9va3n9gte86cdknaa8mfn9qpl0vrd.nutellax",
+  "creator": "zig137d0es4c0az86nsaprj3x4zttu92z9va3n9gte86cdknaa8mfn9qpl0vrd",
+  "subdenom": "nutellax",
+  "denom_units": [
+    {
+      "denom": "coin.zig137d0es4c0az86nsaprj3x4zttu92z9va3n9gte86cdknaa8mfn9qpl0vrd.nutellax",
+      "exponent": 0
+    },
+    {
+      "denom": "NUTELLAX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

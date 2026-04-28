@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1qxu66z46ewkqn5vm8wz8dryhhv8u8he9v9x2lyhr3cm5wyzvvlmqf8lmcf.nifterx",
+  "type": "factory",
+  "symbol": "NIFTERX",
+  "name": "Nifterx",
+  "decimals": 6,
+  "display_denom": "NIFTERX",
+  "base_denom": "coin.zig1qxu66z46ewkqn5vm8wz8dryhhv8u8he9v9x2lyhr3cm5wyzvvlmqf8lmcf.nifterx",
+  "creator": "zig1qxu66z46ewkqn5vm8wz8dryhhv8u8he9v9x2lyhr3cm5wyzvvlmqf8lmcf",
+  "subdenom": "nifterx",
+  "denom_units": [
+    {
+      "denom": "coin.zig1qxu66z46ewkqn5vm8wz8dryhhv8u8he9v9x2lyhr3cm5wyzvvlmqf8lmcf.nifterx",
+      "exponent": 0
+    },
+    {
+      "denom": "NIFTERX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

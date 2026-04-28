@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17v4ucjva5pjrt5g8rqthknllyh7hzecv746kjsytn7njfpv3hwas63496s.huntrix",
+  "type": "factory",
+  "symbol": "HUNTRIX",
+  "name": "Huntrix",
+  "decimals": 6,
+  "display_denom": "HUNTRIX",
+  "base_denom": "coin.zig17v4ucjva5pjrt5g8rqthknllyh7hzecv746kjsytn7njfpv3hwas63496s.huntrix",
+  "creator": "zig17v4ucjva5pjrt5g8rqthknllyh7hzecv746kjsytn7njfpv3hwas63496s",
+  "subdenom": "huntrix",
+  "denom_units": [
+    {
+      "denom": "coin.zig17v4ucjva5pjrt5g8rqthknllyh7hzecv746kjsytn7njfpv3hwas63496s.huntrix",
+      "exponent": 0
+    },
+    {
+      "denom": "HUNTRIX",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

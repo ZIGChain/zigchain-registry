@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig14w3acrj89tqqg5lurll83wd69d99rxsve2fdsj3xed4gptahd7ysu54pc5.minimamollitiaelit",
+  "type": "factory",
+  "symbol": "MINIMAMOLLITIAELIT",
+  "name": "Minimamollitiaelit",
+  "decimals": 6,
+  "display_denom": "MINIMAMOLLITIAELIT",
+  "base_denom": "coin.zig14w3acrj89tqqg5lurll83wd69d99rxsve2fdsj3xed4gptahd7ysu54pc5.minimamollitiaelit",
+  "creator": "zig14w3acrj89tqqg5lurll83wd69d99rxsve2fdsj3xed4gptahd7ysu54pc5",
+  "subdenom": "minimamollitiaelit",
+  "denom_units": [
+    {
+      "denom": "coin.zig14w3acrj89tqqg5lurll83wd69d99rxsve2fdsj3xed4gptahd7ysu54pc5.minimamollitiaelit",
+      "exponent": 0
+    },
+    {
+      "denom": "MINIMAMOLLITIAELIT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

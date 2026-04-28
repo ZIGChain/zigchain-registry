@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1296u64kgx7qv8u5x2qq78gh9q7chdvutx5cdvgdcxrv3nefs2gzqv5t4c5.robot",
+  "type": "factory",
+  "symbol": "ROBOT",
+  "name": "Robot",
+  "decimals": 6,
+  "display_denom": "ROBOT",
+  "base_denom": "coin.zig1296u64kgx7qv8u5x2qq78gh9q7chdvutx5cdvgdcxrv3nefs2gzqv5t4c5.robot",
+  "creator": "zig1296u64kgx7qv8u5x2qq78gh9q7chdvutx5cdvgdcxrv3nefs2gzqv5t4c5",
+  "subdenom": "robot",
+  "denom_units": [
+    {
+      "denom": "coin.zig1296u64kgx7qv8u5x2qq78gh9q7chdvutx5cdvgdcxrv3nefs2gzqv5t4c5.robot",
+      "exponent": 0
+    },
+    {
+      "denom": "ROBOT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

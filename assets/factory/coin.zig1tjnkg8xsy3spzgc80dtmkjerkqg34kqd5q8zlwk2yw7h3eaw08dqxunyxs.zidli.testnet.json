@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1tjnkg8xsy3spzgc80dtmkjerkqg34kqd5q8zlwk2yw7h3eaw08dqxunyxs.zidli",
+  "type": "factory",
+  "symbol": "ZIDLI",
+  "name": "Zidli",
+  "decimals": 6,
+  "display_denom": "ZIDLI",
+  "base_denom": "coin.zig1tjnkg8xsy3spzgc80dtmkjerkqg34kqd5q8zlwk2yw7h3eaw08dqxunyxs.zidli",
+  "creator": "zig1tjnkg8xsy3spzgc80dtmkjerkqg34kqd5q8zlwk2yw7h3eaw08dqxunyxs",
+  "subdenom": "zidli",
+  "denom_units": [
+    {
+      "denom": "coin.zig1tjnkg8xsy3spzgc80dtmkjerkqg34kqd5q8zlwk2yw7h3eaw08dqxunyxs.zidli",
+      "exponent": 0
+    },
+    {
+      "denom": "ZIDLI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1dmhsva878xqra3wsy6kqn8hcws2076n89z8rq0apcsd8vpttzwfsfegwce.placeattemporibus",
+  "type": "factory",
+  "symbol": "PLACEATTEMPORIBUS",
+  "name": "Placeattemporibus",
+  "decimals": 6,
+  "display_denom": "PLACEATTEMPORIBUS",
+  "base_denom": "coin.zig1dmhsva878xqra3wsy6kqn8hcws2076n89z8rq0apcsd8vpttzwfsfegwce.placeattemporibus",
+  "creator": "zig1dmhsva878xqra3wsy6kqn8hcws2076n89z8rq0apcsd8vpttzwfsfegwce",
+  "subdenom": "placeattemporibus",
+  "denom_units": [
+    {
+      "denom": "coin.zig1dmhsva878xqra3wsy6kqn8hcws2076n89z8rq0apcsd8vpttzwfsfegwce.placeattemporibus",
+      "exponent": 0
+    },
+    {
+      "denom": "PLACEATTEMPORIBUS",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1xvlqefex8p895v06r5ep8zs4efanj5j4l2aaqwu9wqmr3p3y9pqqflk54p.yrbcoin",
+  "type": "factory",
+  "symbol": "YRBCOIN",
+  "name": "Yrbcoin",
+  "decimals": 6,
+  "display_denom": "YRBCOIN",
+  "base_denom": "coin.zig1xvlqefex8p895v06r5ep8zs4efanj5j4l2aaqwu9wqmr3p3y9pqqflk54p.yrbcoin",
+  "creator": "zig1xvlqefex8p895v06r5ep8zs4efanj5j4l2aaqwu9wqmr3p3y9pqqflk54p",
+  "subdenom": "yrbcoin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1xvlqefex8p895v06r5ep8zs4efanj5j4l2aaqwu9wqmr3p3y9pqqflk54p.yrbcoin",
+      "exponent": 0
+    },
+    {
+      "denom": "YRBCOIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

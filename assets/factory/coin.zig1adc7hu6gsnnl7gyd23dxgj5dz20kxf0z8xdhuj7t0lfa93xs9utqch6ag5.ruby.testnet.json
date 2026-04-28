@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1adc7hu6gsnnl7gyd23dxgj5dz20kxf0z8xdhuj7t0lfa93xs9utqch6ag5.ruby",
+  "type": "factory",
+  "symbol": "RUBY",
+  "name": "Ruby",
+  "decimals": 6,
+  "display_denom": "RUBY",
+  "base_denom": "coin.zig1adc7hu6gsnnl7gyd23dxgj5dz20kxf0z8xdhuj7t0lfa93xs9utqch6ag5.ruby",
+  "creator": "zig1adc7hu6gsnnl7gyd23dxgj5dz20kxf0z8xdhuj7t0lfa93xs9utqch6ag5",
+  "subdenom": "ruby",
+  "denom_units": [
+    {
+      "denom": "coin.zig1adc7hu6gsnnl7gyd23dxgj5dz20kxf0z8xdhuj7t0lfa93xs9utqch6ag5.ruby",
+      "exponent": 0
+    },
+    {
+      "denom": "RUBY",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig18vw3wysr29gkh0ppn66nqeud2h33x4u6gwg7vyrcdkx8uwa64jrst6lf64.nemoquasieiusmodd",
+  "type": "factory",
+  "symbol": "NEMOQUASIEIUSMODD",
+  "name": "Nemoquasieiusmodd",
+  "decimals": 6,
+  "display_denom": "NEMOQUASIEIUSMODD",
+  "base_denom": "coin.zig18vw3wysr29gkh0ppn66nqeud2h33x4u6gwg7vyrcdkx8uwa64jrst6lf64.nemoquasieiusmodd",
+  "creator": "zig18vw3wysr29gkh0ppn66nqeud2h33x4u6gwg7vyrcdkx8uwa64jrst6lf64",
+  "subdenom": "nemoquasieiusmodd",
+  "denom_units": [
+    {
+      "denom": "coin.zig18vw3wysr29gkh0ppn66nqeud2h33x4u6gwg7vyrcdkx8uwa64jrst6lf64.nemoquasieiusmodd",
+      "exponent": 0
+    },
+    {
+      "denom": "NEMOQUASIEIUSMODD",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

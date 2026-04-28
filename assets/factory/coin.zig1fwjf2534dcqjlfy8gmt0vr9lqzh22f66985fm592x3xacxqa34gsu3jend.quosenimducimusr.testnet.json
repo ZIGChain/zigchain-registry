@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1fwjf2534dcqjlfy8gmt0vr9lqzh22f66985fm592x3xacxqa34gsu3jend.quosenimducimusr",
+  "type": "factory",
+  "symbol": "QUOSENIMDUCIMUSR",
+  "name": "Quosenimducimusr",
+  "decimals": 6,
+  "display_denom": "QUOSENIMDUCIMUSR",
+  "base_denom": "coin.zig1fwjf2534dcqjlfy8gmt0vr9lqzh22f66985fm592x3xacxqa34gsu3jend.quosenimducimusr",
+  "creator": "zig1fwjf2534dcqjlfy8gmt0vr9lqzh22f66985fm592x3xacxqa34gsu3jend",
+  "subdenom": "quosenimducimusr",
+  "denom_units": [
+    {
+      "denom": "coin.zig1fwjf2534dcqjlfy8gmt0vr9lqzh22f66985fm592x3xacxqa34gsu3jend.quosenimducimusr",
+      "exponent": 0
+    },
+    {
+      "denom": "QUOSENIMDUCIMUSR",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

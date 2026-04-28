@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mahucaeg89ecxevtaz43egcfk6vukckgjwpumaru9kfukc3xsujs5evyjq.token",
+  "type": "factory",
+  "symbol": "TOKEN",
+  "name": "Token",
+  "decimals": 6,
+  "display_denom": "TOKEN",
+  "base_denom": "coin.zig1mahucaeg89ecxevtaz43egcfk6vukckgjwpumaru9kfukc3xsujs5evyjq.token",
+  "creator": "zig1mahucaeg89ecxevtaz43egcfk6vukckgjwpumaru9kfukc3xsujs5evyjq",
+  "subdenom": "token",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mahucaeg89ecxevtaz43egcfk6vukckgjwpumaru9kfukc3xsujs5evyjq.token",
+      "exponent": 0
+    },
+    {
+      "denom": "TOKEN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

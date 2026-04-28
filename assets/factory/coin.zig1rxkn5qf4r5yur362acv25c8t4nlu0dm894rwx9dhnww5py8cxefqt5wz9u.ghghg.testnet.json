@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rxkn5qf4r5yur362acv25c8t4nlu0dm894rwx9dhnww5py8cxefqt5wz9u.ghghg",
+  "type": "factory",
+  "symbol": "GHGHG",
+  "name": "Ghghg",
+  "decimals": 6,
+  "display_denom": "GHGHG",
+  "base_denom": "coin.zig1rxkn5qf4r5yur362acv25c8t4nlu0dm894rwx9dhnww5py8cxefqt5wz9u.ghghg",
+  "creator": "zig1rxkn5qf4r5yur362acv25c8t4nlu0dm894rwx9dhnww5py8cxefqt5wz9u",
+  "subdenom": "ghghg",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rxkn5qf4r5yur362acv25c8t4nlu0dm894rwx9dhnww5py8cxefqt5wz9u.ghghg",
+      "exponent": 0
+    },
+    {
+      "denom": "GHGHG",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

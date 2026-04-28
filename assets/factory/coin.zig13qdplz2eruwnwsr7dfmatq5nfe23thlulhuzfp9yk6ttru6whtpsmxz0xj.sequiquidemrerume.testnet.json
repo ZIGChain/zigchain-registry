@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13qdplz2eruwnwsr7dfmatq5nfe23thlulhuzfp9yk6ttru6whtpsmxz0xj.sequiquidemrerume",
+  "type": "factory",
+  "symbol": "SEQUIQUIDEMRERUME",
+  "name": "Sequiquidemrerume",
+  "decimals": 6,
+  "display_denom": "SEQUIQUIDEMRERUME",
+  "base_denom": "coin.zig13qdplz2eruwnwsr7dfmatq5nfe23thlulhuzfp9yk6ttru6whtpsmxz0xj.sequiquidemrerume",
+  "creator": "zig13qdplz2eruwnwsr7dfmatq5nfe23thlulhuzfp9yk6ttru6whtpsmxz0xj",
+  "subdenom": "sequiquidemrerume",
+  "denom_units": [
+    {
+      "denom": "coin.zig13qdplz2eruwnwsr7dfmatq5nfe23thlulhuzfp9yk6ttru6whtpsmxz0xj.sequiquidemrerume",
+      "exponent": 0
+    },
+    {
+      "denom": "SEQUIQUIDEMRERUME",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

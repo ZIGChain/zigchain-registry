@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1t8z304wflkn7qelf9jcwrj5zzkdee0mzuzqjffxn2j7s9466cj9szuhmpt.sitcorruptiiurel",
+  "type": "factory",
+  "symbol": "SITCORRUPTIIUREL",
+  "name": "Sitcorruptiiurel",
+  "decimals": 6,
+  "display_denom": "SITCORRUPTIIUREL",
+  "base_denom": "coin.zig1t8z304wflkn7qelf9jcwrj5zzkdee0mzuzqjffxn2j7s9466cj9szuhmpt.sitcorruptiiurel",
+  "creator": "zig1t8z304wflkn7qelf9jcwrj5zzkdee0mzuzqjffxn2j7s9466cj9szuhmpt",
+  "subdenom": "sitcorruptiiurel",
+  "denom_units": [
+    {
+      "denom": "coin.zig1t8z304wflkn7qelf9jcwrj5zzkdee0mzuzqjffxn2j7s9466cj9szuhmpt.sitcorruptiiurel",
+      "exponent": 0
+    },
+    {
+      "denom": "SITCORRUPTIIUREL",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

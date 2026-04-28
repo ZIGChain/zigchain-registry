@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig13lmkxrnegzr3upthtx3hxcyeq5ku36c78t69wj9zazl67tp7ly4scwdlxw.ishowspeed",
+  "type": "factory",
+  "symbol": "ISHOWSPEED",
+  "name": "Ishowspeed",
+  "decimals": 6,
+  "display_denom": "ISHOWSPEED",
+  "base_denom": "coin.zig13lmkxrnegzr3upthtx3hxcyeq5ku36c78t69wj9zazl67tp7ly4scwdlxw.ishowspeed",
+  "creator": "zig13lmkxrnegzr3upthtx3hxcyeq5ku36c78t69wj9zazl67tp7ly4scwdlxw",
+  "subdenom": "ishowspeed",
+  "denom_units": [
+    {
+      "denom": "coin.zig13lmkxrnegzr3upthtx3hxcyeq5ku36c78t69wj9zazl67tp7ly4scwdlxw.ishowspeed",
+      "exponent": 0
+    },
+    {
+      "denom": "ISHOWSPEED",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

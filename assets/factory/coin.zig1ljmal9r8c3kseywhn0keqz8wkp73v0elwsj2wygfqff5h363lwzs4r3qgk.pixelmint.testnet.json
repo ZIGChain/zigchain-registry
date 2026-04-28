@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1ljmal9r8c3kseywhn0keqz8wkp73v0elwsj2wygfqff5h363lwzs4r3qgk.pixelmint",
+  "type": "factory",
+  "symbol": "PIXELMINT",
+  "name": "Pixelmint",
+  "decimals": 6,
+  "display_denom": "PIXELMINT",
+  "base_denom": "coin.zig1ljmal9r8c3kseywhn0keqz8wkp73v0elwsj2wygfqff5h363lwzs4r3qgk.pixelmint",
+  "creator": "zig1ljmal9r8c3kseywhn0keqz8wkp73v0elwsj2wygfqff5h363lwzs4r3qgk",
+  "subdenom": "pixelmint",
+  "denom_units": [
+    {
+      "denom": "coin.zig1ljmal9r8c3kseywhn0keqz8wkp73v0elwsj2wygfqff5h363lwzs4r3qgk.pixelmint",
+      "exponent": 0
+    },
+    {
+      "denom": "PIXELMINT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

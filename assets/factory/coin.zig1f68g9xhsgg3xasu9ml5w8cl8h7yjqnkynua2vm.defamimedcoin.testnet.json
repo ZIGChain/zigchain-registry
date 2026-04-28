@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.defamimedcoin",
+  "type": "factory",
+  "symbol": "DEFAMIMEDCOIN",
+  "name": "Defamimedcoin",
+  "decimals": 6,
+  "display_denom": "DEFAMIMEDCOIN",
+  "base_denom": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.defamimedcoin",
+  "creator": "zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm",
+  "subdenom": "defamimedcoin",
+  "denom_units": [
+    {
+      "denom": "coin.zig1f68g9xhsgg3xasu9ml5w8cl8h7yjqnkynua2vm.defamimedcoin",
+      "exponent": 0
+    },
+    {
+      "denom": "DEFAMIMEDCOIN",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

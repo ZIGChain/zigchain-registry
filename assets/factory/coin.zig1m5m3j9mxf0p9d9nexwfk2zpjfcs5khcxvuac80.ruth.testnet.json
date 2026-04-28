@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1m5m3j9mxf0p9d9nexwfk2zpjfcs5khcxvuac80.ruth",
+  "type": "factory",
+  "symbol": "RUTH",
+  "name": "Ruth",
+  "decimals": 6,
+  "display_denom": "RUTH",
+  "base_denom": "coin.zig1m5m3j9mxf0p9d9nexwfk2zpjfcs5khcxvuac80.ruth",
+  "creator": "zig1m5m3j9mxf0p9d9nexwfk2zpjfcs5khcxvuac80",
+  "subdenom": "ruth",
+  "denom_units": [
+    {
+      "denom": "coin.zig1m5m3j9mxf0p9d9nexwfk2zpjfcs5khcxvuac80.ruth",
+      "exponent": 0
+    },
+    {
+      "denom": "RUTH",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig12ek96s068pcghr04t4wfuduz2q00cav8edfp4jzecxw0nanhm48svherwr.zmzig",
+  "type": "factory",
+  "symbol": "ZMZIG",
+  "name": "Zmzig",
+  "decimals": 6,
+  "display_denom": "ZMZIG",
+  "base_denom": "coin.zig12ek96s068pcghr04t4wfuduz2q00cav8edfp4jzecxw0nanhm48svherwr.zmzig",
+  "creator": "zig12ek96s068pcghr04t4wfuduz2q00cav8edfp4jzecxw0nanhm48svherwr",
+  "subdenom": "zmzig",
+  "denom_units": [
+    {
+      "denom": "coin.zig12ek96s068pcghr04t4wfuduz2q00cav8edfp4jzecxw0nanhm48svherwr.zmzig",
+      "exponent": 0
+    },
+    {
+      "denom": "ZMZIG",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

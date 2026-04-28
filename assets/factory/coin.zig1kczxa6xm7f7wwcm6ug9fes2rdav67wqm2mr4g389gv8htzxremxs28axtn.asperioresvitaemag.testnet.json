@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1kczxa6xm7f7wwcm6ug9fes2rdav67wqm2mr4g389gv8htzxremxs28axtn.asperioresvitaemag",
+  "type": "factory",
+  "symbol": "ASPERIORESVITAEMAG",
+  "name": "Asperioresvitaemag",
+  "decimals": 6,
+  "display_denom": "ASPERIORESVITAEMAG",
+  "base_denom": "coin.zig1kczxa6xm7f7wwcm6ug9fes2rdav67wqm2mr4g389gv8htzxremxs28axtn.asperioresvitaemag",
+  "creator": "zig1kczxa6xm7f7wwcm6ug9fes2rdav67wqm2mr4g389gv8htzxremxs28axtn",
+  "subdenom": "asperioresvitaemag",
+  "denom_units": [
+    {
+      "denom": "coin.zig1kczxa6xm7f7wwcm6ug9fes2rdav67wqm2mr4g389gv8htzxremxs28axtn.asperioresvitaemag",
+      "exponent": 0
+    },
+    {
+      "denom": "ASPERIORESVITAEMAG",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

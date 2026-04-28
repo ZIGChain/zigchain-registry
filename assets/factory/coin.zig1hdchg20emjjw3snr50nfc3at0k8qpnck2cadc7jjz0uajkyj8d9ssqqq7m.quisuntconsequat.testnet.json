@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hdchg20emjjw3snr50nfc3at0k8qpnck2cadc7jjz0uajkyj8d9ssqqq7m.quisuntconsequat",
+  "type": "factory",
+  "symbol": "QUISUNTCONSEQUAT",
+  "name": "Quisuntconsequat",
+  "decimals": 6,
+  "display_denom": "QUISUNTCONSEQUAT",
+  "base_denom": "coin.zig1hdchg20emjjw3snr50nfc3at0k8qpnck2cadc7jjz0uajkyj8d9ssqqq7m.quisuntconsequat",
+  "creator": "zig1hdchg20emjjw3snr50nfc3at0k8qpnck2cadc7jjz0uajkyj8d9ssqqq7m",
+  "subdenom": "quisuntconsequat",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hdchg20emjjw3snr50nfc3at0k8qpnck2cadc7jjz0uajkyj8d9ssqqq7m.quisuntconsequat",
+      "exponent": 0
+    },
+    {
+      "denom": "QUISUNTCONSEQUAT",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

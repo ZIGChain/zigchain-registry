@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17az4g0mnluss2ad6c6sqmy670qze8g8zx4jacv0vwn6gn644yrwqcchejy.autsuntestsedof",
+  "type": "factory",
+  "symbol": "AUTSUNTESTSEDOF",
+  "name": "Autsuntestsedof",
+  "decimals": 6,
+  "display_denom": "AUTSUNTESTSEDOF",
+  "base_denom": "coin.zig17az4g0mnluss2ad6c6sqmy670qze8g8zx4jacv0vwn6gn644yrwqcchejy.autsuntestsedof",
+  "creator": "zig17az4g0mnluss2ad6c6sqmy670qze8g8zx4jacv0vwn6gn644yrwqcchejy",
+  "subdenom": "autsuntestsedof",
+  "denom_units": [
+    {
+      "denom": "coin.zig17az4g0mnluss2ad6c6sqmy670qze8g8zx4jacv0vwn6gn644yrwqcchejy.autsuntestsedof",
+      "exponent": 0
+    },
+    {
+      "denom": "AUTSUNTESTSEDOF",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

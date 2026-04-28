@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1farmc5gxc84hs8tuw3uz83p05qn7jpzukz2xs80msj0m285qpgkqnhctgr.quietculpalabori",
+  "type": "factory",
+  "symbol": "QUIETCULPALABORI",
+  "name": "Quietculpalabori",
+  "decimals": 6,
+  "display_denom": "QUIETCULPALABORI",
+  "base_denom": "coin.zig1farmc5gxc84hs8tuw3uz83p05qn7jpzukz2xs80msj0m285qpgkqnhctgr.quietculpalabori",
+  "creator": "zig1farmc5gxc84hs8tuw3uz83p05qn7jpzukz2xs80msj0m285qpgkqnhctgr",
+  "subdenom": "quietculpalabori",
+  "denom_units": [
+    {
+      "denom": "coin.zig1farmc5gxc84hs8tuw3uz83p05qn7jpzukz2xs80msj0m285qpgkqnhctgr.quietculpalabori",
+      "exponent": 0
+    },
+    {
+      "denom": "QUIETCULPALABORI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

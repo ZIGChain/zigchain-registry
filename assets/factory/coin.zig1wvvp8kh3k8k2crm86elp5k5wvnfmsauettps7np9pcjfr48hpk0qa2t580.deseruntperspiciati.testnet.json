@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1wvvp8kh3k8k2crm86elp5k5wvnfmsauettps7np9pcjfr48hpk0qa2t580.deseruntperspiciati",
+  "type": "factory",
+  "symbol": "DESERUNTPERSPICIATI",
+  "name": "Deseruntperspiciati",
+  "decimals": 6,
+  "display_denom": "DESERUNTPERSPICIATI",
+  "base_denom": "coin.zig1wvvp8kh3k8k2crm86elp5k5wvnfmsauettps7np9pcjfr48hpk0qa2t580.deseruntperspiciati",
+  "creator": "zig1wvvp8kh3k8k2crm86elp5k5wvnfmsauettps7np9pcjfr48hpk0qa2t580",
+  "subdenom": "deseruntperspiciati",
+  "denom_units": [
+    {
+      "denom": "coin.zig1wvvp8kh3k8k2crm86elp5k5wvnfmsauettps7np9pcjfr48hpk0qa2t580.deseruntperspiciati",
+      "exponent": 0
+    },
+    {
+      "denom": "DESERUNTPERSPICIATI",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

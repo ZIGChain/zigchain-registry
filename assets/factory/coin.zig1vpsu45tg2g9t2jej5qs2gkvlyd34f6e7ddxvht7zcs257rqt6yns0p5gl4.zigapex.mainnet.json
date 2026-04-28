@@ -1,0 +1,19 @@
+{
+  "network": "mainnet",
+  "asset_id": "coin.zig1vpsu45tg2g9t2jej5qs2gkvlyd34f6e7ddxvht7zcs257rqt6yns0p5gl4.zigapex",
+  "type": "factory",
+  "symbol": "ZIGAPEX",
+  "name": "Zigapex",
+  "decimals": 6,
+  "denom_units": [
+    {
+      "denom": "coin.zig1vpsu45tg2g9t2jej5qs2gkvlyd34f6e7ddxvht7zcs257rqt6yns0p5gl4.zigapex",
+      "exponent": 0
+    }
+  ],
+  "display_denom": "coin.zig1vpsu45tg2g9t2jej5qs2gkvlyd34f6e7ddxvht7zcs257rqt6yns0p5gl4.zigapex",
+  "base_denom": "coin.zig1vpsu45tg2g9t2jej5qs2gkvlyd34f6e7ddxvht7zcs257rqt6yns0p5gl4.zigapex",
+  "creator": "zig1vpsu45tg2g9t2jej5qs2gkvlyd34f6e7ddxvht7zcs257rqt6yns0p5gl4",
+  "subdenom": "zigapex",
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

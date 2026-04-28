@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1rexm7497xrjh2dyeegzlvwk9ugdzmx2tqcf4avertwcp9reu07msvzvnze.minusprovidenteum",
+  "type": "factory",
+  "symbol": "MINUSPROVIDENTEUM",
+  "name": "Minusprovidenteum",
+  "decimals": 6,
+  "display_denom": "MINUSPROVIDENTEUM",
+  "base_denom": "coin.zig1rexm7497xrjh2dyeegzlvwk9ugdzmx2tqcf4avertwcp9reu07msvzvnze.minusprovidenteum",
+  "creator": "zig1rexm7497xrjh2dyeegzlvwk9ugdzmx2tqcf4avertwcp9reu07msvzvnze",
+  "subdenom": "minusprovidenteum",
+  "denom_units": [
+    {
+      "denom": "coin.zig1rexm7497xrjh2dyeegzlvwk9ugdzmx2tqcf4avertwcp9reu07msvzvnze.minusprovidenteum",
+      "exponent": 0
+    },
+    {
+      "denom": "MINUSPROVIDENTEUM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

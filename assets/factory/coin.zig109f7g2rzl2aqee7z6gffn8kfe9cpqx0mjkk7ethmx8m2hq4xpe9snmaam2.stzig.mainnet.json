@@ -1,0 +1,34 @@
+{
+  "network": "mainnet",
+  "order": 2,
+  "asset_id": "coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig",
+  "type": "factory",
+  "symbol": "STZIG",
+  "name": "Staked Zig",
+  "description": "Staked Zig Token by Valdora Finance - Decentralized staking with stZIG",
+  "decimals": 6,
+  "display_denom": "stzig",
+  "base_denom": "coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig",
+  "creator": "zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2",
+  "subdenom": "stzig",
+  "denom_units": [
+    {
+      "denom": "coin.zig109f7g2rzl2aqee7z6gffn8kfe9cpqx0mjkk7ethmx8m2hq4xpe9snmaam2.stzig",
+      "exponent": 0
+    },
+    {
+      "denom": "stzig",
+      "exponent": 6
+    }
+  ],
+  "logo_uris": {
+    "png": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/stzig.png"
+  },
+  "socials": {
+    "website": "https://valdora.finance",
+    "telegram": "https://t.me/ValdoraWarriors",
+    "discord": "http://discord.gg/valdora",
+    "x": "https://x.com/Valdora_finance"
+  },
+  "is_verified": true
+}

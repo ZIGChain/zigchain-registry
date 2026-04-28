@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1t5hf6h2s6sh6hul2wzh9lvu77gzkmukw8pmpuus54exer0qqxfyq9uctu0.atsitnihilullam",
+  "type": "factory",
+  "symbol": "ATSITNIHILULLAM",
+  "name": "Atsitnihilullam",
+  "decimals": 6,
+  "display_denom": "ATSITNIHILULLAM",
+  "base_denom": "coin.zig1t5hf6h2s6sh6hul2wzh9lvu77gzkmukw8pmpuus54exer0qqxfyq9uctu0.atsitnihilullam",
+  "creator": "zig1t5hf6h2s6sh6hul2wzh9lvu77gzkmukw8pmpuus54exer0qqxfyq9uctu0",
+  "subdenom": "atsitnihilullam",
+  "denom_units": [
+    {
+      "denom": "coin.zig1t5hf6h2s6sh6hul2wzh9lvu77gzkmukw8pmpuus54exer0qqxfyq9uctu0.atsitnihilullam",
+      "exponent": 0
+    },
+    {
+      "denom": "ATSITNIHILULLAM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

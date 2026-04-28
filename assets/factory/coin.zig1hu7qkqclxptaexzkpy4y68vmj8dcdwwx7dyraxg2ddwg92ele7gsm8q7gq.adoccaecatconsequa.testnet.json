@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1hu7qkqclxptaexzkpy4y68vmj8dcdwwx7dyraxg2ddwg92ele7gsm8q7gq.adoccaecatconsequa",
+  "type": "factory",
+  "symbol": "ADOCCAECATCONSEQUA",
+  "name": "Adoccaecatconsequa",
+  "decimals": 6,
+  "display_denom": "ADOCCAECATCONSEQUA",
+  "base_denom": "coin.zig1hu7qkqclxptaexzkpy4y68vmj8dcdwwx7dyraxg2ddwg92ele7gsm8q7gq.adoccaecatconsequa",
+  "creator": "zig1hu7qkqclxptaexzkpy4y68vmj8dcdwwx7dyraxg2ddwg92ele7gsm8q7gq",
+  "subdenom": "adoccaecatconsequa",
+  "denom_units": [
+    {
+      "denom": "coin.zig1hu7qkqclxptaexzkpy4y68vmj8dcdwwx7dyraxg2ddwg92ele7gsm8q7gq.adoccaecatconsequa",
+      "exponent": 0
+    },
+    {
+      "denom": "ADOCCAECATCONSEQUA",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

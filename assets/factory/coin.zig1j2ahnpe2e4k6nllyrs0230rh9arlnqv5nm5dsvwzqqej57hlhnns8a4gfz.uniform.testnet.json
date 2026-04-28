@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1j2ahnpe2e4k6nllyrs0230rh9arlnqv5nm5dsvwzqqej57hlhnns8a4gfz.uniform",
+  "type": "factory",
+  "symbol": "UNIFORM",
+  "name": "Uniform",
+  "decimals": 6,
+  "display_denom": "UNIFORM",
+  "base_denom": "coin.zig1j2ahnpe2e4k6nllyrs0230rh9arlnqv5nm5dsvwzqqej57hlhnns8a4gfz.uniform",
+  "creator": "zig1j2ahnpe2e4k6nllyrs0230rh9arlnqv5nm5dsvwzqqej57hlhnns8a4gfz",
+  "subdenom": "uniform",
+  "denom_units": [
+    {
+      "denom": "coin.zig1j2ahnpe2e4k6nllyrs0230rh9arlnqv5nm5dsvwzqqej57hlhnns8a4gfz.uniform",
+      "exponent": 0
+    },
+    {
+      "denom": "UNIFORM",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

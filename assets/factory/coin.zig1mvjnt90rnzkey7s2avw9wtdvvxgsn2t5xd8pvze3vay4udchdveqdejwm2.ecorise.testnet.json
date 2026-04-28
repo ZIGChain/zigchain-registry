@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig1mvjnt90rnzkey7s2avw9wtdvvxgsn2t5xd8pvze3vay4udchdveqdejwm2.ecorise",
+  "type": "factory",
+  "symbol": "ECORISE",
+  "name": "Ecorise",
+  "decimals": 6,
+  "display_denom": "ECORISE",
+  "base_denom": "coin.zig1mvjnt90rnzkey7s2avw9wtdvvxgsn2t5xd8pvze3vay4udchdveqdejwm2.ecorise",
+  "creator": "zig1mvjnt90rnzkey7s2avw9wtdvvxgsn2t5xd8pvze3vay4udchdveqdejwm2",
+  "subdenom": "ecorise",
+  "denom_units": [
+    {
+      "denom": "coin.zig1mvjnt90rnzkey7s2avw9wtdvvxgsn2t5xd8pvze3vay4udchdveqdejwm2.ecorise",
+      "exponent": 0
+    },
+    {
+      "denom": "ECORISE",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}

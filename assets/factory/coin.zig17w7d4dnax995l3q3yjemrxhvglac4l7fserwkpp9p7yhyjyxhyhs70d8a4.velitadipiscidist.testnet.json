@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "asset_id": "coin.zig17w7d4dnax995l3q3yjemrxhvglac4l7fserwkpp9p7yhyjyxhyhs70d8a4.velitadipiscidist",
+  "type": "factory",
+  "symbol": "VELITADIPISCIDIST",
+  "name": "Velitadipiscidist",
+  "decimals": 6,
+  "display_denom": "VELITADIPISCIDIST",
+  "base_denom": "coin.zig17w7d4dnax995l3q3yjemrxhvglac4l7fserwkpp9p7yhyjyxhyhs70d8a4.velitadipiscidist",
+  "creator": "zig17w7d4dnax995l3q3yjemrxhvglac4l7fserwkpp9p7yhyjyxhyhs70d8a4",
+  "subdenom": "velitadipiscidist",
+  "denom_units": [
+    {
+      "denom": "coin.zig17w7d4dnax995l3q3yjemrxhvglac4l7fserwkpp9p7yhyjyxhyhs70d8a4.velitadipiscidist",
+      "exponent": 0
+    },
+    {
+      "denom": "VELITADIPISCIDIST",
+      "exponent": 6
+    }
+  ],
+  "$schema": "../../schemas/asset.factory.schema.json"
+}
