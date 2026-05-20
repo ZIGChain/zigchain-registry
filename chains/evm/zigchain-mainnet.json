@@ -1,0 +1,19 @@
+{
+    "$schema": "../../schemas/chain.evm.schema.json",
+    "chain_id": 944,
+    "network_id": 944,
+    "name": "ZIGChain",
+    "short_name": "zigchain",
+    "chain": "ZIG",
+    "native_currency": {
+        "name": "ZIG",
+        "symbol": "ZIG",
+        "decimals": 18
+    },
+    "rpc": [],
+    "faucets": [],
+    "info_url": "https://zigchain.com",
+    "status": "incubating",
+    "cosmos_chain_id": "zigchain-1",
+    "is_verified": true
+}

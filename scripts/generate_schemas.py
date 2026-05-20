@@ -16,7 +16,7 @@ repo_root = script_dir.parent
 sys.path.insert(0, str(repo_root))
 
 try:
-    from models import AssetBase, NativeAsset, FactoryAsset, IBCAsset
+    from models import AssetBase, NativeAsset, FactoryAsset, IBCAsset, EvmChain
 except ImportError as e:
     print(f"Error: Failed to import models: {e}")
     print("Make sure you're running from the repository root and Pydantic is installed.")
@@ -67,12 +67,28 @@ def generate_ibc_schema() -> dict:
     """Generate the native asset schema from NativeAsset model."""
     # Get the complete schema (already includes all base properties via inheritance)
     schema = IBCAsset.model_json_schema(mode="serialization")
-    
+
     # Add JSON Schema metadata
     schema["$schema"] = "http://json-schema.org/draft-07/schema#"
     schema["title"] = "IBC Asset Schema"
     schema["description"] = "Schema for IBC ZIGChain assets"
-    
+
+    return schema
+
+
+def generate_evm_chain_schema() -> dict:
+    """Generate the EVM chain schema from the EvmChain model."""
+    schema = EvmChain.model_json_schema(mode="serialization")
+
+    schema["$schema"] = "http://json-schema.org/draft-07/schema#"
+    schema["title"] = "ZIGChain EVM Chain Schema"
+    schema["description"] = (
+        "Canonical schema for a ZIGChain EVM chain entry (chains/evm/*.json). "
+        "Mirrors the ethereum-lists/chains EIP-155 chain shape plus repo-local "
+        "extensions (cosmos_chain_id, icon_path, is_verified) which are stripped "
+        "before upstream emit."
+    )
+
     return schema
 
 
@@ -93,6 +109,7 @@ def main():
         "asset.native.schema.json": generate_native_schema(),
         "asset.factory.schema.json": generate_factory_schema(),
         "asset.ibc.schema.json": generate_ibc_schema(),
+        "chain.evm.schema.json": generate_evm_chain_schema(),
     }
     
     # Write schemas to files

@@ -26,3 +26,8 @@ Thumbs.db
 # Local configuration (user-specific; copy from config.example.yaml)
 config.yaml
 config.yml
+
+# EVM sync intermediate outputs (regenerated on every --sync-evm-dry-run).
+# Unlike generated/chain-registry/ (committed Cosmos mirror), generated/evm/
+# is transient — the source of truth is chains/evm/*.json.
+generated/evm/

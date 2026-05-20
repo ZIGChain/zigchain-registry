@@ -249,6 +249,108 @@ If you'd like to open the upstream PR yourself after your asset is verified, it'
 
 ---
 
+## EVM Chain Registry
+
+Alongside Cosmos chain/asset data, this repo is the canonical source-of-truth for ZIGChain's **EVM** chain metadata (chainId, RPC, explorer, faucet, native currency). The same operator-driven sync pattern that mirrors Cosmos data into `cosmos/chain-registry` mirrors EVM data into [`ethereum-lists/chains`](https://github.com/ethereum-lists/chains) — which then propagates automatically to `chainid.network/chains.json` and `chainlist.org`.
+
+ZIGChain currently registers:
+- Mainnet (`zigchain-1`) → EVM chain ID **944**, shortName `zigchain`
+- Testnet (`zig-test-2`) → EVM chain ID **2061**, shortName `zigchain-testnet`
+
+### Directory layout
+
+```
+chains/evm/
+├── zigchain-mainnet.json    # chainId 944
+└── zigchain-testnet.json    # chainId 2061
+```
+
+Each file is validated against `schemas/chain.evm.schema.json` (auto-generated from `models/evm_chain.py`). The schema mirrors the field set required by [ethereum-lists/chains/tools/schema/chainSchema.json](https://github.com/ethereum-lists/chains/blob/master/tools/schema/chainSchema.json) and adds three repo-local extensions that are stripped before upstream emit:
+
+- `cosmos_chain_id` — link back to the Cosmos chain (e.g. `zigchain-1`), so internal consumers (UIs, SDKs) can join the two registries from a single source.
+- `icon_path` — repo-relative path to a local logo asset for our own UI consumption (the upstream `icon` field is a separate IPFS-pinned slug — out of scope for v1).
+- `is_verified` — matches the existing `is_verified` convention used elsewhere in the repo.
+
+### Editing an EVM chain entry
+
+To update RPC URLs, add an explorer, or tweak metadata: edit the JSON file directly. CI's `validate.yml` will fail the PR if the file no longer matches `chain.evm.schema.json`. Run validation locally with:
+
+```bash
+python scripts/validate_assets.py --repo-root .
+```
+
+### Syncing to ethereum-lists/chains
+
+The sync helper clones `ethereum-lists/chains`, writes our EIP-155 payloads under `_data/chains/eip155-<id>.json`, runs `prettier --write` on them (required by their CI), pushes a timestamped branch to a fork at `ZIGChain/chains`, and prints a GitHub compare URL plus a ready-to-paste PR body.
+
+```bash
+# Dry-run: validate + render to generated/evm/, no git operations
+python scripts/generate_chain_registry.py --sync-evm --sync-evm-dry-run
+
+# Full sync (operator-driven; you click the printed compare URL to open the PR)
+python scripts/generate_chain_registry.py --sync-evm
+
+# Re-sync an already-registered chain (e.g. to update RPC URLs after merge)
+python scripts/generate_chain_registry.py --sync-evm --sync-evm-update
+```
+
+**Pre-flight checks** run automatically before any git push (skip with `--sync-evm-skip-preflight` for offline dev):
+
+1. **RPC liveness** — POST `eth_chainId` to every URL in `rpc[]`, refuse if any URL is unreachable or returns the wrong `chainId`. This replicates ethereum-lists' Kotlin validator (the #1 cause of failed upstream PRs).
+2. **Uniqueness** — GET `chainid.network/chains.json` and `shortNameMapping.json`, refuse if our chainIds or shortNames collide. Use `--sync-evm-update` to bypass (for re-sync flow).
+3. **Fork existence + open-branch detection** — `git ls-remote` against the fork; refuse if `zigchain-evm-sync-*` branches already exist on the fork (pass `--sync-evm-force-new-branch` to override).
+4. **Tooling** — `prettier` or `npx` must be on PATH (ethereum-lists CI rejects formatting diffs).
+
+**Two registration flows are supported:**
+
+1. **ChainId-locking (no EVM infra needed)** — register with empty `rpc: []`, no `explorers`, `status: "incubating"`. Reserves the chainId at ethereum-lists/chains before the EVM JSON-RPC + Blockscout are deployed. ligi's Kotlin validator has no URLs to probe, so it can't fail. Upstream precedent: [eip155-152 Redbelly Devnet](https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-152.json). This is the current state of `chains/evm/zigchain-{mainnet,testnet}.json`.
+2. **Full registration (EVM JSON-RPC live)** — once the validator-side prerequisite below is met, populate `rpc[]` and `explorers[]`, then re-run `python scripts/generate_chain_registry.py --sync-evm --sync-evm-update` to push an updated entry to the same upstream files.
+
+**Validator-infra prerequisite (required only for flow 2):**
+
+The Cosmos EVM JSON-RPC service is a **separate listener** from Tendermint RPC and is **disabled by default**. It must be explicitly enabled in `app.toml` on at least one publicly-reachable validator per network (mainnet + testnet) so ligi's Kotlin validator at `ethereum-lists/chains` can probe it via `eth_chainId`:
+
+```toml
+# app.toml
+[json-rpc]
+enable = true
+address = "0.0.0.0:8545"
+```
+
+See the [Cosmos EVM JSON-RPC reference](https://docs.cosmos.network/evm/latest/api-reference/ethereum-json-rpc) for the full configuration. You also need an EVM-aware block explorer (e.g. Blockscout) pointed at the EVM JSON-RPC — none of the Cosmos-side explorers (Range, zigscan.org, NodeStake) handle `/tx/<0x…>` or `/address/<0x…>` routes that ethereum-lists expects.
+
+**Requirements before first sync (operator-side, both flows):**
+- A `ZIGChain/chains` fork of `ethereum-lists/chains` must exist with SSH push access for the operator.
+- Public ZIGChain EVM RPC must be reachable and return the correct `chainId` (flow 2 only — flow 1 has no RPCs to check).
+- `npm` / `npx` installed (or `prettier` globally) — `npm i -g prettier`.
+
+**CLI flag reference:**
+
+| Flag | Behavior |
+| --- | --- |
+| `--sync-evm` | Dispatch to the EVM sync (mutually exclusive with the Cosmos generate flow). |
+| `--sync-evm-dry-run` | Render + validate to `generated/evm/`; no git operations. |
+| `--sync-evm-update` | Allow re-sync of an already-registered chain (swaps the uniqueness check for a positive existence check — refuses if the chainId isn't already on `chainid.network`). |
+| `--sync-evm-skip-preflight` | Skip RPC, uniqueness, and prettier checks (dev/test only). |
+| `--sync-evm-force-new-branch` | Push a new branch even if existing `zigchain-evm-sync-*` branches exist on the fork. |
+| `--sync-evm-upstream-repo URL` | Override upstream (default: `https://github.com/ethereum-lists/chains`). |
+| `--sync-evm-fork-repo URL` | Override fork (default: `https://github.com/ZIGChain/chains`). |
+
+### What ends up in `ethereum-lists/chains`
+
+A single PR adds two files: `_data/chains/eip155-944.json` (mainnet) and `_data/chains/eip155-2061.json` (testnet). Once merged, `chainid.network/chains.json` and `chainlist.org` reflect the entries within ~hours (CDN refresh).
+
+[`DefiLlama/chainlist`](https://github.com/DefiLlama/chainlist) is a **separate repo** for overrides (extra RPCs, custom display names, priority); it does **not** auto-import from `ethereum-lists/chains`. The basic metadata on chainlist.org does come from chainid.network, so a DefiLlama PR is only needed if we want custom overrides — deferred until a concrete need.
+
+### Out of scope for v1
+
+- **Icon submission** — ethereum-lists icons require IPFS pinning (Pinata explicitly disallowed). Tracked for a follow-up. v1 leaves `icon` unset; our internal UIs use `icon_path` instead.
+- **DefiLlama/chainlist PR** — see above; opt-in only.
+- **Devnet registration** — schema supports it; we don't have a stable devnet to register yet.
+- **GitHub Action automation** — sync is operator-driven by design (preserves the human-review checkpoint that ligi expects).
+
+---
+
 ## Reference
 
 ### Asset file structure and naming
