@@ -11,6 +11,7 @@ import pytest
 import scripts.generate_schemas as gen
 from scripts.generate_schemas import (
     generate_common_schema,
+    generate_evm_chain_schema,
     generate_factory_schema,
     generate_ibc_schema,
     generate_native_schema,
@@ -290,6 +291,62 @@ def test_generate_ibc_schema_contains_all_minimal_fields(
 
 
 ######################################################################
+# Tests for generate_evm_chain_schema
+######################################################################
+
+
+@pytest.fixture
+def minimal_evm_chain_data() -> dict[str, Any]:
+    """Minimal required fields for a valid EvmChain instance."""
+    return {
+        "chain_id": 944,
+        "network_id": 944,
+        "name": "ZIGChain",
+        "short_name": "zigchain",
+        "chain": "ZIG",
+        "native_currency": {"name": "ZIG", "symbol": "ZIG", "decimals": 18},
+        "rpc": ["https://evm-rpc.zigchain.com"],
+        "info_url": "https://zigchain.com",
+    }
+
+
+def test_generate_evm_chain_schema_returns_dict_with_correct_metadata() -> None:
+    """generate_evm_chain_schema() injects $schema, title, and description into the EvmChain schema."""
+    result = generate_evm_chain_schema()
+    assert isinstance(result, dict)
+    assert result["$schema"] == "http://json-schema.org/draft-07/schema#"
+    assert result["title"] == "ZIGChain EVM Chain Schema"
+    assert "EIP-155" in result["description"] or "ethereum-lists" in result["description"]
+
+
+def test_generate_evm_chain_schema_contains_all_minimal_fields(
+    minimal_evm_chain_data: dict[str, Any],
+) -> None:
+    """generate_evm_chain_schema() includes the ethereum-lists required fields as required, and our extensions as optional.
+
+    Note: ``rpc`` is required in the upstream chainSchema.json but our local model
+    treats it as optional with a default of ``[]`` so we can submit chainId-locking
+    entries (empty rpc + status='incubating') without populating the field. The
+    transform always emits ``rpc`` as a key, so the upstream payload remains valid.
+    """
+    result = generate_evm_chain_schema()
+    properties = result["properties"]
+    required = result.get("required", [])
+    # Every minimal field is in properties
+    for field in minimal_evm_chain_data:
+        assert field in properties, f"minimal field {field!r} missing from schema properties"
+    # Fields required in our local schema
+    assert isinstance(required, list)
+    for field in ["chain_id", "network_id", "name", "short_name", "chain",
+                  "native_currency", "info_url"]:
+        assert field in required, f"{field!r} should be required"
+    # Optional fields are not required — includes rpc (has default of []) and faucets
+    for field in ["title", "explorers", "slip44", "icon", "cosmos_chain_id",
+                  "icon_path", "is_verified", "faucets", "status", "rpc"]:
+        assert field not in required, f"{field!r} should be optional"
+
+
+######################################################################
 # Tests for main
 ######################################################################
 
@@ -297,17 +354,18 @@ def test_generate_ibc_schema_contains_all_minimal_fields(
 # Positive test for main
 # ----------------
 
-def test_main_generates_all_four_schema_files_with_correct_content_and_output(
+def test_main_generates_all_schema_files_with_correct_content_and_output(
     schemas_dir: Path,
     capsys: pytest.CaptureFixture[str],
 ) -> None:
-    """main() writes all four schema files with correct JSON content and emits all six progress messages."""
+    """main() writes all schema files with correct JSON content and emits a progress message for each."""
     # Arrange: repo_root patched and schemas/ exists (via fixtures); map filenames to expected titles
     expected_files = [
         ("asset.common.schema.json", "Common Asset Schema"),
         ("asset.native.schema.json", "Native Asset Schema"),
         ("asset.factory.schema.json", "Factory Asset Schema"),
         ("asset.ibc.schema.json", "IBC Asset Schema"),
+        ("chain.evm.schema.json", "ZIGChain EVM Chain Schema"),
     ]
     # Act: success path returns normally — no sys.exit(), so no pytest.raises needed
     main()
@@ -319,13 +377,11 @@ def test_main_generates_all_four_schema_files_with_correct_content_and_output(
         assert isinstance(parsed, dict)
         assert parsed["$schema"] == "http://json-schema.org/draft-07/schema#"
         assert parsed["title"] == expected_title                             # title matches generator
-    # Assert: capture stdout after the loop; `in` used because main() emits 6 separate print() calls
+    # Assert: capture stdout after the loop
     out = capsys.readouterr().out
     assert "Generating JSON schemas from Pydantic models..." in out
-    assert "✅ Generated asset.common.schema.json" in out
-    assert "✅ Generated asset.native.schema.json" in out
-    assert "✅ Generated asset.factory.schema.json" in out
-    assert "✅ Generated asset.ibc.schema.json" in out
+    for filename, _ in expected_files:
+        assert f"✅ Generated {filename}" in out
     assert "✅ All schemas generated successfully!" in out
 
 

@@ -17,13 +17,19 @@ from __future__ import annotations
 
 import argparse
 import datetime as _dt
+import ipaddress
 import json
 import os
+import random
 import re
 import shutil
+import socket
 import subprocess
 import sys
 import tempfile
+import time
+import urllib.error
+import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Mapping, Optional, Sequence, Tuple
@@ -40,6 +46,7 @@ from models.factory import FactoryAsset  # noqa: E402
 from models.ibc import IBCAsset, IBCTrace  # noqa: E402
 from models.native import NativeAsset  # noqa: E402
 from models.base import NativeTrace  # noqa: E402
+from models.evm_chain import EvmChain  # noqa: E402
 
 
 @dataclass
@@ -153,6 +160,26 @@ def load_assets(root: Path) -> Tuple[List[NativeAsset], List[FactoryAsset], List
     ibcs = [IBCAsset.model_validate(obj) for obj in read_json_files(ibc_dir)]
 
     return natives, factories, ibcs
+
+
+def load_evm_chains(root: Path) -> List[EvmChain]:
+    """Load every chains/evm/*.json file into an EvmChain instance.
+
+    Returns an empty list if chains/evm/ does not exist (graceful for repos
+    without EVM chain registrations yet). Uses a simple glob — read_json_files
+    is asset-specific (filters by .mainnet/.testnet suffix and dedupes by
+    asset_id) and doesn't apply here.
+    """
+    evm_dir = root / "chains" / "evm"
+    if not evm_dir.exists():
+        return []
+
+    chains: List[EvmChain] = []
+    for path in sorted(evm_dir.glob("*.json")):
+        with path.open("r", encoding="utf-8") as fh:
+            data = json.load(fh)
+        chains.append(EvmChain.model_validate(data))
+    return chains
 
 
 def parse_channel_id_from_path(path: str) -> Optional[str]:
@@ -704,6 +731,64 @@ def erc20_from_ibc(asset: IBCAsset, images: AssetImages) -> Optional[Dict]:
     })
 
 
+def evm_chain_to_eip155_payload(chain: EvmChain) -> Dict:
+    """Transform a canonical ``EvmChain`` into the EIP-155 JSON payload accepted
+    by ``ethereum-lists/chains`` (``_data/chains/eip155-<chainId>.json``).
+
+    Concretely:
+
+    - snake_case → camelCase (``chain_id``→``chainId``, ``short_name``→``shortName``,
+      ``native_currency``→``nativeCurrency``, ``info_url``→``infoURL``).
+    - Strip repo-local extensions (``cosmos_chain_id``, ``icon_path``,
+      ``is_verified``, ``schema_ref``) — upstream's chainSchema.json sets
+      ``additionalProperties: false`` so any extras would fail their CI.
+    - Coerce ``HttpUrl`` instances to ``str`` so json.dumps emits plain strings.
+    - Drop unset optional fields rather than emitting them as ``null``.
+    - Preserve the typical upstream key order (semantic, not alphabetical) so
+      our payloads look at home next to existing ``eip155-*.json`` files.
+    """
+    nc = chain.native_currency
+
+    payload: Dict = {
+        "name": chain.name,
+        "chain": chain.chain,
+    }
+
+    if chain.icon is not None:
+        payload["icon"] = chain.icon
+
+    payload["rpc"] = [str(u) for u in chain.rpc]
+    payload["faucets"] = [str(u) for u in chain.faucets]
+    payload["nativeCurrency"] = {
+        "name": nc.name,
+        "symbol": nc.symbol,
+        "decimals": nc.decimals,
+    }
+    payload["infoURL"] = str(chain.info_url)
+    payload["shortName"] = chain.short_name
+    payload["chainId"] = chain.chain_id
+    payload["networkId"] = chain.network_id
+
+    if chain.slip44 is not None:
+        payload["slip44"] = chain.slip44
+    if chain.title is not None:
+        payload["title"] = chain.title
+    # status defaults to "active"; emit always — informational, accepted upstream.
+    payload["status"] = chain.status
+    if chain.explorers:
+        payload["explorers"] = [
+            {k: v for k, v in (
+                ("name", e.name),
+                ("url", str(e.url)),
+                ("standard", e.standard),
+                ("icon", e.icon),
+            ) if v is not None}
+            for e in chain.explorers
+        ]
+
+    return payload
+
+
 def _json_default(o: object) -> str:
     # Pydantic HttpUrl/AnyUrl aren't subclasses of str, so the stdlib JSON
     # encoder can't serialize them — model_dump() leaves them as Url objects.
@@ -918,6 +1003,586 @@ def _sync_chain_folder(src_chain_dir: Path, dst_chain_dir: Path) -> None:
 
 def _timestamped_branch(prefix: str = "zigchain-sync") -> str:
     return f"{prefix}-{_dt.datetime.now().strftime('%Y%m%d-%H%M%S')}"
+
+
+# ---------------------------------------------------------------------------
+# EVM sync helpers (preflight + git plumbing)
+# ---------------------------------------------------------------------------
+
+CHAINID_NETWORK_CHAINS_URL = "https://chainid.network/chains.json"
+CHAINID_NETWORK_SHORTNAMES_URL = "https://chainid.network/shortNameMapping.json"
+
+
+def _http_get_json(
+    url: str,
+    *,
+    timeout_s: float = 10.0,
+    max_retries: int = 3,
+) -> object:
+    """GET ``url`` and parse the response as JSON, retrying transient failures.
+
+    Uses urllib (stdlib) so we don't add a ``requests`` dependency. Retries
+    with capped exponential backoff (~0.25/1/4 seconds, ±25% jitter).
+    """
+    last_err: Optional[Exception] = None
+    for attempt in range(max_retries + 1):
+        if attempt:
+            delay = min(4.0, 0.25 * (2 ** (attempt - 1)))
+            time.sleep(delay * random.uniform(0.75, 1.25))
+        try:
+            req = urllib.request.Request(url, headers={"Accept": "application/json"})
+            with urllib.request.urlopen(req, timeout=timeout_s) as resp:
+                status = getattr(resp, "status", 200)
+                if status >= 400:
+                    raise RuntimeError(f"HTTP {status} from {url}")
+                return json.loads(resp.read().decode("utf-8"))
+        except Exception as e:  # noqa: BLE001 — retry every failure mode uniformly
+            last_err = e
+    assert last_err is not None
+    raise RuntimeError(f"GET {url} failed after {max_retries + 1} attempts: {last_err}") from last_err
+
+
+def _ip_is_disallowed(ip: object) -> bool:
+    """Return True if ``ip`` is in a class ``_probe_rpc`` must refuse (SSRF defence).
+
+    Lists predicates individually because Python 3.12.4 narrowed ``is_private``
+    to exclude loopback — defence-in-depth across versions. Also recurses
+    through ``IPv6Address.ipv4_mapped`` so e.g. ``::ffff:169.254.169.254``
+    can't smuggle a private IPv4 in IPv6 clothing.
+    """
+    if (
+        ip.is_loopback
+        or ip.is_link_local
+        or ip.is_private
+        or ip.is_multicast
+        or ip.is_reserved
+        or ip.is_unspecified
+    ):
+        return True
+    mapped = getattr(ip, "ipv4_mapped", None)
+    if mapped is not None and _ip_is_disallowed(mapped):
+        return True
+    return False
+
+
+def _assert_rpc_url_safe(url: str) -> None:
+    """Raise ``RuntimeError`` if ``url`` is unsafe to probe (SSRF defence).
+
+    Refuses any non-https scheme, missing host, or hostname whose DNS resolution
+    returns any loopback / link-local / private / multicast / reserved /
+    unspecified address. Walks **every** resolved address so multi-A-record DNS
+    can't smuggle a private IP past a public one.
+    """
+    parsed = urlparse(url)
+    if parsed.scheme != "https":
+        raise RuntimeError(
+            f"RPC scheme must be https:// (got {parsed.scheme!r}) for {url!r}; "
+            "ethereum-lists/chains policy is https-only."
+        )
+    host = parsed.hostname
+    if not host:
+        raise RuntimeError(f"RPC URL has no host: {url!r}")
+    try:
+        infos = socket.getaddrinfo(host, None)
+    except OSError as e:
+        raise RuntimeError(
+            f"Could not resolve {host!r} for RPC URL {url!r}: {e}"
+        ) from e
+    disallowed: List[str] = []
+    for info in infos:
+        # info[4] is the sockaddr; index 0 is the address string.
+        addr_raw = info[4][0].split("%", 1)[0]  # strip IPv6 zone-id (e.g. fe80::1%eth0)
+        try:
+            ip = ipaddress.ip_address(addr_raw)
+        except ValueError:
+            continue
+        if _ip_is_disallowed(ip):
+            disallowed.append(str(ip))
+    if disallowed:
+        raise RuntimeError(
+            f"RPC host {host!r} resolves to disallowed address(es) {disallowed!r} "
+            f"(loopback/link-local/private/multicast/reserved); refusing to probe "
+            f"{url!r} to prevent SSRF on the operator's machine."
+        )
+
+
+def _probe_rpc(
+    url: str,
+    expected_chain_id: int,
+    *,
+    timeout_s: float = 10.0,
+    max_retries: int = 3,
+) -> None:
+    """POST ``eth_chainId`` to ``url`` and verify the response equals ``expected_chain_id``.
+
+    Raises ``RuntimeError`` if the URL is unsafe (SSRF guard), unreachable, the
+    response shape is not valid JSON-RPC, or the returned chainId differs from
+    the expected value.
+
+    This replicates ethereum-lists/chains' Kotlin validator's live RPC check —
+    the most common cause of upstream PR CI failures.
+    """
+    _assert_rpc_url_safe(url)
+    body = json.dumps({"jsonrpc": "2.0", "method": "eth_chainId", "id": 1}).encode("utf-8")
+    last_err: Optional[Exception] = None
+    for attempt in range(max_retries + 1):
+        if attempt:
+            delay = min(4.0, 0.25 * (2 ** (attempt - 1)))
+            time.sleep(delay * random.uniform(0.75, 1.25))
+        try:
+            req = urllib.request.Request(
+                url,
+                data=body,
+                headers={"Content-Type": "application/json", "Accept": "application/json"},
+                method="POST",
+            )
+            with urllib.request.urlopen(req, timeout=timeout_s) as resp:
+                status = getattr(resp, "status", 200)
+                if status >= 400:
+                    raise RuntimeError(f"HTTP {status}")
+                payload = json.loads(resp.read().decode("utf-8"))
+
+            if not isinstance(payload, dict) or "result" not in payload:
+                raise RuntimeError(f"Unexpected JSON-RPC envelope: {payload!r}")
+            try:
+                got = int(payload["result"], 16)
+            except (TypeError, ValueError) as e:
+                raise RuntimeError(
+                    f"Could not parse chainId hex from {payload['result']!r}"
+                ) from e
+            if got != expected_chain_id:
+                raise RuntimeError(
+                    f"RPC reports chainId {got}, expected {expected_chain_id}"
+                )
+            return
+        except Exception as e:  # noqa: BLE001
+            last_err = e
+    assert last_err is not None
+    raise RuntimeError(f"RPC probe failed for {url}: {last_err}") from last_err
+
+
+def _check_upstream_uniqueness(
+    chain_ids: Sequence[int],
+    short_names: Sequence[str],
+    *,
+    timeout_s: float = 15.0,
+) -> List[str]:
+    """Return a list of collision messages — empty list means everything is unique.
+
+    Fetches ``chainid.network/chains.json`` (aggregate mirror of
+    ``ethereum-lists/chains``) and ``chainid.network/shortNameMapping.json``
+    and checks both our chainIds and our shortNames against them.
+
+    Re-raises ``RuntimeError`` if the upstream endpoints are unreachable —
+    callers should refuse to push rather than silently proceed.
+    """
+    errors: List[str] = []
+
+    chains_data = _http_get_json(CHAINID_NETWORK_CHAINS_URL, timeout_s=timeout_s)
+    if not isinstance(chains_data, list):
+        raise RuntimeError(
+            f"Unexpected chains.json shape: {type(chains_data).__name__} (expected list)"
+        )
+    upstream_chain_ids = {
+        entry.get("chainId") for entry in chains_data if isinstance(entry, dict)
+    }
+    for cid in chain_ids:
+        if cid in upstream_chain_ids:
+            errors.append(
+                f"chainId {cid} already claimed in chainid.network/chains.json — "
+                "rerun with --sync-evm-update to allow an RPC/URL refresh of an existing entry."
+            )
+
+    short_data = _http_get_json(CHAINID_NETWORK_SHORTNAMES_URL, timeout_s=timeout_s)
+    if not isinstance(short_data, dict):
+        raise RuntimeError(
+            f"Unexpected shortNameMapping.json shape: {type(short_data).__name__} (expected dict)"
+        )
+    for sn in short_names:
+        if sn in short_data:
+            errors.append(
+                f"shortName {sn!r} already claimed (maps to {short_data[sn]!r}). "
+                "Pick another shortName."
+            )
+
+    return errors
+
+
+def _check_upstream_existence(
+    chain_ids: Sequence[int],
+    *,
+    timeout_s: float = 15.0,
+) -> List[str]:
+    """Return missing-upstream messages — empty list means every chainId is registered.
+
+    Positive dual of :func:`_check_upstream_uniqueness`. Used in
+    ``--sync-evm-update`` mode to refuse the push when a chainId hasn't actually
+    been registered yet (guards against typos like running ``--sync-evm-update``
+    against a never-registered chain).
+
+    Re-raises ``RuntimeError`` if the upstream endpoint is unreachable — the
+    fail-closed posture matches :func:`_check_upstream_uniqueness`.
+    """
+    errors: List[str] = []
+    chains_data = _http_get_json(CHAINID_NETWORK_CHAINS_URL, timeout_s=timeout_s)
+    if not isinstance(chains_data, list):
+        raise RuntimeError(
+            f"Unexpected chains.json shape: {type(chains_data).__name__} (expected list)"
+        )
+    upstream_chain_ids = {
+        entry.get("chainId") for entry in chains_data if isinstance(entry, dict)
+    }
+    for cid in chain_ids:
+        if cid not in upstream_chain_ids:
+            errors.append(
+                f"chainId {cid} is not registered upstream on chainid.network/chains.json — "
+                "use --sync-evm (without --sync-evm-update) to register it for the first time."
+            )
+    return errors
+
+
+def _check_fork_branches(
+    fork_repo: str,
+    *,
+    prefix: str,
+    env_overrides: Optional[Mapping[str, str]] = None,
+) -> List[str]:
+    """Return branch names on ``fork_repo`` that match ``prefix*``.
+
+    Uses ``git ls-remote --heads`` so no clone is required. If the fork doesn't
+    exist (or no push access), raises a ``RuntimeError`` with an actionable
+    next-step message.
+    """
+    try:
+        res = _run(
+            ["git", "ls-remote", "--heads", fork_repo, f"refs/heads/{prefix}*"],
+            cwd=Path.cwd(),
+            env_overrides=env_overrides,
+        )
+    except subprocess.CalledProcessError as e:
+        if e.returncode == 128:
+            raise RuntimeError(
+                f"Could not access fork {fork_repo!r}. Create it (visit "
+                f"the upstream repo and click 'Fork') and ensure SSH/HTTPS access is configured.\n"
+                f"Command output:\n{e.stdout}"
+            ) from e
+        raise
+
+    branches: List[str] = []
+    for line in res.stdout.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        parts = line.split("\t", 1)
+        if len(parts) == 2 and parts[1].startswith("refs/heads/"):
+            branches.append(parts[1][len("refs/heads/"):])
+    return branches
+
+
+def _parse_github_url(url: str) -> Tuple[str, str]:
+    """Return ``(owner, repo)`` for ``https://github.com/<owner>/<repo>(.git)?`` or SSH form."""
+    for prefix in ("https://github.com/", "git@github.com:"):
+        if url.startswith(prefix):
+            rest = url[len(prefix):]
+            if rest.endswith(".git"):
+                rest = rest[: -len(".git")]
+            parts = rest.strip("/").split("/", 1)
+            if len(parts) == 2:
+                return parts[0], parts[1]
+    raise ValueError(f"Unrecognized GitHub URL: {url!r}")
+
+
+def _evm_pr_body_template(chains: Sequence[EvmChain]) -> str:
+    """Render a copy-pasteable PR body matching ethereum-lists/chains conventions."""
+    lines: List[str] = []
+    if len(chains) == 1:
+        c = chains[0]
+        lines.append(f"Add **{c.name}** (chainId {c.chain_id}, shortName `{c.short_name}`).")
+    else:
+        lines.append("Add ZIGChain EVM chain entries:")
+    lines.append("")
+    for chain in chains:
+        lines.append(
+            f"- **{chain.name}** — chainId `{chain.chain_id}`, shortName `{chain.short_name}`, status `{chain.status}`"
+        )
+        if chain.rpc:
+            lines.append(f"  - RPC: {', '.join(str(u) for u in chain.rpc)}")
+        else:
+            lines.append(
+                "  - RPC: _(none yet — EVM JSON-RPC will be enabled in a follow-up; "
+                "re-syncing with `--sync-evm-update` once available)_"
+            )
+        if chain.explorers:
+            lines.append(
+                f"  - Explorer: {chain.explorers[0].name} ({str(chain.explorers[0].url)}, {chain.explorers[0].standard})"
+            )
+        if chain.faucets:
+            lines.append(f"  - Faucet: {', '.join(str(u) for u in chain.faucets)}")
+        lines.append(f"  - Info: {chain.info_url}")
+    lines.append("")
+    if any(chain.rpc for chain in chains):
+        lines.append("RPC liveness verified locally via `eth_chainId` pre-flight.")
+    else:
+        lines.append(
+            "Reserving chainId(s) via the `status: \"incubating\"` + empty `rpc[]` pattern "
+            "(see [eip155-152 Redbelly Devnet](https://github.com/ethereum-lists/chains/blob/master/_data/chains/eip155-152.json) "
+            "for upstream precedent). EVM JSON-RPC and block explorer URLs will be added in a "
+            "follow-up PR once the EVM module is deployed on validator nodes."
+        )
+    return "\n".join(lines)
+
+
+def sync_to_ethereum_lists(
+    *,
+    repo_root: Path,
+    upstream_repo: str = "https://github.com/ethereum-lists/chains",
+    fork_repo: str = "https://github.com/ZIGChain/chains",
+    upstream_base_branch: str = "master",
+    dry_run: bool = False,
+    update_mode: bool = False,
+    skip_preflight: bool = False,
+    force_new_branch: bool = False,
+    git_no_prompt: bool = False,
+    git_env_overrides: Optional[Mapping[str, str]] = None,
+) -> Optional[str]:
+    """Sync canonical chains/evm/*.json into a fork of ``ethereum-lists/chains``.
+
+    Returns the GitHub compare URL on success, or ``None`` if there was nothing
+    to push. Raises on any preflight or git failure.
+    """
+    repo_root = repo_root.resolve()
+    chains = load_evm_chains(repo_root)
+    if not chains:
+        print("ℹ️ No chains/evm/*.json files found — nothing to sync.")
+        return None
+    print(
+        f"Loaded {len(chains)} EVM chain entries: "
+        f"{[c.short_name + ' (' + str(c.chain_id) + ')' for c in chains]}"
+    )
+
+    # ---- Pre-flight (the single highest-ROI block here) ----
+    if not skip_preflight:
+        # 1. RPC liveness — replicates ethereum-lists' Kotlin validator.
+        # Chains with empty rpc[] (the chainId-locking pattern for status=incubating)
+        # have nothing to probe; the upstream validator skips RPC checks for them too.
+        total_rpcs = sum(len(c.rpc) for c in chains)
+        if total_rpcs == 0:
+            chain_summary = ", ".join(
+                f"{c.short_name} ({c.status})" for c in chains
+            )
+            print(
+                f"\nℹ️ No RPC URLs to probe — all chains have empty rpc[]: {chain_summary}. "
+                "Submitting as chainId reservation (see eip155-152 Redbelly Devnet for upstream precedent). "
+                "Re-sync with --sync-evm-update once EVM JSON-RPC is enabled on validators."
+            )
+        else:
+            print("\nProbing RPC liveness (eth_chainId)...")
+            for chain in chains:
+                for url in chain.rpc:
+                    _probe_rpc(str(url), chain.chain_id)
+                    print(f"  ✅ {url} reports chainId {chain.chain_id}")
+
+        # 2. Upstream uniqueness via chainid.network. In --update mode we run
+        # the positive dual instead: every chainId must already be registered.
+        # This guards against typos like `--sync-evm-update` for a never-
+        # registered chain, which would otherwise bypass the only collision
+        # guard and open an unintended first-registration PR upstream.
+        if not update_mode:
+            print("\nChecking chainid.network for chainId + shortName uniqueness...")
+            uniq_errors = _check_upstream_uniqueness(
+                [c.chain_id for c in chains],
+                [c.short_name for c in chains],
+            )
+            if uniq_errors:
+                for err in uniq_errors:
+                    print(f"  ❌ {err}")
+                raise RuntimeError(
+                    f"Uniqueness check found {len(uniq_errors)} collision(s). "
+                    "Use --sync-evm-update to refresh an already-registered chain."
+                )
+            print("  ✅ All chainIds and shortNames are available upstream.")
+        else:
+            print("\nChecking chainid.network for chainId existence (--sync-evm-update)...")
+            missing = _check_upstream_existence([c.chain_id for c in chains])
+            if missing:
+                for err in missing:
+                    print(f"  ❌ {err}")
+                raise RuntimeError(
+                    f"--sync-evm-update requires all chainIds to already exist upstream; "
+                    f"found {len(missing)} missing chainId(s)."
+                )
+            print("  ✅ All chainIds confirmed registered upstream.")
+
+        # 3. Prettier toolchain (ethereum-lists CI rejects formatting diffs).
+        if not (shutil.which("prettier") or shutil.which("npx")):
+            raise RuntimeError(
+                "Neither 'prettier' nor 'npx' found in PATH. ethereum-lists/chains CI "
+                "rejects PRs with formatting diffs. Install: npm i -g prettier"
+            )
+    else:
+        print("⚠️  Pre-flight checks skipped (--sync-evm-skip-preflight).")
+
+    # ---- Fork existence + open-branch detection ----
+    branch_prefix = "zigchain-evm-sync"
+    existing = _check_fork_branches(
+        fork_repo, prefix=branch_prefix, env_overrides=git_env_overrides
+    )
+    if existing and not force_new_branch:
+        print("\n⚠️  Existing sync branches on fork:")
+        for b in existing:
+            print(f"  - {b}")
+        raise RuntimeError(
+            "Use --sync-evm-force-new-branch to create another, or delete the "
+            "existing branch(es) on the fork first."
+        )
+
+    # ---- Clone, branch, render, push ----
+    with tempfile.TemporaryDirectory(prefix="zigchain-evm-sync-") as tmp:
+        repo_dir = Path(tmp) / "chains"
+        print(f"\nCloning {upstream_repo} (shallow)...")
+        _run(
+            ["git", "clone", "--depth", "1", upstream_repo, str(repo_dir)],
+            cwd=Path(tmp),
+            no_prompt=git_no_prompt,
+            env_overrides=git_env_overrides,
+        )
+
+        _ensure_remote(repo_dir, "upstream", upstream_repo)
+        _ensure_remote(repo_dir, "fork", fork_repo)
+
+        _run(
+            ["git", "fetch", "upstream", upstream_base_branch],
+            cwd=repo_dir,
+            no_prompt=git_no_prompt,
+            env_overrides=git_env_overrides,
+        )
+        _run(
+            ["git", "checkout", "-B", upstream_base_branch, f"upstream/{upstream_base_branch}"],
+            cwd=repo_dir,
+            no_prompt=git_no_prompt,
+            env_overrides=git_env_overrides,
+        )
+
+        branch = _timestamped_branch(prefix=branch_prefix)
+        _run(
+            ["git", "checkout", "-b", branch],
+            cwd=repo_dir,
+            no_prompt=git_no_prompt,
+            env_overrides=git_env_overrides,
+        )
+
+        # Write payloads to _data/chains/eip155-<id>.json
+        data_dir = repo_dir / "_data" / "chains"
+        data_dir.mkdir(parents=True, exist_ok=True)
+        intermediate_dir = repo_root / "generated" / "evm"
+        intermediate_dir.mkdir(parents=True, exist_ok=True)
+        for chain in chains:
+            payload = evm_chain_to_eip155_payload(chain)
+            target = data_dir / f"eip155-{chain.chain_id}.json"
+            intermediate = intermediate_dir / f"eip155-{chain.chain_id}.json"
+            for path in (target, intermediate):
+                with path.open("w", encoding="utf-8") as fh:
+                    json.dump(payload, fh, indent=2, ensure_ascii=False)
+                    fh.write("\n")
+            print(f"  ✏️  Wrote _data/chains/eip155-{chain.chain_id}.json")
+
+        # Run prettier — required by ethereum-lists CI.
+        # In --skip-preflight mode (dev/test), skip if neither prettier nor npx is
+        # available; the operator already opted out of CI-required guarantees.
+        prettier_available = bool(shutil.which("prettier") or shutil.which("npx"))
+        if skip_preflight and not prettier_available:
+            print("⚠️  Skipping prettier (not in PATH and --sync-evm-skip-preflight set).")
+        else:
+            prettier_cmd = (
+                ["prettier"] if shutil.which("prettier") else ["npx", "--yes", "prettier"]
+            )
+            prettier_targets = [
+                f"_data/chains/eip155-{c.chain_id}.json" for c in chains
+            ]
+            try:
+                _run(prettier_cmd + ["--write", *prettier_targets], cwd=repo_dir)
+            except subprocess.CalledProcessError as e:
+                raise RuntimeError(
+                    f"prettier failed — ethereum-lists/chains CI requires prettier-clean output.\n{e.stdout}"
+                ) from e
+
+        # Stage changes early so both the diff summary (--staged) and the
+        # subsequent commit see the new EIP-155 payloads. Untracked files
+        # don't appear in `git diff` until staged.
+        _run(["git", "add", "-A"], cwd=repo_dir)
+
+        diff = _run(
+            ["git", "--no-pager", "diff", "--staged", "--stat"],
+            cwd=repo_dir,
+        )
+        print(f"\nDiff against upstream/{upstream_base_branch}:")
+        print(diff.stdout or "  (no diff)")
+
+        if dry_run:
+            print("\n🌙 --sync-evm-dry-run: not committing or pushing.")
+            print(f"   Intermediate payloads at: {intermediate_dir.relative_to(repo_root)}/")
+            return None
+
+        status = _run(["git", "status", "--porcelain"], cwd=repo_dir)
+        if not status.stdout.strip():
+            print("ℹ️ No diff against upstream — payloads already match.")
+            return None
+
+        if update_mode:
+            commit_msg = f"zigchain: update EVM chain metadata ({branch})"
+        else:
+            ids_str = ", ".join(f"{c.chain_id}" for c in chains)
+            commit_msg = f"zigchain: add ZIGChain EVM chains ({ids_str})"
+        try:
+            _run(
+                ["git", "commit", "-m", commit_msg],
+                cwd=repo_dir,
+                env_overrides=git_env_overrides,
+            )
+        except subprocess.CalledProcessError as e:
+            raise RuntimeError(
+                "git commit failed. Ensure git user.name and user.email are configured.\n"
+                f"Command output:\n{e.stdout}"
+            ) from e
+
+        try:
+            _run(
+                ["git", "push", "fork", f"HEAD:{branch}"],
+                cwd=repo_dir,
+                no_prompt=git_no_prompt,
+                env_overrides=git_env_overrides,
+            )
+        except subprocess.CalledProcessError as e:
+            raise RuntimeError(
+                "git push failed. Ensure you have push access to the fork.\n"
+                f"Command output:\n{e.stdout}"
+            ) from e
+
+        # Build compare URL from upstream + fork URLs. Only meaningful for real
+        # GitHub repos — for local file:// fixtures (tests) we just print the
+        # branch name and skip the URL.
+        compare_url: Optional[str] = None
+        try:
+            upstream_owner, upstream_name = _parse_github_url(upstream_repo)
+            fork_owner, fork_name = _parse_github_url(fork_repo)
+            compare_url = (
+                f"https://github.com/{upstream_owner}/{upstream_name}/compare/"
+                f"{upstream_base_branch}...{fork_owner}:{fork_name}:{branch}"
+            )
+        except ValueError:
+            # Non-GitHub URLs (file://, local mirrors used in tests) — no compare URL to print.
+            pass
+
+        print("\n✅ Pushed branch to fork.")
+        if compare_url:
+            print("\nOpen the PR (review changes first):")
+            print(f"  {compare_url}\n")
+        else:
+            print(f"\nBranch pushed: {branch} (non-GitHub upstream — no compare URL).")
+        print("--- Suggested PR body ---")
+        print(_evm_pr_body_template(chains))
+        print("--- End PR body ---")
+        return compare_url
 
 
 def sync_to_chain_registry(
@@ -1314,18 +1979,93 @@ def parse_args() -> argparse.Namespace:
         default=None,
         help="Optional dotenv-style file to load git env vars from (e.g. .env). If omitted, root/.env is used if present.",
     )
+
+    # ----- EVM chain sync (opt-in; runs sync_to_ethereum_lists instead of the Cosmos flow) -----
+    parser.add_argument(
+        "--sync-evm",
+        action="store_true",
+        help=(
+            "Sync chains/evm/*.json to a fork of ethereum-lists/chains and print a "
+            "compare URL. Mutually exclusive with the default Cosmos chain-registry generation flow."
+        ),
+    )
+    parser.add_argument(
+        "--sync-evm-dry-run",
+        action="store_true",
+        help="Render and validate the EIP-155 payloads but do not commit or push. Writes to generated/evm/.",
+    )
+    parser.add_argument(
+        "--sync-evm-update",
+        action="store_true",
+        help=(
+            "Allow re-sync of already-registered chains (e.g. to update RPC URLs). "
+            "Skips the chainid.network uniqueness check."
+        ),
+    )
+    parser.add_argument(
+        "--sync-evm-skip-preflight",
+        action="store_true",
+        help=(
+            "Skip RPC liveness + upstream uniqueness + tooling preflight. For offline "
+            "dev / CI testing only — ethereum-lists CI will still reject if any check fails."
+        ),
+    )
+    parser.add_argument(
+        "--sync-evm-force-new-branch",
+        action="store_true",
+        help="Create a fresh branch even if existing zigchain-evm-sync-* branches are present on the fork.",
+    )
+    parser.add_argument(
+        "--sync-evm-upstream-repo",
+        type=str,
+        default="https://github.com/ethereum-lists/chains",
+        help="Upstream EVM chain registry repo URL (default: ethereum-lists/chains).",
+    )
+    parser.add_argument(
+        "--sync-evm-fork-repo",
+        type=str,
+        default="https://github.com/ZIGChain/chains",
+        help="Fork repo URL to push the sync branch to (default: ZIGChain/chains).",
+    )
     return parser.parse_args()
 
 
 if __name__ == "__main__":
     args = parse_args()
-    generate(
-        args.root,
-        args.out,
-        verified_only=not args.include_unverified,
-        skip_sync=args.skip_sync,
-        upstream_repo=args.upstream_repo,
-        fork_repo=args.fork_repo,
-        git_no_prompt=args.git_no_prompt,
-        git_env_file=args.git_env_file,
-    )
+
+    if args.sync_evm:
+        # EVM sync is a sibling code path — do not run the Cosmos generation flow.
+        git_env = _prepare_git_env(root=args.root, git_env_file=args.git_env_file)
+        effective_fork_repo = args.sync_evm_fork_repo
+        if git_env.get("GIT_SSH_COMMAND"):
+            ssh_url = _github_https_to_ssh(args.sync_evm_fork_repo)
+            if ssh_url:
+                effective_fork_repo = ssh_url
+                print(f"ℹ️ Using SSH fork remote (via GIT_SSH_COMMAND): {effective_fork_repo}")
+        try:
+            sync_to_ethereum_lists(
+                repo_root=args.root,
+                upstream_repo=args.sync_evm_upstream_repo,
+                fork_repo=effective_fork_repo,
+                dry_run=args.sync_evm_dry_run,
+                update_mode=args.sync_evm_update,
+                skip_preflight=args.sync_evm_skip_preflight,
+                force_new_branch=args.sync_evm_force_new_branch,
+                git_no_prompt=args.git_no_prompt,
+                git_env_overrides=git_env,
+            )
+        except Exception as e:  # noqa: BLE001 — surface to the operator with a clean message
+            print("\n❌ EVM sync failed:")
+            print(f"  {e}")
+            sys.exit(1)
+    else:
+        generate(
+            args.root,
+            args.out,
+            verified_only=not args.include_unverified,
+            skip_sync=args.skip_sync,
+            upstream_repo=args.upstream_repo,
+            fork_repo=args.fork_repo,
+            git_no_prompt=args.git_no_prompt,
+            git_env_file=args.git_env_file,
+        )

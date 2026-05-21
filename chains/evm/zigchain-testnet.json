@@ -1,0 +1,19 @@
+{
+    "$schema": "../../schemas/chain.evm.schema.json",
+    "chain_id": 2061,
+    "network_id": 2061,
+    "name": "ZIGChain Testnet",
+    "short_name": "zigchain-testnet",
+    "chain": "ZIG",
+    "native_currency": {
+        "name": "ZIG",
+        "symbol": "ZIG",
+        "decimals": 18
+    },
+    "rpc": [],
+    "faucets": [],
+    "info_url": "https://zigchain.com",
+    "status": "incubating",
+    "cosmos_chain_id": "zig-test-2",
+    "is_verified": true
+}

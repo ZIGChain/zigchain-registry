@@ -1,0 +1,320 @@
+{
+  "$defs": {
+    "Explorer": {
+      "additionalProperties": false,
+      "description": "Block explorer entry for an EVM chain.",
+      "properties": {
+        "name": {
+          "description": "Human-readable explorer name (e.g. 'ZIGChain Explorer').",
+          "example": "ZIGChain Explorer",
+          "maxLength": 128,
+          "minLength": 1,
+          "title": "Explorer Name",
+          "type": "string"
+        },
+        "url": {
+          "description": "Base URL of the explorer (no trailing slash).",
+          "example": "https://explorer.zigchain.com",
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "title": "Explorer URL",
+          "type": "string"
+        },
+        "standard": {
+          "description": "Explorer URL standard. Use 'EIP3091' only if the explorer actually implements EIP-3091 (https://eips.ethereum.org/EIPS/eip-3091); otherwise use 'none'. ligi rejects false claims.",
+          "enum": [
+            "EIP3091",
+            "none"
+          ],
+          "example": "EIP3091",
+          "title": "Standard",
+          "type": "string"
+        },
+        "icon": {
+          "anyOf": [
+            {
+              "maxLength": 64,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional icon slug referenced from ethereum-lists/_data/icons/<slug>.json.",
+          "title": "Icon"
+        }
+      },
+      "required": [
+        "name",
+        "url",
+        "standard"
+      ],
+      "title": "Explorer",
+      "type": "object"
+    },
+    "NativeCurrency": {
+      "additionalProperties": false,
+      "description": "Native currency of an EVM chain (e.g. ZIG with 18 decimals).",
+      "properties": {
+        "name": {
+          "description": "Human-readable name of the native currency (e.g. 'ZIG').",
+          "example": "ZIG",
+          "maxLength": 64,
+          "minLength": 1,
+          "title": "Currency Name",
+          "type": "string"
+        },
+        "symbol": {
+          "description": "Ticker symbol of the native currency.",
+          "example": "ZIG",
+          "maxLength": 16,
+          "minLength": 1,
+          "title": "Currency Symbol",
+          "type": "string"
+        },
+        "decimals": {
+          "description": "Decimal places of the native currency's smallest unit. EVM convention is 18.",
+          "example": 18,
+          "maximum": 36,
+          "minimum": 0,
+          "title": "Decimals",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "name",
+        "symbol",
+        "decimals"
+      ],
+      "title": "NativeCurrency",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Canonical schema for a ZIGChain EVM chain entry (chains/evm/*.json). Mirrors the ethereum-lists/chains EIP-155 chain shape plus repo-local extensions (cosmos_chain_id, icon_path, is_verified) which are stripped before upstream emit.",
+  "properties": {
+    "$schema": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional JSON Schema reference for tooling. Not emitted upstream.",
+      "example": "../../schemas/chain.evm.schema.json",
+      "title": "JSON Schema Reference"
+    },
+    "chain_id": {
+      "description": "EIP-155 chain ID. Must be globally unique across ethereum-lists/chains.",
+      "example": 944,
+      "exclusiveMinimum": 0,
+      "title": "Chain ID",
+      "type": "integer"
+    },
+    "network_id": {
+      "description": "EIP-155 network ID. Conventionally equal to chain_id; divergence breaks wallet compatibility with the original EIP-155 intent.",
+      "example": 944,
+      "exclusiveMinimum": 0,
+      "title": "Network ID",
+      "type": "integer"
+    },
+    "name": {
+      "description": "Human-readable chain name. Must be globally unique in ethereum-lists/chains.",
+      "example": "ZIGChain",
+      "maxLength": 128,
+      "minLength": 1,
+      "title": "Chain Name",
+      "type": "string"
+    },
+    "short_name": {
+      "description": "Short identifier (EIP-3770). Must match ^[A-Za-z0-9_-]{1,64}$ and be globally unique across ethereum-lists/chains. Verify availability at https://chainid.network/shortNameMapping.json before sync.",
+      "example": "zigchain",
+      "maxLength": 64,
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9_-]{1,64}$",
+      "title": "Short Name",
+      "type": "string"
+    },
+    "chain": {
+      "description": "Free-text grouping bucket used by ethereum-lists/chains (e.g. 'ETH', 'BSC', 'ZIG'). This is NOT a CAIP-2 identifier \u2014 CAIP-2 would be 'eip155:944'.",
+      "example": "ZIG",
+      "maxLength": 16,
+      "minLength": 1,
+      "title": "Chain Group",
+      "type": "string"
+    },
+    "native_currency": {
+      "$ref": "#/$defs/NativeCurrency",
+      "description": "Native currency of the chain.",
+      "title": "Native Currency"
+    },
+    "rpc": {
+      "description": "Public EVM JSON-RPC endpoints. ethereum-lists' Kotlin validator calls eth_chainId on each URL at PR-time; any unreachable URL (or one returning the wrong chainId) fails CI. Empty list is permitted for status='incubating' chains that are reserving the chainId before EVM infra is deployed (see eip155-152 Redbelly Devnet for precedent); a warning fires if rpc is empty and status='active'.",
+      "example": [
+        "https://evm-rpc.zigchain.com"
+      ],
+      "items": {
+        "format": "uri",
+        "maxLength": 2083,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 20,
+      "title": "RPC Endpoints",
+      "type": "array"
+    },
+    "faucets": {
+      "description": "Faucet URLs (typically populated for testnets, empty for mainnet).",
+      "example": [
+        "https://faucet-testnet.zigchain.com"
+      ],
+      "items": {
+        "format": "uri",
+        "maxLength": 2083,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 10,
+      "title": "Faucets",
+      "type": "array"
+    },
+    "info_url": {
+      "description": "Public landing page describing the chain.",
+      "example": "https://zigchain.com",
+      "format": "uri",
+      "maxLength": 2083,
+      "minLength": 1,
+      "title": "Info URL",
+      "type": "string"
+    },
+    "title": {
+      "anyOf": [
+        {
+          "maxLength": 128,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional alternate display title (e.g. 'ZIGChain Testnet Alpha').",
+      "title": "Title"
+    },
+    "explorers": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/Explorer"
+          },
+          "maxItems": 10,
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional block explorers. EIP-3091 standard preferred for wallet UX.",
+      "title": "Explorers"
+    },
+    "status": {
+      "default": "active",
+      "description": "Lifecycle status of the chain.",
+      "enum": [
+        "active",
+        "incubating",
+        "deprecated"
+      ],
+      "example": "active",
+      "title": "Status",
+      "type": "string"
+    },
+    "slip44": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional SLIP-44 coin type. If set, must be unique across ethereum-lists/chains. Most chains omit this; only request a slip44 once mainnet stability is proven.",
+      "example": 60,
+      "title": "SLIP-44"
+    },
+    "icon": {
+      "anyOf": [
+        {
+          "pattern": "^[a-z0-9_-]{1,64}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional ethereum-lists icon slug. References _data/icons/<slug>.json in their repo (IPFS-pinned image \u2014 Pinata explicitly disallowed). v1 leaves this unset; icon submission is tracked as a follow-up.",
+      "title": "Icon"
+    },
+    "cosmos_chain_id": {
+      "anyOf": [
+        {
+          "maxLength": 64,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Cosmos chain ID this EVM chain corresponds to (e.g. 'zigchain-1', 'zig-test-2'). Lets internal consumers join the two registries from one source. Never emitted upstream.",
+      "example": "zigchain-1",
+      "title": "Cosmos Chain ID"
+    },
+    "icon_path": {
+      "anyOf": [
+        {
+          "maxLength": 256,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Repo-relative path to a logo asset for use by ZIGChain UIs that read this repo. Separate from the upstream 'icon' field (which is an IPFS slug). Not emitted upstream.",
+      "title": "Icon Path"
+    },
+    "is_verified": {
+      "default": true,
+      "description": "Whether this EVM chain entry has been verified/audited by the platform.",
+      "example": true,
+      "title": "Is Verified",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "chain_id",
+    "network_id",
+    "name",
+    "short_name",
+    "chain",
+    "native_currency",
+    "info_url"
+  ],
+  "title": "ZIGChain EVM Chain Schema",
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

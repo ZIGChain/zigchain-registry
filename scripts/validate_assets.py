@@ -23,7 +23,7 @@ sys.path.insert(0, str(repo_root))
 
 try:
     from pydantic import ValidationError
-    from models import NativeAsset, FactoryAsset, IBCAsset
+    from models import NativeAsset, FactoryAsset, IBCAsset, EvmChain
 except ImportError as e:
     print(f"Error: Failed to import required modules: {e}")
     print("Make sure Pydantic is installed: pip install pydantic")
@@ -399,21 +399,56 @@ class AssetValidator:
             return False
 
         asset_dirs = ["native", "factory", "ibc"]
-        
+
         for asset_dir in asset_dirs:
             dir_path = self.assets_dir / asset_dir
             if not dir_path.exists():
                 continue
-            
+
             # Handle nested directories (e.g., ibc/cosmoshub/)
             for file_path in dir_path.rglob("*.json"):
                 if file_path.is_file():
                     self.validate_asset_file(file_path)
 
+        # Validate EVM chain registry entries (chains/evm/*.json). Separate
+        # from assets — they describe chains, not tokens on chains.
+        self._validate_evm_chains()
+
         # Cross-file checks (warnings)
         self._warn_on_display_collisions()
-        
+
         return len(self.errors) == 0
+
+    def _validate_evm_chains(self) -> None:
+        """Validate every chains/evm/*.json file against the EvmChain model.
+
+        Errors append to self.errors and surface in CI. Missing chains/ dir is
+        not an error — the registry may have no EVM chains yet.
+        """
+        evm_dir = self.repo_root / "chains" / "evm"
+        if not evm_dir.exists():
+            return
+
+        for file_path in sorted(evm_dir.rglob("*.json")):
+            if not file_path.is_file():
+                continue
+            try:
+                with open(file_path, "r") as f:
+                    payload = json.load(f)
+            except json.JSONDecodeError as e:
+                self.errors.append(f"Invalid JSON in {file_path}: {e}")
+                continue
+
+            try:
+                EvmChain.model_validate(payload)
+            except ValidationError as e:
+                # Render each error with field path so reviewers can locate it.
+                for err in e.errors():
+                    loc = ".".join(str(part) for part in err.get("loc", ()))
+                    self.errors.append(
+                        f"EvmChain validation failed in {file_path} at '{loc}': "
+                        f"{err.get('msg', err)}"
+                    )
 
     def _warn_on_display_collisions(self) -> None:
         """
