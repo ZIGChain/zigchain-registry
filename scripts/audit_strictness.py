@@ -50,7 +50,7 @@ def audit_ibc(data: dict, path: Path) -> None:
         p = t.get("path", "")
         if p and not p.startswith("transfer/"):
             issues.append(f"IBC trace path doesn't start with 'transfer/': '{p}' in {path}")
-        elif p and (".." in p or any(ord(c) < 0x20 for c in p) or not re.match(r"^transfer/[a-zA-Z0-9/._-]+$", p)):
+        elif p and (".." in p or any(ord(c) < 0x20 for c in p) or not re.match(r"^transfer/[a-zA-Z0-9/._:-]+$", p)):
             issues.append(f"IBC trace path contains unsafe characters or sequences: '{p}' in {path}")
 
 
