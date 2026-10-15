@@ -1571,6 +1571,7 @@ def test_ibc_traces_base_denom_valid(
         "transfer/channel-0/uatom",
         "transfer/channel-1/ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
         "transfer/channel-42/stake",
+        "transfer/channel-12/erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a",
     ],
 )
 def test_ibc_traces_path_valid(

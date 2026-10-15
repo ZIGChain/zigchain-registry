@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/asset.ibc.schema.json",
+  "order": 12,
+  "network": "mainnet",
+  "asset_id": "ibc/6C6F5A015608CF3951DFE6A117390210AB825BF0CC1AD33B2B100B05529A9B6B",
+  "type": "ibc",
+  "symbol": "USDC.inj",
+  "name": "Injective USDC",
+  "description": "Circle USDC issued natively on Injective, bridged to ZIGChain over IBC",
+  "decimals": 6,
+  "display_denom": "usdc",
+  "base_denom": "ibc/6C6F5A015608CF3951DFE6A117390210AB825BF0CC1AD33B2B100B05529A9B6B",
+  "hash": "6C6F5A015608CF3951DFE6A117390210AB825BF0CC1AD33B2B100B05529A9B6B",
+  "origin_chain": "injective",
+  "origin_denom": "erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a",
+  "traces": [
+    {
+      "type": "additional-mintage",
+      "counterparty": {
+        "chain_name": "ethereum",
+        "base_denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      },
+      "provider": "Circle"
+    },
+    {
+      "type": "ibc",
+      "chain_name": "zigchain",
+      "base_denom": "ibc/6C6F5A015608CF3951DFE6A117390210AB825BF0CC1AD33B2B100B05529A9B6B",
+      "path": "transfer/channel-12/erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a"
+    },
+    {
+      "type": "ibc",
+      "chain_name": "injective",
+      "base_denom": "erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a",
+      "path": "transfer/channel-456"
+    }
+  ],
+  "channels": [
+    {
+      "zigchain_channel": "channel-12",
+      "counterparty_chain": "injective",
+      "counterparty_channel": "channel-456"
+    }
+  ],
+  "logo_uris": {
+    "chain_name": "ethereum",
+    "png": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/usdc.png",
+    "svg": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/usdc.svg"
+  },
+  "images": [
+    {
+      "chain_name": "injective",
+      "base_denom": "erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a"
+    }
+  ],
+  "coingecko_id": "usd-coin",
+  "is_verified": false
+}

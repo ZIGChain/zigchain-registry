@@ -90,8 +90,9 @@ class IBCTrace(BaseModel):
             raise ValueError("path cannot be bool, must be a string")
         if not path.startswith("transfer/"):
             raise ValueError("path must start with 'transfer/'")
-        # Validate suffix: no traversal, no control chars, safe character set only
-        if ".." in path or any(ord(c) < 0x20 for c in path) or not re.match(r"^transfer/[a-zA-Z0-9/._-]+$", path):
+        # Validate suffix: no traversal, no control chars, safe character set only.
+        # ':' is allowed because ERC-20-backed denoms look like erc20:0x... (Injective USDC).
+        if ".." in path or any(ord(c) < 0x20 for c in path) or not re.match(r"^transfer/[a-zA-Z0-9/._:-]+$", path):
             raise ValueError("path contains unsafe characters or sequences")
         return path
 

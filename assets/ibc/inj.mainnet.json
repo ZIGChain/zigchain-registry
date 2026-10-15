@@ -1,0 +1,50 @@
+{
+  "$schema": "../../schemas/asset.ibc.schema.json",
+  "order": 13,
+  "network": "mainnet",
+  "asset_id": "ibc/6F0955036B92C0A1EE4EB03942A989369DB275CA57454E5F564B581AB5D81CDB",
+  "type": "ibc",
+  "symbol": "INJ",
+  "name": "Injective",
+  "description": "Injective INJ on ZIGChain",
+  "decimals": 18,
+  "display_denom": "inj",
+  "base_denom": "ibc/6F0955036B92C0A1EE4EB03942A989369DB275CA57454E5F564B581AB5D81CDB",
+  "hash": "6F0955036B92C0A1EE4EB03942A989369DB275CA57454E5F564B581AB5D81CDB",
+  "origin_chain": "injective",
+  "origin_denom": "inj",
+  "traces": [
+    {
+      "type": "ibc",
+      "chain_name": "zigchain",
+      "base_denom": "ibc/6F0955036B92C0A1EE4EB03942A989369DB275CA57454E5F564B581AB5D81CDB",
+      "path": "transfer/channel-12/inj"
+    },
+    {
+      "type": "ibc",
+      "chain_name": "injective",
+      "base_denom": "inj",
+      "path": "transfer/channel-456"
+    }
+  ],
+  "channels": [
+    {
+      "zigchain_channel": "channel-12",
+      "counterparty_chain": "injective",
+      "counterparty_channel": "channel-456"
+    }
+  ],
+  "logo_uris": {
+    "chain_name": "injective",
+    "png": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/inj.png",
+    "svg": "https://raw.githubusercontent.com/ZIGChain/zigchain-registry/main/logos/inj.svg"
+  },
+  "images": [
+    {
+      "chain_name": "injective",
+      "base_denom": "inj"
+    }
+  ],
+  "coingecko_id": "injective-protocol",
+  "is_verified": false
+}
